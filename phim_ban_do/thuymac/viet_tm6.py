@@ -1,4 +1,4 @@
-import sys;sys.path.insert(0,__import__('os').path.dirname(__file__));from viet_chung import xuat
+import sys;from viet_chung import xuat
 # Thủy mặc tập 6: Bạch Đằng 1288 (mã tm6), bản 2
 S=[
 (1,"Hàng trăm chiến thuyền giặc đang xuôi một dòng sông lớn, đuổi theo mấy chiếc thuyền nhỏ đang bỏ chạy phía trước."),
@@ -24,13 +24,11 @@ S=[
 (5,"Trước trận, ông chỉ xuống dòng sông mà thề: trận này không phá xong giặc Nguyên thì không về đến sông này nữa."),
 (5,"Ngày mồng tám tháng Ba, đoàn chiến thuyền của Ô Mã Nhi tới khúc sông có cọc. Lúc ấy thủy triều đang lên, mặt nước mênh mông."),
 (5,"Một toán thuyền nhỏ của Đại Việt ra đánh nhử rồi giả thua chạy. Quân giặc đuổi theo, đi sâu vào khúc sông đã chuẩn bị sẵn."),
+(5,"Thủy triều vẫn đang lên. Chừng nào nước còn cao, những hàng cọc vẫn nằm yên dưới đáy sông, và đoàn chiến thuyền giặc vẫn đuổi theo."),
 (5,"Mọi việc tưởng như vẫn trong tay quân giặc. Rồi thủy triều rút xuống, những hàng cọc nhô lên, và thuyền giặc mắc cọc, vỡ, nghiêng ngả khắp lòng sông."),
 (5,"Đúng lúc ấy, quân Đại Việt từ hai bên bờ và từ trên sông cùng đổ ra đánh. Thuyền giặc tiến không được, lùi cũng không xong."),
 (5,"Ô Mã Nhi bị bắt sống, cùng các tướng Phàn Tiếp, Tích Lệ Cơ. Theo sử cũ, số thuyền giặc bị bắt hơn bốn trăm chiếc."),
-(6,"Còn Thoát Hoan đi đường bộ cũng chẳng yên. Trên đường rút về Lạng Sơn, quân giặc liên tục bị chặn đánh và phải chạy trốn qua biên giới."),
-(6,"Đó là lần cuối quân nhà Nguyên sang đánh Đại Việt. Hốt Tất Liệt về sau còn tính đánh tiếp, nhưng đến khi mất vẫn không đánh được."),
-(6,"Sau chiến tranh, người ta tìm thấy một hòm thư xin hàng của những người trong triều từng lén liên lạc với giặc."),
-(6,"Thượng hoàng Trần Thánh Tông không mở ra xem, sai đốt hết đi, để những người từng dao động được yên lòng."),
+(6,"Còn Thoát Hoan đi đường bộ cũng chẳng yên. Bị chặn đánh suốt đường rút, quân giặc chạy trốn qua biên giới, và từ đó không bao giờ sang nữa."),
 (6,"Câu đánh giặc nhàn giờ đã rõ nghĩa. Đạo quân ấy đánh xa nhà, sống nhờ thuyền lương, mất lương thì phải rút qua đúng con sông đã chờ sẵn."),
 (6,"Mấy chiếc thuyền nhỏ bỏ chạy hôm ấy đã dẫn cả hạm đội nhà Nguyên vào chỗ chết trên sông Bạch Đằng. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]

@@ -1,4 +1,4 @@
-import sys;sys.path.insert(0,__import__('os').path.dirname(__file__));from viet_chung import xuat
+import sys;from viet_chung import xuat
 # Thủy mặc tập 8: Chi Lăng, Xương Giang 1427 (mã tm8), bản 2
 S=[
 (1,"Mười vạn quân giặc đang tràn qua cửa ải, đuổi theo một toán quân nhỏ cứ đánh vài trận rồi lại lùi."),
@@ -19,8 +19,9 @@ S=[
 (4,"Mất chủ tướng, đạo quân ấy vẫn còn rất đông, và vẫn cố tiến về phía Đông Quan. Nhưng đi đến đâu, họ cũng bị chặn đánh."),
 (4,"Chỉ năm ngày sau, tướng Lương Minh tử trận. Thêm ba ngày nữa, Lý Khánh, một viên quan lớn theo đạo quân, cũng tự tử."),
 (4,"Còn hai tướng Thôi Tụ và Hoàng Phúc dẫn quân tới thành Xương Giang, mong có chỗ dựa."),
-(4,"Nhưng thành Xương Giang đã bị nghĩa quân hạ từ trước đó ít lâu. Quân nhà Minh đành đóng trại giữa cánh đồng trống."),
-(4,"Thế là nghĩa quân vây chặt bốn mặt, cắt đường lấy lương. Đến tháng Mười, họ đánh vào, bắt sống cả Thôi Tụ lẫn Hoàng Phúc."),
+(4,"Nhưng tới nơi, họ mới biết thành Xương Giang đã bị nghĩa quân hạ từ trước. Không có thành để dựa, quân nhà Minh đành đóng trại giữa cánh đồng trống."),
+(4,"Nghĩa quân chưa đánh ngay. Họ vây kín bốn mặt, cắt đường lấy lương, để đạo quân ấy đói dần giữa đồng."),
+(4,"Đến tháng Mười, nghĩa quân mới đánh vào. Doanh trại vỡ tan, Thôi Tụ và Hoàng Phúc đều bị bắt sống."),
 (4,"Xương Giang là lần sụp đổ thứ hai. Đạo quân mười vạn người của Liễu Thăng coi như không còn."),
 (5,"Lúc ấy Mộc Thạnh đã vào tới vùng Lê Hoa, gần biên giới Vân Nam. Năm vạn quân của ông vẫn chưa đánh trận lớn nào."),
 (5,"Theo sử cũ, Lê Lợi sai đem những thư từ và con dấu lấy được của Liễu Thăng đến cho Mộc Thạnh xem."),
@@ -28,7 +29,6 @@ S=[
 (5,"Nghĩa quân đuổi theo và đánh tan quân của Mộc Thạnh trên đường rút. Chính ông chỉ kịp chạy thoát thân, và đó là lần sụp đổ thứ ba."),
 (6,"Hết hy vọng cứu viện, Vương Thông trong thành Đông Quan đành xin thôi đánh để được rút về nước."),
 (6,"Tháng Chạp năm ấy, hai bên làm lễ thề ở phía nam thành Đông Quan. Lê Lợi cho quân nhà Minh về nước, còn cấp cả thuyền và ngựa."),
-(6,"Đầu năm sau, Nguyễn Trãi viết Bình Ngô đại cáo, nhắc lại từng ngày của chiến dịch này, từ Chi Lăng, Mã Yên đến Xương Giang."),
 (6,"Một toán quân cứ đánh rồi lùi đã kéo Liễu Thăng vào Chi Lăng, rồi kéo sập cả hai đạo quân cứu viện. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]
 xuat(S,'tm8',183001)

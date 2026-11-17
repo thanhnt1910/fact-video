@@ -82,6 +82,14 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
   - lặp nguyên khuôn câu đếm ("Đó là lần thứ N quân nhà Tống bị chặn" ba lần): mỗi lần đếm phải nói một cách khác;
   - mở diễn giải bằng "Có thể hiểu vì sao...": nên nói thẳng bằng lời thường ("Sử không chép ông đã nghĩ gì. Nhưng...");
   - một đoạn truyền thuyết đứng riêng, chen ngang mạch trận đánh: phải gắn vào một khoảng lặng của trận, rồi trở lại bằng câu nối.
+- **Tập có nhiều trận: mỗi trận phải đẩy cao hơn trận trước, không kể nối đuôi** (chủ kênh chê tm5 bản 2, 17/11/2026: "càng về sau càng giảm cao trào… mang tính liệt kê"):
+  - mỗi trận có bốn nhịp: thế nguy trước trận; một chi tiết cụ thể có nguồn (ví dụ quân Triệu Trung mặc áo Tống); bước ngoặt; hệ quả đẩy sang trận sau ("Trận đầu đã thắng. Nhưng kinh thành vẫn trong tay giặc…");
+  - mức nguy và mục tiêu tăng dần (chặn một cánh quân, rồi lấy lại kinh thành, rồi diệt đạo quân mạnh nhất);
+  - chọn một trận làm cao trào và kể chậm lại ("Nhưng trận lớn nhất vẫn còn ở phía trước…"). Các trận khác kể gọn hơn, nhưng không được chỉ còn một câu "đánh tan giặc ở X";
+  - nếu có nhiều lần sụp đổ thì mỗi lần một kiểu khác (phục kích chớp nhoáng; vây cho đói; sụp đổ không cần đánh);
+  - sau cao trào chỉ còn một đợt dồn cuối (cuộc đuổi, cảnh tháo chạy), rồi kết. Phần đuôi sau trận chính tối đa 3–4 đoạn;
+  - không xếp các việc phụ thành danh sách ở cuối (bài thơ, hòm thư, đại cáo, trận đánh mấy năm sau).
+- **Kể chậm ngay trước cao trào bằng một đoạn "lặng"** có căn cứ, ví dụ "Thủy triều vẫn đang lên…", "Hai bờ vẫn im, cù lao vẫn im…". Không thêm chi tiết bịa (thời tiết, tiếng động, cảm xúc) chỉ để tạo không khí.
 - **Không dịch sát chữ từ bản dịch Toàn thư** (chủ kênh, tm4): "do Trần Quốc Tuấn coi chung" (chữ "tiết chế"), "núng thế", "sắm sửa khí giới". Gặp chữ như vậy thì kể bằng việc làm cụ thể: "do Trần Quốc Tuấn chỉ huy", "yếu thế dần". Người nổi tiếng thì kèm cái tên người nghe quen ("Ông chính là Hưng Đạo Đại Vương sau này").
 - **Có một sợi chỉ nối mạch:** mỗi đoạn mở bằng hệ quả của đoạn trước. Ví dụ ở tm3: kế hoạch có chỗ yếu, rồi bị đánh đúng vào chỗ yếu, rồi đoàn thuyền không tới, rồi phải tự bắc cầu, rồi không qua được, rồi đứng chờ, đói và bệnh, rồi bị đánh vào trại.
 - **Hình ảnh xuyên suốt** có thể lấy từ một câu nói có thật ("dễ như bẻ cành khô"). Hình ảnh ấy gieo ở hook, hiện lại ở mỗi lần đếm, rồi khép ở câu kết.

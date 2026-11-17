@@ -1,4 +1,4 @@
-import sys;sys.path.insert(0,__import__('os').path.dirname(__file__));from viet_chung import xuat
+import sys;from viet_chung import xuat
 # Thủy mặc tập 9: Rạch Gầm, Xoài Mút 1785 (mã tm9), bản 2
 S=[
 (1,"Mấy trăm chiến thuyền giặc đang xuôi một dòng sông lớn, thẳng hướng nơi đóng quân của đối phương."),
@@ -17,13 +17,13 @@ S=[
 (3,"Quân bộ và súng đại bác phục sẵn ở hai bờ và trên cù lao. Thuyền chiến thì giấu trong hai con rạch nhỏ, chờ lệnh."),
 (4,"Sáng sớm ngày hai mươi tháng Một năm một nghìn bảy trăm tám mươi lăm, đoàn thuyền Xiêm từ Trà Tân xuôi sông Tiền, định đánh vào Mỹ Tho."),
 (4,"Chẳng bao lâu, thuyền đi đầu đã tới Rạch Gầm, thuyền đi cuối cũng lọt vào Xoài Mút. Cả đoàn thuyền nằm gọn trong khúc sông đã chọn."),
+(4,"Trên sông, đoàn thuyền vẫn yên ổn. Hai bờ vẫn im, cù lao vẫn im, chưa một phát súng nào nổ."),
 (4,"Đúng lúc ấy, thuyền Tây Sơn từ hai con rạch lao ra, chặn cả đầu lẫn đuôi đoàn thuyền Xiêm."),
 (4,"Từ hai bên bờ và trên cù lao, súng đại bác cùng bắn vào. Thuyền Xiêm bị dồn vào giữa dòng, không còn lối thoát."),
 (4,"Thế là thuyền vỡ, thuyền chìm trôi khắp khúc sông. Gần như cả đoàn chiến thuyền Xiêm bị đánh tan ngay trong trận ấy."),
 (4,"Phần lớn quân Xiêm chết hoặc bị bắt. Chiêu Tăng, Chiêu Sương cùng vài nghìn người lên bờ, chạy bộ qua Chân Lạp mà về nước."),
 (5,"Còn Nguyễn Ánh cũng phải bỏ chạy, một lần nữa sang nương nhờ đất Xiêm. Lời cầu cứu năm trước đã kết thúc như vậy."),
 (5,"Theo sử nhà Nguyễn, từ sau trận ấy, người Xiêm ngoài miệng tuy nói cứng, nhưng trong lòng sợ quân Tây Sơn như sợ cọp."),
-(5,"Chỉ bốn năm sau, cũng chính Nguyễn Huệ đem quân ra bắc, đánh tan quân nhà Thanh ở Ngọc Hồi, Đống Đa."),
 (5,"Mấy trăm chiến thuyền xuôi sông Tiền hôm ấy đã đi đúng vào khúc sông Nguyễn Huệ chọn sẵn. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]
 xuat(S,'tm9',184001)

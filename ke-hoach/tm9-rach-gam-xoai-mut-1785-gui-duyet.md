@@ -1,4 +1,4 @@
-# tm9: Rạch Gầm, Xoài Mút 1785 (bản 2, gửi duyệt)
+# tm9: Rạch Gầm, Xoài Mút 1785 (gửi duyệt)
 
 24 đoạn, 613 chữ, khoảng 3.3 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 
@@ -31,21 +31,21 @@
 
 15. Sáng sớm ngày hai mươi tháng Một năm một nghìn bảy trăm tám mươi lăm, đoàn thuyền Xiêm từ Trà Tân xuôi sông Tiền, định đánh vào Mỹ Tho.
 16. Chẳng bao lâu, thuyền đi đầu đã tới Rạch Gầm, thuyền đi cuối cũng lọt vào Xoài Mút. Cả đoàn thuyền nằm gọn trong khúc sông đã chọn.
-17. Đúng lúc ấy, thuyền Tây Sơn từ hai con rạch lao ra, chặn cả đầu lẫn đuôi đoàn thuyền Xiêm.
-18. Từ hai bên bờ và trên cù lao, súng đại bác cùng bắn vào. Thuyền Xiêm bị dồn vào giữa dòng, không còn lối thoát.
-19. Thế là thuyền vỡ, thuyền chìm trôi khắp khúc sông. Gần như cả đoàn chiến thuyền Xiêm bị đánh tan ngay trong trận ấy.
-20. Phần lớn quân Xiêm chết hoặc bị bắt. Chiêu Tăng, Chiêu Sương cùng vài nghìn người lên bờ, chạy bộ qua Chân Lạp mà về nước.
+17. Trên sông, đoàn thuyền vẫn yên ổn. Hai bờ vẫn im, cù lao vẫn im, chưa một phát súng nào nổ.
+18. Đúng lúc ấy, thuyền Tây Sơn từ hai con rạch lao ra, chặn cả đầu lẫn đuôi đoàn thuyền Xiêm.
+19. Từ hai bên bờ và trên cù lao, súng đại bác cùng bắn vào. Thuyền Xiêm bị dồn vào giữa dòng, không còn lối thoát.
+20. Thế là thuyền vỡ, thuyền chìm trôi khắp khúc sông. Gần như cả đoàn chiến thuyền Xiêm bị đánh tan ngay trong trận ấy.
+21. Phần lớn quân Xiêm chết hoặc bị bắt. Chiêu Tăng, Chiêu Sương cùng vài nghìn người lên bờ, chạy bộ qua Chân Lạp mà về nước.
 
-### Chương 5 (bắt đầu ở mốc 84%)
+### Chương 5 (bắt đầu ở mốc 87%)
 
-21. Còn Nguyễn Ánh cũng phải bỏ chạy, một lần nữa sang nương nhờ đất Xiêm. Lời cầu cứu năm trước đã kết thúc như vậy.
-22. Theo sử nhà Nguyễn, từ sau trận ấy, người Xiêm ngoài miệng tuy nói cứng, nhưng trong lòng sợ quân Tây Sơn như sợ cọp.
-23. Chỉ bốn năm sau, cũng chính Nguyễn Huệ đem quân ra bắc, đánh tan quân nhà Thanh ở Ngọc Hồi, Đống Đa.
+22. Còn Nguyễn Ánh cũng phải bỏ chạy, một lần nữa sang nương nhờ đất Xiêm. Lời cầu cứu năm trước đã kết thúc như vậy.
+23. Theo sử nhà Nguyễn, từ sau trận ấy, người Xiêm ngoài miệng tuy nói cứng, nhưng trong lòng sợ quân Tây Sơn như sợ cọp.
 24. Mấy trăm chiến thuyền xuôi sông Tiền hôm ấy đã đi đúng vào khúc sông Nguyễn Huệ chọn sẵn. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Ba phương án hook
 
-Các hook đều theo khung bốn đoạn ở mục 3.1: (1) câu kể thường, không năm, không tên; (2) lật lại câu 1; (3) tên người, tên nơi, hệ quả nói mạnh; (4) câu hỏi kèm lời hứa N lần.
+Các hook theo khung bốn đoạn ở mục 3.1: (1) câu kể thường, không năm, không tên; (2) lật lại câu 1; (3) tên người, tên nơi, hệ quả nói mạnh; (4) câu hỏi kèm lời hứa N lần.
 
 1. (Đang dùng) Mấy trăm chiến thuyền xuôi sông; hai bờ im lặng; quân Xiêm sắp mất gần hết chiến thuyền; hứa "hai điều".
 2. Sự kiện bất ngờ: năm vạn quân sang, vài nghìn người chạy bộ về.
@@ -53,32 +53,35 @@ Các hook đều theo khung bốn đoạn ở mục 3.1: (1) câu kể thường
 
 ## Thời điểm biến cố chính
 
-Đặt bẫy bắt đầu ở chương 3, mốc 41%. Trận đánh ở chương 4, mốc 59%. Video ngắn (3,3 phút); bối cảnh Nguyễn Ánh cầu viện không thể bỏ, vì đó là "điều thứ nhất" của lời hứa.
+Đặt bẫy bắt đầu ở mốc 41%. Trận đánh ở mốc 59%. Video ngắn; phần lời cầu viện không bỏ được vì đó là "điều thứ nhất".
+
+## Cao trào: đã sửa lối kể liệt kê thế nào
+
+- Kể chậm trước cao trào: thêm đoạn 17 "Trên sông, đoàn thuyền vẫn yên ổn. Hai bờ vẫn im, cù lao vẫn im, chưa một phát súng nào nổ".
+- Bỏ đoạn Ngọc Hồi, Đống Đa ở phần đuôi. Sau trận còn 3 đoạn.
 
 ## Ghi chú kỹ thuật kể chuyện
 
-- Kiểu mở đầu: Trận chiến, mở vào lúc đoàn thuyền giặc xuôi sông, chưa biết khúc sông phía trước đã được chọn sẵn. Lời hứa: "hai điều" (lời cầu cứu, khúc sông chọn sẵn).
-- Câu đếm: "Đó là điều thứ nhất: chính một người nước ta mời quân Xiêm sang" (đoạn 6), "Đó là điều thứ hai" (đoạn 12), "Lời cầu cứu năm trước đã kết thúc như vậy" (đoạn 21).
-- Hình ảnh xuyên suốt: Đoàn chiến thuyền xuôi sông Tiền: gieo ở hook, hiện lại ở đoạn 15–16, khép ở câu kết.
-- Chỗ tưởng như giặc sắp thắng: Chương 2: "Nhìn trên bản đồ, Gia Định tưởng như sắp về tay Nguyễn Ánh".
-- Số lần nhắc nguồn trong lời đọc: Hai lần: đoạn 7 và đoạn 22 ("Theo sử nhà Nguyễn").
-- Từ Hán Việt: Đã đổi "đại bản doanh" thành "đóng quân chính".
-- Câu kết: một câu quay lại hình ảnh mở đầu, cộng lời cảm ơn, không quá 32 chữ.
+- Kiểu mở đầu: Trận chiến, mở vào lúc đoàn thuyền giặc xuôi sông, chưa biết khúc sông phía trước đã được chọn sẵn. Lời hứa: "hai điều".
+- Câu đếm: "Đó là điều thứ nhất" (đoạn 6), "Đó là điều thứ hai" (đoạn 12), "Lời cầu cứu năm trước đã kết thúc như vậy" (đoạn 22).
+- Hình ảnh xuyên suốt: Đoàn chiến thuyền xuôi sông Tiền: gieo ở hook, hiện lại ở đoạn 15–17, khép ở câu kết.
+- Chỗ tưởng như giặc sắp thắng: Chương 2: "Gia Định tưởng như sắp về tay Nguyễn Ánh". Chương 4: "đoàn thuyền vẫn yên ổn".
+- Số lần nhắc nguồn trong lời đọc: Hai lần: đoạn 7 và đoạn 23 ("Theo sử nhà Nguyễn").
+- Từ Hán Việt: "Đại bản doanh" đổi thành "đóng quân chính".
+- Câu kết: quay lại hình ảnh mở đầu, cộng lời cảm ơn, không quá 32 chữ.
 
 **Các đoạn diễn giải của người kể** (đủ năm điều kiện ở `chung.md`)
 
-- Đoạn 9: "Gia Định tưởng như sắp về tay Nguyễn Ánh" là nhận định của người kể, rút từ việc quân Xiêm chiếm nhiều nơi.
-- Cách gọi "hai điều": diễn giải của người kể, dựng từ việc có nguồn.
+- Đoạn 9: "Gia Định tưởng như sắp về tay Nguyễn Ánh" là nhận định của người kể.
+- Cách gọi "hai điều" là diễn giải của người kể.
 
 ## Ghi chú độ chắc
 
-- Hai vạn thủy binh, ba trăm thuyền, ba vạn bộ binh: số trong sử nhà Nguyễn (Đại Nam thực lục) và các sách sau.
-- Ngày đánh: sách ghi đêm mười chín rạng sáng hai mươi tháng Một năm 1785 (dương lịch). Lời đọc dùng "sáng sớm ngày hai mươi". CẦN chủ kênh chọn mốc.
+- Quân số Xiêm: sử nhà Nguyễn (Đại Nam thực lục) và các sách sau.
+- Ngày đánh: sách ghi đêm mười chín rạng sáng hai mươi tháng Một năm 1785. CẦN chủ kênh chọn mốc.
 - Khúc sông, cù lao Thới Sơn, thuyền giấu trong rạch, súng đại bác hai bờ: các nghiên cứu hiện đại.
-- Chỉ vài nghìn người chạy bộ qua Chân Lạp về nước: các nghiên cứu hiện đại. Lời đọc không nêu số người chết, chỉ nói "phần lớn chết hoặc bị bắt".
-- Quân Xiêm cướp phá; câu "sợ Tây Sơn như sợ cọp": sử nhà Nguyễn. CẦN đối chiếu câu chữ.
-- Không kể cách nhử quân Xiêm xuôi sông vì các nguồn kể khác nhau.
-- Lần này tôi đã bỏ câu "Quân Xiêm đông hơn nhiều. Vì thế…" (tự suy ra quan hệ nhân quả).
+- Vài nghìn người chạy bộ qua Chân Lạp về nước: các nghiên cứu hiện đại.
+- Câu "sợ Tây Sơn như sợ cọp": sử nhà Nguyễn. CẦN đối chiếu.
 
 ## Kết quả ba bộ kiểm
 
@@ -86,4 +89,4 @@ Các hook đều theo khung bốn đoạn ở mục 3.1: (1) câu kể thường
 - `kiem_mach_ke.py`: -> 0 ❌, 3 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 
-Cảnh báo được chấp nhận: Đoạn 8, 9, 15 có 4–5 tên riêng: là tên đất miền Tây cần để người xem hình dung đường tiến quân; bản đồ sẽ hiện tên.
+Cảnh báo được chấp nhận: Đoạn có 4–5 tên đất miền Tây: cần để hình dung đường tiến quân; bản đồ sẽ hiện tên.

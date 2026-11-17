@@ -1,4 +1,4 @@
-import sys;sys.path.insert(0,__import__('os').path.dirname(__file__));from viet_chung import xuat
+import sys;from viet_chung import xuat
 # Thủy mặc tập 7: Tốt Động, Chúc Động 1426 (mã tm7), bản 2
 S=[
 (1,"Mấy vạn quân giặc đang chờ một tiếng súng hiệu. Hễ súng nổ, tất cả sẽ cùng ập vào một toán quân nhỏ phía trước."),
@@ -23,13 +23,12 @@ S=[
 (4,"Điều thứ hai là ruộng lầy. Nghĩa quân phục sẵn ở Tốt Động và Chúc Động, hai làng nằm ven cánh đồng lầy, rồi nằm im chờ."),
 (5,"Quân nhà Minh đi tới, không nghe súng nổ, cũng không thấy bóng người. Họ cho rằng quanh đó không có quân Lam Sơn, liền đi tắt cho nhanh."),
 (5,"Nhưng con đường tắt ấy dẫn thẳng vào giữa ruộng lầy, nơi phục binh đã chờ sẵn ở cả hai bên."),
+(5,"Đội quân đông đảo ấy dàn dài ra giữa ruộng lầy, càng đi càng xa thành, và chung quanh vẫn không có một tiếng động nào."),
 (5,"Lập tức, phục binh đổ ra từ hai làng. Quân nhà Minh bị kẹp giữa, chạy dồn về phía sông, rất nhiều người chết đuối."),
 (5,"Hai viên quan lớn của nhà Minh là Trần Hiệp và Lý Lượng đều chết trong trận này. Vương Thông cũng bị thương, cùng tàn quân chạy về thành Đông Quan."),
 (5,"Theo sử ta, quân nhà Minh chết và bị bắt mấy vạn người. Sử nhà Minh chép ít hơn, nhưng cũng nhận hai, ba vạn người chết."),
-(6,"Sau trận, khí giới, ngựa và lương thực bỏ lại đầy đồng, nghĩa quân thu được rất nhiều."),
 (6,"Nghe tin thắng lớn, Lê Lợi kéo đại quân từ Nghệ An ra bắc, vây chặt thành Đông Quan."),
 (6,"Thế là đội quân sang để giữ đất lại bị nhốt trong thành. Từ đây, Vương Thông chỉ còn trông vào quân cứu viện từ phương bắc."),
-(6,"Về sau, trong Bình Ngô đại cáo, Nguyễn Trãi nhắc lại cảnh xác giặc phơi đầy cánh đồng Tốt Động."),
 (6,"Mấy tên do thám đã để lộ ám hiệu, còn vùng ruộng lầy thì nuốt trọn đường đi tắt của giặc."),
 (6,"Tiếng súng hiệu không bao giờ nổ, và mấy vạn quân nhà Minh đã tự bước vào ruộng lầy Tốt Động. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]

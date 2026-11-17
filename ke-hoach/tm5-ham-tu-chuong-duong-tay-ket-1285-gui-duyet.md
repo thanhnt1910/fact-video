@@ -1,6 +1,6 @@
-# tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (bản 2, gửi duyệt)
+# tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (gửi duyệt)
 
-35 đoạn, 919 chữ, khoảng 4.9 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+38 đoạn, 1006 chữ, khoảng 5.4 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 
 ## Kịch bản
 
@@ -11,55 +11,67 @@
 3. Người tướng ấy là Trần Bình Trọng. Khi ông chết, quân nhà Nguyên đã chiếm kinh thành và triều đình phải bỏ chạy về phía nam.
 4. Vậy mà chỉ nửa năm sau, chính quân nhà Nguyên phải tháo chạy, sau ba trận đánh trên ba bến sông. Ba trận ấy đã diễn ra thế nào?
 
-### Chương 2 (bắt đầu ở mốc 11%)
+### Chương 2 (bắt đầu ở mốc 10%)
 
 5. Mọi chuyện bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam.
-6. Cho mượn đường thì chẳng khác gì mở cửa cho giặc vào nhà. Nhà Trần từ chối, và biết chắc chiến tranh sẽ tới.
-7. Thượng hoàng Trần Thánh Tông, vua cha đã nhường ngôi cho con, mời các bô lão về điện Diên Hồng, hỏi nên hòa hay nên đánh. Các cụ đều đáp: đánh.
-8. Trong quân, binh lính tự thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Mông Cổ.
-9. Cuối năm ấy, Thoát Hoan, con trai hoàng đế Hốt Tất Liệt, dẫn đại quân tràn qua biên giới phía bắc. Phía nam, tướng Toa Đô chờ sẵn ở Chiêm Thành.
+6. Cho mượn đường thì chẳng khác gì mở cửa cho giặc vào nhà. Thượng hoàng Trần Thánh Tông hỏi các bô lão ở điện Diên Hồng, các cụ đều đáp: đánh.
+7. Còn trong quân, binh lính tự thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Mông Cổ.
+8. Cuối năm ấy, Thoát Hoan, con trai hoàng đế Hốt Tất Liệt, dẫn đại quân tràn qua biên giới phía bắc. Phía nam, tướng Toa Đô chờ sẵn ở Chiêm Thành.
 
-### Chương 3 (bắt đầu ở mốc 26%)
+### Chương 3 (bắt đầu ở mốc 21%)
 
-10. Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, đem quân chặn ở biên giới nhưng không giữ nổi. Ông phải lui về Vạn Kiếp, rồi lui tiếp.
-11. Thế là kinh thành Thăng Long lại bị bỏ trống. Đầu năm sau, quân nhà Nguyên vào thành, triều đình thì lui dần về phía nam.
-12. Cùng lúc ấy, Toa Đô từ phía nam đánh ra Nghệ An, Thanh Hóa. Quân giặc đang kẹp nước ta từ cả hai đầu.
-13. Chính lúc ấy, Trần Bình Trọng cầm quân chặn giặc ở bãi Đà Mạc, bên sông Thiên Mạc. Ông thua trận và bị bắt sống.
-14. Rồi tướng giặc dụ ông làm vương đất Bắc. Ông trả lời bằng câu nói ở đầu câu chuyện, và chết vì câu trả lời ấy.
-15. Tin xấu chưa dừng ở đó. Em trai của Thượng hoàng là Trần Ích Tắc đã dẫn cả nhà sang hàng quân nhà Nguyên.
-16. Rồi ở Thanh Hóa, tướng Trần Kiện cũng ra hàng Toa Đô. Lúc ấy, nhà Trần mất kinh thành, mất tướng, lại có người trong họ vua theo giặc.
+9. Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, đem quân chặn ở biên giới nhưng không giữ nổi. Ông phải lui về Vạn Kiếp, rồi lui tiếp.
+10. Thế là kinh thành Thăng Long lại bị bỏ trống. Đầu năm sau, quân nhà Nguyên vào thành, triều đình lánh dần xuống phía nam.
+11. Cùng lúc ấy, Toa Đô từ phía nam đánh ra Nghệ An, Thanh Hóa. Quân giặc đang kẹp nước ta từ cả hai đầu.
+12. Chính lúc ấy, Trần Bình Trọng chặn giặc ở bãi Đà Mạc, bên sông Thiên Mạc. Ông thua trận, bị bắt, và chết vì câu trả lời ở đầu câu chuyện.
+13. Tin xấu chưa dừng ở đó. Em trai Thượng hoàng là Trần Ích Tắc dẫn cả nhà sang hàng giặc, rồi tướng Trần Kiện cũng ra hàng Toa Đô.
+14. Rồi hai vua Trần phải đi thuyền lánh ra vùng biển Thanh Hóa. Đó là lúc nhà Trần xuống thấp nhất trong cả cuộc chiến.
 
-### Chương 4 (bắt đầu ở mốc 45%)
+### Chương 4 (bắt đầu ở mốc 37%)
 
-17. Nhưng quân nhà Nguyên chiếm được thành mà không bắt được vua, không lấy được bao nhiêu lương thực.
-18. Rồi mùa hè tới. Trời nóng, mưa nhiều, quân lính nhà Nguyên ốm dần, càng ngày càng mỏi mệt.
-19. Trong lúc ấy, Toa Đô kéo quân từ phía nam lên để hợp với Thoát Hoan. Quân hai cánh vẫn còn rất đông, dàn dọc sông Hồng ở phía nam kinh thành.
-20. Thế mà sông Hồng lại là nơi quân thuyền Đại Việt quen thuộc nhất. Tháng Tư, Trần Nhật Duật đem quân thuyền đánh vào bến Hàm Tử.
-21. Trong quân của Trần Nhật Duật có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu. Họ ra trận vẫn mặc áo quần kiểu Tống.
-22. Quân giặc trông thấy thì hoảng, tưởng nhà Tống sang đánh giúp Đại Việt, nên vỡ chạy. Hàm Tử là bến sông đầu tiên quân nhà Nguyên phải bỏ chạy.
-23. Bến sông thứ hai cách đó không xa. Thượng tướng Trần Quang Khải, người cầm đầu hàng võ quan trong triều, đánh tan giặc ở bến Chương Dương.
-24. Rồi thắng xong, ông dẫn quân tiến thẳng về Thăng Long. Quân nhà Nguyên giữ thành không nổi, phải bỏ thành rút qua sông.
+15. Nhưng quân nhà Nguyên chiếm được thành mà không bắt được vua, cũng không lấy được bao nhiêu lương thực.
+16. Rồi mùa hè tới. Trời nóng, mưa nhiều, quân lính nhà Nguyên ốm dần, mà đất đai chung quanh thì không chỗ nào yên.
+17. Trong lúc ấy, Toa Đô kéo quân từ phía nam lên để hợp với Thoát Hoan. Hai cánh quân giặc đang tiến lại gần nhau dọc sông Hồng.
+18. Vì thế, những trận phản công của nhà Trần đều diễn ra trên các bến của sông Hồng, nơi quân thuyền Đại Việt quen thuộc nhất.
 
-### Chương 5 (bắt đầu ở mốc 68%)
+### Chương 5 (bắt đầu ở mốc 47%)
 
-25. Nhưng dù kinh thành đã lấy lại, Toa Đô vẫn còn nguyên đạo quân của mình, đóng ở vùng Tây Kết, cũng bên sông Hồng.
-26. Tháng Năm, hai vua Trần đem quân tới đánh. Quân giặc tan vỡ ở Tây Kết, và chính Toa Đô bị chém đầu ngay trong trận.
-27. Đó là bến sông thứ ba, cũng là trận nặng nhất. Mất Toa Đô, cánh quân phía nam của nhà Nguyên coi như không còn.
-28. Đầu Toa Đô được đem về dâng vua. Theo sử cũ, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm.
+19. Bến sông đầu tiên là Hàm Tử. Tháng Tư, Trần Nhật Duật đem quân thuyền tới đó, chặn đánh cánh quân của Toa Đô.
+20. Trong đoàn quân của ông có một toán người nhà Tống chạy sang nương nhờ, do Triệu Trung cầm đầu. Họ ra trận vẫn mặc nguyên áo quần kiểu Tống.
+21. Quân giặc nhìn sang thì hoảng. Họ tưởng nhà Tống đã sang đánh giúp Đại Việt, hàng ngũ rối loạn rồi vỡ chạy.
+22. Trận đầu đã thắng. Nhưng kinh thành vẫn trong tay Thoát Hoan, và Toa Đô vẫn đang trên đường lên.
 
-### Chương 6 (bắt đầu ở mốc 80%)
+### Chương 6 (bắt đầu ở mốc 57%)
 
-29. Còn lại một mình, Thoát Hoan chỉ còn cách rút về phương bắc. Nhưng đường rút lại đi ngang Vạn Kiếp, nơi Trần Quốc Tuấn đang chờ.
-30. Quả nhiên, ở đó quân nhà Nguyên bị đánh tơi tả. Tướng Lý Hằng trúng tên độc mà chết, tướng Lý Quán cũng chết trên đường chạy.
-31. Còn Thoát Hoan, con trai hoàng đế nhà Nguyên, theo lời kể trong sử cũ, phải chui vào một cái ống đồng cho quân lính khiêng chạy về nước.
-32. Tháng Sáu, hai vua trở về kinh thành Thăng Long. Từ lúc giặc tràn sang đến khi chúng rút hết, chỉ khoảng nửa năm.
-33. Trên đường về, Trần Quang Khải làm một bài thơ ngắn, nhắc chuyện cướp giáo giặc ở Chương Dương và bắt quân thù ở Hàm Tử.
-34. Trần Bình Trọng thì đã chết từ đầu cuộc chiến. Vì thế, vua thương xót mà phong tước vương cho ông sau khi mất.
-35. Một vị tướng chọn làm quỷ nước Nam, rồi sau ba bến sông, chính quân giặc phải rời đất Nam. Cảm ơn bạn đã lắng nghe câu chuyện này.
+23. Vì thế, việc lấy lại kinh thành giao cho Thượng tướng Trần Quang Khải, người đứng đầu các võ quan. Ông nhắm vào bến Chương Dương, ngay cửa ngõ kinh thành.
+24. Đi cùng ông có Trần Quốc Toản, một tướng trẻ chưa tới hai mươi tuổi, mang lá cờ tự làm đề sáu chữ: phá cường địch, báo hoàng ân.
+25. Ở Chương Dương, bến sông thứ hai, quân Đại Việt đánh tan giặc, rồi không dừng lại mà đuổi thẳng tới chân thành Thăng Long.
+26. Thế là quân nhà Nguyên trong thành đánh không lại, phải bỏ kinh thành rút qua sông. Chỉ vài tháng sau ngày bỏ trống, Thăng Long đã về tay nhà Trần.
+
+### Chương 7 (bắt đầu ở mốc 68%)
+
+27. Nhưng trận lớn nhất vẫn còn ở phía trước. Toa Đô đã đánh từ Chiêm Thành ra, và vẫn còn nguyên đạo quân đóng ở Tây Kết bên sông Hồng.
+28. Đạo quân ấy đã đánh ở Chiêm Thành hai năm, rồi đánh dọc từ Nghệ An ra. Thua một trận ở Hàm Tử, họ vẫn còn rất đông và quen trận mạc.
+29. Vì vậy, lần này chính hai vua Trần tự đem quân tới. Tháng Năm, quân Đại Việt vây đánh doanh trại của Toa Đô ở Tây Kết.
+30. Rồi doanh trại giặc tan vỡ. Toa Đô bị chém đầu ngay trong trận, còn tướng Ô Mã Nhi chạy thoát ra biển.
+31. Theo sử cũ, khi đầu Toa Đô được đem về, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm.
+32. Đó là bến sông thứ ba. Gọng kìm phía nam đã gãy, và Thoát Hoan giờ chỉ còn một mình giữa đất Đại Việt.
+
+### Chương 8 (bắt đầu ở mốc 85%)
+
+33. Không còn đường nào khác, Thoát Hoan tháo chạy về phương bắc. Con đường ngắn nhất lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn đã chờ sẵn.
+34. Phục binh đổ ra đánh vào đoàn quân đang chạy. Tướng Lý Hằng che chắn phía sau thì trúng tên độc mà chết.
+35. Còn Thoát Hoan, con trai hoàng đế nhà Nguyên, theo lời kể trong sử cũ, phải chui vào một cái ống đồng cho quân lính khiêng chạy về nước.
+
+### Chương 9 (bắt đầu ở mốc 93%)
+
+36. Tháng Sáu, hai vua trở về kinh thành Thăng Long. Từ lúc giặc tràn sang đến khi chúng chạy hết, chỉ khoảng nửa năm.
+37. Còn Trần Bình Trọng thì không được thấy ngày ấy. Vua thương xót, phong tước vương cho ông sau khi mất.
+38. Một vị tướng chọn làm quỷ nước Nam, rồi sau ba bến sông, chính quân giặc phải rời đất Nam. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Ba phương án hook
 
-Các hook đều theo khung bốn đoạn ở mục 3.1: (1) câu kể thường, không năm, không tên; (2) lật lại câu 1; (3) tên người, tên nơi, hệ quả nói mạnh; (4) câu hỏi kèm lời hứa N lần.
+Các hook theo khung bốn đoạn ở mục 3.1: (1) câu kể thường, không năm, không tên; (2) lật lại câu 1; (3) tên người, tên nơi, hệ quả nói mạnh; (4) câu hỏi kèm lời hứa N lần.
 
 1. (Đang dùng) Một vị tướng bị bắt, được hứa làm vương, chỉ đáp một câu; lật lại bằng câu "thà làm quỷ nước Nam"; rồi hứa kể ba trận trên ba bến sông.
 2. Mở vào lúc Thoát Hoan chui ống đồng cho lính khiêng chạy; lật lại: nửa năm trước ông đang thắng; hứa kể ba trận đã lật thế cờ.
@@ -67,41 +79,50 @@ Các hook đều theo khung bốn đoạn ở mục 3.1: (1) câu kể thường
 
 ## Thời điểm biến cố chính
 
-Trận phản công đầu tiên (Hàm Tử) bắt đầu ở chương 4, đoạn 17, mốc 46%. Vượt mục tiêu 1 điểm vì chương 3 phải kể đủ các việc dẫn tới cảnh mở đầu: rút khỏi kinh thành, Trần Bình Trọng hy sinh, Trần Ích Tắc và Trần Kiện ra hàng.
+Trận phản công đầu tiên (Hàm Tử) bắt đầu ở chương 5, đoạn 19, mốc 47%. Vượt mục tiêu 2 điểm vì chương 3 phải kể đủ lúc nhà Trần xuống thấp nhất: rút khỏi kinh thành, Trần Bình Trọng hy sinh, Trần Ích Tắc và Trần Kiện ra hàng. Cao trào là trận Tây Kết (mốc 68%). Đợt dồn cuối là cảnh Thoát Hoan tháo chạy (mốc 85%).
+
+## Cao trào: đã sửa lối kể liệt kê thế nào
+
+- Bản 2 bị chê vì kể ba trận như liệt kê. Bản 3 sửa theo cách sau: mỗi trận có bốn nhịp, gồm thế nguy trước trận, một chi tiết cụ thể có nguồn, bước ngoặt, và hệ quả đẩy sang trận sau.
+- Hàm Tử (đoạn 19–22): chi tiết quân Triệu Trung mặc áo Tống. Kết bằng "trận đầu đã thắng, nhưng kinh thành vẫn trong tay Thoát Hoan, Toa Đô vẫn đang trên đường lên".
+- Chương Dương (đoạn 23–26): mục tiêu lớn hơn là lấy lại kinh thành. Chi tiết Trần Quốc Toản với lá cờ sáu chữ.
+- Tây Kết (đoạn 27–32) là cao trào và được kể chậm lại: "trận lớn nhất vẫn còn ở phía trước"; đạo quân Toa Đô đánh từ Chiêm Thành ra, thua một trận vẫn còn đông; hai vua tự cầm quân; Toa Đô chết; lời vua than.
+- Sau cao trào là đợt dồn cuối chứ không phải phần liệt kê: Thoát Hoan còn một mình, chạy qua đúng chỗ Trần Quốc Tuấn chờ, Lý Hằng chết, cảnh ống đồng.
+- Phần sau cao trào chỉ còn 3 đoạn. Đã bỏ bài thơ của Trần Quang Khải.
 
 ## Ghi chú kỹ thuật kể chuyện
 
 - Kiểu mở đầu: Số phận nhân vật, mở vào lúc nguy nhất của cuộc chiến: Trần Bình Trọng bị bắt khi kinh thành đã mất. Lời hứa: "ba trận trên ba bến sông".
-- Câu đếm: "Hàm Tử là bến sông đầu tiên…" (đoạn 22), "Bến sông thứ hai cách đó không xa" (đoạn 23), "Đó là bến sông thứ ba, cũng là trận nặng nhất" (đoạn 27). Mỗi câu đếm nói một kiểu khác nhau.
-- Hình ảnh xuyên suốt: Câu "quỷ nước Nam, vương đất Bắc" gieo ở hook, nhắc ở đoạn 14, khép ở câu kết ("chọn làm quỷ nước Nam… chính quân giặc phải rời đất Nam").
-- Chỗ tưởng như giặc sắp thắng: Chương 3: mất kinh thành, tướng chết, người trong họ vua ra hàng. Chương 4: quân hai cánh của giặc "vẫn còn rất đông". Chương 5: Toa Đô "vẫn còn nguyên đạo quân".
-- Số lần nhắc nguồn trong lời đọc: Hai lần: đoạn 28 ("Theo sử cũ") và đoạn 31 ("theo lời kể trong sử cũ").
-- Từ Hán Việt: Đã đổi: "truy tặng" thành "phong tước vương cho ông sau khi mất", "áo ngự" thành "áo mình". "Thượng hoàng" và "Thượng tướng" giữ nhưng có giải thích ngay trong câu. "Bô lão", "Sát Thát" giữ (Sát Thát có giải nghĩa).
-- Câu kết: một câu quay lại hình ảnh mở đầu, cộng lời cảm ơn, không quá 32 chữ.
+- Câu đếm: "Bến sông đầu tiên là Hàm Tử" (đoạn 19), "Ở Chương Dương, bến sông thứ hai" (đoạn 25), "Đó là bến sông thứ ba" (đoạn 32).
+- Hình ảnh xuyên suốt: Câu "quỷ nước Nam, vương đất Bắc" gieo ở hook, nhắc lại ở đoạn 12, khép ở câu kết.
+- Chỗ tưởng như giặc sắp thắng: Chương 3: nhà Trần xuống thấp nhất (đoạn 14). Chương 4: hai cánh quân giặc đang tiến lại gần nhau. Chương 6: kinh thành vẫn trong tay giặc. Chương 7: Toa Đô vẫn còn đông.
+- Số lần nhắc nguồn trong lời đọc: Hai lần: đoạn 31 ("Theo sử cũ") và đoạn 35 ("theo lời kể trong sử cũ").
+- Từ Hán Việt: "Truy tặng" đổi thành "phong tước vương cho ông sau khi mất"; "áo ngự" đổi thành "áo mình". "Thượng hoàng" và "Thượng tướng" có giải thích. Sáu chữ trên lá cờ giữ nguyên vì là chữ có thật.
+- Câu kết: quay lại hình ảnh mở đầu, cộng lời cảm ơn, không quá 32 chữ.
 
 **Các đoạn diễn giải của người kể** (đủ năm điều kiện ở `chung.md`)
 
-- Đoạn 16: "nhà Trần mất kinh thành, mất tướng, lại có người trong họ vua theo giặc" là câu tóm của người kể, gom các việc có nguồn ở đoạn 11–15.
-- Đoạn 27: "Mất Toa Đô, cánh quân phía nam của nhà Nguyên coi như không còn" là nhận định của người kể, rút từ việc Toa Đô bị chém và quân tan.
-- Đoạn 35: câu kết đặt cạnh nhau hai việc có thật, không nói việc này gây ra việc kia.
+- Đoạn 14: "Đó là lúc nhà Trần xuống thấp nhất" là nhận định của người kể, gom từ các việc có nguồn ở đoạn 10–13.
+- Đoạn 18: "Vì thế, những trận phản công đều diễn ra trên các bến của sông Hồng". Chữ "vì thế" nối với việc giặc đóng quân dọc sông Hồng (đoạn 17). Câu này không nói nhà Trần đã tính toán như vậy.
+- Đoạn 32: "Gọng kìm phía nam đã gãy" là hình ảnh của người kể, dựa trên việc Toa Đô chết và quân tan.
 
 ## Ghi chú độ chắc
 
-- Câu "thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc" của Trần Bình Trọng: Toàn thư. Nơi bị bắt là bãi Đà Mạc, sông Thiên Mạc.
-- Hội nghị Diên Hồng, chữ "Sát Thát": Toàn thư.
-- Trần Ích Tắc là con vua Trần Thái Tông, em trai Thượng hoàng Thánh Tông. Tôi không viết "em ruột" vì chưa chắc hai người cùng mẹ. Trần Kiện ra hàng ở Thanh Hóa: Toàn thư.
-- Quân của Triệu Trung mặc áo quần kiểu Tống, quân Nguyên tưởng nhà Tống sang giúp nên vỡ chạy: Toàn thư. Chỉ có một nguồn; lời kể không gắn "theo sử cũ" vì đã dùng hết hai lần. Nếu cần gắn thì đổi chỗ với đoạn 31.
-- Thượng tướng Trần Quang Khải đánh ở Chương Dương rồi vào Thăng Long: Toàn thư.
-- Toa Đô bị chém ở Tây Kết tháng Năm; lời vua than và việc cởi áo liệm: Toàn thư. CẦN đối chiếu câu chữ trước khi đọc giọng.
-- Thoát Hoan chui ống đồng; Lý Hằng trúng tên độc; Lý Quán chết: Toàn thư (kể kèm "theo lời kể trong sử cũ").
-- Nóng, mưa, dịch bệnh: Nguyên sử (truyện An Nam). Lời đọc không nhắc nguồn này để giữ giới hạn hai lần.
-- Không đưa số tù binh vì các nguồn chênh nhau.
-- Bài thơ của Trần Quang Khải ("Tụng giá hoàn kinh sư"): chỉ kể ý, không đọc nguyên văn.
+- Câu nói của Trần Bình Trọng; nơi bị bắt là bãi Đà Mạc, sông Thiên Mạc: Toàn thư.
+- Hội nghị Diên Hồng; chữ "Sát Thát": Toàn thư.
+- Trần Ích Tắc là em trai Thượng hoàng (không viết "em ruột"). Trần Kiện ra hàng: Toàn thư.
+- Hai vua đi thuyền lánh ra vùng biển Thanh Hóa: Toàn thư.
+- Quân của Triệu Trung mặc áo Tống ở Hàm Tử: Toàn thư, chỉ một nguồn.
+- Trần Quang Khải ở Chương Dương, có Trần Quốc Toản và Phạm Ngũ Lão đi cùng: Toàn thư. Lá cờ "phá cường địch, báo hoàng ân" Toàn thư chép ở mục năm 1282. Tuổi của Quốc Toản chỉ suy ra từ năm sinh mà các sách ghi khác nhau, nên lời đọc nói "chưa tới hai mươi tuổi". CẦN chủ kênh duyệt chi tiết này.
+- Toa Đô đánh ở Chiêm Thành từ năm 1283: sử nhà Nguyên.
+- Tây Kết tháng Năm, Toa Đô bị chém, Ô Mã Nhi chạy ra biển, lời vua than và việc cởi áo liệm: Toàn thư. CẦN đối chiếu câu chữ.
+- Ở Vạn Kiếp: Lý Hằng trúng tên độc chết khi che phía sau cho Thoát Hoan; Thoát Hoan chui ống đồng: Toàn thư.
+- Nóng, mưa, dịch bệnh: Nguyên sử. Lời đọc không nhắc tên nguồn này.
 
 ## Kết quả ba bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 8 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 11 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 5 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 
-Cảnh báo được chấp nhận: "Hook trên 20 chữ": đoạn 1 có 22 chữ, dưới giới hạn 25 của mục 3.1. Các đoạn có 4 tên riêng (9, 16, 20, 22): là tên đã giới thiệu từ trước, không phải tên mới. Đoạn 31–32 chữ: dưới giới hạn 32. "Nhiều hơn 3 dấu phẩy" ở đoạn 9, 16: chấp nhận, sẽ nghe lại khi đọc giọng.
+Cảnh báo được chấp nhận: "Hook trên 20 chữ": đoạn 1 có 22 chữ, dưới giới hạn 25. Đoạn có 4 tên riêng: tên đã giới thiệu từ trước. "Nhiều hơn 3 dấu phẩy": sẽ nghe lại khi đọc giọng.

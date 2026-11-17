@@ -1,6 +1,6 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (lời đọc theo khung, gửi duyệt)
 
-30 đoạn, 818 chữ, khoảng 4.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+30 đoạn, 820 chữ, khoảng 4.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "quỷ nước Nam".
 
 ## Kịch bản (theo nhịp)
@@ -13,7 +13,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 2. Ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Câu trả lời ấy đổi lấy cái chết ngay tại chỗ.
 
-**Hook 3** (mốc 6%)
+**Hook 3** (mốc 5%)
 
 3. Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, quân nhà Nguyên đã chiếm kinh thành, và một đạo quân khác của chúng đang từ phía nam đánh lên.
 
@@ -41,7 +41,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 **Bước ngoặt** (mốc 40%)
 
 13. Gọng kìm đã siết, nhưng hai đầu của nó vẫn chưa chạm nhau. Giữa chúng vẫn còn những bến sông của Đại Việt.
-14. Trong khi chờ, quân của Thoát Hoan ở kinh thành bắt đầu đói và ốm. Không bắt được vua, không có lương, mà mùa hè thì nắng nóng, mưa dầm.
+14. Còn ở kinh thành, quân của Thoát Hoan bắt đầu đói và ốm. Chiếm được thành mà không bắt được vua, không có lương, rồi mùa hè lại nắng nóng, mưa dầm.
 15. Toa Đô kéo quân từ phía nam lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?
 
 **Lần 1** (mốc 50%)
@@ -128,7 +128,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 9 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 10 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 10 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

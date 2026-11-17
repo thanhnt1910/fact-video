@@ -14,7 +14,7 @@ S=[
 ('the_nguy',"Trần Bình Trọng chọn làm quỷ nước Nam ở bãi Đà Mạc. Cùng lúc ấy, Trần Ích Tắc, em trai Thượng hoàng, lại chọn dẫn cả nhà sang hàng giặc."),
 ('diem_thap',"Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Đó là lúc gọng kìm siết chặt nhất."),
 ('buoc_ngoat',"Gọng kìm đã siết, nhưng hai đầu của nó vẫn chưa chạm nhau. Giữa chúng vẫn còn những bến sông của Đại Việt."),
-('buoc_ngoat',"Trong khi chờ, quân của Thoát Hoan ở kinh thành bắt đầu đói và ốm. Không bắt được vua, không có lương, mà mùa hè thì nắng nóng, mưa dầm."),
+('buoc_ngoat',"Còn ở kinh thành, quân của Thoát Hoan bắt đầu đói và ốm. Chiếm được thành mà không bắt được vua, không có lương, rồi mùa hè lại nắng nóng, mưa dầm."),
 ('buoc_ngoat',"Toa Đô kéo quân từ phía nam lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?"),
 ('lan1',"Bến sông đầu tiên là Hàm Tử, nằm ngay trên đường Toa Đô đi lên. Tháng Tư, quân thuyền của Trần Nhật Duật chờ sẵn ở đó."),
 ('lan1',"Trong hàng quân ấy có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ."),

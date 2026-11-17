@@ -23,7 +23,7 @@ CAM = ['bước ngoặt quan trọng', 'chi tiết đặc biệt', 'nổi tiến
        'mạnh mẽ', 'rơi vào tay', 'thất thủ', 'điều đáng chú ý', 'có thể thấy', 'không chỉ', 'bảo toàn lực lượng',
        'được tổ chức', 'câu trả lời nằm ở', 'muốn trả lời', 'coi chung', 'núng thế', 'sắm sửa', 'dấy binh',
        'đặt làm', 'bên này', 'phía bên kia', 'có thể hiểu vì sao', 'kinh hoàng', 'khủng khiếp', 'chấn động',
-       'định mệnh', 'không ai ngờ', 'giữ trọn', 'bài học', 'tinh thần quân giặc', 'cục diện']
+       'định mệnh', 'không ai ngờ', 'giữ trọn', 'bài học', 'tinh thần quân giặc', 'cục diện', 'trong khi chờ']
 TAT = re.compile(r'\bquân (Nguyên|Minh|Tống|Thanh|Hán|Nam Hán|Trần|Lý|Lê|Tây Sơn)\b')
 TAT_MEM = re.compile(r'\bquân (Xiêm|Chiêm)\b')
 

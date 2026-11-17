@@ -33,3 +33,4 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 | "mở cửa cho giặc" rồi nhảy sang "hỏi các bô lão" (thiếu mắt xích) | từ chối, giặc lấy cớ, đem quân tới, rồi mới hỏi | tm5 |
 | "tiến công quyết liệt", "bước ngoặt quan trọng", "dấu mốc không thể quên", "thất thủ" (dùng sai) | kể bằng sự việc cụ thể | tm5 (bản của chủ kênh) |
 | tm5 bản 6: câu đã hay hơn nhưng "vẫn mang tính liệt kê quá, liệt kê nhiều thì người nghe sẽ nhanh chán" | dựng một câu hỏi xuyên suốt (hai đầu gọng kìm có gặp nhau không), mỗi trận kết bằng việc câu hỏi nghiêng về đâu, bỏ sự việc phụ (xem `thuy-mac-khung.md` mục 1b) | tm5 |
+| "Trong khi chờ, quân của Thoát Hoan…" (chờ gì? câu nhắc tới một việc chưa hề kể) | "Còn ở kinh thành, quân của Thoát Hoan…"; mỗi chữ "chờ", "việc ấy", "điều đó" phải chỉ vào một việc đã kể ở ngay đoạn trước | tm5 |

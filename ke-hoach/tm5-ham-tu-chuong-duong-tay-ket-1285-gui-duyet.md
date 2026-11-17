@@ -11,7 +11,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 **Hook 2** (mốc 2%)
 
-2. Một vị tướng bị giặc bắt sống đã đáp: ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Câu ấy đổi lấy cái chết ngay tại chỗ.
+2. Một vị tướng bị giặc bắt sống đã đáp: ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Nói xong, ông bị giặc giết ngay tại chỗ.
 
 **Hook 3** (mốc 6%)
 

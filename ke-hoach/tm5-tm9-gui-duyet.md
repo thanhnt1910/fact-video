@@ -364,7 +364,7 @@ Kiểu mở đầu luân phiên, không lặp các tập trước: tm5 số ph�
 
 **Ghi chú độ chắc**
 
-- Hai vạn thủy binh, ba trăm thuyền, ba vạn bộ binh: số trong sử nhà Nguyên (Đại Nam thực lục) và các sách sau; video nói "theo sử nhà Nguyễn".
+- Hai vạn thủy binh, ba trăm thuyền, ba vạn bộ binh: số trong sử nhà Nguyễn (Đại Nam thực lục) và các sách sau; video nói "theo sử nhà Nguyễn".
 - Ngày đánh: sách ghi đêm mười chín rạng sáng hai mươi tháng Một năm 1785 (dương lịch). Video dùng sáng hai mươi, cần chủ kênh chọn một mốc.
 - Khúc sông dài chừng sáu, bảy cây số, có cù lao Thới Sơn: các nghiên cứu hiện đại.
 - Chỉ hai, ba nghìn người chạy bộ qua Chân Lạp về nước: các nghiên cứu hiện đại.

@@ -98,6 +98,14 @@ def main():
             style = STYLE_C + " Keep exactly the same voice, pitch, pace and energy from the first sentence to the last; pause briefly between paragraphs."
             st = Path("ke-hoach/thu-giong-hai/style_them.txt")
             if st.exists() and st.read_text().strip(): style += " " + st.read_text().strip()   # bổ sung khi chủ kênh chê giọng (ví dụ trầm, buồn ngủ)
+            if any(x.get("nhip") for x in ch):   # chỉ dẫn nhịp kể theo khung (chủ kênh 18/11/2026: cao trào phải to, rõ; không trầm buồn ngủ)
+                def dau(x): return " ".join(x["text"].split()[:5])
+                nhom = {"manh": [x for x in ch if str(x.get("nhip","")).startswith(("cao_trao","lan","buoc_ngoat","the_nguy"))],
+                        "lang": [x for x in ch if str(x.get("nhip","")) in ("diem_thap","lang")]}
+                style += (" Baseline for the WHOLE reading: the same bright, energetic, wide-awake narrator voice as the opening hook, projecting clearly as if to a large room; never drop below that energy, never sound sleepy or low."
+                          " Battle and climax paragraphs must be noticeably LOUDER, faster and more intense, with strong punch on key words, like the decisive moment of a war story; these are the paragraphs beginning: "
+                          + "; ".join(f'\"{dau(x)}\"' for x in nhom["manh"]) + ".")
+                if nhom["lang"]: style += (" Only these tense, quiet paragraphs may be a little slower and softer, still clear and alert: " + "; ".join(f'\"{dau(x)}\"' for x in nhom["lang"]) + ".")
             gemini_tts.CTX.update({"nhom": f"{ch[0]['n']}-{ch[-1]['n']}", "style_id": hashlib.md5(style.encode()).hexdigest()[:8], "style_var": "C_chuong", "config": CONFIG_VERSION})
             try: wav = gemini_tts.synth(text, style, voice)
             except SystemExit: raise

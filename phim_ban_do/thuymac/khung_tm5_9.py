@@ -88,5 +88,22 @@ K['tm9']=dict(ma='tm9',soi_chi=['cầu cứu','khúc sông','thứ'],ten='Rạch
  N('chi_tiet_nguoi','Chiêu Tăng, Chiêu Sương cùng vài nghìn người chạy bộ qua Chân Lạp','Đại Nam thực lục'),
  N('don_cuoi','Nguyễn Ánh lại chạy sang chính nước Xiêm; người Xiêm sợ Tây Sơn như sợ cọp','Đại Nam thực lục (CẦN đối chiếu)',2),
  N('ket','Câu kết: lời cầu cứu đưa quân Xiêm vào đúng khúc sông chọn sẵn','diễn giải của người kể',1)])
+K['tm10']=dict(ma='tm10',soi_chi=['hẹn','Tết','thứ'],ten='Ngọc Hồi, Đống Đa 1789',n_hua=2,loi_hua='hai thứ: một cái Tết ăn trước và những tấm ván phủ rơm ướt',
+ cau_hoi='Vì sao lời hẹn mồng bảy vào Thăng Long lại đến sớm?',
+ hinh_anh=['hẹn'],dem=['thứ đầu tiên','thứ hai'],nhip=[
+ N('hook1','Câu hỏi: đánh đạo quân đông gấp nhiều lần, có dám hẹn trước ngày ăn mừng?','Hoàng Lê nhất thống chí'),
+ N('hook2','Quang Trung cho quân ăn Tết sớm, hẹn mồng bảy vào Thăng Long','Hoàng Lê nhất thống chí (lời kể cũ)'),
+ N('hook3','Quân Thanh hai mươi chín vạn theo sử ta; vào thành trước hẹn hai ngày','Cương mục, Hoàng Lê nhất thống chí'),
+ N('hook4','Vì sao sớm? Hai thứ: Tết ăn trước, ván phủ rơm ướt','lời hứa'),
+ N('goc_re','Lê Chiêu Thống chạy; gia quyến sang Thanh xin quân; Tôn Sĩ Nghị sang; Ngô Văn Sở theo kế Ngô Thì Nhậm rút về Tam Điệp','Cương mục, Đại Nam chính biên liệt truyện',3),
+ N('the_nguy','Quân Thanh vào Thăng Long, phong Chiêu Thống An Nam quốc vương; Chiêu Thống ngày ngày chầu chực','Cương mục; Hoàng Lê nhất thống chí',2),
+ N('diem_thap','Bắc Hà trong tay giặc, chuyện hẹn ngày nghe không tưởng','diễn giải'),
+ N('buoc_ngoat','Nguyễn Huệ lên ngôi Quang Trung, ra bắc; tuyển quân Nghệ An; ăn Tết sớm ở Tam Điệp (thứ đầu tiên); đêm ba mươi vượt sông Gián Khẩu','Cương mục, Hoàng Lê nhất thống chí',3),
+ N('lan1','Đêm mồng ba vây Hà Hồi, quân trong đồn hàng; còn lại Ngọc Hồi','Hoàng Lê nhất thống chí',2),
+ N('lang','Ngọc Hồi lũy cao súng lớn; ván phủ rơm ướt (thứ hai)','Hoàng Lê nhất thống chí (CẦN đối chiếu số người khiêng)',2),
+ N('cao_trao','Sáng mồng năm ván tiến, đồn vỡ; Khương Thượng, Sầm Nghi Đống tự tử','Cương mục, Hoàng Lê nhất thống chí',3),
+ N('chi_tiet_nguoi','Tôn Sĩ Nghị ngựa không kịp đóng yên, người không kịp mặc giáp','Hoàng Lê nhất thống chí (lời kể cũ)'),
+ N('don_cuoi','Cầu phao đứt, quân Thanh chết đuối; Lê Chiêu Thống sang Thanh chỉ được chức nhỏ, chết nơi đất khách','Cương mục, Thanh thực lục (CẦN đối chiếu chức tá lĩnh)',2),
+ N('ket','Trưa mồng năm vào Thăng Long, sớm hơn hẹn hai ngày','Hoàng Lê nhất thống chí',1)])
 for k,v in K.items():
     json.dump(v,open(f'/tmp/pc/ke-hoach/thu-giong-hai/{k}_khung.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)

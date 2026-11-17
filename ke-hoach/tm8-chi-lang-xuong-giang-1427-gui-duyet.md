@@ -85,9 +85,9 @@ Lời hứa: **hai thứ: một ngọn núi và một con dấu**. Câu đếm: 
 
 ## Ba phương án hook
 
-1. (Đang dùng) Mười vạn quân đuổi một toán quân cứ đánh rồi lùi; lật lại: toán quân ấy đang kéo giặc vào thung lũng; Liễu Thăng trả giá bằng mạng mình; hứa "ba lần sụp đổ".
-2. Câu hỏi bí ẩn: năm vạn quân của Mộc Thạnh bỏ chạy vì mấy lá thư và con dấu của một người vừa chết.
-3. Sự kiện bất ngờ: mười lăm vạn quân cứu viện sụp đổ trong chưa đầy một tháng.
+1. (Đang dùng) Câu hỏi: kẻ địch cứ đánh rồi lùi, bạn có đuổi không? Liễu Thăng đã đuổi; hứa hai thứ: ngọn núi, con dấu.
+2. Số phận nhân vật: chủ tướng mười vạn quân chết với hơn trăm kỵ binh.
+3. Nghịch lý: Lê Lợi không đánh thành mà thắng cả hai đạo cứu viện.
 
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
@@ -108,13 +108,10 @@ Lời hứa: **hai thứ: một ngọn núi và một con dấu**. Câu đếm: 
 
 Ghi chú thêm:
 
-- Liễu Thăng mười vạn quân, hai vạn ngựa; Mộc Thạnh năm vạn quân: Toàn thư.
-- Lê Lợi không cho đánh thành, chờ đánh quân cứu viện, nhắm trước vào Liễu Thăng: Toàn thư. CẦN đối chiếu.
-- Các mốc ngày Mã Yên, Lương Minh, Lý Khánh: Bình Ngô đại cáo, Toàn thư.
-- Hơn một trăm kỵ binh vượt lên trước: Toàn thư. CẦN đối chiếu câu chữ.
-- Thành Xương Giang bị nghĩa quân hạ trước khi viện binh tới; vây rồi đánh vào tháng Mười; bắt Thôi Tụ, Hoàng Phúc: Toàn thư.
-- Đưa thư từ, con dấu của Liễu Thăng cho Mộc Thạnh xem: theo Việt Nam sử lược. CẦN kiểm với Toàn thư trước khi đọc giọng.
-- Hội thề Đông Quan, cấp thuyền và ngựa cho quân Minh về nước: Toàn thư.
+- Lê Lợi không đánh thành, chờ đánh viện binh: Toàn thư. CẦN đối chiếu.
+- Hơn một trăm kỵ binh vượt lên trước, chết ở Mã Yên ngày hai mươi tháng Chín: Toàn thư.
+- Hoàng Phúc được tha vì từng làm quan ở nước ta: CẦN đối chiếu lý do.
+- Đưa thư và dấu của Liễu Thăng cho Mộc Thạnh xem: Việt Nam sử lược. CẦN kiểm với Toàn thư.
 
 ## Kết quả bốn bộ kiểm
 

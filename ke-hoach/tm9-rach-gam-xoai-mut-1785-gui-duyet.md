@@ -81,9 +81,9 @@ Lời hứa: **hai thứ: việc quân Xiêm làm ở Gia Định và một khú
 
 ## Ba phương án hook
 
-1. (Đang dùng) Mấy trăm chiến thuyền xuôi sông; hai bờ im lặng; quân Xiêm sắp mất gần hết chiến thuyền; hứa "hai điều".
-2. Sự kiện bất ngờ: năm vạn quân sang, vài nghìn người chạy bộ về.
-3. Nghịch lý: người mời quân Xiêm vào lại là một người nước ta.
+1. (Đang dùng) Câu hỏi: thua trên đất mình, có mời quân nước khác vào không? Nguyễn Ánh đã mời; hứa hai thứ: việc quân Xiêm làm ở Gia Định, khúc sông.
+2. Trận chiến: đoàn thuyền xuôi sông, hai bờ im lặng.
+3. Số phận nhân vật: người cầu cứu lại chạy sang chính nước đã cầu cứu.
 
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
@@ -104,11 +104,11 @@ Lời hứa: **hai thứ: việc quân Xiêm làm ở Gia Định và một khú
 
 Ghi chú thêm:
 
-- Quân số Xiêm: sử nhà Nguyễn (Đại Nam thực lục) và các sách sau.
-- Ngày đánh: sách ghi đêm mười chín rạng sáng hai mươi tháng Một năm 1785. CẦN chủ kênh chọn mốc.
-- Khúc sông, cù lao Thới Sơn, thuyền giấu trong rạch, súng đại bác hai bờ: các nghiên cứu hiện đại.
-- Vài nghìn người chạy bộ qua Chân Lạp về nước: các nghiên cứu hiện đại.
-- Câu "sợ Tây Sơn như sợ cọp": sử nhà Nguyễn. CẦN đối chiếu.
+- Quân số Xiêm: Đại Nam thực lục.
+- Quân Xiêm cướp phá, dân oán: Đại Nam thực lục. CẦN đối chiếu câu chữ.
+- Ngày đánh: sách ghi 19 hoặc 20 tháng 1 năm 1785; lời đọc chỉ nói "một ngày tháng Giêng".
+- Khúc sông, cù lao Thới Sơn, phục binh: nghiên cứu hiện đại.
+- Câu "sợ như sợ cọp": Đại Nam thực lục. CẦN đối chiếu.
 
 ## Kết quả bốn bộ kiểm
 

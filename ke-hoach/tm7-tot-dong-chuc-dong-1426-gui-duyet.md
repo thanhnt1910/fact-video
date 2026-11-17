@@ -81,9 +81,9 @@ Lời hứa: **hai thứ: mấy tên do thám và một tiếng súng hiệu**. 
 
 ## Ba phương án hook
 
-1. (Đang dùng) Mấy vạn quân chờ tiếng súng hiệu; súng không nổ; hai quan lớn nhà Minh trả giá bằng mạng mình; hứa "hai điều".
-2. Nghịch lý: đội quân sang để giữ đất, cuối cùng phải chạy vào thành Đông Quan mà trốn.
-3. Câu hỏi: mấy tên do thám bị bắt đã đổi kết cục của trận đánh nhiều vạn người.
+1. (Đang dùng) Câu hỏi: biết trước ám hiệu tấn công của đạo quân đông hơn, bạn làm gì? Lam Sơn chọn nằm im; hứa hai thứ: do thám, tiếng súng.
+2. Trận chiến: quân Minh đi tắt vào ruộng lầy im phăng phắc.
+3. Số phận nhân vật: Vương Thông sang giữ đất, bị nhốt trong thành mình giữ.
 
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
@@ -104,10 +104,9 @@ Lời hứa: **hai thứ: mấy tên do thám và một tiếng súng hiệu**. 
 
 Ghi chú thêm:
 
-- Diễn biến (Ninh Kiều, cầu Tam La, hàng rào chông, Đinh Lễ và Nguyễn Xí tiếp viện, do thám khai ám hiệu, giữ im lặng, đi tắt vào chỗ phục): Toàn thư Quyển X, mới tra qua bản tóm tắt thứ cấp. CẦN đối chiếu nguyên văn.
-- Quân số: sử ta ghi tổng mười vạn, sử nhà Minh ghi năm vạn tư. Lời đọc nói "nhiều vạn người".
-- Thương vong: sử ta và sử nhà Minh ghi khác nhau; lời đọc nêu cả hai
-- Trần Hiệp, Lý Lượng chết: Bình Ngô đại cáo, Toàn thư.
+- Bắt do thám, lộ kế ba đường và ám hiệu tiếng súng: Toàn thư. CẦN đối chiếu nguyên văn.
+- Số quân Minh chết: sử ta và Minh sử ghi khác nhau, đã nói cả hai trong lời đọc.
+- Trần Hiệp, Lý Lượng chết; Vương Thông bị thương: Toàn thư, Bình Ngô đại cáo.
 
 ## Kết quả bốn bộ kiểm
 

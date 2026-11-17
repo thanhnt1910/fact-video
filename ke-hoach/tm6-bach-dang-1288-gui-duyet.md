@@ -87,9 +87,9 @@ Lời hứa: **hai thứ: một đoàn thuyền lương và một con sông cũ*
 
 ## Ba phương án hook
 
-1. (Đang dùng) Hạm đội giặc đuổi mấy thuyền nhỏ; lật lại: thuyền nhỏ đang dẫn đường; Ô Mã Nhi sắp mất hạm đội; hứa "hai điều".
-2. Nghịch lý: vua hỏi tình hình, tướng giỏi nhất đáp "năm nay đánh giặc nhàn" trong khi kinh thành sắp mất lần nữa.
-3. Lời thề của Trần Quốc Tuấn trên sông Hóa trước trận.
+1. (Đang dùng) Câu hỏi cho người nghe: có dám đáp "năm nay đánh giặc nhàn"? Trần Quốc Tuấn đã đáp vậy; hứa hai thứ: thuyền lương, sông cũ.
+2. Nghịch lý: người nói "đánh giặc nhàn" mấy tháng sau phải bỏ trống kinh thành.
+3. Số phận nhân vật: Ô Mã Nhi, kẻ phá lăng vua Trần, bị bắt sống trên sông Bạch Đằng.
 
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
@@ -110,12 +110,11 @@ Lời hứa: **hai thứ: một đoàn thuyền lương và một con sông cũ*
 
 Ghi chú thêm:
 
-- Câu "năm nay đánh giặc nhàn": Toàn thư (năm 1287). CẦN đối chiếu câu chữ.
-- Ô Mã Nhi đi trước, thuyền lương Trương Văn Hổ đi sau; Trần Khánh Dư thua lúc đầu rồi chặn được thuyền lương ở Vân Đồn: Toàn thư.
-- Ô Mã Nhi phá Chiêu Lăng: Toàn thư.
-- Cọc phủ cỏ, đánh nhử, thủy triều rút xuống, ngày mồng tám tháng Ba: Toàn thư. Lời thề trên sông Hóa: Toàn thư.
-- Bắt Ô Mã Nhi, Phàn Tiếp, Tích Lệ Cơ; hơn bốn trăm thuyền: Toàn thư.
-- Quân Nguyên không sang đánh Đại Việt lần nào nữa: sự thật lịch sử.
+- Câu "năm nay đánh giặc nhàn": Toàn thư. CẦN đối chiếu câu chữ.
+- Trần Khánh Dư thua trận đầu, bị sai bắt về kinh, xin hoãn để lập công: Toàn thư.
+- Ô Mã Nhi phá lăng vua Trần Thái Tông ở Long Hưng: Toàn thư.
+- Lời thề chỉ xuống sông Bạch Đằng: Toàn thư. CẦN đối chiếu câu chữ.
+- Hơn bốn trăm thuyền bị bắt; bắt sống Ô Mã Nhi, Phàn Tiếp, Tích Lệ Cơ: Toàn thư.
 
 ## Kết quả bốn bộ kiểm
 

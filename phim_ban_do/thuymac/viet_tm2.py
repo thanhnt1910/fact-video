@@ -2,7 +2,7 @@ import json
 S=[
 (1,"Hơn một nghìn năm trước, có một người nói rằng chiếm nước Việt dễ như bẻ một cành khô."),
 (1,"Nhưng người ấy không biết rằng, không phải cành khô nào cũng dễ bẻ như ông tưởng. Có cành bẻ không gãy, mà còn làm gãy tay người bẻ."),
-(1,"Người nói câu ấy là Lư Đa Tốn, một ông quan lớn trong triều nhà Tống. Còn người dẫn quân sang là Hầu Nhân Bảo, và ông không trở về nữa."),
+(1,"Người nói câu ấy là Lư Đa Tốn, một quan lớn nhà Tống. Còn người dẫn quân sang là Hầu Nhân Bảo, và ông đã phải trả giá bằng chính mạng mình."),
 (1,"Vì sao một nước đang rối ren, vua mới sáu tuổi, lại khiến nhà Tống trả giá đắt vậy? Câu trả lời nằm ở ba lần cành khô ấy không gãy."),
 (2,"Năm chín trăm bảy mươi chín, nước ta mất vua một cách đột ngột. Vua Đinh Tiên Hoàng và con trưởng là Đinh Liễn bị giết ngay trong cung."),
 (2,"Người lên ngôi là cậu con nhỏ Đinh Toàn, mới sáu tuổi. Trẻ nhỏ chưa lo nổi việc nước, nên mọi việc trông vào Lê Hoàn, người cầm mười đạo quân."),
@@ -46,7 +46,7 @@ S=[
 (6,"Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước, rồi sai sứ sang làm hòa. Nhà Tống nhận lời và phong chức cho ông."),
 (6,"Vậy vì sao một lời nói chắc như vậy lại phải trả giá đắt đến thế? Vì nước Việt khi ấy không phải là cành khô."),
 (6,"Nước Việt có một ông vua tự cầm quân, có hàng cọc chặn đường sông, và có một lần hàng giả lấy mạng chủ tướng nhà Tống."),
-(6,"Cành khô mà Lư Đa Tốn bảo dễ bẻ rốt cuộc vẫn không gãy, còn người sang bẻ thì không trở về. Cảm ơn bạn đã lắng nghe câu chuyện này."),
+(6,"Cành khô mà Lư Đa Tốn bảo dễ bẻ rốt cuộc vẫn không gãy, còn người sang bẻ thì phải bỏ mạng. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]
 json.dump([{'n':176001+i,'chuong':c,'tone':'story','text':t,'hien':t} for i,(c,t) in enumerate(S)],open('/tmp/pc/ke-hoach/thu-giong-hai/tm2_full.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 tot=sum(len(t.split()) for c,t in S);acc=0;seen=set()

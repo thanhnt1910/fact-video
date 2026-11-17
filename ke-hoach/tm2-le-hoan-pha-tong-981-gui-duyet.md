@@ -24,7 +24,7 @@ Mã `tm2`: 47 đoạn, 1235 chữ, khoảng 6 phút 40 giây. Giọng Charon, h�
 ## Hook (4 đoạn đầu, khoảng 35 giây)
 1. Hơn một nghìn năm trước, có một người nói rằng chiếm nước Việt dễ như bẻ một cành khô.
 2. Nhưng người ấy không biết rằng, không phải cành khô nào cũng dễ bẻ như ông tưởng. Có cành bẻ không gãy, mà còn làm gãy tay người bẻ.
-3. Người nói câu ấy là Lư Đa Tốn, một ông quan lớn trong triều nhà Tống. Còn người dẫn quân sang là Hầu Nhân Bảo, và ông không trở về nữa.
+3. Người nói câu ấy là Lư Đa Tốn, một quan lớn nhà Tống. Còn người dẫn quân sang là Hầu Nhân Bảo, và ông đã phải trả giá bằng chính mạng mình.
 4. Vì sao một nước đang rối ren, vua mới sáu tuổi, lại khiến nhà Tống trả giá đắt vậy? Câu trả lời nằm ở ba lần cành khô ấy không gãy.
 
 **Về chữ "năm xxx":** câu mẫu của chủ kênh mở bằng năm. Bộ kiểm `kiem_mach_ke.py` lại báo ❌ khi câu hook có năm, theo số liệu Metricool 10/11/2026: người xem bỏ đi đúng chỗ có mốc năm. Vì vậy câu mở dùng "Hơn một nghìn năm trước". Năm chín trăm tám mươi (Lư Đa Tốn nói câu ấy) và năm chín trăm tám mươi mốt (quân nhà Tống sang) đến ở chương 2 và 4. Nếu chủ kênh muốn câu đầu có năm cụ thể, có thể đổi thành "Năm chín trăm tám mươi, có một người nói rằng…", nhưng bộ kiểm sẽ báo lỗi.
@@ -37,7 +37,7 @@ Mã `tm2`: 47 đoạn, 1235 chữ, khoảng 6 phút 40 giây. Giọng Charon, h�
 
 176001. Hơn một nghìn năm trước, có một người nói rằng chiếm nước Việt dễ như bẻ một cành khô.
 176002. Nhưng người ấy không biết rằng, không phải cành khô nào cũng dễ bẻ như ông tưởng. Có cành bẻ không gãy, mà còn làm gãy tay người bẻ.
-176003. Người nói câu ấy là Lư Đa Tốn, một ông quan lớn trong triều nhà Tống. Còn người dẫn quân sang là Hầu Nhân Bảo, và ông không trở về nữa.
+176003. Người nói câu ấy là Lư Đa Tốn, một quan lớn nhà Tống. Còn người dẫn quân sang là Hầu Nhân Bảo, và ông đã phải trả giá bằng chính mạng mình.
 176004. Vì sao một nước đang rối ren, vua mới sáu tuổi, lại khiến nhà Tống trả giá đắt vậy? Câu trả lời nằm ở ba lần cành khô ấy không gãy.
 
 ### Chương 2: Lời nói dễ như bẻ cành khô (bắt đầu ở 9%)
@@ -96,7 +96,7 @@ Mã `tm2`: 47 đoạn, 1235 chữ, khoảng 6 phút 40 giây. Giọng Charon, h�
 176044. Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước, rồi sai sứ sang làm hòa. Nhà Tống nhận lời và phong chức cho ông.
 176045. Vậy vì sao một lời nói chắc như vậy lại phải trả giá đắt đến thế? Vì nước Việt khi ấy không phải là cành khô.
 176046. Nước Việt có một ông vua tự cầm quân, có hàng cọc chặn đường sông, và có một lần hàng giả lấy mạng chủ tướng nhà Tống.
-176047. Cành khô mà Lư Đa Tốn bảo dễ bẻ rốt cuộc vẫn không gãy, còn người sang bẻ thì không trở về. Cảm ơn bạn đã lắng nghe câu chuyện này.
+176047. Cành khô mà Lư Đa Tốn bảo dễ bẻ rốt cuộc vẫn không gãy, còn người sang bẻ thì phải bỏ mạng. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Ghi chú độ chắc
 - **Toàn thư** (kỷ Lê Đại Hành) chép:

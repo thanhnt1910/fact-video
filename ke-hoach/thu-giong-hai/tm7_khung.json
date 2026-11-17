@@ -1,0 +1,99 @@
+{
+ "ma": "tm7",
+ "ten": "Tốt Động, Chúc Động 1426",
+ "n_hua": 2,
+ "loi_hua": "hai điều giữ cho tiếng súng im",
+ "hinh_anh": [
+  "tiếng súng"
+ ],
+ "dem": [
+  "điều đầu tiên",
+  "điều thứ hai"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Mấy vạn quân giặc chờ một tiếng súng hiệu để cùng ập vào một toán quân nhỏ",
+   "nguon": "Toàn thư (lời khai do thám)",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Tiếng súng không vang lên; đội quân đông gấp nhiều lần bước vào vùng ruộng lầy im phăng phắc",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Trận Tốt Động, Chúc Động; hai viên quan lớn nhà Minh trả giá bằng mạng mình",
+   "nguon": "Toàn thư, Bình Ngô đại cáo",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Điều gì giữ cho tiếng súng im? Hai điều: mấy tên do thám bị bắt, và một vùng ruộng lầy",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Nhà Minh chiếm nước ta năm 1407 → Lê Lợi khởi nghĩa 1418 → 1426 làm chủ từ Nghệ An trở vào, ra bắc → Lý Triện, Đỗ Bí giết khoảng hai nghìn quân Minh ở Ninh Kiều → nhà Minh sai Vương Thông đem thêm năm vạn quân",
+   "nguon": "Toàn thư",
+   "doan": 5
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Vương Thông chia ba đường kéo ra; Lý Triện nhử qua cầu Tam La vào ruộng lầy, thắng nhỏ; quân Minh dựng hàng rào chông",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Voi chiến giẫm chông chạy loạn, tưởng như quân Minh sắp thắng; Lý Triện xin cứu viện, Đinh Lễ, Nguyễn Xí đem ba nghìn quân, hai voi tới, vẫn ít hơn giặc nhiều lần",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "Bắt được do thám, lộ kế của Vương Thông: quân chính vượt sông, một cánh vòng sau lưng, ám hiệu là tiếng súng (điều đầu tiên) → lệnh giữ im lặng tuyệt đối",
+   "nguon": "Toàn thư",
+   "doan": 4
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Phục ở Tốt Động, Chúc Động, hai làng ven cánh đồng lầy (điều thứ hai)",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Quân Minh không nghe súng, không thấy người, cho là không có quân Lam Sơn, đi tắt; dàn dài giữa ruộng lầy, chung quanh không một tiếng động",
+   "nguon": "Toàn thư",
+   "doan": 3
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Phục binh đổ ra từ hai làng; quân Minh bị kẹp, dồn về sông, chết đuối nhiều; sử ta và sử nhà Minh ghi số chết khác nhau",
+   "nguon": "Toàn thư, Minh sử",
+   "doan": 2
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Trần Hiệp, Lý Lượng chết; Vương Thông bị thương, cùng tàn quân chạy về thành Đông Quan",
+   "nguon": "Toàn thư, Bình Ngô đại cáo",
+   "doan": 1
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Lê Lợi kéo đại quân ra vây Đông Quan; đội quân sang giữ đất lại bị nhốt trong thành",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Gọi lại hai điều; câu kết: tiếng súng hiệu không bao giờ nổ, mấy vạn quân tự bước vào ruộng lầy",
+   "nguon": "diễn giải của người kể",
+   "doan": 2
+  }
+ ]
+}

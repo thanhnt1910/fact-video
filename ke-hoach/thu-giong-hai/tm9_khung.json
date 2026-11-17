@@ -1,0 +1,100 @@
+{
+ "ma": "tm9",
+ "ten": "Rạch Gầm, Xoài Mút 1785",
+ "n_hua": 2,
+ "loi_hua": "hai điều",
+ "hinh_anh": [
+  "xuôi",
+  "chiến thuyền"
+ ],
+ "dem": [
+  "điều thứ nhất",
+  "điều thứ hai"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Mấy trăm chiến thuyền giặc xuôi một dòng sông lớn, thẳng hướng nơi đóng quân của đối phương",
+   "nguon": "Đại Nam thực lục, nghiên cứu hiện đại",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Hai bờ im lặng; không ai trên thuyền biết khúc sông phía trước đã được chọn sẵn",
+   "nguon": "nghiên cứu hiện đại",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Quân Xiêm (nay là Thái Lan) trên sông Tiền; người chờ là Nguyễn Huệ; sắp mất gần hết chiến thuyền",
+   "nguon": "Đại Nam thực lục",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Hai điều: một lời cầu cứu gửi sang Xiêm, và một khúc sông chọn sẵn. Chúng dẫn tới đâu?",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Tây Sơn đánh Gia Định nhiều lần; Nguyễn Ánh, cháu các chúa Nguyễn cũ, thua chạy → năm 1784 sang Xiêm cầu cứu (điều thứ nhất) → vua Xiêm sai Chiêu Tăng, Chiêu Sương, hai vạn thủy binh, ba trăm thuyền, ba vạn quân bộ",
+   "nguon": "Đại Nam thực lục",
+   "doan": 4
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Quân Xiêm vào Rạch Giá, rồi chiếm Trà Ôn, Sa Đéc, Mân Thít",
+   "nguon": "Đại Nam thực lục",
+   "doan": 1
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Gia Định tưởng như sắp về tay Nguyễn Ánh; quân Xiêm cướp phá, dân miền Tây khổ sở",
+   "nguon": "Đại Nam thực lục",
+   "doan": 1
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "Tin về Quy Nhơn, Nguyễn Nhạc sai Nguyễn Huệ vào nam; đóng quân ở Mỹ Tho; không đánh thẳng mà chọn một khúc sông Tiền đặt bẫy (điều thứ hai)",
+   "nguon": "nghiên cứu hiện đại",
+   "doan": 3
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Khúc sông Rạch Gầm – Xoài Mút, cù lao Thới Sơn; quân bộ, đại bác phục hai bờ và trên cù lao; thuyền chiến giấu trong hai con rạch",
+   "nguon": "nghiên cứu hiện đại",
+   "doan": 2
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Sáng hai mươi tháng Một năm 1785, đoàn thuyền Xiêm từ Trà Tân xuôi sông; đầu tới Rạch Gầm, cuối lọt Xoài Mút; hai bờ vẫn im",
+   "nguon": "nghiên cứu hiện đại (CẦN chọn mốc ngày)",
+   "doan": 3
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Thuyền Tây Sơn từ hai rạch lao ra chặn đầu, chặn đuôi; đại bác hai bờ bắn vào; thuyền vỡ, thuyền chìm, gần hết đoàn chiến thuyền bị đánh tan",
+   "nguon": "nghiên cứu hiện đại",
+   "doan": 3
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Chiêu Tăng, Chiêu Sương cùng vài nghìn người lên bờ, chạy bộ qua Chân Lạp về nước",
+   "nguon": "nghiên cứu hiện đại",
+   "doan": 1
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Nguyễn Ánh lại chạy sang Xiêm; theo sử nhà Nguyễn, người Xiêm từ đó sợ quân Tây Sơn như sợ cọp",
+   "nguon": "Đại Nam thực lục (CẦN đối chiếu câu chữ)",
+   "doan": 2
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Câu kết: mấy trăm chiến thuyền xuôi sông Tiền hôm ấy đã đi đúng vào khúc sông Nguyễn Huệ chọn sẵn",
+   "nguon": "diễn giải của người kể",
+   "doan": 1
+  }
+ ]
+}

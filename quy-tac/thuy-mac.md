@@ -97,6 +97,7 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 - **Hình ảnh xuyên suốt** có thể lấy từ một câu nói có thật ("dễ như bẻ cành khô"). Hình ảnh ấy gieo ở hook, hiện lại ở mỗi lần đếm, rồi khép ở câu kết.
 
 ### 3.3 Hồ sơ gửi duyệt
+- **Từ 17/11/2026: trước khi viết lời, gửi bảng khung theo `quy-tac/thuy-mac-khung.md` (khung nhịp cố định, năm điểm nhấn, bộ kiểm `kiem_khung.py`). Chủ kênh duyệt khung rồi mới viết lời.**
 - File `ke-hoach/<mã>-<tên>-gui-duyet.md` gồm các phần sau:
   - Kịch bản đủ, chia chương, ghi phần trăm thời lượng mỗi chương.
   - 3 phương án hook.

@@ -1,0 +1,102 @@
+{
+ "ma": "tm8",
+ "ten": "Chi Lăng, Xương Giang 1427",
+ "n_hua": 3,
+ "loi_hua": "ba lần sụp đổ",
+ "hinh_anh": [
+  "đánh rồi lùi",
+  "đánh vài trận rồi lại lùi",
+  "đánh vài trận rồi lui"
+ ],
+ "dem": [
+  "thứ nhất",
+  "thứ hai",
+  "thứ ba"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Mười vạn quân giặc tràn qua cửa ải, đuổi theo một toán quân nhỏ cứ đánh vài trận rồi lại lùi",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Toán quân ấy không thua, mà đang kéo vị tướng chỉ huy vào một thung lũng hẹp",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Ải Chi Lăng; Liễu Thăng của nhà Minh trả giá bằng mạng mình ở núi Mã Yên",
+   "nguon": "Toàn thư, Bình Ngô đại cáo",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Một cái chết kéo theo ba lần sụp đổ: Chi Lăng, Xương Giang, và một doanh trại rất xa. Chúng sụp đổ thế nào?",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Vương Thông thua ở Tốt Động, bị vây ở Đông Quan → nhà Minh sai Liễu Thăng mười vạn quân, hai vạn ngựa theo đường Lạng Sơn, Mộc Thạnh năm vạn quân theo đường Vân Nam → các tướng muốn đánh thành, Lê Lợi không cho, chờ đánh viện binh, nhắm trước vào Liễu Thăng",
+   "nguon": "Toàn thư",
+   "doan": 5
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Liễu Thăng tràn qua biên giới, thắng mấy trận đầu; Trần Lựu giữ cửa ải đầu tiên đánh vài trận rồi lui mãi về Chi Lăng",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Mười lăm vạn quân cứu viện đang tràn vào từ hai hướng, còn thành Đông Quan vẫn chưa hạ",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "Ải Chi Lăng là thung lũng hẹp, núi đá hai bên, nghĩa quân phục sẵn; Liễu Thăng đuổi gấp, đem hơn một trăm kỵ binh vượt lên trước tới chân núi Mã Yên",
+   "nguon": "Toàn thư (cần đối chiếu số kỵ binh)",
+   "doan": 3
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Ngày hai mươi tháng Chín, phục binh bốn phía đổ ra, Liễu Thăng bị giết (lần sụp đổ thứ nhất); Lương Minh tử trận, Lý Khánh tự tử",
+   "nguon": "Toàn thư, Bình Ngô đại cáo",
+   "doan": 3
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Thôi Tụ, Hoàng Phúc dẫn quân còn lại tới Xương Giang, mới biết thành đã bị nghĩa quân hạ; đóng trại giữa đồng trống; nghĩa quân chưa đánh ngay, vây kín, cắt đường lương cho giặc đói dần",
+   "nguon": "Toàn thư",
+   "doan": 3
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Tháng Mười nghĩa quân đánh vào, doanh trại vỡ, bắt sống Thôi Tụ, Hoàng Phúc (lần sụp đổ thứ hai)",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Hoàng Phúc, viên quan nhà Minh từng cai trị ở nước ta, được tha cho về",
+   "nguon": "Toàn thư (CẦN đối chiếu)",
+   "doan": 1
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Lê Lợi sai đem thư từ, con dấu của Liễu Thăng cho Mộc Thạnh xem; Mộc Thạnh bỏ chạy, bị đuổi đánh, chạy thoát thân (lần sụp đổ thứ ba)",
+   "nguon": "Việt Nam sử lược (CẦN đối chiếu Toàn thư)",
+   "doan": 3
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Vương Thông xin rút, hội thề Đông Quan, cấp thuyền ngựa cho về; câu kết: một toán quân cứ đánh rồi lùi đã kéo sập cả hai đạo quân",
+   "nguon": "Toàn thư",
+   "doan": 2
+  }
+ ]
+}

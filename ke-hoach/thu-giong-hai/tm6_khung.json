@@ -1,0 +1,99 @@
+{
+ "ma": "tm6",
+ "ten": "Bạch Đằng 1288",
+ "n_hua": 2,
+ "loi_hua": "hai điều đẩy Ô Mã Nhi tới Bạch Đằng",
+ "hinh_anh": [
+  "thuyền nhỏ"
+ ],
+ "dem": [
+  "điều đầu tiên",
+  "điều thứ hai"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Hàng trăm chiến thuyền giặc xuôi một dòng sông lớn, đuổi theo mấy chiếc thuyền nhỏ đang bỏ chạy",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Mấy chiếc thuyền nhỏ không chạy trốn mà đang dẫn đường vào nơi đã chuẩn bị",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Sông Bạch Đằng; hạm đội của Ô Mã Nhi, tướng nhà Nguyên, sắp mất cả hạm đội lẫn tự do",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Vì sao Ô Mã Nhi có mặt ở đó? Hai điều: một đoàn thuyền lương, và một con sông được chọn sẵn",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Thua năm 1285, Hốt Tất Liệt không chịu thôi → cuối 1287 Thoát Hoan sang lần nữa → vua hỏi, Trần Quốc Tuấn đáp \"năm nay đánh giặc nhàn\" → lần này giặc sang cả đường biển: chiến thuyền Ô Mã Nhi đi trước, thuyền lương Trương Văn Hổ nặng nề đi sau",
+   "nguon": "Toàn thư",
+   "doan": 4
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Ở Vân Đồn, Trần Khánh Dư đánh không lại chiến thuyền Ô Mã Nhi; chiến thuyền giặc đi qua, tưởng như đường biển đã mở",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Quân bộ của Thoát Hoan tiến về Thăng Long, kinh thành bị bỏ trống thêm một lần",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "Đoàn thuyền lương tới sau bị Trần Khánh Dư chặn đánh tan ở Vân Đồn, lương và khí giới bắt được nhiều không kể xiết (điều đầu tiên)",
+   "nguon": "Toàn thư",
+   "doan": 3
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Giặc chiếm thành mà không có lương → tỏa đi cướp, Ô Mã Nhi phá lăng vua Trần Thái Tông → càng cướp càng bị đánh úp, mùa hè sắp tới → Thoát Hoan quyết định rút: quân bộ qua Lạng Sơn, chiến thuyền theo sông Bạch Đằng (điều thứ hai)",
+   "nguon": "Toàn thư",
+   "doan": 5
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Trần Quốc Tuấn cho đóng cọc phủ cỏ ở lòng sông; chỉ xuống sông thề: trận này không phá xong giặc Nguyên thì không về đến sông này nữa",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Ngày mồng tám tháng Ba, thủy triều đang lên, cọc nằm yên dưới nước; toán thuyền nhỏ ra đánh nhử rồi giả thua, hạm đội giặc vẫn đuổi theo",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Thủy triều rút xuống, cọc nhô lên, thuyền giặc mắc cọc vỡ; quân Đại Việt từ hai bờ và trên sông đổ ra; bắt Ô Mã Nhi, Phàn Tiếp, Tích Lệ Cơ, hơn bốn trăm thuyền",
+   "nguon": "Toàn thư",
+   "doan": 3
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Thoát Hoan rút đường bộ bị chặn đánh suốt đường, chạy qua biên giới, từ đó quân nhà Nguyên không sang nữa",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Giải nghĩa \"đánh giặc nhàn\": đánh xa nhà, sống nhờ thuyền lương, mất lương phải rút qua con sông đã chờ sẵn; câu kết: mấy chiếc thuyền nhỏ đã dẫn cả hạm đội vào chỗ chết",
+   "nguon": "diễn giải của người kể",
+   "doan": 2
+  }
+ ]
+}

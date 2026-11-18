@@ -1,0 +1,103 @@
+{
+ "ma": "tm15",
+ "ten": "Trận Cầu Giấy 1873",
+ "n_hua": 2,
+ "loi_hua": "hai thứ: một tòa thành mất trong một buổi sáng, và một bản hòa ước ký sau trận thắng",
+ "cau_hoi": "Chuyện gì chờ Garnier sau gò đất ấy?",
+ "soi_chi": [
+  "Garnier"
+ ],
+ "hinh_anh": [
+  "Cầu Giấy"
+ ],
+ "dem": [
+  "thứ đầu tiên",
+  "thứ hai"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Viên chỉ huy Pháp bỏ thương thuyết đuổi theo",
+   "nguon": "kiểu mở \"trận chiến\"; Wikipedia (Garnier Expedition)",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Pháo sa bùn, chạy lên gò đất ngoài Cầu Giấy",
+   "nguon": "Wikipedia",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Garnier, một tháng trước chiếm Hà Nội với dưới 200 lính",
+   "nguon": "Wikipedia",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Chuyện gì chờ ông? thành mất buổi sáng, hòa ước sau trận thắng",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Pháp đã có sáu tỉnh Nam Kỳ; Dupuis chở vũ khí, muối; Garnier ra Hà Nội, đứng về Dupuis",
+   "nguon": "Wikipedia, Đại Nam thực lục",
+   "doan": 4
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "20/11/1873 thành Hà Nội mất (thứ đầu tiên); Nguyễn Tri Phương bị thương, bị bắt, nhịn ăn mà mất; mất năm tỉnh thành",
+   "nguon": "Wikipedia; Đại Nam thực lục (CẦN đối chiếu việc tuyệt thực)",
+   "doan": 4
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Vài trăm lính nắm gần hết đồng bằng",
+   "nguon": "Wikipedia",
+   "doan": 1
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "Hoàng Kế Viêm ở Sơn Tây, quân Cờ Đen của Lưu Vĩnh Phúc; kéo về khi đang bàn đình chiến",
+   "nguon": "Wikipedia; Đại Nam thực lục",
+   "doan": 3
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "21/12 Cờ Đen đánh tới, bị pháo đẩy lui; Garnier đuổi với 18 lính, 1 pháo",
+   "nguon": "Wikipedia",
+   "doan": 2
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Pháo sa bùn, bỏ lại",
+   "nguon": "Wikipedia",
+   "doan": 1
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Lên gò, phục binh đổ ra, Garnier bị giết; Balny bị giết gần đền Voi Phục",
+   "nguon": "Wikipedia",
+   "doan": 2
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Chết đúng một tháng sau khi chiếm thành",
+   "nguon": "Wikipedia (20/11 và 21/12)",
+   "doan": 1
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Triều đình bàn hòa, Pháp trả thành (thứ hai); hòa ước 15/3/1874 công nhận sáu tỉnh Nam Kỳ, mở sông Hồng",
+   "nguon": "Wikipedia (Treaty of Saigon 1874)",
+   "doan": 2
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Thắng ở Cầu Giấy nhưng phải thừa nhận miền Nam đã mất",
+   "nguon": "tổng kết",
+   "doan": 1
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
+# tm13: Hai Bà Trưng, Lãng Bạc 42 và Cấm Khê 43. Mở đầu kiểu "số phận nhân vật".
+S=[
+('hook1',"Có hai chị em từng làm vua, nhưng đến hôm nay, ta vẫn không biết chắc họ đã mất như thế nào."),
+('hook2',"Một cách kể nói hai bà gieo mình xuống sông Hát. Cách kể khác, từ phía nhà Hán bên Trung Hoa, nói hai bà bị bắt và bị chém."),
+('hook3',"Hai chị em ấy là Trưng Trắc và Trưng Nhị, hai người phụ nữ đã đuổi quan nhà Hán đi và làm vua ba năm."),
+('hook4',"Trước đạo quân nhà Hán kéo sang, hai bà đã giữ đất nước ra sao? Ba nơi sẽ kể lại, Mê Linh, Lãng Bạc, và Cấm Khê."),
+('goc_re',"Chuyện xảy ra gần hai nghìn năm trước, khi nước ta bị nhà Hán cai trị. Vùng đồng bằng sông Hồng khi ấy gọi là quận Giao Chỉ."),
+('goc_re',"Đứng đầu quận là thái thú Tô Định, người dùng luật nhà Hán trói buộc dân. Theo sử ta, ông ta còn giết Thi Sách, chồng bà Trưng Trắc."),
+('goc_re',"Nơi đầu tiên là Mê Linh, quê hai bà, nay thuộc Hà Nội. Mùa xuân năm bốn mươi, hai chị em nổi lên ở đó, đánh thẳng vào quan nhà Hán."),
+('goc_re',"Người các nơi kéo theo rất đông. Tô Định bỏ chạy về nước, hai bà lấy được sáu mươi lăm thành, và bà Trưng Trắc lên làm vua."),
+('the_nguy',"Nhưng nhà Hán không chịu mất đất. Hoàng đế nhà Hán sai Mã Viện, một vị tướng đã quen đánh trận, đem quân sang."),
+('the_nguy',"Theo sử nhà Hán, đạo quân ấy có hơn hai vạn lính cùng hai nghìn chiếc thuyền lớn nhỏ, vừa men theo bờ biển vừa mở đường qua núi mà tiến vào."),
+('the_nguy',"Nơi thứ hai là Lãng Bạc, ở vùng Tiên Du, Bắc Ninh bây giờ. Mùa xuân năm bốn mươi hai, quân hai bên gặp nhau ở đó."),
+('the_nguy',"Quân của hai bà thua to. Mấy nghìn người bị giết, hơn một vạn người ra hàng."),
+('diem_thap',"Hai bà phải rút đi, mất phần lớn quân. Nhìn lúc ấy, đất nước vừa giành lại tưởng như sắp mất."),
+('buoc_ngoat',"Nhưng quân nhà Hán cũng chẳng dễ chịu gì. Đất lạ, mưa dầm, khí nóng ẩm, lính từ phương bắc sang đổ bệnh rất nhiều."),
+('buoc_ngoat',"Sử nhà Hán còn chép lời Mã Viện kể lại, hơi nóng bốc lên dày đến mức chim diều hâu đang bay cũng rơi xuống nước."),
+('buoc_ngoat',"Hai bà thua ở Lãng Bạc nhưng vẫn còn quân, vẫn giữ được một vùng đất nữa. Quân nhà Hán phải đuổi theo."),
+('lan1',"Nơi thứ ba là Cấm Khê. Nhiều nhà nghiên cứu cho rằng đó là vùng chân núi Ba Vì, phía tây Hà Nội bây giờ."),
+('lan1',"Mã Viện đuổi tới, đánh nhiều trận. Quân của hai bà bị cắt đường lương, mỗi trận lại ít đi, nhưng vẫn cố giữ từng bãi, từng làng."),
+('lang',"Đến đầu năm bốn mươi ba, quanh hai bà chỉ còn lại những người theo tới cùng."),
+('cao_trao',"Trận cuối ở Cấm Khê nổ ra. Quân nhà Hán đông hơn nhiều, lại đủ thuyền, đủ lương."),
+('cao_trao',"Hai bà thua. Khoảng giữa năm bốn mươi ba, cuộc kháng cự gần như đã tắt hẳn."),
+('chi_tiet_nguoi',"Từ đây, hai cách kể tách ra. Sử nhà Hán nói hai bà bị bắt và bị chém, còn lời kể của ta nói hai bà gieo mình xuống sông Hát."),
+('don_cuoi',"Phía nhà Hán cũng trả giá đắt. Theo sử nhà Hán, cứ mười lính Mã Viện mang theo thì bốn, năm người đã chết, phần lớn vì bệnh."),
+('don_cuoi',"Mã Viện ở lại sửa luật lệ, chia lại quận huyện, để nhà Hán cai trị chặt hơn trước."),
+('ket',"Hai chị em chỉ làm vua ba năm, nhưng đền thờ hai bà ở Mê Linh, Hát Môn vẫn còn hương khói. Cảm ơn bạn đã lắng nghe câu chuyện này."),
+]
+xuat2(S,'tm13',188001)

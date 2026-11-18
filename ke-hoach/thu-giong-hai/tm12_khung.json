@@ -1,0 +1,110 @@
+{
+ "ma": "tm12",
+ "ten": "Triệu Quang Phục ở đầm Dạ Trạch 546–550",
+ "n_hua": 3,
+ "loi_hua": "ba thứ: một cái đầm, những chiếc thuyền độc mộc, và một lệnh gọi về",
+ "cau_hoi": "Một đạo quân chỉ ra tay trong đêm thì làm sao đuổi được giặc?",
+ "soi_chi": [
+  "đêm"
+ ],
+ "hinh_anh": [
+  "đêm"
+ ],
+ "dem": [
+  "thứ đầu tiên",
+  "thứ hai",
+  "thứ ba"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Đạo quân đánh giặc nhiều năm mà ban ngày không ai thấy",
+   "nguon": "kiểu mở \"nghịch lý\"",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Ngày tắt khói lửa, đêm thuyền nhỏ ra khỏi lau sậy",
+   "nguon": "Toàn thư (CẦN đối chiếu câu \"tắt khói lửa\")",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Triệu Quang Phục, nước Vạn Xuân, Dạ Trạch Vương",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Làm sao đuổi giặc? Đầm, thuyền độc mộc, lệnh gọi về",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Nhà Lương cai trị; Lý Bí lập Vạn Xuân; cha con Triệu Túc theo sớm nhất; Trần Bá Tiên sang",
+   "nguon": "Toàn thư, Lương thư",
+   "doan": 4
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Lý Nam Đế thua, rút lên núi Phú Thọ (Khuất Lão), giao binh quyền",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Quân nhỏ trước đại quân vừa thắng",
+   "nguon": "diễn giải",
+   "doan": 1
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "Vào đầm Dạ Trạch (thứ đầu tiên): bãi nổi, lạch nhỏ, ngày tắt khói lửa",
+   "nguon": "Toàn thư; Phan Huy Chú mô tả đầm",
+   "doan": 4
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Thuyền độc mộc (thứ hai) đánh úp doanh trại, cướp lương",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "lan2",
+   "su_viec": "Bá Tiên đánh mãi không được; kế trì cửu",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Đánh úp chưa đuổi được giặc; Lý Nam Đế mất (548)",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Xưng Triệu Việt Vương; dân gọi Dạ Trạch Vương",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "550 nhà Lương loạn Hầu Cảnh, gọi Bá Tiên về (thứ ba); Dương Sàn chết, quân Lương chạy",
+   "nguon": "Toàn thư, Lương thư",
+   "doan": 3
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Vào Long Biên; làm vua hơn 20 năm tới khi mất ngôi vào Lý Phật Tử (571)",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Những đêm trong đầm giữ đạo quân sống tới ngày giặc gọi tướng về",
+   "nguon": "tổng kết, đúng tác nhân",
+   "doan": 1
+  }
+ ]
+}

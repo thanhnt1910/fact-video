@@ -1,0 +1,218 @@
+[
+ {
+  "n": 187001,
+  "chuong": 1,
+  "nhip": "hook1",
+  "tone": "story",
+  "text": "Có một đạo quân đánh giặc suốt nhiều năm, mà ban ngày không ai nhìn thấy họ.",
+  "hien": "Có một đạo quân đánh giặc suốt nhiều năm, mà ban ngày không ai nhìn thấy họ."
+ },
+ {
+  "n": 187002,
+  "chuong": 1,
+  "nhip": "hook2",
+  "tone": "story",
+  "text": "Ban ngày, vùng đầm lặng ngắt như không có người. Đêm xuống, từng chiếc thuyền nhỏ mới lặng lẽ trườn ra khỏi đám lau sậy.",
+  "hien": "Ban ngày, vùng đầm lặng ngắt như không có người. Đêm xuống, từng chiếc thuyền nhỏ mới lặng lẽ trườn ra khỏi đám lau sậy."
+ },
+ {
+  "n": 187003,
+  "chuong": 1,
+  "nhip": "hook3",
+  "tone": "story",
+  "text": "Người chỉ huy là Triệu Quang Phục, một vị tướng của nước Vạn Xuân, tên nước ta khi ấy. Người đời gọi ông là Dạ Trạch Vương, vua của đầm đêm.",
+  "hien": "Người chỉ huy là Triệu Quang Phục, một vị tướng của nước Vạn Xuân, tên nước ta khi ấy. Người đời gọi ông là Dạ Trạch Vương, vua của đầm đêm."
+ },
+ {
+  "n": 187004,
+  "chuong": 1,
+  "nhip": "hook4",
+  "tone": "story",
+  "text": "Đạo quân chỉ ra tay trong đêm thì làm sao đuổi được giặc? Có ba thứ sẽ kể lại, một cái đầm, những chiếc thuyền độc mộc, và một lệnh gọi về.",
+  "hien": "Đạo quân chỉ ra tay trong đêm thì làm sao đuổi được giặc? Có ba thứ sẽ kể lại, một cái đầm, những chiếc thuyền độc mộc, và một lệnh gọi về."
+ },
+ {
+  "n": 187005,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Chuyện xảy ra gần một nghìn năm trăm năm trước, khi nước ta bị nhà Lương bên Trung Hoa cai trị.",
+  "hien": "Chuyện xảy ra gần một nghìn năm trăm năm trước, khi nước ta bị nhà Lương bên Trung Hoa cai trị."
+ },
+ {
+  "n": 187006,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Quan nhà Lương bóc lột nặng, nên một hào trưởng tên Lý Bí đứng lên đuổi chúng đi, lập ra nước Vạn Xuân rồi lên ngôi, gọi là Lý Nam Đế.",
+  "hien": "Quan nhà Lương bóc lột nặng, nên một hào trưởng tên Lý Bí đứng lên đuổi chúng đi, lập ra nước Vạn Xuân rồi lên ngôi, gọi là Lý Nam Đế."
+ },
+ {
+  "n": 187007,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Cha con Triệu Quang Phục, người Chu Diên, tức vùng Hưng Yên bây giờ, là những người sớm nhất đem quân theo Lý Bí.",
+  "hien": "Cha con Triệu Quang Phục, người Chu Diên, tức vùng Hưng Yên bây giờ, là những người sớm nhất đem quân theo Lý Bí."
+ },
+ {
+  "n": 187008,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Nhà Lương không chịu mất đất. Vua Lương sai tướng Trần Bá Tiên đem quân sang đánh nước Vạn Xuân.",
+  "hien": "Nhà Lương không chịu mất đất. Vua Lương sai tướng Trần Bá Tiên đem quân sang đánh nước Vạn Xuân."
+ },
+ {
+  "n": 187009,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Quân của Lý Nam Đế thua liền mấy trận, phải rút dần lên vùng núi Phú Thọ bây giờ.",
+  "hien": "Quân của Lý Nam Đế thua liền mấy trận, phải rút dần lên vùng núi Phú Thọ bây giờ."
+ },
+ {
+  "n": 187010,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Ở đó, Lý Nam Đế giao lại binh quyền cho Triệu Quang Phục, để ông đánh tiếp quân nhà Lương ở dưới đồng bằng.",
+  "hien": "Ở đó, Lý Nam Đế giao lại binh quyền cho Triệu Quang Phục, để ông đánh tiếp quân nhà Lương ở dưới đồng bằng."
+ },
+ {
+  "n": 187011,
+  "chuong": 3,
+  "nhip": "diem_thap",
+  "tone": "story",
+  "text": "Trong tay ông chỉ còn một đạo quân nhỏ, trước mặt là đại quân của Trần Bá Tiên vừa thắng liền mấy trận.",
+  "hien": "Trong tay ông chỉ còn một đạo quân nhỏ, trước mặt là đại quân của Trần Bá Tiên vừa thắng liền mấy trận."
+ },
+ {
+  "n": 187012,
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Ông không giữ thành, cũng không bày trận đánh thẳng. Ông đưa quân vào đầm Dạ Trạch, ở vùng Khoái Châu, Hưng Yên bây giờ.",
+  "hien": "Ông không giữ thành, cũng không bày trận đánh thẳng. Ông đưa quân vào đầm Dạ Trạch, ở vùng Khoái Châu, Hưng Yên bây giờ."
+ },
+ {
+  "n": 187013,
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Thứ đầu tiên là chính cái đầm ấy. Đầm rộng mênh mông, lau sậy um tùm, giữa đầm có một bãi đất nổi đủ cho quân ở và cày cấy.",
+  "hien": "Thứ đầu tiên là chính cái đầm ấy. Đầm rộng mênh mông, lau sậy um tùm, giữa đầm có một bãi đất nổi đủ cho quân ở và cày cấy."
+ },
+ {
+  "n": 187014,
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Đường vào chỉ là mấy con lạch nhỏ, lẫn trong cỏ nước. Người lạ đi vào rất dễ lạc, thuyền lớn và ngựa thì không qua nổi.",
+  "hien": "Đường vào chỉ là mấy con lạch nhỏ, lẫn trong cỏ nước. Người lạ đi vào rất dễ lạc, thuyền lớn và ngựa thì không qua nổi."
+ },
+ {
+  "n": 187015,
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Theo sử cũ, ban ngày quân trong đầm tắt hết khói lửa, giấu kín mọi dấu người. Chỉ khi đêm xuống, họ mới ra tay.",
+  "hien": "Theo sử cũ, ban ngày quân trong đầm tắt hết khói lửa, giấu kín mọi dấu người. Chỉ khi đêm xuống, họ mới ra tay."
+ },
+ {
+  "n": 187016,
+  "chuong": 5,
+  "nhip": "lan1",
+  "tone": "story",
+  "text": "Thứ hai là những chiếc thuyền độc mộc, khoét từ một thân cây, nhỏ và nhẹ, lướt được trên cỏ nước.",
+  "hien": "Thứ hai là những chiếc thuyền độc mộc, khoét từ một thân cây, nhỏ và nhẹ, lướt được trên cỏ nước."
+ },
+ {
+  "n": 187017,
+  "chuong": 5,
+  "nhip": "lan1",
+  "tone": "story",
+  "text": "Đêm đêm, thuyền độc mộc lặng lẽ ra khỏi đầm, đánh úp doanh trại quân nhà Lương, giết và bắt được nhiều người, cướp cả lương ăn mang về.",
+  "hien": "Đêm đêm, thuyền độc mộc lặng lẽ ra khỏi đầm, đánh úp doanh trại quân nhà Lương, giết và bắt được nhiều người, cướp cả lương ăn mang về."
+ },
+ {
+  "n": 187018,
+  "chuong": 6,
+  "nhip": "lan2",
+  "tone": "story",
+  "text": "Trần Bá Tiên đánh mãi mà không phá được đầm. Ông chỉ còn cách đóng quân giữ đất, chịu những trận đánh úp không biết lúc nào tới.",
+  "hien": "Trần Bá Tiên đánh mãi mà không phá được đầm. Ông chỉ còn cách đóng quân giữ đất, chịu những trận đánh úp không biết lúc nào tới."
+ },
+ {
+  "n": 187019,
+  "chuong": 6,
+  "nhip": "lan2",
+  "tone": "story",
+  "text": "Kế ấy sử gọi là kế cầm cự lâu dài, đánh nhỏ, đánh lâu, để giặc mỏi dần. Mỗi đêm, quân nhà Lương lại mất thêm người, mất thêm lương.",
+  "hien": "Kế ấy sử gọi là kế cầm cự lâu dài, đánh nhỏ, đánh lâu, để giặc mỏi dần. Mỗi đêm, quân nhà Lương lại mất thêm người, mất thêm lương."
+ },
+ {
+  "n": 187020,
+  "chuong": 7,
+  "nhip": "lang",
+  "tone": "story",
+  "text": "Nhưng đánh úp chỉ làm giặc mỏi, chưa đuổi được giặc. Đến khi Lý Nam Đế mất trên núi, quân nhà Lương vẫn đóng ở đồng bằng.",
+  "hien": "Nhưng đánh úp chỉ làm giặc mỏi, chưa đuổi được giặc. Đến khi Lý Nam Đế mất trên núi, quân nhà Lương vẫn đóng ở đồng bằng."
+ },
+ {
+  "n": 187021,
+  "chuong": 7,
+  "nhip": "chi_tiet_nguoi",
+  "tone": "story",
+  "text": "Tin ấy về tới đầm. Triệu Quang Phục xưng là Triệu Việt Vương, còn người trong nước thì gọi ông bằng cái tên gắn với đầm đêm, Dạ Trạch Vương.",
+  "hien": "Tin ấy về tới đầm. Triệu Quang Phục xưng là Triệu Việt Vương, còn người trong nước thì gọi ông bằng cái tên gắn với đầm đêm, Dạ Trạch Vương."
+ },
+ {
+  "n": 187022,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Thứ ba là một lệnh gọi về. Năm năm trăm năm mươi, nhà Lương có loạn lớn, vua Lương gọi gấp Trần Bá Tiên về nước.",
+  "hien": "Thứ ba là một lệnh gọi về. Năm năm trăm năm mươi, nhà Lương có loạn lớn, vua Lương gọi gấp Trần Bá Tiên về nước."
+ },
+ {
+  "n": 187023,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Ở lại chỉ còn một viên phó tướng tên Dương Sàn. Triệu Việt Vương lập tức đem quân ra khỏi đầm, đánh thẳng vào quân nhà Lương.",
+  "hien": "Ở lại chỉ còn một viên phó tướng tên Dương Sàn. Triệu Việt Vương lập tức đem quân ra khỏi đầm, đánh thẳng vào quân nhà Lương."
+ },
+ {
+  "n": 187024,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Dương Sàn chết trận. Quân nhà Lương tan vỡ, kéo nhau chạy về phương bắc.",
+  "hien": "Dương Sàn chết trận. Quân nhà Lương tan vỡ, kéo nhau chạy về phương bắc."
+ },
+ {
+  "n": 187025,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Triệu Việt Vương vào thành Long Biên, ở vùng Bắc Ninh, Hà Nội bây giờ, sau bốn năm sống trong đầm lầy.",
+  "hien": "Triệu Việt Vương vào thành Long Biên, ở vùng Bắc Ninh, Hà Nội bây giờ, sau bốn năm sống trong đầm lầy."
+ },
+ {
+  "n": 187026,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Ông làm vua nước Vạn Xuân hơn hai mươi năm, cho tới khi mất ngôi vào tay Lý Phật Tử, một người trong họ Lý.",
+  "hien": "Ông làm vua nước Vạn Xuân hơn hai mươi năm, cho tới khi mất ngôi vào tay Lý Phật Tử, một người trong họ Lý."
+ },
+ {
+  "n": 187027,
+  "chuong": 9,
+  "nhip": "ket",
+  "tone": "story",
+  "text": "Những đêm trong đầm Dạ Trạch đã giữ cho đạo quân ấy còn sống, cho tới ngày giặc phải gọi tướng về. Cảm ơn bạn đã lắng nghe câu chuyện này.",
+  "hien": "Những đêm trong đầm Dạ Trạch đã giữ cho đạo quân ấy còn sống, cho tới ngày giặc phải gọi tướng về. Cảm ơn bạn đã lắng nghe câu chuyện này."
+ }
+]

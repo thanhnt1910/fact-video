@@ -1,0 +1,31 @@
+import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
+# tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861. Mở đầu kiểu "sự kiện bất ngờ".
+S=[
+('hook1',"Giữa trưa, năm chiếc ghe nhỏ lặng lẽ áp sát một chiếc tàu có súng của quân Pháp."),
+('hook2',"Người trên ghe không có súng, chỉ có dao và giáo. Ít lâu sau, chiếc tàu ấy bốc cháy trên sông."),
+('hook3',"Dẫn đầu là Nguyễn Trung Trực, một người làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc."),
+('hook4',"Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy? Có hai thứ sẽ kể lại, một cách giả làm ghe buôn, và một câu nói về cỏ."),
+('goc_re',"Chuyện xảy ra hơn một trăm sáu mươi năm trước, ở vùng Long An bây giờ. Khi ấy quân Pháp đã nổ súng đánh nước ta, chiếm dần các tỉnh miền Nam."),
+('goc_re',"Họ muốn biến đất này thành thuộc địa, đất do nước Pháp cai trị. Đầu năm ấy, đại đồn Chí Hòa ở Sài Gòn vỡ, quân triều đình nhà Nguyễn phải rút."),
+('goc_re',"Ở làng quê, nhiều người dân tự đứng lên. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp."),
+('the_nguy',"Quân Pháp có súng tốt, có tàu chạy trên các sông lớn, chặn cả đường chở gạo của dân."),
+('the_nguy',"Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh Nhật Tảo đổ ra sông Vàm Cỏ."),
+('diem_thap',"Ghe của nghĩa quân nhỏ, vũ khí chỉ có dao, giáo. Nhìn lúc ấy, đánh thẳng vào con tàu có súng chẳng khác gì tự nộp mạng."),
+('buoc_ngoat',"Nguyễn Trung Trực chia khoảng một trăm năm mươi người làm ba toán, mỗi toán một việc."),
+('buoc_ngoat',"Một toán đánh vào một làng theo Pháp gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu."),
+('buoc_ngoat',"Thứ đầu tiên là cách giả làm ghe buôn. Theo lời kể, toán của ông giả làm người buôn gạo đến xin giấy đi lại, có sách nói là giả đám cưới."),
+('buoc_ngoat',"Súng lớn trên tàu chỉ đáng sợ khi kẻ địch còn ở xa. Chỉ cần áp sát mạn tàu mà không bị nghi, ghe nhỏ sẽ không còn thua thiệt."),
+('lan1',"Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất kéo đi đánh làng, để nhử lính Pháp."),
+('lan1',"Cùng lúc ấy, năm chiếc ghe của Nguyễn Trung Trực từ từ cặp vào mạn tàu Hy Vọng, như những chiếc ghe buôn bình thường."),
+('lang',"Trên tàu có mấy chục người, súng đạn đầy đủ. Chỉ cần họ nhận ra, cả toán sẽ bị bắn ngay sát mạn tàu."),
+('cao_trao',"Họ đã nhảy được lên tàu. Dao, giáo đánh giáp lá cà, lính trên tàu trở tay không kịp."),
+('cao_trao',"Một toán khác lội nước tới, dùng rìu phá thân tàu rồi châm lửa. Tàu Hy Vọng bốc cháy."),
+('cao_trao',"Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven sông."),
+('chi_tiet_nguoi',"Tin về tới kinh thành Huế. Vua Tự Đức khen trận ấy và thăng chức cho người chài lưới đã cầm đầu."),
+('don_cuoi',"Nửa năm sau, triều đình ký hòa ước, cắt ba tỉnh miền Đông Nam Bộ cho Pháp, rồi bảo nghĩa quân thôi đánh. Nguyễn Trung Trực vẫn không buông giáo."),
+('don_cuoi',"Năm một nghìn tám trăm sáu mươi tám, ông đánh chiếm đồn Pháp ở Rạch Giá. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông."),
+('don_cuoi',"Thứ hai là câu nói về cỏ. Bị dụ hàng, theo lời kể, ông đáp bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây."),
+('don_cuoi',"Ngày hai mươi bảy tháng mười năm ấy, Nguyễn Trung Trực bị quân Pháp xử chém ở Rạch Giá, khi mới khoảng ba mươi tuổi."),
+('ket',"Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người chài lưới ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này."),
+]
+xuat2(S,'tm14',189001)

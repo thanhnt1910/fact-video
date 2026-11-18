@@ -1,0 +1,103 @@
+{
+ "ma": "tm14",
+ "ten": "Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861",
+ "n_hua": 2,
+ "loi_hua": "hai thứ: một cách giả làm ghe buôn, và một câu nói về cỏ",
+ "cau_hoi": "Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy?",
+ "soi_chi": [
+  "ghe"
+ ],
+ "hinh_anh": [
+  "cỏ"
+ ],
+ "dem": [
+  "thứ đầu tiên",
+  "thứ hai"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Giữa trưa, năm ghe nhỏ áp sát tàu Pháp",
+   "nguon": "kiểu mở \"sự kiện bất ngờ\"; Wikipedia dẫn sử Pháp",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Không súng, chỉ dao giáo; tàu bốc cháy",
+   "nguon": "Wikipedia (Nguyễn Trung Trực)",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Nguyễn Trung Trực, người chài lưới; câu nói về cỏ",
+   "nguon": "báo Pháp luật; lsvn",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Làm sao ghe nhỏ đốt được tàu? giả ghe buôn, câu nói về cỏ",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Pháp đánh miền Nam; Chí Hòa vỡ 2/1861; nghĩa quân Trương Định",
+   "nguon": "Đại Nam thực lục; Wikipedia",
+   "doan": 3
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Tàu Pháp chặn sông; tàu Hy Vọng ở vàm Nhật Tảo",
+   "nguon": "Wikipedia; vietnamplus",
+   "doan": 2
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Ghe nhỏ, dao giáo, đánh thẳng là nộp mạng",
+   "nguon": "diễn giải",
+   "doan": 1
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "150 người, ba toán; giả ghe buôn xin giấy (thứ đầu tiên); súng lớn vô dụng khi áp sát",
+   "nguon": "Wikipedia (dẫn tư liệu Pháp); chuyện đám cưới là lời kể khác",
+   "doan": 4
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Trưa 10/12/1861, toán nhử; năm ghe cặp mạn tàu",
+   "nguon": "Wikipedia",
+   "doan": 2
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Trên tàu mấy chục người, súng đầy đủ",
+   "nguon": "Wikipedia (số người trên tàu các nguồn khác nhau)",
+   "doan": 1
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Nhảy lên tàu, giáp lá cà; phá thân tàu, đốt; vài người trốn thoát",
+   "nguon": "Wikipedia",
+   "doan": 3
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Tự Đức khen, thăng chức",
+   "nguon": "Wikipedia, Đại Nam thực lục (CẦN đối chiếu chức)",
+   "doan": 1
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Hòa ước 1862 cắt ba tỉnh; 1868 chiếm đồn Rạch Giá; mẹ bị bắt làm con tin; câu nói về cỏ (thứ hai); bị chém 27/10/1868",
+   "nguon": "Wikipedia; lsvn",
+   "doan": 4
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Con tàu cháy và câu nói về cỏ",
+   "nguon": "tổng kết",
+   "doan": 1
+  }
+ ]
+}

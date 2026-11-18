@@ -1,0 +1,30 @@
+import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
+# tm15: Cầu Giấy 21/12/1873. Mở đầu kiểu "trận chiến" (mở giữa khoảnh khắc).
+S=[
+('hook1',"Một viên chỉ huy người Pháp bỏ dở cuộc thương thuyết, dẫn mười mấy lính đuổi theo một toán quân vừa rút."),
+('hook2',"Khẩu pháo theo sau sa xuống bùn. Ông bỏ pháo lại, chạy lên một gò đất ngoài Cầu Giấy, phía tây Hà Nội."),
+('hook3',"Người ấy là Francis Garnier, chỉ một tháng trước đã chiếm thành Hà Nội với chưa tới hai trăm lính."),
+('hook4',"Chuyện gì chờ Garnier sau gò đất ấy? Có hai thứ sẽ kể lại, một tòa thành mất trong một buổi sáng, và một bản hòa ước ký sau trận thắng."),
+('goc_re',"Hơn một trăm năm mươi năm trước, quân Pháp đã chiếm cả sáu tỉnh Nam Kỳ, tức miền Nam, và bắt đầu nhòm ngó miền Bắc."),
+('goc_re',"Cớ để ra Bắc là một lái buôn người Pháp tên Jean Dupuis. Ông ta chở vũ khí và muối ngược sông Hồng, trái lệnh cấm của triều đình nhà Nguyễn."),
+('goc_re',"Triều đình nhờ người Pháp ở Sài Gòn đưa Dupuis đi. Viên đô đốc Pháp ở đó sai Garnier ra Hà Nội, mang theo khoảng hai trăm lính và hai chiếc tàu."),
+('goc_re',"Nhưng tới nơi, Garnier lại đứng về phía Dupuis, rồi tính chuyện dùng quân để ép triều đình."),
+('the_nguy',"Thứ đầu tiên là thành Hà Nội. Rạng sáng hai mươi tháng mười một, Garnier đánh thành, trong khi trong thành có khoảng bảy nghìn quân giữ."),
+('the_nguy',"Chỉ trong một buổi sáng, thành mất. Vị tướng già giữ thành là Nguyễn Tri Phương bị thương nặng và bị bắt, con trai ông chết trận."),
+('the_nguy',"Theo sử triều Nguyễn, ông không chịu để quân Pháp chữa vết thương, nhịn ăn cho tới khi mất."),
+('the_nguy',"Rồi chỉ trong vài tuần, quân của Garnier chiếm thêm năm tỉnh thành quanh Hà Nội, từ Hưng Yên, Hải Dương tới Ninh Bình, Nam Định."),
+('diem_thap',"Vài trăm lính Pháp đã nắm gần hết đồng bằng Bắc Bộ. Nhìn lúc ấy, miền Bắc tưởng như sắp đi theo con đường của miền Nam."),
+('buoc_ngoat',"Nhưng ở Sơn Tây, phía tây Hà Nội, quân triều đình vẫn còn nguyên. Người chỉ huy là Hoàng Kế Viêm, một vị tướng của nhà Nguyễn."),
+('buoc_ngoat',"Đi cùng ông là quân Cờ Đen của Lưu Vĩnh Phúc, một đạo quân người Hoa từ bên kia biên giới sang, được triều đình dùng để đánh giặc."),
+('buoc_ngoat',"Trong lúc sứ thần của triều đình còn đang bàn chuyện đình chiến, hai cánh quân ấy kéo về sát Hà Nội, nhắm vào Garnier."),
+('lan1',"Sáng hai mươi mốt tháng mười hai, quân Cờ Đen đánh tới sát thành. Súng lớn của Pháp bắn ra, quân Cờ Đen lui lại."),
+('lan1',"Garnier bỏ dở cuộc thương thuyết, dẫn mười tám lính và một khẩu pháo đuổi theo, về phía Cầu Giấy."),
+('lang',"Đường ra Cầu Giấy toàn ruộng nước, khẩu pháo sa xuống bùn. Garnier bỏ pháo lại mà vẫn đuổi tiếp."),
+('cao_trao',"Ông chạy lên một gò đất. Quân Cờ Đen phục sẵn liền đổ ra."),
+('cao_trao',"Garnier bị giết ngay tại chỗ. Cùng lúc ấy, một viên sĩ quan Pháp khác đánh vòng bên sườn cũng bị giết gần đền Voi Phục."),
+('chi_tiet_nguoi',"Người chiếm thành Hà Nội trong một buổi sáng đã chết đúng một tháng sau, giữa cánh đồng Cầu Giấy."),
+('don_cuoi',"Thứ hai là bản hòa ước. Triều đình không đánh tiếp mà chọn bàn hòa, quân Pháp rút khỏi Hà Nội và trả lại các tỉnh thành đã chiếm."),
+('don_cuoi',"Đổi lại, trong hòa ước ký đầu năm sau, nhà Nguyễn phải công nhận cả sáu tỉnh Nam Kỳ thuộc về Pháp, và mở sông Hồng cho người Pháp buôn bán."),
+('ket',"Thắng ở Cầu Giấy, nhưng trên bàn hòa ước, nhà Nguyễn vẫn phải thừa nhận cả miền Nam đã mất. Cảm ơn bạn đã lắng nghe câu chuyện này."),
+]
+xuat2(S,'tm15',190001)

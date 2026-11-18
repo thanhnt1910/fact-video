@@ -1,0 +1,103 @@
+{
+ "ma": "tm11",
+ "ten": "Dương Đình Nghệ lấy lại Đại La 931",
+ "n_hua": 2,
+ "loi_hua": "hai thứ: ba nghìn người con nuôi, và một viên tướng thân cận trở mặt",
+ "cau_hoi": "Vì sao thành Đại La phải lấy lại tới hai lần?",
+ "soi_chi": [
+  "Đại La"
+ ],
+ "hinh_anh": [
+  "Đại La"
+ ],
+ "dem": [
+  "thứ đầu tiên",
+  "thứ hai"
+ ],
+ "nhip": [
+  {
+   "nhip": "hook1",
+   "su_viec": "Nhắc chuyện thắng Nam Hán người ta chỉ nhớ Ngô Quyền, Bạch Đằng",
+   "nguon": "kiểu mở \"sự thật bị hiểu nhầm\"",
+   "doan": 1
+  },
+  {
+   "nhip": "hook2",
+   "su_viec": "Bảy năm trước Bạch Đằng, Nam Hán đã bị đuổi khỏi Đại La",
+   "nguon": "Toàn thư (931)",
+   "doan": 1
+  },
+  {
+   "nhip": "hook3",
+   "su_viec": "Dương Đình Nghệ cầm quân; Ngô Quyền là tướng dưới quyền",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "hook4",
+   "su_viec": "Vì sao Đại La phải lấy lại hai lần? Con nuôi và người trở mặt",
+   "nguon": "lời hứa",
+   "doan": 1
+  },
+  {
+   "nhip": "goc_re",
+   "su_viec": "Nhà Đường sụp; họ Khúc tự chủ; Nam Hán ở Quảng Đông muốn chiếm",
+   "nguon": "Toàn thư, Tân Ngũ đại sử",
+   "doan": 3
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Năm 930 Nam Hán bắt người đứng đầu họ Khúc; Lý Tiến giữ Đại La",
+   "nguon": "Toàn thư (CẦN đối chiếu năm 930/923)",
+   "doan": 2
+  },
+  {
+   "nhip": "diem_thap",
+   "su_viec": "Họ Khúc mất, chưa ai cầm quân",
+   "nguon": "diễn giải",
+   "doan": 1
+  },
+  {
+   "nhip": "buoc_ngoat",
+   "su_viec": "Dương Đình Nghệ ở Ái Châu nuôi 3.000 giả tử (thứ đầu tiên); 931 vây Đại La",
+   "nguon": "Tư trị thông giám, Toàn thư (CẦN đối chiếu con số 3.000)",
+   "doan": 4
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Lý Tiến cầu cứu rồi bỏ thành chạy về; Đại La lần đầu",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "lang",
+   "su_viec": "Quân cứu viện Trần Bảo kéo sang",
+   "nguon": "Toàn thư",
+   "doan": 1
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Đình Nghệ ra đánh, chém Trần Bảo",
+   "nguon": "Toàn thư",
+   "doan": 2
+  },
+  {
+   "nhip": "chi_tiet_nguoi",
+   "su_viec": "Gả con gái cho Ngô Quyền, giao giữ Ái Châu",
+   "nguon": "Toàn thư (kỷ nhà Ngô)",
+   "doan": 1
+  },
+  {
+   "nhip": "don_cuoi",
+   "su_viec": "Tự xưng Tiết độ sứ 6 năm; 937 Kiều Công Tiễn giết (thứ hai); Ngô Quyền giết Công Tiễn, lấy lại Đại La lần hai",
+   "nguon": "Toàn thư",
+   "doan": 3
+  },
+  {
+   "nhip": "ket",
+   "su_viec": "Bạch Đằng có gốc từ Đại La năm ấy",
+   "nguon": "diễn giải, nói rõ là cách nhìn",
+   "doan": 1
+  }
+ ]
+}

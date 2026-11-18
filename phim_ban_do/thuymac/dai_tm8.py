@@ -177,7 +177,27 @@ S=lambda n:T[n]-.3
 SH=[(0,S(2),S_1),(S(2),S(3),S_2),(S(3),S(4),S_3),(S(4),S(5),S_4),(S(5),S(7),S_map),(S(7),S(9),S_7),(S(9),S(11),S_9),(S(11),S(12),S_map),
  (S(12),S(14),S_12),(S(14),S(16),S_14),(S(16),S(17),S_16),(S(17),S(19),S_17),(S(19),S(22),S_19),(S(22),S(24),S_22),(S(24),S(25),S_24),(S(25),V.TOTAL+1,S_end)]
 def ov(cv,t):
-    if T[5]-4.2<t<T[5]+.2: title(cv,t,T[5]-3.6,'CHI LĂNG · XƯƠNG GIANG','stitle8',.55)
+    TT=V.TTL or T[5]
+    if TT-4.2<t<TT+.2: title(cv,t,TT-3.6,'CHI LĂNG · XƯƠNG GIANG','stitle8',.55)
+V.NHAN={2: 'Liễu Thăng – tướng nhà Minh', 6: 'Mộc Thạnh – tướng nhà Minh', 9: 'Trần Lựu – tướng Lam Sơn', 12: 'Chi Lăng – Lạng Sơn ngày nay', 16: 'Lương Minh, Lý Khánh – tướng, quan nhà Minh', 17: ['Thôi Tụ, Hoàng Phúc – tướng, quan nhà Minh', 'Xương Giang – Bắc Giang ngày nay']}
+def S_chen(cv,t):
+    ks=sorted(k for k in V.T if 4<k<5);a,b=V.T[ks[0]],V.E[ks[-1]]
+    cx,cy,z=cpath(t,[(a-.3,(600,600,1.3)),(b+.3,(560,620,1.5))]);c=cam(min(max(cx,960/z),1920-960/z),min(max(cy,540/z),1080-540/z),z)
+    mapbg(cv,c,u=1)
+    tl,th=P['thanglong'],P['thanhhoa']
+    lb(cv,c,'gần sáu trăm năm trước',900,640,t,a+.3,b+.3,sz=30)
+    lb(cv,c,'nhà Minh cai trị nước ta hai mươi năm',900,690,t,mid(ks[0],.5),b+.3,col=RED,sz=30)
+    if t>V.T[ks[-1]]-.2:
+        dot(cv,c,*th,o=1);tag(cv,c,th[0]+60,th[1],'Thanh Hóa',dy=0,sz=24)
+        stroke(cv,c,[th,(th[0]-10,th[1]-90),(tl[0]-6,tl[1]+30)],inn(t,V.T[ks[-1]]+.2,2),wid=9,col=INK)
+        lb(cv,c,'nghĩa quân Lam Sơn · Lê Lợi',th[0]+160,th[1]-70,t,V.T[ks[-1]]+.2,b+.3,sz=26)
+        dot(cv,c,*tl,o=1,col=RED);tag(cv,c,tl[0]+20,tl[1]-26,'Đông Quan – Hà Nội ngày nay',o=inn(t,mid(ks[-1],.6),.4),dy=0,sz=24,col=RED)
+
+def _chen_sh():
+    if V.TTL:
+        i=[k for k,s in enumerate(SH) if s[2] is S_4][0];a0,b0,fn=SH[i];k1=min(k for k in V.T if 4<k<5)
+        SH[i]=(a0,V.T[k1]-.3,fn);SH.insert(i+1,(V.T[k1]-.3,b0,S_chen))
+_chen_sh()
 def frame(t): return K.compose(V,SH,t,ov,CARDS)
 TOTAL=V.TOTAL
 if __name__=='__main__': K.main(V,frame)

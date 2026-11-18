@@ -184,7 +184,27 @@ S=lambda n:T[n]-.3
 SH=[(0,S(2),S_1),(S(2),S(3),S_2),(S(3),S(4),S_3),(S(4),S(5),S_4),(S(5),S(6),S_5),(S(6),S(7),S_6),(S(7),S(8),S_7),(S(8),S(9),S_8),(S(9),S(10),S_9),(S(10),S(11),S_10),
  (S(11),S(13),S_11),(S(13),S(14),S_13),(S(14),S(17),S_14),(S(17),S(19),S_17),(S(19),S(22),S_19),(S(22),S(24),S_22),(S(24),V.TOTAL+1,S_end)]
 def ov(cv,t):
-    if T[5]-4.2<t<T[5]+.2: title(cv,t,T[5]-3.6,'RẠCH GẦM · XOÀI MÚT','stitle9',.55)
+    TT=V.TTL or T[5]
+    if TT-4.2<t<TT+.2: title(cv,t,TT-3.6,'RẠCH GẦM · XOÀI MÚT','stitle9',.55)
+V.NHAN={2: 'Nguyễn Ánh – người còn lại của họ Nguyễn', 3: 'nước Xiêm – Thái Lan ngày nay', 7: 'Chiêu Tăng, Chiêu Sương – tướng nước Xiêm', 13: 'Nguyễn Huệ – em Nguyễn Nhạc, chỉ huy quân Tây Sơn', 15: 'Rạch Gầm, Xoài Mút – Tiền Giang ngày nay'}
+def S_chen(cv,t):
+    ks=sorted(k for k in V.T if 4<k<5);a,b=V.T[ks[0]],V.E[ks[-1]]
+    c=cam(960,560,1.0+.02*(t-a))
+    put(cv,c,'mist',960,560,s=5,o=.5)
+    lb(cv,c,'hơn hai trăm năm trước',960,150,t,a+.3,b+.3,sz=36)
+    cols=[(480,'CHÚA TRỊNH','phía bắc',INK),(1440,'CHÚA NGUYỄN','phía nam',INK)]
+    for k,(x,nm,sub,col) in enumerate(cols):
+        o=inn(t,mid(ks[0],.4)+k*.4,.5);put_screen(cv,text(nm,60,col,700,glow=4),x,420,o);put_screen(cv,text(sub,32,INK,600,glow=3),x,490,o)
+    stroke(cv,c,[(960,330),(965,620)],inn(t,mid(ks[0],.5),.6),wid=6,head=False,o=.8)
+    if t>V.T[ks[-1]]-.2:
+        o=inn(t,V.T[ks[-1]]+.2,.5);put_screen(cv,text('NHÀ TÂY SƠN',60,RED,700,glow=4),1440,640,o);put_screen(cv,text('ba anh em ở Quy Nhơn nổi dậy',32,RED,600,glow=3),1440,710,o)
+        stroke(cv,c,[(1440,600),(1440,520)],inn(t,mid(ks[-1],.5),.6),wid=8,col=RED)
+
+def _chen_sh():
+    if V.TTL:
+        i=[k for k,s in enumerate(SH) if s[2] is S_4][0];a0,b0,fn=SH[i];k1=min(k for k in V.T if 4<k<5)
+        SH[i]=(a0,V.T[k1]-.3,fn);SH.insert(i+1,(V.T[k1]-.3,b0,S_chen))
+_chen_sh()
 def frame(t): return K.compose(V,SH,t,ov,CARDS)
 TOTAL=V.TOTAL
 if __name__=='__main__': K.main(V,frame)

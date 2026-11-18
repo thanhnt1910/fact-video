@@ -177,7 +177,28 @@ S=lambda n:T[n]-.3
 SH=[(0,S(2),S_1),(S(2),S(3),S_2),(S(3),S(4),S_3),(S(4),S(5),S_4),(S(5),S(6),S_5),(S(6),S(7),S_map),(S(7),S(8),S_7),(S(8),S(10),S_8),(S(10),S(11),S_10),
  (S(11),S(12),S_11),(S(12),S(14),S_12),(S(14),S(16),S_14),(S(16),S(18),S_16),(S(18),S(20),S_18),(S(20),S(21),S_20),(S(21),S(22),S_21),(S(22),S(24),S_22),(S(24),V.TOTAL+1,S_end)]
 def ov(cv,t):
-    if T[5]-4.2<t<T[5]+.2: title(cv,t,T[5]-3.6,'NGỌC HỒI · ĐỐNG ĐA','stitle10',.55)
+    TT=V.TTL or T[5]
+    if TT-4.2<t<TT+.2: title(cv,t,TT-3.6,'NGỌC HỒI · ĐỐNG ĐA','stitle10',.55)
+V.NHAN={5: 'Lê Chiêu Thống – vua cuối cùng nhà Lê', 6: 'Tôn Sĩ Nghị – tướng nhà Thanh', 7: 'Ngô Văn Sở, Ngô Thì Nhậm – tướng, quan nhà Tây Sơn', 11: 'Phú Xuân – Huế ngày nay', 12: 'Tam Điệp – Ninh Bình ngày nay', 20: ['Khương Thượng – Đống Đa, Hà Nội ngày nay', 'Sầm Nghi Đống – tướng nhà Thanh']}
+def S_chen(cv,t):
+    ks=sorted(k for k in V.T if 4<k<5);a,b=V.T[ks[0]],V.E[ks[-1]]
+    cx,cy,z=cpath(t,[(a-.3,(600,560,1.4)),(b+.3,(700,700,1.0))]);c=cam(min(max(cx,960/z),1920-960/z),min(max(cy,540/z),1080-540/z),z)
+    mapbg(cv,c,u=1)
+    tl,px=P['thanglong'],P['phuxuan']
+    dot(cv,c,*tl,o=1);tag(cv,c,tl[0]+14,tl[1]+26,'Thăng Long',dy=0,sz=24)
+    lb(cv,c,'hơn hai trăm năm trước',900,640,t,a+.3,b+.3,sz=30)
+    lb(cv,c,'vua Lê: chỉ còn ngôi vị',tl[0]+40,tl[1]-120,t,mid(ks[0],.4),b+.3,sz=26)
+    lb(cv,c,'chúa Trịnh: nắm quyền thật',tl[0]+40,tl[1]-80,t,mid(ks[0],.6),b+.3,col=RED,sz=26)
+    if t>V.T[ks[-1]]-.2:
+        dot(cv,c,*px,o=1);tag(cv,c,px[0]+20,px[1]-24,'Phú Xuân – Huế',dy=0,sz=24)
+        stroke(cv,c,[px,(620,1300),(430,900),(tl[0],tl[1]+20)],inn(t,V.T[ks[-1]]+.2,2.2),wid=9,col=RED)
+        lb(cv,c,'Nguyễn Huệ ra Bắc Hà (miền Bắc), dẹp họ Trịnh',760,820,t,mid(ks[-1],.4),b+.3,col=RED,sz=26)
+
+def _chen_sh():
+    if V.TTL:
+        i=[k for k,s in enumerate(SH) if s[2] is S_4][0];a0,b0,fn=SH[i];k1=min(k for k in V.T if 4<k<5)
+        SH[i]=(a0,V.T[k1]-.3,fn);SH.insert(i+1,(V.T[k1]-.3,b0,S_chen))
+_chen_sh()
 def frame(t): return K.compose(V,SH,t,ov,CARDS)
 TOTAL=V.TOTAL
 if __name__=='__main__': K.main(V,frame)

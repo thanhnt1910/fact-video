@@ -199,7 +199,27 @@ SH=[(0,S(2),S_1),(S(2),S(3),S_2),(S(3),S(4),S_3),(S(4),S(5),S_4),(S(5),S(6),S_ma
  (S(9),S(11),S_9),(S(11),S(12),S_11),(S(12),S(13),S_12),(S(13),S(14),S_13),(S(14),S(15),S_14),(S(15),S(17),S_15),(S(17),S(19),S_17),
  (S(19),S(22),S_19),(S(22),S(23),S_map),(S(23),S(24),S_23),(S(24),V.TOTAL+1,S_end)]
 def ov(cv,t):
-    if T[5]-4.2<t<T[5]+.2: title(cv,t,T[5]-3.6,'TỐT ĐỘNG · CHÚC ĐỘNG','stitle7',.55)
+    TT=V.TTL or T[5]
+    if TT-4.2<t<TT+.2: title(cv,t,TT-3.6,'TỐT ĐỘNG · CHÚC ĐỘNG','stitle7',.55)
+V.NHAN={7: ['Lý Triện, Đỗ Bí – tướng Lam Sơn', 'Vương Thông – tướng nhà Minh', 'Đông Quan – Hà Nội ngày nay'], 11: 'Đinh Lễ, Nguyễn Xí – tướng Lam Sơn', 16: 'Tốt Động, Chúc Động – Chương Mỹ, Hà Nội ngày nay', 21: 'Trần Hiệp, Lý Lượng – quan lớn nhà Minh'}
+def S_chen(cv,t):
+    ks=sorted(k for k in V.T if 4<k<5);a,b=V.T[ks[0]],V.E[ks[-1]]
+    c=cam(960,540,1.0)
+    mapbg(cv,c,u=1)
+    tl=P['thanglong'];dot(cv,c,*tl,o=1);tag(cv,c,tl[0]+14,tl[1]+26,'Thăng Long',dy=0,sz=26)
+    lb(cv,c,'gần sáu trăm năm trước',700,140,t,a+.3,b+.3,sz=34)
+    tag(cv,c,520,800,'NHÀ HỒ',o=inn(t,mid(ks[0],.4),.5),dy=0,sz=52)
+    lb(cv,c,'Hồ Quý Ly lấy ngôi nhà Trần',560,860,t,mid(ks[0],.5),b+.3,sz=28)
+    if t>V.T[ks[-1]]-.2:
+        tag(cv,c,1300,200,'NHÀ MINH',o=inn(t,V.T[ks[-1]],.5),dy=0,sz=56,col=RED)
+        stroke(cv,c,[(1100,300),(800,380),(tl[0]+20,tl[1]-20)],inn(t,mid(ks[-1],.4),1.4),wid=8,col=RED)
+        lb(cv,c,'lấy cớ giúp nhà Trần',1150,380,t,mid(ks[-1],.3),b+.3,col=RED,sz=30)
+
+def _chen_sh():
+    if V.TTL:
+        i=[k for k,s in enumerate(SH) if s[2] is S_4][0];a0,b0,fn=SH[i];k1=min(k for k in V.T if 4<k<5)
+        SH[i]=(a0,V.T[k1]-.3,fn);SH.insert(i+1,(V.T[k1]-.3,b0,S_chen))
+_chen_sh()
 def frame(t): return K.compose(V,SH,t,ov,CARDS)
 TOTAL=V.TOTAL
 if __name__=='__main__': K.main(V,frame)

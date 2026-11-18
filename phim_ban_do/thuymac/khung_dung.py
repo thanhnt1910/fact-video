@@ -88,7 +88,42 @@ def setup(ma,gaps,tail=4.5):
         return len(v.TX[i].split())/3.1+.2
     v.T={};v.E={};t=.5;v.CH=None
     gm=f'{GD}/chuong_{ma}_full.json';asr=f'/tmp/pc/phim_ban_do/asr_{ma}ca.json'
-    if os.path.exists(gm):   # giọng đọc theo chương / cả video: mốc đoạn lấy từ nhận dạng, chia đoạn âm ở ranh giới chương
+    cf=f'/tmp/pc/ke-hoach/thu-giong-hai/{ma}chen_full.json'
+    if os.path.exists(gm) and os.path.exists(cf) and os.path.exists(f'{GD}/chuong_{ma}chen_full.json'):
+        # có đoạn chèn bối cảnh (và đoạn thay): ghép theo thứ tự khóa; đoạn chèn có khóa lẻ (4.1, 4.2…), đoạn thay giữ khóa cũ
+        C=json.load(open(cf));A_={}
+        for nm_ in (asr,f'/tmp/pc/phim_ban_do/asr_{ma}chenca.json'):
+            if os.path.exists(nm_) and not os.environ.get('KHOP_LANG'): A_.update(json.load(open(nm_)))
+        inv={n:i for i,n in v.NN.items()};thay={c['thay']:c for c in C if c.get('thay')}
+        k0=C[0]['sau_doan'];key={};txt={}
+        for j,c in enumerate([c for c in C if not c.get('thay')]): key[c['n']]=round(k0+.1*(j+1),2);txt[c['n']]=c['text']
+        for c in C:
+            if c.get('thay'): key[c['n']]=inv[c['thay']];txt[c['n']]=c['text']
+        for n,i in inv.items():
+            if n not in thay: key[n]=i;txt[n]=v.TX[i]
+        v.TX={key[n]:txt[n] for n in key};v.NN={key[n]:n for n in key}
+        G={**json.load(open(gm)),**json.load(open(f'{GD}/chuong_{ma}chen_full.json'))}
+        seg={}
+        for stem,ns in G.items():
+            f=f'{GD}/{stem}.mp3';fd=float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout)
+            tx=[txt.get(n) or json.load(open(f'/tmp/pc/ke-hoach/thu-giong-hai/{ma}_full.json'))[inv[n]-1]['text'] for n in ns]
+            sp=align(tx,A_.get(stem,[]),fd,f)
+            for j,n in enumerate(ns): seg[n]=(f,j,sp,fd,ns)
+        order=sorted(key,key=lambda n:key[n]);v.CH=[];runs=[]
+        gaps=dict(gaps);k1=round(k0+.1,2);gaps[k1]=gaps.pop(k0+1,1.0);v.TTL_KEY=k1   # thẻ tên trận đứng trước phần bối cảnh
+        for n in order:
+            f,j,sp,fd,ns=seg[n];g=gaps.get(key[n],0)
+            if runs and runs[-1]['f']==f and runs[-1]['j'][-1]==j-1 and g==0: runs[-1]['j'].append(j);runs[-1]['n'].append(n)
+            else: runs.append({'f':f,'j':[j],'n':[n],'g':g,'sp':sp,'fd':fd})
+        for r in runs:
+            f,sp,fd,J0,J1=r['f'],r['sp'],r['fd'],r['j'][0],r['j'][-1]
+            a0=0 if J0==0 else max(sp[J0-1][1]+.02,sp[J0][0]-.18)
+            b0=fd if J1==len(sp)-1 else min(sp[J1][1]+.3,sp[J1+1][0]-.02)
+            ca=0 if J0==0 else cut_point(f,sp[J0-1][1],sp[J0][0]);cb=fd if J1==len(sp)-1 else cut_point(f,sp[J1][1],sp[J1+1][0])
+            t+=r['g'];off=t-a0
+            for j,n in zip(r['j'],r['n']): v.T[key[n]]=off+sp[j][0];v.E[key[n]]=off+sp[j][1]
+            v.CH.append((t-(a0-ca),f,ca,cb));t+=b0-a0+.5
+    elif os.path.exists(gm):   # giọng đọc theo chương / cả video: mốc đoạn lấy từ nhận dạng, chia đoạn âm ở ranh giới chương
         G=json.load(open(gm));A_=json.load(open(asr)) if os.path.exists(asr) and not os.environ.get('KHOP_LANG') else {};v.CH=[];inv={n:i for i,n in v.NN.items()}
         for stem,ns in sorted(G.items(),key=lambda kv:kv[1][0]):
             f=f'{GD}/{stem}.mp3';fd=float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout)
@@ -109,6 +144,7 @@ def setup(ma,gaps,tail=4.5):
         for n in v.TX:
             t+=gaps.get(n,0);v.T[n]=t;d=dur(n);v.E[n]=t+d;t+=d+.45
     v.TOTAL=t+tail;v.N=len(v.TX)
+    v.TTL=v.T[v.TTL_KEY] if getattr(v,'TTL_KEY',None) else None
     v.mid=lambda n,f:v.T[n]+(v.E[n]-v.T[n])*f
     return v
 _LOGO=[None]
@@ -122,6 +158,11 @@ def compose(v,SH,t,overlay=None,cards={}):
         m=np.clip((u*1.7-.35-XM*.35-NM*.35)/.3,0,1)[...,None];cv=one(a[2])*(1-m)+one(b[2])*m
     if overlay: overlay(cv,t)
     for n,s in cards.items(): card(cv,t,v.T[n]-2.2,s,PAP)
+    for n,lst in getattr(v,'NHAN',{}).items():   # nhãn giới thiệu nhân vật, địa danh (người chưa biết sử vẫn hiểu)
+        if n in v.T and v.T[n]-.2<t<v.E[n]+.6:
+            o=inn(t,v.T[n]-.2,.4)*(1-inn(t,v.E[n]+.2,.4))
+            for k,lab in enumerate(lst if isinstance(lst,list) else [lst]):
+                im=text(lab,30,INK,600,glow=4);put_screen(cv,im,60+im.shape[1]/2,64+k*46,o)
     for n in v.TX:
         if v.T[n]-.25<t<v.E[n]+.35: caption(cv,v.TX[n],inn(t,v.T[n]-.25,.25)*(1-inn(t,v.E[n]+.1,.25)),False)
     if _LOGO[0] is None:

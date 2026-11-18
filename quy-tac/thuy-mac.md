@@ -72,6 +72,7 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 - **Phe phái rối thì có một đoạn "ai đứng về phía ai"** trước khi kể diễn biến (tm9: chúa Nguyễn, nhà Tây Sơn, nước Xiêm; tm10: nhà Lê, nhà Tây Sơn, nhà Thanh). Màn hình hiện thẻ tên phe.
 - **Không dùng tên gọi chỉ dân học sử biết** mà không giải thích: Bắc Hà, Đông Quan, Thượng hoàng, Chiêm Thành, Gia Định… lần đầu phải kèm nghĩa ("Đông Quan, tức Hà Nội ngày nay").
 - **Kế sách phải giải thích cơ chế bằng lời thường trước khi đánh** (vì sao cọc chỉ lộ ra khi thủy triều rút; vì sao ván phủ rơm ướt cản được tên lửa).
+- **Sửa video đã làm bằng đoạn chèn (18/11/2026):** đoạn bối cảnh đặt ở `ke-hoach/thu-giong-hai/<mã>chen_full.json` (trường `sau_doan`; đoạn nào cần sửa câu cho khỏi lệch thì thêm trường `thay` = số đoạn cũ và đọc lại cùng lần gọi). Thẻ tên trận đứng trước phần bối cảnh. Phải ghép thử câu trước, câu sau để tránh kể hai lần hoặc sai mốc (tm9: câu cũ "Mấy năm trước đó" phải thay). `V.NHAN` trong mã dựng hiện nhãn giới thiệu người, đất ở góc trên bên trái.
 - **Kiểm trước khi giao:** đọc lại như người chưa học sử; ghi vào "Ghi chú độ chắc" bảng ba câu hỏi (ai, vì sao, lúc nào ở đâu) với số đoạn trả lời, và danh sách tên người kèm cụm giới thiệu.
 
 ### 3.4 Lời kể kiểu nói chuyện, giữ độ gay cấn tới cuối (chủ kênh góp ý tập 2, 17/11/2026)

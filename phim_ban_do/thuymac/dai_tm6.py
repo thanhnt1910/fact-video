@@ -248,7 +248,27 @@ SH=[(0,S(2),S_1),(S(2),S(3),S_2),(S(3),S(4),S_3),(S(4),S(5),S_4),(S(5),S(6),S_ma
  (S(11),S(14),S_11),(S(14),S(15),S_14),(S(15),S(17),S_15),(S(17),S(18),S_map),(S(18),S(19),S_18),(S(19),S(20),S_19),(S(20),S(21),S_20),
  (S(21),S(22),S_21),(S(22),S(25),S_22),(S(25),S(26),S_25),(S(26),S(27),S_26),(S(27),V.TOTAL+1,S_end)]
 def ov(cv,t):
-    if T[5]-4.2<t<T[5]+.2: title(cv,t,T[5]-3.6,'BẠCH ĐẰNG','stitle6',.6)
+    TT=V.TTL or T[5]
+    if TT-4.2<t<TT+.2: title(cv,t,TT-3.6,'BẠCH ĐẰNG','stitle6',.6)
+V.NHAN={2: 'Trần Quốc Tuấn – tổng chỉ huy quân nhà Trần', 6: ['Ô Mã Nhi – tướng thủy quân nhà Nguyên', 'Trương Văn Hổ – tướng chở lương nhà Nguyên'], 8: 'Trần Khánh Dư – tướng giữ vùng biển Vân Đồn (Quảng Ninh)', 9: 'Thượng hoàng – vua cha đã nhường ngôi', 15: 'Long Hưng – quê nhà Trần (Thái Bình)', 18: 'Ngô Quyền – đánh tan Nam Hán năm 938'}
+def S_chen(cv,t):
+    ks=sorted(k for k in V.T if 4<k<5);a,b=V.T[ks[0]],V.E[ks[-1]]
+    c=cam(960,540,1.0)
+    mapbg(cv,c,u=1)
+    tl=P['thanglong'];dot(cv,c,*tl,o=1);tag(cv,c,tl[0]+14,tl[1]+26,'Thăng Long',dy=0,sz=26)
+    tag(cv,c,1300,200,'NHÀ NGUYÊN',o=inn(t,a+.6,.5),dy=0,sz=56,col=RED);tag(cv,c,1300,260,'người Mông Cổ, đã chiếm cả Trung Hoa',o=inn(t,a+.9,.5),dy=0,sz=28)
+    tag(cv,c,520,800,'ĐẠI VIỆT',o=inn(t,a+1.2,.5),dy=0,sz=56)
+    stroke(cv,c,[(1100,300),(800,380),(tl[0]+20,tl[1]-20)],inn(t,mid(ks[0],.6),1.4),wid=8,col=RED)
+    lb(cv,c,'hơn bảy trăm năm trước',700,140,t,a+.3,b+.3,sz=34)
+    if t>V.T[ks[-1]]-.2:
+        lb(cv,c,'Hốt Tất Liệt – hoàng đế nhà Nguyên',1300,340,t,V.T[ks[-1]]+.1,b+.3,col=RED,sz=30)
+        lb(cv,c,'Thoát Hoan – con trai, người cầm quân',1300,390,t,mid(ks[-1],.5),b+.3,col=RED,sz=30)
+
+def _chen_sh():
+    if V.TTL:
+        i=[k for k,s in enumerate(SH) if s[2] is S_4][0];a0,b0,fn=SH[i];k1=min(k for k in V.T if 4<k<5)
+        SH[i]=(a0,V.T[k1]-.3,fn);SH.insert(i+1,(V.T[k1]-.3,b0,S_chen))
+_chen_sh()
 def frame(t): return K.compose(V,SH,t,ov,CARDS)
 TOTAL=V.TOTAL
 if __name__=='__main__': K.main(V,frame)

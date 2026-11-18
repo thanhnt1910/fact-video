@@ -327,6 +327,7 @@ SH=[(0,S(2),S_1),(S(2),S(3),S_2),(S(3),S(4),S_3),(S(4),S(5),S_4),(S(5),S(6),S_5)
  (S(29),S(31),S_29),(S(31),S(32),S_31),(S(32),V.TOTAL+1,S_end)]
 def ov(cv,t):
     if T[6]-4.2<t<T[6]+.2: title(cv,t,T[6]-3.6,'HÀM TỬ · TÂY KẾT','stitle5',.6)
+V.NHAN={3: 'Trần Bình Trọng – tướng nhà Trần', 4: 'Trần Ích Tắc – em Thượng hoàng, sang hàng giặc', 8: ['Hốt Tất Liệt – hoàng đế nhà Nguyên', 'Thoát Hoan – con trai Hốt Tất Liệt', 'Toa Đô – tướng nhà Nguyên ở phía nam'], 9: 'Diên Hồng – nơi vua hỏi ý các bô lão', 11: 'Trần Quốc Tuấn – Hưng Đạo Đại Vương, tổng chỉ huy', 18: 'Trần Nhật Duật – tướng nhà Trần', 19: 'Triệu Trung – người nhà Tống chạy sang Đại Việt', 21: 'Trần Quang Khải – Thượng tướng nhà Trần', 22: 'Trần Quốc Toản – tướng trẻ nhà Trần', 27: 'Ô Mã Nhi – tướng thủy quân nhà Nguyên', 28: 'Trần Nhân Tông – vua Đại Việt'}
 def frame(t): return K.compose(V,SH,t,ov,CARDS)
 TOTAL=V.TOTAL
 if __name__=='__main__': K.main(V,frame)

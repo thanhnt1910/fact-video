@@ -1,6 +1,6 @@
 # `kiem_khung.py`: bảng chi tiết từng mục để chủ kênh duyệt (18/11/2026)
 
-**Trạng thái: CHỜ DUYỆT. Chưa sửa `kiem_khung.py`.** Chủ kênh chưa duyệt hạ đồng loạt 12 mục; duyệt, sửa hoặc từ chối từng mục ở cột cuối.
+**Trạng thái: ĐÃ DUYỆT VÀ ĐÃ SỬA (18/11/2026 tối).** Chủ kênh duyệt hạ cả 12 mục ⚠️ (mục 8 giữ cảnh báo, không mặc định cắt); B1, B2 giữ ❌; B3 bỏ hẳn; B5 sửa logic; hai thay đổi ở mục C duyệt; bảy mục ở mục D giữ nguyên, không revert. B4 chờ phân loại từng cụm (`kiem-khung-b4-34-cum-18-11.md`). Phần dưới giữ nguyên làm bản ghi.
 
 Nguyên tắc dùng để đánh giá (của chủ kênh): công cụ kỹ thuật không được loại một kịch bản tốt chỉ vì nó không theo khuôn kể chuyện cứng; lỗi lịch sử, lỗi logic và lỗi kỹ thuật thật vẫn phải kiểm nghiêm túc.
 

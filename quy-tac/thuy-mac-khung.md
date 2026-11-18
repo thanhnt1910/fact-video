@@ -49,12 +49,9 @@ Thêm vào đó: N câu đếm khớp lời hứa ở hook 4, mỗi câu nói m�
 1. **Bảng khung** `ke-hoach/thu-giong-hai/<mã>_khung.json`: mỗi nhịp một dòng, gồm sự việc, nguồn và số đoạn dự kiến; khai báo `n_hua`, `loi_hua`, `dem` (các câu đếm) và `hinh_anh` (cụm chữ của hình ảnh xuyên suốt). Chạy `python phim_ban_do/kiem_khung.py <mã>` cho tới khi 0 ❌, rồi gửi chủ kênh duyệt. Bảng khung chỉ một trang, chưa viết văn.
 2. **Lời đọc**: viết đúng theo bảng khung đã duyệt. Mỗi đoạn trong `<mã>_full.json` có trường `"nhip"`. Chạy bốn bộ kiểm: `kiem_kich_ban.py`, `kiem_mach_ke.py`, `kiem_mo_dau.py`, `kiem_khung.py`; tất cả phải 0 ❌. Sau đó mới gửi hồ sơ gửi duyệt (mục 3.3 `thuy-mac.md`).
 
-## 4. Bộ kiểm `kiem_khung.py`
-Bộ kiểm báo các lỗi sau:
-- thiếu nhịp bắt buộc; sai thứ tự; nhịp chỉ được có một mà bị lặp; khối cao trào bị cắt ngang;
-- nhịp chưa ghi nguồn; số câu đếm khác lời hứa;
-- phần sau cao trào dài quá 5 đoạn; cao trào lệch khỏi mốc 55–85% (cảnh báo);
-- hình ảnh xuyên suốt dưới 3 lần, không có ở hook, hoặc không có ở câu kết;
-- thiếu câu đếm; thiếu lời cảm ơn chuẩn;
-- câu sáo, văn máy hoặc từ đã bị chủ kênh chê (danh sách `CAM`, thêm vào mỗi khi bị chê);
-- nói tắt tên phe ("quân Nguyên", "quân Minh", "quân Tây Sơn"…).
+## 4. Bộ kiểm `kiem_khung.py` (sửa 18/11/2026 theo quyết định của chủ kênh)
+- **❌ chỉ còn cho lỗi thật:** nhịp chưa ghi sự việc; nhịp chưa ghi nguồn; câu sáo hoặc từ đã bị chủ kênh chê (danh sách `CAM`, 34 cụm, đang chờ chủ kênh phân loại từng cụm: `ke-hoach/kiem-khung-b4-34-cum-18-11.md`).
+- **⚠️ gợi ý (không chặn):** nhịp lạ, sai thứ tự, thiếu nhịp, khối cao trào bị cắt, nhịp nhiều đoạn, câu đếm không khớp lời hứa, hình ảnh xuyên suốt và câu hỏi xuyên suốt, phần sau cao trào hơn 5 đoạn (khi gặp, Claude đánh giá đoạn kết có thực sự cần thiết, không mặc định cắt), cao trào lệch mốc 55–85%.
+- **Nói tắt tên phe ("quân Nguyên", "quân Minh"…):** không còn báo lỗi hàng loạt. Chỉ ⚠️ một lần cho mỗi phe, ở lần đầu cách gọi này xuất hiện mà phe chưa được giới thiệu rõ ("nhà Nguyên", "nước Xiêm"…) trước đó.
+- **Không có `<mã>_khung.json`:** bỏ qua phần khung, vẫn kiểm câu chữ. Khung không khai báo `n_hua`, `dem`, `hinh_anh`, `soi_chi` thì bỏ qua kiểm tương ứng và in một dòng ℹ️ liệt kê mục đã bỏ qua. Bỏ qua không có nghĩa là kịch bản đạt.
+- Đã bỏ kiểm "thiếu lời cảm ơn chuẩn" (lời cảm ơn không còn mặc định).

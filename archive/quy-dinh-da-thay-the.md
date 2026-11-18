@@ -26,3 +26,12 @@
 - **Không mặc định câu kết phải có lời cảm ơn.** Câu cuối khép câu chuyện tự nhiên, có ý nghĩa; lời cảm ơn chỉ dùng khi hợp với cách kết của video. (Dòng "Đoạn cuối gồm một câu tóm gọn và lời cảm ơn" ở mục 10 của `nguyen-tac-cot-loi.md` và kiểm ❌ "thiếu lời cảm ơn chuẩn" ở `kiem_khung.py` trái quyết định này; chờ chủ kênh duyệt bản sửa, xem `ke-hoach/kiem-khung-bang-chi-tiet-18-11.md`.)
 - `kiem_khung.py`: chưa duyệt hạ đồng loạt 12 mục ❌; cần xem bảng chi tiết từng mục.
 - Giai đoạn 2 theo trình tự: đối chiếu → bản gộp dự thảo → chủ kênh duyệt → mới thay file gốc.
+
+## `kiem_khung.py` sửa 18/11/2026 tối (chủ kênh duyệt)
+- Hạ 12 mục cấu trúc từ ❌ xuống ⚠️, giữ nội dung cảnh báo. Mục "phần sau cao trào hơn 5 đoạn" giữ cảnh báo; khi gặp thì đánh giá đoạn kết có cần thiết không, không mặc định cắt.
+- Giữ ❌: nhịp chưa ghi sự việc, nhịp chưa ghi nguồn, câu sáo trong `CAM` (34 cụm, chờ phân loại từng cụm, danh sách không đổi).
+- Bỏ hẳn kiểm "thiếu lời cảm ơn chuẩn".
+- Nói tắt tên phe: bỏ ❌ hàng loạt; chỉ ⚠️ lần đầu khi phe chưa được giới thiệu.
+- Thiếu `<mã>_khung.json` hoặc thiếu `n_hua`, `dem`, `hinh_anh`, `soi_chi`: bỏ qua kiểm tương ứng, in dòng ℹ️.
+- Bảy mục đã hạ ở `kiem_mo_dau`, `kiem_mach_ke`, `kiem_giong_van`: giữ nguyên, không revert. `kiem_kich_ban.py` giữ giới hạn cứng 32 chữ, 2 câu.
+- Thử nghiệm: tm5, tm7, tm9, tm14 (có khung), `bd1`, `dbl1` (không có khung, cấu trúc khác khung cũ), thêm hai khung thử nghiệm đã xóa. tm14: 3 ❌ → 0 ❌ (3 ⚠️).

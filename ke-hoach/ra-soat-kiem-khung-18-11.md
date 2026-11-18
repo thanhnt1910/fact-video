@@ -1,6 +1,6 @@
 # Rà soát `phim_ban_do/kiem_khung.py` theo nguyên tắc cốt lõi (18/11/2026)
 
-Chưa sửa file. Chờ chủ kênh duyệt danh sách này.
+**Đã duyệt và đã sửa `kiem_khung.py` ngày 18/11/2026 tối** (12 mục bảng A hạ ⚠️; B3 bỏ; B5 viết lại logic; B1, B2 giữ ❌; B4 chờ phân loại). Chi tiết: `ke-hoach/kiem-khung-bang-chi-tiet-18-11.md`.
 
 ## A. Đề nghị hạ ❌ xuống ⚠️ (quy tắc cấu trúc nay là tham khảo)
 

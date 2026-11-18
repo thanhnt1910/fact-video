@@ -1,6 +1,6 @@
 # tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-31 đoạn, 772 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+31 đoạn, 782 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc**. Câu đếm: người buôn gạo, nhổ hết cỏ. Hình ảnh xuyên suốt: "cỏ".
 
 ## Kịch bản (theo nhịp)
@@ -21,14 +21,14 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 4. Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và bảy năm sau, khi bị bắt, ông đã nói gì về cỏ của nước Nam?
 
-**Gốc rễ** (mốc 13%)
+**Gốc rễ** (mốc 12%)
 
 5. Năm một nghìn tám trăm sáu mươi mốt, Sài Gòn đã nằm trong tay quân Pháp được hơn hai năm.
 6. Đầu năm ấy, đại đồn Chí Hòa, nơi quân triều đình nhà Nguyễn giữ mạnh nhất quanh Sài Gòn, cũng bị phá. Quân Pháp tràn xuống tới Mỹ Tho.
 7. Họ muốn biến miền Nam thành thuộc địa, đất do nước Pháp cai trị. Quân triều đình lui dần, nhưng ở làng quê, người dân bắt đầu tự cầm giáo.
 8. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp. Người con nhà chài ấy được giao chỉ huy chừng năm mươi người.
 
-**Thế nguy** (mốc 27%)
+**Thế nguy** (mốc 26%)
 
 9. Để giữ đất vừa chiếm, quân Pháp cho tàu chở lính, chở gạo đi lại trên những con kênh nối Mỹ Tho với Sài Gòn.
 10. Một trong những chiếc tàu ấy mang cái tên Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, nơi con kênh đổ ra sông Vàm Cỏ.
@@ -36,9 +36,9 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 **★ Điểm thấp nhất** (mốc 37%)
 
-12. Chèo thẳng tới giữa ban ngày thì chưa kịp áp mạn, cả đoàn ghe đã thành bia cho súng trên tàu.
+12. Muốn cắt đường chở gạo ấy, nghĩa quân phải đánh chìm con tàu, mà trong tay chỉ có ghe nhỏ với dao giáo. Chèo thẳng tới là thành bia cho súng.
 
-**Bước ngoặt** (mốc 40%)
+**Bước ngoặt** (mốc 41%)
 
 13. Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người chia làm ba toán, mỗi toán một việc.
 14. Hơn sáu mươi người sẽ đánh vào một làng theo Pháp gần đó. Trận đánh ở làng bên phải đủ lớn để lính Pháp rời tàu đuổi theo.
@@ -46,13 +46,13 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 16. Còn toán của Nguyễn Trung Trực đi trên năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại. Có sách lại kể là giả làm đám cưới.
 17. Ghe buôn gạo thì không ai nghi. Chỉ cần cặp được vào mạn, trận đánh sẽ diễn ra trên boong tàu chứ không còn trên mặt nước.
 
-**Lần 1** (mốc 56%)
+**Lần 1** (mốc 57%)
 
 18. Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất nổ trận ở làng bên.
 19. Kế nhử có kết quả. Viên trung úy sai lính đuổi theo, rồi chính ông ta cũng bỏ tàu mà đi.
 20. Đúng lúc ấy, trên mặt kênh, năm chiếc ghe buôn gạo thong thả cặp vào mạn tàu Hy Vọng.
 
-**★ Đoạn lặng** (mốc 64%)
+**★ Đoạn lặng** (mốc 65%)
 
 21. Chỉ cần một người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng.
 
@@ -129,7 +129,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 3 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 4 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 5 ⚠️
 - `kiem_mo_dau.py`: ⚠️ 5 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

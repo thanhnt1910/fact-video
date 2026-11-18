@@ -12,7 +12,7 @@ S=[
 ('the_nguy',"Để giữ đất vừa chiếm, quân Pháp cho tàu chở lính, chở gạo đi lại trên những con kênh nối Mỹ Tho với Sài Gòn."),
 ('the_nguy',"Một trong những chiếc tàu ấy mang cái tên Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, nơi con kênh đổ ra sông Vàm Cỏ."),
 ('the_nguy',"Trên tàu có mấy chục người, gồm lính Pháp, lính đánh thuê lẫn những người theo Pháp. Cầm đầu là một viên trung úy người Pháp."),
-('diem_thap',"Chèo thẳng tới giữa ban ngày thì chưa kịp áp mạn, cả đoàn ghe đã thành bia cho súng trên tàu."),
+('diem_thap',"Muốn cắt đường chở gạo ấy, nghĩa quân phải đánh chìm con tàu, mà trong tay chỉ có ghe nhỏ với dao giáo. Chèo thẳng tới là thành bia cho súng."),
 ('buoc_ngoat',"Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người chia làm ba toán, mỗi toán một việc."),
 ('buoc_ngoat',"Hơn sáu mươi người sẽ đánh vào một làng theo Pháp gần đó. Trận đánh ở làng bên phải đủ lớn để lính Pháp rời tàu đuổi theo."),
 ('buoc_ngoat',"Ba mươi người khác nấp sẵn, chặn đường quân Pháp kéo đến cứu, rồi cùng đánh vào tàu."),

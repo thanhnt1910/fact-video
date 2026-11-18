@@ -7,7 +7,7 @@ Quy tắc riêng cho series video trận đánh vẽ kiểu tranh thủy mặc (
 Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bach-dang-thuy-mac-gui-duyet.md`; mã dựng ở `phim_ban_do/thuymac/`. Mẫu lời kể kiểu nói chuyện và bố cục dựng: tập 2 Lê Hoàn phá Tống (`tm2_full.json`, `ke-hoach/tm2-le-hoan-pha-tong-981-gui-duyet.md`, `ke-hoach/tm2-le-hoan-pha-tong-981-bo-cuc-dung.md`, mã `dai_tm2.py`, `amthanh_tm2.py`). Cập nhật 17/11/2026 sau tập 2 và tập 3: các mục 3.1, 3.4, 4.6, 5 và 6 tổng hợp góp ý của chủ kênh trong hai tập này.
 
 ## 1. Phạm vi và định dạng
-- Mỗi video kể trọn một trận đánh trong sử Việt, trước năm 1858. Các tập xếp theo thứ tự thời gian, nhưng mỗi tập phải tự đứng được và không có "tập sau".
+- Mỗi video kể trọn một trận đánh trong sử Việt. Không giới hạn mốc năm (chủ kênh bỏ giới hạn "trước năm 1858" ngày 18/11/2026; các trận chống Pháp như Nhật Tảo 1861, Cầu Giấy 1873 thuộc series). Các tập xếp theo thứ tự thời gian, nhưng mỗi tập phải tự đứng được và không có "tập sau".
 - Mỗi trận có hai bản:
   - Bản dài 16:9, khoảng 5–8 phút (1.000–1.300 chữ). Độ dài do nội dung quyết định, không độn chữ.
   - Bản dọc 9:16, 60–80 giây (8–10 đoạn), cắt từ phần trận đánh, kết bằng lời mời xem bản đầy đủ.

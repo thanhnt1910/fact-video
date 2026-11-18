@@ -1,0 +1,27 @@
+[
+ {
+  "n": 184901,
+  "chuong": "boi_canh",
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Chuyện xảy ra cách nay hơn hai trăm năm. Khi ấy đất nước bị chia đôi, phía bắc do chúa Trịnh nắm quyền, phía nam do các chúa Nguyễn cai quản.",
+  "sau_doan": 4
+ },
+ {
+  "n": 184902,
+  "chuong": "boi_canh",
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Năm một nghìn bảy trăm bảy mươi mốt, ba anh em ở ấp Tây Sơn, Quy Nhơn nổi dậy, rồi dần đánh đổ họ Nguyễn ở phía nam.",
+  "sau_doan": 4
+ },
+ {
+  "n": 184903,
+  "chuong": "boi_canh",
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Họ là Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ. Ba anh em nhiều lần đánh vào Gia Định, tức vùng Sài Gòn ngày nay, nơi họ Nguyễn còn giữ được.",
+  "sau_doan": 4,
+  "thay": 184005
+ }
+]

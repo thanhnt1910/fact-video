@@ -90,7 +90,14 @@ def main():
             if cur and b.get("chuong") != cur[-1].get("chuong"): groups.append(cur); cur = []
             cur.append(b)
         if cur: groups.append(cur)
-        if Path("ke-hoach/thu-giong-hai/doc_chuong.txt").read_text().strip() == "ca": groups = [beats]   # cả video một lần gọi: giọng đều nhất
+        if Path("ke-hoach/thu-giong-hai/doc_chuong.txt").read_text().strip() == "ca":   # cả video một lần gọi: giọng đều nhất
+            groups = [beats]
+            nw = sum(len(x["text"].split()) for x in beats)
+            if nw > 780:   # quá dài thì Gemini hay bỏ sót câu (tm5, 901 chữ): chia đôi ở ranh giới chương gần giữa nhất
+                cs = [i for i in range(1, len(beats)) if beats[i].get("chuong") != beats[i-1].get("chuong")]
+                acc = [sum(len(x["text"].split()) for x in beats[:i]) for i in cs]
+                k = cs[min(range(len(cs)), key=lambda j: abs(acc[j] - nw / 2))]
+                groups = [beats[:k], beats[k:]]
         for ch in groups:
             stem = f"c{ch[0]['n']}"
             if (d / f"{stem}.mp3").exists() and G.get(stem) == [x["n"] for x in ch]: continue

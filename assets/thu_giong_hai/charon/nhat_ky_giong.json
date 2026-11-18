@@ -2856,11 +2856,11 @@
 "tone": "story"
 },
 "c180001": {
-"nhom": "180001-180032",
+"nhom": "180001-180017",
 "model": "gemini-3.8-flash-tts",
 "voice": "Charon",
 "style_var": "C_chuong",
-"thoi_diem": "2026-11-18 00:38:25",
+"thoi_diem": "2026-11-18 00:47:58",
 "du_phong": false
 },
 "c180006": {
@@ -2888,11 +2888,11 @@
 "du_phong": false
 },
 "c180018": {
-"nhom": "180018-180020",
+"nhom": "180018-180032",
 "model": "gemini-3.8-flash-tts",
 "voice": "Charon",
 "style_var": "C_chuong",
-"thoi_diem": "2026-11-17 16:24:15",
+"thoi_diem": "2026-11-18 00:48:25",
 "du_phong": false
 },
 "c180021": {

@@ -1,96 +1,102 @@
-# tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
+# tm14: Nguyễn Trung Trực, Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-31 đoạn, 798 chữ, khoảng 4.3 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
-Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc**. Câu đếm: người buôn gạo, nhổ hết cỏ. Hình ảnh xuyên suốt: "cỏ".
+37 đoạn, 851 chữ, khoảng 4.6 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+Lời hứa: **hai câu hỏi: ghe tới sát tàu bằng cách nào, và người dẫn ghe đi tiếp ra sao khi triều đình bảo dừng**. Câu đếm: . Hình ảnh xuyên suốt: "Hy Vọng".
 
 ## Kịch bản (theo nhịp)
 
 **Hook 1** (mốc 0%)
 
-1. Giữa trưa, năm chiếc ghe nhỏ lặng lẽ áp sát một chiếc tàu của quân Pháp trên kênh Nhật Tảo.
+1. Ai cũng biết cái tên Nguyễn Trung Trực. Nhưng trưa hôm ấy, trên kênh Nhật Tảo, người ta gọi ông bằng một cái tên khác.
 
 **Hook 2** (mốc 3%)
 
-2. Trên tàu có lính, có súng. Người trên ghe chỉ mang dao với giáo, vậy mà ít lâu sau, con tàu ấy chìm trong lửa.
+2. Người ta gọi ông là Quản Lịch, một con nhà chài mới hai mươi ba tuổi. Lúc ấy, ông đang dẫn năm chiếc ghe nhỏ áp vào một chiếc tàu Pháp.
 
-**Hook 3** (mốc 6%)
+**Hook 3** (mốc 7%)
 
-3. Dẫn đầu năm chiếc ghe là Nguyễn Trung Trực, con một nhà chài lưới ở Long An, khi ấy mới ngoài hai mươi tuổi.
+3. Trên tàu có lính, có súng. Trên ghe chỉ có dao với giáo.
 
-**Hook 4** (mốc 9%)
+**Hook 4** (mốc 8%)
 
-4. Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và bảy năm sau, khi bị bắt, ông đã nói gì về cỏ của nước Nam?
+4. Mấy chiếc ghe ấy làm sao tới được sát mạn tàu? Và người dẫn ghe hôm ấy đã đi tiếp con đường nào, khi chính triều đình bảo ông dừng tay?
 
 **Gốc rễ** (mốc 12%)
 
-5. Năm một nghìn tám trăm sáu mươi mốt, Sài Gòn đã nằm trong tay quân Pháp được hơn hai năm.
-6. Đầu năm ấy, đại đồn Chí Hòa, nơi quân triều đình nhà Nguyễn giữ mạnh nhất quanh Sài Gòn, cũng bị phá. Quân Pháp tràn xuống tới Mỹ Tho.
-7. Họ muốn biến miền Nam thành thuộc địa, đất do nước Pháp cai trị. Quân triều đình lui dần, nhưng ở làng quê, người dân bắt đầu tự cầm giáo.
-8. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp. Người con nhà chài ấy được giao chỉ huy chừng năm mươi người.
+5. Năm một nghìn tám trăm sáu mươi mốt, hơn một trăm sáu mươi năm trước, Sài Gòn đã nằm trong tay quân Pháp được gần ba năm.
+6. Đầu năm ấy, đại đồn Chí Hòa, nơi quân triều đình nhà Nguyễn giữ mạnh nhất, cũng vỡ. Quân Pháp tràn xuống Mỹ Tho, quân triều đình lui dần.
+7. Không còn ai đứng ra giữ làng thì dân làng tự giữ. Trương Định, một vị quan ở Gò Công, mộ dân đánh Pháp.
+8. Quản Lịch theo Trương Định, làm chánh quản cơ, trông coi chừng năm mươi người.
 
-**Thế nguy** (mốc 26%)
+**Thế nguy** (mốc 23%)
 
-9. Để giữ đất vừa chiếm, quân Pháp cho tàu chở lính, chở gạo đi lại trên những con kênh nối Mỹ Tho với Sài Gòn.
-10. Một trong những chiếc tàu ấy mang cái tên Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, nơi con kênh đổ ra sông Vàm Cỏ.
-11. Trên tàu có mấy chục người, gồm lính Pháp, lính đánh thuê lẫn những người theo Pháp. Cầm đầu là một viên trung úy người Pháp.
+9. Quân Pháp giữ vùng đất mới chiếm bằng đường nước. Tàu của họ chạy trên những con kênh nối Mỹ Tho với Sài Gòn, chở gạo về Chợ Lớn.
+10. Một chiếc trong số đó đậu ở vàm Nhật Tảo, chỗ con kênh đổ ra sông Vàm Cỏ. Người Pháp đặt tên nó là Ét-pê-răng, tức là Hy Vọng.
+11. Trên tàu có mấy chục người, cả lính Pháp lẫn lính đánh thuê, dưới quyền một viên trung úy người Pháp.
 
-**★ Điểm thấp nhất** (mốc 36%)
+**★ Điểm thấp nhất** (mốc 32%)
 
-12. Muốn cắt đường chở gạo ấy, nghĩa quân phải đánh chìm con tàu, mà trong tay chỉ có ghe nhỏ với dao giáo. Chèo thẳng tới là thành bia cho súng.
+12. Nghĩa quân muốn cắt đường gạo ấy thì phải hạ con tàu. Nhưng chèo ghe thẳng tới giữa ban ngày thì chưa áp được mạn đã thành bia cho súng.
 
-**Bước ngoặt** (mốc 40%)
+**Bước ngoặt** (mốc 36%)
 
-13. Vì thế nghĩa quân không đánh thẳng. Toán của Nguyễn Trung Trực góp với các toán nghĩa quân khác, được khoảng một trăm năm mươi người, chia làm ba mũi.
-14. Hơn sáu mươi người ở mũi thứ nhất sẽ đánh vào một làng theo Pháp gần đó. Trận đánh ở làng bên phải đủ lớn để lính Pháp rời tàu đuổi theo.
-15. Ba mươi người khác nấp sẵn, chặn đường quân Pháp kéo đến cứu, rồi cùng đánh vào tàu.
-16. Còn Nguyễn Trung Trực dẫn chính toán của mình đi trên năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại. Có sách kể là giả đám cưới.
-17. Ghe buôn gạo thì không ai nghi. Chỉ cần cặp được vào mạn, trận đánh sẽ diễn ra trên boong tàu chứ không còn trên mặt nước.
+13. Vì thế nghĩa quân không đánh thẳng. Toán của Quản Lịch góp với mấy toán khác, được khoảng một trăm năm mươi người, chia làm ba mũi.
+14. Hơn sáu mươi người sẽ đánh một làng theo Pháp gần đó, đánh cho thật to, để lính trên tàu phải kéo đi.
+15. Ba mươi người khác nấp sẵn, chặn đường viện binh của Pháp, rồi cùng đánh vào tàu.
+16. Còn mũi của Quản Lịch đi năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại.
+17. Có lời kể khác nói họ giả một đám rước dâu, trong đoàn có cả đàn ông lẫn đàn bà.
+18. Ghe gạo hay ghe cưới, cái vỏ nào cũng nhằm một việc, để người trên tàu không sinh nghi.
 
-**Lần 1** (mốc 57%)
+**Lần 1** (mốc 50%)
 
-18. Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, mũi thứ nhất nổ trận ở làng bên.
-19. Kế nhử có kết quả. Viên trung úy sai lính đuổi theo, rồi chính ông ta cũng bỏ tàu mà đi.
-20. Đúng lúc ấy, trên mặt kênh, năm chiếc ghe buôn gạo thong thả cặp vào mạn tàu Hy Vọng.
+19. Trưa ngày mười tháng mười hai năm ấy, mũi thứ nhất nổ trận ở làng bên.
+20. Kế nhử ăn ngay. Viên trung úy sai lính đuổi theo, rồi chính ông ta cũng rời tàu.
+21. Trên tàu lúc này vắng người chỉ huy. Đúng lúc ấy, năm chiếc ghe buôn gạo cặp vào mạn.
 
-**★ Đoạn lặng** (mốc 65%)
+**★ Đoạn lặng** (mốc 57%)
 
-21. Chỉ cần một người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng.
+22. Chỉ cần một người trên boong sinh nghi, năm chiếc ghe sát mạn sẽ nằm gọn dưới họng súng.
 
-**Cao trào** (mốc 67%)
+**Cao trào** (mốc 59%)
 
-22. Không ai kịp sinh nghi. Nguyễn Trung Trực cùng người của ông rút dao, nhảy lên boong, đánh giáp lá cà với lính trên tàu.
-23. Con tàu không kịp phát đi một tín hiệu cầu cứu nào.
-24. Dưới nước, một số nghĩa quân lội tới, vung rìu bổ vào thân tàu cho nước tràn vào, rồi châm lửa.
-25. Lửa bốc lên giữa kênh Nhật Tảo. Tàu Hy Vọng chìm dần, phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven kênh.
+23. Không ai kịp nghi. Quản Lịch cùng người của ông rút dao, nhảy lên boong.
+24. Lính trên boong không kịp trở tay. Theo một lời kể, số còn lại chui xuống hầm, đóng cửa chống trả.
+25. Con tàu không kịp phát đi một tín hiệu cầu cứu nào.
+26. Dưới nước, một toán nghĩa quân lội tới, vung rìu bổ vào thân tàu cho nước tràn vào, rồi châm lửa.
+27. Lửa bốc lên giữa vàm Nhật Tảo. Con tàu tên Hy Vọng chìm dần, chỉ vài người trên tàu trốn được vào bụi rậm ven kênh.
 
-**★ Chi tiết con người** (mốc 78%)
+**★ Chi tiết con người** (mốc 70%)
 
-26. Viên trung úy quay về thì con tàu đã chìm. Ông ta cho đốt các làng quanh đó, nhưng dân đã bỏ đi từ trước.
+28. Viên trung úy quay về thì con tàu đã chìm. Ông ta đem quân đốt các làng quanh đó, nhưng dân đã bỏ đi từ trước.
 
-**Dồn cuối** (mốc 81%)
+**Dồn cuối** (mốc 73%)
 
-27. Tin về tới Huế, vua Tự Đức thăng chức cho Nguyễn Trung Trực. Nhưng chỉ nửa năm sau trận ấy, triều đình ký hòa ước, cắt ba tỉnh miền Đông cho Pháp.
-28. Ông không buông giáo. Năm một nghìn tám trăm sáu mươi tám, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá.
-29. Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc, nhưng ông không nhận.
-30. Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá.
+29. Tin về tới Huế, vua Tự Đức khen trận Nhật Tảo là rất xuất sắc, và thăng chức cho người con nhà chài.
+30. Nhưng chỉ nửa năm sau, chính triều đình ấy ký hòa ước, nhường ba tỉnh miền Đông cho Pháp, rồi ra lệnh nghĩa quân thôi đánh.
+31. Người vừa được thưởng giờ đứng trước lệnh của vua. Quản Lịch không thôi đánh, Trương Định cũng không.
+32. Hai năm sau, Trương Định bị chính người cũ phản, rơi vào trận phục kích của Pháp, và tự kết liễu để không bị bắt.
+33. Quản Lịch vẫn đánh. Năm một nghìn tám trăm sáu mươi sáu, ông giết năm sĩ quan Pháp và thu một trăm khẩu súng.
+34. Về sau, ông dùng một cái tên khác, cái tên người đời còn nhớ tới hôm nay, Nguyễn Trung Trực.
+35. Năm một nghìn tám trăm sáu mươi tám, bảy năm sau Nhật Tảo, ông bị Pháp bắt. Họ hứa cho chức tước, lợi lộc, nhưng ông không nhận.
+36. Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá.
 
 **Kết** (mốc 96%)
 
-31. Con tàu tên Hy Vọng đã chìm ở Nhật Tảo, nhưng cỏ nước Nam thì người Tây không nhổ hết được. Cảm ơn bạn đã lắng nghe câu chuyện này.
+37. Con tàu tên Hy Vọng chìm ở Nhật Tảo, còn người dẫn năm chiếc ghe thì không dừng tay cho tới cuối đời. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Năm điểm nhấn cố định
 
 1. Hook: đoạn 1–4.
 2. Điểm thấp nhất: đoạn 12.
-3. Đoạn lặng trước cao trào: đoạn 21.
-4. Chi tiết con người: đoạn 26.
-5. Câu kết quay về hình ảnh mở đầu: hình ảnh xuất hiện ở đoạn 4, 10, 30, 31.
+3. Đoạn lặng trước cao trào: đoạn 22.
+4. Chi tiết con người: đoạn 28.
+5. Câu kết quay về hình ảnh mở đầu: hình ảnh xuất hiện ở đoạn 10, 27, 37.
 
 ## Ba phương án hook
 
-1. (Đang dùng) Sự kiện bất ngờ: giữa trưa năm chiếc ghe nhỏ áp sát tàu có súng của quân Pháp.
-2. Câu nói về cỏ đặt lên đầu, rồi hỏi người nói là ai.
-3. Nghịch lý: người chài lưới không có súng đốt được tàu chiến.
+1. (Đang dùng) Một cái tên khác: người xem biết Nguyễn Trung Trực, nhưng trưa hôm ấy người ta gọi ông là Quản Lịch, đang dẫn năm chiếc ghe áp vào tàu Pháp.
+2. Khoảnh khắc cặp mạn: năm chiếc ghe buôn gạo cặp vào con tàu vừa vắng người chỉ huy.
+3. Nghịch lý: vua khen trận này rất xuất sắc, nửa năm sau chính triều đình bảo người đánh trận ấy dừng tay.
 
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
@@ -119,19 +125,20 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 Ghi chú thêm:
 
-- Tên người: Nguyễn Trung Trực, Trương Định, vua Tự Đức. Phía Pháp không gọi tên người.
-- Cách giả trang: tư liệu Pháp (qua Wikipedia) nói giả người buôn gạo xin giấy đi lại; chuyện giả đám cưới là lời kể khác. Lời đọc nói cả hai.
-- Số người: 150 nghĩa quân chia ba toán; số người trên tàu và số chết các nguồn khác nhau: lời đọc nói "phần lớn", "vài người".
-- ĐÃ ĐỐI CHIẾU: gia đình làm nghề chài lưới ở hạ lưu sông Vàm Cỏ (Pháp Luật, LSVN). Nhưng trước trận ông đã là Quản Lịch, chỉ huy khoảng năm mươi người, nên lời đọc đổi thành "con một nhà làm nghề chài lưới".
-- Rà toàn bộ 18/11: (1) ngày Tự Đức phong Lãnh binh không rõ (có sách nói 1867), nên lời đọc chỉ nói "thăng chức" và không đặt nó ngay trước hòa ước; (2) nhóm lội nước bổ rìu gồm người của Võ Văn Quang (mũi hai) và Nguyễn Văn Học (mũi ba), nên đổi "ba mươi người" thành "một số nghĩa quân"; (3): Nguyễn Trung Trực có mặt trong câu nhảy lên tàu (Wikipedia: toán của ông lên boong); bỏ đoạn giảng giải về súng lớn và câu nhắc lại dao giáo; thêm hình ảnh lửa trên kênh, rìu bổ thân tàu; gộp phần sau trận, nhấn việc vua vừa phong Lãnh binh thì nửa năm sau ký hòa ước cắt đất; câu kết quay lại tên tàu Hy Vọng và câu nói về cỏ (câu "người Tây không nhổ hết được" là cách nói của người kể, dựa trên việc kháng chiến còn tiếp diễn). Bản 2: bỏ câu khuôn ("Chuyện xảy ra", "Nhìn lúc ấy", "Có hai thứ sẽ kể lại", "Thứ đầu tiên/Thứ hai"); trận Nhật Tảo kéo dài từ 6 lên 9 đoạn bằng chi tiết có nguồn (Wikipedia): toán nhử 61 người đánh một làng theo Pháp, toán chặn 30 người; viên trung úy Parfait sai lính đuổi theo rồi chính ông rời tàu; tàu không kịp phát tín hiệu; vài người trốn trong bụi mấy ngày; Parfait quay về đốt làng nhưng dân đã đi. Sau trận Tự Đức phong Lãnh binh (Wikipedia).
-- Pháp bắt mẹ ông làm con tin: Wikipedia; nhiều sách nói ông ra nộp mình để cứu mẹ và dân, lời đọc chỉ nói "rồi bắt được ông". Câu nói về cỏ gắn "theo lời kể".
-- Từ đã giải thích: thuộc địa, vàm, Ét-pê-răng (tàu Hy Vọng).
+- Viết mới từ mạch truyện bản 2 (chủ kênh duyệt 18/11: câu nói về cỏ để ở tập này; mở bằng tên Quản Lịch; giữ Trương Định). Không dùng câu chữ các bản cũ.
+- Quản Lịch: Tập san Sử Địa 1968 (Trương Bá Phát, qua báo Pháp Luật) ghi tên Đội Lịch từ 1859, giữ tới 1861, gọi là Quản Lịch; Wikipedia ghi Quản Lịch, Quản Chơn là tên khác. Lời đọc chỉ nói tên Nguyễn Trung Trực có "về sau", không nói lúc nào, vì sao.
+- Tuổi 23 khi đánh Nhật Tảo: sinh 1838 (Wikipedia; lời khai năm 1868 ông nói 30 tuổi).
+- Kế ba mũi (61 người nhử, 30 người chặn và đánh tàu, mũi của ông năm ghe giả buôn gạo xin giấy), trung úy Parfait rời tàu, tàu không kịp phát tín hiệu, rìu và lửa, vài người trốn vào bụi: Wikipedia. Giả đám rước dâu có cả đàn ông, đàn bà và chuyện lính chui xuống hầm chống trả: lời kể của hậu duệ (báo Pháp Luật), đã gắn "có lời kể khác", "theo một lời kể".
+- Tự Đức khen "rất xuất sắc", thăng chức (Wikipedia, không ghi ngày; lời đọc không nói chức gì). Hòa ước 5/6/1862, lệnh bãi binh, ông và Trương Định không tuân; Trương Định bị người cũ phản, tự sát tháng 8/1864; 15/6/1866 giết năm sĩ quan, thu một trăm súng: Wikipedia.
+- Năm 1868 bị bắt, Pháp hứa chức tước, ông không nhận; câu nói về cỏ gắn "theo lời kể"; bị chém ở Rạch Giá: Wikipedia. Không kể trận Rạch Giá, chuyện mẹ làm con tin, Huỳnh Công Tấn (theo duyệt của chủ kênh).
+- Diễn giải của người kể: "đánh cho thật to", "cái vỏ nào cũng nhằm một việc, để người trên tàu không sinh nghi", câu kết "không dừng tay cho tới cuối đời" (dựa trên việc ông đánh tới khi bị bắt).
+- kiem_khung báo 3 ❌ thuộc nhóm quy tắc cấu trúc đã đề nghị hạ xuống ⚠️ (phần sau cao trào 9 đoạn; hình ảnh xuyên suốt không ở hook). Bốn bộ kiểm còn lại 0 ❌.
 
 ## Kết quả bốn bộ kiểm
 
 - `kiem_kich_ban.py`: 0 lỗi ❌, 6 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 5 ⚠️
-- `kiem_mo_dau.py`: ⚠️ 5 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
-- `kiem_khung.py`: -> 0 ❌, 0 ⚠️
+- `kiem_mo_dau.py`: ✅ mở đầu gọn
+- `kiem_khung.py`: -> 3 ❌, 1 ⚠️
 
-Cảnh báo được chấp nhận: Không có.
+Cảnh báo được chấp nhận: Không còn khung nhịp; nhãn nhịp trong file chỉ để dựng cảnh.

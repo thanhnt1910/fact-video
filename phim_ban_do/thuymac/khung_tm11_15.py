@@ -58,8 +58,7 @@ lam('tm13',dict(ten='Hai Bà Trưng, Lãng Bạc và Cấm Khê 40–43',n_hua=3
  'chi_tiet_nguoi':('Hai cách kể về cái chết','Hậu Hán thư; Toàn thư, thần tích'),
  'don_cuoi':('Quân Hán chết bốn, năm phần mười vì bệnh; Mã Viện sửa luật, chia huyện','Hậu Hán thư'),
  'ket':('Làm vua ba năm, đền Mê Linh, Hát Môn còn hương khói','hiện trạng di tích')})
-lam('tm14',dict(ten='Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861',n_hua=2,loi_hua='hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc',
- cau_hoi='Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy mà không bị bắn?',soi_chi=['ghe'],hinh_anh=['cỏ'],dem=['người buôn gạo','nhổ hết cỏ']),{
+lam('tm14',dict(ten='Nguyễn Trung Trực, Nhật Tảo 1861',n_hua=0,loi_hua='hai câu hỏi: ghe tới sát tàu bằng cách nào, và người dẫn ghe đi tiếp ra sao khi triều đình bảo dừng',cau_hoi='Mấy chiếc ghe ấy làm sao tới được sát mạn tàu?',soi_chi=[],hinh_anh=['Hy Vọng'],dem=[]),{
  'hook1':('Giữa trưa, năm ghe nhỏ áp sát tàu Pháp trên kênh Nhật Tảo','kiểu mở "sự kiện bất ngờ"; Wikipedia'),
  'hook2':('Tàu có lính, súng; ghe chỉ dao giáo; tàu chìm trong lửa','Wikipedia'),
  'hook3':('Nguyễn Trung Trực, con nhà chài lưới, ngoài hai mươi tuổi','Pháp Luật; năm sinh 1838/1839'),

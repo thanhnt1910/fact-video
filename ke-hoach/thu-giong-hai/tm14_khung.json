@@ -1,19 +1,14 @@
 {
  "ma": "tm14",
- "ten": "Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861",
- "n_hua": 2,
- "loi_hua": "hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc",
- "cau_hoi": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy mà không bị bắn?",
- "soi_chi": [
-  "ghe"
- ],
+ "ten": "Nguyễn Trung Trực, Nhật Tảo 1861",
+ "n_hua": 0,
+ "loi_hua": "hai câu hỏi: ghe tới sát tàu bằng cách nào, và người dẫn ghe đi tiếp ra sao khi triều đình bảo dừng",
+ "cau_hoi": "Mấy chiếc ghe ấy làm sao tới được sát mạn tàu?",
+ "soi_chi": [],
  "hinh_anh": [
-  "cỏ"
+  "Hy Vọng"
  ],
- "dem": [
-  "người buôn gạo",
-  "nhổ hết cỏ"
- ],
+ "dem": [],
  "nhip": [
   {
    "nhip": "hook1",
@@ -61,7 +56,7 @@
    "nhip": "buoc_ngoat",
    "su_viec": "150 người ba toán: 61 người đánh làng theo Pháp để nhử, 30 người chặn viện binh, toán ông giả người buôn gạo",
    "nguon": "Wikipedia",
-   "doan": 5
+   "doan": 6
   },
   {
    "nhip": "lan1",
@@ -79,7 +74,7 @@
    "nhip": "cao_trao",
    "su_viec": "Nhảy lên boong, giáp lá cà; tàu không kịp phát tín hiệu; toán khác lội nước bổ rìu, châm lửa; tàu chìm, vài người trốn vào bụi mấy ngày",
    "nguon": "Wikipedia",
-   "doan": 4
+   "doan": 5
   },
   {
    "nhip": "chi_tiet_nguoi",
@@ -91,7 +86,7 @@
    "nhip": "don_cuoi",
    "su_viec": "Tự Đức phong Lãnh binh; hòa ước 1862; 1867 Pháp chiếm miền Tây; 1868 Rạch Giá; mẹ làm con tin, Pháp chiếm lại đồn, bắt ông, hứa chức tước; câu nói về cỏ; bị chém 27/10/1868",
    "nguon": "Wikipedia; LSVN",
-   "doan": 4
+   "doan": 8
   },
   {
    "nhip": "ket",

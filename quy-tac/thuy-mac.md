@@ -1,5 +1,7 @@
 # Series trận đánh thủy mặc (bản dài 16:9 + bản dọc 9:16)
 
+> **Từ 18/11/2026, phần kịch bản của file này đứng dưới `quy-tac/nguyen-tac-cot-loi.md`** (mức ưu tiên cao nhất). Chỗ nào mâu thuẫn thì theo nguyên tắc cốt lõi. Khung nhịp, câu đếm và lời hứa "N lần / N thứ", hình ảnh xuyên suốt, câu hỏi xuyên suốt nay là công cụ tham khảo, chỉ dùng khi hợp với câu chuyện. Quy trình viết là bốn bước của nguyên tắc cốt lõi: tìm câu chuyện, dựng mạch truyện (gửi duyệt), viết lời kể, biên tập.
+
 Quy tắc riêng cho series video trận đánh vẽ kiểu tranh thủy mặc (mực trên giấy). Rút ra từ bản thử Bạch Đằng 938 (`bd1`, `bd2`), chủ kênh góp ý ngày 16/11/2026. Mọi quy tắc trong `chung.md` và `su-viet.md` vẫn áp dụng. Chỗ nào file này khác hai file kia thì đó là ngoại lệ đã được chủ kênh duyệt riêng cho series này.
 
 Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bach-dang-thuy-mac-gui-duyet.md`; mã dựng ở `phim_ban_do/thuymac/`. Mẫu lời kể kiểu nói chuyện và bố cục dựng: tập 2 Lê Hoàn phá Tống (`tm2_full.json`, `ke-hoach/tm2-le-hoan-pha-tong-981-gui-duyet.md`, `ke-hoach/tm2-le-hoan-pha-tong-981-bo-cuc-dung.md`, mã `dai_tm2.py`, `amthanh_tm2.py`). Cập nhật 17/11/2026 sau tập 2 và tập 3: các mục 3.1, 3.4, 4.6, 5 và 6 tổng hợp góp ý của chủ kênh trong hai tập này.
@@ -30,7 +32,8 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 
 ## 3. Kịch bản
 
-### 3.1 Khung hook bốn đoạn + "N lần" (cập nhật 17/11/2026 theo tập 2, tập 3)
+### 3.1 Khung hook bốn đoạn + "N lần" (cập nhật 17/11/2026 theo tập 2, tập 3) *(tham khảo từ 18/11/2026, xem `nguyen-tac-cot-loi.md`)*
+Cả mục này là gợi ý cách mở đầu và dàn bài. Không ép câu chuyện vào bốn đoạn hook hay lời hứa "N lần" nếu làm câu chuyện gượng.
 **Ưu tiên số một:** mở ngay vào khoảnh khắc nguy nhất của chính trận đánh (ví dụ cầu phao vừa bắc xong, giặc tràn qua), kể như đang xảy ra, rồi lùi lại bằng một câu tương phản. Sự việc ấy phải có thật và được kể lại đầy đủ ở chương của nó. Ở tm3, chủ kênh chê hai bản hook mở bằng nghịch lý và mối nguy chung chung là "quá hiền". Các bước 1–4 dưới đây áp dụng khi không có khoảnh khắc như vậy, hoặc để dựng phần còn lại của hook.
 
 1. **Đoạn 1: ưu tiên một câu hỏi (chủ kênh 17/11/2026), hoặc một câu kể bằng lời thường như kể chuyện miệng cho bạn bè.** Xem `thuy-mac-khung.md`, hook 1.
@@ -40,10 +43,10 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
    - Kiểu hai câu hỏi liền nhau (Bạch Đằng) vẫn được dùng, nhưng không lặp lại khuôn đã dùng.
 2. **Đoạn 2: lật lại câu ở đoạn 1** bằng một hình ảnh ví hoặc một sự thật ngược ("không phải cành khô nào cũng dễ bẻ", "Ông không thua").
 3. **Đoạn 3: tên người, tên nơi, và hệ quả nói mạnh.** Viết "đã phải trả giá bằng chính mạng mình", không viết "không trở về nữa" (chủ kênh chê "nói hiền quá"). Tối đa 4 tên riêng.
-4. **Đoạn 4: câu hỏi "vì sao" và lời hứa "N lần" hoặc "N thứ"** (2–4). Có thể gọi tên vắn tắt ("ngoài biển, trên sông, trong trại"), nhưng không lộ cách đánh.
+4. **Đoạn 4 (tham khảo): câu hỏi "vì sao" và lời hứa "N lần" hoặc "N thứ"** (2–4), chỉ khi câu chuyện thật sự có các lần hoặc các thứ để đếm. Có thể gọi tên vắn tắt ("ngoài biển, trên sông, trong trại"), nhưng không lộ cách đánh.
    - Không dùng "Vì sao...? Muốn trả lời, ta phải bắt đầu từ..." (cấm trong `chung.md`).
    - Không lặp "Câu trả lời nằm ở..." của tập trước.
-5. **Thân bài:** mỗi chương mở ra một lần hoặc một thứ, có câu đếm rõ ("Đó là lần thứ nhất cành khô không gãy").
+5. **Thân bài:** mỗi chương mở ra một lần hoặc một thứ, có thể có câu đếm (tham khảo, không bắt buộc) ("Đó là lần thứ nhất cành khô không gãy").
    - Chương bối cảnh viết gọn. Trận nào đã có video riêng của kênh thì rút còn vài đoạn (tm3 rút trận Ung Châu còn ba đoạn).
    - Cuối chương có câu móc: việc sắp xảy ra, hoặc một câu hỏi ở bước ngoặt lớn.
 6. **Cao trào:** kể chậm lại ngay trước khoảnh khắc quyết định ("Nếu đó là thật..."), rồi kể dồn sau đó.
@@ -60,7 +63,7 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
   - Lời chủ tướng bàn với các tướng, kể gián tiếp theo sử, không đặt thành lời thoại.
   - Tước hiệu phong sẵn, số liệu sử chép ("chết đuối quá nửa").
 - **Mọi chi tiết loại này phải đối chiếu bản dịch chính sử trước khi đọc giọng.** Không đối chiếu được thì ghi rõ nguồn khác ("sử Trung Quốc chép") hoặc bỏ.
-- **Một hình ảnh xuyên suốt** lấy từ chính sử liệu (ví dụ tước Giao Vương), gieo ở mở đầu, nhắc ở cao trào, khép ở câu kết.
+- **Một hình ảnh xuyên suốt (tham khảo)** lấy từ chính sử liệu (ví dụ tước Giao Vương), gieo ở mở đầu, nhắc ở cao trào, khép ở câu kết. Chỉ dùng khi sử liệu có sẵn một hình ảnh như vậy; không gài chữ cho đủ số lần.
 - **Nhịp kể:** câu ngắn khi hành động, câu dài hơn khi giải thích. Gọi đúng tên phe theo thời (năm 938 là "quân của Ngô Quyền", chưa phải "quân Đại Việt"). Không nói tắt ("thủy triều rút xuống", không "nước rút").
 - **Hài:** chỉ nhắm vào tình huống hoặc phía xâm lược, không đùa anh hùng dân tộc (`su-viet.md`).
 
@@ -110,14 +113,14 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 - **Kể chậm ngay trước cao trào bằng một đoạn "lặng"** có căn cứ, ví dụ "Thủy triều vẫn đang lên…", "Hai bờ vẫn im, cù lao vẫn im…". Không thêm chi tiết bịa (thời tiết, tiếng động, cảm xúc) chỉ để tạo không khí.
 - **Không dịch sát chữ từ bản dịch Toàn thư** (chủ kênh, tm4): "do Trần Quốc Tuấn coi chung" (chữ "tiết chế"), "núng thế", "sắm sửa khí giới". Gặp chữ như vậy thì kể bằng việc làm cụ thể: "do Trần Quốc Tuấn chỉ huy", "yếu thế dần". Người nổi tiếng thì kèm cái tên người nghe quen ("Ông chính là Hưng Đạo Đại Vương sau này").
 - **Có một sợi chỉ nối mạch:** mỗi đoạn mở bằng hệ quả của đoạn trước. Ví dụ ở tm3: kế hoạch có chỗ yếu, rồi bị đánh đúng vào chỗ yếu, rồi đoàn thuyền không tới, rồi phải tự bắc cầu, rồi không qua được, rồi đứng chờ, đói và bệnh, rồi bị đánh vào trại.
-- **Hình ảnh xuyên suốt** có thể lấy từ một câu nói có thật ("dễ như bẻ cành khô"). Hình ảnh ấy gieo ở hook, hiện lại ở mỗi lần đếm, rồi khép ở câu kết.
+- **Hình ảnh xuyên suốt (tham khảo)** có thể lấy từ một câu nói có thật ("dễ như bẻ cành khô"). Hình ảnh ấy gieo ở hook, hiện lại ở mỗi lần đếm, rồi khép ở câu kết.
 
 - **Đại từ phải chỉ đúng người, con số phải cùng một phạm vi (chủ kênh nhắc 18/11/2026, tm14).** Chữ "ông" đứng sau đoạn vừa nhắc một người khác (ví dụ viên chỉ huy phe kia) thì phải gọi lại đủ tên. Hai con số về cùng một nhóm (50 người của một toán, 150 người của cả trận) phải nói rõ mỗi số đếm cái gì. Khi rà, đánh dấu từng chữ "ông", "họ", "toán" và hỏi nó trỏ vào ai.
 - **Việc nào kể ra cũng phải có kết quả, và đúng logic trước sau (chủ kênh nhắc 18/11/2026, tm14).** Đã bắt được người thì không còn "dụ hàng"; kể "họ mua chuộc" thì phải nói ông nhận hay không trước khi dẫn câu trả lời. Đọc lại từng cặp đoạn: hành động ở đoạn trước đã có kết quả chưa, và việc sau có còn hợp lý với việc trước không.
 - **Mốc thời gian không dựa vào tập khác (chủ kênh nhắc 18/11/2026, tm11).** Mỗi tập xem riêng, nên không viết kiểu "bảy năm trước Bạch Đằng": người xem dễ hiểu là bảy năm trước ngày nay. Mốc tương đối chỉ dùng khi mốc gốc đã nói rõ trong chính tập đó ("sáu năm sau" sau khi đã nêu năm chín trăm ba mươi mốt); ngày tháng của trận chính phải kèm năm.
 
 ### 3.3 Hồ sơ gửi duyệt
-- **Từ 17/11/2026: trước khi viết lời, gửi bảng khung theo `quy-tac/thuy-mac-khung.md` (khung nhịp cố định, năm điểm nhấn, bộ kiểm `kiem_khung.py`). Chủ kênh duyệt khung rồi mới viết lời.**
+- **Từ 18/11/2026: trước khi viết lời, gửi mạch truyện theo bước 2 của `quy-tac/nguyen-tac-cot-loi.md` (sự kiện, nguyên nhân, lựa chọn, bước ngoặt, kết quả; chưa viết văn). Chủ kênh duyệt mạch truyện rồi mới viết lời.** Bảng khung theo `quy-tac/thuy-mac-khung.md` (từ 17/11/2026) nay là tham khảo, chỉ lập khi hữu ích.
 - File `ke-hoach/<mã>-<tên>-gui-duyet.md` gồm các phần sau:
   - Kịch bản đủ, chia chương, ghi phần trăm thời lượng mỗi chương.
   - 3 phương án hook.
@@ -270,7 +273,7 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 
 ## 6. Quy trình mỗi tập
 1. Nghiên cứu: lập khung sự kiện, đối chiếu Toàn thư và Cương mục, ghi các chỗ nguồn chép khác nhau.
-2. Viết kịch bản theo khung ở mục 3, chạy ba bộ kiểm, gửi duyệt kèm 3 phương án hook.
+2. Viết kịch bản theo bốn bước của `nguyen-tac-cot-loi.md` (mạch truyện gửi duyệt trước), rồi biên tập, chạy các bộ kiểm, gửi duyệt kèm 3 phương án hook.
 3. Chủ kênh duyệt, rồi Claude đối chiếu lại các chi tiết ít người biết với bản dịch chính sử. Lên bố cục dựng (mục 3.3) gửi duyệt.
 4. Đọc giọng Charon (workflow `thu-giong-hai.yml`, chỉ chạy khi chủ kênh yêu cầu), nhận dạng giọng từng đoạn, đạt 100% ở `kiem_giong.py`.
 5. Vẽ thêm tranh cho các sự việc mới (`assets.py`). Soi từng tranh ở cỡ lớn.

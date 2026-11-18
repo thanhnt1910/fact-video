@@ -3,6 +3,8 @@
 > **Bài mẫu:** `quy-tac/thuy-mac-mau.md` (tm5 bản 9, chủ kênh duyệt 17/11/2026). Viết tập mới thì đặt từng nhịp cạnh bài mẫu để so.
 
 
+> **Từ 18/11/2026, khung này là tham khảo, không bắt buộc** (chủ kênh duyệt, xem `quy-tac/nguyen-tac-cot-loi.md`, mức ưu tiên cao nhất). Dùng nó để soát bố cục ở bước biên tập, khi hợp với câu chuyện. Không ép câu chuyện vào đủ các nhịp, đủ câu đếm, hình ảnh xuyên suốt hay câu hỏi xuyên suốt. Nội dung dưới đây giữ nguyên để tra.
+
 Mọi tập đều viết theo một khung nhịp giống nhau, để điểm nhấn luôn nằm ở cùng chỗ và chủ kênh không phải duyệt lại bố cục mỗi lần. Khung này đứng trên các quy tắc lời kể ở `quy-tac/thuy-mac.md` mục 3. Hai file không mâu thuẫn: khung quyết định đoạn nào làm gì, mục 3 quyết định viết câu thế nào.
 
 ## 1. Khung nhịp

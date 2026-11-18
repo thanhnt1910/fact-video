@@ -1,5 +1,7 @@
 # Bài mẫu series thủy mặc: tm5 bản 9 (chủ kênh duyệt "đã hay hơn", 17/11/2026)
 
+> **Từ 18/11/2026, bài mẫu này là tham khảo** về câu chữ và nhịp, không phải khuôn bắt buộc. Câu đếm, câu hỏi xuyên suốt và khung nhịp trong bài chỉ dùng khi hợp với câu chuyện (`quy-tac/nguyen-tac-cot-loi.md`, mức ưu tiên cao nhất).
+
 Mọi tập thủy mặc từ tm6 trở đi viết theo bài này. Khung nhịp vẫn theo `thuy-mac-khung.md`, câu chữ theo `thuy-mac-giong-van.md`; file này cho thấy hai thứ ấy ghép lại thành một kịch bản đạt. Khi phân vân, mở bài mẫu ra so từng nhịp.
 
 ## 1. Mười quy tắc rút từ bài mẫu
@@ -69,6 +71,6 @@ Giữ nguyên: không bịa lời, cảm xúc, nguyên nhân; được thêm ho�
 1. Tìm **lựa chọn của con người** trong câu chuyện (nhận hay từ chối, đuổi hay không đuổi, mời quân ngoài hay không, nói ra hay im lặng). Đó là hook1 và câu hỏi xuyên suốt.
 2. Tìm **hai đến ba thứ cụ thể** (nơi chốn, đồ vật, âm thanh) để hứa ở hook4 và đếm trong thân bài.
 3. Tìm **một số phận trái ngược** của nhân vật phía kia cho phần dọn cuối.
-4. Viết bảng khung → lời đọc → năm bộ kiểm 0 ❌ → đặt từng nhịp cạnh bài mẫu để so.
+4. (Thay từ 18/11/2026 bằng bốn bước của `nguyen-tac-cot-loi.md`.) Cách cũ: viết bảng khung → lời đọc → năm bộ kiểm 0 ❌ → đặt từng nhịp cạnh bài mẫu để so.
 
 Đã áp dụng: tm6 (câu "đánh giặc nhàn", thuyền lương, sông cũ; Ô Mã Nhi phá lăng vua rồi bị bắt sống), tm7 (ám hiệu tiếng súng, chọn im lặng; Vương Thông bị nhốt trong thành mình giữ), tm8 (đuổi hay không đuổi; ngọn núi, con dấu; Lê Lợi chọn chờ), tm9 (mời quân ngoài; quân Xiêm cướp phá, khúc sông; Nguyễn Ánh chạy về chính nước đã cầu cứu).

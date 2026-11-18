@@ -2,6 +2,11 @@
 
 Repo của kênh "Người Gác Sử": video dọc 60–80 giây và video dài YouTube 16:9, kể chuyện có thật trong lịch sử.
 
+## Viết kịch bản: nguyên tắc cốt lõi đứng trên mọi quy tắc khác (chủ kênh duyệt 18/11/2026)
+- Trước khi viết hay sửa bất kỳ kịch bản nào, PHẢI đọc `quy-tac/nguyen-tac-cot-loi.md` (nhánh có thư mục `quy-tac/`). File này có mức ưu tiên cao nhất trong hệ thống quy tắc viết kịch bản. Quy tắc cũ nào mâu thuẫn với nó thì theo nó.
+- Ưu tiên chất lượng kể chuyện, sự liền mạch và sáng tạo. Đúng lịch sử là điều kiện bắt buộc; các checklist, khung nhịp, câu đếm, hình ảnh xuyên suốt, câu hỏi xuyên suốt là công cụ biên tập, không phải khuôn để viết.
+- Quy trình bốn bước: tìm câu chuyện → dựng mạch truyện (gửi chủ kênh duyệt, chưa viết văn) → viết lời kể → biên tập và kiểm.
+
 ## Quy định thời lượng (chủ kênh đặt ngày 15/10/2026, áp dụng cho mọi video từ nay)
 
 - Mọi VIDEO DÀI phải dài TỐI THIỂU 10 PHÚT. Đây là mức sàn.

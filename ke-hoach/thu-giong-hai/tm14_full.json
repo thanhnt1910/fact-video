@@ -28,8 +28,8 @@
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
-  "text": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và vì sao bảy năm sau, khi bị dụ hàng, ông lại nói về cỏ của nước Nam?",
-  "hien": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và vì sao bảy năm sau, khi bị dụ hàng, ông lại nói về cỏ của nước Nam?"
+  "text": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và bảy năm sau, khi bị bắt và bị mua chuộc, ông đã nói gì về cỏ của nước Nam?",
+  "hien": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và bảy năm sau, khi bị bắt và bị mua chuộc, ông đã nói gì về cỏ của nước Nam?"
  },
  {
   "n": 189005,
@@ -220,16 +220,16 @@
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Ông vẫn đánh. Năm một nghìn tám trăm sáu mươi tám, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá.",
-  "hien": "Ông vẫn đánh. Năm một nghìn tám trăm sáu mươi tám, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá."
+  "text": "Năm năm sau, Pháp chiếm nốt miền Tây. Ông vẫn đánh, và năm sau nữa thì chiếm được đồn Pháp ở Rạch Giá.",
+  "hien": "Năm năm sau, Pháp chiếm nốt miền Tây. Ông vẫn đánh, và năm sau nữa thì chiếm được đồn Pháp ở Rạch Giá."
  },
  {
   "n": 189029,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông và tìm cách dụ ông hàng.",
-  "hien": "Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông và tìm cách dụ ông hàng."
+  "text": "Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc ông.",
+  "hien": "Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc ông."
  },
  {
   "n": 189030,

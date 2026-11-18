@@ -2,7 +2,7 @@
  "ma": "tm14",
  "ten": "Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861",
  "n_hua": 2,
- "loi_hua": "hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị dụ hàng",
+ "loi_hua": "hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc",
  "cau_hoi": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy mà không bị bắn?",
  "soi_chi": [
   "ghe"
@@ -35,7 +35,7 @@
   },
   {
    "nhip": "hook4",
-   "su_viec": "Ghe áp sát thế nào? Ông nói gì về cỏ khi bị dụ hàng?",
+   "su_viec": "Ghe áp sát thế nào? Ông nói gì về cỏ khi bị mua chuộc?",
    "nguon": "lời hứa",
    "doan": 1
   },
@@ -89,7 +89,7 @@
   },
   {
    "nhip": "don_cuoi",
-   "su_viec": "Tự Đức phong Lãnh binh; hòa ước 1862; 1868 Rạch Giá; mẹ làm con tin; câu nói về cỏ; bị chém 27/10/1868",
+   "su_viec": "Tự Đức phong Lãnh binh; hòa ước 1862; 1867 Pháp chiếm miền Tây; 1868 Rạch Giá; mẹ làm con tin, Pháp chiếm lại đồn, bắt ông, hứa chức tước; câu nói về cỏ; bị chém 27/10/1868",
    "nguon": "Wikipedia; LSVN",
    "doan": 4
   },

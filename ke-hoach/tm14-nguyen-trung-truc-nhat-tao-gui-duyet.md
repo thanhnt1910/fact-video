@@ -1,7 +1,7 @@
 # tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-31 đoạn, 770 chữ, khoảng 4.1 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
-Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị dụ hàng**. Câu đếm: người buôn gạo, nhổ hết cỏ. Hình ảnh xuyên suốt: "cỏ".
+31 đoạn, 778 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc**. Câu đếm: người buôn gạo, nhổ hết cỏ. Hình ảnh xuyên suốt: "cỏ".
 
 ## Kịch bản (theo nhịp)
 
@@ -19,7 +19,7 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 **Hook 4** (mốc 9%)
 
-4. Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và vì sao bảy năm sau, khi bị dụ hàng, ông lại nói về cỏ của nước Nam?
+4. Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và bảy năm sau, khi bị bắt và bị mua chuộc, ông đã nói gì về cỏ của nước Nam?
 
 **Gốc rễ** (mốc 13%)
 
@@ -38,7 +38,7 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 12. Ghe của nghĩa quân nhỏ, vũ khí chỉ có dao, giáo. Nếu chèo thẳng tới, ghe chưa kịp áp mạn đã bị súng trên tàu bắn chìm.
 
-**Bước ngoặt** (mốc 41%)
+**Bước ngoặt** (mốc 40%)
 
 13. Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người được chia làm ba toán, mỗi toán một việc.
 14. Hơn sáu mươi người ở toán thứ nhất sẽ đánh vào một làng theo Pháp gần đó, để kéo lính trên tàu rời khỏi tàu.
@@ -63,15 +63,15 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 24. Dưới nước, toán ba mươi người lội tới, dùng rìu bổ vào thân tàu cho nước tràn vào, rồi châm lửa.
 25. Tàu Hy Vọng bốc cháy rồi chìm. Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven kênh, nấp ở đó mấy ngày.
 
-**★ Chi tiết con người** (mốc 79%)
+**★ Chi tiết con người** (mốc 78%)
 
 26. Viên trung úy quay về thì con tàu đã chìm. Ông ta cho đốt các làng quanh đó, nhưng dân đã bỏ đi từ trước.
 
-**Dồn cuối** (mốc 82%)
+**Dồn cuối** (mốc 81%)
 
 27. Tin về tới Huế, vua Tự Đức phong Nguyễn Trung Trực làm Lãnh binh. Nhưng nửa năm sau, triều đình lại ký hòa ước, cắt ba tỉnh miền Đông cho Pháp.
-28. Ông vẫn đánh. Năm một nghìn tám trăm sáu mươi tám, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá.
-29. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông và tìm cách dụ ông hàng.
+28. Năm năm sau, Pháp chiếm nốt miền Tây. Ông vẫn đánh, và năm sau nữa thì chiếm được đồn Pháp ở Rạch Giá.
+29. Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc ông.
 30. Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá.
 
 **Kết** (mốc 96%)
@@ -129,7 +129,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 4 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 5 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 4 ⚠️
 - `kiem_mo_dau.py`: ⚠️ 5 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

@@ -5,7 +5,7 @@ Mỗi series có: tên, định dạng, giọng, nguồn chính, điều đặc 
 | Series | Trạng thái | Định dạng | Tài liệu chi tiết |
 |---|---|---|---|
 | Trận đánh thủy mặc | Đang làm (tm1…tm14) | Dài 16:9 + dọc 9:16, tranh thủy mặc | `quy-tac/thuy-mac.md` (tham khảo: `thuy-mac-khung.md`, `thuy-mac-giong-van.md`, `thuy-mac-mau.md`) |
-| Sengoku "Ba người, một thiên hạ" (sử nước ngoài) | Đang làm | Dài, tranh thủy mặc, khung "hồ sơ vụ án" | `quy-tac/giong-van.md` (mục Sengoku), `ke-hoach/nb1-kich-ban-day-du-v11-ho-so.md` |
+| Sengoku "Ba người, một thiên hạ" (sử nước ngoài) | Đang làm | Dài, tranh thủy mặc, khung "hồ sơ vụ án" | `quy-tac/series/sengoku.md`, `ke-hoach/nb1-kich-ban-day-du-v11-ho-so.md` |
 | Bí mật biểu tượng và Vĩ nhân | Đang làm | Dọc 9:16, giọng Leda | skill `viet-kich-ban-bi-mat-bieu-tuong`; dựng hình: `quy-tac/series/bi-mat-bieu-tuong.md` |
 | Chuyện cai trị ngàn năm | Tạm dừng sau tập 3 | Dọc 9:16, bản đồ phủ kín | `quy-tac/series/chuyen-cai-tri-ngan-nam.md` |
 | Tên tỉnh thành | Thử nghiệm, theo dõi số liệu | Dọc 9:16 | `quy-tac/series/ten-tinh-thanh.md` |

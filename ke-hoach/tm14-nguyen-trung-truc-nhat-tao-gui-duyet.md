@@ -1,6 +1,6 @@
 # tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-31 đoạn, 778 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+31 đoạn, 781 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc**. Câu đếm: người buôn gạo, nhổ hết cỏ. Hình ảnh xuyên suốt: "cỏ".
 
 ## Kịch bản (theo nhịp)
@@ -52,7 +52,7 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 19. Kế nhử có kết quả. Viên trung úy sai lính trên tàu đuổi theo, rồi chính ông ta cũng rời tàu.
 20. Trên tàu chỉ còn lại một phần lính. Đúng lúc ấy, năm chiếc ghe buôn gạo cặp vào mạn tàu Hy Vọng.
 
-**★ Đoạn lặng** (mốc 65%)
+**★ Đoạn lặng** (mốc 64%)
 
 21. Chỉ cần người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng.
 
@@ -71,7 +71,7 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 27. Tin về tới Huế, vua Tự Đức phong Nguyễn Trung Trực làm Lãnh binh. Nhưng nửa năm sau, triều đình lại ký hòa ước, cắt ba tỉnh miền Đông cho Pháp.
 28. Năm năm sau, Pháp chiếm nốt miền Tây. Ông vẫn đánh, và năm sau nữa thì chiếm được đồn Pháp ở Rạch Giá.
-29. Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc ông.
+29. Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc, nhưng ông không nhận.
 30. Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá.
 
 **Kết** (mốc 96%)

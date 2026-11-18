@@ -29,7 +29,7 @@ S=[
 ('chi_tiet_nguoi',"Viên trung úy quay về thì con tàu đã chìm. Ông ta cho đốt các làng quanh đó, nhưng dân đã bỏ đi từ trước."),
 ('don_cuoi',"Tin về tới Huế, vua Tự Đức phong Nguyễn Trung Trực làm Lãnh binh. Nhưng nửa năm sau, triều đình lại ký hòa ước, cắt ba tỉnh miền Đông cho Pháp."),
 ('don_cuoi',"Năm năm sau, Pháp chiếm nốt miền Tây. Ông vẫn đánh, và năm sau nữa thì chiếm được đồn Pháp ở Rạch Giá."),
-('don_cuoi',"Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc ông."),
+('don_cuoi',"Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc, nhưng ông không nhận."),
 ('don_cuoi',"Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá."),
 ('ket',"Con tàu chìm ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]

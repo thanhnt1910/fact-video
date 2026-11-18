@@ -1,6 +1,6 @@
 # tm13: Hai Bà Trưng, Lãng Bạc và Cấm Khê 40–43 (lời đọc theo khung, gửi duyệt)
 
-25 đoạn, 634 chữ, khoảng 3.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+25 đoạn, 647 chữ, khoảng 3.5 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **ba nơi: Mê Linh, Lãng Bạc, Cấm Khê**. Câu đếm: nơi đầu tiên, nơi thứ hai, nơi thứ ba. Hình ảnh xuyên suốt: "làm vua".
 
 ## Kịch bản (theo nhịp)
@@ -28,24 +28,24 @@ Lời hứa: **ba nơi: Mê Linh, Lãng Bạc, Cấm Khê**. Câu đếm: nơi �
 7. Nơi đầu tiên là Mê Linh, quê hai bà, nay thuộc Hà Nội. Mùa xuân năm bốn mươi, hai chị em nổi lên ở đó, đánh thẳng vào quan nhà Hán.
 8. Người các nơi kéo theo rất đông. Tô Định bỏ chạy về nước, hai bà lấy được sáu mươi lăm thành, và bà Trưng Trắc lên làm vua.
 
-**Thế nguy** (mốc 35%)
+**Thế nguy** (mốc 34%)
 
 9. Nhưng nhà Hán không chịu mất đất. Hoàng đế nhà Hán sai Mã Viện, một vị tướng đã quen đánh trận, đem quân sang.
 10. Theo sử nhà Hán, Mã Viện có hơn hai vạn lính, thêm hơn một vạn quân ở phía nam. Họ men theo bờ biển, mở đường qua núi mà tiến vào.
-11. Nơi thứ hai là Lãng Bạc, ở vùng Tiên Du, Bắc Ninh bây giờ. Mùa xuân năm bốn mươi hai, quân hai bên gặp nhau ở đó.
-12. Quân của hai bà thua to. Mấy nghìn người bị giết, hơn một vạn người ra hàng.
+11. Nơi thứ hai là Lãng Bạc, ở vùng Tiên Du, Bắc Ninh bây giờ. Mùa xuân năm bốn mươi hai, quân nhà Hán kéo tới đóng trên vùng đất cao ở đó.
+12. Quân hai bên đánh nhau ở Lãng Bạc, phía hai bà thua to. Mấy nghìn người bị giết, hơn một vạn người ra hàng.
 
-**★ Điểm thấp nhất** (mốc 50%)
+**★ Điểm thấp nhất** (mốc 51%)
 
 13. Hai bà phải rút đi, mất phần lớn quân. Nhìn lúc ấy, đất nước vừa giành lại tưởng như sắp mất.
 
-**Bước ngoặt** (mốc 53%)
+**Bước ngoặt** (mốc 54%)
 
 14. Nhưng quân nhà Hán cũng chẳng dễ chịu gì. Đất lạ, mưa dầm, khí nóng ẩm, lính từ phương bắc sang đổ bệnh rất nhiều.
 15. Sử nhà Hán còn chép lời Mã Viện kể lại, hơi nóng bốc lên dày đến mức chim diều hâu đang bay cũng rơi xuống nước.
-16. Hai bà thua ở Lãng Bạc nhưng vẫn còn quân, vẫn giữ được một vùng đất nữa. Quân nhà Hán phải đuổi theo.
+16. Mã Viện vẫn chưa xong việc. Hai bà còn quân, kéo về giữ một vùng đất khác, buộc quân nhà Hán phải đuổi theo.
 
-**Lần 1** (mốc 65%)
+**Lần 1** (mốc 66%)
 
 17. Nơi thứ ba là Cấm Khê. Đến nay chưa ai chỉ chắc được chỗ ấy, người cho là chân núi Ba Vì, người cho là gần Mê Linh.
 18. Mã Viện đuổi tới, đánh nhiều trận. Quân của hai bà bị cắt đường lương, mỗi trận lại ít đi, nhưng vẫn cố giữ từng bãi, từng làng.
@@ -122,7 +122,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 7 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 8 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 4 ⚠️
 - `kiem_mo_dau.py`: ⚠️ 5 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
 - `kiem_khung.py`: -> 0 ❌, 1 ⚠️

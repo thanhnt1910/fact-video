@@ -1,6 +1,6 @@
 # tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-26 đoạn, 665 chữ, khoảng 3.6 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+26 đoạn, 668 chữ, khoảng 3.6 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói về cỏ**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "cỏ".
 
 ## Kịch bản (theo nhịp)
@@ -17,7 +17,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 
 3. Dẫn đầu là Nguyễn Trung Trực, con một nhà làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc.
 
-**Hook 4** (mốc 11%)
+**Hook 4** (mốc 10%)
 
 4. Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy? Có hai thứ sẽ kể lại, một cách giả làm ghe buôn, và một câu nói về cỏ.
 
@@ -27,7 +27,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 6. Họ muốn biến đất này thành thuộc địa, đất do nước Pháp cai trị. Đầu năm ấy, đại đồn Chí Hòa ở Sài Gòn vỡ, quân triều đình nhà Nguyễn phải rút.
 7. Ở làng quê, nhiều người dân tự đứng lên. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp.
 
-**Thế nguy** (mốc 29%)
+**Thế nguy** (mốc 28%)
 
 8. Quân Pháp có súng tốt, có tàu chạy trên các sông lớn, chặn cả đường chở gạo của dân.
 9. Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh Nhật Tảo đổ ra sông Vàm Cỏ.
@@ -58,14 +58,14 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 19. Một toán khác lội nước tới, dùng rìu phá thân tàu rồi châm lửa. Tàu Hy Vọng bốc cháy.
 20. Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven sông.
 
-**★ Chi tiết con người** (mốc 75%)
+**★ Chi tiết con người** (mốc 74%)
 
 21. Tin về tới kinh thành Huế. Vua Tự Đức phong ông làm Lãnh binh, chức chỉ huy quân của tỉnh Hà Tiên.
 
 **Dồn cuối** (mốc 78%)
 
 22. Nửa năm sau, triều đình ký hòa ước, cắt ba tỉnh miền Đông Nam Bộ cho Pháp, rồi bảo nghĩa quân thôi đánh. Nguyễn Trung Trực vẫn không buông giáo.
-23. Năm một nghìn tám trăm sáu mươi tám, ông đánh chiếm đồn Pháp ở Rạch Giá. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông.
+23. Sáu năm sau nữa, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông.
 24. Thứ hai là câu nói về cỏ. Bị dụ hàng, theo lời kể, ông đáp bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây.
 25. Ngày hai mươi bảy tháng mười năm ấy, Nguyễn Trung Trực bị quân Pháp xử chém ở Rạch Giá, khi mới khoảng ba mươi tuổi.
 
@@ -124,7 +124,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 7 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 8 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 4 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

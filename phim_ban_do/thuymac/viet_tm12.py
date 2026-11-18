@@ -26,7 +26,6 @@ S=[
 ('cao_trao',"Ở lại chỉ còn một viên phó tướng tên Dương Sàn. Triệu Việt Vương lập tức đem quân ra khỏi đầm, đánh thẳng vào quân nhà Lương."),
 ('cao_trao',"Dương Sàn chết trận. Quân nhà Lương tan vỡ, kéo nhau chạy về phương bắc."),
 ('don_cuoi',"Triệu Việt Vương vào thành Long Biên, ở vùng Bắc Ninh, Hà Nội bây giờ, sau mấy năm sống trong đầm lầy."),
-('don_cuoi',"Ông làm vua nước Vạn Xuân hơn hai mươi năm, cho tới khi mất ngôi vào tay Lý Phật Tử, một người trong họ Lý."),
 ('ket',"Những đêm trong đầm Dạ Trạch đã giữ cho đạo quân ấy còn sống, cho tới ngày giặc phải gọi tướng về. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]
 xuat2(S,'tm12',187001)

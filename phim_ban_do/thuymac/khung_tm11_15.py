@@ -40,7 +40,7 @@ lam('tm12',dict(ten='Triệu Quang Phục ở đầm Dạ Trạch 546–550',n_h
  'lang':('Đánh úp chưa đuổi được giặc; Lý Nam Đế mất (548)',TT),
  'chi_tiet_nguoi':('Xưng Triệu Việt Vương; dân gọi Dạ Trạch Vương',TT),
  'cao_trao':('550 nhà Lương loạn Hầu Cảnh, gọi Bá Tiên về (thứ ba); Dương Sàn chết, quân Lương chạy','Toàn thư, Lương thư'),
- 'don_cuoi':('Vào Long Biên; làm vua hơn 20 năm tới khi mất ngôi vào Lý Phật Tử (571)',TT),
+ 'don_cuoi':('Vào Long Biên sau mấy năm trong đầm',TT),
  'ket':('Những đêm trong đầm giữ đạo quân sống tới ngày giặc gọi tướng về','tổng kết, đúng tác nhân')})
 lam('tm13',dict(ten='Hai Bà Trưng, Lãng Bạc và Cấm Khê 40–43',n_hua=3,loi_hua='ba nơi: Mê Linh, Lãng Bạc, Cấm Khê',
  cau_hoi='Hai bà đã giữ đất nước ra sao trước đạo quân nhà Hán?',soi_chi=['giữ'],hinh_anh=['làm vua'],dem=['nơi đầu tiên','nơi thứ hai','nơi thứ ba']),{

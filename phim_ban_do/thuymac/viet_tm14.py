@@ -23,7 +23,7 @@ S=[
 ('cao_trao',"Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven sông."),
 ('chi_tiet_nguoi',"Tin về tới kinh thành Huế. Vua Tự Đức phong ông làm Lãnh binh, chức chỉ huy quân của tỉnh Hà Tiên."),
 ('don_cuoi',"Nửa năm sau, triều đình ký hòa ước, cắt ba tỉnh miền Đông Nam Bộ cho Pháp, rồi bảo nghĩa quân thôi đánh. Nguyễn Trung Trực vẫn không buông giáo."),
-('don_cuoi',"Năm một nghìn tám trăm sáu mươi tám, ông đánh chiếm đồn Pháp ở Rạch Giá. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông."),
+('don_cuoi',"Sáu năm sau nữa, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông."),
 ('don_cuoi',"Thứ hai là câu nói về cỏ. Bị dụ hàng, theo lời kể, ông đáp bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây."),
 ('don_cuoi',"Ngày hai mươi bảy tháng mười năm ấy, Nguyễn Trung Trực bị quân Pháp xử chém ở Rạch Giá, khi mới khoảng ba mươi tuổi."),
 ('ket',"Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này."),

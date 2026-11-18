@@ -23,12 +23,6 @@
    "doan": 1
   },
   {
-   "nhip": "hook3",
-   "su_viec": "Trưng Trắc, Trưng Nhị dấy binh; Cửu Chân, Nhật Nam, Hợp Phố hưởng ứng; 65 thành",
-   "nguon": "Toàn thư NK 3/2a-3a",
-   "doan": 1
-  },
-  {
    "nhip": "hook4",
    "su_viec": "Ba năm sau cuộc nổi dậy tắt; vì sao không giữ nổi",
    "nguon": "lời hứa",
@@ -38,7 +32,7 @@
    "nhip": "goc_re",
    "su_viec": "Trưng Trắc con gái Lạc tướng Mê Linh, vợ Thi Sách; Tô Định giết Thi Sách; bà tìm cách trả thù",
    "nguon": "Toàn thư NK 3/2a",
-   "doan": 2
+   "doan": 1
   },
   {
    "nhip": "buoc_ngoat",
@@ -50,13 +44,13 @@
    "nhip": "the_nguy",
    "su_viec": "Năm 42 nhà Hán sai Mã Viện; quân qua núi, thuyền chở lương ven biển; số quân các sách khác nhau",
    "nguon": "Hậu Hán thư qua Wikipedia (Bielestein 1986); Toàn thư",
-   "doan": 3
+   "doan": 2
   },
   {
    "nhip": "lan1",
    "su_viec": "Lãng Bạc: chém hàng nghìn, hơn vạn ra hàng; Cấm Khê vị trí chưa rõ",
    "nguon": "Toàn thư; Cương mục TB 2; Kiernan 2019",
-   "doan": 3
+   "doan": 1
   },
   {
    "nhip": "diem_thap",
@@ -65,28 +59,22 @@
    "doan": 1
   },
   {
-   "nhip": "lan1",
-   "su_viec": "Lãng Bạc: chém hàng nghìn, hơn vạn ra hàng; Cấm Khê vị trí chưa rõ",
-   "nguon": "Toàn thư; Cương mục TB 2; Kiernan 2019",
-   "doan": 1
-  },
-  {
    "nhip": "cao_trao",
    "su_viec": "Mã Viện đuổi, thắng nhiều trận; năm 43 hai bà bị cô lập và thua",
    "nguon": "Hậu Hán thư; Toàn thư NK 3/3b",
-   "doan": 2
+   "doan": 1
   },
   {
    "nhip": "chi_tiet_nguoi",
    "su_viec": "Ba cách kể về cái chết: bị chém (Hậu Hán thư), thua và bị bắt (Toàn thư, Cương mục), gieo sông Hát (người đời truyền lại)",
    "nguon": "Hậu Hán thư; Toàn thư; Cương mục TB 2/12a",
-   "doan": 3
+   "doan": 2
   },
   {
    "nhip": "don_cuoi",
    "su_viec": "Quân Hán giết 5.000–10.000 thủ lĩnh, quân chết 4–5 phần 10, nấu trống đồng đúc ngựa 44; trả lời câu hỏi hook; Lê Văn Hưu, Ngô Sĩ Liên",
    "nguon": "Kiernan 2019; Hậu Hán thư; Toàn thư NK 3/3a-4a",
-   "doan": 7
+   "doan": 3
   },
   {
    "nhip": "ket",

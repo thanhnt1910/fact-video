@@ -12,19 +12,11 @@
   "chuong": 1,
   "nhip": "hook2",
   "tone": "story",
-  "text": "Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm.",
-  "hien": "Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm."
+  "text": "Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ dấy binh, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại.",
+  "hien": "Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ dấy binh, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại."
  },
  {
   "n": 188003,
-  "chuong": 1,
-  "nhip": "hook3",
-  "tone": "story",
-  "text": "Hai người ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ dấy binh, Cửu Chân, Nhật Nam, Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại.",
-  "hien": "Hai người ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ dấy binh, Cửu Chân, Nhật Nam, Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại."
- },
- {
-  "n": 188004,
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
@@ -32,203 +24,115 @@
   "hien": "Thế mà ba năm sau, cuộc nổi dậy đã tắt. Vì sao một tiếng gọi được cả vùng đáp lại, rồi vẫn không giữ nổi?"
  },
  {
-  "n": 188005,
+  "n": 188004,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên.",
-  "hien": "Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên."
+  "text": "Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên. Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù.",
+  "hien": "Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên. Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù."
+ },
+ {
+  "n": 188005,
+  "chuong": 3,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị dấy binh. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ chạy về Nam Hải. Trưng Trắc xưng vương, đóng đô ở Mê Linh, quê bà.",
+  "hien": "Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị dấy binh. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ chạy về Nam Hải. Trưng Trắc xưng vương, đóng đô ở Mê Linh, quê bà."
  },
  {
   "n": 188006,
-  "chuong": 2,
-  "nhip": "goc_re",
+  "chuong": 3,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù.",
-  "hien": "Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù."
+  "text": "Sử ta nói bà khởi binh để trả thù cho chồng. Nhưng sử cũng chép Tô Định trói buộc cả dân Giao Chỉ, chứ không riêng gia đình bà, nên có thể hiểu vì sao tiếng gọi của bà vang xa hơn một nhà. Còn mỗi vùng hưởng ứng vì lý do gì thì sử không nói.",
+  "hien": "Sử ta nói bà khởi binh để trả thù cho chồng. Nhưng sử cũng chép Tô Định trói buộc cả dân Giao Chỉ, chứ không riêng gia đình bà, nên có thể hiểu vì sao tiếng gọi của bà vang xa hơn một nhà. Còn mỗi vùng hưởng ứng vì lý do gì thì sử không nói."
  },
  {
   "n": 188007,
-  "chuong": 3,
-  "nhip": "buoc_ngoat",
+  "chuong": 4,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị dấy binh. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ chạy về Nam Hải.",
-  "hien": "Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị dấy binh. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ chạy về Nam Hải."
+  "text": "Nhưng nhà Hán không bỏ quận ấy. Triều đình ở Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang. Sử không nói vì sao chậm. Một tài liệu nhận xét rằng việc nhà Hán cử những tướng được tin cậy nhất cho thấy họ coi Giao Chỉ là vùng quan trọng.",
+  "hien": "Nhưng nhà Hán không bỏ quận ấy. Triều đình ở Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang. Sử không nói vì sao chậm. Một tài liệu nhận xét rằng việc nhà Hán cử những tướng được tin cậy nhất cho thấy họ coi Giao Chỉ là vùng quan trọng."
  },
  {
   "n": 188008,
-  "chuong": 3,
-  "nhip": "buoc_ngoat",
+  "chuong": 4,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Trưng Trắc xưng vương, đóng đô ở Mê Linh, quê bà. Từ đây, vùng đất từ Cửu Chân đến Hợp Phố nằm dưới tay hai chị em.",
-  "hien": "Trưng Trắc xưng vương, đóng đô ở Mê Linh, quê bà. Từ đây, vùng đất từ Cửu Chân đến Hợp Phố nằm dưới tay hai chị em."
+  "text": "Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau. Số quân các sách ghi không giống nhau, từ chừng một vạn đến hơn ba vạn. Về quân của hai bà, sử không ghi con số nào, nên ta không thể đặt hai bên lên cân.",
+  "hien": "Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau. Số quân các sách ghi không giống nhau, từ chừng một vạn đến hơn ba vạn. Về quân của hai bà, sử không ghi con số nào, nên ta không thể đặt hai bên lên cân."
  },
  {
   "n": 188009,
-  "chuong": 4,
-  "nhip": "the_nguy",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Nhưng nhà Hán không bỏ quận ấy. Triều đình ở Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang.",
-  "hien": "Nhưng nhà Hán không bỏ quận ấy. Triều đình ở Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang."
+  "text": "Mã Viện đánh hai bà ở Lãng Bạc, theo Toàn thư, bộ sử nước ta soạn thời nhà Lê. Sách xưa chép Lãng Bạc là Hồ Tây, người nay cho là vùng núi Tiên Du ở Bắc Ninh. Nhà nghiên cứu Ben Kiernan ghi quân nhà Hán chém hàng nghìn người theo hai bà, hơn mười nghìn người ra hàng. Nguồn khác ghi số người ra hàng còn lớn hơn.",
+  "hien": "Mã Viện đánh hai bà ở Lãng Bạc, theo Toàn thư, bộ sử nước ta soạn thời nhà Lê. Sách xưa chép Lãng Bạc là Hồ Tây, người nay cho là vùng núi Tiên Du ở Bắc Ninh. Nhà nghiên cứu Ben Kiernan ghi quân nhà Hán chém hàng nghìn người theo hai bà, hơn mười nghìn người ra hàng. Nguồn khác ghi số người ra hàng còn lớn hơn."
  },
  {
   "n": 188010,
-  "chuong": 4,
-  "nhip": "the_nguy",
-  "tone": "story",
-  "text": "Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau.",
-  "hien": "Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau."
- },
- {
-  "n": 188011,
-  "chuong": 4,
-  "nhip": "the_nguy",
-  "tone": "story",
-  "text": "Số quân các sách ghi không giống nhau, từ chừng một vạn đến hơn ba vạn. Về quân của hai bà, sử không ghi con số nào.",
-  "hien": "Số quân các sách ghi không giống nhau, từ chừng một vạn đến hơn ba vạn. Về quân của hai bà, sử không ghi con số nào."
- },
- {
-  "n": 188012,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Mã Viện đánh hai bà ở Lãng Bạc, theo Toàn thư, bộ sử nước ta soạn thời nhà Lê.",
-  "hien": "Mã Viện đánh hai bà ở Lãng Bạc, theo Toàn thư, bộ sử nước ta soạn thời nhà Lê."
- },
- {
-  "n": 188013,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Sách xưa chép Lãng Bạc là Hồ Tây, người nay cho là vùng núi Tiên Du ở Bắc Ninh.",
-  "hien": "Sách xưa chép Lãng Bạc là Hồ Tây, người nay cho là vùng núi Tiên Du ở Bắc Ninh."
- },
- {
-  "n": 188014,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Nhà nghiên cứu Ben Kiernan ghi quân nhà Hán chém hàng nghìn người theo hai bà, hơn mười nghìn người ra hàng. Nguồn khác ghi số người ra hàng còn lớn hơn.",
-  "hien": "Nhà nghiên cứu Ben Kiernan ghi quân nhà Hán chém hàng nghìn người theo hai bà, hơn mười nghìn người ra hàng. Nguồn khác ghi số người ra hàng còn lớn hơn."
- },
- {
-  "n": 188015,
   "chuong": 6,
   "nhip": "diem_thap",
   "tone": "story",
-  "text": "Sau trận ấy, hai bà lui về Cấm Khê. Theo Toàn thư, nhiều người theo hai bà bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng.",
-  "hien": "Sau trận ấy, hai bà lui về Cấm Khê. Theo Toàn thư, nhiều người theo hai bà bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng."
+  "text": "Sau trận ấy, hai bà lui về Cấm Khê. Theo Toàn thư, nhiều người theo hai bà bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng. Sử không nói bao nhiêu người bỏ đi, nên ta không biết điều ấy nặng đến đâu so với hàng nghìn người đã ngã xuống và hơn mười nghìn người đã ra hàng ở Lãng Bạc.",
+  "hien": "Sau trận ấy, hai bà lui về Cấm Khê. Theo Toàn thư, nhiều người theo hai bà bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng. Sử không nói bao nhiêu người bỏ đi, nên ta không biết điều ấy nặng đến đâu so với hàng nghìn người đã ngã xuống và hơn mười nghìn người đã ra hàng ở Lãng Bạc."
+ },
+ {
+  "n": 188011,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Sử cũ ghi vùng Vĩnh Tường ở Sơn Tây xưa, còn sách khác chép bà trốn vào hang ở Kim Khê. Mã Viện đuổi theo, đánh nhiều trận. Hậu Hán thư, bộ sử của phía nhà Hán, chép quân hai bà thua nhiều lần rồi tan chạy. Sang năm bốn mươi ba, hai chị em vẫn chống trả, nhưng đã bị cô lập và thua trận.",
+  "hien": "Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Sử cũ ghi vùng Vĩnh Tường ở Sơn Tây xưa, còn sách khác chép bà trốn vào hang ở Kim Khê. Mã Viện đuổi theo, đánh nhiều trận. Hậu Hán thư, bộ sử của phía nhà Hán, chép quân hai bà thua nhiều lần rồi tan chạy. Sang năm bốn mươi ba, hai chị em vẫn chống trả, nhưng đã bị cô lập và thua trận."
+ },
+ {
+  "n": 188012,
+  "chuong": 7,
+  "nhip": "chi_tiet_nguoi",
+  "tone": "story",
+  "text": "Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư thì chép Mã Viện chém hai bà và nhiều người khác, gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận. Sử triều Nguyễn thì ghi hai bà bị bắt, còn cách mất thế nào cả hai bộ đều không nói.",
+  "hien": "Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư thì chép Mã Viện chém hai bà và nhiều người khác, gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận. Sử triều Nguyễn thì ghi hai bà bị bắt, còn cách mất thế nào cả hai bộ đều không nói."
+ },
+ {
+  "n": 188013,
+  "chuong": 7,
+  "nhip": "chi_tiet_nguoi",
+  "tone": "story",
+  "text": "Chuyện hai bà gieo mình xuống sông Hát không thấy trong hai bộ sử ấy. Đó là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Như vậy cái chết của hai bà có ba lớp kể, lớp của phía nhà Hán, lớp sử ta không nói rõ và lớp dân gian, và không lớp nào thay được lớp nào.",
+  "hien": "Chuyện hai bà gieo mình xuống sông Hát không thấy trong hai bộ sử ấy. Đó là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Như vậy cái chết của hai bà có ba lớp kể, lớp của phía nhà Hán, lớp sử ta không nói rõ và lớp dân gian, và không lớp nào thay được lớp nào."
+ },
+ {
+  "n": 188014,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Sau khi thắng, theo ước tính của Ben Kiernan, quân nhà Hán giết khoảng năm đến mười nghìn người thuộc tầng lớp thủ lĩnh Lạc Việt và đưa vài trăm gia đình về Trung Quốc. Mã Viện còn cho nấu chảy trống đồng, vật các nhà nghiên cứu coi là biểu tượng quyền của thủ lĩnh Lạc Việt, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua.",
+  "hien": "Sau khi thắng, theo ước tính của Ben Kiernan, quân nhà Hán giết khoảng năm đến mười nghìn người thuộc tầng lớp thủ lĩnh Lạc Việt và đưa vài trăm gia đình về Trung Quốc. Mã Viện còn cho nấu chảy trống đồng, vật các nhà nghiên cứu coi là biểu tượng quyền của thủ lĩnh Lạc Việt, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua."
+ },
+ {
+  "n": 188015,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Phía nhà Hán cũng trả giá. Theo Hậu Hán thư, khi về kinh, quân của Mã Viện đã chết bốn, năm phần mười vì khí độc và dịch bệnh. Nhưng con số này tính cho cả chiến dịch, nên nó không cho ta biết riêng trận đánh với hai bà làm nhà Hán mất bao nhiêu người.",
+  "hien": "Phía nhà Hán cũng trả giá. Theo Hậu Hán thư, khi về kinh, quân của Mã Viện đã chết bốn, năm phần mười vì khí độc và dịch bệnh. Nhưng con số này tính cho cả chiến dịch, nên nó không cho ta biết riêng trận đánh với hai bà làm nhà Hán mất bao nhiêu người."
  },
  {
   "n": 188016,
-  "chuong": 7,
-  "nhip": "lan1",
+  "chuong": 8,
+  "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Sử cũ ghi vùng Vĩnh Tường ở Sơn Tây xưa, còn sách khác chép bà trốn vào hang ở Kim Khê.",
-  "hien": "Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Sử cũ ghi vùng Vĩnh Tường ở Sơn Tây xưa, còn sách khác chép bà trốn vào hang ở Kim Khê."
+  "text": "Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nghĩ khác những người bỏ đi ấy, ông cho rằng việc hai bà là nữ giới không phải cớ để người nước ta tự coi thường mình.",
+  "hien": "Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nghĩ khác những người bỏ đi ấy, ông cho rằng việc hai bà là nữ giới không phải cớ để người nước ta tự coi thường mình."
  },
  {
   "n": 188017,
-  "chuong": 8,
-  "nhip": "cao_trao",
-  "tone": "story",
-  "text": "Mã Viện đuổi theo, đánh nhiều trận. Hậu Hán thư, bộ sử của phía nhà Hán, chép quân hai bà thua nhiều lần rồi tan chạy.",
-  "hien": "Mã Viện đuổi theo, đánh nhiều trận. Hậu Hán thư, bộ sử của phía nhà Hán, chép quân hai bà thua nhiều lần rồi tan chạy."
- },
- {
-  "n": 188018,
-  "chuong": 8,
-  "nhip": "cao_trao",
-  "tone": "story",
-  "text": "Sang năm bốn mươi ba, hai chị em vẫn chống trả, nhưng đã bị cô lập và thua trận.",
-  "hien": "Sang năm bốn mươi ba, hai chị em vẫn chống trả, nhưng đã bị cô lập và thua trận."
- },
- {
-  "n": 188019,
-  "chuong": 8,
-  "nhip": "chi_tiet_nguoi",
-  "tone": "story",
-  "text": "Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư thì chép Mã Viện chém hai bà và nhiều người khác, gửi đầu về Lạc Dương.",
-  "hien": "Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư thì chép Mã Viện chém hai bà và nhiều người khác, gửi đầu về Lạc Dương."
- },
- {
-  "n": 188020,
-  "chuong": 8,
-  "nhip": "chi_tiet_nguoi",
-  "tone": "story",
-  "text": "Toàn thư của ta chỉ ghi hai bà thua trận. Sử triều Nguyễn thì ghi hai bà bị bắt, còn cách mất thế nào cả hai bộ đều không nói.",
-  "hien": "Toàn thư của ta chỉ ghi hai bà thua trận. Sử triều Nguyễn thì ghi hai bà bị bắt, còn cách mất thế nào cả hai bộ đều không nói."
- },
- {
-  "n": 188021,
-  "chuong": 8,
-  "nhip": "chi_tiet_nguoi",
-  "tone": "story",
-  "text": "Chuyện hai bà gieo mình xuống sông Hát không thấy trong hai bộ sử ấy. Đó là điều người đời truyền lại, gắn với đền thờ ở Hát Môn.",
-  "hien": "Chuyện hai bà gieo mình xuống sông Hát không thấy trong hai bộ sử ấy. Đó là điều người đời truyền lại, gắn với đền thờ ở Hát Môn."
- },
- {
-  "n": 188022,
   "chuong": 9,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Ben Kiernan ước tính quân Hán sau đó giết khoảng năm đến mười nghìn người thuộc tầng lớp thủ lĩnh Lạc Việt, và đưa vài trăm gia đình về Trung Quốc.",
-  "hien": "Ben Kiernan ước tính quân Hán sau đó giết khoảng năm đến mười nghìn người thuộc tầng lớp thủ lĩnh Lạc Việt, và đưa vài trăm gia đình về Trung Quốc."
- },
- {
-  "n": 188023,
-  "chuong": 9,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Phía nhà Hán cũng trả giá. Theo Hậu Hán thư, khi về kinh, quân của Mã Viện đã chết bốn, năm phần mười vì khí độc và dịch bệnh.",
-  "hien": "Phía nhà Hán cũng trả giá. Theo Hậu Hán thư, khi về kinh, quân của Mã Viện đã chết bốn, năm phần mười vì khí độc và dịch bệnh."
- },
- {
-  "n": 188024,
-  "chuong": 9,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh Lạc Việt, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua.",
-  "hien": "Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh Lạc Việt, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua."
- },
- {
-  "n": 188025,
-  "chuong": 9,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất.",
-  "hien": "Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất."
- },
- {
-  "n": 188026,
-  "chuong": 9,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi.",
-  "hien": "Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi."
- },
- {
-  "n": 188027,
-  "chuong": 9,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Sử gia Lê Văn Hưu thì nghĩ khác, ông cho rằng việc hai bà là nữ giới không phải cớ để người nước ta tự coi thường mình.",
-  "hien": "Sử gia Lê Văn Hưu thì nghĩ khác, ông cho rằng việc hai bà là nữ giới không phải cớ để người nước ta tự coi thường mình."
- },
- {
-  "n": 188028,
-  "chuong": 9,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Ngô Sĩ Liên, người soạn Toàn thư, ca ngợi khí phách của hai bà và tin rằng linh khí hai bà vẫn che chở dân sau khi mất.",
-  "hien": "Ngô Sĩ Liên, người soạn Toàn thư, ca ngợi khí phách của hai bà và tin rằng linh khí hai bà vẫn che chở dân sau khi mất."
- },
- {
-  "n": 188029,
-  "chuong": 10,
   "nhip": "ket",
   "tone": "story",
-  "text": "Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái chết của họ theo những cách khác nhau. Cảm ơn bạn đã lắng nghe câu chuyện này.",
-  "hien": "Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái chết của họ theo những cách khác nhau. Cảm ơn bạn đã lắng nghe câu chuyện này."
+  "text": "Ngô Sĩ Liên, người soạn Toàn thư, ca ngợi khí phách của hai bà và tin rằng linh khí hai bà vẫn che chở dân sau khi mất. Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái chết của họ theo những cách khác nhau.",
+  "hien": "Ngô Sĩ Liên, người soạn Toàn thư, ca ngợi khí phách của hai bà và tin rằng linh khí hai bà vẫn che chở dân sau khi mất. Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái chết của họ theo những cách khác nhau."
  }
 ]

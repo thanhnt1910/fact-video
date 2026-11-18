@@ -1,6 +1,6 @@
 # tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-31 đoạn, 782 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+31 đoạn, 794 chữ, khoảng 4.3 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc**. Câu đếm: người buôn gạo, nhổ hết cỏ. Hình ảnh xuyên suốt: "cỏ".
 
 ## Kịch bản (theo nhịp)
@@ -34,21 +34,21 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 10. Một trong những chiếc tàu ấy mang cái tên Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, nơi con kênh đổ ra sông Vàm Cỏ.
 11. Trên tàu có mấy chục người, gồm lính Pháp, lính đánh thuê lẫn những người theo Pháp. Cầm đầu là một viên trung úy người Pháp.
 
-**★ Điểm thấp nhất** (mốc 37%)
+**★ Điểm thấp nhất** (mốc 36%)
 
 12. Muốn cắt đường chở gạo ấy, nghĩa quân phải đánh chìm con tàu, mà trong tay chỉ có ghe nhỏ với dao giáo. Chèo thẳng tới là thành bia cho súng.
 
-**Bước ngoặt** (mốc 41%)
+**Bước ngoặt** (mốc 40%)
 
-13. Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người chia làm ba toán, mỗi toán một việc.
-14. Hơn sáu mươi người sẽ đánh vào một làng theo Pháp gần đó. Trận đánh ở làng bên phải đủ lớn để lính Pháp rời tàu đuổi theo.
+13. Vì thế nghĩa quân không đánh thẳng. Người của ông góp với các toán nghĩa quân khác, được khoảng một trăm năm mươi người, chia làm ba mũi.
+14. Hơn sáu mươi người ở mũi thứ nhất sẽ đánh vào một làng theo Pháp gần đó. Trận đánh ở làng bên phải đủ lớn để lính Pháp rời tàu đuổi theo.
 15. Ba mươi người khác nấp sẵn, chặn đường quân Pháp kéo đến cứu, rồi cùng đánh vào tàu.
-16. Còn toán của Nguyễn Trung Trực đi trên năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại. Có sách lại kể là giả làm đám cưới.
+16. Còn Nguyễn Trung Trực dẫn chính toán của mình đi trên năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại. Có sách kể là giả đám cưới.
 17. Ghe buôn gạo thì không ai nghi. Chỉ cần cặp được vào mạn, trận đánh sẽ diễn ra trên boong tàu chứ không còn trên mặt nước.
 
 **Lần 1** (mốc 57%)
 
-18. Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất nổ trận ở làng bên.
+18. Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, mũi thứ nhất nổ trận ở làng bên.
 19. Kế nhử có kết quả. Viên trung úy sai lính đuổi theo, rồi chính ông ta cũng bỏ tàu mà đi.
 20. Đúng lúc ấy, trên mặt kênh, năm chiếc ghe buôn gạo thong thả cặp vào mạn tàu Hy Vọng.
 
@@ -56,7 +56,7 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 21. Chỉ cần một người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng.
 
-**Cao trào** (mốc 67%)
+**Cao trào** (mốc 68%)
 
 22. Không ai kịp sinh nghi. Nguyễn Trung Trực cùng người của ông rút dao, nhảy lên boong, đánh giáp lá cà với lính trên tàu.
 23. Con tàu không kịp phát đi một tín hiệu cầu cứu nào.
@@ -129,7 +129,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 4 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 6 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 5 ⚠️
 - `kiem_mo_dau.py`: ⚠️ 5 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

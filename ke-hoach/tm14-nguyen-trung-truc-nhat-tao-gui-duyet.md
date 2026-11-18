@@ -15,9 +15,9 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 
 **Hook 3** (mốc 6%)
 
-3. Dẫn đầu là Nguyễn Trung Trực, một người làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc.
+3. Dẫn đầu là Nguyễn Trung Trực, con một nhà làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc.
 
-**Hook 4** (mốc 10%)
+**Hook 4** (mốc 11%)
 
 4. Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy? Có hai thứ sẽ kể lại, một cách giả làm ghe buôn, và một câu nói về cỏ.
 
@@ -27,7 +27,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 6. Họ muốn biến đất này thành thuộc địa, đất do nước Pháp cai trị. Đầu năm ấy, đại đồn Chí Hòa ở Sài Gòn vỡ, quân triều đình nhà Nguyễn phải rút.
 7. Ở làng quê, nhiều người dân tự đứng lên. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp.
 
-**Thế nguy** (mốc 28%)
+**Thế nguy** (mốc 29%)
 
 8. Quân Pháp có súng tốt, có tàu chạy trên các sông lớn, chặn cả đường chở gạo của dân.
 9. Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh Nhật Tảo đổ ra sông Vàm Cỏ.
@@ -39,7 +39,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 **Bước ngoặt** (mốc 40%)
 
 11. Nguyễn Trung Trực chia khoảng một trăm năm mươi người làm ba toán, mỗi toán một việc.
-12. Một toán đánh vào một làng theo Pháp gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu.
+12. Một toán đánh vào một làng gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu.
 13. Thứ đầu tiên là cách giả làm ghe buôn. Theo lời kể, toán của ông giả làm người buôn gạo đến xin giấy đi lại, có sách nói là giả đám cưới.
 14. Súng lớn trên tàu chỉ đáng sợ khi kẻ địch còn ở xa. Chỉ cần áp sát mạn tàu mà không bị nghi, ghe nhỏ sẽ không còn thua thiệt.
 
@@ -52,7 +52,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 
 17. Trên tàu có mấy chục người, súng đạn đầy đủ. Chỉ cần họ nhận ra, cả toán sẽ bị bắn ngay sát mạn tàu.
 
-**Cao trào** (mốc 67%)
+**Cao trào** (mốc 66%)
 
 18. Họ đã nhảy được lên tàu. Dao, giáo đánh giáp lá cà, lính trên tàu trở tay không kịp.
 19. Một toán khác lội nước tới, dùng rìu phá thân tàu rồi châm lửa. Tàu Hy Vọng bốc cháy.
@@ -60,7 +60,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 
 **★ Chi tiết con người** (mốc 75%)
 
-21. Tin về tới kinh thành Huế. Vua Tự Đức khen trận ấy và thăng chức cho người chài lưới đã cầm đầu.
+21. Tin về tới kinh thành Huế. Vua Tự Đức phong ông làm Lãnh binh, chức chỉ huy quân của tỉnh Hà Tiên.
 
 **Dồn cuối** (mốc 78%)
 
@@ -71,7 +71,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 
 **Kết** (mốc 95%)
 
-26. Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người chài lưới ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này.
+26. Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Năm điểm nhấn cố định
 
@@ -100,7 +100,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 - Lần 1: Wikipedia.
 - ★ Đoạn lặng: Wikipedia (số người trên tàu các nguồn khác nhau).
 - Cao trào: Wikipedia.
-- ★ Chi tiết con người: Wikipedia, Đại Nam thực lục (CẦN đối chiếu chức).
+- ★ Chi tiết con người: Wikipedia: Tự Đức phong Lãnh binh Hà Tiên.
 - Dồn cuối: Wikipedia; lsvn.
 - Kết: tổng kết.
 
@@ -117,15 +117,15 @@ Ghi chú thêm:
 - Tên người: Nguyễn Trung Trực, Trương Định, vua Tự Đức. Phía Pháp không gọi tên người.
 - Cách giả trang: tư liệu Pháp (qua Wikipedia) nói giả người buôn gạo xin giấy đi lại; chuyện giả đám cưới là lời kể khác. Lời đọc nói cả hai.
 - Số người: 150 nghĩa quân chia ba toán; số người trên tàu và số chết các nguồn khác nhau: lời đọc nói "phần lớn", "vài người".
-- "Người làm nghề chài lưới": theo các bài báo dựa vào gia phả; CẦN đối chiếu.
-- Chức được thăng sau Nhật Tảo (Quản cơ hay Lãnh binh): lời đọc chỉ nói "thăng chức".
+- ĐÃ ĐỐI CHIẾU: gia đình làm nghề chài lưới ở hạ lưu sông Vàm Cỏ (Pháp Luật, LSVN). Nhưng trước trận ông đã là Quản Lịch, chỉ huy khoảng năm mươi người, nên lời đọc đổi thành "con một nhà làm nghề chài lưới".
+- ĐÃ ĐỐI CHIẾU: sau trận, Tự Đức phong ông Lãnh binh Hà Tiên (Wikipedia); lời đọc nói rõ chức này. Bỏ chữ "làng theo Pháp" vì nguồn chỉ nói một làng gần đó.
 - Pháp bắt mẹ ông làm con tin: Wikipedia; nhiều sách nói ông ra nộp mình để cứu mẹ và dân, lời đọc chỉ nói "rồi bắt được ông". Câu nói về cỏ gắn "theo lời kể".
 - Từ đã giải thích: thuộc địa, vàm, Ét-pê-răng (tàu Hy Vọng).
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 6 cảnh báo ⚠️
-- `kiem_mach_ke.py`: -> 0 ❌, 3 ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 7 cảnh báo ⚠️
+- `kiem_mach_ke.py`: -> 0 ❌, 4 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️
 

@@ -1,6 +1,6 @@
 # tm11: Dương Đình Nghệ lấy lại Đại La 931 (lời đọc theo khung, gửi duyệt)
 
-24 đoạn, 591 chữ, khoảng 3.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+24 đoạn, 589 chữ, khoảng 3.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng thân cận trở mặt**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "Đại La".
 
 ## Kịch bản (theo nhịp)
@@ -27,7 +27,7 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 6. Nhân lúc ấy, họ Khúc, một dòng hào trưởng ở vùng Hải Dương bây giờ, đứng ra tự lo việc nước, không nghe lệnh người phương bắc nữa.
 7. Sát biên giới phía bắc lại có nhà Nam Hán, một nước nhỏ ở vùng Quảng Đông bây giờ, muốn chiếm lấy đất này.
 
-**Thế nguy** (mốc 31%)
+**Thế nguy** (mốc 32%)
 
 8. Năm chín trăm ba mươi, quân nhà Nam Hán tràn sang, bắt người đứng đầu họ Khúc đem về nước.
 9. Rồi vua Nam Hán sai viên quan Lý Tiến sang giữ thành Đại La. Đất nước vừa tự lo việc mình hơn hai mươi năm, lại có quan phương bắc cai quản.
@@ -43,23 +43,23 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 13. Có thể hiểu, nhận làm con nuôi là cách buộc những trai tráng ấy vào ông như người trong nhà, chứ đâu phải lính ăn lương.
 14. Năm chín trăm ba mươi mốt, ông đem đạo quân ấy ra bắc, vây chặt thành Đại La.
 
-**Lần 1** (mốc 59%)
+**Lần 1** (mốc 60%)
 
 15. Lý Tiến ở trong thành sợ hãi, vội gửi thư về cầu cứu vua Nam Hán.
 16. Quân cứu chưa kịp tới, Lý Tiến đã bỏ thành chạy về nước. Đại La lần đầu được lấy lại.
 
-**★ Đoạn lặng** (mốc 65%)
+**★ Đoạn lặng** (mốc 66%)
 
-17. Thế nhưng vua Nam Hán chưa chịu buông. Một đạo quân cứu viện do tướng Trần Bảo cầm đầu vẫn đang kéo sang, nhắm thẳng tòa thành vừa mất.
+17. Thế nhưng vua Nam Hán chưa chịu buông. Một đạo quân cứu viện do tướng Trình Bảo cầm đầu vẫn đang kéo sang, nhắm thẳng tòa thành vừa mất.
 
-**Cao trào** (mốc 70%)
+**Cao trào** (mốc 71%)
 
-18. Dương Đình Nghệ không ngồi chờ trong thành. Ông đem quân ra đón đánh đạo quân của Trần Bảo.
-19. Quân nhà Nam Hán vỡ trận. Chính Trần Bảo bị chém ngay giữa trận, quân cứu viện tan chạy về nước.
+18. Dương Đình Nghệ không ngồi chờ trong thành. Ông đem quân ra đón đánh đạo quân của Trình Bảo.
+19. Quân nhà Nam Hán vỡ trận. Chính Trình Bảo bị chém ngay giữa trận, quân cứu viện tan chạy về nước.
 
 **★ Chi tiết con người** (mốc 77%)
 
-20. Sau trận ấy, ông gả con gái cho Ngô Quyền, rồi giao cho người con rể giữ Ái Châu, quê nhà của mình.
+20. Ông gả con gái cho Ngô Quyền, và giao cho người con rể ấy giữ Ái Châu, quê nhà của mình.
 
 **Dồn cuối** (mốc 81%)
 
@@ -92,9 +92,9 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 - Hook 3: Toàn thư.
 - Hook 4: lời hứa.
 - Gốc rễ: Toàn thư, Tân Ngũ đại sử.
-- Thế nguy: Toàn thư (CẦN đối chiếu năm 930/923).
+- Thế nguy: Toàn thư; Wikipedia (Khúc Thừa Mỹ): 930.
 - ★ Điểm thấp nhất: diễn giải.
-- Bước ngoặt: Tư trị thông giám, Toàn thư (CẦN đối chiếu con số 3.000).
+- Bước ngoặt: Tư trị thông giám, Toàn thư; Wikipedia (3.000 người coi như con nuôi).
 - Lần 1: Toàn thư.
 - ★ Đoạn lặng: Toàn thư.
 - Cao trào: Toàn thư.
@@ -112,10 +112,10 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 
 Ghi chú thêm:
 
-- Tên người: Ngô Quyền (tướng dưới quyền, con rể), Dương Đình Nghệ (tướng cũ của họ Khúc ở Ái Châu), Kiều Công Tiễn (nha tướng thân cận); phía Nam Hán: Lý Tiến (quan giữ Đại La), Trần Bảo (tướng cứu viện). Khúc Thừa Mỹ chỉ gọi là "người đứng đầu họ Khúc".
-- Năm Nam Hán bắt Khúc Thừa Mỹ: Toàn thư chép 930, có sách ghi 923: CẦN đối chiếu.
-- Ba nghìn giả tử: Tư trị thông giám, Toàn thư; câu "buộc vào ông như người trong nhà" là diễn giải, đã nói "có thể hiểu".
-- Ngô Quyền dự trận 931 với vai trò gì: các sách hiện đại nói là tướng tiên phong, lời đọc chỉ nói "tướng dưới quyền".
+- Tên người: Ngô Quyền (tướng dưới quyền, con rể), Dương Đình Nghệ (tướng cũ của họ Khúc ở Ái Châu), Kiều Công Tiễn (nha tướng thân cận); phía Nam Hán: Lý Tiến (quan giữ Đại La), Trình Bảo (tướng cứu viện; bản trước ghi nhầm Trần Bảo, đã sửa theo Toàn thư và Tư trị thông giám). Khúc Thừa Mỹ chỉ gọi là "người đứng đầu họ Khúc".
+- ĐÃ ĐỐI CHIẾU: Nam Hán sang đánh và bắt Khúc Thừa Mỹ năm 930 (Wikipedia, Khúc Thừa Mỹ; mốc 923 chỉ là một cách tính năm cai trị).
+- ĐÃ ĐỐI CHIẾU: ba nghìn người được ông coi như con nuôi (Wikipedia, Dương Đình Nghệ); câu "buộc vào ông như người trong nhà" là diễn giải, đã nói "có thể hiểu".
+- Ngô Quyền là con rể, tướng dưới quyền; năm gả con gái không rõ nên lời đọc bỏ chữ "sau trận ấy". Việc giao giữ Ái Châu: Toàn thư; trận Bạch Đằng Ngô Quyền kéo quân từ Ái Châu ra.
 - Câu kết "Bạch Đằng có gốc từ Đại La" là cách nhìn của người kể, đủ năm điều kiện diễn giải.
 - Từ đã giải thích: Tiết độ sứ, Ái Châu, Đại La, con nuôi (giả tử).
 

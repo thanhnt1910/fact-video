@@ -3,7 +3,7 @@ import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
 S=[
 ('hook1',"Một viên chỉ huy người Pháp bỏ dở cuộc thương thuyết, dẫn mười mấy lính đuổi theo một toán quân vừa rút."),
 ('hook2',"Khẩu pháo theo sau sa xuống bùn. Ông bỏ pháo lại, chạy lên một gò đất ngoài Cầu Giấy, phía tây Hà Nội."),
-('hook3',"Người ấy là Francis Garnier, chỉ một tháng trước đã chiếm thành Hà Nội với chưa tới hai trăm lính."),
+('hook3',"Người ấy là Francis Garnier, chỉ một tháng trước đã chiếm thành Hà Nội với khoảng hai trăm lính."),
 ('hook4',"Chuyện gì chờ Garnier sau gò đất ấy? Có hai thứ sẽ kể lại, một tòa thành mất trong một buổi sáng, và một bản hòa ước ký sau trận thắng."),
 ('goc_re',"Hơn một trăm năm mươi năm trước, quân Pháp đã chiếm cả sáu tỉnh Nam Kỳ, tức miền Nam, và bắt đầu nhòm ngó miền Bắc."),
 ('goc_re',"Cớ để ra Bắc là một lái buôn người Pháp tên Jean Dupuis. Ông ta chở vũ khí và muối ngược sông Hồng, trái lệnh cấm của triều đình nhà Nguyễn."),

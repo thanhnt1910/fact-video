@@ -20,8 +20,8 @@
   "chuong": 1,
   "nhip": "hook3",
   "tone": "story",
-  "text": "Dẫn đầu là Nguyễn Trung Trực, một người làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc.",
-  "hien": "Dẫn đầu là Nguyễn Trung Trực, một người làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc."
+  "text": "Dẫn đầu là Nguyễn Trung Trực, con một nhà làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc.",
+  "hien": "Dẫn đầu là Nguyễn Trung Trực, con một nhà làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc."
  },
  {
   "n": 189004,
@@ -92,8 +92,8 @@
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Một toán đánh vào một làng theo Pháp gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu.",
-  "hien": "Một toán đánh vào một làng theo Pháp gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu."
+  "text": "Một toán đánh vào một làng gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu.",
+  "hien": "Một toán đánh vào một làng gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu."
  },
  {
   "n": 189013,
@@ -164,8 +164,8 @@
   "chuong": 6,
   "nhip": "chi_tiet_nguoi",
   "tone": "story",
-  "text": "Tin về tới kinh thành Huế. Vua Tự Đức khen trận ấy và thăng chức cho người chài lưới đã cầm đầu.",
-  "hien": "Tin về tới kinh thành Huế. Vua Tự Đức khen trận ấy và thăng chức cho người chài lưới đã cầm đầu."
+  "text": "Tin về tới kinh thành Huế. Vua Tự Đức phong ông làm Lãnh binh, chức chỉ huy quân của tỉnh Hà Tiên.",
+  "hien": "Tin về tới kinh thành Huế. Vua Tự Đức phong ông làm Lãnh binh, chức chỉ huy quân của tỉnh Hà Tiên."
  },
  {
   "n": 189022,
@@ -204,7 +204,7 @@
   "chuong": 8,
   "nhip": "ket",
   "tone": "story",
-  "text": "Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người chài lưới ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này.",
-  "hien": "Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người chài lưới ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này."
+  "text": "Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này.",
+  "hien": "Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này."
  }
 ]

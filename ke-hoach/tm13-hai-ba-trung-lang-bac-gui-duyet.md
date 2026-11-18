@@ -1,6 +1,6 @@
 # tm13: Hai Bà Trưng, Lãng Bạc và Cấm Khê 40–43 (lời đọc theo khung, gửi duyệt)
 
-25 đoạn, 628 chữ, khoảng 3.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+25 đoạn, 634 chữ, khoảng 3.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **ba nơi: Mê Linh, Lãng Bạc, Cấm Khê**. Câu đếm: nơi đầu tiên, nơi thứ hai, nơi thứ ba. Hình ảnh xuyên suốt: "làm vua".
 
 ## Kịch bản (theo nhịp)
@@ -9,7 +9,7 @@ Lời hứa: **ba nơi: Mê Linh, Lãng Bạc, Cấm Khê**. Câu đếm: nơi �
 
 1. Có hai chị em từng làm vua, nhưng đến hôm nay, ta vẫn không biết chắc họ đã mất như thế nào.
 
-**Hook 2** (mốc 4%)
+**Hook 2** (mốc 3%)
 
 2. Một cách kể nói hai bà gieo mình xuống sông Hát. Cách kể khác, từ phía nhà Hán bên Trung Hoa, nói hai bà bị bắt và bị chém.
 
@@ -31,23 +31,23 @@ Lời hứa: **ba nơi: Mê Linh, Lãng Bạc, Cấm Khê**. Câu đếm: nơi �
 **Thế nguy** (mốc 35%)
 
 9. Nhưng nhà Hán không chịu mất đất. Hoàng đế nhà Hán sai Mã Viện, một vị tướng đã quen đánh trận, đem quân sang.
-10. Theo sử nhà Hán, đạo quân ấy có hơn hai vạn lính cùng hai nghìn chiếc thuyền lớn nhỏ, vừa men theo bờ biển vừa mở đường qua núi mà tiến vào.
+10. Theo sử nhà Hán, Mã Viện có hơn hai vạn lính, thêm hơn một vạn quân ở phía nam. Họ men theo bờ biển, mở đường qua núi mà tiến vào.
 11. Nơi thứ hai là Lãng Bạc, ở vùng Tiên Du, Bắc Ninh bây giờ. Mùa xuân năm bốn mươi hai, quân hai bên gặp nhau ở đó.
 12. Quân của hai bà thua to. Mấy nghìn người bị giết, hơn một vạn người ra hàng.
 
-**★ Điểm thấp nhất** (mốc 51%)
+**★ Điểm thấp nhất** (mốc 50%)
 
 13. Hai bà phải rút đi, mất phần lớn quân. Nhìn lúc ấy, đất nước vừa giành lại tưởng như sắp mất.
 
-**Bước ngoặt** (mốc 54%)
+**Bước ngoặt** (mốc 53%)
 
 14. Nhưng quân nhà Hán cũng chẳng dễ chịu gì. Đất lạ, mưa dầm, khí nóng ẩm, lính từ phương bắc sang đổ bệnh rất nhiều.
 15. Sử nhà Hán còn chép lời Mã Viện kể lại, hơi nóng bốc lên dày đến mức chim diều hâu đang bay cũng rơi xuống nước.
 16. Hai bà thua ở Lãng Bạc nhưng vẫn còn quân, vẫn giữ được một vùng đất nữa. Quân nhà Hán phải đuổi theo.
 
-**Lần 1** (mốc 66%)
+**Lần 1** (mốc 65%)
 
-17. Nơi thứ ba là Cấm Khê. Nhiều nhà nghiên cứu cho rằng đó là vùng chân núi Ba Vì, phía tây Hà Nội bây giờ.
+17. Nơi thứ ba là Cấm Khê. Đến nay chưa ai chỉ chắc được chỗ ấy, người cho là chân núi Ba Vì, người cho là gần Mê Linh.
 18. Mã Viện đuổi tới, đánh nhiều trận. Quân của hai bà bị cắt đường lương, mỗi trận lại ít đi, nhưng vẫn cố giữ từng bãi, từng làng.
 
 **★ Đoạn lặng** (mốc 74%)
@@ -56,7 +56,7 @@ Lời hứa: **ba nơi: Mê Linh, Lãng Bạc, Cấm Khê**. Câu đếm: nơi �
 
 **Cao trào** (mốc 77%)
 
-20. Trận cuối ở Cấm Khê nổ ra. Quân nhà Hán đông hơn nhiều, lại đủ thuyền, đủ lương.
+20. Trận cuối ở Cấm Khê nổ ra. Quân nhà Hán đông hơn nhiều, lại có thuyền chở lương men theo bờ biển.
 21. Hai bà thua. Khoảng giữa năm bốn mươi ba, cuộc kháng cự gần như đã tắt hẳn.
 
 **★ Chi tiết con người** (mốc 83%)
@@ -96,7 +96,7 @@ Lời hứa: **ba nơi: Mê Linh, Lãng Bạc, Cấm Khê**. Câu đếm: nơi �
 - Thế nguy: Hậu Hán thư (Mã Viện truyện).
 - ★ Điểm thấp nhất: Hậu Hán thư.
 - Bước ngoặt: Hậu Hán thư (Mã Viện truyện).
-- Lần 1: Hậu Hán thư, Toàn thư (vị trí Cấm Khê CẦN đối chiếu).
+- Lần 1: Toàn thư (có sách chép Kim Khê); vị trí còn tranh luận: Tản Viên hay gần Mê Linh.
 - ★ Đoạn lặng: Hậu Hán thư.
 - Cao trào: Hậu Hán thư, Toàn thư.
 - ★ Chi tiết con người: Hậu Hán thư; Toàn thư, thần tích.
@@ -116,8 +116,8 @@ Ghi chú thêm:
 - Tên người: Trưng Trắc, Trưng Nhị, Thi Sách; phía Hán: Tô Định, Mã Viện.
 - Cái chết của hai bà: Hậu Hán thư chép bị chém, đầu gửi về Lạc Dương; sử và thần tích nước ta kể gieo mình sông Hát. Lời đọc nói cả hai, không chọn.
 - Việc Tô Định giết Thi Sách chỉ có ở sử ta (Hậu Hán thư nói Tô Định dùng pháp luật trói buộc): đã gắn "theo sử ta".
-- Hơn hai vạn quân, hai nghìn thuyền, mấy nghìn chết, hơn vạn hàng, bốn năm phần mười lính chết vì bệnh, câu diều hâu: Hậu Hán thư (Mã Viện truyện).
-- Vị trí Cấm Khê còn tranh luận: lời đọc nói "nhiều nhà nghiên cứu cho rằng".
+- ĐÃ SỬA: con số hai nghìn thuyền thuộc chiến dịch sau đánh Cửu Chân, không phải lúc sang; lời đọc đổi thành hơn hai vạn lính và hơn một vạn quân địa phương, thuyền chở lương men bờ biển (Wikipedia). Mấy nghìn chết, hơn vạn hàng, 40–50% lính chết phần lớn vì dịch: Wikipedia dẫn Hậu Hán thư. Câu diều hâu rơi: Hậu Hán thư, Mã Viện truyện; lần này không mở được bản gốc trên mạng để chép lại, nếu muốn chắc tuyệt đối thì bỏ
+- ĐÃ ĐỐI CHIẾU: Toàn thư chép Cấm Khê, có sách chép Kim Khê; Wikipedia đặt ở Tản Viên (Ba Vì), nhóm Văn Tân đặt gần Hạ Lôi (Mê Linh). Lời đọc nay nói thẳng hai ý kiến. Toàn thư không tả cái chết của hai bà; chuyện sông Hát là lời kể dân gian, lời đọc gọi là "lời kể của ta".
 - Kênh đã có video bản đồ Hai Bà Trưng; bản này theo khung thủy mặc, trọng tâm Lãng Bạc và Cấm Khê.
 
 ## Kết quả bốn bộ kiểm

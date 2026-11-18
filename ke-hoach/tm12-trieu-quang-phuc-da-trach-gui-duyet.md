@@ -70,7 +70,7 @@ Lời hứa: **ba thứ: một cái đầm, những chiếc thuyền độc mộ
 
 **Dồn cuối** (mốc 89%)
 
-25. Triệu Việt Vương vào thành Long Biên, ở vùng Bắc Ninh, Hà Nội bây giờ, sau bốn năm sống trong đầm lầy.
+25. Triệu Việt Vương vào thành Long Biên, ở vùng Bắc Ninh, Hà Nội bây giờ, sau mấy năm sống trong đầm lầy.
 26. Ông làm vua nước Vạn Xuân hơn hai mươi năm, cho tới khi mất ngôi vào tay Lý Phật Tử, một người trong họ Lý.
 
 **Kết** (mốc 95%)
@@ -94,7 +94,7 @@ Lời hứa: **ba thứ: một cái đầm, những chiếc thuyền độc mộ
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
 - Hook 1: kiểu mở "nghịch lý".
-- Hook 2: Toàn thư (CẦN đối chiếu câu "tắt khói lửa").
+- Hook 2: Toàn thư; Nhân Dân (ban ngày tắt hết khói lửa).
 - Hook 3: Toàn thư.
 - Hook 4: lời hứa.
 - Gốc rễ: Toàn thư, Lương thư.
@@ -120,7 +120,7 @@ Lời hứa: **ba thứ: một cái đầm, những chiếc thuyền độc mộ
 Ghi chú thêm:
 
 - Tên người: Triệu Quang Phục, Lý Bí (Lý Nam Đế), Lý Phật Tử; phía Lương: Trần Bá Tiên, Dương Sàn.
-- "Ban ngày tắt khói lửa, ban đêm dùng thuyền độc mộc": Toàn thư, CẦN đối chiếu câu chữ bản dịch.
+- ĐÃ ĐỐI CHIẾU: ban ngày tắt hết khói lửa, đêm dùng thuyền độc mộc đánh úp, cướp lương, kế trì cửu, gọi Dạ Trạch Vương (Nhân Dân, theo Toàn thư). Năm vào đầm: 546 hoặc 547, nên lời đọc đổi "bốn năm" thành "mấy năm".
 - "Thuyền lớn và ngựa không qua nổi" là suy từ mô tả đầm (lạch nhỏ, cỏ nước), không phải câu sử chép.
 - Chuyện Chử Đồng Tử cho móng rồng là truyền thuyết: không đưa vào.
 - Nguyên nhân thắng năm 550 ghi đúng tác nhân: nhà Lương có loạn Hầu Cảnh, gọi Trần Bá Tiên về.

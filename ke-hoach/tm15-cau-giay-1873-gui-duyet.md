@@ -1,6 +1,6 @@
 # tm15: Trận Cầu Giấy 1873 (lời đọc theo khung, gửi duyệt)
 
-25 đoạn, 624 chữ, khoảng 3.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+25 đoạn, 623 chữ, khoảng 3.3 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai thứ: một tòa thành mất trong một buổi sáng, và một bản hòa ước ký sau trận thắng**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "Cầu Giấy".
 
 ## Kịch bản (theo nhịp)
@@ -15,7 +15,7 @@ Lời hứa: **hai thứ: một tòa thành mất trong một buổi sáng, và 
 
 **Hook 3** (mốc 7%)
 
-3. Người ấy là Francis Garnier, chỉ một tháng trước đã chiếm thành Hà Nội với chưa tới hai trăm lính.
+3. Người ấy là Francis Garnier, chỉ một tháng trước đã chiếm thành Hà Nội với khoảng hai trăm lính.
 
 **Hook 4** (mốc 10%)
 
@@ -28,7 +28,7 @@ Lời hứa: **hai thứ: một tòa thành mất trong một buổi sáng, và 
 7. Triều đình nhờ người Pháp ở Sài Gòn đưa Dupuis đi. Viên đô đốc Pháp ở đó sai Garnier ra Hà Nội, mang theo khoảng hai trăm lính và hai chiếc tàu.
 8. Nhưng tới nơi, Garnier lại đứng về phía Dupuis, rồi tính chuyện dùng quân để ép triều đình.
 
-**Thế nguy** (mốc 33%)
+**Thế nguy** (mốc 32%)
 
 9. Thứ đầu tiên là thành Hà Nội. Rạng sáng hai mươi tháng mười một, Garnier đánh thành, trong khi trong thành có khoảng bảy nghìn quân giữ.
 10. Chỉ trong một buổi sáng, thành mất. Vị tướng già giữ thành là Nguyễn Tri Phương bị thương nặng và bị bắt, con trai ông chết trận.
@@ -93,7 +93,7 @@ Lời hứa: **hai thứ: một tòa thành mất trong một buổi sáng, và 
 - Hook 3: Wikipedia.
 - Hook 4: lời hứa.
 - Gốc rễ: Wikipedia, Đại Nam thực lục.
-- Thế nguy: Wikipedia; Đại Nam thực lục (CẦN đối chiếu việc tuyệt thực).
+- Thế nguy: Wikipedia (Battle of Hanoi 1873): từ chối chữa trị, tuyệt thực, mất 20/12.
 - ★ Điểm thấp nhất: Wikipedia.
 - Bước ngoặt: Wikipedia; Đại Nam thực lục.
 - Lần 1: Wikipedia.
@@ -116,7 +116,7 @@ Ghi chú thêm:
 - Ai đứng về phía ai: phần bước ngoặt giới thiệu Hoàng Kế Viêm và quân Cờ Đen. Màn hình nên hiện thẻ ba phe.
 - Tên người: phía Pháp Francis Garnier, Jean Dupuis; phía nhà Nguyễn Nguyễn Tri Phương, Hoàng Kế Viêm, Lưu Vĩnh Phúc. Nguyễn Lâm, sứ thần Trần Đình Túc, sĩ quan Balny chỉ gọi bằng vai trò.
 - Số quân (gần 200 lính Pháp, 7.000 quân giữ thành, 18 lính đuổi theo): Wikipedia dẫn tư liệu Pháp.
-- Nguyễn Tri Phương không chịu chữa vết thương, nhịn ăn mà mất (20/12/1873): CẦN đối chiếu Đại Nam thực lục.
+- ĐÃ ĐỐI CHIẾU: Nguyễn Tri Phương từ chối chữa vết thương, tuyệt thực, mất ngày 20/12/1873 (Wikipedia, Battle of Hanoi 1873). Thành mất trong khoảng một giờ buổi sáng. Quân Garnier khoảng hai trăm (180 lính thủy cùng lính thuê), lời đọc đổi "chưa tới hai trăm" thành "khoảng hai trăm".
 - Ai cầm đầu trận phục kích: sách Việt ghi Hoàng Kế Viêm chỉ huy, Lưu Vĩnh Phúc đánh; Wikipedia chỉ nói quân Cờ Đen và quân Sơn Tây.
 - Hòa ước Giáp Tuất 15/3/1874: trả các thành, công nhận sáu tỉnh Nam Kỳ thuộc Pháp, mở sông Hồng. Câu kết là sự việc, không phải lời bình.
 - Không tả cảnh Garnier bị cắt đầu (quy tắc không máu).

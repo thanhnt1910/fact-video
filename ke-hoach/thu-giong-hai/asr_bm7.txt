@@ -1,3 +1,3 @@
 medium
-tm5ca tm6ca tm7ca tm8ca tm9ca tm10ca
-# lan15 giong moi
+tm5ca
+# lan16

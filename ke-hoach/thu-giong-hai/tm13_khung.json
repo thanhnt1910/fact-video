@@ -1,103 +1,97 @@
 {
  "ma": "tm13",
  "ten": "Hai Bà Trưng, Lãng Bạc và Cấm Khê 40–43",
- "n_hua": 3,
- "loi_hua": "ba nơi: Mê Linh, Lãng Bạc, Cấm Khê",
- "cau_hoi": "Hai bà đã giữ đất nước ra sao trước đạo quân nhà Hán?",
- "soi_chi": [
-  "giữ"
- ],
+ "n_hua": 0,
+ "loi_hua": "một câu hỏi: vì sao sáu mươi lăm thành hưởng ứng mà không giữ nổi",
+ "cau_hoi": "Vì sao một tiếng gọi được cả vùng đáp lại, rồi vẫn không giữ nổi?",
+ "soi_chi": [],
  "hinh_anh": [
-  "làm vua"
+  "sáu mươi lăm thành"
  ],
- "dem": [
-  "nơi đầu tiên",
-  "nơi thứ hai",
-  "nơi thứ ba"
- ],
+ "dem": [],
  "nhip": [
   {
    "nhip": "hook1",
-   "su_viec": "Hai chị em làm vua, không biết chắc đã mất thế nào",
-   "nguon": "kiểu mở \"số phận nhân vật\"",
+   "su_viec": "Thái thú Tô Định bỏ chạy khỏi quận Giao Chỉ vì hai người phụ nữ",
+   "nguon": "Toàn thư NK 3/2a; kiểu mở \"sự kiện bất ngờ\"",
    "doan": 1
   },
   {
    "nhip": "hook2",
-   "su_viec": "Sông Hát hay bị bắt chém: hai cách kể",
-   "nguon": "thần tích, Toàn thư; Hậu Hán thư",
+   "su_viec": "Tô Định đứng đầu quận Giao Chỉ, nhà Hán cai trị hơn 140 năm",
+   "nguon": "Toàn thư NK 3",
    "doan": 1
   },
   {
    "nhip": "hook3",
-   "su_viec": "Trưng Trắc, Trưng Nhị làm vua ba năm",
-   "nguon": "Toàn thư, Hậu Hán thư",
+   "su_viec": "Trưng Trắc, Trưng Nhị dấy binh; Cửu Chân, Nhật Nam, Hợp Phố hưởng ứng; 65 thành",
+   "nguon": "Toàn thư NK 3/2a-3a",
    "doan": 1
   },
   {
    "nhip": "hook4",
-   "su_viec": "Giữ nước ra sao? Mê Linh, Lãng Bạc, Cấm Khê",
+   "su_viec": "Ba năm sau cuộc nổi dậy tắt; vì sao không giữ nổi",
    "nguon": "lời hứa",
    "doan": 1
   },
   {
    "nhip": "goc_re",
-   "su_viec": "Nhà Hán cai trị, quận Giao Chỉ; Tô Định tham bạo, giết Thi Sách; nổi lên ở Mê Linh (nơi đầu tiên) năm 40; 65 thành, Trưng Trắc làm vua",
-   "nguon": "Hậu Hán thư, Việt sử lược, Toàn thư (việc giết Thi Sách chỉ có ở sử ta)",
-   "doan": 4
-  },
-  {
-   "nhip": "the_nguy",
-   "su_viec": "Mã Viện sang, hơn 2 vạn quân và hơn 1 vạn quân địa phương, thuyền chở lương; Lãng Bạc (nơi thứ hai) xuân 42, thua, mấy nghìn chết, hơn vạn hàng",
-   "nguon": "Hậu Hán thư (Mã Viện truyện)",
-   "doan": 4
-  },
-  {
-   "nhip": "diem_thap",
-   "su_viec": "Rút đi, mất phần lớn quân",
-   "nguon": "Hậu Hán thư",
-   "doan": 1
+   "su_viec": "Trưng Trắc con gái Lạc tướng Mê Linh, vợ Thi Sách; Tô Định giết Thi Sách; bà tìm cách trả thù",
+   "nguon": "Toàn thư NK 3/2a",
+   "doan": 2
   },
   {
    "nhip": "buoc_ngoat",
-   "su_viec": "Quân Hán bệnh vì mưa nóng; lời Mã Viện kể diều hâu rơi xuống nước; hai bà còn quân",
-   "nguon": "Hậu Hán thư (Mã Viện truyện)",
+   "su_viec": "Mùa xuân 40 dấy binh, chiếm trị sở, Tô Định chạy về Nam Hải; xưng vương ở Mê Linh",
+   "nguon": "Toàn thư NK 3/2a-2b",
+   "doan": 2
+  },
+  {
+   "nhip": "the_nguy",
+   "su_viec": "Năm 42 nhà Hán sai Mã Viện; quân qua núi, thuyền chở lương ven biển; số quân các sách khác nhau",
+   "nguon": "Hậu Hán thư qua Wikipedia (Bielestein 1986); Toàn thư",
    "doan": 3
   },
   {
    "nhip": "lan1",
-   "su_viec": "Cấm Khê (nơi thứ ba), đánh nhiều trận, bị cắt lương",
-   "nguon": "Toàn thư (có sách chép Kim Khê); vị trí còn tranh luận: Tản Viên hay gần Mê Linh",
-   "doan": 2
+   "su_viec": "Lãng Bạc: chém hàng nghìn, hơn vạn ra hàng; Cấm Khê vị trí chưa rõ",
+   "nguon": "Toàn thư; Cương mục TB 2; Kiernan 2019",
+   "doan": 3
   },
   {
-   "nhip": "lang",
-   "su_viec": "Đầu năm 43 chỉ còn người theo tới cùng",
-   "nguon": "Hậu Hán thư",
+   "nhip": "diem_thap",
+   "su_viec": "Hai bà lui về Cấm Khê; nhiều người theo bỏ đi",
+   "nguon": "Toàn thư NK 3/2b",
+   "doan": 1
+  },
+  {
+   "nhip": "lan1",
+   "su_viec": "Lãng Bạc: chém hàng nghìn, hơn vạn ra hàng; Cấm Khê vị trí chưa rõ",
+   "nguon": "Toàn thư; Cương mục TB 2; Kiernan 2019",
    "doan": 1
   },
   {
    "nhip": "cao_trao",
-   "su_viec": "Trận cuối, hai bà thua; giữa năm 43 kháng cự tắt",
-   "nguon": "Hậu Hán thư, Toàn thư",
+   "su_viec": "Mã Viện đuổi, thắng nhiều trận; năm 43 hai bà bị cô lập và thua",
+   "nguon": "Hậu Hán thư; Toàn thư NK 3/3b",
    "doan": 2
   },
   {
    "nhip": "chi_tiet_nguoi",
-   "su_viec": "Hai cách kể về cái chết",
-   "nguon": "Hậu Hán thư; Toàn thư, thần tích",
-   "doan": 1
+   "su_viec": "Ba cách kể về cái chết: bị chém (Hậu Hán thư), thua và bị bắt (Toàn thư, Cương mục), gieo sông Hát (người đời truyền lại)",
+   "nguon": "Hậu Hán thư; Toàn thư; Cương mục TB 2/12a",
+   "doan": 3
   },
   {
    "nhip": "don_cuoi",
-   "su_viec": "Quân Hán chết bốn, năm phần mười vì bệnh; Mã Viện sửa luật, chia huyện",
-   "nguon": "Hậu Hán thư",
-   "doan": 2
+   "su_viec": "Quân Hán giết 5.000–10.000 thủ lĩnh, quân chết 4–5 phần 10, nấu trống đồng đúc ngựa 44; trả lời câu hỏi hook; Lê Văn Hưu, Ngô Sĩ Liên",
+   "nguon": "Kiernan 2019; Hậu Hán thư; Toàn thư NK 3/3a-4a",
+   "doan": 7
   },
   {
    "nhip": "ket",
-   "su_viec": "Làm vua ba năm, đền Mê Linh, Hát Môn còn hương khói",
-   "nguon": "hiện trạng di tích",
+   "su_viec": "Làm vua ba năm, cái chết đến nay còn nhiều cách kể",
+   "nguon": "Toàn thư NK 3/2a",
    "doan": 1
   }
  ]

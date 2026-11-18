@@ -16,10 +16,10 @@
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK chương c182901 (2 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
+OK chương c183901 (2 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
 [báo cáo giọng] 0/2 đoạn có nhật ký tạo giọng
    model: 
    cach_goi: 
    voice: 
    style_id: 
-   2 đoạn không có nhật ký (tạo trước khi có nhật ký): 182901…182902
+   2 đoạn không có nhật ký (tạo trước khi có nhật ký): 183901…183902

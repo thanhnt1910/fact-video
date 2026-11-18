@@ -1,6 +1,6 @@
 # Dựng mạch truyện, mở đầu, sáng tạo cách kể
 
-> Chuyển nguyên văn từ CLAUDE.md, chờ gộp. Mục 'Độ dài và kết' viết mới ở đầu file. Nguồn: `archive/CLAUDE-truoc-tai-cau-truc-18-11.md`. Chuyển ngày 18/11/2026.
+> Chuyển nguyên văn từ CLAUDE.md, chờ gộp (đã bỏ mục "Khung 6 câu hỏi" ngày 18/11/2026, xem `archive/quy-dinh-da-thay-the.md`). Mục 'Độ dài và kết' viết mới ở đầu file. Nguồn: `archive/CLAUDE-truoc-tai-cau-truc-18-11.md`. Chuyển ngày 18/11/2026.
 
 ## Độ dài và câu kết (chủ kênh quyết 18/11/2026, thay sàn 10 phút và câu "tập sau" mặc định)
 
@@ -10,29 +10,8 @@
 - Đoạn cuối theo nguyên tắc cốt lõi (`nguyen-tac-cot-loi.md`).
 
 
-## Khung 6 câu hỏi để xây kịch bản, rồi chia đoạn (chủ kênh yêu cầu 06/11/2026, áp dụng mọi kịch bản từ nay)
-Trước khi viết lời kể, trả lời đủ 6 câu hỏi dưới đây cho chủ đề của video; sau đó mới chia thành các đoạn nội dung. **Mỗi đoạn chỉ giải quyết MỘT ý chính** (một câu hỏi, hoặc một phần của một câu hỏi).
-
-| # | Câu hỏi | Nội dung cần có |
-|---|---------|-----------------|
-| 1 | Chuyện gì xảy ra? | Sự kiện lịch sử trung tâm, nói gọn một hai câu |
-| 2 | Xảy ra khi nào, ở đâu? | Niên đại, địa danh (kèm vị trí ngày nay nếu giúp người nghe hình dung) |
-| 3 | Vì sao xảy ra? | Nguyên nhân trực tiếp và nguyên nhân sâu xa |
-| 4 | Ai tham gia? | Nhân vật, thế lực, vai trò của từng bên |
-| 5 | Kết quả thế nào? | Thắng bại, thay đổi sau sự kiện |
-| 6 | Có ý nghĩa gì? | Tác động và đánh giá lịch sử |
-
-Cách áp dụng:
-- **Bước 1, lập khung:** ghi ra 6 câu trả lời (mỗi câu vài ý, kèm nguồn) vào đầu file kịch bản, mục "Khung 6 câu hỏi". Câu nào chưa có nguồn thì nói rõ "còn tranh cãi" hoặc bỏ, không bịa cho đủ.
-- **Bước 2, chia đoạn:** mỗi ý trong khung thành một đoạn (20–30 chữ, tối đa 32, tối đa 2 câu). Đoạn nào chứa hai ý thì tách; ý nào cần nhiều câu thì thành nhiều đoạn liên tiếp, mỗi đoạn một ý nhỏ.
-- **Bước 3, sắp thứ tự:** mở bằng điểm gây tò mò lấy từ câu 1 hoặc 5 (đúng quy tắc "cảnh mở đầu là sự kiện có thật"), rồi đi theo thứ tự thời gian và nguyên nhân – kết quả: 2 → 3 → 4 → diễn biến (1) → 5 → 6. Có thể đảo thứ tự TRÌNH BÀY ở phần mở, không đảo quan hệ nguyên nhân – kết quả.
-- **Câu 6 (ý nghĩa, đánh giá):** chỉ dùng lời của sử gia có tên (Lê Văn Hưu, Ngô Sĩ Liên, hoặc tác giả bộ sử đã chốt làm nguồn). Lời đánh giá của kênh không đặt vào lời kể; muốn giữ thì để ở mô tả hoặc bình luận ghim. Không thêm câu "điều này cho thấy…" do kênh tự rút ra (xem các điểm đã gặp ở tập 2, 3).
-- **Tự kiểm trước khi đọc giọng:** lập bảng đoạn → câu hỏi (1–6) nó trả lời. Đoạn nào không thuộc câu hỏi nào thì bỏ hoặc gộp; câu hỏi nào không có đoạn nào thì bổ sung hoặc ghi lý do bỏ. Ghi bảng này vào mục "Ghi chú độ chắc" để chủ kênh duyệt.
-- **Video dọc ngắn:** vẫn dùng khung, nhưng chỉ chọn câu 1, 2 và một trong 3 hoặc 5 làm trục; các câu còn lại nằm ở phần mô tả hoặc ở video khác trong loạt.
-- Khung này bổ sung, không thay thế các quy tắc về nguồn, giọng kể, bố cục cuốn hút, họ tên đủ và đoạn ngắn cho giọng đọc ở các mục trên.
-
-## Kịch bản "Bí mật biểu tượng": xương sống là MẠCH KỂ (chủ kênh duyệt 10/11/2026; thay "6 câu hỏi" làm xương sống cho loạt này; skill `viet-kich-ban-bi-mat-bieu-tuong` là nơi gom quy tắc hiện hành)
-- **Mạch kể:** hook đặt MỘT câu hỏi; mỗi đoạn trả lời hoặc đẩy tiếp câu hỏi của đoạn trước (nối bằng "nên", "nhưng", "thế là", "vậy thì…"); rồi bước ngoặt, câu trả lời, câu hỏi mở cuối gắn với chính căng thẳng của video (không "Bạn nghĩ…?" mãi). 6 câu hỏi cũ chỉ là danh sách kiểm đủ ý.
+## Kịch bản "Bí mật biểu tượng": xương sống là MẠCH KỂ (chủ kênh duyệt 10/11/2026; skill `viet-kich-ban-bi-mat-bieu-tuong` là nơi gom quy tắc hiện hành)
+- **Mạch kể:** hook đặt MỘT câu hỏi; mỗi đoạn trả lời hoặc đẩy tiếp câu hỏi của đoạn trước (nối bằng "nên", "nhưng", "thế là", "vậy thì…"); rồi bước ngoặt, câu trả lời, câu hỏi mở cuối gắn với chính căng thẳng của video (không "Bạn nghĩ…?" mãi).
 - **Hook** tối đa khoảng 20 chữ, không năm, không tên lạ; bối cảnh dồn sang đoạn 2.
 - **Mỗi đoạn một ý lớn, tối đa một con số/năm.** Số ý và độ dài video theo nhu cầu giải thích của từng chủ đề, không giới hạn 5–7 ý (chủ kênh bỏ ngày 11/11/2026: người xem chưa biết gì phải hiểu được; chỉ giữ giới hạn mỗi đoạn). Trích nguồn tối đa 2 lần, mỗi lần một tầng ("Theo UNESCO, …"); nguồn còn lại ở mô tả và bình luận ghim.
 - **Đọc to:** câu nào phải đọc hai lần thì viết lại; hai đoạn liền không mở cùng một chữ; câu kết thay đổi theo video.

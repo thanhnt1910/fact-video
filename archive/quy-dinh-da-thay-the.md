@@ -133,3 +133,27 @@ Chủ kênh duyệt bản gộp: bìa chính 16:9 (1920×1080); bỏ vùng an to
 > - **Khai báo `chu_the`** (vật trong ảnh) trong mục cấu hình bìa; chỉ giao khi `chu_the` khớp tên video. Thẻ tên nhỏ trên ảnh (như "CẦU LONG BIÊN") phải đúng vật trong ảnh.
 > - **Bố cục và logo giữ nguyên mẫu đã duyệt** (logo cây đèn, số tập, chữ trong y 70–1560, đáy chỉ thương hiệu). Vòng khoanh và dấu "?" không che chủ thể và không đè logo, thẻ năm, thẻ tên.
 > - **Kiểm trước khi giao (bắt buộc):** mở bìa ở cỡ lớn, tự hỏi "chưa biết video, nhìn ảnh này đoán chuyện gì?"; đoán sai hoặc không đoán được thì đổi ảnh. So hình, chữ với tên video và câu 1 kịch bản; kiểm dấu tiếng Việt ở cỡ 270×480. Khi giao ghi một dòng: ảnh dùng (tác giả, giấy phép) và vì sao chọn.
+
+## 18/11/2026 23:15: bỏ mục "Khung 6 câu hỏi để xây kịch bản, rồi chia đoạn" khỏi `dung-mach-truyen.md`
+Chủ kênh quyết bỏ. Lý do: mâu thuẫn với `giong-van.md` mục 1 (viết văn xuôi liền mạch trước, chia đoạn sau) và với nguyên tắc cốt lõi mục 4–6: câu "mỗi đoạn chỉ giải quyết MỘT ý chính", "mỗi ý trong khung thành một đoạn 20–30 chữ" kéo người viết viết thẳng thành đoạn, mỗi đoạn một nhiệm vụ (phát hiện khi thử tm11 mới, 18/11). Việc đã làm thay: cổng B (mạch + bảng nguồn từng dữ kiện) và cổng C (bản văn xuôi rồi mới chia đoạn). Bản gốc giữ nguyên văn dưới đây.
+
+> ## Khung 6 câu hỏi để xây kịch bản, rồi chia đoạn (chủ kênh yêu cầu 06/11/2026, áp dụng mọi kịch bản từ nay)
+> Trước khi viết lời kể, trả lời đủ 6 câu hỏi dưới đây cho chủ đề của video; sau đó mới chia thành các đoạn nội dung. **Mỗi đoạn chỉ giải quyết MỘT ý chính** (một câu hỏi, hoặc một phần của một câu hỏi).
+>
+> | # | Câu hỏi | Nội dung cần có |
+> |---|---------|-----------------|
+> | 1 | Chuyện gì xảy ra? | Sự kiện lịch sử trung tâm, nói gọn một hai câu |
+> | 2 | Xảy ra khi nào, ở đâu? | Niên đại, địa danh (kèm vị trí ngày nay nếu giúp người nghe hình dung) |
+> | 3 | Vì sao xảy ra? | Nguyên nhân trực tiếp và nguyên nhân sâu xa |
+> | 4 | Ai tham gia? | Nhân vật, thế lực, vai trò của từng bên |
+> | 5 | Kết quả thế nào? | Thắng bại, thay đổi sau sự kiện |
+> | 6 | Có ý nghĩa gì? | Tác động và đánh giá lịch sử |
+>
+> Cách áp dụng:
+> - **Bước 1, lập khung:** ghi ra 6 câu trả lời (mỗi câu vài ý, kèm nguồn) vào đầu file kịch bản, mục "Khung 6 câu hỏi". Câu nào chưa có nguồn thì nói rõ "còn tranh cãi" hoặc bỏ, không bịa cho đủ.
+> - **Bước 2, chia đoạn:** mỗi ý trong khung thành một đoạn (20–30 chữ, tối đa 32, tối đa 2 câu). Đoạn nào chứa hai ý thì tách; ý nào cần nhiều câu thì thành nhiều đoạn liên tiếp, mỗi đoạn một ý nhỏ.
+> - **Bước 3, sắp thứ tự:** mở bằng điểm gây tò mò lấy từ câu 1 hoặc 5 (đúng quy tắc "cảnh mở đầu là sự kiện có thật"), rồi đi theo thứ tự thời gian và nguyên nhân – kết quả: 2 → 3 → 4 → diễn biến (1) → 5 → 6. Có thể đảo thứ tự TRÌNH BÀY ở phần mở, không đảo quan hệ nguyên nhân – kết quả.
+> - **Câu 6 (ý nghĩa, đánh giá):** chỉ dùng lời của sử gia có tên (Lê Văn Hưu, Ngô Sĩ Liên, hoặc tác giả bộ sử đã chốt làm nguồn). Lời đánh giá của kênh không đặt vào lời kể; muốn giữ thì để ở mô tả hoặc bình luận ghim. Không thêm câu "điều này cho thấy…" do kênh tự rút ra (xem các điểm đã gặp ở tập 2, 3).
+> - **Tự kiểm trước khi đọc giọng:** lập bảng đoạn → câu hỏi (1–6) nó trả lời. Đoạn nào không thuộc câu hỏi nào thì bỏ hoặc gộp; câu hỏi nào không có đoạn nào thì bổ sung hoặc ghi lý do bỏ. Ghi bảng này vào mục "Ghi chú độ chắc" để chủ kênh duyệt.
+> - **Video dọc ngắn:** vẫn dùng khung, nhưng chỉ chọn câu 1, 2 và một trong 3 hoặc 5 làm trục; các câu còn lại nằm ở phần mô tả hoặc ở video khác trong loạt.
+> - Khung này bổ sung, không thay thế các quy tắc về nguồn, giọng kể, bố cục cuốn hút, họ tên đủ và đoạn ngắn cho giọng đọc ở các mục trên.

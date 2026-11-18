@@ -15,7 +15,7 @@ Mọi tập thủy mặc từ tm6 trở đi viết theo bài này. Khung nhịp 
 7. **Mỗi trận gắn với một người và một việc có nguồn** (Triệu Trung và áo quần nước cũ; Trần Quốc Toản và quả cam, lá cờ sáu chữ; hai vua tự cầm quân). Trận nào chỉ có tên đất và kết quả là trận liệt kê.
 8. **Đếm mốc bằng câu gọi tên** ("Bến sông đầu tiên là…", "Bến thứ hai…", "bến sông thứ ba") để người nghe đếm theo tới lần cuối.
 9. **Số phận trái ngược của nhân vật phía kia ở gần cuối**: Trần Ích Tắc được phong vương "nhưng chưa một ngày được làm vua trên đất ấy". Đúng sự thật, không bình luận thêm.
-10. **Câu kết khép đúng hình ảnh đã hứa** (quỷ nước Nam, chiếc áo), một câu, rồi lời cảm ơn.
+10. **Câu kết khép đúng hình ảnh đã hứa** (quỷ nước Nam, chiếc áo), một câu. Lời cảm ơn là tùy chọn, không bắt buộc (mẫu cũ có kèm).
 
 Giữ nguyên: không bịa lời, cảm xúc, nguyên nhân; được thêm hoặc bớt ý có nguồn để câu văn cuốn hơn (chủ kênh: "không yêu cầu bịa mà câu văn cần thêm bớt ý"). Động từ mạnh ở chỗ quan trọng ("tràn vào chiếm", "đánh thốc ra", "kẹp từ hai đầu"); từ nhấn phải có sự việc đỡ ("vẫn còn đông và rất hung hãn" sau khi đã kể đạo quân đánh hai năm).
 

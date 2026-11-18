@@ -24,7 +24,7 @@ Mọi tập đều viết theo một khung nhịp giống nhau, để điểm nh
 | Cao trào (`cao_trao`) | 2–4 | 55–85% | Kể dồn |
 | Chi tiết con người (`chi_tiet_nguoi`) | đúng 1 | | Một lời nói hoặc hành động có thật của một người, nằm trong khối cao trào |
 | Dồn cuối (`don_cuoi`) | 1–3 | | Cuộc đuổi, cảnh tháo chạy, hoặc hệ quả gấp nhất |
-| Kết (`ket`) | 1–2 | cuối | Trả lời câu hỏi ở hook; câu cuối quay về hình ảnh mở đầu và lời cảm ơn, tối đa 32 chữ |
+| Kết (`ket`) | 1–2 | cuối | Trả lời câu hỏi ở hook; câu cuối khép lại tự nhiên (có thể quay về hình ảnh mở đầu; lời cảm ơn không bắt buộc), tối đa 32 chữ |
 
 - Ba nhịp `lang`, `cao_trao`, `chi_tiet_nguoi` là một khối liền nhau, thứ tự bên trong tự do.
 - Phần sau khối cao trào (`don_cuoi` + `ket`) tối đa 5 đoạn.

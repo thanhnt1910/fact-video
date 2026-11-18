@@ -58,22 +58,22 @@ lam('tm13',dict(ten='Hai Bà Trưng, Lãng Bạc và Cấm Khê 40–43',n_hua=3
  'chi_tiet_nguoi':('Hai cách kể về cái chết','Hậu Hán thư; Toàn thư, thần tích'),
  'don_cuoi':('Quân Hán chết bốn, năm phần mười vì bệnh; Mã Viện sửa luật, chia huyện','Hậu Hán thư'),
  'ket':('Làm vua ba năm, đền Mê Linh, Hát Môn còn hương khói','hiện trạng di tích')})
-lam('tm14',dict(ten='Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861',n_hua=2,loi_hua='hai thứ: một cách giả làm ghe buôn, và một câu nói về cỏ',
- cau_hoi='Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy?',soi_chi=['ghe'],hinh_anh=['cỏ'],dem=['thứ đầu tiên','thứ hai']),{
- 'hook1':('Giữa trưa, năm ghe nhỏ áp sát tàu Pháp','kiểu mở "sự kiện bất ngờ"; Wikipedia dẫn sử Pháp'),
- 'hook2':('Không súng, chỉ dao giáo; tàu bốc cháy','Wikipedia (Nguyễn Trung Trực)'),
- 'hook3':('Nguyễn Trung Trực, người chài lưới; câu nói về cỏ','báo Pháp luật; lsvn'),
- 'hook4':('Làm sao ghe nhỏ đốt được tàu? giả ghe buôn, câu nói về cỏ','lời hứa'),
- 'goc_re':('Pháp đánh miền Nam; Chí Hòa vỡ 2/1861; nghĩa quân Trương Định','Đại Nam thực lục; Wikipedia'),
- 'the_nguy':('Tàu Pháp chặn sông; tàu Hy Vọng ở vàm Nhật Tảo','Wikipedia; vietnamplus'),
- 'diem_thap':('Ghe nhỏ, dao giáo, đánh thẳng là nộp mạng','diễn giải'),
- 'buoc_ngoat':('150 người, ba toán; giả ghe buôn xin giấy (thứ đầu tiên); súng lớn vô dụng khi áp sát','Wikipedia (dẫn tư liệu Pháp); chuyện đám cưới là lời kể khác'),
- 'lan1':('Trưa 10/12/1861, toán nhử; năm ghe cặp mạn tàu','Wikipedia'),
- 'lang':('Trên tàu mấy chục người, súng đầy đủ','Wikipedia (số người trên tàu các nguồn khác nhau)'),
- 'cao_trao':('Nhảy lên tàu, giáp lá cà; phá thân tàu, đốt; vài người trốn thoát','Wikipedia'),
- 'chi_tiet_nguoi':('Tự Đức khen, thăng chức','Wikipedia: Tự Đức phong Lãnh binh Hà Tiên'),
- 'don_cuoi':('Hòa ước 1862 cắt ba tỉnh; 1868 chiếm đồn Rạch Giá; mẹ bị bắt làm con tin; câu nói về cỏ (thứ hai); bị chém 27/10/1868','Wikipedia; lsvn'),
- 'ket':('Con tàu cháy và câu nói về cỏ','tổng kết')})
+lam('tm14',dict(ten='Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861',n_hua=2,loi_hua='hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị dụ hàng',
+ cau_hoi='Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy mà không bị bắn?',soi_chi=['ghe'],hinh_anh=['cỏ'],dem=['người buôn gạo','nhổ hết cỏ']),{
+ 'hook1':('Giữa trưa, năm ghe nhỏ áp sát tàu Pháp trên kênh Nhật Tảo','kiểu mở "sự kiện bất ngờ"; Wikipedia'),
+ 'hook2':('Tàu có lính, súng; ghe chỉ dao giáo; tàu chìm trong lửa','Wikipedia'),
+ 'hook3':('Nguyễn Trung Trực, con nhà chài lưới, ngoài hai mươi tuổi','Pháp Luật; năm sinh 1838/1839'),
+ 'hook4':('Ghe áp sát thế nào? Ông nói gì về cỏ khi bị dụ hàng?','lời hứa'),
+ 'goc_re':('1861 Sài Gòn mất; Chí Hòa vỡ, Pháp xuống Mỹ Tho; dân tự đứng lên; theo Trương Định, chỉ huy ~50 người','Wikipedia; Pháp Luật (Quản Lịch coi 50 người)'),
+ 'the_nguy':('Pháp dùng tàu chở lính, chở gạo trên kênh Mỹ Tho–Sài Gòn; tàu Hy Vọng ở vàm Nhật Tảo; mấy chục người, trung úy cầm đầu','Wikipedia'),
+ 'diem_thap':('Ghe nhỏ, dao giáo, đánh thẳng sẽ bị bắn chìm','diễn giải'),
+ 'buoc_ngoat':('150 người ba toán: 61 người đánh làng theo Pháp để nhử, 30 người chặn viện binh, toán ông giả người buôn gạo','Wikipedia'),
+ 'lan1':('Trưa 10/12/1861 nổ trận ở làng; Parfait sai lính đuổi rồi rời tàu; năm ghe cặp mạn','Wikipedia'),
+ 'lang':('Chỉ cần sinh nghi là bị bắn','diễn giải'),
+ 'cao_trao':('Nhảy lên boong, giáp lá cà; tàu không kịp phát tín hiệu; toán khác lội nước bổ rìu, châm lửa; tàu chìm, vài người trốn vào bụi mấy ngày','Wikipedia'),
+ 'chi_tiet_nguoi':('Parfait quay về, đốt làng, dân đã đi hết','Wikipedia'),
+ 'don_cuoi':('Tự Đức phong Lãnh binh; hòa ước 1862; 1868 Rạch Giá; mẹ làm con tin; câu nói về cỏ; bị chém 27/10/1868','Wikipedia; LSVN'),
+ 'ket':('Con tàu chìm và câu nói về cỏ','tổng kết')})
 lam('tm15',dict(ten='Trận Cầu Giấy 1873',n_hua=2,loi_hua='hai thứ: một tòa thành mất trong một buổi sáng, và một bản hòa ước ký sau trận thắng',
  cau_hoi='Chuyện gì chờ Garnier sau gò đất ấy?',soi_chi=['Garnier'],hinh_anh=['Cầu Giấy'],dem=['thứ đầu tiên','thứ hai']),{
  'hook1':('Viên chỉ huy Pháp bỏ thương thuyết đuổi theo','kiểu mở "trận chiến"; Wikipedia (Garnier Expedition)'),

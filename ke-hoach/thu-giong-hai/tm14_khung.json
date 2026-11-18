@@ -2,8 +2,8 @@
  "ma": "tm14",
  "ten": "Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861",
  "n_hua": 2,
- "loi_hua": "hai thứ: một cách giả làm ghe buôn, và một câu nói về cỏ",
- "cau_hoi": "Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy?",
+ "loi_hua": "hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị dụ hàng",
+ "cau_hoi": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy mà không bị bắn?",
  "soi_chi": [
   "ghe"
  ],
@@ -11,91 +11,91 @@
   "cỏ"
  ],
  "dem": [
-  "thứ đầu tiên",
-  "thứ hai"
+  "người buôn gạo",
+  "nhổ hết cỏ"
  ],
  "nhip": [
   {
    "nhip": "hook1",
-   "su_viec": "Giữa trưa, năm ghe nhỏ áp sát tàu Pháp",
-   "nguon": "kiểu mở \"sự kiện bất ngờ\"; Wikipedia dẫn sử Pháp",
+   "su_viec": "Giữa trưa, năm ghe nhỏ áp sát tàu Pháp trên kênh Nhật Tảo",
+   "nguon": "kiểu mở \"sự kiện bất ngờ\"; Wikipedia",
    "doan": 1
   },
   {
    "nhip": "hook2",
-   "su_viec": "Không súng, chỉ dao giáo; tàu bốc cháy",
-   "nguon": "Wikipedia (Nguyễn Trung Trực)",
+   "su_viec": "Tàu có lính, súng; ghe chỉ dao giáo; tàu chìm trong lửa",
+   "nguon": "Wikipedia",
    "doan": 1
   },
   {
    "nhip": "hook3",
-   "su_viec": "Nguyễn Trung Trực, người chài lưới; câu nói về cỏ",
-   "nguon": "báo Pháp luật; lsvn",
+   "su_viec": "Nguyễn Trung Trực, con nhà chài lưới, ngoài hai mươi tuổi",
+   "nguon": "Pháp Luật; năm sinh 1838/1839",
    "doan": 1
   },
   {
    "nhip": "hook4",
-   "su_viec": "Làm sao ghe nhỏ đốt được tàu? giả ghe buôn, câu nói về cỏ",
+   "su_viec": "Ghe áp sát thế nào? Ông nói gì về cỏ khi bị dụ hàng?",
    "nguon": "lời hứa",
    "doan": 1
   },
   {
    "nhip": "goc_re",
-   "su_viec": "Pháp đánh miền Nam; Chí Hòa vỡ 2/1861; nghĩa quân Trương Định",
-   "nguon": "Đại Nam thực lục; Wikipedia",
-   "doan": 3
+   "su_viec": "1861 Sài Gòn mất; Chí Hòa vỡ, Pháp xuống Mỹ Tho; dân tự đứng lên; theo Trương Định, chỉ huy ~50 người",
+   "nguon": "Wikipedia; Pháp Luật (Quản Lịch coi 50 người)",
+   "doan": 4
   },
   {
    "nhip": "the_nguy",
-   "su_viec": "Tàu Pháp chặn sông; tàu Hy Vọng ở vàm Nhật Tảo",
-   "nguon": "Wikipedia; vietnamplus",
-   "doan": 2
+   "su_viec": "Pháp dùng tàu chở lính, chở gạo trên kênh Mỹ Tho–Sài Gòn; tàu Hy Vọng ở vàm Nhật Tảo; mấy chục người, trung úy cầm đầu",
+   "nguon": "Wikipedia",
+   "doan": 3
   },
   {
    "nhip": "diem_thap",
-   "su_viec": "Ghe nhỏ, dao giáo, đánh thẳng là nộp mạng",
+   "su_viec": "Ghe nhỏ, dao giáo, đánh thẳng sẽ bị bắn chìm",
    "nguon": "diễn giải",
    "doan": 1
   },
   {
    "nhip": "buoc_ngoat",
-   "su_viec": "150 người, ba toán; giả ghe buôn xin giấy (thứ đầu tiên); súng lớn vô dụng khi áp sát",
-   "nguon": "Wikipedia (dẫn tư liệu Pháp); chuyện đám cưới là lời kể khác",
-   "doan": 4
+   "su_viec": "150 người ba toán: 61 người đánh làng theo Pháp để nhử, 30 người chặn viện binh, toán ông giả người buôn gạo",
+   "nguon": "Wikipedia",
+   "doan": 5
   },
   {
    "nhip": "lan1",
-   "su_viec": "Trưa 10/12/1861, toán nhử; năm ghe cặp mạn tàu",
-   "nguon": "Wikipedia",
-   "doan": 2
-  },
-  {
-   "nhip": "lang",
-   "su_viec": "Trên tàu mấy chục người, súng đầy đủ",
-   "nguon": "Wikipedia (số người trên tàu các nguồn khác nhau)",
-   "doan": 1
-  },
-  {
-   "nhip": "cao_trao",
-   "su_viec": "Nhảy lên tàu, giáp lá cà; phá thân tàu, đốt; vài người trốn thoát",
+   "su_viec": "Trưa 10/12/1861 nổ trận ở làng; Parfait sai lính đuổi rồi rời tàu; năm ghe cặp mạn",
    "nguon": "Wikipedia",
    "doan": 3
   },
   {
+   "nhip": "lang",
+   "su_viec": "Chỉ cần sinh nghi là bị bắn",
+   "nguon": "diễn giải",
+   "doan": 1
+  },
+  {
+   "nhip": "cao_trao",
+   "su_viec": "Nhảy lên boong, giáp lá cà; tàu không kịp phát tín hiệu; toán khác lội nước bổ rìu, châm lửa; tàu chìm, vài người trốn vào bụi mấy ngày",
+   "nguon": "Wikipedia",
+   "doan": 4
+  },
+  {
    "nhip": "chi_tiet_nguoi",
-   "su_viec": "Tự Đức khen, thăng chức",
-   "nguon": "Wikipedia: Tự Đức phong Lãnh binh Hà Tiên",
+   "su_viec": "Parfait quay về, đốt làng, dân đã đi hết",
+   "nguon": "Wikipedia",
    "doan": 1
   },
   {
    "nhip": "don_cuoi",
-   "su_viec": "Hòa ước 1862 cắt ba tỉnh; 1868 chiếm đồn Rạch Giá; mẹ bị bắt làm con tin; câu nói về cỏ (thứ hai); bị chém 27/10/1868",
-   "nguon": "Wikipedia; lsvn",
+   "su_viec": "Tự Đức phong Lãnh binh; hòa ước 1862; 1868 Rạch Giá; mẹ làm con tin; câu nói về cỏ; bị chém 27/10/1868",
+   "nguon": "Wikipedia; LSVN",
    "doan": 4
   },
   {
    "nhip": "ket",
-   "su_viec": "Con tàu cháy và câu nói về cỏ",
+   "su_viec": "Con tàu chìm và câu nói về cỏ",
    "nguon": "tổng kết",
    "doan": 1
   }

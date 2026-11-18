@@ -4,207 +4,247 @@
   "chuong": 1,
   "nhip": "hook1",
   "tone": "story",
-  "text": "Giữa trưa, năm chiếc ghe nhỏ lặng lẽ áp sát một chiếc tàu có súng của quân Pháp.",
-  "hien": "Giữa trưa, năm chiếc ghe nhỏ lặng lẽ áp sát một chiếc tàu có súng của quân Pháp."
+  "text": "Giữa trưa, năm chiếc ghe nhỏ lặng lẽ áp sát một chiếc tàu của quân Pháp trên kênh Nhật Tảo.",
+  "hien": "Giữa trưa, năm chiếc ghe nhỏ lặng lẽ áp sát một chiếc tàu của quân Pháp trên kênh Nhật Tảo."
  },
  {
   "n": 189002,
   "chuong": 1,
   "nhip": "hook2",
   "tone": "story",
-  "text": "Người trên ghe không có súng, chỉ có dao và giáo. Ít lâu sau, chiếc tàu ấy bốc cháy trên sông.",
-  "hien": "Người trên ghe không có súng, chỉ có dao và giáo. Ít lâu sau, chiếc tàu ấy bốc cháy trên sông."
+  "text": "Trên tàu có lính và súng, còn người trên ghe chỉ mang dao với giáo. Ít lâu sau, con tàu ấy chìm trong lửa.",
+  "hien": "Trên tàu có lính và súng, còn người trên ghe chỉ mang dao với giáo. Ít lâu sau, con tàu ấy chìm trong lửa."
  },
  {
   "n": 189003,
   "chuong": 1,
   "nhip": "hook3",
   "tone": "story",
-  "text": "Dẫn đầu là Nguyễn Trung Trực, con một nhà chài lưới. Bảy năm sau trận ấy, ông để lại một câu nói về cỏ mà người miền Nam còn nhắc.",
-  "hien": "Dẫn đầu là Nguyễn Trung Trực, con một nhà chài lưới. Bảy năm sau trận ấy, ông để lại một câu nói về cỏ mà người miền Nam còn nhắc."
+  "text": "Dẫn đầu năm chiếc ghe là Nguyễn Trung Trực, con một nhà chài lưới ở Long An, khi ấy mới ngoài hai mươi tuổi.",
+  "hien": "Dẫn đầu năm chiếc ghe là Nguyễn Trung Trực, con một nhà chài lưới ở Long An, khi ấy mới ngoài hai mươi tuổi."
  },
  {
   "n": 189004,
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
-  "text": "Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy? Có hai thứ sẽ kể lại, một cách giả làm ghe buôn, và một câu nói về cỏ.",
-  "hien": "Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy? Có hai thứ sẽ kể lại, một cách giả làm ghe buôn, và một câu nói về cỏ."
+  "text": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và vì sao bảy năm sau, khi bị dụ hàng, ông lại nói về cỏ của nước Nam?",
+  "hien": "Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và vì sao bảy năm sau, khi bị dụ hàng, ông lại nói về cỏ của nước Nam?"
  },
  {
   "n": 189005,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Chuyện xảy ra hơn một trăm sáu mươi năm trước, ở vùng Long An bây giờ. Khi ấy quân Pháp đã nổ súng đánh nước ta, chiếm dần các tỉnh miền Nam.",
-  "hien": "Chuyện xảy ra hơn một trăm sáu mươi năm trước, ở vùng Long An bây giờ. Khi ấy quân Pháp đã nổ súng đánh nước ta, chiếm dần các tỉnh miền Nam."
+  "text": "Năm một nghìn tám trăm sáu mươi mốt, hơn một trăm sáu mươi năm trước, Sài Gòn đã nằm trong tay quân Pháp.",
+  "hien": "Năm một nghìn tám trăm sáu mươi mốt, hơn một trăm sáu mươi năm trước, Sài Gòn đã nằm trong tay quân Pháp."
  },
  {
   "n": 189006,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Họ muốn biến đất này thành thuộc địa, đất do nước Pháp cai trị. Đầu năm ấy, đại đồn Chí Hòa ở Sài Gòn vỡ, quân triều đình nhà Nguyễn phải rút.",
-  "hien": "Họ muốn biến đất này thành thuộc địa, đất do nước Pháp cai trị. Đầu năm ấy, đại đồn Chí Hòa ở Sài Gòn vỡ, quân triều đình nhà Nguyễn phải rút."
+  "text": "Đầu năm ấy, đại đồn Chí Hòa, nơi quân triều đình nhà Nguyễn giữ mạnh nhất quanh Sài Gòn, bị phá. Quân Pháp tràn xuống tới Mỹ Tho.",
+  "hien": "Đầu năm ấy, đại đồn Chí Hòa, nơi quân triều đình nhà Nguyễn giữ mạnh nhất quanh Sài Gòn, bị phá. Quân Pháp tràn xuống tới Mỹ Tho."
  },
  {
   "n": 189007,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Ở làng quê, nhiều người dân tự đứng lên. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp.",
-  "hien": "Ở làng quê, nhiều người dân tự đứng lên. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp."
+  "text": "Họ muốn biến miền Nam thành thuộc địa, đất do nước Pháp cai trị. Quân triều đình rút đi, nhưng ở làng quê, nhiều người dân tự cầm giáo đứng lên.",
+  "hien": "Họ muốn biến miền Nam thành thuộc địa, đất do nước Pháp cai trị. Quân triều đình rút đi, nhưng ở làng quê, nhiều người dân tự cầm giáo đứng lên."
  },
  {
   "n": 189008,
-  "chuong": 3,
-  "nhip": "the_nguy",
+  "chuong": 2,
+  "nhip": "goc_re",
   "tone": "story",
-  "text": "Quân Pháp có súng tốt, có tàu chạy trên các sông lớn, chặn cả đường chở gạo của dân.",
-  "hien": "Quân Pháp có súng tốt, có tàu chạy trên các sông lớn, chặn cả đường chở gạo của dân."
+  "text": "Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp, và chỉ huy một toán chừng năm mươi người.",
+  "hien": "Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp, và chỉ huy một toán chừng năm mươi người."
  },
  {
   "n": 189009,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh Nhật Tảo đổ ra sông Vàm Cỏ.",
-  "hien": "Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh Nhật Tảo đổ ra sông Vàm Cỏ."
+  "text": "Để giữ đất vừa chiếm, quân Pháp dùng tàu chở lính, chở gạo trên những con kênh nối Mỹ Tho với Sài Gòn.",
+  "hien": "Để giữ đất vừa chiếm, quân Pháp dùng tàu chở lính, chở gạo trên những con kênh nối Mỹ Tho với Sài Gòn."
  },
  {
   "n": 189010,
   "chuong": 3,
-  "nhip": "diem_thap",
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Ghe của nghĩa quân nhỏ, vũ khí chỉ có dao, giáo. Nhìn lúc ấy, đánh thẳng vào con tàu có súng chẳng khác gì tự nộp mạng.",
-  "hien": "Ghe của nghĩa quân nhỏ, vũ khí chỉ có dao, giáo. Nhìn lúc ấy, đánh thẳng vào con tàu có súng chẳng khác gì tự nộp mạng."
+  "text": "Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh đổ ra sông Vàm Cỏ.",
+  "hien": "Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh đổ ra sông Vàm Cỏ."
  },
  {
   "n": 189011,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
+  "chuong": 3,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Nguyễn Trung Trực chia khoảng một trăm năm mươi người làm ba toán, mỗi toán một việc.",
-  "hien": "Nguyễn Trung Trực chia khoảng một trăm năm mươi người làm ba toán, mỗi toán một việc."
+  "text": "Trên tàu có mấy chục người, gồm lính Pháp, lính đánh thuê lẫn những người theo Pháp, do một viên trung úy người Pháp cầm đầu.",
+  "hien": "Trên tàu có mấy chục người, gồm lính Pháp, lính đánh thuê lẫn những người theo Pháp, do một viên trung úy người Pháp cầm đầu."
  },
  {
   "n": 189012,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
+  "chuong": 3,
+  "nhip": "diem_thap",
   "tone": "story",
-  "text": "Một toán đánh vào một làng gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu.",
-  "hien": "Một toán đánh vào một làng gần đó để nhử lính Pháp. Một toán khác chặn đường quân Pháp kéo đến cứu."
+  "text": "Ghe của nghĩa quân nhỏ, vũ khí chỉ có dao, giáo. Nếu chèo thẳng tới, ghe chưa kịp áp mạn đã bị súng trên tàu bắn chìm.",
+  "hien": "Ghe của nghĩa quân nhỏ, vũ khí chỉ có dao, giáo. Nếu chèo thẳng tới, ghe chưa kịp áp mạn đã bị súng trên tàu bắn chìm."
  },
  {
   "n": 189013,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Thứ đầu tiên là cách giả làm ghe buôn. Theo lời kể, toán của ông giả làm người buôn gạo đến xin giấy đi lại, có sách nói là giả đám cưới.",
-  "hien": "Thứ đầu tiên là cách giả làm ghe buôn. Theo lời kể, toán của ông giả làm người buôn gạo đến xin giấy đi lại, có sách nói là giả đám cưới."
+  "text": "Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người được chia làm ba toán, mỗi toán một việc.",
+  "hien": "Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người được chia làm ba toán, mỗi toán một việc."
  },
  {
   "n": 189014,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Súng lớn trên tàu chỉ đáng sợ khi kẻ địch còn ở xa. Chỉ cần áp sát mạn tàu mà không bị nghi, ghe nhỏ sẽ không còn thua thiệt.",
-  "hien": "Súng lớn trên tàu chỉ đáng sợ khi kẻ địch còn ở xa. Chỉ cần áp sát mạn tàu mà không bị nghi, ghe nhỏ sẽ không còn thua thiệt."
+  "text": "Hơn sáu mươi người ở toán thứ nhất sẽ đánh vào một làng theo Pháp gần đó, để kéo lính trên tàu rời khỏi tàu.",
+  "hien": "Hơn sáu mươi người ở toán thứ nhất sẽ đánh vào một làng theo Pháp gần đó, để kéo lính trên tàu rời khỏi tàu."
  },
  {
   "n": 189015,
-  "chuong": 5,
-  "nhip": "lan1",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất kéo đi đánh làng, để nhử lính Pháp.",
-  "hien": "Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất kéo đi đánh làng, để nhử lính Pháp."
+  "text": "Ba mươi người khác nấp sẵn để chặn quân Pháp kéo đến cứu, rồi cùng đánh vào tàu.",
+  "hien": "Ba mươi người khác nấp sẵn để chặn quân Pháp kéo đến cứu, rồi cùng đánh vào tàu."
  },
  {
   "n": 189016,
-  "chuong": 5,
-  "nhip": "lan1",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Cùng lúc ấy, năm chiếc ghe của Nguyễn Trung Trực từ từ cặp vào mạn tàu Hy Vọng, như những chiếc ghe buôn bình thường.",
-  "hien": "Cùng lúc ấy, năm chiếc ghe của Nguyễn Trung Trực từ từ cặp vào mạn tàu Hy Vọng, như những chiếc ghe buôn bình thường."
+  "text": "Còn toán của Nguyễn Trung Trực đi trên năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại. Có sách lại kể là giả làm đám cưới.",
+  "hien": "Còn toán của Nguyễn Trung Trực đi trên năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại. Có sách lại kể là giả làm đám cưới."
  },
  {
   "n": 189017,
-  "chuong": 6,
-  "nhip": "lang",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Trên tàu có mấy chục người, súng đạn đầy đủ. Chỉ cần họ nhận ra, cả toán sẽ bị bắn ngay sát mạn tàu.",
-  "hien": "Trên tàu có mấy chục người, súng đạn đầy đủ. Chỉ cần họ nhận ra, cả toán sẽ bị bắn ngay sát mạn tàu."
+  "text": "Súng lớn chỉ đáng sợ khi ghe còn ở xa. Một khi ghe đã cặp vào mạn mà không bị nghi, dao giáo sẽ không còn thua súng.",
+  "hien": "Súng lớn chỉ đáng sợ khi ghe còn ở xa. Một khi ghe đã cặp vào mạn mà không bị nghi, dao giáo sẽ không còn thua súng."
  },
  {
   "n": 189018,
-  "chuong": 6,
-  "nhip": "cao_trao",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Họ đã nhảy được lên tàu. Dao, giáo đánh giáp lá cà, lính trên tàu trở tay không kịp.",
-  "hien": "Họ đã nhảy được lên tàu. Dao, giáo đánh giáp lá cà, lính trên tàu trở tay không kịp."
+  "text": "Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất nổ trận ở làng bên.",
+  "hien": "Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất nổ trận ở làng bên."
  },
  {
   "n": 189019,
-  "chuong": 6,
-  "nhip": "cao_trao",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Một toán khác lội nước tới, dùng rìu phá thân tàu rồi châm lửa. Tàu Hy Vọng bốc cháy.",
-  "hien": "Một toán khác lội nước tới, dùng rìu phá thân tàu rồi châm lửa. Tàu Hy Vọng bốc cháy."
+  "text": "Kế nhử có kết quả. Viên trung úy sai lính trên tàu đuổi theo, rồi chính ông ta cũng rời tàu.",
+  "hien": "Kế nhử có kết quả. Viên trung úy sai lính trên tàu đuổi theo, rồi chính ông ta cũng rời tàu."
  },
  {
   "n": 189020,
-  "chuong": 6,
-  "nhip": "cao_trao",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven sông.",
-  "hien": "Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven sông."
+  "text": "Trên tàu chỉ còn lại một phần lính. Đúng lúc ấy, năm chiếc ghe buôn gạo cặp vào mạn tàu Hy Vọng.",
+  "hien": "Trên tàu chỉ còn lại một phần lính. Đúng lúc ấy, năm chiếc ghe buôn gạo cặp vào mạn tàu Hy Vọng."
  },
  {
   "n": 189021,
   "chuong": 6,
-  "nhip": "chi_tiet_nguoi",
+  "nhip": "lang",
   "tone": "story",
-  "text": "Tin về tới kinh thành Huế. Vua Tự Đức phong ông làm Lãnh binh, chức chỉ huy quân của tỉnh Hà Tiên.",
-  "hien": "Tin về tới kinh thành Huế. Vua Tự Đức phong ông làm Lãnh binh, chức chỉ huy quân của tỉnh Hà Tiên."
+  "text": "Chỉ cần người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng.",
+  "hien": "Chỉ cần người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng."
  },
  {
   "n": 189022,
-  "chuong": 7,
-  "nhip": "don_cuoi",
+  "chuong": 6,
+  "nhip": "cao_trao",
   "tone": "story",
-  "text": "Nửa năm sau, triều đình ký hòa ước, cắt ba tỉnh miền Đông Nam Bộ cho Pháp, rồi bảo nghĩa quân thôi đánh. Nguyễn Trung Trực vẫn không buông giáo.",
-  "hien": "Nửa năm sau, triều đình ký hòa ước, cắt ba tỉnh miền Đông Nam Bộ cho Pháp, rồi bảo nghĩa quân thôi đánh. Nguyễn Trung Trực vẫn không buông giáo."
+  "text": "Nhưng không ai kịp sinh nghi. Nghĩa quân rút dao, nhảy lên boong, đánh giáp lá cà với lính trên tàu.",
+  "hien": "Nhưng không ai kịp sinh nghi. Nghĩa quân rút dao, nhảy lên boong, đánh giáp lá cà với lính trên tàu."
  },
  {
   "n": 189023,
-  "chuong": 7,
-  "nhip": "don_cuoi",
+  "chuong": 6,
+  "nhip": "cao_trao",
   "tone": "story",
-  "text": "Sáu năm sau nữa, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông.",
-  "hien": "Sáu năm sau nữa, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá. Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông."
+  "text": "Mọi việc diễn ra nhanh tới mức người trên tàu không kịp phát tín hiệu cầu cứu.",
+  "hien": "Mọi việc diễn ra nhanh tới mức người trên tàu không kịp phát tín hiệu cầu cứu."
  },
  {
   "n": 189024,
-  "chuong": 7,
-  "nhip": "don_cuoi",
+  "chuong": 6,
+  "nhip": "cao_trao",
   "tone": "story",
-  "text": "Thứ hai là câu nói về cỏ. Bị dụ hàng, theo lời kể, ông đáp bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây.",
-  "hien": "Thứ hai là câu nói về cỏ. Bị dụ hàng, theo lời kể, ông đáp bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây."
+  "text": "Dưới nước, toán ba mươi người lội tới, dùng rìu bổ vào thân tàu cho nước tràn vào, rồi châm lửa.",
+  "hien": "Dưới nước, toán ba mươi người lội tới, dùng rìu bổ vào thân tàu cho nước tràn vào, rồi châm lửa."
  },
  {
   "n": 189025,
-  "chuong": 7,
-  "nhip": "don_cuoi",
+  "chuong": 6,
+  "nhip": "cao_trao",
   "tone": "story",
-  "text": "Ngày hai mươi bảy tháng mười năm ấy, Nguyễn Trung Trực bị quân Pháp xử chém ở Rạch Giá, khi mới khoảng ba mươi tuổi.",
-  "hien": "Ngày hai mươi bảy tháng mười năm ấy, Nguyễn Trung Trực bị quân Pháp xử chém ở Rạch Giá, khi mới khoảng ba mươi tuổi."
+  "text": "Tàu Hy Vọng bốc cháy rồi chìm. Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven kênh, nấp ở đó mấy ngày.",
+  "hien": "Tàu Hy Vọng bốc cháy rồi chìm. Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven kênh, nấp ở đó mấy ngày."
  },
  {
   "n": 189026,
+  "chuong": 6,
+  "nhip": "chi_tiet_nguoi",
+  "tone": "story",
+  "text": "Viên trung úy quay về thì con tàu đã chìm. Ông ta cho đốt các làng quanh đó, nhưng dân đã bỏ đi từ trước.",
+  "hien": "Viên trung úy quay về thì con tàu đã chìm. Ông ta cho đốt các làng quanh đó, nhưng dân đã bỏ đi từ trước."
+ },
+ {
+  "n": 189027,
+  "chuong": 7,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Tin về tới Huế, vua Tự Đức phong Nguyễn Trung Trực làm Lãnh binh. Nhưng nửa năm sau, triều đình lại ký hòa ước, cắt ba tỉnh miền Đông cho Pháp.",
+  "hien": "Tin về tới Huế, vua Tự Đức phong Nguyễn Trung Trực làm Lãnh binh. Nhưng nửa năm sau, triều đình lại ký hòa ước, cắt ba tỉnh miền Đông cho Pháp."
+ },
+ {
+  "n": 189028,
+  "chuong": 7,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Ông vẫn đánh. Năm một nghìn tám trăm sáu mươi tám, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá.",
+  "hien": "Ông vẫn đánh. Năm một nghìn tám trăm sáu mươi tám, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá."
+ },
+ {
+  "n": 189029,
+  "chuong": 7,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông và tìm cách dụ ông hàng.",
+  "hien": "Quân Pháp bắt mẹ ông làm con tin, rồi bắt được ông và tìm cách dụ ông hàng."
+ },
+ {
+  "n": 189030,
+  "chuong": 7,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá.",
+  "hien": "Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá."
+ },
+ {
+  "n": 189031,
   "chuong": 8,
   "nhip": "ket",
   "tone": "story",
-  "text": "Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này.",
-  "hien": "Con tàu cháy ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này."
+  "text": "Con tàu chìm ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này.",
+  "hien": "Con tàu chìm ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này."
  }
 ]

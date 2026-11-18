@@ -61,7 +61,7 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 
 **2. Mạch câu**
 - Các câu cần có quan hệ hợp lý với nhau. Ưu tiên mạch nguyên nhân – kết quả, diễn biến thời gian hoặc đối lập khi phù hợp. Không liệt kê sự kiện rời rạc nếu giữa chúng có quan hệ cần giải thích. Câu giới thiệu nhân vật hay mô tả địa điểm không bắt buộc phải có từ nối nhân quả.
-- Mỗi câu trả lời được "ai làm gì, với ai, vì sao". Nguồn chép ngắn thì mở rộng thành chuyện: ai, chuyện gì, kết quả.
+- Khi kể một sự kiện, cần làm rõ ai làm gì, với ai và vì sao khi thông tin đó cần thiết để hiểu câu chuyện. Nguồn chép ngắn thì mở rộng thành chuyện bằng điều nguồn cho phép, không tự suy ra.
 - Câu dẫn đường ("Rồi vùng đất này rẽ thành hai câu chuyện.") và câu chốt sau đoạn phức tạp được dùng, nếu giúp người nghe biết mình đang ở đâu và không lặp điều vừa kể. Bỏ câu không mang thông tin hoặc hướng đi.
 - Hiểu trước, bất ngờ sau: câu tạo bất ngờ chỉ đặt khi người nghe đã nắm chuyện đang xảy ra.
 - Nền trước, hình ảnh sau: ví von, ví dụ, câu đùa đặt SAU khi người nghe đã biết đủ để thấy nó đúng. Thứ tự: ai/cái gì → chuyện gì xảy ra → ví von làm điểm nhấn → nguyên nhân hoặc bước tiếp.
@@ -76,11 +76,11 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 - Không giải nghĩa kiểu từ điển: gộp lời giải vào chính câu. Dùng "tức là", "nghĩa là" khi đó là cách nghe tự nhiên nhất.
 - Chi tiết cụ thể có nguồn thay lời khen chung chung ("đánh đâu thắng đó nên được gọi là Vạn Thắng Vương", không "ông là người tài giỏi").
 - Đoạn ngắn, dễ nghe, có chỗ nghỉ tự nhiên. Khoảng 15–30 chữ chỉ là tham khảo, không chấm lỗi.
-- 32 chữ và 2 câu mỗi đoạn là giới hạn kỹ thuật của giọng đọc, do `kiem_kich_ban.py` kiểm (chủ kênh đã chốt), không phải tiêu chuẩn văn phong. Vượt giới hạn không có nghĩa là viết dở; chỗ nào vượt thì ngắt ở nhịp tự nhiên, không ngắt máy móc.
+- 32 chữ và 2 câu mỗi đoạn là giới hạn kỹ thuật của giọng đọc, do `kiem_kich_ban.py` kiểm (chủ kênh đã chốt). "Chữ" ở đây là mỗi cụm cách nhau bởi dấu cách trong trường `text` (với tiếng Việt thường là một âm tiết, không phải "từ" ghép); câu đếm theo dấu . ! ? sau đó là dấu cách. Đây là quy tắc kỹ thuật, không phải tiêu chuẩn văn phong. Vượt giới hạn không có nghĩa là viết dở; chỗ nào vượt thì ngắt ở nhịp tự nhiên, không ngắt máy móc.
 
 **4. Rõ ràng, không nói tắt**
 - Viết đủ danh từ: "thuyền chiến của quân Nguyên" (không "thuyền Nguyên"), "thủy triều lên" (không "triều lên"), "quân Đại Việt" hoặc tên người chỉ huy (không "người Việt" chung chung khi nói về người đánh trận).
-- Họ tên đủ lần đầu và khi dễ nhầm. Sau lần giới thiệu đầy đủ, có thể dùng tên gọi ngắn hoặc đại từ khi không gây nhầm lẫn; ưu tiên rõ ràng, không máy móc lặp lại danh xưng. Nhắc trận đánh thì nêu tên người chỉ huy ngay lần đầu.
+- Họ tên đủ lần đầu và khi dễ nhầm. Sau lần giới thiệu đầy đủ, có thể dùng tên gọi ngắn hoặc đại từ khi không gây nhầm lẫn; ưu tiên rõ ràng, không máy móc lặp lại danh xưng. Nhắc trận đánh thì nêu tên người chỉ huy ngay lần đầu, nếu sử liệu xác định được; không tự suy đoán khi nguồn không ghi rõ.
 - Hiện tượng (thủy triều, mùa mưa, bão): nói luôn hệ quả trong câu.
 - Thuật ngữ, tên tổ chức, địa danh lạ giải thích ngay trong câu hoặc câu liền sau; tên mới lần đầu có vai trò đi kèm.
 - Không dịch sát gây hiểu sai ("quan lớn" cho lãnh chúa); dùng vai trò thật và nói rõ vật tranh chấp. Không cực cấp, nhận định không nguồn ("mạnh nhất").
@@ -113,6 +113,9 @@ Với mọi kịch bản (cả sử Việt Nam) rà thêm ba câu hỏi:
 ## B3. Chủ kênh đã chốt (18/11, 22:20)
 - Duyệt có điều kiện, 7 nhóm giữ nguyên cấu trúc; chín chỉnh sửa trên đã đưa vào bản B. A3-a, b, e, f và A4 (tách Sengoku): đồng ý. A3-c: đồng ý có điều chỉnh (đã tách kỹ thuật khỏi văn phong). A3-d: năm viết bằng chữ ở `text`, số ở `hien`; nếu giọng đọc sai thì thử chữ số và kiểm bằng âm thanh thật.
 - Còn lại: chủ kênh đọc bản hoàn chỉnh, rồi mới thay `giong-van.md`.
+
+## B4. Bốn điểm kiểm lần cuối (22:23)
+- Đã sửa theo đúng ba điểm đầu (mục 2, mục 4, mục 3) và giữ nguyên mục 6 như điểm 4.
 
 ## C. Điều đã bỏ khỏi bản gộp (để chủ kênh biết)
 - Danh sách cụm cấm cứng ("Điều đáng chú ý là", "Có thể thấy", "Không chỉ… mà còn"…) và con số "không quá 5 lần", "không quá 1/10". Chuyển thành gợi ý ở bước biên tập.

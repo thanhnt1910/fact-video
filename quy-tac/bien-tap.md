@@ -12,3 +12,11 @@
 - Một nguồn thứ cấp (báo, trang tổng hợp) chỉ đủ cho điều nó tự khẳng định; không dùng nó để gắn tên sách gốc hay tên người (Toàn thư, Vũ trung tùy bút, Dư địa chí...) vào lời kể nếu chưa mở được bản gốc hoặc bản dịch có số quyển.
 - Trước khi gửi duyệt luôn chạy: `python phim_ban_do/kiem_gui_duyet.py <file gửi duyệt>`; phải ĐẠT (mã 0). Công cụ báo ❌ khi bản gửi còn cụm đẩy việc kiểm cho chủ kênh, thiếu mục nguồn, lệch nguồn, chi tiết đã bỏ, hook hoặc toàn văn, hoặc dưới 2 nguồn mỗi kịch bản.
 - Mỗi dữ kiện cứng đếm theo nguồn ĐỘC LẬP: hai bài báo chép lại nhau là một nguồn.
+
+## Câu hỏi tự rà về chất lượng (tầng 3, gợi ý cho người đọc, không phải lỗi; chủ kênh duyệt 18/11/2026)
+Công cụ không trả lời được các câu này; Claude và chủ kênh đọc và quyết. Kịch bản không mắc lỗi nào chưa chắc đã hay.
+- Hook đã đủ hấp dẫn chưa?
+- Có chi tiết lịch sử đáng nhớ không?
+- Nhịp kể có giữ chân người xem không?
+- Kết thúc có tạo được dư âm không?
+- Có thể rút gọn mà không mất thông tin không?

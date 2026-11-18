@@ -19,7 +19,7 @@ Checklist, khung nhịp, câu đếm, hình ảnh xuyên suốt, câu hỏi xuy�
 ## 3. Quy trình tạo kịch bản (bốn bước, theo nguyên tắc cốt lõi)
 1. **Tìm câu chuyện** → `quy-tac/tim-cau-chuyen.md` (kiểm danh sách chủ đề đã làm hoặc đã bỏ trước khi chọn).
 2. **Dựng mạch truyện** (chưa viết văn) → `quy-tac/dung-mach-truyen.md`, tra nguồn theo `quy-tac/nghien-cuu-su-lieu.md`. **Gửi chủ kênh duyệt.**
-3. **Viết lời kể** → `quy-tac/giong-van.md`. Viết văn xuôi liền mạch trước, chia đoạn cho giọng đọc sau.
+3. **Viết lời kể** → `quy-tac/giong-van.md`. Viết văn xuôi liền mạch trước, chia đoạn cho giọng đọc sau. Lời kể phải kèm phân tích (`nguyen-tac-cot-loi.md` mục 10b).
 4. **Biên tập và kiểm** → `quy-tac/bien-tap.md`, `quy-tac/kiem-tra-lich-su.md`.
 
 ## 4. Quy trình duyệt từng giai đoạn
@@ -28,7 +28,7 @@ Chủ kênh duyệt ở bốn cổng. Chưa qua cổng thì không sang bước 
 |---|---|---|
 | A. Chủ đề | Chủ đề, vì sao đáng kể, nguồn chính | dựng mạch truyện |
 | B. Mạch truyện | Mạch + bảng nguồn + điểm lệch giữa nguồn + chi tiết đã bỏ | viết lời kể |
-| C. Lời kể | Toàn văn + bảng đổi (đoạn nào, trước/sau, vì sao) mỗi lần sửa | đọc giọng |
+| C. Lời kể | Toàn văn + bảng phân tích + bảng đổi (đoạn nào, trước/sau, vì sao) mỗi lần sửa | đọc giọng |
 | D. Video | Video đã kiểm + tiêu đề + hashtag + ảnh bìa + nguồn | đăng |
 Dữ kiện cứng (năm, tên, chức, số, địa danh) phải tra xong TRƯỚC khi gửi duyệt. Không tra được thì bỏ khỏi lời kể, không hỏi chủ kênh kiểm hộ.
 

@@ -101,13 +101,21 @@ Cụ thể, bốn công cụ sau chỉ dùng khi hợp với câu chuyện, khô
 - Đoạn cuối khép lại câu chuyện tự nhiên, có ý nghĩa và phù hợp với nội dung. Có thể kết bằng một sự kiện, một hệ quả lịch sử hoặc một nhận định ngắn. Lời cảm ơn chỉ dùng khi phù hợp với cách kết của video, không phải yêu cầu bắt buộc (chủ kênh quyết 18/11/2026).
 - Gọi đúng tên phe, không nói tắt ("quân nhà X").
 
+## 10b. Kịch bản phải kể kèm phân tích (chủ kênh quyết 18/11/2026, mẫu: tm11m)
+
+Kể lịch sử mà chỉ liệt kê sự việc thì không đủ cuốn. Mọi kịch bản phải có phân tích đan vào lời kể, không dồn cuối bài, không sau mọi sự việc cho đều:
+- Mỗi đoạn phân tích đứng ngay sau sự việc nó giải thích và trả lời một câu người nghe tự hỏi: vì sao việc này đáng chú ý, vị thế hai bên đổi ra sao, hai sự việc giống hay khác nhau ở đâu, sử còn chưa nói gì.
+- Phân tích phải qua năm điều kiện diễn giải của `giong-van.md` (dựa vào sự việc có nguồn đã kể, có rào đón, không vượt nguồn, không bịa nội tâm). Chỗ sử không ghi thì nói thẳng "sử không ghi", đó cũng là phân tích.
+- Gửi duyệt cổng C kèm bảng phân tích (đoạn, câu phân tích, dựa vào sự việc nào và nguồn nào, rào đón ở chữ nào).
+- Mẫu: `ke-hoach/tm11m-v3-gui-duyet-18-11.md` mục 3.
+
 ## 11. Quy trình viết (bốn bước)
 
 **Bước 1. Tìm câu chuyện.** Chưa viết câu chữ. Nghiên cứu, ghi các sự việc có nguồn. Tìm mâu thuẫn, điều bất ngờ, lựa chọn của con người, điều khiến sự kiện đáng kể. Chọn góc kể.
 
 **Bước 2. Dựng mạch truyện.** Sắp sự kiện thành một chuỗi có nguyên nhân, lựa chọn, hệ quả và biến đổi tình thế. Chưa viết lời dẫn, chưa viết văn, chưa cố tạo hook hay cao trào bằng câu chữ. Đọc lại mạch như người chưa biết sự kiện: chỗ nào khó hiểu, thiếu lý do, hoặc không có gì khiến tò mò thì sửa mạch trước. **Gửi chủ kênh duyệt mạch truyện. Chưa duyệt thì không sang bước 3.**
 
-**Bước 3. Viết như người kể chuyện.** Viết toàn bộ lời kể tự nhiên, có nhịp, có nhận xét, có tương phản. Khi viết chỉ giữ các giới hạn kỹ thuật ở mục 10, không nhìn checklist biên tập.
+**Bước 3. Viết như người kể chuyện.** Viết toàn bộ lời kể tự nhiên, có nhịp, có nhận xét, có tương phản, có phân tích (mục 10b). Khi viết chỉ giữ các giới hạn kỹ thuật ở mục 10, không nhìn checklist biên tập.
 
 **Bước 4. Biên tập thành video.** Lúc này mới kiểm, theo thứ tự ở mục 3:
 - sức hút, nhịp kể, sự liên kết, độ sáng tạo, độ dễ hiểu;

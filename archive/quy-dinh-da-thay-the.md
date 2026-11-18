@@ -162,3 +162,5 @@ Chủ kênh quyết bỏ. Lý do: mâu thuẫn với `giong-van.md` mục 1 (vi�
 - Bỏ: "mỗi đoạn tối đa 32 chữ và 2 câu" (CLAUDE.md mục 6, `nguyen-tac-cot-loi.md` mục 10, `giong-van.md`, `thuy-mac-khung.md`, `thuy-mac.md`) và phần kiểm tương ứng trong `phim_ban_do/kiem_kich_ban.py` (❌ quá 32 chữ, ❌ quá 2 câu, ⚠️ dưới 12 chữ).
 - Vì sao: chủ kênh thấy giới hạn làm kịch bản thành vài câu cụt, không đủ chỗ cho phân tích. Lý do cũ ("để giọng không bỏ chữ") giữ làm rủi ro cần kiểm bằng nhận dạng giọng, không còn là luật cứng; từ 17/11 cả video đọc một lần.
 - Thêm: kể lịch sử kèm phân tích, trong ngưỡng năm điều kiện của `giong-van.md`.
+
+- 18/11/2026 (bổ sung): kịch bản bắt buộc kể kèm phân tích, ghi ở `nguyen-tac-cot-loi.md` mục 10b; cổng C gửi thêm bảng phân tích (`CLAUDE.md` mục 4).

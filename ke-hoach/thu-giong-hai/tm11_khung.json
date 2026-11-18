@@ -29,7 +29,7 @@
   },
   {
    "nhip": "hook3",
-   "su_viec": "Dương Đình Nghệ cầm quân; Ngô Quyền là tướng dưới quyền",
+   "su_viec": "Dương Đình Nghệ cầm quân, cha vợ Ngô Quyền",
    "nguon": "Toàn thư",
    "doan": 1
   },
@@ -59,39 +59,39 @@
   },
   {
    "nhip": "buoc_ngoat",
-   "su_viec": "Dương Đình Nghệ ở Ái Châu nuôi 3.000 giả tử (thứ đầu tiên); 931 vây Đại La",
+   "su_viec": "Ái Châu: 3.000 người coi như con nuôi (thứ đầu tiên), lập trường đấu vật luyện võ; 931 vây Đại La",
    "nguon": "Tư trị thông giám, Toàn thư; Wikipedia (3.000 người coi như con nuôi)",
-   "doan": 4
+   "doan": 5
   },
   {
    "nhip": "lan1",
-   "su_viec": "Lý Tiến cầu cứu rồi bỏ thành chạy về; Đại La lần đầu",
-   "nguon": "Toàn thư",
-   "doan": 2
+   "su_viec": "Lý Tiến cầu cứu; quân đồn trú đông bị đánh tan; Lý Tiến bỏ lính cùng các quan chạy về; Đại La lần đầu",
+   "nguon": "Wikipedia (Dương Đình Nghệ)",
+   "doan": 3
   },
   {
    "nhip": "lang",
-   "su_viec": "Quân cứu viện Trình Bảo kéo sang",
-   "nguon": "Toàn thư",
-   "doan": 1
+   "su_viec": "Trình Bảo tới khi thành đã mất, vây ngược Đại La",
+   "nguon": "Wikipedia (Dương Đình Nghệ)",
+   "doan": 2
   },
   {
    "nhip": "cao_trao",
-   "su_viec": "Đình Nghệ ra đánh, chém Trình Bảo",
-   "nguon": "Toàn thư",
+   "su_viec": "Từ trong thành đánh ra, chém Trình Bảo",
+   "nguon": "Toàn thư; Wikipedia",
    "doan": 2
   },
   {
    "nhip": "chi_tiet_nguoi",
-   "su_viec": "Thắng trận, ở lại Đại La; giao Ái Châu cho Ngô Quyền, người ông gả con gái cho",
-   "nguon": "Toàn thư (kỷ nhà Ngô)",
+   "su_viec": "Tướng cũ từ đời Khúc Hạo nay tự xưng Tiết độ sứ",
+   "nguon": "Wikipedia (Dương Đình Nghệ)",
    "doan": 1
   },
   {
    "nhip": "don_cuoi",
-   "su_viec": "Tự xưng Tiết độ sứ 6 năm; 937 Kiều Công Tiễn giết (thứ hai); Ngô Quyền giết Công Tiễn, lấy lại Đại La lần hai",
+   "su_viec": "Sáu năm sau Kiều Công Tiễn giết (thứ hai); con rể Ngô Quyền giết Công Tiễn, lấy lại Đại La lần hai",
    "nguon": "Toàn thư",
-   "doan": 3
+   "doan": 2
   },
   {
    "nhip": "ket",

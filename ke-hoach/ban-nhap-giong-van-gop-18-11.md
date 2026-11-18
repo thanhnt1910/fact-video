@@ -60,7 +60,7 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 - Chủ kênh viết bản của mình thì giữ câu chữ và mạch; chỉ đổi chỗ sai dữ kiện hoặc vượt giới hạn kỹ thuật, và liệt kê từng chỗ sửa kèm nguồn. Câu dễ nghe không được thay dữ kiện đúng.
 
 **2. Mạch câu**
-- Mỗi câu nối câu trước bằng nguyên nhân – kết quả hoặc đối lập ("nên", "nhưng rồi", "thế là", "vì vậy"), không xếp liệt kê "A. Sau đó B. Và C." khi giữa chúng có quan hệ nhân quả.
+- Các câu cần có quan hệ hợp lý với nhau. Ưu tiên mạch nguyên nhân – kết quả, diễn biến thời gian hoặc đối lập khi phù hợp. Không liệt kê sự kiện rời rạc nếu giữa chúng có quan hệ cần giải thích. Câu giới thiệu nhân vật hay mô tả địa điểm không bắt buộc phải có từ nối nhân quả.
 - Mỗi câu trả lời được "ai làm gì, với ai, vì sao". Nguồn chép ngắn thì mở rộng thành chuyện: ai, chuyện gì, kết quả.
 - Câu dẫn đường ("Rồi vùng đất này rẽ thành hai câu chuyện.") và câu chốt sau đoạn phức tạp được dùng, nếu giúp người nghe biết mình đang ở đâu và không lặp điều vừa kể. Bỏ câu không mang thông tin hoặc hướng đi.
 - Hiểu trước, bất ngờ sau: câu tạo bất ngờ chỉ đặt khi người nghe đã nắm chuyện đang xảy ra.
@@ -75,11 +75,12 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 - Đổi cách mở câu; không mở nhiều câu liền nhau cùng một kiểu hay cùng một chữ.
 - Không giải nghĩa kiểu từ điển: gộp lời giải vào chính câu. Dùng "tức là", "nghĩa là" khi đó là cách nghe tự nhiên nhất.
 - Chi tiết cụ thể có nguồn thay lời khen chung chung ("đánh đâu thắng đó nên được gọi là Vạn Thắng Vương", không "ông là người tài giỏi").
-- Đoạn khoảng 15–30 chữ là thuận tai. **Giới hạn cứng: tối đa 32 chữ và 2 câu mỗi đoạn.**
+- Đoạn ngắn, dễ nghe, có chỗ nghỉ tự nhiên. Khoảng 15–30 chữ chỉ là tham khảo, không chấm lỗi.
+- 32 chữ và 2 câu mỗi đoạn là giới hạn kỹ thuật của giọng đọc, do `kiem_kich_ban.py` kiểm (chủ kênh đã chốt), không phải tiêu chuẩn văn phong. Vượt giới hạn không có nghĩa là viết dở; chỗ nào vượt thì ngắt ở nhịp tự nhiên, không ngắt máy móc.
 
 **4. Rõ ràng, không nói tắt**
 - Viết đủ danh từ: "thuyền chiến của quân Nguyên" (không "thuyền Nguyên"), "thủy triều lên" (không "triều lên"), "quân Đại Việt" hoặc tên người chỉ huy (không "người Việt" chung chung khi nói về người đánh trận).
-- Họ tên đủ lần đầu và khi dễ nhầm. Nhắc trận đánh thì nêu tên người chỉ huy ngay lần đầu.
+- Họ tên đủ lần đầu và khi dễ nhầm. Sau lần giới thiệu đầy đủ, có thể dùng tên gọi ngắn hoặc đại từ khi không gây nhầm lẫn; ưu tiên rõ ràng, không máy móc lặp lại danh xưng. Nhắc trận đánh thì nêu tên người chỉ huy ngay lần đầu.
 - Hiện tượng (thủy triều, mùa mưa, bão): nói luôn hệ quả trong câu.
 - Thuật ngữ, tên tổ chức, địa danh lạ giải thích ngay trong câu hoặc câu liền sau; tên mới lần đầu có vai trò đi kèm.
 - Không dịch sát gây hiểu sai ("quan lớn" cho lãnh chúa); dùng vai trò thật và nói rõ vật tranh chấp. Không cực cấp, nhận định không nguồn ("mạnh nhất").
@@ -88,21 +89,30 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 **5. Sáng tạo câu chữ (cho phép 11/11)**
 - Được (là lời người kể): so sánh, ẩn dụ gần gũi; cường điệu rõ là cách nói; câu hỏi tự hỏi tự đáp ("Lý do hả? Nhà hết tiền."); câu cảm thán ngắn; nhịp đảo; khẩu ngữ nhẹ; đối lập; lời bình hóm hỉnh về tình huống.
 - Không được: gán cho nhân vật câu nói, ý nghĩ, cảm xúc không có trong tài liệu; thêm hoặc đổi sự kiện, số, năm, tên cho câu hay; cường điệu làm sai số liệu; so sánh làm lệch bản chất.
-- Mật độ: khoảng một điểm sáng tạo mỗi 3–4 đoạn, mỗi điểm ngắn; hai đoạn liền không cùng một kiểu.
+- Sáng tạo câu chữ phục vụ việc kể chuyện, không phải mục tiêu tự thân. Chỉ dùng khi giúp người nghe hình dung, hiểu rõ hoặc nhớ lâu hơn. Không có mật độ quy định; có đoạn chỉ cần kể sự kiện. Tránh lặp một kiểu ví von, hài hước hay cảm thán trong những đoạn gần nhau.
 - Đùa chỉ nhắm vào tình huống và chi tiết đời thường; không đùa nỗi đau, cái chết, phía bị hại, anh hùng dân tộc.
 
 **6. Nguồn và lời sử gia trong lời kể**
-- Được nêu nguồn trong lời kể (một hai lần, khi giúp người nghe tin hoặc hiểu); phần còn lại ở mô tả và bình luận ghim.
+- Nêu nguồn trong lời kể khi việc đó giúp người nghe hiểu xuất xứ thông tin hoặc đánh giá độ tin cậy. Không nhắc tên nguồn theo công thức hoặc lặp lại không cần thiết; phần còn lại ở mô tả và bình luận ghim.
+- **Khi sử liệu khác nhau** về sự kiện, niên đại, quân số hoặc nhân vật: đối chiếu và ghi nhận sự khác biệt. Không tự chọn một dị bản rồi trình bày như sự thật đã xác minh. Một nguồn ghi chép không đồng nghĩa với sự kiện đã được xác minh độc lập. Phân biệt điều sử liệu ghi chép với điều giới nghiên cứu còn tranh luận. Nhận định của người kể phải có căn cứ, không vượt quá điều nguồn cho phép.
 - **Lời bàn của sử gia có ghi tên** (Lê Văn Hưu, Ngô Sĩ Liên…) được giữ khi giúp giải thích hoặc làm sáng tỏ câu chuyện; trích tên.
 - Phân biệt rõ ba lớp: sử liệu (điều nguồn ghi), lời sử gia (quan điểm của người viết sử, nêu tên), diễn giải của người kể (theo năm điều kiện bên dưới). Không trình bày lời bàn như sự thật đã xác minh khi nguồn chỉ là quan điểm. Không để lời của kênh thay lời sử gia.
 
 **7. Tự rà trước khi gửi duyệt**
 Đọc liền một mạch như người chưa biết chuyện: chỗ nào phải tự nối hai mốc, tên nào xuất hiện mà chưa giới thiệu thì thêm câu dẫn hoặc giới thiệu. Với sử nước ngoài, rà từng câu theo năm điểm (chủ ngữ rõ; ai với ai rõ; từ lạ đã giải thích; mốc khớp các đoạn khác; cực cấp và nhận định có nguồn) và ghi kết quả vào bản gửi duyệt.
+Với mọi kịch bản (cả sử Việt Nam) rà thêm ba câu hỏi:
+- Người nghe có phân biệt được đâu là sự kiện, đâu là truyền thuyết hoặc giai thoại không?
+- Số liệu, mốc thời gian, quan hệ nhân vật đã kiểm bằng nguồn chưa?
+- Có chỗ nào người kể suy diễn quá mức từ một chi tiết sử liệu không?
 
 ## B2. Ghi chú đi kèm bản gộp (chủ kênh góp ý 18/11, tối)
 - Ba ý vừa thêm ở mục 3 (không nghị luận/giáo khoa; không câu hỏi tu từ liên tục; không lặp để kéo dài) trước đó bị thiếu: ý thứ ba vốn nằm trong quy định thời lượng đã lưu trữ và bị bỏ sót khi chuyển.
 - Năm câu tự rà "tầng 3" (hook đã hấp dẫn chưa; có chi tiết lịch sử đáng nhớ không; nhịp kể có giữ chân không; kết có dư âm không; rút gọn được mà không mất thông tin không) chưa đưa vào `bien-tap.md`; sẽ đưa khi bản gộp được duyệt.
 - Cách phân tầng cho công cụ và người đọc: tầng 1 (sai sử, sai niên đại, nguồn sai) là cổng duyệt của người, công cụ chỉ kiểm có ghi sự việc và nguồn; tầng 2 công cụ chỉ bắt dấu hiệu bề mặt, phần đánh giá do Claude đọc và ghi lý do, đề xuất; tầng 3 là câu hỏi cho người đọc.
+
+## B3. Chủ kênh đã chốt (18/11, 22:20)
+- Duyệt có điều kiện, 7 nhóm giữ nguyên cấu trúc; chín chỉnh sửa trên đã đưa vào bản B. A3-a, b, e, f và A4 (tách Sengoku): đồng ý. A3-c: đồng ý có điều chỉnh (đã tách kỹ thuật khỏi văn phong). A3-d: năm viết bằng chữ ở `text`, số ở `hien`; nếu giọng đọc sai thì thử chữ số và kiểm bằng âm thanh thật.
+- Còn lại: chủ kênh đọc bản hoàn chỉnh, rồi mới thay `giong-van.md`.
 
 ## C. Điều đã bỏ khỏi bản gộp (để chủ kênh biết)
 - Danh sách cụm cấm cứng ("Điều đáng chú ý là", "Có thể thấy", "Không chỉ… mà còn"…) và con số "không quá 5 lần", "không quá 1/10". Chuyển thành gợi ý ở bước biên tập.

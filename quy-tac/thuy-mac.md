@@ -2,7 +2,7 @@
 
 > **Từ 18/11/2026, phần kịch bản của file này đứng dưới `quy-tac/nguyen-tac-cot-loi.md`** (mức ưu tiên cao nhất). Chỗ nào mâu thuẫn thì theo nguyên tắc cốt lõi. Khung nhịp, câu đếm và lời hứa "N lần / N thứ", hình ảnh xuyên suốt, câu hỏi xuyên suốt nay là công cụ tham khảo, chỉ dùng khi hợp với câu chuyện. Quy trình viết là bốn bước của nguyên tắc cốt lõi: tìm câu chuyện, dựng mạch truyện (gửi duyệt), viết lời kể, biên tập.
 
-Quy tắc riêng cho series video trận đánh vẽ kiểu tranh thủy mặc (mực trên giấy). Rút ra từ bản thử Bạch Đằng 938 (`bd1`, `bd2`), chủ kênh góp ý ngày 16/11/2026. Mọi quy tắc trong `chung.md` và `su-viet.md` vẫn áp dụng. Chỗ nào file này khác hai file kia thì đó là ngoại lệ đã được chủ kênh duyệt riêng cho series này.
+Quy tắc riêng cho series video trận đánh vẽ kiểu tranh thủy mặc (mực trên giấy). Rút ra từ bản thử Bạch Đằng 938 (`bd1`, `bd2`), chủ kênh góp ý ngày 16/11/2026. Mọi quy tắc chung trong `CLAUDE.md` và các file `quy-tac/` vẫn áp dụng. Chỗ nào file này khác thì đó là ngoại lệ đã được chủ kênh duyệt riêng cho series này.
 
 Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bach-dang-thuy-mac-gui-duyet.md`; mã dựng ở `phim_ban_do/thuymac/`. Mẫu lời kể kiểu nói chuyện và bố cục dựng: tập 2 Lê Hoàn phá Tống (`tm2_full.json`, `ke-hoach/tm2-le-hoan-pha-tong-981-gui-duyet.md`, `ke-hoach/tm2-le-hoan-pha-tong-981-bo-cuc-dung.md`, mã `dai_tm2.py`, `amthanh_tm2.py`). Cập nhật 17/11/2026 sau tập 2 và tập 3: các mục 3.1, 3.4, 4.6, 5 và 6 tổng hợp góp ý của chủ kênh trong hai tập này.
 
@@ -44,7 +44,7 @@ Cả mục này là gợi ý cách mở đầu và dàn bài. Không ép câu ch
 2. **Đoạn 2: lật lại câu ở đoạn 1** bằng một hình ảnh ví hoặc một sự thật ngược ("không phải cành khô nào cũng dễ bẻ", "Ông không thua").
 3. **Đoạn 3: tên người, tên nơi, và hệ quả nói mạnh.** Viết "đã phải trả giá bằng chính mạng mình", không viết "không trở về nữa" (chủ kênh chê "nói hiền quá"). Tối đa 4 tên riêng.
 4. **Đoạn 4 (tham khảo): câu hỏi "vì sao" và lời hứa "N lần" hoặc "N thứ"** (2–4), chỉ khi câu chuyện thật sự có các lần hoặc các thứ để đếm. Có thể gọi tên vắn tắt ("ngoài biển, trên sông, trong trại"), nhưng không lộ cách đánh.
-   - Không dùng "Vì sao...? Muốn trả lời, ta phải bắt đầu từ..." (cấm trong `chung.md`).
+   - Không dùng "Vì sao...? Muốn trả lời, ta phải bắt đầu từ..." (cấm, xem `giong-van.md`).
    - Không lặp "Câu trả lời nằm ở..." của tập trước.
 5. **Thân bài:** mỗi chương mở ra một lần hoặc một thứ, có thể có câu đếm (tham khảo, không bắt buộc) ("Đó là lần thứ nhất cành khô không gãy").
    - Chương bối cảnh viết gọn. Trận nào đã có video riêng của kênh thì rút còn vài đoạn (tm3 rút trận Ung Châu còn ba đoạn).
@@ -54,8 +54,8 @@ Cả mục này là gợi ý cách mở đầu và dàn bài. Không ép câu ch
    - Kết quả thực tế, hậu quả ngay sau trận.
    - Một đoạn trả lời câu hỏi ở đoạn 4, gọi lại đủ N lần.
    - Câu kết quay lại hình ảnh mở đầu, rồi lời cảm ơn (tối đa 32 chữ).
-- "N lần / N thứ" là **diễn giải của người kể**. Mỗi lần phải dựng từ sự việc có nguồn, đủ năm điều kiện diễn giải trong `chung.md`, và không được nói đó là nguyên nhân duy nhất. Ghi rõ trong "Ghi chú độ chắc".
-- Không dùng lại khuôn mở đầu đã dùng. Sau mỗi tập, thêm khuôn vào mục "Khuôn mở đầu đã dùng của series" ở cuối file này (và vào danh sách cùng tên trong `chung.md` khi sửa được nhánh chứa file đó).
+- "N lần / N thứ" là **diễn giải của người kể**. Mỗi lần phải dựng từ sự việc có nguồn, đủ năm điều kiện diễn giải trong `giong-van.md`, và không được nói đó là nguyên nhân duy nhất. Ghi rõ trong "Ghi chú độ chắc".
+- Không dùng lại khuôn mở đầu đã dùng. Sau mỗi tập, thêm khuôn vào mục "Khuôn mở đầu đã dùng của series" ở cuối file này.
 
 ### 3.2 Chất liệu làm video cuốn hút (vẫn đúng sử)
 - **Ưu tiên chi tiết có trong sử mà ít người biết:**
@@ -65,7 +65,7 @@ Cả mục này là gợi ý cách mở đầu và dàn bài. Không ép câu ch
 - **Mọi chi tiết loại này phải đối chiếu bản dịch chính sử trước khi đọc giọng.** Không đối chiếu được thì ghi rõ nguồn khác ("sử Trung Quốc chép") hoặc bỏ.
 - **Một hình ảnh xuyên suốt (tham khảo)** lấy từ chính sử liệu (ví dụ tước Giao Vương), gieo ở mở đầu, nhắc ở cao trào, khép ở câu kết. Chỉ dùng khi sử liệu có sẵn một hình ảnh như vậy; không gài chữ cho đủ số lần.
 - **Nhịp kể:** câu ngắn khi hành động, câu dài hơn khi giải thích. Gọi đúng tên phe theo thời (năm 938 là "quân của Ngô Quyền", chưa phải "quân Đại Việt"). Không nói tắt ("thủy triều rút xuống", không "nước rút").
-- **Hài:** chỉ nhắm vào tình huống hoặc phía xâm lược, không đùa anh hùng dân tộc (`su-viet.md`).
+- **Hài:** chỉ nhắm vào tình huống hoặc phía xâm lược, không đùa anh hùng dân tộc (`dna-series.md`).
 
 ### 3.3b Người chưa biết sử cũng phải hiểu (chủ kênh nhận xét tm5–tm10, 18/11/2026)
 Một số tập mơ hồ với người không nhớ sử. Mỗi video phải tự đứng được, không dựa vào tập trước hay kiến thức sách giáo khoa.
@@ -280,12 +280,12 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 6. Gắn cảnh theo thời gian thật của giọng: thay thời lượng ước theo số chữ bằng `thoi_luong.json`. Soi tờ ghép khung (`sheet.py`) cho mọi cảnh trước khi dựng cả video.
 7. Dựng bản dài và bản dọc bằng `dai_<mã>.py` và `doc_<mã>.py` (24 khung/giây, chia hai tiến trình), trộn âm bằng `amthanh_<mã>.py`, ghép bằng ffmpeg. Thời lượng mỗi đoạn đọc thẳng từ file mp3 gốc (ffprobe).
 8. Xem lại video đã dựng: trích khung ở các điểm chuyển cảnh và đoạn cao trào.
-9. Làm ảnh bìa có logo, theo `chung.md`.
+9. Làm ảnh bìa có logo, theo `dang-bai-va-bia.md`.
 10. Giao cho chủ kênh. Sau khi đăng, ghi số liệu giữ chân người xem.
 
 ## 7. Ghi chú kỹ thuật cho Claude
 - **Nhánh làm việc dùng sparse checkout.** Khi thêm file mới (kịch bản, giọng, mã), chạy `git sparse-checkout add '<đường dẫn>'` cho đúng mẫu đường dẫn. Nếu không, lần `sparse-checkout add` sau sẽ xóa các file ấy khỏi thư mục làm việc. Ở tm2, `tm2_full.json` từng biến mất vì lỗi này.
-- `chung.md` và `CLAUDE.md` không nằm trên nhánh `claude/cach-ho-cai-tri-tap-1`. Muốn sửa phải hỏi chủ kênh trước.
+- `CLAUDE.md` đã được tái cấu trúc ngày 18/11/2026 (chỉ điều phối); quy tắc chung nằm ở `quy-tac/`. Sửa quy tắc chung: theo mục 5 của `CLAUDE.md`.
 
 ## 8. Khuôn mở đầu đã dùng của series
 - **tm5–tm10 (bài mẫu tm5, 17/11/2026):** câu hỏi đặt thẳng cho người nghe về một lựa chọn: làm vương hay không (tm5), dám nói đánh giặc nhàn (tm6), biết trước ám hiệu (tm7), có đuổi theo (tm8), mời quân nước khác (tm9), hẹn trước ngày ăn mừng (tm10). Tập sau nên đổi kiểu mở đầu.

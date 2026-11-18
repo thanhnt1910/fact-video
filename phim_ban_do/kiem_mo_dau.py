@@ -73,13 +73,14 @@ def kiem(ma, cua_so):
             tong_nam += nam
             tong_nguon += nguon
         t += du + 0.4
+# 18/11/2026: hạ ❌ thành ⚠️ (nguyên tắc cốt lõi: khung/đếm số là công cụ biên tập, không phải lỗi)
     loi, canh = [], []
     trong = [r for r in rows if r["t"] < cua_so]
     ten_cs = sum(len(r["ten"]) for r in trong)
     if tong_nam + tong_nguon >= 2:
-        loi.append(f"{cua_so} giây đầu có {tong_nam} mốc năm và {tong_nguon} lần trích nguồn (tối đa 1 tổng cộng)")
+        canh.append(f"{cua_so} giây đầu có {tong_nam} mốc năm và {tong_nguon} lần trích nguồn (tối đa 1 tổng cộng)")
     if len(rows) > 1 and (rows[1]["nam"] or rows[1]["nguon"]) and rows[1]["t"] < cua_so:
-        loi.append(f"đoạn 2 (giây {rows[1]['t']:.0f}) có {'năm' if rows[1]['nam'] else 'trích nguồn'}: ngay sau hook phải là bước ngoặt hoặc điều hứa hẹn, không phải bối cảnh")
+        canh.append(f"đoạn 2 (giây {rows[1]['t']:.0f}) có {'năm' if rows[1]['nam'] else 'trích nguồn'}: ngay sau hook phải là bước ngoặt hoặc điều hứa hẹn, không phải bối cảnh")
     if ten_cs > NGUONG_TEN:
         canh.append(f"{ten_cs} tên riêng mới trong {cua_so} giây đầu (nên tối đa {NGUONG_TEN})")
     for r in trong:

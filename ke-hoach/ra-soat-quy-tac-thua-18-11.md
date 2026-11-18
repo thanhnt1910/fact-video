@@ -72,3 +72,51 @@ Nhận xét chung: CLAUDE.md phình vì mỗi lần chủ kênh sửa thì thêm
 5. **Sửa dòng 124** (Cloudflare) ngay vì đang sai thực tế hôm nay.
 
 Không nhóm nào được làm khi chưa có duyệt.
+
+---
+
+## G. Trạng thái thực hiện tái cấu trúc (cập nhật 18/11/2026 tối, theo kế hoạch chủ kênh)
+
+**Chủ kênh đã quyết (18/11):** (1) bỏ sàn 10 phút, độ dài theo chất liệu; (2) bỏ câu kết "tập sau" mặc định; (3) chuyển Tam Quốc, Hán Sở, bản đồ 16:9, Puck sang lưu trữ, không xóa tài liệu tái sử dụng, không xóa file khi chưa kiểm hết đường dẫn.
+
+**Đã làm (bước 1–5 và một phần bước 6):**
+- Sao lưu: `archive/CLAUDE-truoc-tai-cau-truc-18-11.md` (nguyên bản 583 dòng).
+- Chuyển nguyên văn 60/61 mục bằng script (không gõ lại): bảng đích xem bên dưới. Mục 0 (nguyên tắc cốt lõi) ở lại CLAUDE.md.
+- CLAUDE.md mới (~95 dòng): vai trò, thứ tự ưu tiên, quy trình bốn bước, bốn cổng duyệt, quy định tài liệu, công cụ kiểm, xử lý mâu thuẫn, bản đồ tài liệu.
+- File mới: `quy-tac/dna-series.md`; phần "Độ dài và câu kết" trong `quy-tac/dung-mach-truyen.md`; phần "Git và workflow" và "Kiểm đường dẫn" trong `quy-tac/kiem-tra-ky-thuat.md`.
+- Công cụ mới: `tools/kiem_lien_ket.py` (quét đường dẫn; hiện ĐẠT với CLAUDE.md, quy-tac/, mau-kich-ban/, PROMPT_KICH_BAN.md, review_checklist.md).
+- Sửa 4 tham chiếu hỏng trong `nguyen-tac-cot-loi.md`, `thuy-mac.md`, `thuy-mac-giong-van.md` (trỏ tới `chung.md`, `su-viet.md`, `ky-thuat-ke-chuyen.md` vốn chỉ có ở nhánh khác). Chỉ sửa chỗ trỏ, không đổi nội dung quy tắc.
+- Nhập từ nhánh `lh6-dung-thu` đúng một mục: "Diễn giải của người kể" (chủ kênh duyệt 01/11), vì nguyên tắc cốt lõi dựa vào nó. Đã vào cuối `quy-tac/giong-van.md`.
+- `review.py`: thời lượng ngoài mức tham khảo chỉ còn ⚠️ (trước đây dưới 6 phút là ❌ chặn gửi).
+- `PROMPT_KICH_BAN.md`: thêm ghi chú đầu file rằng sàn 10 phút và "tập sau" không còn bắt buộc; chưa viết lại thân file.
+- Bộ kiểm hạ ❌ → ⚠️ vì chỉ là khung/đếm số: `kiem_mo_dau.py` (2 mục), `kiem_mach_ke.py` (2 mục), `kiem_giong_van.py` (3 mục). `kiem_kich_ban.py` giữ nguyên (chỉ chặn giới hạn kỹ thuật giọng đọc: >32 chữ, >2 câu, nói tắt, tên thiếu họ, mệnh đề chen).
+
+**Bảng đích của 61 mục CLAUDE.md cũ (chỉ số theo thứ tự `##`, bắt đầu từ 0):**
+| Đích | Mục |
+|---|---|
+| ở lại CLAUDE.md | 0 |
+| `archive/tam-quoc.md` | 4–13 |
+| `archive/video-ban-do-16-9.md` | 14, 15, 27, 28 |
+| `archive/giong-doc-puck.md` | 17, 21, 25, 31, 44 |
+| `archive/quy-dinh-da-thay-the.md` | 1 (sàn 10 phút), 38 (câu kết tập sau) |
+| `quy-tac/nghien-cuu-su-lieu.md` | 2, 18 |
+| `quy-tac/dung-mach-truyen.md` | 23, 24, 40, 50, 52 |
+| `quy-tac/giong-van.md` | 19, 29, 33, 56, 58, 60 (+ mục diễn giải nhập từ nhánh khác) |
+| `quy-tac/bien-tap.md` | 43, 54 |
+| `quy-tac/kiem-tra-lich-su.md` | 39, 42 (bản đồ, Hoàng Sa, Trường Sa) |
+| `quy-tac/kiem-tra-ky-thuat.md` | 16, 20, 26, 36, 41, 59 |
+| `quy-tac/tim-cau-chuyen.md` | 53 |
+| `quy-tac/dang-bai-va-bia.md` | 3, 22, 30, 37, 49 |
+| `quy-tac/series/chuyen-cai-tri-ngan-nam.md` | 32 |
+| `quy-tac/series/bi-mat-bieu-tuong.md` | 45, 46, 47, 48, 51, 55 |
+| `quy-tac/series/ten-tinh-thanh.md` | 57 |
+| `mau-kich-ban/su-kien.md` | 34, 35 |
+
+**Chưa làm, cần quyết hoặc làm tiếp (giai đoạn 2):**
+1. **Gộp trùng trong từng file** (hiện các mục vẫn nằm nguyên văn cạnh nhau): `giong-van.md` (6 mục văn phong), `dang-bai-va-bia.md` (3 mục ảnh bìa), `kiem-tra-ky-thuat.md`, `dung-mach-truyen.md` (mở đầu 24/50). Cần viết lại thành bản ngắn rồi gửi chủ kênh xem trước khi thay.
+2. **Chọn một giọng đọc hiện hành:** trong `kiem-tra-ky-thuat.md` mục "giọng gốc 06/11" là quy tắc sống; các mục giọng cũ đã ở `archive/giong-doc-puck.md`. Cần xác nhận mục 36 là duy nhất.
+3. **G1. Hai nhánh có hai bộ quy tắc lệch nhau.** Nhánh `lh6-dung-thu`, `nm5-hq-tai`, `cd-dung`... có `quy-tac/chung.md` (218–227 dòng), `su-viet.md`, `ky-thuat-ke-chuyen.md`; nhánh này không có. Chúng ghi những điều trái với nhánh này, ví dụ: "bỏ sàn 10 phút" (30/10, khớp quyết định hôm nay), "bỏ hết lời bình của sử gia" (27/10, nhánh này vẫn cho giữ lời bàn có tên sử gia), "câu kết cuối: một câu tóm gọn và lời cảm ơn" (31/10), "rà 5 lần trước khi giao". Cần chủ kênh quyết: nhập mục nào vào nhánh này, mục nào bỏ. Mình chưa nhập.
+4. **`kiem_khung.py`:** áp dụng bảng A của `ra-soat-kiem-khung-18-11.md` (12 mục ❌→⚠️). Quyết định hôm nay của chủ kênh khớp với bảng này, nhưng mình chưa sửa vì bảng ghi chờ duyệt từng mục.
+5. **`PROMPT_KICH_BAN.md` và `review_checklist.md`:** còn nguyên nội dung cũ (hai sản phẩm video dọc/Facebook/dài, câu kết "Sử thật… lạ hơn cả truyện"). Cần quyết giữ làm quy trình riêng cho sản phẩm cũ hay gộp.
+6. **Thử nghiệm bước 7:** chạy ba chủ đề lịch sử khác nhau qua quy trình mới (bốn bước, bốn cổng, bộ kiểm đã hạ) trước khi coi hệ thống cũ là hết hiệu lực. Chưa làm.
+7. Xóa chỗ ĐÃ BỎ còn nguyên chữ ở trong các file đã chuyển (mục A của báo cáo này) sau khi chủ kênh duyệt gộp.

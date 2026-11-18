@@ -1,6 +1,6 @@
 # Nguyên tắc cốt lõi khi viết kịch bản lịch sử (chủ kênh duyệt 18/11/2026)
 
-**Mức ưu tiên:** cao nhất trong hệ thống quy tắc viết kịch bản. File này đứng trên `chung.md`, `su-viet.md`, `thuy-mac.md`, `thuy-mac-khung.md`, `thuy-mac-giong-van.md`, `thuy-mac-mau.md`, `PROMPT_KICH_BAN.md`, `review_checklist.md` và `ky-thuat-ke-chuyen.md`, ở mọi phần nói về cách viết kịch bản. Quy tắc cũ nào mâu thuẫn với file này thì theo file này. Các quy tắc cũ không bị xóa. Chúng trở thành công cụ biên tập, dùng ở bước 4.
+**Mức ưu tiên:** cao nhất trong hệ thống quy tắc viết kịch bản. File này đứng trên `giong-van.md`, `dna-series.md`, `thuy-mac.md`, `thuy-mac-khung.md`, `thuy-mac-giong-van.md`, `thuy-mac-mau.md`, `PROMPT_KICH_BAN.md` và `review_checklist.md`, ở mọi phần nói về cách viết kịch bản. Quy tắc cũ nào mâu thuẫn với file này thì theo file này. Các quy tắc cũ không bị xóa. Chúng trở thành công cụ biên tập, dùng ở bước 4.
 
 Lý do ra đời: kịch bản tm5–tm15 viết theo khung nhịp cố định và các bộ kiểm cấu trúc. Kết quả đúng sử, qua bộ kiểm, nhưng nghe như bản tóm tắt sự kiện chia đoạn. Đã có những câu chỉ có mặt để đáp ứng bộ kiểm ("Thứ đầu tiên là…", "Nhìn lúc ấy… tưởng như…", đoạn giảng giải chỉ để nhắc lại câu hỏi xuyên suốt). Lỗi nghĩa và mạch (đại từ trỏ sai người, con số khác phạm vi, việc kể ra không có kết quả) thì bộ kiểm không bắt được.
 
@@ -16,7 +16,7 @@ Kịch bản phải có mạch kể tự nhiên. Câu văn có đầu có cuối
 - Chỉ kể sự việc có nguồn. Không bịa lời thoại, suy nghĩ, động cơ, tình tiết, số liệu.
 - Lời kể trong sử cũ, giai thoại và chỗ các nguồn chép khác nhau phải nói rõ là lời kể hoặc là chỗ chưa chắc.
 - Người kể được diễn giải theo mục 7, nhưng không được biến diễn giải thành sự thật.
-- Những điều này vẫn theo `chung.md` (mục "Quy tắc viết kịch bản lịch sử", "Diễn giải của người kể") và `su-viet.md`.
+- Những điều này vẫn theo `giong-van.md` (mục "Diễn giải của người kể") và `nghien-cuu-su-lieu.md`.
 
 ## 3. Thứ tự ưu tiên khi đánh giá kịch bản
 
@@ -71,8 +71,8 @@ Người kể không chỉ đọc lại sự kiện mà còn được phân tíc
 Được dùng nhận xét, mỉa nhẹ, cách nhìn bất ngờ, câu văn có cá tính, miễn là:
 - dựa trên sự kiện có nguồn;
 - không xuyên tạc động cơ, không tự dựng suy nghĩ, lời nói hay tình tiết;
-- không biến khả năng thành điều chắc chắn (năm điều kiện diễn giải ở `chung.md`);
-- mỉa chỉ nhắm vào tình huống hoặc phía xâm lược, không đùa anh hùng dân tộc (`su-viet.md`).
+- không biến khả năng thành điều chắc chắn (năm điều kiện diễn giải ở `giong-van.md`);
+- mỉa chỉ nhắm vào tình huống hoặc phía xâm lược, không đùa anh hùng dân tộc (`dna-series.md`).
 
 ## 8. Văn phong
 
@@ -119,7 +119,7 @@ Cụ thể, bốn công cụ sau chỉ dùng khi hợp với câu chuyện, khô
   - việc sau có hợp lý với việc trước không;
   - mốc thời gian có dựa vào tập khác không;
   - câu nào lặp ý hoặc chỉ có mặt để nối;
-- độ dài, hook, cao trào, nguồn, các bộ kiểm và những lỗi chủ kênh đã yêu cầu tránh (`thuy-mac.md` mục 3.4, `chung.md`).
+- độ dài, hook, cao trào, nguồn, các bộ kiểm và những lỗi chủ kênh đã yêu cầu tránh (`thuy-mac.md` mục 3.4, `giong-van.md`, `dung-mach-truyen.md`).
 
 ## 12. Mục tiêu cuối cùng
 

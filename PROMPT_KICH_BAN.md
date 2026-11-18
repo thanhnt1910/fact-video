@@ -1,3 +1,5 @@
+> **Cập nhật 18/11/2026:** các điều "TỐI THIỂU 10 PHÚT", "1.900 tiếng", "70–90 beat" và "Tập sau sẽ kể tiếp" trong file này KHÔNG còn bắt buộc (chủ kênh quyết 18/11). Độ dài theo chất liệu câu chuyện, mỗi video tự hoàn chỉnh: xem `quy-tac/dung-mach-truyen.md`. Khi file này mâu thuẫn với `CLAUDE.md` và `quy-tac/`, theo `CLAUDE.md` và `quy-tac/`. File này chờ được rà và gộp (xem `ke-hoach/ra-soat-quy-tac-thua-18-11.md`).
+
 # Prompt viết kịch bản (dán vào chat Claude)
 
 Mỗi tuần, copy toàn bộ phần trong khung bên dưới, dán vào chat Claude, sửa dòng **DANH SÁCH HOOK** theo lịch đăng tuần đó. Claude sẽ trả về các file JSON. Lưu từng file vào thư mục `scripts/` với đúng tên file Claude ghi (ví dụ `DV1.json`).

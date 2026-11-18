@@ -30,7 +30,7 @@ def kiem(ma):
     nh = len(hook.split())
     print(f"   hook {nh} chữ: {hook}")
     if nh > 25 or SO.search(re.sub(r"\d[\d.]{3,}\s*đồng", "", hook)) and NAM_SO.search(hook):
-        print("❌ hook quá dài hoặc có năm"); loi += 1
+        print("⚠️ hook quá dài hoặc có năm (gợi ý, không chặn)"); warn += 1
     elif nh > 20:
         print("⚠️ hook trên 20 chữ"); warn += 1
     dau = [t[2].split()[0].lower().strip(",.") for t in T]
@@ -41,7 +41,7 @@ def kiem(ma):
         print("⚠️ ít từ nối (mạch kể rời rạc)"); warn += 1
     for i in range(1, len(T)):
         if dau[i] == dau[i - 1]:
-            print(f"❌ đoạn {T[i-1][0]} và {T[i][0]} cùng mở bằng \"{dau[i]}\""); loi += 1
+            print(f"⚠️ đoạn {T[i-1][0]} và {T[i][0]} cùng mở bằng \"{dau[i]}\" (gợi ý, không chặn)"); warn += 1
     ct = sum(len(CITE.findall(t[1])) for t in T)
     print(f"   trích nguồn 'Theo...': {ct}")
     if ct > 2:

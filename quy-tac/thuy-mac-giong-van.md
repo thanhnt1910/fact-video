@@ -12,7 +12,7 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 4. **Nhịp câu có dài có ngắn.** Mỗi khối cao trào có ít nhất một câu thật ngắn để nhấn, dưới 8 chữ ("Doanh trại vỡ."). Câu ngắn ghép với một câu dài trong cùng đoạn, vì bộ kiểm đoạn cần 14 chữ trở lên.
 5. **Cụm nối không lặp thành khuôn.** "Đúng lúc ấy", "Vì thế", "Thế là", "Đó là", "Trong khi đó", "tưởng như": mỗi cụm tối đa 2 lần một tập; riêng "Nhưng" tối đa 4 lần. Nối bằng chính sự việc ("Thắng ở đó, quân Đại Việt…") thay vì từ nối.
 
-6. **Dùng từ có điểm nhấn ở chỗ cần nhấn** (chủ kênh, tm5): "vẫn còn đông, còn rất hung hãn" thay cho "vẫn còn đông". Từ nhấn phải có sự việc đỡ ở ngay trong đoạn (ở tm5 là: đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra). Không dùng các từ phóng đại đã cấm ở `chung.md` ("kinh hoàng", "khủng khiếp", "chấn động", "định mệnh").
+6. **Dùng từ có điểm nhấn ở chỗ cần nhấn** (chủ kênh, tm5): "vẫn còn đông, còn rất hung hãn" thay cho "vẫn còn đông". Từ nhấn phải có sự việc đỡ ở ngay trong đoạn (ở tm5 là: đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra). Không dùng các từ phóng đại đã cấm (danh sách ở file quy tắc chung của nhánh lh6-dung-thu, chưa nhập vào nhánh này) ("kinh hoàng", "khủng khiếp", "chấn động", "định mệnh").
 
 7. **Động từ ở các mốc lớn phải có lực** (chủ kênh, tm5: "quân nhà Nguyên vào một Thăng Long bỏ trống" nghe như đi thăm nhà người thân). Không dùng động từ trung tính như "vào", "đi", "kéo", "rút", "đánh vào" ở các mốc như chiếm thành, tiến quân, tháo chạy, đột phá. Thay bằng:
    - chiếm thành: "tràn vào chiếm";

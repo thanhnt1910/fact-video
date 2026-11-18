@@ -269,9 +269,11 @@ def tech_check(mp4, kind, narration=None, quiet_ranges=()):
         return [issue("loi", g, label, f"không thấy file {mp4.name}")]
     info = probe(mp4)
     d = info["duration"]
-    lo, hi = (55, 90) if kind == "ngan" else (600, 900)  # video dài: sàn 10 phút; dưới 10 phút = cảnh báo, dưới 6 phút = lỗi
+    # Từ 18/11/2026 không còn sàn thời lượng (quy-tac/dung-mach-truyen.md): độ dài theo chất liệu câu chuyện.
+    # Mức dưới chỉ để tham khảo; lệch bao nhiêu cũng chỉ cảnh báo, không chặn gửi.
+    lo, hi = (55, 90) if kind == "ngan" else (600, 900)
     if d < lo * 0.6 or d > hi * 1.6:
-        out.append(issue("loi", g, label, f"thời lượng {fmt_t(d)} quá xa mức {fmt_t(lo)}–{fmt_t(hi)}"))
+        out.append(issue("canh_bao", g, label, f"thời lượng {fmt_t(d)} xa mức tham khảo {fmt_t(lo)}–{fmt_t(hi)} (chỉ để biết, không phải lỗi)"))
     elif not lo <= d <= hi:
         out.append(issue("canh_bao", g, label, f"thời lượng {fmt_t(d)} ngoài mức {fmt_t(lo)}–{fmt_t(hi)}"))
     want = (1080, 1920) if kind == "ngan" else (1920, 1080)

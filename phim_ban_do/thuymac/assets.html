@@ -845,5 +845,50 @@ t10_cong(){const s=setup(2800,640);seed=1014;const g=el(s,'g',{filter:'url(#ink)
  for(let i=0;i<14;i++)person(g,900+i*80,560,1.0,{helm:1,spear:i%2})},
 });
 
+Object.assign(A,{
+t11_con(){const s=setup(1900,900);seed=1101;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,360,200,0,1900,5,INK,.18,900);ridge(g,520,120,0,1900,7,INK,.28,900);
+ const rows=[[640,.5,16],[690,.6,15],[750,.7,14],[815,.8,13],[880,.9,12]];
+ rows.forEach(([y,sc,n],r)=>{for(let i=0;i<n;i++){const x=70+i*(1760/(n-1))+(r%2)*10;if(Math.abs(x-950)<170&&r>2)continue;person(g,x,y,sc,{helm:1,spear:(i+r)%2});}});
+ figG(g,950,890,2.5,{cape:1,sword:1})},
+t11_phu(){const s=setup(2800,620);seed=1102;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,180,60,0,2800,6,INK,.14,620);
+ el(el(s,'g',{filter:'url(#wash)'}),'rect',{x:700,y:170,width:1400,height:400,fill:INK,opacity:.1});
+ roof(g,1400,230,1180,150);
+ [800,1050,1750,2000].forEach(x=>{el(g,'rect',{x:x-14,y:230,width:28,height:340,fill:INK});el(g,'rect',{x:x-24,y:550,width:48,height:18,fill:INK})});
+ el(g,'path',{d:'M700 570 L2100 570 L2160 610 L640 610Z',fill:INK});
+ el(g,'rect',{x:1280,y:380,width:240,height:180,fill:'none',stroke:INK,'stroke-width':6});for(let i=1;i<4;i++)el(g,'line',{x1:1280+i*60,y1:380,x2:1280+i*60,y2:560,stroke:INK,'stroke-width':3});
+ person(g,1400,560,1.7,{sit:1});
+ for(let i=0;i<6;i++){person(g,860+i*70,570,1.05,{helm:i%2});person(g,1560+i*70,570,1.05,{helm:(i+1)%2})}},
+t11_ruong(){const s=setup(1900,700);seed=1103;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,200,120,0,1900,6,INK,.2,700);
+ const W=el(s,'g',{filter:'url(#wash)'});
+ for(let r=0;r<4;r++)for(let i=0;i<6;i++){const y=380+r*70,x=120+i*290-r*20,w=250+r*12,h=48+r*6;
+  el(W,'rect',{x,y,width:w,height:h,fill:INK,opacity:.1+.03*((i+r)%3)});el(g,'rect',{x,y,width:w,height:h,fill:'none',stroke:INK,'stroke-width':3,opacity:.7})}
+ village(g,260,360,.9);village(g,1620,350,.8);
+ for(let i=0;i<7;i++)person(g,200+i*250,600+(i%2)*40,.8+(i%2)*.1,{arm:'M4 -50 L26 -20'})},
+t11_so(){const s=setup(1200,720);seed=1104;const g=el(s,'g',{filter:'url(#inkt)'});
+ el(g,'rect',{x:140,y:90,width:920,height:540,fill:PAPER,stroke:INK,'stroke-width':8});
+ el(g,'rect',{x:110,y:70,width:980,height:34,rx:16,fill:INK});el(g,'rect',{x:110,y:616,width:980,height:34,rx:16,fill:INK});
+ for(let c=0;c<9;c++){const x=220+c*100;for(let r=0;r<9;r++){const y=140+r*54,l=20+rnd()*26;el(g,'line',{x1:x,y1:y,x2:x,y2:y+l,stroke:INK,'stroke-width':7,'stroke-linecap':'round',opacity:.8})}}
+ el(g,'rect',{x:900,y:500,width:110,height:110,fill:RED,opacity:.85})},
+t11_luyen(){const s=setup(2800,640);seed=1105;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,200,90,0,2800,7,INK,.2,640);
+ for(let i=0;i<5;i++)tent(g,160+i*150,380,150,100);
+ for(let r=0;r<3;r++)for(let i=0;i<11;i++)person(g,1000+i*105,470+r*60,.95-r*.05,{helm:1,spear:i%3!=1,shield:i%3==1});
+ figG(g,2480,560,1.9,{cape:1,sword:1});horse(g,2650,570,1.1,{})},
+t11_thanh(){const s=setup(2800,700);seed=1106;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,200,80,0,2800,7,INK,.15,700);
+ el(g,'path',{d:'M300 560 L2500 560 L2500 330 L300 330Z',fill:INK,opacity:.9});for(let i=0;i<54;i++)el(g,'rect',{x:300+i*41,y:310,width:24,height:22,fill:INK,opacity:.9});
+ el(g,'path',{d:'M1280 560 L1280 440 Q1400 370 1520 440 L1520 560Z',fill:PAPER});
+ roof(g,1400,330,340,70);roof(g,1400,262,240,60);
+ for(let i=0;i<12;i++)person(g,520+i*65,336,.5,{helm:1,spear:i%2});for(let i=0;i<12;i++)person(g,1700+i*65,336,.5,{helm:1,spear:(i+1)%2});
+ const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:260,y:570,width:2280,height:90,fill:INK,opacity:.12})},
+t11_cua(){const s=setup(2800,700);seed=1107;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,260,160,0,2800,6,INK,.16,700);ridge(g,380,110,0,2800,9,INK,.26,700);
+ const L=el(g,'g',{transform:'translate(0,90)'});cliff(L,900,600);const R=el(g,'g',{transform:'translate(2800,70) scale(-1,1)'});cliff(R,980,620);
+ for(let i=0;i<9;i++){pine(g,120+i*70,470+(i%3)*14,1.1);pine(g,2640-i*66,480+(i%3)*12,1.1)}}
+});
+
 window.A=A;window.sealDraw=sealDraw;
 </script></body></html>

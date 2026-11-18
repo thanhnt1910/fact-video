@@ -1,6 +1,6 @@
 # tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-31 đoạn, 781 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+31 đoạn, 772 chữ, khoảng 4.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói gì về cỏ khi bị mua chuộc**. Câu đếm: người buôn gạo, nhổ hết cỏ. Hình ảnh xuyên suốt: "cỏ".
 
 ## Kịch bản (theo nhịp)
@@ -11,7 +11,7 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 **Hook 2** (mốc 3%)
 
-2. Trên tàu có lính và súng, còn người trên ghe chỉ mang dao với giáo. Ít lâu sau, con tàu ấy chìm trong lửa.
+2. Trên tàu có lính, có súng. Người trên ghe chỉ mang dao với giáo, vậy mà ít lâu sau, con tàu ấy chìm trong lửa.
 
 **Hook 3** (mốc 6%)
 
@@ -19,49 +19,49 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 **Hook 4** (mốc 9%)
 
-4. Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và bảy năm sau, khi bị bắt và bị mua chuộc, ông đã nói gì về cỏ của nước Nam?
+4. Mấy chiếc ghe nhỏ làm sao áp sát được con tàu ấy? Và bảy năm sau, khi bị bắt, ông đã nói gì về cỏ của nước Nam?
 
 **Gốc rễ** (mốc 13%)
 
-5. Năm một nghìn tám trăm sáu mươi mốt, hơn một trăm sáu mươi năm trước, Sài Gòn đã nằm trong tay quân Pháp.
-6. Đầu năm ấy, đại đồn Chí Hòa, nơi quân triều đình nhà Nguyễn giữ mạnh nhất quanh Sài Gòn, bị phá. Quân Pháp tràn xuống tới Mỹ Tho.
-7. Họ muốn biến miền Nam thành thuộc địa, đất do nước Pháp cai trị. Quân triều đình rút đi, nhưng ở làng quê, nhiều người dân tự cầm giáo đứng lên.
-8. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp, và chỉ huy một toán chừng năm mươi người.
+5. Năm một nghìn tám trăm sáu mươi mốt, Sài Gòn đã nằm trong tay quân Pháp được hơn hai năm.
+6. Đầu năm ấy, đại đồn Chí Hòa, nơi quân triều đình nhà Nguyễn giữ mạnh nhất quanh Sài Gòn, cũng bị phá. Quân Pháp tràn xuống tới Mỹ Tho.
+7. Họ muốn biến miền Nam thành thuộc địa, đất do nước Pháp cai trị. Quân triều đình lui dần, nhưng ở làng quê, người dân bắt đầu tự cầm giáo.
+8. Nguyễn Trung Trực theo nghĩa quân của Trương Định, một vị quan đứng ra mộ dân đánh Pháp. Người con nhà chài ấy được giao chỉ huy chừng năm mươi người.
 
 **Thế nguy** (mốc 27%)
 
-9. Để giữ đất vừa chiếm, quân Pháp dùng tàu chở lính, chở gạo trên những con kênh nối Mỹ Tho với Sài Gòn.
-10. Một trong những chiếc tàu ấy tên là Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, chỗ con kênh đổ ra sông Vàm Cỏ.
-11. Trên tàu có mấy chục người, gồm lính Pháp, lính đánh thuê lẫn những người theo Pháp, do một viên trung úy người Pháp cầm đầu.
+9. Để giữ đất vừa chiếm, quân Pháp cho tàu chở lính, chở gạo đi lại trên những con kênh nối Mỹ Tho với Sài Gòn.
+10. Một trong những chiếc tàu ấy mang cái tên Hy Vọng, người Pháp gọi là Ét-pê-răng. Nó đậu ở vàm Nhật Tảo, nơi con kênh đổ ra sông Vàm Cỏ.
+11. Trên tàu có mấy chục người, gồm lính Pháp, lính đánh thuê lẫn những người theo Pháp. Cầm đầu là một viên trung úy người Pháp.
 
 **★ Điểm thấp nhất** (mốc 37%)
 
-12. Ghe của nghĩa quân nhỏ, vũ khí chỉ có dao, giáo. Nếu chèo thẳng tới, ghe chưa kịp áp mạn đã bị súng trên tàu bắn chìm.
+12. Chèo thẳng tới giữa ban ngày thì chưa kịp áp mạn, cả đoàn ghe đã thành bia cho súng trên tàu.
 
 **Bước ngoặt** (mốc 40%)
 
-13. Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người được chia làm ba toán, mỗi toán một việc.
-14. Hơn sáu mươi người ở toán thứ nhất sẽ đánh vào một làng theo Pháp gần đó, để kéo lính trên tàu rời khỏi tàu.
-15. Ba mươi người khác nấp sẵn để chặn quân Pháp kéo đến cứu, rồi cùng đánh vào tàu.
+13. Vì thế nghĩa quân không đánh thẳng. Khoảng một trăm năm mươi người chia làm ba toán, mỗi toán một việc.
+14. Hơn sáu mươi người sẽ đánh vào một làng theo Pháp gần đó. Trận đánh ở làng bên phải đủ lớn để lính Pháp rời tàu đuổi theo.
+15. Ba mươi người khác nấp sẵn, chặn đường quân Pháp kéo đến cứu, rồi cùng đánh vào tàu.
 16. Còn toán của Nguyễn Trung Trực đi trên năm chiếc ghe, giả làm người buôn gạo tới xin giấy đi lại. Có sách lại kể là giả làm đám cưới.
-17. Súng lớn chỉ đáng sợ khi ghe còn ở xa. Một khi ghe đã cặp vào mạn mà không bị nghi, dao giáo sẽ không còn thua súng.
+17. Ghe buôn gạo thì không ai nghi. Chỉ cần cặp được vào mạn, trận đánh sẽ diễn ra trên boong tàu chứ không còn trên mặt nước.
 
 **Lần 1** (mốc 56%)
 
 18. Trưa ngày mười tháng mười hai năm một nghìn tám trăm sáu mươi mốt, toán thứ nhất nổ trận ở làng bên.
-19. Kế nhử có kết quả. Viên trung úy sai lính trên tàu đuổi theo, rồi chính ông ta cũng rời tàu.
-20. Trên tàu chỉ còn lại một phần lính. Đúng lúc ấy, năm chiếc ghe buôn gạo cặp vào mạn tàu Hy Vọng.
+19. Kế nhử có kết quả. Viên trung úy sai lính đuổi theo, rồi chính ông ta cũng bỏ tàu mà đi.
+20. Đúng lúc ấy, trên mặt kênh, năm chiếc ghe buôn gạo thong thả cặp vào mạn tàu Hy Vọng.
 
 **★ Đoạn lặng** (mốc 64%)
 
-21. Chỉ cần người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng.
+21. Chỉ cần một người trên tàu sinh nghi, năm chiếc ghe sát mạn sẽ nằm ngay dưới họng súng.
 
 **Cao trào** (mốc 67%)
 
-22. Nhưng không ai kịp sinh nghi. Nghĩa quân rút dao, nhảy lên boong, đánh giáp lá cà với lính trên tàu.
-23. Mọi việc diễn ra nhanh tới mức người trên tàu không kịp phát tín hiệu cầu cứu.
-24. Dưới nước, toán ba mươi người lội tới, dùng rìu bổ vào thân tàu cho nước tràn vào, rồi châm lửa.
-25. Tàu Hy Vọng bốc cháy rồi chìm. Phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven kênh, nấp ở đó mấy ngày.
+22. Không ai kịp sinh nghi. Nguyễn Trung Trực cùng người của ông rút dao, nhảy lên boong, đánh giáp lá cà với lính trên tàu.
+23. Con tàu không kịp phát đi một tín hiệu cầu cứu nào.
+24. Dưới nước, ba mươi người lội tới, vung rìu bổ vào thân tàu cho nước tràn vào, rồi châm lửa.
+25. Lửa bốc lên giữa kênh Nhật Tảo. Tàu Hy Vọng chìm dần, phần lớn người trên tàu bị giết, chỉ vài người trốn được vào bụi rậm ven kênh.
 
 **★ Chi tiết con người** (mốc 78%)
 
@@ -69,14 +69,14 @@ Lời hứa: **hai câu hỏi: ghe nhỏ áp sát tàu thế nào, và ông nói
 
 **Dồn cuối** (mốc 81%)
 
-27. Tin về tới Huế, vua Tự Đức phong Nguyễn Trung Trực làm Lãnh binh. Nhưng nửa năm sau, triều đình lại ký hòa ước, cắt ba tỉnh miền Đông cho Pháp.
-28. Năm năm sau, Pháp chiếm nốt miền Tây. Ông vẫn đánh, và năm sau nữa thì chiếm được đồn Pháp ở Rạch Giá.
-29. Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc để mua chuộc, nhưng ông không nhận.
+27. Vua Tự Đức ở Huế phong cho ông làm Lãnh binh. Vậy mà chỉ nửa năm sau, chính triều đình ấy ký hòa ước, cắt ba tỉnh miền Đông cho Pháp.
+28. Ông không buông giáo. Năm một nghìn tám trăm sáu mươi tám, khi Pháp đã chiếm nốt miền Tây, ông đánh chiếm đồn Pháp ở Rạch Giá.
+29. Quân Pháp bắt mẹ ông làm con tin, rồi chiếm lại đồn và bắt được ông. Họ hứa cho chức tước, lợi lộc, nhưng ông không nhận.
 30. Theo lời kể, ông đáp rằng bao giờ người Tây nhổ hết cỏ nước Nam thì mới hết người Nam đánh Tây. Ít lâu sau, ông bị xử chém ở Rạch Giá.
 
 **Kết** (mốc 96%)
 
-31. Con tàu chìm ở Nhật Tảo và câu nói về cỏ nước Nam là những gì người con xóm chài ấy để lại. Cảm ơn bạn đã lắng nghe câu chuyện này.
+31. Con tàu tên Hy Vọng đã chìm ở Nhật Tảo, nhưng cỏ nước Nam thì người Tây không nhổ hết được. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Năm điểm nhấn cố định
 
@@ -123,14 +123,14 @@ Ghi chú thêm:
 - Cách giả trang: tư liệu Pháp (qua Wikipedia) nói giả người buôn gạo xin giấy đi lại; chuyện giả đám cưới là lời kể khác. Lời đọc nói cả hai.
 - Số người: 150 nghĩa quân chia ba toán; số người trên tàu và số chết các nguồn khác nhau: lời đọc nói "phần lớn", "vài người".
 - ĐÃ ĐỐI CHIẾU: gia đình làm nghề chài lưới ở hạ lưu sông Vàm Cỏ (Pháp Luật, LSVN). Nhưng trước trận ông đã là Quản Lịch, chỉ huy khoảng năm mươi người, nên lời đọc đổi thành "con một nhà làm nghề chài lưới".
-- Bản 2 (thử sửa 18/11): bỏ câu khuôn ("Chuyện xảy ra", "Nhìn lúc ấy", "Có hai thứ sẽ kể lại", "Thứ đầu tiên/Thứ hai"); trận Nhật Tảo kéo dài từ 6 lên 9 đoạn bằng chi tiết có nguồn (Wikipedia): toán nhử 61 người đánh một làng theo Pháp, toán chặn 30 người; viên trung úy Parfait sai lính đuổi theo rồi chính ông rời tàu; tàu không kịp phát tín hiệu; vài người trốn trong bụi mấy ngày; Parfait quay về đốt làng nhưng dân đã đi. Sau trận Tự Đức phong Lãnh binh (Wikipedia).
+- Bản 3 (18/11): Nguyễn Trung Trực có mặt trong câu nhảy lên tàu (Wikipedia: toán của ông lên boong); bỏ đoạn giảng giải về súng lớn và câu nhắc lại dao giáo; thêm hình ảnh lửa trên kênh, rìu bổ thân tàu; gộp phần sau trận, nhấn việc vua vừa phong Lãnh binh thì nửa năm sau ký hòa ước cắt đất; câu kết quay lại tên tàu Hy Vọng và câu nói về cỏ (câu "người Tây không nhổ hết được" là cách nói của người kể, dựa trên việc kháng chiến còn tiếp diễn). Bản 2: bỏ câu khuôn ("Chuyện xảy ra", "Nhìn lúc ấy", "Có hai thứ sẽ kể lại", "Thứ đầu tiên/Thứ hai"); trận Nhật Tảo kéo dài từ 6 lên 9 đoạn bằng chi tiết có nguồn (Wikipedia): toán nhử 61 người đánh một làng theo Pháp, toán chặn 30 người; viên trung úy Parfait sai lính đuổi theo rồi chính ông rời tàu; tàu không kịp phát tín hiệu; vài người trốn trong bụi mấy ngày; Parfait quay về đốt làng nhưng dân đã đi. Sau trận Tự Đức phong Lãnh binh (Wikipedia).
 - Pháp bắt mẹ ông làm con tin: Wikipedia; nhiều sách nói ông ra nộp mình để cứu mẹ và dân, lời đọc chỉ nói "rồi bắt được ông". Câu nói về cỏ gắn "theo lời kể".
 - Từ đã giải thích: thuộc địa, vàm, Ét-pê-răng (tàu Hy Vọng).
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 5 cảnh báo ⚠️
-- `kiem_mach_ke.py`: -> 0 ❌, 4 ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 3 cảnh báo ⚠️
+- `kiem_mach_ke.py`: -> 0 ❌, 5 ⚠️
 - `kiem_mo_dau.py`: ⚠️ 5 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️
 

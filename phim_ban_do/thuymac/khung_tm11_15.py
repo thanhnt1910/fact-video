@@ -63,7 +63,7 @@ lam('tm14',dict(ten='Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tả
  'hook1':('Giữa trưa, năm ghe nhỏ áp sát tàu Pháp trên kênh Nhật Tảo','kiểu mở "sự kiện bất ngờ"; Wikipedia'),
  'hook2':('Tàu có lính, súng; ghe chỉ dao giáo; tàu chìm trong lửa','Wikipedia'),
  'hook3':('Nguyễn Trung Trực, con nhà chài lưới, ngoài hai mươi tuổi','Pháp Luật; năm sinh 1838/1839'),
- 'hook4':('Ghe áp sát thế nào? Ông nói gì về cỏ khi bị mua chuộc?','lời hứa'),
+ 'hook4':('Ghe áp sát thế nào? Ông nói gì về cỏ khi bị bắt?','lời hứa'),
  'goc_re':('1861 Sài Gòn mất; Chí Hòa vỡ, Pháp xuống Mỹ Tho; dân tự đứng lên; theo Trương Định, chỉ huy ~50 người','Wikipedia; Pháp Luật (Quản Lịch coi 50 người)'),
  'the_nguy':('Pháp dùng tàu chở lính, chở gạo trên kênh Mỹ Tho–Sài Gòn; tàu Hy Vọng ở vàm Nhật Tảo; mấy chục người, trung úy cầm đầu','Wikipedia'),
  'diem_thap':('Ghe nhỏ, dao giáo, đánh thẳng sẽ bị bắn chìm','diễn giải'),

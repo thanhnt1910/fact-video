@@ -2,6 +2,11 @@
 
 Repo của kênh "Người Gác Sử": video dọc 60–80 giây và video dài YouTube 16:9, kể chuyện có thật trong lịch sử.
 
+## Viết kịch bản: nguyên tắc cốt lõi đứng trên mọi quy tắc khác (chủ kênh duyệt 18/11/2026)
+- Trước khi viết hay sửa bất kỳ kịch bản nào, PHẢI đọc `quy-tac/nguyen-tac-cot-loi.md` (nhánh có thư mục `quy-tac/`). File này có mức ưu tiên cao nhất trong hệ thống quy tắc viết kịch bản. Quy tắc cũ nào mâu thuẫn với nó thì theo nó.
+- Ưu tiên chất lượng kể chuyện, sự liền mạch và sáng tạo. Đúng lịch sử là điều kiện bắt buộc; các checklist, khung nhịp, câu đếm, hình ảnh xuyên suốt, câu hỏi xuyên suốt là công cụ biên tập, không phải khuôn để viết.
+- Quy trình bốn bước: tìm câu chuyện → dựng mạch truyện (gửi chủ kênh duyệt, chưa viết văn) → viết lời kể → biên tập và kiểm.
+
 ## Giọng đọc: LUÔN đọc từng câu, mọi kịch bản (chủ kênh yêu cầu 04/11/2026, áp dụng mọi video từ nay; ưu tiên hơn mọi mục cũ về đọc cụm bên dưới)
 - Khi dựng video từ bất kỳ kịch bản nào, giọng đọc phải đọc TỪNG CÂU (mỗi đoạn một lần gọi Gemini): `ke-hoach/thu-giong-hai/cum.txt` = `1`. Làm theo cách video Tào Tháo (TQ10) đã làm.
 - Không đọc cụm 8 hay cụm 16 rồi cắt: cắt theo chỗ lặng làm lệch ranh giới giữa các đoạn (Chu Du 04/11/2026: 21/88 đoạn lỗi). Mọi chỗ ghi `cum.txt` = 8 hoặc 16 coi như đã đổi thành `1`.

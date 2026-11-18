@@ -50,7 +50,8 @@ Thêm vào đó: N câu đếm khớp lời hứa ở hook 4, mỗi câu nói m�
 2. **Lời đọc**: viết đúng theo bảng khung đã duyệt. Mỗi đoạn trong `<mã>_full.json` có trường `"nhip"`. Chạy bốn bộ kiểm: `kiem_kich_ban.py`, `kiem_mach_ke.py`, `kiem_mo_dau.py`, `kiem_khung.py`; tất cả phải 0 ❌. Sau đó mới gửi hồ sơ gửi duyệt (mục 3.3 `thuy-mac.md`).
 
 ## 4. Bộ kiểm `kiem_khung.py` (sửa 18/11/2026 theo quyết định của chủ kênh)
-- **❌ chỉ còn cho lỗi thật:** nhịp chưa ghi sự việc; nhịp chưa ghi nguồn; câu sáo hoặc từ đã bị chủ kênh chê (danh sách `CAM`, 34 cụm, đang chờ chủ kênh phân loại từng cụm: `ke-hoach/kiem-khung-b4-34-cum-18-11.md`).
+- **❌ chỉ còn cho lỗi thật:** nhịp chưa ghi sự việc; nhịp chưa ghi nguồn; ba cụm sáo rõ ràng ("có thể thấy", "điều đáng chú ý", "quân thuyền") và tạm thời "câu trả lời nằm ở" (chờ chủ kênh xem cách dùng thật).
+- **Cụm từ từng bị chê (`CAM`, 34 cụm) từ 18/11/2026 phân N1/N2:** 26 cụm N2 chỉ ⚠️ mỗi lần gặp; 4 cụm thông dụng ("không chỉ", "bài học", "phía bên kia", "dấy binh") chỉ ⚠️ khi một kịch bản dùng từ 3 lần. Công cụ nêu lý do và gợi ý, không tự sửa câu. Bảng: `ke-hoach/kiem-khung-b4-34-cum-18-11.md`.
 - **⚠️ gợi ý (không chặn):** nhịp lạ, sai thứ tự, thiếu nhịp, khối cao trào bị cắt, nhịp nhiều đoạn, câu đếm không khớp lời hứa, hình ảnh xuyên suốt và câu hỏi xuyên suốt, phần sau cao trào hơn 5 đoạn (khi gặp, Claude đánh giá đoạn kết có thực sự cần thiết, không mặc định cắt), cao trào lệch mốc 55–85%.
 - **Nói tắt tên phe ("quân Nguyên", "quân Minh"…):** không còn báo lỗi hàng loạt. Chỉ ⚠️ một lần cho mỗi phe, ở lần đầu cách gọi này xuất hiện mà phe chưa được giới thiệu rõ ("nhà Nguyên", "nước Xiêm"…) trước đó.
 - **Không có `<mã>_khung.json`:** bỏ qua phần khung, vẫn kiểm câu chữ. Khung không khai báo `n_hua`, `dem`, `hinh_anh`, `soi_chi` thì bỏ qua kiểm tương ứng và in một dòng ℹ️ liệt kê mục đã bỏ qua. Bỏ qua không có nghĩa là kịch bản đạt.

@@ -35,3 +35,10 @@
 - Thiếu `<mã>_khung.json` hoặc thiếu `n_hua`, `dem`, `hinh_anh`, `soi_chi`: bỏ qua kiểm tương ứng, in dòng ℹ️.
 - Bảy mục đã hạ ở `kiem_mo_dau`, `kiem_mach_ke`, `kiem_giong_van`: giữ nguyên, không revert. `kiem_kich_ban.py` giữ giới hạn cứng 32 chữ, 2 câu.
 - Thử nghiệm: tm5, tm7, tm9, tm14 (có khung), `bd1`, `dbl1` (không có khung, cấu trúc khác khung cũ), thêm hai khung thử nghiệm đã xóa. tm14: 3 ❌ → 0 ❌ (3 ⚠️).
+
+## 18/11/2026 22:11: mục 10 của nguyên tắc cốt lõi, 34 cụm `CAM`, bản gộp giong-van
+- Mục 10 của `nguyen-tac-cot-loi.md` đổi: bỏ "đoạn cuối gồm một câu tóm gọn và lời cảm ơn"; thay bằng "đoạn cuối khép lại câu chuyện tự nhiên, có ý nghĩa; lời cảm ơn chỉ dùng khi hợp với cách kết".
+- 34 cụm `CAM` trong `kiem_khung.py`: N2 (⚠️) làm mặc định. N1 ❌: có thể thấy, điều đáng chú ý, quân thuyền. Tạm ❌: câu trả lời nằm ở. Cụm thông dụng (không chỉ, bài học, phía bên kia, dấy binh) chỉ ⚠️ khi một kịch bản dùng từ 3 lần. Công cụ chỉ nêu lý do và gợi ý, không tự sửa câu.
+- Phân tầng đánh giá: tầng 1 (sử, niên đại, nguồn) là cổng duyệt của người, công cụ chỉ kiểm có ghi sự việc và nguồn; tầng 2 công cụ bắt dấu hiệu bề mặt, Claude đọc và nêu lý do, đề xuất; tầng 3 là câu hỏi tự rà cho người đọc.
+- Dự thảo gộp `giong-van` bổ sung 3 ý (không nghị luận/giáo khoa; không câu hỏi tu từ liên tục; không lặp để kéo dài).
+- Thử nghiệm bản chốt `kiem_khung.py`: tm5 (viết tốt), lt1v6 (nhiều cụm bị chê), tm15 (mới nhất). Xem báo cáo trong tin nhắn cùng ngày.

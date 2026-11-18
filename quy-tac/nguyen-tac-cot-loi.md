@@ -98,7 +98,7 @@ Cụ thể, bốn công cụ sau chỉ dùng khi hợp với câu chuyện, khô
 - Mỗi đoạn tối đa 32 chữ và 2 câu (`kiem_kich_ban.py`).
 - Năm, số viết bằng chữ.
 - Không dùng dấu hai chấm trong lời đọc (Gemini từng bỏ qua phần sau dấu hai chấm).
-- Đoạn cuối gồm một câu tóm gọn và lời cảm ơn.
+- Đoạn cuối khép lại câu chuyện tự nhiên, có ý nghĩa và phù hợp với nội dung. Có thể kết bằng một sự kiện, một hệ quả lịch sử hoặc một nhận định ngắn. Lời cảm ơn chỉ dùng khi phù hợp với cách kết của video, không phải yêu cầu bắt buộc (chủ kênh quyết 18/11/2026).
 - Gọi đúng tên phe, không nói tắt ("quân nhà X").
 
 ## 11. Quy trình viết (bốn bước)

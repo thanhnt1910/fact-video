@@ -20,12 +20,23 @@ TEN = {'hook1': 'Hook 1: câu kể thường', 'hook2': 'Hook 2: lật lại', '
        'diem_thap': 'Điểm thấp nhất', 'buoc_ngoat': 'Bước ngoặt', 'lan': 'Lần / trận', 'lang': 'Đoạn lặng',
        'cao_trao': 'Cao trào', 'chi_tiet_nguoi': 'Chi tiết con người', 'don_cuoi': 'Dồn cuối', 'ket': 'Kết'}
 
-# Câu sáo, văn máy, từ dịch sát, từ dùng sai mà chủ kênh đã chê (thêm vào đây mỗi lần bị chê)
+# Câu sáo, văn máy, từ dịch sát mà chủ kênh đã chê. Từ 18/11/2026 phân loại (ke-hoach/kiem-khung-b4-34-cum-18-11.md):
+#   N1 = ❌ chặn: cụm sáo, gần như không hợp giọng kể.
+#   CHO = ❌ tạm giữ: chờ chủ kênh xem cách dùng thật rồi quyết N1 hay N2.
+#   LAP = ⚠️ chỉ khi một kịch bản dùng từ LAP_NGUONG lần trở lên (cụm thông dụng: dùng một hai lần là tự nhiên).
+#   N2 = ⚠️ mỗi lần gặp: có thể đúng ngữ cảnh, cần xem lại. Công cụ chỉ nêu lý do và gợi ý, không tự sửa câu.
+# Không đánh đồng từ ngữ với cách viết: cùng một cụm có thể sáo ở câu này, tự nhiên ở câu khác.
 CAM = ['bước ngoặt quan trọng', 'chi tiết đặc biệt', 'nổi tiếng nhất', 'không thể quên', 'quyết liệt',
        'mạnh mẽ', 'rơi vào tay', 'thất thủ', 'điều đáng chú ý', 'có thể thấy', 'không chỉ', 'bảo toàn lực lượng',
        'được tổ chức', 'câu trả lời nằm ở', 'muốn trả lời', 'coi chung', 'núng thế', 'sắm sửa', 'dấy binh',
        'đặt làm', 'bên này', 'phía bên kia', 'có thể hiểu vì sao', 'kinh hoàng', 'khủng khiếp', 'chấn động',
        'định mệnh', 'không ai ngờ', 'giữ trọn', 'bài học', 'tinh thần quân giặc', 'cục diện', 'trong khi chờ', 'quân thuyền']
+CAM_N1 = ['có thể thấy', 'điều đáng chú ý', 'quân thuyền']
+CAM_CHO = ['câu trả lời nằm ở']
+CAM_LAP = ['không chỉ', 'bài học', 'phía bên kia', 'dấy binh']
+LAP_NGUONG = 3
+CAM_N2 = [c for c in CAM if c not in CAM_N1 + CAM_CHO + CAM_LAP]
+
 # Nói tắt tên phe ("quân Nguyên", "quân Minh"...): từ 18/11/2026 KHÔNG còn báo lỗi hàng loạt.
 # Cách gọi này dùng tự nhiên được khi phe đã được giới thiệu rõ ("nhà Nguyên", "nước Xiêm"...) ở đoạn trước hoặc trong cùng đoạn.
 # Chỉ cảnh báo ⚠️ một lần cho mỗi phe, ở lần đầu "quân X" xuất hiện mà chưa có giới thiệu đầy đủ trước đó.
@@ -141,10 +152,18 @@ def main(ma):
             bo_qua.append('thân bài có câu đếm (khung không khai báo dem)')
     elif K is not None:
         print('   lời đọc: chưa gắn nhịp (bước 2 chưa làm)')
+    dem_lap = {c: [] for c in CAM_LAP}
     for d in J:  # kiểm câu chữ cho mọi bản, có khung hay không
         tl = d['text'].lower()
-        for c in CAM:
-            if c in tl: loi.append(f'❌ {d["n"]}: câu sáo hoặc từ đã bị chê "{c}"')
+        for c in CAM_N1 + CAM_CHO:
+            if c in tl: loi.append(f'❌ {d["n"]}: câu sáo hoặc từ đã bị chê "{c}"' + (' (tạm giữ ❌, chờ chủ kênh quyết N1 hay N2)' if c in CAM_CHO else ''))
+        for c in CAM_N2:
+            if c in tl: canh.append(f'⚠️ {d["n"]}: "{c}" dễ thành câu sáo hoặc dịch sát; xem ngữ cảnh, nếu nghe tự nhiên thì giữ, nếu không thì nói cụ thể ai làm gì')
+        for c in CAM_LAP:
+            if c in tl: dem_lap[c].append(d['n'])
+    for c, ds_ in dem_lap.items():
+        if len(ds_) >= LAP_NGUONG:
+            canh.append(f'⚠️ "{c}" dùng {len(ds_)} lần (đoạn {", ".join(map(str, ds_))}): dùng nhiều thì dễ thành thói quen; xem lại các chỗ chưa cần')
     kiem_tat(J, canh)
     if bo_qua:
         print('   ℹ️ bỏ qua vì thiếu dữ liệu (bỏ qua không có nghĩa là đạt): ' + '; '.join(bo_qua))

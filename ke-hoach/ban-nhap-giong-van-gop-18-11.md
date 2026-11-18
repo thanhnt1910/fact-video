@@ -67,6 +67,10 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 - Nền trước, hình ảnh sau: ví von, ví dụ, câu đùa đặt SAU khi người nghe đã biết đủ để thấy nó đúng. Thứ tự: ai/cái gì → chuyện gì xảy ra → ví von làm điểm nhấn → nguyên nhân hoặc bước tiếp.
 
 **3. Nhịp và câu chữ (gợi ý, không phải ngưỡng cứng)**
+- Kể như người nói chuyện, không viết kiểu nghị luận hay văn giáo khoa.
+- Không cố tạo bí ẩn bằng câu hỏi tu từ liên tục. Tự hỏi tự đáp dùng thưa, mỗi lần có một câu trả lời thật ngay sau.
+- Không lặp thông tin để kéo dài thời lượng; thiếu chất liệu thì thêm chi tiết có nguồn, không độn câu. Không dùng câu chuyển đoạn chỉ để nối cho đủ ý.
+- Ưu tiên chi tiết lịch sử cụ thể thay vì nhận xét chung chung.
 - Nhịp câu có dài có ngắn; chỗ cần nhấn dùng câu thật ngắn.
 - Đổi cách mở câu; không mở nhiều câu liền nhau cùng một kiểu hay cùng một chữ.
 - Không giải nghĩa kiểu từ điển: gộp lời giải vào chính câu. Dùng "tức là", "nghĩa là" khi đó là cách nghe tự nhiên nhất.
@@ -94,6 +98,11 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 
 **7. Tự rà trước khi gửi duyệt**
 Đọc liền một mạch như người chưa biết chuyện: chỗ nào phải tự nối hai mốc, tên nào xuất hiện mà chưa giới thiệu thì thêm câu dẫn hoặc giới thiệu. Với sử nước ngoài, rà từng câu theo năm điểm (chủ ngữ rõ; ai với ai rõ; từ lạ đã giải thích; mốc khớp các đoạn khác; cực cấp và nhận định có nguồn) và ghi kết quả vào bản gửi duyệt.
+
+## B2. Ghi chú đi kèm bản gộp (chủ kênh góp ý 18/11, tối)
+- Ba ý vừa thêm ở mục 3 (không nghị luận/giáo khoa; không câu hỏi tu từ liên tục; không lặp để kéo dài) trước đó bị thiếu: ý thứ ba vốn nằm trong quy định thời lượng đã lưu trữ và bị bỏ sót khi chuyển.
+- Năm câu tự rà "tầng 3" (hook đã hấp dẫn chưa; có chi tiết lịch sử đáng nhớ không; nhịp kể có giữ chân không; kết có dư âm không; rút gọn được mà không mất thông tin không) chưa đưa vào `bien-tap.md`; sẽ đưa khi bản gộp được duyệt.
+- Cách phân tầng cho công cụ và người đọc: tầng 1 (sai sử, sai niên đại, nguồn sai) là cổng duyệt của người, công cụ chỉ kiểm có ghi sự việc và nguồn; tầng 2 công cụ chỉ bắt dấu hiệu bề mặt, phần đánh giá do Claude đọc và ghi lý do, đề xuất; tầng 3 là câu hỏi cho người đọc.
 
 ## C. Điều đã bỏ khỏi bản gộp (để chủ kênh biết)
 - Danh sách cụm cấm cứng ("Điều đáng chú ý là", "Có thể thấy", "Không chỉ… mà còn"…) và con số "không quá 5 lần", "không quá 1/10". Chuyển thành gợi ý ở bước biên tập.

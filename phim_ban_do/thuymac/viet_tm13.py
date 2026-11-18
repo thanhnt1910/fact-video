@@ -1,22 +1,6 @@
 import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
-# tm13 bản 3 (19/11): kể kèm phân tích (nguyen-tac-cot-loi.md 10b, giong-van.md), viết từ văn xuôi liền mạch rồi chia đoạn theo nhịp kể. Không giới hạn chữ và câu. Nhãn nhịp chỉ để dựng.
-S=[
-('hook1',"Viên thái thú nhà Hán bỏ chạy khỏi quận, vì hai người phụ nữ."),
-('hook2',"Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ dấy binh, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại."),
-('hook4',"Thế mà ba năm sau, cuộc nổi dậy đã tắt. Vì sao một tiếng gọi được cả vùng đáp lại, rồi vẫn không giữ nổi?"),
-('goc_re',"Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên. Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù."),
-('buoc_ngoat',"Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị dấy binh. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ chạy về Nam Hải. Trưng Trắc xưng vương, đóng đô ở Mê Linh, quê bà."),
-('buoc_ngoat',"Sử ta nói bà khởi binh để trả thù cho chồng. Nhưng sử cũng chép Tô Định trói buộc cả dân Giao Chỉ, chứ không riêng gia đình bà, nên có thể hiểu vì sao tiếng gọi của bà vang xa hơn một nhà. Còn mỗi vùng hưởng ứng vì lý do gì thì sử không nói."),
-('the_nguy',"Nhưng nhà Hán không bỏ quận ấy. Triều đình ở Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang. Sử không nói vì sao chậm. Một tài liệu nhận xét rằng việc nhà Hán cử những tướng được tin cậy nhất cho thấy họ coi Giao Chỉ là vùng quan trọng."),
-('the_nguy',"Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau. Số quân các sách ghi không giống nhau, từ chừng một vạn đến hơn ba vạn. Về quân của hai bà, sử không ghi con số nào, nên ta không thể đặt hai bên lên cân."),
-('lan1',"Mã Viện đánh hai bà ở Lãng Bạc, theo Toàn thư, bộ sử nước ta soạn thời nhà Lê. Sách xưa chép Lãng Bạc là Hồ Tây, người nay cho là vùng núi Tiên Du ở Bắc Ninh. Nhà nghiên cứu Ben Kiernan ghi quân nhà Hán chém hàng nghìn người theo hai bà, hơn mười nghìn người ra hàng. Nguồn khác ghi số người ra hàng còn lớn hơn."),
-('diem_thap',"Sau trận ấy, hai bà lui về Cấm Khê. Theo Toàn thư, nhiều người theo hai bà bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng. Sử không nói bao nhiêu người bỏ đi, nên ta không biết điều ấy nặng đến đâu so với hàng nghìn người đã ngã xuống và hơn mười nghìn người đã ra hàng ở Lãng Bạc."),
-('cao_trao',"Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Sử cũ ghi vùng Vĩnh Tường ở Sơn Tây xưa, còn sách khác chép bà trốn vào hang ở Kim Khê. Mã Viện đuổi theo, đánh nhiều trận. Hậu Hán thư, bộ sử của phía nhà Hán, chép quân hai bà thua nhiều lần rồi tan chạy. Sang năm bốn mươi ba, hai chị em vẫn chống trả, nhưng đã bị cô lập và thua trận."),
-('chi_tiet_nguoi',"Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư thì chép Mã Viện chém hai bà và nhiều người khác, gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận. Sử triều Nguyễn thì ghi hai bà bị bắt, còn cách mất thế nào cả hai bộ đều không nói."),
-('chi_tiet_nguoi',"Chuyện hai bà gieo mình xuống sông Hát không thấy trong hai bộ sử ấy. Đó là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Như vậy cái chết của hai bà có ba lớp kể, lớp của phía nhà Hán, lớp sử ta không nói rõ và lớp dân gian, và không lớp nào thay được lớp nào."),
-('don_cuoi',"Sau khi thắng, theo ước tính của Ben Kiernan, quân nhà Hán giết khoảng năm đến mười nghìn người thuộc tầng lớp thủ lĩnh Lạc Việt và đưa vài trăm gia đình về Trung Quốc. Mã Viện còn cho nấu chảy trống đồng, vật các nhà nghiên cứu coi là biểu tượng quyền của thủ lĩnh Lạc Việt, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua."),
-('don_cuoi',"Phía nhà Hán cũng trả giá. Theo Hậu Hán thư, khi về kinh, quân của Mã Viện đã chết bốn, năm phần mười vì khí độc và dịch bệnh. Nhưng con số này tính cho cả chiến dịch, nên nó không cho ta biết riêng trận đánh với hai bà làm nhà Hán mất bao nhiêu người."),
-('don_cuoi',"Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nghĩ khác những người bỏ đi ấy, ông cho rằng việc hai bà là nữ giới không phải cớ để người nước ta tự coi thường mình."),
-('ket',"Ngô Sĩ Liên, người soạn Toàn thư, ca ngợi khí phách của hai bà và tin rằng linh khí hai bà vẫn che chở dân sau khi mất. Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái chết của họ theo những cách khác nhau."),
-]
-xuat2(S,'tm13',188001)
+# tm13 bản 4 (19/11): viết văn xuôi liền mạch trước (van_xuoi_ban4.txt), rồi chia đoạn theo đoạn văn. Ít dẫn nguồn và phân tích hơn bản 3. Nhãn nhịp chỉ để dựng.
+NH=['hook1','hook2','hook4','goc_re','buoc_ngoat','buoc_ngoat','the_nguy','the_nguy','lan1','diem_thap','cao_trao','chi_tiet_nguoi','don_cuoi','don_cuoi','ket']
+P=[p.strip() for p in open('/tmp/gen/tm13/van_xuoi_ban4.txt',encoding='utf-8').read().split('\n\n') if p.strip()]
+assert len(P)==len(NH),(len(P),len(NH))
+xuat2(list(zip(NH,P)),'tm13',188001)

@@ -1,6 +1,6 @@
 # Dự thảo gộp ba mục ảnh bìa trong `quy-tac/dang-bai-va-bia.md` (18/11/2026)
 
-**Trạng thái: DỰ THẢO, CHỜ CHỦ KÊNH DUYỆT.** `dang-bai-va-bia.md` chưa bị thay. Ba lưu ý của chủ kênh (22:28) đã dùng làm khung: (1) bìa thu hút nhưng không làm sai lệch nội dung lịch sử; (2) chữ dễ đọc trên điện thoại, không nhồi thông tin; (3) tách quy tắc chung khỏi yêu cầu riêng của từng series, không biến một phong cách thành khuôn bắt buộc.
+**Trạng thái: ĐÃ DUYỆT CÓ CHỈNH SỬA NHỎ (18/11/2026 22:36) VÀ ĐÃ THAY VÀO `dang-bai-va-bia.md`.** Ba lưu ý của chủ kênh (22:28) đã dùng làm khung: (1) bìa thu hút nhưng không làm sai lệch nội dung lịch sử; (2) chữ dễ đọc trên điện thoại, không nhồi thông tin; (3) tách quy tắc chung khỏi yêu cầu riêng của từng series, không biến một phong cách thành khuôn bắt buộc.
 
 Ba mục cũ: **M1** "luôn có logo kênh" (24/10), **M2** "bìa dọc 1080×1920 mẫu đã duyệt" (06/11, từ tập "Chín quận" của series Chuyện cai trị ngàn năm), **M3** "đúng cốt truyện và cuốn hút" (10/11, từ bìa #15 Cầu Long Biên). Hai mục không thuộc phạm vi gộp (bài Facebook, giao video) giữ nguyên.
 
@@ -54,7 +54,8 @@ Mỗi video một bìa (không làm nhiều bản cho chủ kênh chọn). Bìa 
 - **Chữ trên bìa khớp điều video chứng minh được.** Không giật tít sai sự thật; khoanh, mũi tên, dấu "?" chỉ vào điều video thật sự kể, không ngụ ý điều video không nói.
 - **Không để người xem hiểu sai thời đại.** Ảnh hiện đại, tranh vẽ về sau hay ảnh dựng không đặt kèm mốc năm theo kiểu như ảnh đương thời.
 - **Một điểm gây tò mò** (điều lạ nhất của video), nhìn thấy ngay trên hình hoặc ở dòng chữ; không dồn khoanh, mũi tên và câu hỏi cùng lúc.
-- Khi giao ghi một dòng: ảnh dùng (tác giả, giấy phép) và vì sao chọn.
+- Tiêu đề bìa phải thống nhất với tiêu đề đăng và câu mở đầu kịch bản về nội dung được hứa hẹn. Có thể diễn đạt ngắn gọn, hấp dẫn hơn nhưng không được tạo ra một câu chuyện khác với nội dung video.
+- Khi giao ghi nguồn hoặc đường dẫn ảnh, tác giả và giấy phép sử dụng (nếu có), cùng lý do chọn ảnh.
 
 ### B2. Chữ và bố cục dễ đọc (quy tắc chung)
 - Thiết kế ảnh bìa theo tỷ lệ 16:9, kích thước chuẩn 1920×1080.
@@ -68,7 +69,8 @@ Mỗi video một bìa (không làm nhiều bản cho chủ kênh chọn). Bìa 
 ### B3. Logo và chuẩn thương hiệu (khung ngang 1920×1080)
 - Mọi bìa có logo cây đèn `assets/logo/nguoi-gac-su.png`, đặt giống logo trong video: vuông 130 px, độ đậm 0,8, góc trên bên phải, cách mép phải 44 px và mép trên 34 px. Không phóng to, không đổ bóng, không bỏ.
 - Không để chữ hay hình đè lên logo. Nếu lấy khung hình bản đồ làm nền thì cắt bỏ khung HUD (hộp năm, chú giải, la bàn, phụ đề) trước khi đặt chữ.
-- Bìa dùng ở nền tảng khác (Facebook, TikTok) cắt hoặc dựng lại từ bản 1920×1080, vẫn giữ logo đúng quy tắc trên bản cắt.
+- Bản 1920×1080 là bản bìa chính. Nếu cần dùng trên nền tảng hoặc định dạng có tỷ lệ khác, phải kiểm tra và thiết kế lại bố cục cho phù hợp; không mặc định cắt ảnh ngang là đủ.
+- Số đo logo (130 px, 44/34 px) là cho khung ngang 1920×1080; nhìn trực quan trên bìa thực tế trước khi chốt.
 
 ### B4. Mẫu riêng của từng series (tham khảo; mẫu dọc chưa dùng cho bìa ngang)
 - **Video bản đồ 16:9** (`assets/bia/NQ1/tao_bia.py`, `python assets/bia/NQ1/tao_bia.py <khung.jpg>`): mẫu duy nhất đã ở khung 1920×1080 (script cũng xuất bản dọc cho TikTok). Dùng làm điểm xuất phát cho bìa ngang; sửa chữ và vùng cắt cho video mới. Cần rà lại theo B1–B3 trước khi dùng (có phù hợp, có nhồi chữ không).
@@ -78,7 +80,7 @@ Mỗi video một bìa (không làm nhiều bản cho chủ kênh chọn). Bìa 
 
 ### B5. Chọn ảnh và kiểm trước khi giao
 - **Chọn ảnh:** xem mọi ảnh ứng viên cạnh nhau. Ưu tiên ảnh toàn cảnh, rõ hình dáng đặc trưng, sáng, không bị che quá một phần ba; chủ thể lớn trong khung ngang. Tránh ảnh cận chi tiết (biển tên, đinh tán), ảnh mờ, ảnh có logo kho ảnh; ảnh chi tiết chỉ dùng khi chính chi tiết đó là điểm gây tò mò.
-- **Kiểm (bắt buộc):** (1) mở bìa 1920×1080 ở cỡ lớn, tự hỏi "chưa biết video, nhìn ảnh này đoán chuyện gì?"; đoán sai hoặc không đoán được thì đổi ảnh; (2) thu nhỏ về cỡ hiển thị gợi ý của YouTube (khoảng 320×180) và kiểm chủ thể vẫn nhận ra, chữ vẫn đọc được, dấu tiếng Việt còn rõ; (3) so hình và chữ với tên video, tiêu đề đăng và câu 1 kịch bản. Không giao khi chưa kiểm.
+- **Kiểm (bắt buộc):** (1) mở bìa 1920×1080 ở cỡ lớn, tự hỏi "chưa biết video, nhìn ảnh này đoán chuyện gì?"; đoán sai hoặc không đoán được thì đổi ảnh; (2) thu nhỏ về cỡ hiển thị gợi ý của YouTube (khoảng 320×180) và kiểm chủ thể vẫn nhận ra, chữ vẫn đọc được, dấu tiếng Việt còn rõ; (3) so hình và chữ với tên video, tiêu đề đăng và câu 1 kịch bản (phải thống nhất, xem B1); (4) ghi nguồn hoặc đường dẫn ảnh, tác giả, giấy phép và lý do chọn. 320×180 chỉ là cỡ kiểm tra thu nhỏ, không phải cỡ xuất ảnh. Không giao khi chưa kiểm.
 
 ## C. Điều bị bỏ hoặc hạ cấp (chủ kênh biết)
 - **Bỏ:** vùng an toàn y 70–1560 và mọi thông số bố cục dành riêng cho ảnh dọc 1080×1920 (chủ kênh 18/11 22:33). Mẫu HAN1 và XK vì thế thành tham khảo, không chuẩn.

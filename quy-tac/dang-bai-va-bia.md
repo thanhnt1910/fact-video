@@ -1,6 +1,6 @@
 # Bài đăng, ảnh bìa, giao video
 
-> Chuyển nguyên văn từ CLAUDE.md, chờ gộp (3 mục ảnh bìa trùng nhau). Nguồn: `archive/CLAUDE-truoc-tai-cau-truc-18-11.md`. Chuyển ngày 18/11/2026.
+> Mục ảnh bìa gộp từ ba mục cũ, chủ kênh duyệt 18/11/2026 (`ke-hoach/ban-nhap-bia-gop-18-11.md`); bản gốc ba mục: `archive/quy-dinh-da-thay-the.md`. Bài Facebook và giao video chuyển nguyên văn từ CLAUDE.md.
 
 ## Bài đăng Facebook (và mọi bài viết đăng mạng): văn phong rõ ràng, mạch lạc, dễ hiểu (chủ kênh yêu cầu 20/10/2026, áp dụng mọi bài post sau)
 
@@ -21,24 +21,39 @@ Người đọc lướt điện thoại, không biết trước chuyện. Bài p
 - Cách gửi: workflow `gui-file-telegram.yml` (ghi đường dẫn vào `ke-hoach/thu-giong-hai/gui_tg.txt`) hoặc `tg_text.py` cho phần chữ. Chỉ chạy khi chủ kênh đã yêu cầu dựng video đó (xem mục Git: workflow chỉ chạy khi được yêu cầu). Gửi xong phải xác nhận tin đã tới, không giả định.
 - Với video dựng trong phiên làm việc này (không qua workflow): gửi file trực tiếp cho chủ kênh trong cuộc trò chuyện, kèm tiêu đề và hashtag trong cùng tin nhắn.
 
-## Ảnh bìa video: luôn có logo kênh, đặt giống video bản đồ (chủ kênh yêu cầu 24/10/2026, áp dụng mọi bìa sau)
-- Mọi ảnh bìa (YouTube, Facebook, TikTok) phải có logo cây đèn `assets/logo/nguoi-gac-su.png`, đặt **giống logo trong video bản đồ** (`mapfilm3.py`): vuông 130 px, độ đậm 0,8, góc trên bên phải, cách mép phải 44 px và mép trên 34 px (khổ 1920 rộng; khổ dọc 1080 dùng cùng cỡ và vị trí). Không phóng to, không đổ bóng, không bỏ.
-- Không để chữ hay hình đè lên logo; khung hình bản đồ lấy làm nền phải cắt bỏ khung HUD (hộp năm, chú giải, la bàn, phụ đề) rồi mới đặt chữ.
-- Mẫu và mã nguồn: `assets/bia/NQ1/tao_bia.py` (chạy `python assets/bia/NQ1/tao_bia.py <khung.jpg>`; sửa chữ và vùng cắt cho video mới). Kiểm bằng cách xem ảnh bìa ở cỡ lớn trước khi giao.
+## Ảnh bìa video
 
-## Ảnh bìa dọc 1080×1920: mẫu đã duyệt, dùng cho mọi video cùng bố cục (chủ kênh duyệt 06/11/2026, từ tập 1 "Chín quận")
-Mẫu ảnh: `assets/bia/HAN1/bia_v3.png`. Mã tạo: `python assets/bia/tao_bia_mau.py <cau_hinh.json> [ra.png]`; cấu hình mẫu `assets/bia/HAN1/bia.json` (chạy lại cho ra đúng ảnh đã duyệt, sai khác 0). Tập mới: sao chép `bia.json` sang `assets/bia/<MÃ>/`, đổi chữ, danh sách điểm (kinh, vĩ), `lon0`, `scale`, `oy`.
-- **Bố cục:** bản đồ địa hình phủ kín khung (`map_relief.jpg`), chấm điểm phát sáng ở nửa trên; thẻ đỏ viền vàng góc trái trên (mốc năm); thẻ trắng nghiêng (triều đại hoặc bên chính); tiêu đề hai dòng giữa ảnh (dòng 1 trắng ngà, dòng 2 vàng, dòng 2 là câu hỏi gây tò mò); thẻ tên loạt và số tập; chân trang thương hiệu "NGƯỜI GÁC SỬ" + khẩu hiệu "LỊCH SỬ THEO CHÍNH SỬ". Logo cây đèn góc trên phải đúng quy tắc logo ở mục "Ảnh bìa video".
-- **Chữ chính nằm trong y 70–1560.** Vùng đáy Facebook/TikTok che; chân trang chỉ là thương hiệu. Không để đáy ảnh đen trơn: bản đồ mờ dần sang xanh biển đậm cùng chân trang.
-- **Tiêu đề chữ Việt phải đọc được ở cỡ điện thoại:** phông Oswald 700 cỡ khoảng 206 px; viền ngoài là LỚP RIÊNG phía sau chữ (không dùng `-webkit-text-stroke` trên chữ chính vì ăn mất dấu); khung chữ có padding trên 50 px dưới 60 px để không cắt dấu dưới (Ạ, Ị); hai dòng cách nhau đủ để dấu mũ dòng dưới không chạm dòng trên. Phông Be Vietnam Pro Black quá nhỏ dấu, Anton dính dấu: không dùng cho tiêu đề.
-- **Tự kiểm trước khi giao:** xem ảnh cắt vùng tiêu đề ở cỡ lớn và bản thu 270×480; mọi dấu phải thấy rõ (dấu chấm dưới Ạ, mũ trên Â/Ô, huyền, sắc). Không giao khi chưa kiểm.
-- Phông (OFL) ở `assets/bia/fonts/`. Mẫu cũ `assets/bia/HAN1/tao_bia.py` (nền khung video) giữ để tham khảo, không dùng cho bố cục mới.
+Mỗi video một bìa (không làm nhiều bản cho chủ kênh chọn). Bìa phải khiến người lạ muốn xem, nhưng điều bìa hứa phải là điều video kể đúng. Mục B1–B3 và B5 là quy tắc chung; B4 là mẫu riêng của từng series, không bắt buộc cho series khác. Thiết kế theo video dài: chủ thể lớn, bố cục rõ, ít chữ, nhận ra được khi thu nhỏ.
 
-## Ảnh bìa video: đúng cốt truyện và cuốn hút (chủ kênh chốt 10/11/2026, từ bìa #15 Cầu Long Biên bị làm chân dung Eiffel; áp dụng mọi bìa từ nay)
-Bổ sung cho mục "Ảnh bìa video", "Ảnh bìa dọc 1080×1920". Mỗi video chỉ MỘT bìa, không làm nhiều bản cho chủ kênh chọn.
-- **Hình phải đúng cốt truyện video đang nói.** Ảnh chính của bìa là chủ thể của video (cầu Long Biên thì ảnh cây cầu, trống đồng thì ảnh trống). KHÔNG đặt chân dung nhân vật làm ảnh bìa khi chủ thể là vật hoặc công trình, KHÔNG có ngoại lệ ("không thêm ngoại lệ", chủ kênh 10/11/2026). Tên người nhắc trên bìa đi vào chữ, không đi vào hình. Chân dung chỉ dùng khi video kể về chính người đó.
-- **Chọn ảnh:** trước khi làm bìa xem mọi ảnh ứng viên cạnh nhau. Chọn ảnh toàn cảnh, rõ hình dáng đặc trưng, sáng, không bị che quá một phần ba; người lạ nhìn 1 giây phải đoán được chủ đề. Tránh ảnh cận chi tiết (biển tên, đinh tán), ảnh mờ, ảnh có logo kho ảnh. Ảnh chi tiết chỉ dùng khi chính chi tiết đó là điểm gây tò mò.
-- **Bìa phải cuốn hút, gây tò mò, không chỉ minh họa.** Mỗi bìa có MỘT điểm gây tò mò nhìn thấy ngay trên hình: khoanh đỏ vào đúng chỗ của câu hỏi chính kèm dấu "?" (trường `hook=dict(cx, cy, r, q)` trong `assets/bia/XK/tao_bia.py`, tọa độ theo khung 1080×1920), hoặc mũi tên, dấu X đỏ, hình đối lập. Chữ dòng 1 nêu chủ thể, dòng 2 là câu hỏi hoặc điều lạ nhất của video (tối đa 4 chữ mỗi dòng, 2 dòng). Dòng chữ phải khớp điều video sẽ chứng minh; không giật tít sai sự thật. Ảnh được tăng nhẹ tương phản và màu (đã đặt sẵn trong `tao_bia.py`) để nổi hơn trên nền tối.
-- **Khai báo `chu_the`** (vật trong ảnh) trong mục cấu hình bìa; chỉ giao khi `chu_the` khớp tên video. Thẻ tên nhỏ trên ảnh (như "CẦU LONG BIÊN") phải đúng vật trong ảnh.
-- **Bố cục và logo giữ nguyên mẫu đã duyệt** (logo cây đèn, số tập, chữ trong y 70–1560, đáy chỉ thương hiệu). Vòng khoanh và dấu "?" không che chủ thể và không đè logo, thẻ năm, thẻ tên.
-- **Kiểm trước khi giao (bắt buộc):** mở bìa ở cỡ lớn, tự hỏi "chưa biết video, nhìn ảnh này đoán chuyện gì?"; đoán sai hoặc không đoán được thì đổi ảnh. So hình, chữ với tên video và câu 1 kịch bản; kiểm dấu tiếng Việt ở cỡ 270×480. Khi giao ghi một dòng: ảnh dùng (tác giả, giấy phép) và vì sao chọn.
+### B1. Đúng nội dung (quy tắc chung, ưu tiên cao nhất của bìa)
+- **Hình là chủ thể của video** (cầu Long Biên thì ảnh cây cầu, trống đồng thì ảnh trống). Không dùng chân dung nhân vật làm ảnh bìa khi chủ thể là vật hoặc công trình, không có ngoại lệ (chủ kênh 10/11/2026). Tên người nhắc trên bìa đi vào chữ, không đi vào hình. Chân dung chỉ dùng khi video kể về chính người đó.
+- **Chữ trên bìa khớp điều video chứng minh được.** Không giật tít sai sự thật; khoanh, mũi tên, dấu "?" chỉ vào điều video thật sự kể, không ngụ ý điều video không nói.
+- **Không để người xem hiểu sai thời đại.** Ảnh hiện đại, tranh vẽ về sau hay ảnh dựng không đặt kèm mốc năm theo kiểu như ảnh đương thời.
+- **Một điểm gây tò mò** (điều lạ nhất của video), nhìn thấy ngay trên hình hoặc ở dòng chữ; không dồn khoanh, mũi tên và câu hỏi cùng lúc.
+- Tiêu đề bìa phải thống nhất với tiêu đề đăng và câu mở đầu kịch bản về nội dung được hứa hẹn. Có thể diễn đạt ngắn gọn, hấp dẫn hơn nhưng không được tạo ra một câu chuyện khác với nội dung video.
+- Khi giao ghi nguồn hoặc đường dẫn ảnh, tác giả và giấy phép sử dụng (nếu có), cùng lý do chọn ảnh.
+
+### B2. Chữ và bố cục dễ đọc (quy tắc chung)
+- Thiết kế ảnh bìa theo tỷ lệ 16:9, kích thước chuẩn 1920×1080.
+- Tiêu đề tối đa hai dòng, ngắn gọn, ưu tiên khoảng 3–6 từ nếu phù hợp.
+- Chủ thể chính phải nhận ra ngay khi ảnh thu nhỏ.
+- Chữ có tương phản rõ với nền, dấu tiếng Việt đầy đủ, không bị cắt hoặc chạm vào nhau (dấu chấm dưới Ạ, Ị; mũ trên Â, Ô; huyền, sắc). Kỹ thuật gợi ý: viền chữ là lớp riêng phía sau chữ, không dùng `-webkit-text-stroke` trên chữ chính; padding đủ để không cắt dấu dưới; hai dòng cách nhau đủ để dấu dòng dưới không chạm dòng trên.
+- Ngoài tiêu đề chỉ giữ logo, thẻ mốc năm hoặc thương hiệu khi thực sự cần thiết.
+- Không nhồi số liệu, đoạn mô tả hoặc nhiều điểm gây chú ý cùng lúc.
+- Phông và cỡ chữ là gợi ý, chọn theo kích thước chủ thể; thử Oswald 700 (OFL, ở `assets/bia/fonts/`) cỡ đủ lớn để đọc ở kích thước thu nhỏ. Be Vietnam Pro Black quá nhỏ dấu, Anton dính dấu: không dùng cho tiêu đề (kinh nghiệm từ bìa dọc, cần thử lại ở khung ngang).
+
+### B3. Logo và chuẩn thương hiệu (khung ngang 1920×1080)
+- Mọi bìa có logo cây đèn `assets/logo/nguoi-gac-su.png`, đặt giống logo trong video: vuông 130 px, độ đậm 0,8, góc trên bên phải, cách mép phải 44 px và mép trên 34 px. Không phóng to, không đổ bóng, không bỏ.
+- Không để chữ hay hình đè lên logo. Nếu lấy khung hình bản đồ làm nền thì cắt bỏ khung HUD (hộp năm, chú giải, la bàn, phụ đề) trước khi đặt chữ.
+- Bản 1920×1080 là bản bìa chính. Nếu cần dùng trên nền tảng hoặc định dạng có tỷ lệ khác, phải kiểm tra và thiết kế lại bố cục cho phù hợp; không mặc định cắt ảnh ngang là đủ.
+- Số đo logo (130 px, 44/34 px) là cho khung ngang 1920×1080; nhìn trực quan trên bìa thực tế trước khi chốt.
+
+### B4. Mẫu riêng của từng series (tham khảo; mẫu dọc chưa dùng cho bìa ngang)
+- **Video bản đồ 16:9** (`assets/bia/NQ1/tao_bia.py`, `python assets/bia/NQ1/tao_bia.py <khung.jpg>`): mẫu duy nhất đã ở khung 1920×1080 (script cũng xuất bản dọc cho TikTok). Dùng làm điểm xuất phát cho bìa ngang; sửa chữ và vùng cắt cho video mới. Cần rà lại theo B1–B3 trước khi dùng (có phù hợp, có nhồi chữ không).
+- **Chuyện cai trị ngàn năm** (tạm dừng): mẫu `assets/bia/HAN1/bia_v3.png` và `assets/bia/tao_bia_mau.py` là KHUNG DỌC 1080×1920, không dùng cho bìa ngang. Giữ làm tham khảo ý tưởng (thẻ mốc năm, thẻ triều đại, tiêu đề hai dòng, chân trang thương hiệu); khi series chạy lại thì làm mẫu ngang mới.
+- **Bí mật biểu tượng** (`assets/bia/XK/tao_bia.py`): mẫu dọc 1080×1920, vòng khoanh đỏ kèm "?" (`hook=dict(cx, cy, r, q)`), khai báo `chu_the` khớp tên video. Chưa có mẫu ngang; ý "một điểm gây tò mò, khoanh đúng chỗ video kể" là phong cách của loạt, không phải khuôn của series khác.
+- Series khác (thủy mặc, Sengoku, Tên tỉnh thành…): tự thiết kế theo B1–B3 ở 1920×1080, không bắt chước mẫu của series khác; có mẫu riêng thì ghi vào đây khi chủ kênh duyệt.
+
+### B5. Chọn ảnh và kiểm trước khi giao
+- **Chọn ảnh:** xem mọi ảnh ứng viên cạnh nhau. Ưu tiên ảnh toàn cảnh, rõ hình dáng đặc trưng, sáng, không bị che quá một phần ba; chủ thể lớn trong khung ngang. Tránh ảnh cận chi tiết (biển tên, đinh tán), ảnh mờ, ảnh có logo kho ảnh; ảnh chi tiết chỉ dùng khi chính chi tiết đó là điểm gây tò mò.
+- **Kiểm (bắt buộc):** (1) mở bìa 1920×1080 ở cỡ lớn, tự hỏi "chưa biết video, nhìn ảnh này đoán chuyện gì?"; đoán sai hoặc không đoán được thì đổi ảnh; (2) thu nhỏ về cỡ hiển thị gợi ý của YouTube (khoảng 320×180) và kiểm chủ thể vẫn nhận ra, chữ vẫn đọc được, dấu tiếng Việt còn rõ; (3) so hình và chữ với tên video, tiêu đề đăng và câu 1 kịch bản (phải thống nhất, xem B1); (4) ghi nguồn hoặc đường dẫn ảnh, tác giả, giấy phép và lý do chọn. 320×180 chỉ là cỡ kiểm tra thu nhỏ, không phải cỡ xuất ảnh. Không giao khi chưa kiểm.

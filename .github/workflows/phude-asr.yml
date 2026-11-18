@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.email noreply@anthropic.com; git config user.name Claude
           read NAME _ < <(head -1 ke-hoach/thu-giong-hai/asr.txt)
-          git add phim_ban_do/asr_log.txt phim_ban_do/asr_${NAME}.json phim_ban_do/asr_${NAME}.json.h.json phim_ban_do/asr_${NAME}_ngoai.json 2>/dev/null || true
+          git add phim_ban_do/asr_log.txt phim_ban_do/asr_${NAME}.json phim_ban_do/asr_${NAME}.json.h.json phim_ban_do/asr_${NAME}_ngoai.json phim_ban_do/asr_${NAME}_ngoai.json.h.json 2>/dev/null || true
           git commit -q -m "Mốc từng chữ từ nhận dạng giọng" || exit 0
           git push -q || { git pull -q --rebase && git push -q; }
       - uses: actions/upload-artifact@v4

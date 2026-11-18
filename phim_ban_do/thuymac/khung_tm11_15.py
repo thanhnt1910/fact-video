@@ -12,7 +12,7 @@ TT='Toàn thư'
 lam('tm11',dict(ten='Dương Đình Nghệ lấy lại Đại La 931',n_hua=2,loi_hua='hai thứ: ba nghìn người con nuôi, và một viên tướng thân cận trở mặt',
  cau_hoi='Vì sao thành Đại La phải lấy lại tới hai lần?',soi_chi=['Đại La'],hinh_anh=['Đại La'],dem=['thứ đầu tiên','thứ hai']),{
  'hook1':('Nhắc chuyện thắng Nam Hán người ta chỉ nhớ Ngô Quyền, Bạch Đằng','kiểu mở "sự thật bị hiểu nhầm"'),
- 'hook2':('Bảy năm trước Bạch Đằng, Nam Hán đã bị đuổi khỏi Đại La','Toàn thư (931)'),
+ 'hook2':('Trước trận Bạch Đằng, Nam Hán đã bị đuổi khỏi Đại La một lần','Toàn thư (931)'),
  'hook3':('Dương Đình Nghệ cầm quân, cha vợ Ngô Quyền',TT),
  'hook4':('Vì sao Đại La phải lấy lại hai lần? Con nuôi và người trở mặt','lời hứa'),
  'goc_re':('Nhà Đường sụp; họ Khúc tự chủ; Nam Hán ở Quảng Đông muốn chiếm','Toàn thư, Tân Ngũ đại sử'),

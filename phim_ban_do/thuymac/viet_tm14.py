@@ -3,7 +3,7 @@ import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
 S=[
 ('hook1',"Giữa trưa, năm chiếc ghe nhỏ lặng lẽ áp sát một chiếc tàu có súng của quân Pháp."),
 ('hook2',"Người trên ghe không có súng, chỉ có dao và giáo. Ít lâu sau, chiếc tàu ấy bốc cháy trên sông."),
-('hook3',"Dẫn đầu là Nguyễn Trung Trực, con một nhà làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc."),
+('hook3',"Dẫn đầu là Nguyễn Trung Trực, con một nhà chài lưới. Bảy năm sau trận ấy, ông để lại một câu nói về cỏ mà người miền Nam còn nhắc."),
 ('hook4',"Làm sao mấy chiếc ghe nhỏ đốt được con tàu ấy? Có hai thứ sẽ kể lại, một cách giả làm ghe buôn, và một câu nói về cỏ."),
 ('goc_re',"Chuyện xảy ra hơn một trăm sáu mươi năm trước, ở vùng Long An bây giờ. Khi ấy quân Pháp đã nổ súng đánh nước ta, chiếm dần các tỉnh miền Nam."),
 ('goc_re',"Họ muốn biến đất này thành thuộc địa, đất do nước Pháp cai trị. Đầu năm ấy, đại đồn Chí Hòa ở Sài Gòn vỡ, quân triều đình nhà Nguyễn phải rút."),

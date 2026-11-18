@@ -1,6 +1,6 @@
 # tm14: Nguyễn Trung Trực đốt tàu Hy Vọng ở Nhật Tảo 1861 (lời đọc theo khung, gửi duyệt)
 
-26 đoạn, 668 chữ, khoảng 3.6 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+26 đoạn, 667 chữ, khoảng 3.6 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói về cỏ**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "cỏ".
 
 ## Kịch bản (theo nhịp)
@@ -15,7 +15,7 @@ Lời hứa: **hai thứ: một cách giả làm ghe buôn, và một câu nói 
 
 **Hook 3** (mốc 6%)
 
-3. Dẫn đầu là Nguyễn Trung Trực, con một nhà làm nghề chài lưới. Bảy năm sau, ông để lại một câu nói về cỏ mà người miền Nam vẫn còn nhắc.
+3. Dẫn đầu là Nguyễn Trung Trực, con một nhà chài lưới. Bảy năm sau trận ấy, ông để lại một câu nói về cỏ mà người miền Nam còn nhắc.
 
 **Hook 4** (mốc 10%)
 
@@ -124,7 +124,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 8 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 7 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 4 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

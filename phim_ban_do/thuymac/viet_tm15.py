@@ -9,7 +9,7 @@ S=[
 ('goc_re',"Cớ để ra Bắc là một lái buôn người Pháp tên Jean Dupuis. Ông ta chở vũ khí và muối ngược sông Hồng, trái lệnh cấm của triều đình nhà Nguyễn."),
 ('goc_re',"Triều đình nhờ người Pháp ở Sài Gòn đưa Dupuis đi. Viên đô đốc Pháp ở đó sai Garnier ra Hà Nội, mang theo khoảng hai trăm lính và hai chiếc tàu."),
 ('goc_re',"Nhưng tới nơi, Garnier lại đứng về phía Dupuis, rồi tính chuyện dùng quân để ép triều đình."),
-('the_nguy',"Thứ đầu tiên là thành Hà Nội. Rạng sáng hai mươi tháng mười một, Garnier đánh thành, trong khi trong thành có khoảng bảy nghìn quân giữ."),
+('the_nguy',"Thứ đầu tiên là thành Hà Nội. Rạng sáng hai mươi tháng mười một năm một nghìn tám trăm bảy mươi ba, Garnier đánh thành có bảy nghìn quân giữ."),
 ('the_nguy',"Chỉ trong một buổi sáng, thành mất. Vị tướng già giữ thành là Nguyễn Tri Phương bị thương nặng và bị bắt, con trai ông chết trận."),
 ('the_nguy',"Theo sử triều Nguyễn, ông không chịu để quân Pháp chữa vết thương, nhịn ăn cho tới khi mất."),
 ('the_nguy',"Rồi chỉ trong vài tuần, quân của Garnier chiếm thêm năm tỉnh thành quanh Hà Nội, từ Hưng Yên, Hải Dương tới Ninh Bình, Nam Định."),

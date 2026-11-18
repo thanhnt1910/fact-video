@@ -112,6 +112,8 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 - **Có một sợi chỉ nối mạch:** mỗi đoạn mở bằng hệ quả của đoạn trước. Ví dụ ở tm3: kế hoạch có chỗ yếu, rồi bị đánh đúng vào chỗ yếu, rồi đoàn thuyền không tới, rồi phải tự bắc cầu, rồi không qua được, rồi đứng chờ, đói và bệnh, rồi bị đánh vào trại.
 - **Hình ảnh xuyên suốt** có thể lấy từ một câu nói có thật ("dễ như bẻ cành khô"). Hình ảnh ấy gieo ở hook, hiện lại ở mỗi lần đếm, rồi khép ở câu kết.
 
+- **Mốc thời gian không dựa vào tập khác (chủ kênh nhắc 18/11/2026, tm11).** Mỗi tập xem riêng, nên không viết kiểu "bảy năm trước Bạch Đằng": người xem dễ hiểu là bảy năm trước ngày nay. Mốc tương đối chỉ dùng khi mốc gốc đã nói rõ trong chính tập đó ("sáu năm sau" sau khi đã nêu năm chín trăm ba mươi mốt); ngày tháng của trận chính phải kèm năm.
+
 ### 3.3 Hồ sơ gửi duyệt
 - **Từ 17/11/2026: trước khi viết lời, gửi bảng khung theo `quy-tac/thuy-mac-khung.md` (khung nhịp cố định, năm điểm nhấn, bộ kiểm `kiem_khung.py`). Chủ kênh duyệt khung rồi mới viết lời.**
 - File `ke-hoach/<mã>-<tên>-gui-duyet.md` gồm các phần sau:

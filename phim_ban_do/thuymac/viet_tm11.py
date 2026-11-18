@@ -2,7 +2,7 @@ import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
 # tm11: Dương Đình Nghệ lấy lại Đại La 931. Mở đầu kiểu "sự thật bị hiểu nhầm".
 S=[
 ('hook1',"Nhắc tới chuyện đánh thắng quân nhà Nam Hán, người ta thường chỉ nhớ Ngô Quyền và sông Bạch Đằng."),
-('hook2',"Nhưng bảy năm trước Bạch Đằng, quân nhà Nam Hán đã từng bị đuổi khỏi thành Đại La, tức Hà Nội ngày nay."),
+('hook2',"Nhưng trước trận Bạch Đằng ấy, quân nhà Nam Hán đã từng một lần bị đuổi khỏi thành Đại La, tức Hà Nội ngày nay."),
 ('hook3',"Người cầm quân lần ấy là Dương Đình Nghệ, một tướng cũ ở Ái Châu, tức Thanh Hóa bây giờ, cũng là cha vợ của Ngô Quyền."),
 ('hook4',"Vì sao thành Đại La phải lấy lại tới hai lần? Có hai thứ sẽ kể lại, ba nghìn người con nuôi, và một viên tướng thân cận trở mặt."),
 ('goc_re',"Chuyện xảy ra hơn một nghìn năm trước. Khi ấy nước ta đã bị phương bắc cai trị rất lâu, còn nhà Đường bên Trung Hoa vừa sụp đổ."),

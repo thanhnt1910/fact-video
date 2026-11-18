@@ -1,6 +1,6 @@
 # tm11: Dương Đình Nghệ lấy lại Đại La 931 (lời đọc theo khung, gửi duyệt)
 
-26 đoạn, 634 chữ, khoảng 3.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+26 đoạn, 636 chữ, khoảng 3.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng thân cận trở mặt**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "Đại La".
 
 ## Kịch bản (theo nhịp)
@@ -11,7 +11,7 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 
 **Hook 2** (mốc 3%)
 
-2. Nhưng bảy năm trước Bạch Đằng, quân nhà Nam Hán đã từng bị đuổi khỏi thành Đại La, tức Hà Nội ngày nay.
+2. Nhưng trước trận Bạch Đằng ấy, quân nhà Nam Hán đã từng một lần bị đuổi khỏi thành Đại La, tức Hà Nội ngày nay.
 
 **Hook 3** (mốc 7%)
 

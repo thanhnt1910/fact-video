@@ -1,6 +1,6 @@
 # tm15: Trận Cầu Giấy 1873 (lời đọc theo khung, gửi duyệt)
 
-25 đoạn, 623 chữ, khoảng 3.3 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+25 đoạn, 626 chữ, khoảng 3.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai thứ: một tòa thành mất trong một buổi sáng, và một bản hòa ước ký sau trận thắng**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "Cầu Giấy".
 
 ## Kịch bản (theo nhịp)
@@ -30,12 +30,12 @@ Lời hứa: **hai thứ: một tòa thành mất trong một buổi sáng, và 
 
 **Thế nguy** (mốc 32%)
 
-9. Thứ đầu tiên là thành Hà Nội. Rạng sáng hai mươi tháng mười một, Garnier đánh thành, trong khi trong thành có khoảng bảy nghìn quân giữ.
+9. Thứ đầu tiên là thành Hà Nội. Rạng sáng hai mươi tháng mười một năm một nghìn tám trăm bảy mươi ba, Garnier đánh thành có bảy nghìn quân giữ.
 10. Chỉ trong một buổi sáng, thành mất. Vị tướng già giữ thành là Nguyễn Tri Phương bị thương nặng và bị bắt, con trai ông chết trận.
 11. Theo sử triều Nguyễn, ông không chịu để quân Pháp chữa vết thương, nhịn ăn cho tới khi mất.
 12. Rồi chỉ trong vài tuần, quân của Garnier chiếm thêm năm tỉnh thành quanh Hà Nội, từ Hưng Yên, Hải Dương tới Ninh Bình, Nam Định.
 
-**★ Điểm thấp nhất** (mốc 48%)
+**★ Điểm thấp nhất** (mốc 49%)
 
 13. Vài trăm lính Pháp đã nắm gần hết đồng bằng Bắc Bộ. Nhìn lúc ấy, miền Bắc tưởng như sắp đi theo con đường của miền Nam.
 

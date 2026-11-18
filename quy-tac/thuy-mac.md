@@ -64,6 +64,16 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 - **Nhịp kể:** câu ngắn khi hành động, câu dài hơn khi giải thích. Gọi đúng tên phe theo thời (năm 938 là "quân của Ngô Quyền", chưa phải "quân Đại Việt"). Không nói tắt ("thủy triều rút xuống", không "nước rút").
 - **Hài:** chỉ nhắm vào tình huống hoặc phía xâm lược, không đùa anh hùng dân tộc (`su-viet.md`).
 
+### 3.3b Người chưa biết sử cũng phải hiểu (chủ kênh nhận xét tm5–tm10, 18/11/2026)
+Một số tập mơ hồ với người không nhớ sử. Mỗi video phải tự đứng được, không dựa vào tập trước hay kiến thức sách giáo khoa.
+- **Trước khi vào trận (trong khoảng 90 giây đầu) phải trả lời đủ ba câu:** ai đánh ai; vì sao họ đánh nhau; chuyện xảy ra lúc nào, ở đâu (kèm một mốc người nghe quen, ví dụ "hơn bảy trăm năm trước", "vùng Lạng Sơn bây giờ").
+- **Không dựa vào tập trước.** Câu như "Ba năm trước, quân nhà Nguyên đã tháo chạy" (tm6) hay "Vương Thông thua ở Tốt Động" (tm8) phải kèm một câu tóm chuyện trước đó.
+- **Mỗi tên người lần đầu nhắc phải có một cụm cho biết là ai và thuộc phe nào**: "Thoát Hoan, con trai hoàng đế nhà Nguyên"; "Lê Chiêu Thống, vị vua cuối cùng của nhà Lê". Mỗi phe chỉ gọi tên tối đa ba người; người phụ gọi bằng vai trò ("một viên tướng nhà Minh"). tm7 có tới chín tên người, quá nhiều.
+- **Phe phái rối thì có một đoạn "ai đứng về phía ai"** trước khi kể diễn biến (tm9: chúa Nguyễn, nhà Tây Sơn, nước Xiêm; tm10: nhà Lê, nhà Tây Sơn, nhà Thanh). Màn hình hiện thẻ tên phe.
+- **Không dùng tên gọi chỉ dân học sử biết** mà không giải thích: Bắc Hà, Đông Quan, Thượng hoàng, Chiêm Thành, Gia Định… lần đầu phải kèm nghĩa ("Đông Quan, tức Hà Nội ngày nay").
+- **Kế sách phải giải thích cơ chế bằng lời thường trước khi đánh** (vì sao cọc chỉ lộ ra khi thủy triều rút; vì sao ván phủ rơm ướt cản được tên lửa).
+- **Kiểm trước khi giao:** đọc lại như người chưa học sử; ghi vào "Ghi chú độ chắc" bảng ba câu hỏi (ai, vì sao, lúc nào ở đâu) với số đoạn trả lời, và danh sách tên người kèm cụm giới thiệu.
+
 ### 3.4 Lời kể kiểu nói chuyện, giữ độ gay cấn tới cuối (chủ kênh góp ý tập 2, 17/11/2026)
 - **Viết như kể miệng.** Câu ngắn, từ thường ngày ("nóng ruột", "chắc ăn", "ai biết công cho"). Tham khảo cách sách giáo khoa kể thẳng sự việc. Không viết giọng dịch nguyên từ sách sử.
 - **Không nhắc nguồn liên tục trong lời đọc.** Không lặp "sử nhà Tống chép", "sử nước ta chép". Cả video tối đa một hai lần "theo sử cũ", và chỉ ở chỗ cần phân biệt. Chỗ các nguồn chép khác nhau thì để ở "Ghi chú độ chắc".

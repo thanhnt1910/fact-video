@@ -22,7 +22,7 @@ lam('tm11',dict(ten='Dương Đình Nghệ lấy lại Đại La 931',n_hua=2,lo
  'lan1':('Lý Tiến cầu cứu rồi bỏ thành chạy về; Đại La lần đầu',TT),
  'lang':('Quân cứu viện Trình Bảo kéo sang',TT),
  'cao_trao':('Đình Nghệ ra đánh, chém Trình Bảo',TT),
- 'chi_tiet_nguoi':('Gả con gái cho Ngô Quyền, giao giữ Ái Châu','Toàn thư (kỷ nhà Ngô)'),
+ 'chi_tiet_nguoi':('Thắng trận, ở lại Đại La; giao Ái Châu cho Ngô Quyền, người ông gả con gái cho','Toàn thư (kỷ nhà Ngô)'),
  'don_cuoi':('Tự xưng Tiết độ sứ 6 năm; 937 Kiều Công Tiễn giết (thứ hai); Ngô Quyền giết Công Tiễn, lấy lại Đại La lần hai',TT),
  'ket':('Bạch Đằng có gốc từ Đại La năm ấy','diễn giải, nói rõ là cách nhìn')})
 lam('tm12',dict(ten='Triệu Quang Phục ở đầm Dạ Trạch 546–550',n_hua=3,loi_hua='ba thứ: một cái đầm, những chiếc thuyền độc mộc, và một lệnh gọi về',

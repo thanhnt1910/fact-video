@@ -1,6 +1,6 @@
 # tm11: Dương Đình Nghệ lấy lại Đại La 931 (lời đọc theo khung, gửi duyệt)
 
-24 đoạn, 589 chữ, khoảng 3.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
+24 đoạn, 598 chữ, khoảng 3.2 phút. Giọng dự kiến: Charon, hồ sơ C, đọc cả video một lần. Chưa đọc giọng.
 Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng thân cận trở mặt**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "Đại La".
 
 ## Kịch bản (theo nhịp)
@@ -27,7 +27,7 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 6. Nhân lúc ấy, họ Khúc, một dòng hào trưởng ở vùng Hải Dương bây giờ, đứng ra tự lo việc nước, không nghe lệnh người phương bắc nữa.
 7. Sát biên giới phía bắc lại có nhà Nam Hán, một nước nhỏ ở vùng Quảng Đông bây giờ, muốn chiếm lấy đất này.
 
-**Thế nguy** (mốc 32%)
+**Thế nguy** (mốc 31%)
 
 8. Năm chín trăm ba mươi, quân nhà Nam Hán tràn sang, bắt người đứng đầu họ Khúc đem về nước.
 9. Rồi vua Nam Hán sai viên quan Lý Tiến sang giữ thành Đại La. Đất nước vừa tự lo việc mình hơn hai mươi năm, lại có quan phương bắc cai quản.
@@ -36,34 +36,34 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 
 10. Họ Khúc đã mất, chưa ai đứng ra cầm quân. Nhìn lúc ấy, thành Đại La tưởng như đã về hẳn tay nhà Nam Hán.
 
-**Bước ngoặt** (mốc 45%)
+**Bước ngoặt** (mốc 44%)
 
 11. Nhưng ở Ái Châu, Dương Đình Nghệ, vốn là tướng cũ của họ Khúc, chưa chịu thua.
 12. Thứ đầu tiên là ba nghìn người con nuôi. Theo sử cũ, ông nhận ba nghìn trai tráng làm con nuôi, để mưu lấy lại đất cũ.
 13. Có thể hiểu, nhận làm con nuôi là cách buộc những trai tráng ấy vào ông như người trong nhà, chứ đâu phải lính ăn lương.
 14. Năm chín trăm ba mươi mốt, ông đem đạo quân ấy ra bắc, vây chặt thành Đại La.
 
-**Lần 1** (mốc 60%)
+**Lần 1** (mốc 59%)
 
 15. Lý Tiến ở trong thành sợ hãi, vội gửi thư về cầu cứu vua Nam Hán.
 16. Quân cứu chưa kịp tới, Lý Tiến đã bỏ thành chạy về nước. Đại La lần đầu được lấy lại.
 
-**★ Đoạn lặng** (mốc 66%)
+**★ Đoạn lặng** (mốc 65%)
 
 17. Thế nhưng vua Nam Hán chưa chịu buông. Một đạo quân cứu viện do tướng Trình Bảo cầm đầu vẫn đang kéo sang, nhắm thẳng tòa thành vừa mất.
 
-**Cao trào** (mốc 71%)
+**Cao trào** (mốc 70%)
 
 18. Dương Đình Nghệ không ngồi chờ trong thành. Ông đem quân ra đón đánh đạo quân của Trình Bảo.
 19. Quân nhà Nam Hán vỡ trận. Chính Trình Bảo bị chém ngay giữa trận, quân cứu viện tan chạy về nước.
 
-**★ Chi tiết con người** (mốc 77%)
+**★ Chi tiết con người** (mốc 76%)
 
-20. Ông gả con gái cho Ngô Quyền, và giao cho người con rể ấy giữ Ái Châu, quê nhà của mình.
+20. Thắng trận, Dương Đình Nghệ ở lại thành Đại La lo việc cả vùng. Còn Ái Châu, quê nhà của ông, ông giao cho Ngô Quyền, người ông gả con gái cho.
 
-**Dồn cuối** (mốc 81%)
+**Dồn cuối** (mốc 82%)
 
-21. Dương Đình Nghệ tự xưng Tiết độ sứ, tức người đứng đầu việc cai quản cả vùng, và lo việc nước được sáu năm.
+21. Ông tự xưng Tiết độ sứ, tức người đứng đầu việc cai quản cả vùng, và lo việc nước được sáu năm.
 22. Thứ hai là một người bên cạnh. Năm chín trăm ba mươi bảy, Kiều Công Tiễn, một nha tướng thân cận của ông, giết ông để cướp quyền.
 23. Kiều Công Tiễn còn sai người sang cầu cứu nhà Nam Hán. Ngô Quyền từ Ái Châu kéo quân ra, giết Kiều Công Tiễn, lấy lại Đại La lần thứ hai.
 
@@ -77,7 +77,7 @@ Lời hứa: **hai thứ: ba nghìn người con nuôi, và một viên tướng
 2. Điểm thấp nhất: đoạn 10.
 3. Đoạn lặng trước cao trào: đoạn 17.
 4. Chi tiết con người: đoạn 20.
-5. Câu kết quay về hình ảnh mở đầu: hình ảnh xuất hiện ở đoạn 2, 4, 9, 10, 14, 16, 23, 24.
+5. Câu kết quay về hình ảnh mở đầu: hình ảnh xuất hiện ở đoạn 2, 4, 9, 10, 14, 16, 20, 23, 24.
 
 ## Ba phương án hook
 
@@ -121,7 +121,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 4 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 6 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 3 ⚠️
 - `kiem_mo_dau.py`: ⚠️ 7 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

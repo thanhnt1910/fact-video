@@ -20,7 +20,7 @@ def cannon(m,t0,g=.6):
 cannon=_guard(cannon)
 def battle(m,a,b,g=1.0,arrows=10):
     war_drums(m,a,b,.5*g,.45);volley(m,a+.2,b,arrows,.3*g);shouts(m,a+.3,min(3.5,b-a),.45*g);clangs(m,a+.5,b,5,.3*g)
-def voice_mix(M,Ts,files,duck=.55,cuts=None):
+def voice_mix(M,Ts,files,duck=.7,cuts=None):
     v=np.zeros(M.N,np.float32)
     for k,(t0,f) in enumerate(zip(Ts,files)):
         cut=['-ss',f'{cuts[k][0]:.3f}','-to',f'{cuts[k][1]:.3f}'] if cuts else []
@@ -34,7 +34,7 @@ def write_mix(M,v,d,path):
     for x in (L,R): x[:f]*=np.linspace(0,1,f);x[-f:]*=np.linspace(1,0,f)
     L=lp(L,11000);R=lp(R,11000)
     vr=np.sqrt(np.mean(v[np.abs(v)>1e-3]**2))
-    st=np.stack([L,R],1);sr=np.sqrt(np.mean(st**2))+1e-9;st=st/sr*vr*.32
+    st=np.stack([L,R],1);sr=np.sqrt(np.mean(st**2))+1e-9;st=st/sr*vr*.2
     hr=np.maximum(0,.99-np.abs(v))[:,None];st=np.clip(st,-hr,hr)
     out=np.clip(st+v[:,None],-1,1)
     with wave.open(path,'wb') as w: w.setnchannels(2);w.setsampwidth(2);w.setframerate(SR);w.writeframes((out*32767).astype(np.int16).tobytes())

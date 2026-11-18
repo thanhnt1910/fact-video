@@ -157,3 +157,8 @@ Chủ kênh quyết bỏ. Lý do: mâu thuẫn với `giong-van.md` mục 1 (vi�
 > - **Tự kiểm trước khi đọc giọng:** lập bảng đoạn → câu hỏi (1–6) nó trả lời. Đoạn nào không thuộc câu hỏi nào thì bỏ hoặc gộp; câu hỏi nào không có đoạn nào thì bổ sung hoặc ghi lý do bỏ. Ghi bảng này vào mục "Ghi chú độ chắc" để chủ kênh duyệt.
 > - **Video dọc ngắn:** vẫn dùng khung, nhưng chỉ chọn câu 1, 2 và một trong 3 hoặc 5 làm trục; các câu còn lại nằm ở phần mô tả hoặc ở video khác trong loạt.
 > - Khung này bổ sung, không thay thế các quy tắc về nguồn, giọng kể, bố cục cuốn hút, họ tên đủ và đoạn ngắn cho giọng đọc ở các mục trên.
+
+## 18/11/2026: bỏ giới hạn 32 chữ và 2 câu mỗi đoạn; thêm yêu cầu kể kèm phân tích
+- Bỏ: "mỗi đoạn tối đa 32 chữ và 2 câu" (CLAUDE.md mục 6, `nguyen-tac-cot-loi.md` mục 10, `giong-van.md`, `thuy-mac-khung.md`, `thuy-mac.md`) và phần kiểm tương ứng trong `phim_ban_do/kiem_kich_ban.py` (❌ quá 32 chữ, ❌ quá 2 câu, ⚠️ dưới 12 chữ).
+- Vì sao: chủ kênh thấy giới hạn làm kịch bản thành vài câu cụt, không đủ chỗ cho phân tích. Lý do cũ ("để giọng không bỏ chữ") giữ làm rủi ro cần kiểm bằng nhận dạng giọng, không còn là luật cứng; từ 17/11 cả video đọc một lần.
+- Thêm: kể lịch sử kèm phân tích, trong ngưỡng năm điều kiện của `giong-van.md`.

@@ -27,7 +27,7 @@ Kể như người kể chuyện nói với bạn mình, cho người chưa bi�
 - Không giải nghĩa kiểu từ điển: gộp lời giải vào chính câu. Dùng "tức là", "nghĩa là" khi đó là cách nghe tự nhiên nhất.
 - Chi tiết cụ thể có nguồn thay lời khen chung chung ("đánh đâu thắng đó nên được gọi là Vạn Thắng Vương", không "ông là người tài giỏi").
 - Đoạn ngắn, dễ nghe, có chỗ nghỉ tự nhiên. Khoảng 15–30 chữ chỉ là tham khảo, không chấm lỗi.
-- 32 chữ và 2 câu mỗi đoạn là giới hạn kỹ thuật của giọng đọc, do `kiem_kich_ban.py` kiểm (chủ kênh đã chốt). "Chữ" ở đây là mỗi cụm cách nhau bởi dấu cách trong trường `text` (với tiếng Việt thường là một âm tiết, không phải "từ" ghép); câu đếm theo dấu . ! ? sau đó là dấu cách. Đây là quy tắc kỹ thuật, không phải tiêu chuẩn văn phong. Vượt giới hạn không có nghĩa là viết dở; chỗ nào vượt thì ngắt ở nhịp tự nhiên, không ngắt máy móc.
+- Không có giới hạn chữ hay câu mỗi đoạn (chủ kênh bỏ giới hạn 32 chữ và 2 câu ngày 18/11/2026). Đoạn dài bao nhiêu tùy nhịp kể: mỗi đoạn một ý lớn, ngắt ở chỗ nghỉ tự nhiên. Rủi ro đã biết: giọng Gemini từng bỏ hoặc đọc sai chữ ở đoạn dài; vì thế câu dài vẫn phải nghe một lần là hiểu, và kiểm giọng bằng nhận dạng không gợi ý trước khi dựng (`kiem-tra-ky-thuat.md`). Nếu kiểm giọng thấy bỏ chữ ở đoạn nào thì ngắt đoạn đó, không rút ý.
 
 **4. Rõ ràng, không nói tắt**
 - Viết đủ danh từ: "thuyền chiến của quân Nguyên" (không "thuyền Nguyên"), "thủy triều lên" (không "triều lên"), "quân Đại Việt" hoặc tên người chỉ huy (không "người Việt" chung chung khi nói về người đánh trận).
@@ -68,6 +68,7 @@ Người kể được diễn giải khi đủ **năm điều kiện**:
 - Lời bàn của sử gia có tên (Lê Văn Hưu, Ngô Sĩ Liên...) vẫn là lựa chọn ưu tiên; chỗ có tên thì trích tên.
 - **Giữ nguyên các giới hạn:** không bịa lời thoại và nội tâm cụ thể; không kể truyền thuyết như sự thật; không thêm, bỏ hay đổi sự kiện chính; không đưa số liệu không rõ nguồn thành sự thật; không đánh đồng lời kể trong chính sử với sự thật đã xác minh.
 - Các câu cũ "dùng lời kết luận của mình thay cho lời sử", "lời bàn phải là của sử gia có tên", "không hỏi giả rồi trả lời bằng lời kết luận của người kể" vẫn đúng ở chỗ: không được thay sử liệu bằng kết luận của người kể và không được hỏi giả; chúng không còn cấm diễn giải đủ năm điều kiện.
+- **Kể lịch sử kèm phân tích (chủ kênh yêu cầu 18/11/2026):** phân tích là một phần của lời kể, không phải phần phụ. Mỗi đoạn phân tích đặt ngay sau sự việc mà nó giải thích, trả lời một câu người nghe tự hỏi (vì sao việc này đáng chú ý, vị thế hai bên đổi thế nào, sử chưa nói gì). Mỗi đoạn phân tích phải qua năm điều kiện trên; chỗ sử không nói thì nói thẳng "sử không ghi", đó cũng là phân tích. Không dồn phân tích vào cuối video thành bài giảng; không phân tích sau mọi sự việc cho đều. Khi gửi duyệt, lập bảng "đoạn phân tích → dựa vào sự việc nào, nguồn nào, rào đón ở chữ nào".
 - Phân loại "sử liệu / diễn giải / giới hạn" là thao tác kiểm soát khi viết và biên tập, không đọc thành lời các nhãn đó trong video.
 - Ghi các đoạn diễn giải và kỹ thuật kể chuyện đã chọn vào "Ghi chú kỹ thuật kể chuyện" của kịch bản (tách riêng khỏi "Ghi chú độ chắc", vì độ chắc nói về dữ kiện lịch sử còn kỹ thuật là lựa chọn biên tập).
 
@@ -79,7 +80,7 @@ Lệch thì ghi lý do trong ghi chú của kịch bản, không coi là lỗi:
 - Các tỷ lệ "khoảng" khác của mục "Làm kịch bản bằng ngôn ngữ tự nhiên".
 
 ### 3. Giữ nguyên là chuẩn kỹ thuật
-- `phim_ban_do/kiem_kich_ban.py` giữ nguyên logic: **tối đa 32 chữ và 2 câu mỗi đoạn**, đếm bằng tách theo khoảng trắng (`split()`). Đổi mục tiêu biên tập không tự động đổi bộ kiểm; Claude không được tự coi lỗi ❌ của bộ kiểm là cảnh báo mềm và không sửa bộ kiểm nếu chủ kênh chưa yêu cầu.
+- `phim_ban_do/kiem_kich_ban.py` không còn kiểm 32 chữ và 2 câu (chủ kênh yêu cầu bỏ 18/11/2026). Các kiểm còn lại giữ nguyên.
 - Thư viện kỹ thuật kể chuyện (tài liệu nháp ở nhánh khác, chưa nhập) chỉ là tham khảo, không ghi đè các quy tắc ở đây.
 
 > Mục trên chuyển nguyên văn ngày 18/11/2026 từ file quy tắc chung của nhánh lh6-dung-thu (nhánh này không có file đó). Các mục khác của file đó chưa nhập: chờ chủ kênh quyết (xem `ke-hoach/ra-soat-quy-tac-thua-18-11.md`, mục G).

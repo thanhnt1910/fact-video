@@ -1,7 +1,7 @@
 """Kiểm kịch bản đọc giọng TRƯỚC khi gửi Gemini đọc (quy tắc CLAUDE.md, chủ kênh yêu cầu 23/10/2026).
 python phim_ban_do/kiem_kich_ban.py <tên> [--ten "Hoằng Tháo=Lưu Hoằng Tháo,..."]
 Đầu vào: ke-hoach/thu-giong-hai/<tên>_full.json (n, chuong, tone, text). Thoát mã 1 nếu có ❌.
-Mục tiêu: đoạn ngắn, một ý, câu đơn giản để Gemini đọc đúng ngay lần đầu và người nghe hiểu ngay.
+Mục tiêu: câu rõ để Gemini đọc đúng ngay lần đầu và người nghe hiểu ngay. Không giới hạn độ dài đoạn hay số câu (chủ kênh bỏ 18/11/2026).
 """
 import json, os, re, sys
 R = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
@@ -27,10 +27,6 @@ tot = 0
 for x in d:
     n, t = x['n'], x['text'].strip(); w = t.split(); tot += len(w)
     sents = [s for s in re.split(r'(?<=[.!?])\s+', t) if s]
-    if len(w) > 32: B(n, f'dài {len(w)} chữ (tối đa 32, nên 20–30): tách đoạn')
-    elif len(w) > 30: W(n, f'{len(w)} chữ, hơi dài')
-    if len(w) < 12: W(n, f'ngắn {len(w)} chữ (nên gộp với đoạn kề, trừ câu hỏi hoặc câu chốt)')
-    if len(sents) > 2: B(n, f'{len(sents)} câu trong một đoạn (tối đa 2)')
     if len(re.findall(r',', t)) > 3: W(n, 'nhiều hơn 3 dấu phẩy, câu dễ bị đọc lệch')
     if re.search(r'[()"“”—–…:;]|\.\.|\d', t): W(n, 'có ký tự giọng đọc dễ đọc sai (ngoặc, ngoặc kép, gạch, hai chấm, chữ số): chỉ nhắc, không chặn (chủ kênh nới quy tắc 05/11/2026)')
     for p in TAT:

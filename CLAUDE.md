@@ -40,7 +40,7 @@ Dữ kiện cứng (năm, tên, chức, số, địa danh) phải tra xong TRƯ�
 - Ghi lại bài học mới vào file của chủ đề đó (ví dụ giọng văn thì `giong-van.md`), theo dạng trước/sau ngắn.
 
 ## 6. Quy định sử dụng công cụ kiểm tra
-- Bộ kiểm (`phim_ban_do/kiem_*.py`, `review.py`) kiểm LỖI THẬT: sai dữ kiện, sai chủ thể, đứt mạch, lặp ý, thiếu kết quả, vượt giới hạn kỹ thuật của giọng đọc (đoạn tối đa 32 chữ, tối đa 2 câu, năm và số đọc đúng, không dấu hai chấm trong lời đọc).
+- Bộ kiểm (`phim_ban_do/kiem_*.py`, `review.py`) kiểm LỖI THẬT: sai dữ kiện, sai chủ thể, đứt mạch, lặp ý, thiếu kết quả, vượt giới hạn kỹ thuật của giọng đọc (năm và số đọc đúng, không dấu hai chấm trong lời đọc; không còn giới hạn chữ hay câu mỗi đoạn).
 - Bộ kiểm KHÔNG đánh ❌ chỉ vì kịch bản không theo khung nhịp, số câu đếm, hình ảnh xuyên suốt hay câu hỏi xuyên suốt cũ. Điều đó chỉ được là ⚠️ gợi ý. Danh sách đang rà: `ke-hoach/ra-soat-kiem-khung-18-11.md`.
 - Giọng đọc Gemini dùng nguyên bản, không chỉnh âm thanh. Kiểm giọng bằng nhận dạng không gợi ý trước khi dựng.
 - Hoàng Sa và Trường Sa phải có trong mọi khung bản đồ có biển phía đông Việt Nam (`quy-tac/kiem-tra-lich-su.md`).

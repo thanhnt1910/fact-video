@@ -95,7 +95,7 @@ Cụ thể, bốn công cụ sau chỉ dùng khi hợp với câu chuyện, khô
 ## 10. Giới hạn kỹ thuật vẫn bắt buộc
 
 Đây là giới hạn của giọng đọc Gemini và của khâu dựng, không phải luật biên tập. Theo ngay khi viết, vì chúng không làm hỏng mạch:
-- Mỗi đoạn tối đa 32 chữ và 2 câu (`kiem_kich_ban.py`).
+- Không giới hạn chữ hay câu mỗi đoạn (chủ kênh bỏ 18/11/2026). Độ dài đoạn theo nhịp kể; đọc thử và kiểm giọng bằng nhận dạng để chắc giọng đọc không bỏ chữ.
 - Năm, số viết bằng chữ.
 - Không dùng dấu hai chấm trong lời đọc (Gemini từng bỏ qua phần sau dấu hai chấm).
 - Đoạn cuối khép lại câu chuyện tự nhiên, có ý nghĩa và phù hợp với nội dung. Có thể kết bằng một sự kiện, một hệ quả lịch sử hoặc một nhận định ngắn. Lời cảm ơn chỉ dùng khi phù hợp với cách kết của video, không phải yêu cầu bắt buộc (chủ kênh quyết 18/11/2026).

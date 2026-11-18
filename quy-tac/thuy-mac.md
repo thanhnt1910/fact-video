@@ -53,7 +53,7 @@ Cả mục này là gợi ý cách mở đầu và dàn bài. Không ép câu ch
 7. **Kết:**
    - Kết quả thực tế, hậu quả ngay sau trận.
    - Một đoạn trả lời câu hỏi ở đoạn 4, gọi lại đủ N lần.
-   - Câu kết khép câu chuyện tự nhiên, có thể quay lại hình ảnh mở đầu (tối đa 32 chữ). Lời cảm ơn chỉ dùng khi hợp cách kết, không bắt buộc (`nguyen-tac-cot-loi.md` mục 10, 18/11/2026).
+   - Câu kết khép câu chuyện tự nhiên, có thể quay lại hình ảnh mở đầu. Lời cảm ơn chỉ dùng khi hợp cách kết, không bắt buộc (`nguyen-tac-cot-loi.md` mục 10, 18/11/2026).
 - "N lần / N thứ" là **diễn giải của người kể**. Mỗi lần phải dựng từ sự việc có nguồn, đủ năm điều kiện diễn giải trong `giong-van.md`, và không được nói đó là nguyên nhân duy nhất. Ghi rõ trong "Ghi chú độ chắc".
 - Không dùng lại khuôn mở đầu đã dùng. Sau mỗi tập, thêm khuôn vào mục "Khuôn mở đầu đã dùng của series" ở cuối file này.
 

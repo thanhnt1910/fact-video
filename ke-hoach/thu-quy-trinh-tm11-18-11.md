@@ -60,3 +60,12 @@ Nếu chủ kênh duyệt, sửa trong `phim_ban_do/thuymac/viet_tm11.py` (ngu�
 2. **Bản gửi duyệt cũ ghi "theo Wikipedia" cho chi tiết chủ kênh yêu cầu thêm.** Cần quy tắc rõ: chi tiết do chủ kênh yêu cầu thêm vẫn phải qua hai nguồn; không có thì báo lại chủ kênh thay vì thêm vào lời kể. Đề xuất ghi vào `bien-tap.md` (một dòng).
 3. **Ba file series thủy mặc còn chữ "rồi lời cảm ơn" cũ** (`thuy-mac.md`, `thuy-mac-khung.md`, `thuy-mac-mau.md`), trái nguyên tắc cốt lõi mục 10. Đã sửa ba dòng thành "tùy chọn, không bắt buộc" trong lần thử này. Mười kịch bản thủy mặc cũ trong `viet_tm*.py` vẫn kết bằng lời cảm ơn; chưa động vào.
 4. **Bản gộp `giong-van` dùng được:** các điểm bắt được (chủ ngữ rõ, diễn giải có dấu hiệu, nêu nguồn đúng chỗ) đều có trong bản gộp. Không phát hiện quy tắc nào gượng hay mâu thuẫn với kịch bản đang viết.
+
+## 6. Đính chính (18/11/2026, sau khi tra thêm sáu nguồn để dựng tm11 mới)
+Bảng ở mục 2 và mục 4 của file này dựa trên hai bài báo; sau khi tra thêm, hai nhận xét của tôi phải sửa:
+- **"Từ đời cha của người vừa bị bắt" (đoạn 186023) là có nguồn**, không phải "chưa kiểm": Toàn thư (qua N1 và N5) ghi Dương Đình Nghệ là tướng của Khúc Hạo, cha của Khúc Thừa Mỹ. Không cần bỏ.
+- **"Lập trường đấu vật" (186013) và "Trình Bảo vây ngược, Dương Đình Nghệ đánh ra" (186019–186021):** vây thành rồi bị đánh ra và bị giết tại trận có hai nguồn (N5, N6); trường đấu vật chỉ có N5 (qua Việt sử tiêu án) nên vẫn chỉ một nguồn.
+- **Lỗi lớn hơn:** bản cũ nêu năm 930 như chắc và ghi "923 chỉ là cách tính năm cai trị"; theo N1, Toàn thư ghi 923 là năm bắt Khúc Thừa Mỹ. Đây là điểm lệch giữa nguồn mà bản cũ che đi (đoạn 186008, 186009).
+- **Tên tướng:** bản cũ ghi đã sửa thành "Trình Bảo" theo Toàn thư; N5 dẫn Toàn thư lại ghi "Trần Bảo".
+Bảng đổi ở mục 4 của file này vì thế lạc hậu; thay bằng mạch mới `ke-hoach/tm11-moi-mach-truyen-18-11.md`.
+

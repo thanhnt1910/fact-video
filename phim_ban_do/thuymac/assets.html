@@ -858,7 +858,7 @@ t11_con(){const s=setup(1900,900);seed=1101;const g=el(s,'g',{filter:'url(#ink)'
  ridge(g,360,200,0,1900,5,INK,.18,900);ridge(g,520,120,0,1900,7,INK,.28,900);
  const rows=[[640,.5,16],[690,.6,15],[750,.7,14],[815,.8,13],[880,.9,12]];
  rows.forEach(([y,sc,n],r)=>{for(let i=0;i<n;i++){const x=70+i*(1760/(n-1))+(r%2)*10;if(Math.abs(x-950)<170&&r>2)continue;person(g,x,y,sc,{helm:1,spear:(i+r)%2});}});
- figG(g,950,890,2.5,{cape:1,sword:1})},
+},
 t11_phu(){const s=setup(2800,620);seed=1102;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,180,60,0,2800,6,INK,.14,620);
  el(el(s,'g',{filter:'url(#wash)'}),'rect',{x:700,y:170,width:1400,height:400,fill:INK,opacity:.1});
@@ -866,15 +866,13 @@ t11_phu(){const s=setup(2800,620);seed=1102;const g=el(s,'g',{filter:'url(#ink)'
  [800,1050,1750,2000].forEach(x=>{el(g,'rect',{x:x-14,y:230,width:28,height:340,fill:INK});el(g,'rect',{x:x-24,y:550,width:48,height:18,fill:INK})});
  el(g,'path',{d:'M700 570 L2100 570 L2160 610 L640 610Z',fill:INK});
  el(g,'rect',{x:1280,y:380,width:240,height:180,fill:'none',stroke:INK,'stroke-width':6});for(let i=1;i<4;i++)el(g,'line',{x1:1280+i*60,y1:380,x2:1280+i*60,y2:560,stroke:INK,'stroke-width':3});
- person(g,1400,560,1.7,{sit:1});
- for(let i=0;i<6;i++){person(g,860+i*70,570,1.05,{helm:i%2});person(g,1560+i*70,570,1.05,{helm:(i+1)%2})}},
+},
 t11_ruong(){const s=setup(1900,700);seed=1103;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,200,120,0,1900,6,INK,.2,700);
  const W=el(s,'g',{filter:'url(#wash)'});
  for(let r=0;r<4;r++)for(let i=0;i<6;i++){const y=380+r*70,x=120+i*290-r*20,w=250+r*12,h=48+r*6;
   el(W,'rect',{x,y,width:w,height:h,fill:INK,opacity:.1+.03*((i+r)%3)});el(g,'rect',{x,y,width:w,height:h,fill:'none',stroke:INK,'stroke-width':3,opacity:.7})}
- village(g,260,360,.9);village(g,1620,350,.8);
- for(let i=0;i<7;i++)person(g,200+i*250,600+(i%2)*40,.8+(i%2)*.1,{arm:'M4 -50 L26 -20'})},
+ village(g,260,360,.9);village(g,1620,350,.8);},
 t11_so(){const s=setup(1200,720);seed=1104;const g=el(s,'g',{filter:'url(#inkt)'});
  el(g,'rect',{x:140,y:90,width:920,height:540,fill:PAPER,stroke:INK,'stroke-width':8});
  el(g,'rect',{x:110,y:70,width:980,height:34,rx:16,fill:INK});el(g,'rect',{x:110,y:616,width:980,height:34,rx:16,fill:INK});
@@ -883,8 +881,7 @@ t11_so(){const s=setup(1200,720);seed=1104;const g=el(s,'g',{filter:'url(#inkt)'
 t11_luyen(){const s=setup(2800,640);seed=1105;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,200,90,0,2800,7,INK,.2,640);
  for(let i=0;i<5;i++)tent(g,160+i*150,380,150,100);
- for(let r=0;r<3;r++)for(let i=0;i<11;i++)person(g,1000+i*105,470+r*60,.95-r*.05,{helm:1,spear:i%3!=1,shield:i%3==1});
- figG(g,2480,560,1.9,{cape:1,sword:1});horse(g,2650,570,1.1,{})},
+},
 t11_thanh(){const s=setup(2800,700);seed=1106;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,200,80,0,2800,7,INK,.15,700);
  el(g,'path',{d:'M300 560 L2500 560 L2500 330 L300 330Z',fill:INK,opacity:.9});for(let i=0;i<54;i++)el(g,'rect',{x:300+i*41,y:310,width:24,height:22,fill:INK,opacity:.9});
@@ -903,50 +900,55 @@ t11_hao(){const s=setup(1900,800);seed=1111;const g=el(s,'g',{filter:'url(#ink)'
  ridge(g,200,100,0,1900,6,INK,.16,800);
  el(g,'rect',{x:420,y:560,width:1060,height:26,fill:INK});[500,640,780,1120,1260,1400].forEach(x=>{el(g,'rect',{x:x-8,y:586,width:16,height:90,fill:INK})});
  for(let i=0;i<8;i++)el(g,'rect',{x:470+i*125,y:536,width:90,height:24,rx:12,fill:PAPER,stroke:INK,'stroke-width':4});
- [260,620,1280,1640].forEach((x,i)=>{el(g,'rect',{x:x-4,y:240,width:8,height:330,fill:INK});el(g,'path',{d:`M${x+4} 246 L${x+120} 262 L${x+4} 300Z`,fill:i%2?RED:INK,opacity:.85})});
- for(let i=0;i<4;i++){person(g,140+i*120,740,1.15,{helm:i%2,arm:'M4 -50 L26 -20'});person(g,1420+i*120,740,1.15,{helm:(i+1)%2,arm:'M4 -50 L26 -20'})}
- figG(g,950,720,2.6,{cape:1})},
+ [260,620,1280,1640].forEach((x,i)=>{el(g,'rect',{x:x-4,y:240,width:8,height:330,fill:INK})})},
 t11_can(){const s=setup(1900,800);seed=1112;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,160,90,0,1900,6,INK,.14,800);
- el(g,'path',{d:'M850 740 L1050 740 L1000 700 L900 700Z',fill:INK});el(g,'rect',{x:942,y:210,width:16,height:500,fill:INK});el(g,'circle',{cx:950,cy:210,r:22,fill:INK});
- const beam=el(g,'g',{transform:'rotate(-5 950 230)'});el(beam,'rect',{x:300,y:222,width:1300,height:16,rx:8,fill:INK});
- [[330,1],[1570,0]].forEach(([x,left])=>{el(beam,'line',{x1:x,y1:238,x2:x-120,y2:470,stroke:INK,'stroke-width':4});el(beam,'line',{x1:x,y1:238,x2:x+120,y2:470,stroke:INK,'stroke-width':4});
-  el(beam,'path',{d:`M${x-150} 470 Q${x} 540 ${x+150} 470Z`,fill:INK});
-  if(left){el(beam,'rect',{x:x-110,y:380,width:220,height:90,fill:INK});for(let i=0;i<6;i++)el(beam,'rect',{x:x-110+i*38,y:362,width:24,height:20,fill:INK});el(beam,'path',{d:`M${x-30} 470 L${x-30} 420 Q${x} 396 ${x+30} 420 L${x+30} 470Z`,fill:PAPER});}
-  else{for(let i=0;i<5;i++)person(beam,x-90+i*45,470,.5,{helm:1,spear:i%2});}});
  const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:260,y:720,width:1380,height:70,fill:INK,opacity:.1})},
+t11_can_tru(){const s=setup(400,560);seed=1121;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'path',{d:'M100 540 L300 540 L250 500 L150 500Z',fill:INK});el(g,'rect',{x:192,y:60,width:16,height:450,fill:INK});el(g,'circle',{cx:200,cy:60,r:22,fill:INK})},
+t11_can_don(){const s=setup(1500,520);seed=1122;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'rect',{x:100,y:52,width:1300,height:16,rx:8,fill:INK});
+ [[130,1],[1370,0]].forEach(([x,left])=>{el(g,'line',{x1:x,y1:68,x2:x-120,y2:300,stroke:INK,'stroke-width':4});el(g,'line',{x1:x,y1:68,x2:x+120,y2:300,stroke:INK,'stroke-width':4});
+  el(g,'path',{d:`M${x-150} 300 Q${x} 370 ${x+150} 300Z`,fill:INK});
+  if(left){el(g,'rect',{x:x-110,y:210,width:220,height:90,fill:INK});for(let i=0;i<6;i++)el(g,'rect',{x:x-110+i*38,y:192,width:24,height:20,fill:INK});el(g,'path',{d:`M${x-30} 300 L${x-30} 250 Q${x} 226 ${x+30} 250 L${x+30} 300Z`,fill:PAPER});}
+  else{for(let i=0;i<5;i++)person(g,x-90+i*45,300,.5,{helm:1,spear:i%2});}})},
 t11_an(){const s=setup(1500,800);seed=1113;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,200,100,0,1500,5,INK,.15,800);
  el(g,'rect',{x:300,y:560,width:900,height:24,fill:INK});[360,640,860,1140].forEach(x=>el(g,'rect',{x:x-8,y:584,width:16,height:110,fill:INK}));
  el(g,'rect',{x:620,y:20,width:10,height:560,fill:INK});el(g,'circle',{cx:625,cy:20,r:14,fill:INK});
- for(let i=0;i<7;i++){el(g,'path',{d:`M628 ${70+i*34} Q${700+i*8} ${96+i*34} ${760+i*14} ${70+i*34+(i%2?30:10)}`,stroke:i%3==1?RED:INK,'stroke-width':9,fill:'none','stroke-linecap':'round'})}
- el(g,'rect',{x:900,y:500,width:110,height:60,fill:RED,opacity:.9});el(g,'rect',{x:925,y:480,width:60,height:24,fill:INK});
- el(g,'rect',{x:430,y:500,width:150,height:60,fill:PAPER,stroke:INK,'stroke-width':5});
- figG(g,1090,700,2.4,{cape:1})},
+ el(g,'rect',{x:430,y:500,width:150,height:60,fill:PAPER,stroke:INK,'stroke-width':5})},
+t11_hop(){const s=setup(160,110);seed=1123;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'rect',{x:20,y:40,width:110,height:60,fill:RED,opacity:.9});el(g,'rect',{x:45,y:20,width:60,height:24,fill:INK})},
 t11_ghe(){const s=setup(1900,800);seed=1114;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,180,80,0,1900,6,INK,.14,800);
  roof(g,950,250,1100,150);[430,520,1380,1470].forEach(x=>el(g,'rect',{x:x-14,y:250,width:28,height:420,fill:INK}));
- el(g,'path',{d:'M600 270 Q700 420 650 640 L720 640 Q760 420 700 270Z',fill:INK,opacity:.8});el(g,'path',{d:'M1300 270 Q1200 420 1250 640 L1180 640 Q1140 420 1200 270Z',fill:INK,opacity:.8});
  for(let i=0;i<4;i++)el(g,'rect',{x:620-i*40,y:640+i*22,width:660+i*80,height:22,fill:INK,opacity:.9});
  el(g,'path',{d:'M850 620 L850 440 L870 440 L870 520 L1030 520 L1030 440 L1050 440 L1050 620 L1030 620 L1030 560 L870 560 L870 620Z',fill:INK});
- el(g,'rect',{x:1580,y:420,width:10,height:230,fill:INK});el(g,'path',{d:'M1560 420 L1610 420 L1596 380 L1574 380Z',fill:INK});el(g,'path',{d:'M1585 380 Q1570 340 1592 310 Q1600 350 1585 380Z',fill:RED,opacity:.85});
- person(g,300,740,1.2,{helm:1,spear:1});person(g,1620,740,1.2,{helm:1,spear:1})},
+ el(g,'rect',{x:1580,y:420,width:10,height:230,fill:INK});el(g,'path',{d:'M1560 420 L1610 420 L1596 380 L1574 380Z',fill:INK})},
+t11_rem(){const s=setup(260,420);seed=1124;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'path',{d:'M20 0 Q140 150 90 380 L160 380 Q200 150 140 0Z',fill:INK,opacity:.8})},
 t11_xa(){const s=setup(2800,640);seed=1115;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,220,150,0,2800,6,INK,.15,640);ridge(g,340,110,0,2800,9,INK,.26,640);
  const W=el(s,'g',{filter:'url(#wash)'});for(let r=0;r<3;r++)el(W,'rect',{x:200+r*60,y:470+r*50,width:2400-r*120,height:40,fill:INK,opacity:.09+.03*r});
  village(g,420,450,.9);village(g,2280,440,.8);
  for(let i=0;i<10;i++)pine(g,700+i*110,430+(i%3)*14,1.0);
- el(g,'path',{d:'M1180 470 Q1300 360 1420 470Z',fill:INK});figG(g,1300,400,1.8,{cape:1})},
+ el(g,'path',{d:'M1180 470 Q1300 360 1420 470Z',fill:INK})},
 t11_tau(){const s=setup(2800,620);seed=1116;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,160,100,0,2800,6,INK,.12,620);
- const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:150,y:430,width:2500,height:150,fill:INK,opacity:.12});
- nguyenShip(g,1400,410,1.5,{crew:1});person(g,1380,400,.8,{sit:1,col:'#2a2620'});
- for(let r=0;r<4;r++)for(let i=0;i<9;i++)el(g,'path',{d:`M${200+i*290+r*60} ${520+r*26} q40 -18 80 0`,stroke:INK,'stroke-width':4,fill:'none',opacity:.5})},
+ const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:150,y:430,width:2500,height:150,fill:INK,opacity:.12})},
+t11_tauc(){const s=setup(560,380);seed=1125;const g=el(s,'g',{filter:'url(#ink)'});
+ nguyenShip(g,290,300,1.0,{crew:1});person(g,300,290,.8,{sit:1,col:'#2a2620'})},
 t11_thuyen(){const s=setup(2800,700);seed=1117;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,200,110,0,2800,6,INK,.12,700);
- const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:100,y:470,width:2600,height:170,fill:INK,opacity:.12});
- [[500,470,.9],[950,490,1.1],[1450,480,1.3],[1950,500,1.1],[2400,470,.9]].forEach(([x,y,k])=>nguyenShip(g,x,y,k,{crew:1}));
- for(let r=0;r<4;r++)for(let i=0;i<10;i++)el(g,'path',{d:`M${120+i*270+r*50} ${590+r*22} q40 -16 80 0`,stroke:INK,'stroke-width':4,fill:'none',opacity:.45})}
+ const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:100,y:470,width:2600,height:170,fill:INK,opacity:.12})},
+t11_nt(){const s=setup(560,380);seed=1126;const g=el(s,'g',{filter:'url(#ink)'});
+ nguyenShip(g,290,300,1.0,{crew:1})},
+t11_co(){const s=setup(220,90);seed=1127;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'path',{d:'M4 8 Q100 2 214 30 Q110 40 120 46 Q60 62 4 70Z',fill:INK})},
+t11_cor(){const s=setup(220,90);seed=1128;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'path',{d:'M4 8 Q100 2 214 30 Q110 40 120 46 Q60 62 4 70Z',fill:RED,opacity:.9})},
+t11_lua(){const s=setup(110,200);seed=1129;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'path',{d:'M55 190 Q8 120 55 8 Q102 120 55 190Z',fill:INK,opacity:.85});el(g,'path',{d:'M55 190 Q32 146 55 80 Q78 146 55 190Z',fill:PAPER,opacity:.8})}
 });
 
 

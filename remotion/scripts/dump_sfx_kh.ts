@@ -16,5 +16,6 @@ import * as nd from '../src/namdai/content';
 import * as cl from '../src/conlac/content';
 import * as cm from '../src/canmattroi/content';
 import * as gs from '../src/gieng/content';
-const M: Record<string, {timeline: () => any}> = {sao, amthanh: am, mattroi: mt, nhietke: nk, quaclac: ql, nuicao: nc, tuoitd: td, matrang: mt, khongkhi: kk, motmet: mm, sopi: sp, phantu: pt, namdai: nd, conlac: cl, canmattroi: cm, gieng: gs};
+import * as tv from '../src/tuoivutru/content';
+const M: Record<string, {timeline: () => any}> = {sao, amthanh: am, mattroi: mt, nhietke: nk, quaclac: ql, nuicao: nc, tuoitd: td, matrang: mt, khongkhi: kk, motmet: mm, sopi: sp, phantu: pt, namdai: nd, conlac: cl, canmattroi: cm, gieng: gs, tuoivutru: tv};
 console.log(JSON.stringify(sfxFor(M[process.env.VID as string].timeline())));

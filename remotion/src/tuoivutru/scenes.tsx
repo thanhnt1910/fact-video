@@ -131,7 +131,7 @@ const P8: Panel = ({f}) => (
   <g>
     <Head a="Hubble viết" />
     <Big x={CX + 60} y={720} size={100} color={C.cream} o={sp(f, 2, 14)}>tốc độ =</Big>
-    <Big x={CX + 60} y={880} size={130} color={AM} o={sp(f, 14, 28)}>H × khoảng cách</Big>
+    <Big x={CX + 60} y={880} size={110} color={AM} o={sp(f, 14, 28)}>H × khoảng cách</Big>
     <Hero2 f={f} />
   </g>
 );
@@ -155,7 +155,7 @@ const P10: Panel = ({f}) => (
 const P11: Panel = ({f}) => (
   <g>
     <Head a="Tức khoảng" b="30,9 tỉ tỉ ki-lô-mét" />
-    <Sci x={CX + 60} y={800} size={140} m="3,09" e="19" suffix=" km" o={sp(f, 2, 18)} />
+    <Sci x={CX + 60} y={800} size={120} m="3,09" e="19" suffix=" km" o={sp(f, 2, 18)} />
     <Hero2 f={f} />
   </g>
 );

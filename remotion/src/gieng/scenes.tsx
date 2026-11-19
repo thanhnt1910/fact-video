@@ -72,7 +72,7 @@ const P0: Panel = ({f}) => (
   </g>
 );
 const P1: Panel = ({f}) => {
-  const ys = [0, 1, 2, 3].map((n) => 560 + 22 * n * n * 1.7);
+  const ys = [0, 1, 2, 3].map((n) => 560 + 55 * n * n);
   return (
     <g>
       <Head a="Đá rơi càng lúc" b="càng nhanh" />

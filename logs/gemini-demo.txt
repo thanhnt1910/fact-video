@@ -1,33 +1,33 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Thả hòn đá xuống giếng, đếm giây tới khi nghe tiến
-OK Leda 02: Nhưng đá rơi càng lúc càng nhanh, nên không thể nh
-OK Leda 03: Hóa ra có một quy luật rất gọn, tìm ra nhờ một cái
-OK Leda 04: Cách đây hơn 400 năm, Galileo muốn đo chuyện vật r
-OK Leda 05: Nhưng đá rơi quá nhanh, mà ông chưa có đồng hồ bấm
+OK Leda 01: Vũ trụ bao nhiêu tuổi, khi không ai sống đủ lâu để
+OK Leda 02: Nhưng ta có thể làm như xem phim chạy ngược.
+OK Leda 03: Hóa ra các thiên hà đang bay xa nhau, và tốc độ ấy
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 06: Vậy ông cho nó rơi chậm lại: lăn quả bóng xuống má
-OK Leda 07: Máng gỗ dài khoảng 6 mét, khoét rãnh thẳng và nhẵn
-OK Leda 08: Bóng lăn xuống dốc cũng nhanh dần như rơi, chỉ là 
-OK Leda 09: Ông đo thời gian bằng đồng hồ nước.
-OK Leda 10: Ông đánh dấu chỗ bóng tới sau những khoảng thời gi
-OK Leda 11: Sau 2 khoảng thời gian, đi xa gấp 4 lần; sau 3 kho
-OK Leda 12: 4 = 2 × 2, 9 = 3 × 3: đó là các số bình phương.
+OK Leda 04: Hình dung ổ bánh mì nhiều hạt nho, đang nở ra.
+OK Leda 05: Bánh nở đều, nên hai hạt nho càng xa nhau thì rời 
+OK Leda 06: Thiên hà cũng vậy: càng ở xa ta, càng chạy xa nhan
+OK Leda 07: Năm 1929, Edwin Hubble tìm ra điều ấy.
+OK Leda 08: Hai năm trước, Lemaître cũng đã đi tới kết luận tư
+OK Leda 09: Hubble viết: tốc độ = H × khoảng cách.
+OK Leda 10: H là hằng số, ngày nay khoảng 70 ki-lô-mét mỗi giâ
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 13: Vậy quãng đường đi được lớn lên theo bình phương t
-OK Leda 14: Với vật rơi: quãng đường = ½ × g × thời gian².
-OK Leda 15: Số g cho biết mỗi giây vật nhanh thêm chừng 9,8 mé
-OK Leda 16: Rơi 1 giây: ½ × 9,8 × 1 × 1 = 4,9 mét.
-OK Leda 17: Rơi 2 giây: ½ × 9,8 × 4 = 19,6 mét.
-OK Leda 18: Rơi 3 giây: ½ × 9,8 × 9 = 44,1 mét.
-OK Leda 19: Vậy đếm được 3 giây, giếng sâu khoảng 44 mét.
+OK Leda 11: 1 mê-ga-pác-xéc là khoảng cách bằng 3,26 triệu năm
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Cao ngang tòa nhà khoảng 15 tầng.
-OK Leda 21: Nhưng đá nặng và đá nhẹ có rơi khác nhau không?
-OK Leda 22: Lông chim rơi chậm vì không khí cản nó nhiều hơn v
-OK Leda 23: Galileo nhận ra: nếu không có không khí, mọi vật r
-OK Leda 24: Vì vậy công thức không cần biết đá nặng bao nhiêu.
-OK Leda 25: Nhưng tiếng tõm cũng mất thời gian bay lên: khoảng
+OK Leda 12: Tức khoảng 30,9 tỉ tỉ ki-lô-mét.
+OK Leda 13: Vậy thiên hà cách 1 mê-ga-pác-xéc đang chạy xa kho
+OK Leda 14: Chiếu phim ngược: thời gian = quãng đường ÷ tốc độ
+OK Leda 15: Xe chạy 60 ki-lô-mét mỗi giờ, cách nhà 120 ki-lô-m
+OK Leda 16: Với thiên hà ấy, chia 30,9 tỉ tỉ ki-lô-mét cho 70 
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 26: Nên với giếng sâu, nên trừ bớt thời gian ấy khỏi s
-OK Leda 27: Vậy chỉ một hòn đá và vài giây đếm, ta biết giếng 
-OK Leda 28: Nhờ quy luật Galileo tìm ra từ một cái máng gỗ.
+OK Leda 17: Ra khoảng 4,41 × 10¹⁷ giây.
+OK Leda 18: Đổi ra năm: 1 năm có khoảng 31,6 triệu giây.
+OK Leda 19: Chia 4,41 × 10¹⁷ cho 31,6 triệu, ra khoảng 14 tỉ n
+OK Leda 20: Thiên hà nào cũng cho cùng kết quả, vì tốc độ tăng
+OK Leda 21: Vậy mọi thứ từng ở cùng một chỗ cách đây khoảng 14
+OK Leda 22: Thực ra tốc độ giãn nở có thay đổi, nên con số tốt
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 23: Nhưng H đầu tiên của Hubble là 500, lớn gấp hơn 7 
+OK Leda 24: Với 500, tuổi vũ trụ chỉ khoảng 2 tỉ năm.
+OK Leda 25: Về sau khoảng cách được đo lại chính xác hơn, nên 
+OK Leda 26: Vậy tuổi vũ trụ tăng từ 2 tỉ lên 14 tỉ năm, chỉ nh
+OK Leda 27: Từ tốc độ các thiên hà bay xa nhau, ta biết vũ trụ

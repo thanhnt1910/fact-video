@@ -3008,11 +3008,11 @@
 "du_phong": false
 },
 "c195001": {
-"nhom": "195001-195010",
+"nhom": "195001-195014",
 "model": "gemini-3.8-flash-tts",
 "voice": "Charon",
 "style_var": "C_chuong",
-"thoi_diem": "2026-11-18 16:46:06",
+"thoi_diem": "2026-11-19 15:29:27",
 "du_phong": false
 },
 "c195011": {

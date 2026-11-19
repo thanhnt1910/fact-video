@@ -1,0 +1,116 @@
+{
+ "beats": [
+  {
+   "say": "Thả một hòn đá xuống giếng, đếm giây tới khi nghe tiếng tõm: làm sao biết giếng sâu bao nhiêu?",
+   "text": "Thả *hòn đá* xuống giếng, *đếm giây* tới khi nghe tiếng tõm: giếng *sâu bao nhiêu*?"
+  },
+  {
+   "say": "Nhưng đá rơi càng lúc càng nhanh, nên ta không thể lấy thời gian nhân với một tốc độ cố định.",
+   "text": "Nhưng đá rơi *càng lúc càng nhanh*, nên không thể nhân với *một tốc độ cố định*."
+  },
+  {
+   "say": "Hóa ra có một quy luật rất gọn, và nó được tìm ra nhờ một cái máng gỗ.",
+   "text": "Hóa ra có *một quy luật rất gọn*, tìm ra nhờ *một cái máng gỗ*."
+  },
+  {
+   "say": "Cách đây hơn bốn trăm năm, Ga-li-lê muốn đo chuyện vật rơi.",
+   "text": "Cách đây *hơn 400 năm*, *Galileo* muốn đo chuyện *vật rơi*."
+  },
+  {
+   "say": "Nhưng đá rơi quá nhanh, mà ông chưa có đồng hồ bấm giây.",
+   "text": "Nhưng đá rơi *quá nhanh*, mà ông *chưa có đồng hồ bấm giây*."
+  },
+  {
+   "say": "Vậy ông làm cho nó rơi chậm lại: lăn một quả bóng xuống một cái máng dốc nhẹ.",
+   "text": "Vậy ông cho nó *rơi chậm lại*: lăn *quả bóng* xuống *máng dốc nhẹ*."
+  },
+  {
+   "say": "Máng gỗ ấy dài khoảng sáu mét, khoét một rãnh thẳng và nhẵn.",
+   "text": "Máng gỗ dài *khoảng 6 mét*, khoét *rãnh thẳng và nhẵn*."
+  },
+  {
+   "say": "Quả bóng lăn xuống dốc cũng nhanh dần giống như rơi, chỉ là chậm hơn.",
+   "text": "Bóng lăn xuống dốc cũng *nhanh dần* như rơi, chỉ là *chậm hơn*."
+  },
+  {
+   "say": "Ông đo thời gian bằng một chiếc đồng hồ nước.",
+   "text": "Ông đo thời gian bằng *đồng hồ nước*."
+  },
+  {
+   "say": "Ông đánh dấu chỗ quả bóng tới sau những khoảng thời gian bằng nhau.",
+   "text": "Ông *đánh dấu chỗ bóng tới* sau những khoảng *thời gian bằng nhau*."
+  },
+  {
+   "say": "Kết quả: sau hai khoảng thời gian, bóng đi xa gấp bốn lần; sau ba khoảng, gấp chín lần.",
+   "text": "Sau *2 khoảng* thời gian, đi xa gấp *4 lần*; sau *3 khoảng*, gấp *9 lần*."
+  },
+  {
+   "say": "Bốn là hai nhân hai, chín là ba nhân ba: đó là các số bình phương.",
+   "text": "*4 = 2 × 2*, *9 = 3 × 3*: đó là các *số bình phương*."
+  },
+  {
+   "say": "Vậy quãng đường đi được lớn lên theo bình phương của thời gian.",
+   "text": "Vậy *quãng đường đi được* lớn lên theo *bình phương thời gian*."
+  },
+  {
+   "say": "Với vật rơi, ta viết: quãng đường bằng một phần hai nhân g nhân thời gian bình phương.",
+   "text": "Với vật rơi: *quãng đường = ½ × g × thời gian²*."
+  },
+  {
+   "say": "Số g cho biết mỗi giây vật rơi nhanh thêm chừng chín phẩy tám mét mỗi giây.",
+   "text": "Số *g* cho biết mỗi giây vật *nhanh thêm chừng 9,8 mét* mỗi giây."
+  },
+  {
+   "say": "Thử với hòn đá rơi một giây: một nửa nhân chín phẩy tám nhân một nhân một, ra bốn phẩy chín mét.",
+   "text": "Rơi *1 giây*: *½ × 9,8 × 1 × 1* = *4,9 mét*."
+  },
+  {
+   "say": "Rơi hai giây: một nửa nhân chín phẩy tám nhân bốn, ra mười chín phẩy sáu mét.",
+   "text": "Rơi *2 giây*: *½ × 9,8 × 4* = *19,6 mét*."
+  },
+  {
+   "say": "Rơi ba giây: một nửa nhân chín phẩy tám nhân chín, ra bốn mươi bốn phẩy một mét.",
+   "text": "Rơi *3 giây*: *½ × 9,8 × 9* = *44,1 mét*."
+  },
+  {
+   "say": "Vậy nếu đếm được ba giây, giếng sâu khoảng bốn mươi tư mét.",
+   "text": "Vậy đếm được *3 giây*, giếng sâu *khoảng 44 mét*."
+  },
+  {
+   "say": "Chiều cao ấy ngang một tòa nhà khoảng mười lăm tầng.",
+   "text": "Cao ngang tòa nhà *khoảng 15 tầng*."
+  },
+  {
+   "say": "Nhưng hòn đá nặng và hòn đá nhẹ có rơi khác nhau không?",
+   "text": "Nhưng đá *nặng* và đá *nhẹ* có rơi *khác nhau* không?"
+  },
+  {
+   "say": "Cái lông chim rơi chậm vì không khí cản nó nhiều hơn cản viên đá.",
+   "text": "Lông chim rơi chậm vì *không khí cản* nó *nhiều hơn* viên đá."
+  },
+  {
+   "say": "Ga-li-lê nhận ra: nếu không có không khí, mọi vật rơi cùng một lúc.",
+   "text": "*Galileo* nhận ra: nếu *không có không khí*, mọi vật *rơi cùng lúc*."
+  },
+  {
+   "say": "Vì vậy công thức không cần biết hòn đá nặng bao nhiêu.",
+   "text": "Vì vậy công thức *không cần biết đá nặng bao nhiêu*."
+  },
+  {
+   "say": "Nhưng tiếng tõm cũng mất thời gian bay lên: khoảng một phần tám giây với giếng bốn mươi tư mét.",
+   "text": "Nhưng *tiếng tõm* cũng mất thời gian bay lên: *khoảng 1 phần 8 giây* với giếng *44 mét*."
+  },
+  {
+   "say": "Nên với giếng sâu, ta nên trừ bớt thời gian ấy khỏi số giây đã đếm.",
+   "text": "Nên với giếng sâu, nên *trừ bớt thời gian ấy* khỏi số giây đã đếm."
+  },
+  {
+   "say": "Vậy chỉ một hòn đá và vài giây đếm, ta biết được giếng sâu bao nhiêu.",
+   "text": "Vậy chỉ *một hòn đá* và *vài giây đếm*, ta biết giếng *sâu bao nhiêu*."
+  },
+  {
+   "say": "Nhờ quy luật mà Ga-li-lê tìm ra từ một cái máng gỗ.",
+   "text": "Nhờ quy luật *Galileo* tìm ra từ *một cái máng gỗ*."
+  }
+ ]
+}

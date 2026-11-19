@@ -35,6 +35,8 @@ import {Conlac} from './conlac/Conlac';
 import {timeline as timelineCl} from './conlac/content';
 import {Canmattroi} from './canmattroi/Canmattroi';
 import {timeline as timelineCm} from './canmattroi/content';
+import {Gieng} from './gieng/Gieng';
+import {timeline as timelineGs} from './gieng/content';
 import {timeline as timelineMtr} from './matrang/content';
 import {timeline as timelineTd} from './tuoitd/content';
 import {timeline as timelineNc} from './nuicao/content';
@@ -77,6 +79,7 @@ export const Root: React.FC = () => {
       <Composition id="Namdai" component={Namdai} durationInFrames={timelineNd().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Conlac" component={Conlac} durationInFrames={timelineCl().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Canmattroi" component={Canmattroi} durationInFrames={timelineCm().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Gieng" component={Gieng} durationInFrames={timelineGs().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Nhietke" component={Nhietke} durationInFrames={timelineNk().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Mattroi" component={Mattroi} durationInFrames={timelineMt().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Amthanh" component={Amthanh} durationInFrames={timelineAm().total} fps={FPS} width={1080} height={1920} />

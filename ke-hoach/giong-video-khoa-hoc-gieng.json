@@ -1,0 +1,145 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Thả hòn đá xuống giếng, đếm giây tới khi nghe tiếng tõm: giếng sâu bao nhiêu?",
+   "say": "Thả một hòn đá xuống giếng, đếm giây tới khi nghe tiếng tõm: làm sao biết giếng sâu bao nhiêu?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng đá rơi càng lúc càng nhanh, nên không thể nhân với một tốc độ cố định.",
+   "say": "Nhưng đá rơi càng lúc càng nhanh, nên ta không thể lấy thời gian nhân với một tốc độ cố định."
+  },
+  {
+   "n": 3,
+   "text": "Hóa ra có một quy luật rất gọn, tìm ra nhờ một cái máng gỗ.",
+   "say": "Hóa ra có một quy luật rất gọn, và nó được tìm ra nhờ một cái máng gỗ."
+  },
+  {
+   "n": 4,
+   "text": "Cách đây hơn 400 năm, Galileo muốn đo chuyện vật rơi.",
+   "say": "Cách đây hơn bốn trăm năm, Ga-li-lê muốn đo chuyện vật rơi."
+  },
+  {
+   "n": 5,
+   "text": "Nhưng đá rơi quá nhanh, mà ông chưa có đồng hồ bấm giây.",
+   "say": "Nhưng đá rơi quá nhanh, mà ông chưa có đồng hồ bấm giây."
+  },
+  {
+   "n": 6,
+   "text": "Vậy ông cho nó rơi chậm lại: lăn quả bóng xuống máng dốc nhẹ.",
+   "say": "Vậy ông làm cho nó rơi chậm lại: lăn một quả bóng xuống một cái máng dốc nhẹ."
+  },
+  {
+   "n": 7,
+   "text": "Máng gỗ dài khoảng 6 mét, khoét rãnh thẳng và nhẵn.",
+   "say": "Máng gỗ ấy dài khoảng sáu mét, khoét một rãnh thẳng và nhẵn."
+  },
+  {
+   "n": 8,
+   "text": "Bóng lăn xuống dốc cũng nhanh dần như rơi, chỉ là chậm hơn.",
+   "say": "Quả bóng lăn xuống dốc cũng nhanh dần giống như rơi, chỉ là chậm hơn."
+  },
+  {
+   "n": 9,
+   "text": "Ông đo thời gian bằng đồng hồ nước.",
+   "say": "Ông đo thời gian bằng một chiếc đồng hồ nước."
+  },
+  {
+   "n": 10,
+   "text": "Ông đánh dấu chỗ bóng tới sau những khoảng thời gian bằng nhau.",
+   "say": "Ông đánh dấu chỗ quả bóng tới sau những khoảng thời gian bằng nhau."
+  },
+  {
+   "n": 11,
+   "text": "Sau 2 khoảng thời gian, đi xa gấp 4 lần; sau 3 khoảng, gấp 9 lần.",
+   "say": "Kết quả: sau hai khoảng thời gian, bóng đi xa gấp bốn lần; sau ba khoảng, gấp chín lần."
+  },
+  {
+   "n": 12,
+   "text": "4 = 2 × 2, 9 = 3 × 3: đó là các số bình phương.",
+   "say": "Bốn là hai nhân hai, chín là ba nhân ba: đó là các số bình phương."
+  },
+  {
+   "n": 13,
+   "text": "Vậy quãng đường đi được lớn lên theo bình phương thời gian.",
+   "say": "Vậy quãng đường đi được lớn lên theo bình phương của thời gian."
+  },
+  {
+   "n": 14,
+   "text": "Với vật rơi: quãng đường = ½ × g × thời gian².",
+   "say": "Với vật rơi, ta viết: quãng đường bằng một phần hai nhân g nhân thời gian bình phương."
+  },
+  {
+   "n": 15,
+   "text": "Số g cho biết mỗi giây vật nhanh thêm chừng 9,8 mét mỗi giây.",
+   "say": "Số g cho biết mỗi giây vật rơi nhanh thêm chừng chín phẩy tám mét mỗi giây."
+  },
+  {
+   "n": 16,
+   "text": "Rơi 1 giây: ½ × 9,8 × 1 × 1 = 4,9 mét.",
+   "say": "Thử với hòn đá rơi một giây: một nửa nhân chín phẩy tám nhân một nhân một, ra bốn phẩy chín mét."
+  },
+  {
+   "n": 17,
+   "text": "Rơi 2 giây: ½ × 9,8 × 4 = 19,6 mét.",
+   "say": "Rơi hai giây: một nửa nhân chín phẩy tám nhân bốn, ra mười chín phẩy sáu mét."
+  },
+  {
+   "n": 18,
+   "text": "Rơi 3 giây: ½ × 9,8 × 9 = 44,1 mét.",
+   "say": "Rơi ba giây: một nửa nhân chín phẩy tám nhân chín, ra bốn mươi bốn phẩy một mét."
+  },
+  {
+   "n": 19,
+   "text": "Vậy đếm được 3 giây, giếng sâu khoảng 44 mét.",
+   "say": "Vậy nếu đếm được ba giây, giếng sâu khoảng bốn mươi tư mét."
+  },
+  {
+   "n": 20,
+   "text": "Cao ngang tòa nhà khoảng 15 tầng.",
+   "say": "Chiều cao ấy ngang một tòa nhà khoảng mười lăm tầng."
+  },
+  {
+   "n": 21,
+   "text": "Nhưng đá nặng và đá nhẹ có rơi khác nhau không?",
+   "say": "Nhưng hòn đá nặng và hòn đá nhẹ có rơi khác nhau không?"
+  },
+  {
+   "n": 22,
+   "text": "Lông chim rơi chậm vì không khí cản nó nhiều hơn viên đá.",
+   "say": "Cái lông chim rơi chậm vì không khí cản nó nhiều hơn cản viên đá."
+  },
+  {
+   "n": 23,
+   "text": "Galileo nhận ra: nếu không có không khí, mọi vật rơi cùng lúc.",
+   "say": "Ga-li-lê nhận ra: nếu không có không khí, mọi vật rơi cùng một lúc."
+  },
+  {
+   "n": 24,
+   "text": "Vì vậy công thức không cần biết đá nặng bao nhiêu.",
+   "say": "Vì vậy công thức không cần biết hòn đá nặng bao nhiêu."
+  },
+  {
+   "n": 25,
+   "text": "Nhưng tiếng tõm cũng mất thời gian bay lên: khoảng 1 phần 8 giây với giếng 44 mét.",
+   "say": "Nhưng tiếng tõm cũng mất thời gian bay lên: khoảng một phần tám giây với giếng bốn mươi tư mét."
+  },
+  {
+   "n": 26,
+   "text": "Nên với giếng sâu, nên trừ bớt thời gian ấy khỏi số giây đã đếm.",
+   "say": "Nên với giếng sâu, ta nên trừ bớt thời gian ấy khỏi số giây đã đếm."
+  },
+  {
+   "n": 27,
+   "text": "Vậy chỉ một hòn đá và vài giây đếm, ta biết giếng sâu bao nhiêu.",
+   "say": "Vậy chỉ một hòn đá và vài giây đếm, ta biết được giếng sâu bao nhiêu."
+  },
+  {
+   "n": 28,
+   "text": "Nhờ quy luật Galileo tìm ra từ một cái máng gỗ.",
+   "say": "Nhờ quy luật mà Ga-li-lê tìm ra từ một cái máng gỗ."
+  }
+ ]
+}

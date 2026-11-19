@@ -1,0 +1,140 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Vũ trụ bao nhiêu tuổi, khi không ai sống đủ lâu để đếm?",
+   "say": "Vũ trụ bao nhiêu tuổi, khi không ai sống đủ lâu để đếm?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng ta có thể làm như xem phim chạy ngược.",
+   "say": "Nhưng ta có thể làm như xem một cuốn phim chạy ngược."
+  },
+  {
+   "n": 3,
+   "text": "Hóa ra các thiên hà đang bay xa nhau, và tốc độ ấy cho biết thời gian.",
+   "say": "Hóa ra các thiên hà đang bay xa nhau, và tốc độ ấy cho ta biết thời gian."
+  },
+  {
+   "n": 4,
+   "text": "Hình dung ổ bánh mì nhiều hạt nho, đang nở ra.",
+   "say": "Hãy hình dung một ổ bánh mì có nhiều hạt nho, đang nở ra."
+  },
+  {
+   "n": 5,
+   "text": "Bánh nở đều, nên hai hạt nho càng xa nhau thì rời nhau càng nhanh.",
+   "say": "Bánh nở đều, nên hai hạt nho càng xa nhau thì càng rời nhau nhanh hơn."
+  },
+  {
+   "n": 6,
+   "text": "Thiên hà cũng vậy: càng ở xa ta, càng chạy xa nhanh hơn.",
+   "say": "Các thiên hà cũng vậy: càng ở xa ta, chúng càng chạy ra xa nhanh hơn."
+  },
+  {
+   "n": 7,
+   "text": "Năm 1929, Edwin Hubble tìm ra điều ấy.",
+   "say": "Năm một nghìn chín trăm hai mươi chín, Ê-đuyn Ha-bồ tìm ra điều ấy."
+  },
+  {
+   "n": 8,
+   "text": "Hai năm trước, Lemaître cũng đã đi tới kết luận tương tự.",
+   "say": "Hai năm trước đó, Lơ-mét-trơ cũng đã đi tới kết luận tương tự."
+  },
+  {
+   "n": 9,
+   "text": "Hubble viết: tốc độ = H × khoảng cách.",
+   "say": "Ha-bồ viết thành công thức: tốc độ bằng H nhân khoảng cách."
+  },
+  {
+   "n": 10,
+   "text": "H là hằng số, ngày nay khoảng 70 ki-lô-mét mỗi giây trên mỗi mê-ga-pác-xéc.",
+   "say": "H là một hằng số, ngày nay đo được khoảng bảy mươi ki-lô-mét mỗi giây trên mỗi mê-ga-pác-xéc."
+  },
+  {
+   "n": 11,
+   "text": "1 mê-ga-pác-xéc là khoảng cách bằng 3,26 triệu năm ánh sáng.",
+   "say": "Một mê-ga-pác-xéc là đơn vị khoảng cách, bằng ba phẩy hai sáu triệu năm ánh sáng."
+  },
+  {
+   "n": 12,
+   "text": "Tức khoảng 30,9 tỉ tỉ ki-lô-mét.",
+   "say": "Tức khoảng ba mươi phẩy chín tỉ tỉ ki-lô-mét."
+  },
+  {
+   "n": 13,
+   "text": "Vậy thiên hà cách 1 mê-ga-pác-xéc đang chạy xa khoảng 70 ki-lô-mét mỗi giây.",
+   "say": "Vậy thiên hà cách ta một mê-ga-pác-xéc đang chạy ra xa khoảng bảy mươi ki-lô-mét mỗi giây."
+  },
+  {
+   "n": 14,
+   "text": "Chiếu phim ngược: thời gian = quãng đường ÷ tốc độ.",
+   "say": "Giờ ta chiếu phim ngược: thời gian bằng quãng đường chia cho tốc độ."
+  },
+  {
+   "n": 15,
+   "text": "Xe chạy 60 ki-lô-mét mỗi giờ, cách nhà 120 ki-lô-mét, thì đã rời nhà 2 giờ trước.",
+   "say": "Xe chạy sáu mươi ki-lô-mét mỗi giờ, đang cách nhà một trăm hai mươi ki-lô-mét, thì đã rời nhà hai giờ trước."
+  },
+  {
+   "n": 16,
+   "text": "Với thiên hà ấy, chia 30,9 tỉ tỉ ki-lô-mét cho 70 ki-lô-mét mỗi giây.",
+   "say": "Với thiên hà ấy, ta chia ba mươi phẩy chín tỉ tỉ ki-lô-mét cho bảy mươi ki-lô-mét mỗi giây."
+  },
+  {
+   "n": 17,
+   "text": "Ra khoảng 4,41 × 10¹⁷ giây.",
+   "say": "Ra khoảng bốn trăm bốn mươi mốt triệu tỉ giây."
+  },
+  {
+   "n": 18,
+   "text": "Đổi ra năm: 1 năm có khoảng 31,6 triệu giây.",
+   "say": "Đổi ra năm: một năm có khoảng ba mươi mốt phẩy sáu triệu giây."
+  },
+  {
+   "n": 19,
+   "text": "Chia 4,41 × 10¹⁷ cho 31,6 triệu, ra khoảng 14 tỉ năm.",
+   "say": "Chia bốn trăm bốn mươi mốt triệu tỉ cho ba mươi mốt phẩy sáu triệu, ra khoảng mười bốn tỉ năm."
+  },
+  {
+   "n": 20,
+   "text": "Thiên hà nào cũng cho cùng kết quả, vì tốc độ tăng đúng theo khoảng cách.",
+   "say": "Thiên hà nào cũng cho cùng kết quả, vì tốc độ tăng đúng theo khoảng cách."
+  },
+  {
+   "n": 21,
+   "text": "Vậy mọi thứ từng ở cùng một chỗ cách đây khoảng 14 tỉ năm.",
+   "say": "Vậy mọi thứ đã ở cùng một chỗ cách đây khoảng mười bốn tỉ năm."
+  },
+  {
+   "n": 22,
+   "text": "Thực ra tốc độ giãn nở có thay đổi, nên con số tốt nhất là 13,8 tỉ năm.",
+   "say": "Thực ra tốc độ giãn nở có thay đổi, nên con số tốt nhất là mười ba phẩy tám tỉ năm."
+  },
+  {
+   "n": 23,
+   "text": "Nhưng H đầu tiên của Hubble là 500, lớn gấp hơn 7 lần bây giờ.",
+   "say": "Nhưng con số H đầu tiên của Ha-bồ là năm trăm, lớn gấp hơn bảy lần bây giờ."
+  },
+  {
+   "n": 24,
+   "text": "Với 500, tuổi vũ trụ chỉ khoảng 2 tỉ năm.",
+   "say": "Với năm trăm, tuổi vũ trụ chỉ ra khoảng hai tỉ năm."
+  },
+  {
+   "n": 25,
+   "text": "Về sau khoảng cách được đo lại chính xác hơn, nên H giảm xuống khoảng 70.",
+   "say": "Về sau khoảng cách được đo lại chính xác hơn, nên H giảm xuống còn khoảng bảy mươi."
+  },
+  {
+   "n": 26,
+   "text": "Vậy tuổi vũ trụ tăng từ 2 tỉ lên 14 tỉ năm, chỉ nhờ đo lại khoảng cách.",
+   "say": "Vậy tuổi vũ trụ tăng từ hai tỉ lên mười bốn tỉ năm, chỉ nhờ đo lại khoảng cách."
+  },
+  {
+   "n": 27,
+   "text": "Từ tốc độ các thiên hà bay xa nhau, ta biết vũ trụ gần 14 tỉ năm tuổi.",
+   "say": "Từ tốc độ các thiên hà bay xa nhau, ta biết vũ trụ đã gần mười bốn tỉ năm tuổi."
+  }
+ ]
+}

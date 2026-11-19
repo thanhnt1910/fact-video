@@ -68,3 +68,26 @@ Chủ kênh thấy bd2 "nghe vẫn hợp lý" và yêu cầu các tập sau tham
 | "chỉ còn cách nhau mấy bến sông… bị chặn ở chính ba bến sông ấy" (câu trước nói "mấy", câu sau nói "ba": số không khớp) | một con số hoặc một sự vật nói nhất quán trong cả đoạn: "Giữa hai đạo quân ấy là dòng sông Hồng… ba bến sông trên chính dòng sông ấy" | tm5 |
 | "quân nhà Nguyên vào một Thăng Long bỏ trống" (động từ yếu, như đi thăm nhà người thân) | "tràn vào chiếm Thăng Long, nhưng kinh thành đã bị bỏ trống"; xem mục 1, điểm 7 | tm5 |
 | "quân của Thoát Hoan bắt đầu đói và ốm" (nói kết quả trước, nguyên nhân để sau và còn mơ hồ) | kể nguyên nhân trước, kết quả sau: thành trống, không tìm được lương tại chỗ, lương phải chở từ xa, mùa hè nắng nóng mưa dầm, nên quân lính thiếu ăn và đổ bệnh | tm5 |
+
+## 5. Câu cụt kiểu biên niên (chủ kênh nhắc 19/11/2026, tm12; áp dụng mọi kịch bản từ nay)
+
+**Lỗi:** chép theo nhịp của Toàn thư, mỗi việc một vế ngắn, nối với nhau chỉ bằng dấu phẩy, kết bằng một động từ trơ. Nghe như đọc bản dịch từng chữ, người nghe không biết thua ai, ở đâu, vì sao.
+
+**Dấu hiệu:**
+- Ba vế ngắn trở lên liền nhau, chỉ ngăn bằng dấu phẩy ("Năm năm trăm năm mươi, nhà Lương cho Trần Bá Tiên cai quản cả vùng, và ông ta tính đổi cách, chặn đường lương, vây cho lâu").
+- Vế cuối câu chỉ còn động từ kết quả: "tan vỡ", "thất thủ", "đều vỡ", "thua", "chết trận".
+- Câu kết quả không có đối tượng: "Quân của Lý Nam Đế thua liền" (thua ai, mấy trận, ở đâu?).
+- Thiếu chữ nối quan hệ giữa các việc: vì, nên, rồi, nhưng, khi, đến nỗi, thay vì.
+
+**Cách sửa:**
+1. Mỗi câu có đủ ai làm gì, ở đâu hoặc vì sao. Câu kết quả phải nói thua ai, thắng ai, mất cái gì.
+2. Nối hai việc bằng chữ chỉ quan hệ, không chỉ bằng dấu phẩy. Liệt kê ba thứ thì gom vào một cụm ("một khúc sông, một tòa thành hay một mặt hồ"), không để mỗi thứ thành một vế riêng.
+3. Một câu không quá bốn dấu phẩy; nhiều hơn thì tách câu.
+4. Đọc to từng câu: câu nào nghe như điện tín hay bản dịch thì viết lại.
+
+**Ví dụ (tm12):**
+- Trước: "Quân của Lý Nam Đế thua liền." Sau: "Quân của Lý Nam Đế thua ngay từ những trận đầu. Khoảng ba vạn người kéo ra chặn quân nhà Lương ở Chu Diên rồi ở cửa sông Tô Lịch, nhưng cả hai lần đều bị đánh tan."
+- Trước: "Quân nhà Lương đánh trống xông vào, quân Vạn Xuân không kịp trở tay, tan vỡ." Sau: "Quân nhà Lương nhân lúc đó đánh trống xông vào, còn quân Vạn Xuân thì không kịp trở tay nên thua trận."
+- Trước: "...và ông ta tính đổi cách, chặn đường lương, vây cho lâu. Đây là chỗ hiểm của cách đánh trong đầm." Sau: "...và ông ta tính đổi cách đánh. Thay vì cố đánh vào đầm, ông định chặn hết đường tiếp lương rồi vây thật lâu. Đây chính là điểm yếu của cách đánh trong đầm, vì quân Dạ Trạch sống nhờ lương cướp từ trại giặc..."
+
+**Kiểm:** `python phim_ban_do/kiem_cau_cut.py <mã>` phải 0 ❌ trước khi gửi duyệt. Cảnh báo "nhiều hơn 3 dấu phẩy" của `kiem_kich_ban.py` cũng không được ghi "chấp nhận" khi câu đó là chuỗi vế cụt; phải sửa.

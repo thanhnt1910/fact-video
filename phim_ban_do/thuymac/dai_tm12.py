@@ -4,6 +4,8 @@ import khung_dung as K
 from khung_dung import cam,cpath,PAP,W,H,title
 from canh import *
 from fx_tran import arrows,dust,sparks,fall
+from tran_fx import clash
+BACC=(.17,.29,.45);LYCC=(.69,.5,.13);VIETC=(.69,.16,.11)
 from dai_tm2 import big,tagfall,strike,lb
 V=K.setup('tm12',{})
 T,E,mid,TX=V.T,V.E,V.mid,V.TX
@@ -88,6 +90,7 @@ def S_5b(cv,t):
 def S_6a(cv,t):
     c,a,b=SC('t12_thua',6,0,2,s=1.0,y=560,dx=-400,z0=1.0,z1=1.1)(cv,t)
     lb(cv,c,'Chu Diên, cửa sông Tô Lịch',960,170,t,sb(6,1)+.2,b,col=INK,sz=42)
+    lb(cv,c,'quân Vạn Xuân',420,280,t,a+.5,b,col=RED,sz=34);lb(cv,c,'quân nhà Lương',1500,280,t,a+.5,b,col=BACC,sz=34)
     dust(cv,c,800+(t*80)%300,760,o=.3,s=.4)
 def S_6b(cv,t):
     c,a,b=SC('t12_thanh',6,2,3,s=1.15,z0=1.0,z1=1.15)(cv,t)
@@ -103,6 +106,8 @@ def S_6c(cv,t):
 def S_7(cv,t):
     c,a,b=SC('t12_dientriet',7,0,4,s=1.0,y=540,dx=-300,z0=1.0,z1=1.12,mist=.2)(cv,t)
     seal(cv,'s546',1500,300,a+.5,t,s=.8,r=4)
+    lb(cv,c,'quân nhà Lương',330,330,t,a+.6,sb(7,2),col=BACC,sz=32);lb(cv,c,'quân Vạn Xuân trên thuyền',1250,330,t,a+.6,sb(7,2),col=RED,sz=32)
+    if t>sb(7,3)-.2: clash(cv,c,t,sb(7,3),b,'bac','viet',push=1,seed=7,y=760,s=.75)
     lb(cv,c,'hồ Điển Triệt, hai vạn quân',960,160,t,a+.4,sb(7,2),col=INK,sz=42)
     if t>sb(7,2): put(cv,c,'t12_spr_nuoc',960,880-260*inn(t,sb(7,2),3.0),s=1.0,o=.8)
     lb(cv,c,'đêm ấy nước sông dâng cao bảy thước',960,160,t,sb(7,2)+.2,b,col=RED,sz=42)
@@ -173,6 +178,7 @@ def S_20a(cv,t):
     c,a,b=SC('t12_ra',20,0,2,s=1.0,y=550,dx=600,z0=1.0,z1=1.06)(cv,t)
     lb(cv,c,'Trần Bá Tiên bị gọi về',960,150,t,a+.3,sb(20,1),col=INK,sz=44)
     lb(cv,c,'ra khỏi đầm',960,150,t,sb(20,1)+.2,b,col=RED,sz=48)
+    lb(cv,c,'quân Triệu Việt Vương',650,300,t,sb(20,1)+.2,b,col=RED,sz=32);lb(cv,c,'quân nhà Lương',1550,300,t,sb(20,1)+.2,b,col=BACC,sz=32)
 def S_20b(cv,t):
     c,a,b=SC('t12_longbien',20,2,3,s=1.15,z0=1.0,z1=1.12)(cv,t)
     lb(cv,c,'vào thành Long Biên',960,120,t,a+.3,b,col=RED,sz=46)
@@ -190,9 +196,11 @@ def S_23a(cv,t):
 def S_23b(cv,t):
     c,a,b=SC('t12_namtran',23,2,3,s=1.1,z0=1.0,z1=1.08,mist=0)(cv,t)
     lb(cv,c,'năm trận, không bên nào thắng',960,140,t,a+.3,b,col=INK,sz=44)
+    lb(cv,c,'quân Triệu Việt Vương',560,220,t,a+.5,b,col=RED,sz=30);lb(cv,c,'quân Lý Phật Tử',1360,220,t,a+.5,b,col=LYCC,sz=30)
 def S_24a(cv,t):
     c,a,b=SC('t12_hoa',24,0,3,s=1.0,y=540,dx=300,z0=1.0,z1=1.1)(cv,t)
     lb(cv,c,'bãi Quân Thần làm ranh giới',960,150,t,sb(24,2)-.5,b,col=RED,sz=42)
+    lb(cv,c,'Triệu Việt Vương',500,260,t,a+.4,b,col=RED,sz=30);lb(cv,c,'Lý Phật Tử',1450,260,t,a+.4,b,col=LYCC,sz=30)
 def S_24b(cv,t):
     c,a,b=SC('t12_cuoi',24,3,4,s=1.15,z0=1.0,z1=1.1)(cv,t)
     lb(cv,c,'Nhã Lang ở rể',960,130,t,a+.3,b,col=INK,sz=44)
@@ -204,6 +212,7 @@ def S_26a(cv,t):
     c,a,b=SC('t12_danhup',26,0,2,s=1.0,y=540,dx=500,z0=1.0,z1=1.1)(cv,t)
     seal(cv,'s571',1500,300,a+.5,t,s=.8,r=4)
     lb(cv,c,'Lý Phật Tử phá lời hòa ước',960,150,t,a+.3,b,col=RED,sz=44)
+    lb(cv,c,'quân Lý Phật Tử',450,300,t,a+.6,b,col=LYCC,sz=32)
 def S_26b(cv,t):
     a,b=sb(26,2),sb(26,3)
     c=mcam(t,[(a,(440,650,2.0)),(b,(480,760,2.2))]);mapbg(cv,c)
@@ -226,7 +235,7 @@ def S_29(cv,t):
     a=T[29]-.3;c=paint(cv,t,a,E[29]+4,'t12_ket',s=1.0,y=540,dx=-300,z0=1.05,z1=1.0,mist=.3)
     boat(cv,c,t,1400,1600,600,a,E[29]+4,s=.5,o=.6)
     tx=text('Triệu Quang Phục, Dạ Trạch Vương',54,INK,700);put_screen(cv,wipe(tx,inn(t,a+.8,1.4),0,.3,seed=12),W/2,170)
-    put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,600,inn(t,E[29]+.6,1))
+    put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,245,inn(t,E[29]+.6,1))
 
 MOV.update({
 't12_hai':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_chim',300,200,1500,140,t,a,b,s=.8,o=.7),
@@ -234,9 +243,9 @@ MOV.update({
 't12_bien':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',1700,180,400,120,t,a,b,s=.8,o=.7),mv(cv,c,'t12_spr_nuoc',960,900,960,880,t,a,b,o=.5,bob=12)),
 't12_bun':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_nuoc',960,1000,960,980,t,a,b,o=.45,bob=14),mv(cv,c,'t12_spr_chim',1600,160,300,220,t,a,b,s=.7,o=.6)),
 't12_vanxuan':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',100,830,700,800,t,a,b,s=.9),
-'t12_luongsang':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_linh',-200,850,700,850,t,a,b,s=1.0),mv(cv,c,'t12_spr_ngua',300,760,1100,760,t,a,b,s=.9)),
-'t12_thua':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_linh',1500,840,900,840,t,a,b,s=.9),mv(cv,c,'t12_spr_dan',700,860,200,860,t,a,b,s=.8)),
-'t12_thanh':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_linh',1700,880,1300,860,t,a,b,s=.8),smoke(cv,c,960,520,t)),
+'t12_luongsang':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_bac',-200,850,700,850,t,a,b,s=1.0),mv(cv,c,'t12_spr_ngua',300,760,1100,760,t,a,b,s=.9)),
+'t12_thua':lambda cv,c,t,a,b:clash(cv,c,t,a,b,'viet','bac',push=-1,seed=6,y=750,s=.8),
+'t12_thanh':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_bac',1700,880,1300,860,t,a,b,s=.8),smoke(cv,c,960,520,t)),
 't12_dientriet':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_thuyen',1300,700,1450,700,t,a,b,s=.7,bob=8),
 't12_bachon':lambda cv,c,t,a,b:[stroke(cv,c,[(150+i*620,300),(500+i*620,300)],inn(t,a+.5+i*1.2,1.0),wid=6,col=RED,o=.8) for i in range(3)],
 't12_lvh':lambda cv,c,t,a,b:(smoke(cv,c,1600,640,t),smoke(cv,c,1450,640,t+2),mv(cv,c,'t12_spr_chim',1700,220,300,180,t,a,b,s=1.0,o=.7)),
@@ -245,23 +254,23 @@ MOV.update({
 't12_docmoc':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_thuyen',1800,820,1350,800,t,a,b,s=.8,bob=6),
 't12_bokhuat':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_ngua',500+120*math.sin(t*.8),760,500+120*math.sin(t*.8),760,t,a,b,s=.9),
 't12_ngay':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',300,220,1600,160,t,a,b,s=1.1,o=.8),mv(cv,c,'t12_spr_chim',1700,320,700,260,t,a,b,s=.8,o=.7),mv(cv,c,'t12_spr_nuoc',960,960,960,940,t,a,b,o=.45,bob=14)),
-'t12_dem':lambda cv,c,t,a,b:[flick(cv,c,1350+i*230,640,t+i,s=.5) for i in range(3)],
+'t12_dem':lambda cv,c,t,a,b:([flick(cv,c,1350+i*230,640,t+i,s=.5) for i in range(3)],clash(cv,c,t,a+1.5,b,'viet','bac',push=1,seed=13,xm=1150,y=780,s=.7,ten=False)),
 't12_luong':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',1500,780,700,780,t,a,b,s=.9),
 't12_sachhai':lambda cv,c,t,a,b:[stroke(cv,c,[(1150+i*45,240),(1150+i*45,600)],inn(t,a+.3+i*.4,.6),wid=5,col=INK,o=.7,head=False) for i in range(8)],
 't12_mat':lambda cv,c,t,a,b:smoke(cv,c,960,700,t,s=1.2),
 't12_haivua':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',200,200,1700,180,t,a,b,s=1.1,o=.8),smoke(cv,c,1550,560,t),mv(cv,c,'t12_spr_nuoc',400,960,400,940,t,a,b,o=.45,bob=14)),
-'t12_vay':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_linh',200,860,1500,860,t,a,b,s=.9),mv(cv,c,'t12_spr_linh',1700,330,500,330,t,a,b,s=.6)),
+'t12_vay':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_bac',200,860,1500,860,t,a,b,s=.9),mv(cv,c,'t12_spr_bac',1700,330,500,330,t,a,b,s=.6)),
 't12_kinhdo':lambda cv,c,t,a,b:([flick(cv,c,640+i*200,360,t+i,s=.6) for i in range(4)],smoke(cv,c,960,300,t,s=1.3)),
-'t12_ra':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_thuyen',200,820,900,800,t,a,b,s=.6,bob=5),mv(cv,c,'t12_spr_linh',700,850,1400,850,t,a,b,s=.8)),
-'t12_longbien':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_linh',100,860,820,840,t,a,b,s=1.0),mv(cv,c,'t12_spr_chim',1600,160,500,140,t,a,b,s=.9,o=.7)),
+'t12_ra':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_thuyen',200,820,900,800,t,a,b,s=.6,bob=5),clash(cv,c,t,sb(20,1),b,'viet','bac',push=1,seed=20,xm=1100,y=760,s=.8)),
+'t12_longbien':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_viet',100,860,820,840,t,a,b,s=1.0),mv(cv,c,'t12_spr_chim',1600,160,500,140,t,a,b,s=.9,o=.7)),
 't12_nuoc':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_nuoc',480,900,480,880,t,a,b,o=.5,bob=16),[flick(cv,c,1200+i*180,620,t+i,s=.6) for i in range(3)]),
 't12_lenngoi':lambda cv,c,t,a,b:(smoke(cv,c,700,700,t),smoke(cv,c,1220,700,t+3)),
-'t12_phattu':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_linh',300,560,800,760,t,a,b,s=.7),
-'t12_namtran':lambda cv,c,t,a,b:[dust(cv,c,190+i*380,560-((t*50+i*30)%150),o=.3,s=.35) for i in range(5)]+[stroke(cv,c,[(190+i*380-80,620),(190+i*380+80,620)],inn(t,a+.4+i*.8,.5),wid=6,col=RED,o=.7) for i in range(5)],
+'t12_phattu':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_ly',300,560,800,760,t,a,b,s=.7),
+'t12_namtran':lambda cv,c,t,a,b:[sparks(cv,c,t,[(x,600),(x+20,585),(x-15,615)],a+.5,b,seed=k) for k,x in enumerate((120,540,975,1410,1845))]+[dust(cv,c,190+i*380,560-((t*50+i*30)%150),o=.3,s=.35) for i in range(5)]+[stroke(cv,c,[(190+i*380-80,620),(190+i*380+80,620)],inn(t,a+.4+i*.8,.5),wid=6,col=RED,o=.7,head=False) for i in range(5)],
 't12_hoa':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_thuyen',200,700,1000,700,t,a,b,s=.8,bob=6),mv(cv,c,'t12_spr_chim',1700,200,500,160,t,a,b,s=1.0,o=.8)),
 't12_cuoi':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_nguoi',300,800,700,780,t,a,b,s=.9),
 't12_hai_mat':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_nguoi',1700,780,1500,770,t,a,b,s=.9),
-'t12_danhup':lambda cv,c,t,a,b:([flick(cv,c,1200+i*200,520,t+i,s=.6) for i in range(3)],mv(cv,c,'t12_spr_linh',0,860,700,860,t,a,b,s=.9)),
+'t12_danhup':lambda cv,c,t,a,b:([flick(cv,c,1200+i*200,520,t+i,s=.6) for i in range(3)],clash(cv,c,t,a,b,'ly','viet',push=1,seed=26,xm=900,y=760,s=.8)),
 't12_daina':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',1700,160,500,120,t,a,b,s=.8,o=.7),mv(cv,c,'t12_spr_nuoc',960,880,960,860,t,a,b,o=.4,bob=12)),
 't12_mongrong':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_lua',1300,640,950,320,t,a+2,b-2,s=.6,o=.8),smoke(cv,c,960,380,t)),
 't12_trongnha':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_nguoi',1300,830,500,880,t,a,b,s=1.1),smoke(cv,c,1560,560,t)),

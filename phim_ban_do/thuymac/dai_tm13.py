@@ -4,6 +4,7 @@ import khung_dung as K
 from khung_dung import cam,cpath,PAP,W,H,title
 from canh import *
 from fx_tran import arrows,dust,sparks,fall
+from tran_fx import clash
 from dai_tm2 import big,tagfall,strike,lb
 V=K.setup('tm13',{4:4.0})
 T,E,mid,TX=V.T,V.E,V.mid,V.TX
@@ -116,7 +117,6 @@ def S_8a(cv,t):
     a,b=T[8]-.3,sb(8,1)
     c=paint(cv,t,a,b,'t13_vien',s=1.0,y=540,dx=-260,z0=1.0,z1=1.14,mist=.35)
     lb(cv,c,'Mã Viện, Phục Ba tướng quân',960,170,t,a+.4,b-.2,col=RED,sz=44)
-    if t>a+3: arrows(cv,c,t,a+3,b,[(200,700),(280,740)],[(900,640),(1000,660)],n=8,h=40,per=.9,seed=8)
 def S_8b(cv,t):
     a,b=sb(8,1),sb(8,2)
     c=paint(cv,t,a,b,'t13_thuyenluong',s=1.0,y=560,dx=-500,z0=1.1,z1=1.0,mist=.3)
@@ -134,7 +134,8 @@ def S_9a(cv,t):
     c=paint(cv,t,a,b,'t13_langbac',s=1.0,y=560,dx=-380,z0=1.0,z1=1.15,mist=.15)
     lb(cv,c,'Lãng Bạc',960,170,t,a+.3,b-.2,col=RED,sz=52)
     lb(cv,c,'sách cũ: Hồ Tây; nay: vùng núi Tiên Du',960,235,t,a+2.2,b-.2,col=INK,sz=32)
-    arrows(cv,c,t,a+.5,b,[(150,500),(240,540),(180,580)],[(1100,640),(1200,660),(1000,620)],n=10,h=60,per=.9,seed=9)
+    lb(cv,c,'quân nhà Hán',450,300,t,a+.6,b,col=(.17,.29,.45),sz=36)
+    lb(cv,c,'quân hai bà',1500,300,t,a+.6,b,col=RED,sz=36)
 def S_9b(cv,t):
     a,b=sb(9,1),E[9]+.3
     c=paint(cv,t,a,b,'t13_hang',s=1.15,dx=250,z0=1.0,z1=1.12,mist=.2)
@@ -196,22 +197,22 @@ def S_15(cv,t):
     c=paint(cv,t,a,E[15]+4,'t13_cuoi',s=1.15,z0=1.0,z1=1.1,mist=.3)
     flock(cv,c,t,.5)
     tx=text('Hai Bà Trưng, năm 40 đến 43',54,INK,700);put_screen(cv,wipe(tx,inn(t,a+.8,1.4),0,.3,seed=13),W/2,170)
-    put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,600,inn(t,E[15]+.6,1))
+    put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,245,inn(t,E[15]+.6,1))
 
 MOV.update({
 't13_chay':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_dan',200,860,700,860,t,a,b,s=.9),mv(cv,c,'t12_spr_chim',1600,180,500,140,t,a,b,s=1.0,o=.7)),
-'t13_phu':lambda cv,c,t,a,b:(smoke(cv,c,1300,700,t),mv(cv,c,'t12_spr_linh',1500,880,1000,880,t,a,b,s=.9)),
+'t13_phu':lambda cv,c,t,a,b:(smoke(cv,c,1300,700,t),mv(cv,c,'t12_spr_bac',1500,880,1000,880,t,a,b,s=.9)),
 't13_tat':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',300,200,1600,160,t,a,b,s=1.1,o=.8),smoke(cv,c,960,760,t)),
 't13_lang':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_dan',300,880,1100,880,t,a,b,s=.9),mv(cv,c,'t12_spr_chim',1700,200,500,160,t,a,b,s=1.0,o=.7)),
 't13_hoi':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_dan',-100,860,700,840,t,a,b,s=1.0),mv(cv,c,'t12_spr_dan',2000,860,1300,840,t,a,b,s=1.0)),
 't13_troi':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',200,900,900,900,t,a,b,s=1.0),
 't13_trieu':lambda cv,c,t,a,b:(smoke(cv,c,750,740,t),smoke(cv,c,1170,740,t+3)),
-'t13_vien':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_linh',-200,860,900,860,t,a,b,s=1.0),mv(cv,c,'t12_spr_ngua',100,780,1000,780,t,a,b,s=.9)),
+'t13_vien':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_bac',-200,860,900,860,t,a,b,s=1.0),mv(cv,c,'t12_spr_ngua',100,780,1000,780,t,a,b,s=.9)),
 't13_thuyenluong':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_thuyen',200,760,1100,740,t,a,b,s=.9,bob=8),mv(cv,c,'t12_spr_nuoc',960,960,960,940,t,a,b,o=.4,bob=14)),
-'t13_langbac':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_linh',1700,860,1000,860,t,a,b,s=1.0),
+'t13_langbac':lambda cv,c,t,a,b:clash(cv,c,t,a+.4,b,'bac','viet',push=1,seed=9,y=740,s=.8),
 't13_hang':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',200,880,900,880,t,a,b,s=.9),
 't13_roi':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',900,860,1800,820,t,a,b,s=.8),
-'t13_camkhe':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_linh',700,880,1300,700,t,a,b,s=.8),mv(cv,c,'t12_spr_chim',1700,200,400,160,t,a,b,s=1.0,o=.7)),
+'t13_camkhe':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_bac',700,880,1300,700,t,a,b,s=.8),mv(cv,c,'t12_spr_chim',1700,200,400,160,t,a,b,s=1.0,o=.7)),
 't13_hat':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_thuyen',300,820,900,800,t,a,b,s=.7,bob=6),mv(cv,c,'t12_spr_nuoc',960,980,960,960,t,a,b,o=.4,bob=14)),
 't13_sach':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',1700,110,300,90,t,a,b,s=1.0,o=.7),[stroke(cv,c,[(170+i*630,900),(500+i*630,900)],inn(t,a+i*(b-a)/3,(b-a)/3),wid=6,col=RED,o=.7,head=False) for i in range(3)]),
 't13_lo':lambda cv,c,t,a,b:(flick(cv,c,840,560,t,s=1.0),smoke(cv,c,840,380,t,s=1.3)),

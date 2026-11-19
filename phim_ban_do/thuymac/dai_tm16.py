@@ -42,7 +42,9 @@ def pulse(cv,c,x,y,t,col=RED):
     for k in range(2):
         u=((t*.6+k*.5)%1.0);dot(cv,c,x,y,o=.6*(1-u),col=col,r=int(8+40*u))
 def voi(cv,c,x0,y0,x1,y1,t,a,b,s=.8,o=.97,k=0):
-    u=cl((t-a)/max(b-a,.1));put(cv,c,'t16_spr_voi_k' if k else 't16_spr_voi',x0+(x1-x0)*u,y0+(y1-y0)*u+5*math.sin(t*2.6),s=s,o=o)
+    u=cl((t-a)/max(b-a,.1));nm=('t16_spr_voi_k' if k else 't16_spr_voi')+('l' if x1<x0 else '')
+    nm={'t16_spr_voi_kl':'t16_spr_voi_kl','t16_spr_voil':'t16_spr_voi_l'}.get(nm,nm)
+    put(cv,c,nm,x0+(x1-x0)*u,y0+(y1-y0)*u+5*math.sin(t*2.6),s=s,o=o)
 # 1 hook
 def S_1(cv,t):
     a,b=0,E[1]+.3

@@ -52,8 +52,6 @@ Cách giải thích cho dễ hiểu:
 | 20 | Một năm dài bao nhiêu ngày (Hipparchus, lịch Giu-li-an và Gregory) | `ke-hoach/khoa-hoc-video-20-do-dai-nam-kich-ban.md` |
 | 21 | Làm sao biết Trái Đất quay (con lắc Foucault, 15 độ × sin vĩ độ) | `ke-hoach/khoa-hoc-video-21-con-lac-phu-co-kich-ban.md` |
 | 22 | Mặt Trời nặng bao nhiêu (tốc độ quỹ đạo, M = v² × r ÷ G) | `ke-hoach/khoa-hoc-video-22-can-mat-troi-kich-ban.md` |
-| 23 | Sao 61 Thiên Nga xa bao nhiêu (Bessel 1838, thị sai 0,314 giây cung, 657 nghìn × 150 triệu km) | `ke-hoach/khoa-hoc-video-23-sao-gan-kich-ban.md` |
-| 24 | Âm thanh chạy nhanh bao nhiêu (đếm giây chớp–sấm, 6 × 343 m, Viện Hàn lâm Pháp 1738) | `ke-hoach/khoa-hoc-video-24-toc-do-am-thanh-kich-ban.md` |
 
 ## Chưa làm
 

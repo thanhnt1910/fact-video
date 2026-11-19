@@ -40,21 +40,21 @@ def linh(cv,c,x,y,t,s=.4,ph=0.,face=1,mode='march',o=1.0):
     """mode: march (đi, giáo vác), run (chạy), thrust (đứng đâm giáo). (x,y) là chân; face=1 quay phải, -1 quay trái"""
     f=face;sp={'march':6.5,'run':10.5,'thrust':0}[mode];amp={'march':26,'run':42,'thrust':0}[mode]
     w=math.sin(t*sp+ph) if sp else 0
-    hip=(x,y-148*s+(abs(math.sin(t*sp+ph))*4*s if sp else 0))
+    hip=(x,y-106*s+(abs(math.sin(t*sp+ph))*4*s if sp else 0))
     for side in (1,-1):
         a1=side*w*amp*f
         a2=a1+max(0,-side*w)*(45 if sp else 0)*f
         if mode=='thrust': a1=a2=side*9*f
-        kx,ky=_end(hip[0],hip[1],75*s,a1)
+        kx,ky=_end(hip[0],hip[1],52*s,a1)
         put(cv,c,'rg_dui',hip[0],hip[1],s=s,r=a1,ay=0,o=o)
         put(cv,c,'rg_chan',kx,ky,s=s,r=a2,ay=0,o=o)
     lean=(7 if mode=='run' else 2)*f;sl,cl_=math.sin(math.radians(lean)),math.cos(math.radians(lean))
     put(cv,c,'rg_than',hip[0],hip[1],s=s,r=-lean,ay=1,o=o)
-    put(cv,c,'rg_dau',hip[0]+100*s*sl,hip[1]-100*s*cl_+4*s,s=s,r=-lean*.5,ay=.9,o=o)
-    sh=(hip[0]+92*s*sl,hip[1]-92*s*cl_)
+    put(cv,c,'rg_dau',hip[0]+78*s*sl,hip[1]-78*s*cl_+6*s,s=s,r=-lean*.5,ay=.9,o=o)
+    sh=(hip[0]+70*s*sl,hip[1]-70*s*cl_)
     put(cv,c,'rg_tay',sh[0]-6*s*f,sh[1],s=s,r=(-w*amp*.9 if sp else 8)*f,ay=0,o=o)
     if mode=='thrust': d=.5+.5*math.sin(t*5+ph);ar=-(55+20*d)*f;gr=(78-8*d)*f;push=26*s*d*f
     else: ar=-(35+8*w)*f;gr=(18+4*w)*f;push=0
-    hx,hy=_end(sh[0]+6*s*f,sh[1],62*s,ar)
+    hx,hy=_end(sh[0]+6*s*f,sh[1],50*s,ar)
     put(cv,c,'rg_tay',sh[0]+6*s*f,sh[1],s=s,r=ar,ay=0,o=o)
     put(cv,c,'rg_giao',hx+push,hy,s=s,r=gr,ay=.78,o=o)

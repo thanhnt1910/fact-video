@@ -15,14 +15,14 @@ def S_8n(cv,t):
             ux=inn(t,a+.1+i*.07,.4)*(1-inn(t,tc+1.5,.8)*.8)
             mode='thrust' if t>sb(8,1) else 'march'
             xoff=(1-inn(t,a+.1+i*.07,1.6))*fc*-120 if mode=='march' else 0
-            HU.linh(cv,c,xx+xoff,665+(i%3)*12,t,s=.42,ph=i*.9,face=fc,mode=mode,o=ux)
+            HU.linh(cv,c,xx+xoff,665+(i%3)*12,t,s=.62,ph=i*.9,face=fc,mode=mode,o=ux)
     lb(cv,c,'Trần Bảo vây chặt Đại La',960,170,t,a+.2,sb(8,1)-.1,col=RED,sz=42)
     big(cv,'NGƯỜI VÂY THÀNH, THÀNH NGƯỜI BỊ VÂY',t,sb(8,1)+.1,tc-.3,INK,150,58,seed=8)
     if t>tc-.2:
         for i in range(12):
             st=tc+i*.12;u=inn(t,st,1.5);fc=-1 if i%2 else 1
             xs=960+fc*lerp(0,150+i*45,u)
-            HU.linh(cv,c,xs,655+(i%3)*10,t,s=.42,ph=i*.7,face=fc,mode='run' if u<.95 else 'thrust',o=inn(t,st,.2))
+            HU.linh(cv,c,xs,655+(i%3)*10,t,s=.62,ph=i*.7,face=fc,mode='run' if u<.95 else 'thrust',o=inn(t,st,.2))
         sparks(cv,c,t,[(700,610),(820,620),(1100,610),(1220,620)],tc+.4,E[8],seed=8)
         HU.tro(cv,c,t,tc+.2,E[8],[(700,610),(820,620),(1100,610),(1220,620)],n=18)
         tagfall(cv,c,1180,330,'Trần Bảo',t,tc+.2,fall=E[8]-.9,sz=44,col=RED)

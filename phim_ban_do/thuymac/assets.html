@@ -1030,7 +1030,7 @@ t13_hang(){const s=setup(1900,800);seed=1311;const g=el(s,'g',{filter:'url(#ink)
  el(g,'line',{x1:1700,y1:740,x2:1700,y2:430,stroke:INK,'stroke-width':6});el(g,'path',{d:'M1700 430 L1800 460 L1700 500Z',fill:BAC,opacity:.8})},
 t13_roi(){const s=setup(2800,620);seed=1312;const g=el(s,'g',{filter:'url(#ink)'});
  ridge(g,260,90,0,2800,6,INK,.15,620);
- for(let i=0;i<18;i++){const x=1500+i*70+rnd()*20;person(g,x,520+(i%3)*30,.6+(i%3)*.08,{});}
+ for(let i=0;i<18;i++){const x=1500+i*70+rnd()*20;person(g,x,520+(i%3)*30,.6+(i%3)*.08,{ao:VIET,spear:i%3==0});}
  el(g,'path',{d:'M1480 470 L2780 470',stroke:INK,'stroke-width':2,opacity:.25,'stroke-dasharray':'8 10'});
  woman(g,420,560,1.5,{});woman(g,540,570,1.4,{});el(g,'circle',{cx:480,cy:300,r:80,fill:INK,opacity:.08})},
 t13_camkhe(){const s=setup(2800,700);seed=1313;const g=el(s,'g',{filter:'url(#ink)'});

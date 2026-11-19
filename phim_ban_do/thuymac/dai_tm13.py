@@ -140,6 +140,7 @@ def S_9b(cv,t):
     a,b=sb(9,1),E[9]+.3
     c=paint(cv,t,a,b,'t13_hang',s=1.15,dx=250,z0=1.0,z1=1.12,mist=.2)
     lb(cv,c,'Mã Viện thắng lớn',960,160,t,a+.3,sb(9,2)-.2,col=RED,sz=46)
+    lb(cv,c,'quân nhà Hán',1500,330,t,a+.5,b,col=(.17,.29,.45),sz=32);lb(cv,c,'quân hai bà ra hàng',600,330,t,a+.5,b,col=RED,sz=32)
     lb(cv,c,'hàng nghìn người ngã xuống, hơn mười nghìn người hàng',960,160,t,sb(9,2)+.2,sb(9,3)-.2,col=INK,sz=38)
     lb(cv,c,'hai bà lui về Cấm Khê',960,160,t,sb(9,3)+.1,b,col=RED,sz=44)
 # 10
@@ -153,6 +154,7 @@ def S_11(cv,t):
     a,b=T[11]-.3,E[11]+.3
     c=paint(cv,t,a,b,'t13_camkhe',s=1.0,y=540,dx=300,z0=1.0,z1=1.2,mist=.4)
     lb(cv,c,'Cấm Khê, chưa rõ ở đâu',960,170,t,a+.3,sb(11,1)-.2,col=INK,sz=44)
+    lb(cv,c,'quân hai bà',1120,430,t,a+.6,b,col=RED,sz=32);lb(cv,c,'quân Mã Viện',700,560,t,a+.6,b,col=(.17,.29,.45),sz=32)
     lb(cv,c,'Mã Viện đuổi theo, đánh nhiều trận',960,170,t,sb(11,1)+.2,sb(11,2)-.2,col=RED,sz=40)
     seal(cv,'s43',1500,300,sb(11,2)-.2,t,s=.8,r=4)
     lb(cv,c,'năm bốn mươi ba: bị cô lập, thất bại',960,170,t,sb(11,2)+.2,b,col=RED,sz=40)
@@ -200,18 +202,18 @@ def S_15(cv,t):
     put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,245,inn(t,E[15]+.6,1))
 
 MOV.update({
-'t13_chay':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_dan',200,860,700,860,t,a,b,s=.9),mv(cv,c,'t12_spr_chim',1600,180,500,140,t,a,b,s=1.0,o=.7)),
+'t13_chay':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_viet',100,860,600,860,t,a,b,s=.9),mv(cv,c,'t12_spr_bac',1300,860,1900,860,t,a,b,s=.8),mv(cv,c,'t12_spr_chim',1600,180,500,140,t,a,b,s=1.0,o=.7)),
 't13_phu':lambda cv,c,t,a,b:(smoke(cv,c,1300,700,t),mv(cv,c,'t12_spr_bac',1500,880,1000,880,t,a,b,s=.9)),
 't13_tat':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',300,200,1600,160,t,a,b,s=1.1,o=.8),smoke(cv,c,960,760,t)),
 't13_lang':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_dan',300,880,1100,880,t,a,b,s=.9),mv(cv,c,'t12_spr_chim',1700,200,500,160,t,a,b,s=1.0,o=.7)),
-'t13_hoi':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_dan',-100,860,700,840,t,a,b,s=1.0),mv(cv,c,'t12_spr_dan',2000,860,1300,840,t,a,b,s=1.0)),
+'t13_hoi':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_viet',-100,860,700,840,t,a,b,s=1.0),mv(cv,c,'t12_spr_viet',2000,860,1300,840,t,a,b,s=1.0)),
 't13_troi':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',200,900,900,900,t,a,b,s=1.0),
 't13_trieu':lambda cv,c,t,a,b:(smoke(cv,c,750,740,t),smoke(cv,c,1170,740,t+3)),
 't13_vien':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_bac',-200,860,900,860,t,a,b,s=1.0),mv(cv,c,'t12_spr_ngua',100,780,1000,780,t,a,b,s=.9)),
 't13_thuyenluong':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_thuyen',200,760,1100,740,t,a,b,s=.9,bob=8),mv(cv,c,'t12_spr_nuoc',960,960,960,940,t,a,b,o=.4,bob=14)),
 't13_langbac':lambda cv,c,t,a,b:clash(cv,c,t,a+.4,b,'bac','viet',push=1,seed=9,y=740,s=.8),
 't13_hang':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',200,880,900,880,t,a,b,s=.9),
-'t13_roi':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_dan',900,860,1800,820,t,a,b,s=.8),
+'t13_roi':lambda cv,c,t,a,b:mv(cv,c,'t12_spr_viet',900,860,1800,820,t,a,b,s=.8,o=.75),
 't13_camkhe':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_bac',700,880,1300,700,t,a,b,s=.8),mv(cv,c,'t12_spr_chim',1700,200,400,160,t,a,b,s=1.0,o=.7)),
 't13_hat':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_thuyen',300,820,900,800,t,a,b,s=.7,bob=6),mv(cv,c,'t12_spr_nuoc',960,980,960,960,t,a,b,o=.4,bob=14)),
 't13_sach':lambda cv,c,t,a,b:(mv(cv,c,'t12_spr_chim',1700,110,300,90,t,a,b,s=1.0,o=.7),[stroke(cv,c,[(170+i*630,900),(500+i*630,900)],inn(t,a+i*(b-a)/3,(b-a)/3),wid=6,col=RED,o=.7,head=False) for i in range(3)]),

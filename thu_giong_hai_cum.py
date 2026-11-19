@@ -93,7 +93,8 @@ def main():
         if Path("ke-hoach/thu-giong-hai/doc_chuong.txt").read_text().strip() == "ca":   # cả video một lần gọi: giọng đều nhất
             groups = [beats]
             nw = sum(len(x["text"].split()) for x in beats)
-            if nw > 780:   # quá dài thì Gemini hay bỏ sót câu (tm5, 901 chữ): chia đôi ở ranh giới chương gần giữa nhất
+            _gh = Path("ke-hoach/thu-giong-hai/gioi_han_chu.txt")   # chủ kênh 19/11: tm11m (846 chữ) đọc một lần, tránh lệch cao độ giữa hai nửa; kiểm đủ chữ bằng nhận dạng sau khi đọc
+            if nw > (int(_gh.read_text().strip()) if _gh.exists() else 780):   # quá dài thì Gemini hay bỏ sót câu (tm5, 901 chữ): chia đôi ở ranh giới chương gần giữa nhất
                 cs = [i for i in range(1, len(beats)) if beats[i].get("chuong") != beats[i-1].get("chuong")]
                 acc = [sum(len(x["text"].split()) for x in beats[:i]) for i in cs]
                 k = cs[min(range(len(cs)), key=lambda j: abs(acc[j] - nw / 2))]

@@ -1,2 +1,2 @@
-tm11mca medium khong_goi_y
-# nhận dạng không gợi ý tm11m v4, tạo asr_tm11mca_ngoai.json
+tm11mca
+# mốc chữ tm11m v4 có gợi ý, lấy mốc phụ đề

@@ -52,6 +52,8 @@ Cách giải thích cho dễ hiểu:
 | 20 | Một năm dài bao nhiêu ngày (Hipparchus, lịch Giu-li-an và Gregory) | `ke-hoach/khoa-hoc-video-20-do-dai-nam-kich-ban.md` |
 | 21 | Làm sao biết Trái Đất quay (con lắc Foucault, 15 độ × sin vĩ độ) | `ke-hoach/khoa-hoc-video-21-con-lac-phu-co-kich-ban.md` |
 | 22 | Mặt Trời nặng bao nhiêu (tốc độ quỹ đạo, M = v² × r ÷ G) | `ke-hoach/khoa-hoc-video-22-can-mat-troi-kich-ban.md` |
+| 23 | Giếng sâu bao nhiêu (Galileo, máng dốc, quãng đường = ½ × g × thời gian²) | `ke-hoach/khoa-hoc-video-23-gieng-sau-kich-ban.md` |
+| 24 | Vũ trụ bao nhiêu tuổi (Hubble, thời gian = khoảng cách ÷ tốc độ, 1 ÷ H) | `ke-hoach/khoa-hoc-video-24-tuoi-vu-tru-kich-ban.md` |
 
 ## Chưa làm
 

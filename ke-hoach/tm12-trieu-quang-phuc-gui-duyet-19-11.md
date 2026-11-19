@@ -33,7 +33,7 @@ Suốt ban ngày, người trong đầm tắt hết khói lửa để không l�
 
 Đến lúc này, thế hai bên đã đổi chỗ. Trước kia quân Vạn Xuân đứng một chỗ chờ bị tìm tới. Giờ người phải đoán xem đêm nay đối phương đánh vào đâu lại là Trần Bá Tiên. Mỗi trận đánh úp vừa làm quân nhà Lương mất người, vừa nuôi người trong đầm bằng chính lương của giặc. Trần Bá Tiên đánh mãi không phá được đầm, và người trong nước gọi Triệu Quang Phục là Dạ Trạch Vương, vua đầm đêm.
 
-Có một điều lạ. Theo nhà nghiên cứu Keith Taylor, sử Trung Hoa thời ấy không hề ghi tên Triệu Quang Phục. Phần lớn những gì ta biết về đầm Dạ Trạch đến từ sử nước ta, chép lại nhiều thế kỷ sau.
+Điều lạ là các nhà nghiên cứu không tìm thấy tên Triệu Quang Phục trong sử Trung Hoa thời ấy. Phần lớn những gì ta biết về đầm Dạ Trạch đến từ sử nước ta, chép lại nhiều thế kỷ sau.
 
 Tháng ba năm năm trăm bốn mươi tám, Lý Nam Đế mất ở động Khuất Lão. Sách Toàn thư của nước ta chép ông chết vì bệnh do khí độc rừng núi, còn sử Trung Hoa chép ông bị người Lão ở đó giết, rồi đầu bị gửi về cho nhà Lương.
 
@@ -93,7 +93,7 @@ Người trong đầm đã sống lâu hơn đạo quân đến lấy đất c�
 
 **187014** (39%) Đến lúc này, thế hai bên đã đổi chỗ. Trước kia quân Vạn Xuân đứng một chỗ chờ bị tìm tới. Giờ người phải đoán xem đêm nay đối phương đánh vào đâu lại là Trần Bá Tiên. Mỗi trận đánh úp vừa làm quân nhà Lương mất người, vừa nuôi người trong đầm bằng chính lương của giặc. Trần Bá Tiên đánh mãi không phá được đầm, và người trong nước gọi Triệu Quang Phục là Dạ Trạch Vương, vua đầm đêm.
 
-**187015** (44%) Có một điều lạ. Theo nhà nghiên cứu Keith Taylor, sử Trung Hoa thời ấy không hề ghi tên Triệu Quang Phục. Phần lớn những gì ta biết về đầm Dạ Trạch đến từ sử nước ta, chép lại nhiều thế kỷ sau.
+**187015** (44%) Điều lạ là các nhà nghiên cứu không tìm thấy tên Triệu Quang Phục trong sử Trung Hoa thời ấy. Phần lớn những gì ta biết về đầm Dạ Trạch đến từ sử nước ta, chép lại nhiều thế kỷ sau.
 
 **187016** (47%) Tháng ba năm năm trăm bốn mươi tám, Lý Nam Đế mất ở động Khuất Lão. Sách Toàn thư của nước ta chép ông chết vì bệnh do khí độc rừng núi, còn sử Trung Hoa chép ông bị người Lão ở đó giết, rồi đầu bị gửi về cho nhà Lương.
 
@@ -131,7 +131,7 @@ Người trong đầm đã sống lâu hơn đạo quân đến lấy đất c�
 | 187010 | Triệu Quang Phục làm ngược ba lần trước: không giữ thành, không bày trận | Toàn thư 4/17a (thấy giặc mạnh, lui vào đầm) | so sánh việc làm, không gán ý nghĩ |
 | 187012 | Quân đông chỉ mạnh khi có chỗ dàn trận và đường cho người ngựa; đầm không có cả hai | mô tả đầm "người ngựa khó đi" (Toàn thư 4/17a); quân Lương thắng ở chỗ dàn quân được (4/16a–b) | diễn giải của người kể, dựa đúng chữ sử "người ngựa khó đi" |
 | 187014 | Thế hai bên đổi chỗ: giờ Trần Bá Tiên phải đoán đối phương đánh vào đâu; đánh úp nuôi quân bằng lương giặc | Toàn thư 4/17b (ngày tắt lửa, đêm đánh úp, lấy lương đủ đánh lâu) | không nói Trần Bá Tiên lo hay sợ, chỉ nói vị thế |
-| 187015 | Sử Trung Hoa không ghi tên ông; điều ta biết phần lớn đến từ sử ta chép nhiều thế kỷ sau | Taylor 1983 tr. 151 (qua Wikipedia) | "theo nhà nghiên cứu", "phần lớn" |
+| 187015 | Sử Trung Hoa không ghi tên ông; điều ta biết phần lớn đến từ sử ta chép nhiều thế kỷ sau | Taylor 1983 tr. 151 (qua Wikipedia) | "các nhà nghiên cứu không tìm thấy", "phần lớn"; không nêu tên người nước ngoài trong lời đọc (chủ kênh 19/11), nguồn Taylor ghi ở mô tả |
 | 187017 | Từ năm 548, phe Lý Nam Đế có hai người cùng làm vua; sử không chép hai bên nghĩ gì về nhau | Toàn thư 4/18a, 4/19a–b (Triệu Việt Vương xưng vương; anh Lý Nam Đế xưng Đào Lang Vương) | nói thẳng "sử không chép"; không nói đã có mâu thuẫn |
 | 187018 | Chỗ hiểm của cách đánh trong đầm: không còn lương để cướp thì đầm có thể thành nơi đói | đoạn đánh úp lấy lương; Trần Bá Tiên tính chặn đường lương (Toàn thư 4/19a; Cương mục 4/8b–9a) | "có thể"; kế này chưa thành nên không nói hậu quả đã xảy ra |
 | 187021 | Quân Lương rút trước hết vì nhà Lương tự loạn; cơ hội chỉ có ích cho người còn đứng được | Toàn thư 4/19a; sử Trung Hoa về loạn Hầu Cảnh | "trước hết", không nói "chỉ vì"; giữ đúng tác nhân |
@@ -184,5 +184,5 @@ Giữ nguyên (tên riêng hoặc từ thông dụng): Vạn Xuân, Dạ Trạch
 
 ## 7. Câu hỏi cho chủ kênh
 
-1. Độ dài khoảng 7 phút 45 giây. Giữ, hay rút (bỏ đoạn Keith Taylor, gộp đoạn động Khuất Lão vào đoạn trước, rút đoạn Trần Bá Tiên lên ngôi)?
+1. Độ dài khoảng 7 phút 45 giây. Giữ, hay rút (bỏ đoạn sử Trung Hoa không ghi tên, gộp đoạn động Khuất Lão vào đoạn trước, rút đoạn Trần Bá Tiên lên ngôi)?
 2. Thêm lời cảm ơn ở cuối hay không?

@@ -1,31 +1,6 @@
 import sys;sys.path.insert(0,'/tmp/gen');from viet_chung import xuat2
-# tm12: Triệu Quang Phục ở đầm Dạ Trạch 546–550. Mở đầu kiểu "nghịch lý".
-S=[
-('hook1',"Có một đạo quân đánh giặc suốt nhiều năm, mà ban ngày không ai nhìn thấy họ."),
-('hook2',"Ban ngày, vùng đầm lặng ngắt như không có người. Đêm xuống, từng chiếc thuyền nhỏ mới lặng lẽ trườn ra khỏi đám lau sậy."),
-('hook3',"Người chỉ huy là Triệu Quang Phục, một vị tướng của nước Vạn Xuân, tên nước ta khi ấy. Người đời gọi ông là Dạ Trạch Vương, vua của đầm đêm."),
-('hook4',"Đạo quân chỉ ra tay trong đêm thì làm sao đuổi được giặc? Có ba thứ sẽ kể lại, một cái đầm, những chiếc thuyền độc mộc, và một lệnh gọi về."),
-('goc_re',"Chuyện xảy ra gần một nghìn năm trăm năm trước, khi nước ta bị nhà Lương bên Trung Hoa cai trị."),
-('goc_re',"Quan nhà Lương bóc lột nặng, nên một hào trưởng tên Lý Bí đứng lên đuổi chúng đi, lập ra nước Vạn Xuân rồi lên ngôi, gọi là Lý Nam Đế."),
-('goc_re',"Cha con Triệu Quang Phục, người Chu Diên, tức vùng Hưng Yên bây giờ, là những người sớm nhất đem quân theo Lý Bí."),
-('goc_re',"Nhà Lương không chịu mất đất. Vua Lương sai tướng Trần Bá Tiên đem quân sang đánh nước Vạn Xuân."),
-('the_nguy',"Quân của Lý Nam Đế thua liền mấy trận, phải rút dần lên vùng núi Phú Thọ bây giờ."),
-('the_nguy',"Ở đó, Lý Nam Đế giao lại binh quyền cho Triệu Quang Phục, để ông đánh tiếp quân nhà Lương ở dưới đồng bằng."),
-('diem_thap',"Trong tay ông chỉ còn một đạo quân nhỏ, trước mặt là đại quân của Trần Bá Tiên vừa thắng liền mấy trận."),
-('buoc_ngoat',"Ông không giữ thành, cũng không bày trận đánh thẳng. Ông đưa quân vào đầm Dạ Trạch, ở vùng Khoái Châu, Hưng Yên bây giờ."),
-('buoc_ngoat',"Thứ đầu tiên là chính cái đầm ấy. Đầm rộng mênh mông, lau sậy um tùm, giữa đầm có một bãi đất nổi đủ cho quân ở và cày cấy."),
-('buoc_ngoat',"Đường vào chỉ là mấy con lạch nhỏ, lẫn trong cỏ nước. Người lạ đi vào rất dễ lạc, thuyền lớn và ngựa thì không qua nổi."),
-('buoc_ngoat',"Theo sử cũ, ban ngày quân trong đầm tắt hết khói lửa, giấu kín mọi dấu người. Chỉ khi đêm xuống, họ mới ra tay."),
-('lan1',"Thứ hai là những chiếc thuyền độc mộc, khoét từ một thân cây, nhỏ và nhẹ, lướt được trên cỏ nước."),
-('lan1',"Đêm đêm, thuyền độc mộc lặng lẽ ra khỏi đầm, đánh úp doanh trại quân nhà Lương, giết và bắt được nhiều người, cướp cả lương ăn mang về."),
-('lan2',"Trần Bá Tiên đánh mãi mà không phá được đầm. Ông chỉ còn cách đóng quân giữ đất, chịu những trận đánh úp không biết lúc nào tới."),
-('lan2',"Kế ấy sử gọi là kế cầm cự lâu dài, đánh nhỏ, đánh lâu, để giặc mỏi dần. Mỗi đêm, quân nhà Lương lại mất thêm người, mất thêm lương."),
-('lang',"Nhưng đánh úp chỉ làm giặc mỏi, chưa đuổi được giặc. Đến khi Lý Nam Đế mất trên núi, quân nhà Lương vẫn đóng ở đồng bằng."),
-('chi_tiet_nguoi',"Tin ấy về tới đầm. Triệu Quang Phục xưng là Triệu Việt Vương, còn người trong nước thì gọi ông bằng cái tên gắn với đầm đêm, Dạ Trạch Vương."),
-('cao_trao',"Thứ ba là một lệnh gọi về. Năm năm trăm năm mươi, nhà Lương có loạn lớn, vua Lương gọi gấp Trần Bá Tiên về nước."),
-('cao_trao',"Ở lại chỉ còn một viên phó tướng tên Dương Sàn. Triệu Việt Vương lập tức đem quân ra khỏi đầm, đánh thẳng vào quân nhà Lương."),
-('cao_trao',"Dương Sàn chết trận. Quân nhà Lương tan vỡ, kéo nhau chạy về phương bắc."),
-('don_cuoi',"Triệu Việt Vương vào thành Long Biên, ở vùng Bắc Ninh, Hà Nội bây giờ, sau mấy năm sống trong đầm lầy."),
-('ket',"Những đêm trong đầm Dạ Trạch đã giữ cho đạo quân ấy còn sống, cho tới ngày giặc phải gọi tướng về. Cảm ơn bạn đã lắng nghe câu chuyện này."),
-]
-xuat2(S,'tm12',187001)
+# tm12 bản mới (19/11): viết văn xuôi liền mạch trước (van_xuoi_ban1.txt) theo mạch truyện chủ kênh duyệt, rồi chia đoạn theo đoạn văn. Nhãn nhịp chỉ để dựng.
+NH=['hook1','hook2','hook4','goc_re','goc_re','the_nguy','the_nguy','the_nguy','buoc_ngoat','buoc_ngoat','buoc_ngoat','buoc_ngoat','lan1','lan1','lan1','diem_thap','diem_thap','cao_trao','cao_trao','cao_trao','don_cuoi','don_cuoi','don_cuoi','don_cuoi','don_cuoi','don_cuoi','ket']
+P=[p.strip() for p in open('/tmp/gen/tm12/van_xuoi_ban1.txt',encoding='utf-8').read().split('\n\n') if p.strip()]
+assert len(P)==len(NH),(len(P),len(NH))
+xuat2(list(zip(NH,P)),'tm12',187001)

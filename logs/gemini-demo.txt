@@ -1,47 +1,12 @@
+STYLE: Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. 
+TEXT: Một cây gậy mà đo được cả Trái Đất?
+
+Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà Eratosthenes đã làm được.
+
+Một phần năm mươi vòng, nên cả Trái Đất dài gấp năm mươi lần: hai trăm năm mươi nghìn stadia.
+
+Mỗi stadion khoảng một trăm năm mươi bảy mét rưỡi, vậy là gần bốn mươi nghìn cây số.
+
+== Leda ==
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Không ai đặt nổi Mặt Trời lên cân, vậy làm sao biế
-OK Leda 02: Nhưng mỗi ngày, Trái Đất đã tự cân nó giúp ta.
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Hóa ra chỉ cần biết Trái Đất chạy quanh Mặt Trời n
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 04: Mặt Trời hút Trái Đất, vậy sao Trái Đất không rơi 
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Vì Trái Đất đang chạy vòng quanh nó.
-OK Leda 06: Giống như quay quả bóng buộc dây: dây kéo bóng vào
-OK Leda 07: Mặt Trời càng nặng thì càng hút mạnh, nên Trái Đất
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 08: Vậy tốc độ của Trái Đất cho ta biết Mặt Trời nặng 
-OK Leda 09: Quy luật hút ấy do Niu-tơn tìm ra, trong cuốn sách
-OK Leda 10: Ta cần ba con số. Số thứ nhất là khoảng cách tới M
-   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 11: Số thứ hai là thời gian một vòng, tức một năm, ba 
-   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 12: Số thứ ba là G, con số cho biết lực hút mạnh cỡ nà
-OK Leda 13: G rất nhỏ, khoảng sáu phẩy bảy phần một trăm tỉ.
-OK Leda 14: Năm một nghìn bảy trăm chín mươi tám, Ca-ven-đít đ
-OK Leda 15: Bước một: quỹ đạo gần như vòng tròn, nên dài khoản
-OK Leda 16: Bước hai: một năm có khoảng ba mươi mốt phẩy sáu t
-   [gemini] khóa …Snsg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 17: Bước ba: chia chín trăm bốn mươi triệu ki-lô-mét c
-OK Leda 18: Ra khoảng hai mươi chín phẩy tám ki-lô-mét mỗi giâ
-   [gemini] khóa …GAcg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Mỗi giây Trái Đất đi gần ba mươi ki-lô-mét, mà ta 
-OK Leda 20: Bước bốn: khối lượng Mặt Trời bằng tốc độ nhân tốc
-OK Leda 21: Đổi ra mét, tốc độ là hai mươi chín nghìn tám trăm
-OK Leda 22: Nhân tốc độ với chính nó, ta được khoảng tám trăm 
-OK Leda 23: Nhân với khoảng cách một trăm năm mươi tỉ mét, ra 
-OK Leda 24: Chia cho G, ta được khoảng hai nghìn tỉ tỉ tỉ ki-l
-OK Leda 25: Đó là khoảng hai tỉ tỉ tỉ tấn.
-   [gemini] khóa …WLfg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 26: Số ấy quá lớn, nên ta so với Trái Đất: Mặt Trời nặ
-OK Leda 27: Nếu Trái Đất chạy nhanh gấp đôi mà vẫn ở chỗ cũ, M
-OK Leda 28: Cùng cách ấy, ta cân được bất cứ vật nào có vật kh
-OK Leda 29: Vậy Mặt Trời nặng khoảng hai tỉ tỉ tỉ tấn, ta biết
+OK Leda

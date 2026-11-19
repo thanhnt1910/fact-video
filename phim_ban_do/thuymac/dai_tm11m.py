@@ -47,7 +47,7 @@ def S_2(cv,t):
 def S_3a(cv,t):
     a,b=T[3],sb(3,1)
     c=cam(*cpath(t,[(a-.3,(960,560,1.0)),(b+.3,(960,560,1.08))]))
-    put(cv,c,'t11_phu',960,520,s=.7)
+    put(cv,c,'t11_hao',960,520,s=.8)
     tagfall(cv,c,960,250,'Khúc Hạo',t,a+.3,sz=44,col=INK)
     lb(cv,c,'làm nhiều hơn là giữ thành',960,330,t,a+1.2,b+.3,col=RED,sz=38)
 def S_3b(cv,t):
@@ -58,28 +58,22 @@ def S_3b(cv,t):
     d=(b-a)/4
     for i,s_ in enumerate(L):
         lb(cv,c,s_,960,150,t,a+.1+i*d,a+(i+1)*d,col=RED if i%2 else INK,sz=44)
-    if t>a+3*d: put(cv,c,'t11_so',1500,560,s=.5,o=inn(t,a+3*d,.6))
 def S_3c(cv,t):
     a,b=sb(3,2),E[3]
     c=cam(*cpath(t,[(a-.3,(960,540,1.0)),(b+.3,(960,540,1.07))]))
     put(cv,c,'t11_so',960,560,s=.95)
-    lb(cv,c,'tự quản bằng sổ sách và thuế má của riêng mình',960,110,t,a+.3,b+.3,col=RED,sz=40)
-    lb(cv,c,'vẫn mang chức do nhà Đường công nhận',960,990,t,mid(3,.8),b+.3,sz=36)
+    lb(cv,c,'tự quản bằng sổ sách và thuế má của riêng mình',960,170,t,a+.3,mid(3,.8)-.2,col=RED,sz=40)
+    lb(cv,c,'vẫn mang chức do nhà Đường công nhận',960,170,t,mid(3,.8),b+.3,col=INK,sz=40)
 # ---------- 4. Nam Hán bắt Khúc Thừa Mỹ
 def S_4(cv,t):
     a,b=T[4],E[4]
-    c=mcam(t,[(a-.5,(520,520,1.5)),(sb(4,1)-.3,(960,540,1.0)),(b,(960,540,1.0))])
-    mapbg(cv,c,u=1)
-    dl,qc=P['daila'],P['quangchau']
-    dot(cv,c,*dl,o=1);tag(cv,c,dl[0]+16,dl[1]+30,'Đại La',dy=0,sz=26)
-    dot(cv,c,*qc,o=1);tag(cv,c,qc[0]-60,qc[1]+40,'Quảng Châu',dy=0,sz=26)
+    c=cam(1400,540,1.0+.05*cl((t-a)/(b-a)))
+    put(cv,c,'t11_tau',1400,480,s=.9)
     if t<sb(4,1):
-        lb(cv,c,'họ Khúc giữ được ba đời',dl[0]+300,dl[1]-150,t,a+.3,sb(4,1)-.2,sz=34)
+        lb(cv,c,'họ Khúc giữ được ba đời',1400,150,t,a+.3,sb(4,1)-.2,sz=44)
     else:
-        lb(cv,c,'nhà Nam Hán',qc[0]-110,qc[1]+80,t,sb(4,1)+.2,E[4]+.3,col=RED,sz=28)
-        stroke(cv,c,[qc,(1250,330),(800,480),dl],inn(t,sb(4,1)+.5,2.4),wid=9,col=RED)
-        if t>sb(4,1)+3.6: stroke(cv,c,[dl,(800,480),(1250,330),qc],inn(t,sb(4,1)+3.6,2.4),wid=7,col=INK,dash=14)
-        lb(cv,c,'Khúc Thừa Mỹ bị đưa về Quảng Châu',1250,300,t,sb(4,1)+4.0,sb(4,2)-.2,sz=26)
+        lb(cv,c,'nhà Nam Hán đem quân sang',1400,150,t,sb(4,1)+.2,sb(4,1)+3.6,col=RED,sz=40)
+        lb(cv,c,'Khúc Thừa Mỹ bị đưa về Quảng Châu',1400,205,t,sb(4,1)+1.2,sb(4,2)-.2,col=INK,sz=38)
     if t>sb(4,2):
         seal(cv,'s923',1330,260,sb(4,2)+.8,t,s=.8,r=-5);seal(cv,'s930',1560,330,sb(4,2)+2.6,t,s=.8,r=4)
         put_screen(cv,text('sách chép không thống nhất',34,INK,700,glow=4),W/2,150,inn(t,sb(4,2)+.2,.5)*(1-inn(t,E[4]+.1,.4)))
@@ -92,12 +86,10 @@ def S_5a(cv,t):
     big(cv,'QUYỀN TỰ QUẢN KHÔNG CÒN',t,sb(5,1)+.2,b,INK,140,66,seed=5)
 def S_5b(cv,t):
     a,b=sb(5,2),E[5]
-    c=mcam(t,[(a-.4,(500,640,1.6)),(a+1.2,(440,820,2.6)),(b,(440,830,2.6))])
-    mapbg(cv,c,u=1)
-    dl,ac=P['daila'],P['aichau']
-    dot(cv,c,*dl,o=1);tag(cv,c,dl[0]+16,dl[1]-20,'Đại La',dy=0,sz=24)
-    dot(cv,c,*ac,o=inn(t,a+.5,.4));tag(cv,c,ac[0]+22,ac[1]-4,'Ái Châu',o=inn(t,a+.5,.4),dy=0,sz=24)
-    lb(cv,c,'có một người chưa chịu',ac[0]+20,ac[1]+46,t,a+1.4,b+.3,col=RED,sz=26)
+    c=cam(1400,540,1.0+.06*cl((t-a)/(b-a)))
+    put(cv,c,'t11_xa',1400,520,s=.85)
+    tagfall(cv,c,1400,230,'Ái Châu',t,a+.3,sz=44,col=INK)
+    lb(cv,c,'có một người chưa chịu',1400,350,t,a+1.4,b+.3,col=RED,sz=40)
 # ---------- 6. Dương Đình Nghệ
 def S_6(cv,t):
     a,b=T[6],E[6]
@@ -153,32 +145,31 @@ def S_8(cv,t):
 def S_9(cv,t):
     a,b=T[9],E[9]
     c=cam(*cpath(t,[(a-.3,(960,560,1.0)),(b+.3,(960,560,1.06))]))
-    put(cv,c,'t11_thanh',960,470,s=.68)
+    put(cv,c,'t11_can',960,500,s=.85)
     big(cv,'NHÌN VỊ TRÍ HAI BÊN',t,a+.1,sb(9,1)-.2,RED,150,78,seed=9)
-    for i in range(9): put(cv,c,'fig_quan',150+i*70,650,ay=1,s=.42,o=.9);put(cv,c,'fig_quan',1300+i*70,650,ay=1,s=.42,o=.9)
     lb(cv,c,'tường thành ở sau lưng',960,200,t,sb(9,1)+.3,sb(9,1)+(sb(9,2)-sb(9,1))*.5,col=INK,sz=42)
-    lb(cv,c,'đánh vào một thành đã mất',500,560,t,sb(9,1)+(sb(9,2)-sb(9,1))*.45,sb(9,2)-.2,col=RED,sz=36)
+    lb(cv,c,'đánh vào một thành đã mất',560,700,t,sb(9,1)+(sb(9,2)-sb(9,1))*.45,sb(9,2)-.2,col=RED,sz=36)
     big(cv,'VÌ SAO ĐÁNH RA? NGUỒN KHÔNG NÓI',t,sb(9,2)+.2,b,RED,150,58,seed=10)
 # ---------- 10. Tiết độ sứ
 def S_10(cv,t):
     a,b=T[10],E[10]
     c=cam(*cpath(t,[(a-.3,(960,560,1.0)),(b+.3,(960,560,1.08))]))
-    put(cv,c,'t11_phu',960,520,s=.7)
+    put(cv,c,'t11_an',960,520,s=.85)
     seal(cv,'s931',1560,250,a+.4,t,s=.7,r=-4)
-    tagfall(cv,c,960,250,'Tiết độ sứ',t,a+.5,sz=52,col=RED)
-    lb(cv,c,'giữ cái chức mà họ Khúc từng giữ',960,330,t,a+2.2,sb(10,1)-.2,col=INK,sz=38)
-    lb(cv,c,'nối vào đường họ Khúc đã đi',960,330,t,sb(10,1)+.2,b+.3,col=RED,sz=40)
+    tagfall(cv,c,1330,170,'Tiết độ sứ',t,a+.5,sz=52,col=RED)
+    lb(cv,c,'giữ cái chức mà họ Khúc từng giữ',1330,280,t,a+2.2,sb(10,1)-.2,col=INK,sz=38)
+    lb(cv,c,'nối vào đường họ Khúc đã đi',1330,280,t,sb(10,1)+.2,b+.3,col=RED,sz=40)
     lb(cv,c,'chưa đặt một chức vị mới',960,990,t,sb(10,1)+1.6,b+.3,sz=34)
 # ---------- 11. Kiều Công Tiễn
 def S_11(cv,t):
     a,b=T[11],E[11]
     c=cam(*cpath(t,[(a-.3,(960,560,1.0)),(b+.3,(960,560,1.07))]))
-    put(cv,c,'t11_phu',960,520,s=.7)
+    put(cv,c,'t11_ghe',960,520,s=.8)
     seal(cv,'s937',1560,250,a+.2,t,s=.7,r=4)
-    tagfall(cv,c,1200,300,'Kiều Công Tiễn',t,a+.5,sz=44,col=RED)
+    tagfall(cv,c,1200,120,'Kiều Công Tiễn',t,a+.5,sz=44,col=RED)
     x=lerp(1700,1060,inn(t,a+3.0,3.0));put(cv,c,Af('fig_satthu'),x,640,ay=1,s=.5,o=inn(t,a+2.8,.5)*(1-inn(t,sb(11,1)-.3,.6)))
-    lb(cv,c,'tháng ba, người dưới quyền ra tay',960,160,t,a+1.2,sb(11,1)-.2,col=INK,sz=38)
-    lb(cv,c,'chức vị từng đưa ông lên cũng khiến người dưới quyền ra tay',960,160,t,sb(11,1)+.2,b+.3,col=RED,sz=36)
+    lb(cv,c,'tháng ba, người dưới quyền ra tay',960,215,t,a+1.2,sb(11,1)-.2,col=INK,sz=38)
+    lb(cv,c,'chức vị từng đưa ông lên cũng khiến người dưới quyền ra tay',960,215,t,sb(11,1)+.2,b+.3,col=RED,sz=36)
 # ---------- 12. Ngô Quyền
 def S_12(cv,t):
     a,b=T[12],E[12]
@@ -213,13 +204,10 @@ def boats13(t):
     return out
 def S_13a(cv,t):
     a,b=T[13],sb(13,1)
-    c=mcam(t,[(a-.4,(1200,560,1.1)),(a+1.8,(900,420,1.15)),(b,(640,600,1.5))])
-    mapbg(cv,c,u=1)
-    qc,hm,bd=P['quangchau'],P['haimon'],P['bachdang']
-    dot(cv,c,*qc,o=1);tag(cv,c,qc[0]-60,qc[1]+40,'Quảng Châu',dy=0,sz=24)
-    dot(cv,c,*bd,o=1);tag(cv,c,bd[0]+20,bd[1]-10,'cửa sông Bạch Đằng',dy=0,sz=24)
-    stroke(cv,c,[qc,hm,(850,520),bd],inn(t,a+.4,sb(13,1)-a-1.0),wid=10,col=RED)
-    lb(cv,c,'thủy quân Nam Hán, Lưu Hoằng Tháo chỉ huy',1150,360,t,a+.8,b+.3,col=RED,sz=28)
+    c=cam(*cpath(t,[(a-.3,(1750,540,1.0)),(b+.3,(1100,540,1.05))]))
+    put(cv,c,'t11_thuyen',1400,500,s=.85)
+    tagfall(cv,c,1400,140,'Lưu Hoằng Tháo',t,a+.3,sz=44,col=RED)
+    lb(cv,c,'thủy quân Nam Hán kéo ra cửa sông Bạch Đằng',1400,310,t,a+1.4,b+.3,col=INK,sz=36)
 def S_13b(cv,t):
     a,b=sb(13,1),E[13];tl=sb(13,3);sh=fio(t,sb(13,3),sb(13,4))
     c=cam(*cpath(t,[(a-.3,(1100,560,1.0)),(sb(13,2),(1160,640,1.12)),(tl,(1100,760,1.3)),(sb(13,4),(1100,780,1.3)),(b+.3,(1000,740,1.2))]),sx=3*math.sin(t*31)*sh,sy=2*math.sin(t*27)*sh)
@@ -247,11 +235,11 @@ def S_14(cv,t):
     dot(cv,c,*dl,o=1);tag(cv,c,dl[0]-30,dl[1]-34,'Đại La',dy=0,sz=28)
     dot(cv,c,*bd,o=1);tag(cv,c,bd[0]+24,bd[1]-6,'Bạch Đằng',dy=0,sz=28)
     seal(cv,'s931',dl[0]-170,dl[1]+80,a+.5,t,s=.7,r=-4);seal(cv,'s938',bd[0]+260,bd[1]+10,a+2.2,t,s=.7,r=4)
-    lb(cv,c,'một trận ở thành, một trận trên sông',520,330,t,a+.3,sb(14,1)-.2,col=INK,sz=32)
-    lb(cv,c,'cả hai: quân Nam Hán thua, tướng cầm quân bị giết',520,330,t,sb(14,1)+.2,sb(14,2)-.2,col=RED,sz=32)
-    lb(cv,c,'sử không nói Ngô Quyền có học từ cha vợ hay không',520,330,t,sb(14,2)+.2,sb(14,3)-.2,col=INK,sz=30)
+    lb(cv,c,'một trận ở thành, một trận trên sông',520,440,t,a+.3,sb(14,1)-.2,col=INK,sz=32)
+    lb(cv,c,'cả hai: quân Nam Hán thua, tướng cầm quân bị giết',520,440,t,sb(14,1)+.2,sb(14,2)-.2,col=RED,sz=32)
+    lb(cv,c,'sử không nói Ngô Quyền có học từ cha vợ hay không',520,440,t,sb(14,2)+.2,sb(14,3)-.2,col=INK,sz=30)
     if t>sb(14,3):
-        lb(cv,c,'cha vợ và con rể',520,330,t,sb(14,3)+.3,b+.3,col=RED,sz=40)
+        lb(cv,c,'cha vợ và con rể',520,440,t,sb(14,3)+.3,b+.3,col=RED,sz=40)
         stroke(cv,c,[ac,(380,720),dl],inn(t,sb(14,3)+.3,2.2),wid=8,col=INK)
 def S_end(cv,t):
     a=E[14]-1.2

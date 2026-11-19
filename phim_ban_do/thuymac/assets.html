@@ -890,5 +890,56 @@ t11_cua(){const s=setup(2800,700);seed=1107;const g=el(s,'g',{filter:'url(#ink)'
  for(let i=0;i<9;i++){pine(g,120+i*70,470+(i%3)*14,1.1);pine(g,2640-i*66,480+(i%3)*12,1.1)}}
 });
 
+Object.assign(A,{
+t11_hao(){const s=setup(1900,800);seed=1111;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,200,100,0,1900,6,INK,.16,800);
+ el(g,'rect',{x:420,y:560,width:1060,height:26,fill:INK});[500,640,780,1120,1260,1400].forEach(x=>{el(g,'rect',{x:x-8,y:586,width:16,height:90,fill:INK})});
+ for(let i=0;i<8;i++)el(g,'rect',{x:470+i*125,y:536,width:90,height:24,rx:12,fill:PAPER,stroke:INK,'stroke-width':4});
+ [260,620,1280,1640].forEach((x,i)=>{el(g,'rect',{x:x-4,y:240,width:8,height:330,fill:INK});el(g,'path',{d:`M${x+4} 246 L${x+120} 262 L${x+4} 300Z`,fill:i%2?RED:INK,opacity:.85})});
+ for(let i=0;i<4;i++){person(g,140+i*120,740,1.15,{helm:i%2,arm:'M4 -50 L26 -20'});person(g,1420+i*120,740,1.15,{helm:(i+1)%2,arm:'M4 -50 L26 -20'})}
+ figG(g,950,720,2.6,{cape:1})},
+t11_can(){const s=setup(1900,800);seed=1112;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,160,90,0,1900,6,INK,.14,800);
+ el(g,'path',{d:'M850 740 L1050 740 L1000 700 L900 700Z',fill:INK});el(g,'rect',{x:942,y:210,width:16,height:500,fill:INK});el(g,'circle',{cx:950,cy:210,r:22,fill:INK});
+ const beam=el(g,'g',{transform:'rotate(-5 950 230)'});el(beam,'rect',{x:300,y:222,width:1300,height:16,rx:8,fill:INK});
+ [[330,1],[1570,0]].forEach(([x,left])=>{el(beam,'line',{x1:x,y1:238,x2:x-120,y2:470,stroke:INK,'stroke-width':4});el(beam,'line',{x1:x,y1:238,x2:x+120,y2:470,stroke:INK,'stroke-width':4});
+  el(beam,'path',{d:`M${x-150} 470 Q${x} 540 ${x+150} 470Z`,fill:INK});
+  if(left){el(beam,'rect',{x:x-110,y:380,width:220,height:90,fill:INK});for(let i=0;i<6;i++)el(beam,'rect',{x:x-110+i*38,y:362,width:24,height:20,fill:INK});el(beam,'path',{d:`M${x-30} 470 L${x-30} 420 Q${x} 396 ${x+30} 420 L${x+30} 470Z`,fill:PAPER});}
+  else{for(let i=0;i<5;i++)person(beam,x-90+i*45,470,.5,{helm:1,spear:i%2});}});
+ const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:260,y:720,width:1380,height:70,fill:INK,opacity:.1})},
+t11_an(){const s=setup(1500,800);seed=1113;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,200,100,0,1500,5,INK,.15,800);
+ el(g,'rect',{x:300,y:560,width:900,height:24,fill:INK});[360,640,860,1140].forEach(x=>el(g,'rect',{x:x-8,y:584,width:16,height:110,fill:INK}));
+ el(g,'rect',{x:620,y:20,width:10,height:560,fill:INK});el(g,'circle',{cx:625,cy:20,r:14,fill:INK});
+ for(let i=0;i<7;i++){el(g,'path',{d:`M628 ${70+i*34} Q${700+i*8} ${96+i*34} ${760+i*14} ${70+i*34+(i%2?30:10)}`,stroke:i%3==1?RED:INK,'stroke-width':9,fill:'none','stroke-linecap':'round'})}
+ el(g,'rect',{x:900,y:500,width:110,height:60,fill:RED,opacity:.9});el(g,'rect',{x:925,y:480,width:60,height:24,fill:INK});
+ el(g,'rect',{x:430,y:500,width:150,height:60,fill:PAPER,stroke:INK,'stroke-width':5});
+ figG(g,1090,700,2.4,{cape:1})},
+t11_ghe(){const s=setup(1900,800);seed=1114;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,180,80,0,1900,6,INK,.14,800);
+ roof(g,950,250,1100,150);[430,520,1380,1470].forEach(x=>el(g,'rect',{x:x-14,y:250,width:28,height:420,fill:INK}));
+ el(g,'path',{d:'M600 270 Q700 420 650 640 L720 640 Q760 420 700 270Z',fill:INK,opacity:.8});el(g,'path',{d:'M1300 270 Q1200 420 1250 640 L1180 640 Q1140 420 1200 270Z',fill:INK,opacity:.8});
+ for(let i=0;i<4;i++)el(g,'rect',{x:620-i*40,y:640+i*22,width:660+i*80,height:22,fill:INK,opacity:.9});
+ el(g,'path',{d:'M850 620 L850 440 L870 440 L870 520 L1030 520 L1030 440 L1050 440 L1050 620 L1030 620 L1030 560 L870 560 L870 620Z',fill:INK});
+ el(g,'rect',{x:1580,y:420,width:10,height:230,fill:INK});el(g,'path',{d:'M1560 420 L1610 420 L1596 380 L1574 380Z',fill:INK});el(g,'path',{d:'M1585 380 Q1570 340 1592 310 Q1600 350 1585 380Z',fill:RED,opacity:.85});
+ person(g,300,740,1.2,{helm:1,spear:1});person(g,1620,740,1.2,{helm:1,spear:1})},
+t11_xa(){const s=setup(2800,640);seed=1115;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,220,150,0,2800,6,INK,.15,640);ridge(g,340,110,0,2800,9,INK,.26,640);
+ const W=el(s,'g',{filter:'url(#wash)'});for(let r=0;r<3;r++)el(W,'rect',{x:200+r*60,y:470+r*50,width:2400-r*120,height:40,fill:INK,opacity:.09+.03*r});
+ village(g,420,450,.9);village(g,2280,440,.8);
+ for(let i=0;i<10;i++)pine(g,700+i*110,430+(i%3)*14,1.0);
+ el(g,'path',{d:'M1180 470 Q1300 360 1420 470Z',fill:INK});figG(g,1300,400,1.8,{cape:1})},
+t11_tau(){const s=setup(2800,620);seed=1116;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,160,100,0,2800,6,INK,.12,620);
+ const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:150,y:430,width:2500,height:150,fill:INK,opacity:.12});
+ nguyenShip(g,1400,410,1.5,{crew:1});person(g,1380,400,.8,{sit:1,col:'#2a2620'});
+ for(let r=0;r<4;r++)for(let i=0;i<9;i++)el(g,'path',{d:`M${200+i*290+r*60} ${520+r*26} q40 -18 80 0`,stroke:INK,'stroke-width':4,fill:'none',opacity:.5})},
+t11_thuyen(){const s=setup(2800,700);seed=1117;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,200,110,0,2800,6,INK,.12,700);
+ const W=el(s,'g',{filter:'url(#wash)'});el(W,'rect',{x:100,y:470,width:2600,height:170,fill:INK,opacity:.12});
+ [[500,470,.9],[950,490,1.1],[1450,480,1.3],[1950,500,1.1],[2400,470,.9]].forEach(([x,y,k])=>nguyenShip(g,x,y,k,{crew:1}));
+ for(let r=0;r<4;r++)for(let i=0;i<10;i++)el(g,'path',{d:`M${120+i*270+r*50} ${590+r*22} q40 -16 80 0`,stroke:INK,'stroke-width':4,fill:'none',opacity:.45})}
+});
+
 window.A=A;window.sealDraw=sealDraw;
 </script></body></html>

@@ -4,6 +4,18 @@ Bản 3 (19/11/2026, 12:35) sửa lỗi câu cụt kiểu biên niên mà chủ 
 Bản 2 trước đó đã bỏ câu dịch sát chữ Hán và thêm phân tích của người kể; bỏ tên Keith Taylor khỏi lời đọc.
 29 đoạn, 1969 chữ (đếm theo âm tiết), khoảng **9 phút** theo tốc độ Charon ở tm13 (bản 2 khoảng 7 phút 45 giây; câu đủ ý nên dài hơn). Chưa đọc giọng. Bỏ phần quy đổi "gần hai mét" vì nguồn không ghi.
 
+## 0. Rà soát toàn bài bản 3 (19/11/2026, 12:45)
+
+Ngoài việc sửa câu cụt ở cả 29 đoạn, đã rà toàn bài theo `nguyen-tac-cot-loi.md` mục 11 bước 4 và `thuy-mac.md` mục 3.4:
+- **Câu khuôn máy:** bỏ "Điều đáng để ý ở đây chính là" (thay "Cái họ Lý ấy có hai mặt"); bỏ câu trừu tượng "Chính những điều đó lấy đi thứ mà quân nhà Lương cần nhất để thắng" (thay bằng câu nói thẳng quân đông khó dùng sức mạnh trong đầm).
+- **Câu nối gượng:** "chần chừ ở bờ hồ, thì Trần Bá Tiên giục" và "Lê Văn Hưu... thì cho rằng" viết lại.
+- **Nhắc nguồn quá nhiều:** "Toàn thư" từ 6 lần còn 2 (chỗ cái chết của Lý Nam Đế và chỗ truyền thuyết móng rồng), thêm 1 lần "sử cũ" ở chuyện gả con gái. Bỏ "Theo sử cũ" ở đoạn tả đầm (không có tranh cãi).
+- **Chữ Hán Việt còn sót:** "tương truyền" thành "người ta kể là".
+- **Ý không có nguồn:** bỏ chữ "liền" (Triệu Việt Vương "liền" đem quân) vì sử không nói ông ra quân ngay.
+- **Tên riêng dày:** đoạn 187020 thay lần nhắc thứ hai "Dương Sàn" bằng "viên phó tướng ấy".
+- **Rà từng cặp đoạn kề nhau:** chữ "ông" ở 187007, 187017, 187023, 187026, 187027 đều trỏ đúng người; "Từ hai năm trước" (187019) tính từ năm 550, khớp năm Hầu Cảnh làm phản (548); "ba năm trốn trong bùn" (187021) khớp 547–550.
+- **Còn lại có chủ ý:** đoạn dài trung bình 68 chữ (văn xuôi chia theo đoạn văn); 19 cảnh báo dấu phẩy của `kiem_kich_ban.py` là đếm cả đoạn, không câu nào quá 4 dấu phẩy (`kiem_cau_cut.py` 0 ⚠️).
+
 ## 1. Văn xuôi liền mạch
 
 Hai người đàn ông giằng co nhau mấy năm trời quanh một cái đầm lầy.
@@ -18,17 +30,17 @@ Ba năm sau, Lý Bí lên ngôi vua, và sử gọi ông là Lý Nam Đế. Ông
 
 Quân của Lý Nam Đế thua ngay từ những trận đầu. Khoảng ba vạn người kéo ra chặn quân nhà Lương ở Chu Diên rồi ở cửa sông Tô Lịch, nhưng cả hai lần đều bị đánh tan. Lý Nam Đế lui vào giữ thành Gia Ninh, quân nhà Lương kéo tới vây, và đầu năm sau thì thành bị chiếm. Ông phải chạy ngược lên vùng núi, nay thuộc Phú Thọ.
 
-Đến mùa thu năm năm trăm bốn mươi sáu, Lý Nam Đế gom được hai vạn quân và quay lại, cho thuyền đậu dày đặc trên mặt hồ Điển Triệt. Quân nhà Lương kéo tới nhưng còn chần chừ ở bờ hồ, thì Trần Bá Tiên giục các tướng phải đánh ngay. Đúng đêm hôm ấy, nước sông bỗng dâng cao bảy thước và tràn vào hồ. Quân nhà Lương nhân lúc đó đánh trống xông vào, còn quân Vạn Xuân thì không kịp trở tay nên thua trận.
+Đến mùa thu năm năm trăm bốn mươi sáu, Lý Nam Đế gom được hai vạn quân và quay lại, cho thuyền đậu dày đặc trên mặt hồ Điển Triệt. Quân nhà Lương kéo tới rồi dừng lại ở bờ hồ, chưa tiến vào, nhưng Trần Bá Tiên giục các tướng phải đánh ngay. Đúng đêm hôm ấy, nước sông bỗng dâng cao bảy thước và tràn vào hồ. Quân nhà Lương nhân lúc đó đánh trống xông vào, còn quân Vạn Xuân thì không kịp trở tay nên thua trận.
 
-Ba lần thua ấy có chung một điểm. Lần nào quân Vạn Xuân cũng đứng lại giữ một khúc sông, một tòa thành hay một mặt hồ, rồi chờ quân nhà Lương tìm tới đánh. Lê Văn Hưu, nhà viết sử đời Trần, thì cho rằng tài cầm quân của Lý Nam Đế chỉ ở mức bình thường, mà lại gặp đúng một đối thủ giỏi.
+Ba lần thua ấy có chung một điểm. Lần nào quân Vạn Xuân cũng đứng lại giữ một khúc sông, một tòa thành hay một mặt hồ, rồi chờ quân nhà Lương tìm tới đánh. Còn Lê Văn Hưu, nhà viết sử đời Trần, cho rằng tài cầm quân của Lý Nam Đế chỉ ở mức bình thường, mà lại gặp đúng một đối thủ giỏi.
 
 Sau trận ấy, Lý Nam Đế rút vào động Khuất Lão, một vùng núi mà đến nay không ai biết chắc nằm ở đâu, rồi giao lại việc đánh Trần Bá Tiên cho Triệu Quang Phục.
 
 Sang năm năm trăm bốn mươi bảy, Triệu Quang Phục thấy quân nhà Lương vẫn đang mạnh và đánh thẳng thì khó thắng, nên ông làm ngược hẳn với ba lần trước. Ông không giữ thành, cũng không bày trận chờ giặc, mà dẫn hơn hai vạn người rút vào đầm Dạ Trạch, thuộc vùng Khoái Châu, Hưng Yên bây giờ.
 
-Theo sử cũ, đây là một cái đầm rộng mênh mông với cây cỏ mọc um tùm, ở giữa có một bãi đất cao đủ cho người ở. Xung quanh bãi đất toàn là bùn lầy, người và ngựa đều khó đi. Muốn vào đầm chỉ có cách dùng thuyền độc mộc, loại thuyền nhỏ khoét từ một thân cây, chống sào cho nó lướt trên cỏ nước. Ai không thuộc đường thì sẽ lạc, mà lỡ rơi xuống bùn thì có thể bị rắn rết cắn chết.
+Đầm Dạ Trạch là một cái đầm rộng mênh mông với cây cỏ mọc um tùm, ở giữa có một bãi đất cao đủ cho người ở. Xung quanh bãi đất toàn là bùn lầy, người và ngựa đều khó đi. Muốn vào đầm chỉ có cách dùng thuyền độc mộc, loại thuyền nhỏ khoét từ một thân cây, chống sào cho nó lướt trên cỏ nước. Ai không thuộc đường thì sẽ lạc, mà lỡ rơi xuống bùn thì có thể bị rắn rết cắn chết.
 
-Chính những điều đó lấy đi thứ mà quân nhà Lương cần nhất để thắng. Một đạo quân đông chỉ mạnh khi có chỗ để dàn trận và có đường cho người và ngựa tiến vào, mà trong đầm Dạ Trạch thì không có cả hai.
+Ở một nơi như vậy, quân nhà Lương dù đông cũng khó dùng được sức mạnh của mình. Một đạo quân đông chỉ mạnh khi có chỗ để dàn trận và có đường cho người và ngựa tiến vào, mà trong đầm Dạ Trạch thì không có cả hai.
 
 Suốt ban ngày, người trong đầm tắt hết khói bếp để bên ngoài không nhìn thấy một dấu vết nào. Đến khi trời tối, từng chiếc thuyền độc mộc mới lặng lẽ đi ra đánh úp vào trại của Trần Bá Tiên. Họ giết và bắt được nhiều người, rồi chở lương thực của quân nhà Lương về đầm.
 
@@ -44,7 +56,7 @@ Sau khi Lý Nam Đế mất, Triệu Quang Phục tự lên làm vua với hiệ
 
 Nhưng kế ấy không kịp thực hiện. Từ hai năm trước, bên Trung Hoa đã nổ ra một cuộc nổi loạn lớn khi Hầu Cảnh, một viên tướng của nhà Lương, làm phản và chiếm luôn kinh đô. Ngay cả vua nhà Lương, người đã sai quân sang lấy lại Vạn Xuân, cũng chết khi đang bị giam trong chính cung điện của mình.
 
-Trần Bá Tiên bị gọi về nước để đánh Hầu Cảnh, chỉ để lại một viên phó tướng tên là Dương Sàn. Triệu Việt Vương liền đem quân ra khỏi đầm đánh thẳng vào quân nhà Lương. Dương Sàn chết trong trận ấy, quân nhà Lương bỏ chạy về phương bắc, và Triệu Việt Vương tiến vào đóng ở thành Long Biên, kinh đô cũ của Lý Nam Đế.
+Trần Bá Tiên bị gọi về nước để đánh Hầu Cảnh, chỉ để lại một viên phó tướng tên là Dương Sàn. Triệu Việt Vương đem quân ra khỏi đầm đánh thẳng vào quân nhà Lương. Viên phó tướng ấy chết trong trận, quân nhà Lương bỏ chạy về phương bắc, và Triệu Việt Vương tiến vào đóng ở thành Long Biên, kinh đô cũ của Lý Nam Đế.
 
 Nói cho đúng thì quân nhà Lương rút về trước hết là vì chính nhà Lương đang rối loạn, chứ không phải vì thua ở đầm. Nhưng cơ hội ấy chỉ có ích cho người vẫn còn đứng vững sau ba năm trốn trong bùn lầy. Con nước lũ ở hồ Điển Triệt từng đứng về phía quân nhà Lương, còn lần này thì cuộc nổi loạn bên kia biên giới lại đứng về phía người trong đầm.
 
@@ -52,15 +64,15 @@ Về phần Trần Bá Tiên, sau khi về nước, ông cùng các tướng kh�
 
 Còn mối nguy tiếp theo của Triệu Việt Vương thì lại đến từ chính phe mình. Năm năm trăm năm mươi lăm, anh trai của Lý Nam Đế mất mà không có con nối ngôi, nên những người theo ông chọn Lý Phật Tử, một người cùng họ Lý, lên cầm đầu. Hai năm sau, Lý Phật Tử đem quân xuống đánh Triệu Việt Vương, và hai bên đánh nhau tới năm trận mà vẫn không bên nào thắng được bên nào.
 
-Sau năm trận ấy, Lý Phật Tử xin làm hòa. Theo Toàn thư, Triệu Việt Vương nhận lời vì Lý Phật Tử là người cùng họ với Lý Nam Đế. Hai bên chia đất và lấy bãi Quân Thần làm ranh giới, nay là vùng Thượng Cát và Hạ Cát của Hà Nội. Toàn thư còn chép rằng Triệu Việt Vương gả con gái cho con trai của Lý Phật Tử là Nhã Lang, và cho Nhã Lang về ở rể trong nhà mình.
+Sau năm trận ấy, Lý Phật Tử xin làm hòa. Triệu Việt Vương nhận lời vì Lý Phật Tử là người cùng họ với Lý Nam Đế. Hai bên chia đất và lấy bãi Quân Thần làm ranh giới, nay là vùng Thượng Cát và Hạ Cát của Hà Nội. Sử cũ còn chép rằng Triệu Việt Vương gả con gái cho con trai của Lý Phật Tử là Nhã Lang, và cho Nhã Lang về ở rể trong nhà mình.
 
-Điều đáng để ý ở đây chính là cái họ Lý. Triệu Việt Vương giữ nước từ ngày Lý Nam Đế giao lại, và cũng vì cái họ ấy mà ông chịu chia đất cho một người vừa đem quân đánh mình. Năm trận ngang sức cho thấy nếu đánh tiếp thì chưa chắc bên nào thắng, nên làm hòa là cách giữ được đất mà không phải đánh nhau với người cùng phe. Còn ông có từng nghi ngờ Lý Phật Tử hay không, thì sử không chép.
+Cái họ Lý ấy có hai mặt. Triệu Việt Vương giữ nước từ ngày Lý Nam Đế giao lại, và cũng vì cái họ ấy mà ông chịu chia đất cho một người vừa đem quân đánh mình. Năm trận ngang sức cho thấy nếu đánh tiếp thì chưa chắc bên nào thắng, nên làm hòa là cách giữ được đất mà không phải đánh nhau với người cùng phe. Còn ông có từng nghi ngờ Lý Phật Tử hay không, thì sử không chép.
 
-Năm năm trăm bảy mươi mốt, Lý Phật Tử phá bỏ lời hòa ước và bất ngờ đem quân đánh úp. Vì không hề đề phòng, Triệu Việt Vương bị đánh thua và phải chạy về phía nam. Theo Toàn thư, ông bị đuổi tới cửa biển Đại Nha thuộc vùng Nam Định cũ, và khi bị chặn lại ở đó thì ông nhảy xuống biển. Về sau, người dân lập đền thờ ông ngay tại cửa biển ấy.
+Năm năm trăm bảy mươi mốt, Lý Phật Tử phá bỏ lời hòa ước và bất ngờ đem quân đánh úp. Vì không hề đề phòng, Triệu Việt Vương bị đánh thua và phải chạy về phía nam. Ông bị đuổi tới cửa biển Đại Nha thuộc vùng Nam Định cũ, và khi bị chặn lại ở đó thì ông nhảy xuống biển. Về sau, người dân lập đền thờ ông ngay tại cửa biển ấy.
 
-Toàn thư còn kể thêm vì sao ông thua. Theo lời kể ấy, Nhã Lang dỗ vợ cho xem chiếc móng rồng gắn trên mũ trụ của cha vợ, thứ mà tương truyền thần Chử Đồng Tử đã trao cho ông, rồi lén đánh tráo. Câu chuyện này giống hệt chuyện Mỵ Châu và Trọng Thủy, nên các nhà viết sử triều Nguyễn, khi soạn sách Cương mục, đã gọi đó là chuyện hoang đường.
+Toàn thư còn kể thêm vì sao ông thua. Theo lời kể ấy, Nhã Lang dỗ vợ cho xem chiếc móng rồng gắn trên mũ trụ của cha vợ, thứ mà người ta kể là do thần Chử Đồng Tử đã trao cho ông, rồi lén đánh tráo. Câu chuyện này giống hệt chuyện Mỵ Châu và Trọng Thủy, nên các nhà viết sử triều Nguyễn, khi soạn sách Cương mục, đã gọi đó là chuyện hoang đường.
 
-Nếu bỏ chuyện móng rồng đi, điều còn lại chỉ là một lời hòa ước bị phá bỏ. Ngô Sĩ Liên chê việc làm của Lý Phật Tử, cho rằng người muốn làm vua một cách chính đáng mà làm như vậy thì còn tệ hơn loài chó lợn. Ở trong đầm, Triệu Quang Phục thắng được là vì kẻ thù không biết ông ở đâu, vậy mà đến cuối đời, nếu tin lời Toàn thư, con trai của kẻ đánh úp ông lại sống ngay trong nhà ông.
+Nếu bỏ chuyện móng rồng đi, điều còn lại chỉ là một lời hòa ước bị phá bỏ. Ngô Sĩ Liên chê việc làm của Lý Phật Tử, cho rằng người muốn làm vua một cách chính đáng mà làm như vậy thì còn tệ hơn loài chó lợn. Ở trong đầm, Triệu Quang Phục thắng được là vì kẻ thù không biết ông ở đâu, vậy mà đến cuối đời, con trai của kẻ đánh úp ông lại sống ngay trong nhà ông.
 
 Người trong đầm đã sống lâu hơn đạo quân kéo sang lấy đất của mình, nhờ bùn lầy, nhờ những đêm đánh úp, và nhờ cả cuộc nổi loạn bên kia biên giới. Nhưng rốt cuộc, ông lại thua vào đúng lúc ông tin một lời hòa ước.
 
@@ -78,17 +90,17 @@ Người trong đầm đã sống lâu hơn đạo quân kéo sang lấy đất 
 
 **187006** (13%) Quân của Lý Nam Đế thua ngay từ những trận đầu. Khoảng ba vạn người kéo ra chặn quân nhà Lương ở Chu Diên rồi ở cửa sông Tô Lịch, nhưng cả hai lần đều bị đánh tan. Lý Nam Đế lui vào giữ thành Gia Ninh, quân nhà Lương kéo tới vây, và đầu năm sau thì thành bị chiếm. Ông phải chạy ngược lên vùng núi, nay thuộc Phú Thọ.
 
-**187007** (17%) Đến mùa thu năm năm trăm bốn mươi sáu, Lý Nam Đế gom được hai vạn quân và quay lại, cho thuyền đậu dày đặc trên mặt hồ Điển Triệt. Quân nhà Lương kéo tới nhưng còn chần chừ ở bờ hồ, thì Trần Bá Tiên giục các tướng phải đánh ngay. Đúng đêm hôm ấy, nước sông bỗng dâng cao bảy thước và tràn vào hồ. Quân nhà Lương nhân lúc đó đánh trống xông vào, còn quân Vạn Xuân thì không kịp trở tay nên thua trận.
+**187007** (17%) Đến mùa thu năm năm trăm bốn mươi sáu, Lý Nam Đế gom được hai vạn quân và quay lại, cho thuyền đậu dày đặc trên mặt hồ Điển Triệt. Quân nhà Lương kéo tới rồi dừng lại ở bờ hồ, chưa tiến vào, nhưng Trần Bá Tiên giục các tướng phải đánh ngay. Đúng đêm hôm ấy, nước sông bỗng dâng cao bảy thước và tràn vào hồ. Quân nhà Lương nhân lúc đó đánh trống xông vào, còn quân Vạn Xuân thì không kịp trở tay nên thua trận.
 
-**187008** (22%) Ba lần thua ấy có chung một điểm. Lần nào quân Vạn Xuân cũng đứng lại giữ một khúc sông, một tòa thành hay một mặt hồ, rồi chờ quân nhà Lương tìm tới đánh. Lê Văn Hưu, nhà viết sử đời Trần, thì cho rằng tài cầm quân của Lý Nam Đế chỉ ở mức bình thường, mà lại gặp đúng một đối thủ giỏi.
+**187008** (22%) Ba lần thua ấy có chung một điểm. Lần nào quân Vạn Xuân cũng đứng lại giữ một khúc sông, một tòa thành hay một mặt hồ, rồi chờ quân nhà Lương tìm tới đánh. Còn Lê Văn Hưu, nhà viết sử đời Trần, cho rằng tài cầm quân của Lý Nam Đế chỉ ở mức bình thường, mà lại gặp đúng một đối thủ giỏi.
 
 **187009** (25%) Sau trận ấy, Lý Nam Đế rút vào động Khuất Lão, một vùng núi mà đến nay không ai biết chắc nằm ở đâu, rồi giao lại việc đánh Trần Bá Tiên cho Triệu Quang Phục.
 
 **187010** (27%) Sang năm năm trăm bốn mươi bảy, Triệu Quang Phục thấy quân nhà Lương vẫn đang mạnh và đánh thẳng thì khó thắng, nên ông làm ngược hẳn với ba lần trước. Ông không giữ thành, cũng không bày trận chờ giặc, mà dẫn hơn hai vạn người rút vào đầm Dạ Trạch, thuộc vùng Khoái Châu, Hưng Yên bây giờ.
 
-**187011** (30%) Theo sử cũ, đây là một cái đầm rộng mênh mông với cây cỏ mọc um tùm, ở giữa có một bãi đất cao đủ cho người ở. Xung quanh bãi đất toàn là bùn lầy, người và ngựa đều khó đi. Muốn vào đầm chỉ có cách dùng thuyền độc mộc, loại thuyền nhỏ khoét từ một thân cây, chống sào cho nó lướt trên cỏ nước. Ai không thuộc đường thì sẽ lạc, mà lỡ rơi xuống bùn thì có thể bị rắn rết cắn chết.
+**187011** (30%) Đầm Dạ Trạch là một cái đầm rộng mênh mông với cây cỏ mọc um tùm, ở giữa có một bãi đất cao đủ cho người ở. Xung quanh bãi đất toàn là bùn lầy, người và ngựa đều khó đi. Muốn vào đầm chỉ có cách dùng thuyền độc mộc, loại thuyền nhỏ khoét từ một thân cây, chống sào cho nó lướt trên cỏ nước. Ai không thuộc đường thì sẽ lạc, mà lỡ rơi xuống bùn thì có thể bị rắn rết cắn chết.
 
-**187012** (34%) Chính những điều đó lấy đi thứ mà quân nhà Lương cần nhất để thắng. Một đạo quân đông chỉ mạnh khi có chỗ để dàn trận và có đường cho người và ngựa tiến vào, mà trong đầm Dạ Trạch thì không có cả hai.
+**187012** (34%) Ở một nơi như vậy, quân nhà Lương dù đông cũng khó dùng được sức mạnh của mình. Một đạo quân đông chỉ mạnh khi có chỗ để dàn trận và có đường cho người và ngựa tiến vào, mà trong đầm Dạ Trạch thì không có cả hai.
 
 **187013** (37%) Suốt ban ngày, người trong đầm tắt hết khói bếp để bên ngoài không nhìn thấy một dấu vết nào. Đến khi trời tối, từng chiếc thuyền độc mộc mới lặng lẽ đi ra đánh úp vào trại của Trần Bá Tiên. Họ giết và bắt được nhiều người, rồi chở lương thực của quân nhà Lương về đầm.
 
@@ -104,23 +116,23 @@ Người trong đầm đã sống lâu hơn đạo quân kéo sang lấy đất 
 
 **187019** (58%) Nhưng kế ấy không kịp thực hiện. Từ hai năm trước, bên Trung Hoa đã nổ ra một cuộc nổi loạn lớn khi Hầu Cảnh, một viên tướng của nhà Lương, làm phản và chiếm luôn kinh đô. Ngay cả vua nhà Lương, người đã sai quân sang lấy lại Vạn Xuân, cũng chết khi đang bị giam trong chính cung điện của mình.
 
-**187020** (61%) Trần Bá Tiên bị gọi về nước để đánh Hầu Cảnh, chỉ để lại một viên phó tướng tên là Dương Sàn. Triệu Việt Vương liền đem quân ra khỏi đầm đánh thẳng vào quân nhà Lương. Dương Sàn chết trong trận ấy, quân nhà Lương bỏ chạy về phương bắc, và Triệu Việt Vương tiến vào đóng ở thành Long Biên, kinh đô cũ của Lý Nam Đế.
+**187020** (62%) Trần Bá Tiên bị gọi về nước để đánh Hầu Cảnh, chỉ để lại một viên phó tướng tên là Dương Sàn. Triệu Việt Vương đem quân ra khỏi đầm đánh thẳng vào quân nhà Lương. Viên phó tướng ấy chết trong trận, quân nhà Lương bỏ chạy về phương bắc, và Triệu Việt Vương tiến vào đóng ở thành Long Biên, kinh đô cũ của Lý Nam Đế.
 
 **187021** (65%) Nói cho đúng thì quân nhà Lương rút về trước hết là vì chính nhà Lương đang rối loạn, chứ không phải vì thua ở đầm. Nhưng cơ hội ấy chỉ có ích cho người vẫn còn đứng vững sau ba năm trốn trong bùn lầy. Con nước lũ ở hồ Điển Triệt từng đứng về phía quân nhà Lương, còn lần này thì cuộc nổi loạn bên kia biên giới lại đứng về phía người trong đầm.
 
 **187022** (69%) Về phần Trần Bá Tiên, sau khi về nước, ông cùng các tướng khác dẹp xong Hầu Cảnh, rồi đến năm năm trăm năm mươi bảy thì tự lên làm hoàng đế. Ông lập ra nhà Trần của Trung Hoa, khác với nhà Trần của nước ta sau này. Người từng không phá nổi một cái đầm ở Chu Diên, cuối cùng lại lập được cả một triều đại.
 
-**187023** (72%) Còn mối nguy tiếp theo của Triệu Việt Vương thì lại đến từ chính phe mình. Năm năm trăm năm mươi lăm, anh trai của Lý Nam Đế mất mà không có con nối ngôi, nên những người theo ông chọn Lý Phật Tử, một người cùng họ Lý, lên cầm đầu. Hai năm sau, Lý Phật Tử đem quân xuống đánh Triệu Việt Vương, và hai bên đánh nhau tới năm trận mà vẫn không bên nào thắng được bên nào.
+**187023** (73%) Còn mối nguy tiếp theo của Triệu Việt Vương thì lại đến từ chính phe mình. Năm năm trăm năm mươi lăm, anh trai của Lý Nam Đế mất mà không có con nối ngôi, nên những người theo ông chọn Lý Phật Tử, một người cùng họ Lý, lên cầm đầu. Hai năm sau, Lý Phật Tử đem quân xuống đánh Triệu Việt Vương, và hai bên đánh nhau tới năm trận mà vẫn không bên nào thắng được bên nào.
 
-**187024** (76%) Sau năm trận ấy, Lý Phật Tử xin làm hòa. Theo Toàn thư, Triệu Việt Vương nhận lời vì Lý Phật Tử là người cùng họ với Lý Nam Đế. Hai bên chia đất và lấy bãi Quân Thần làm ranh giới, nay là vùng Thượng Cát và Hạ Cát của Hà Nội. Toàn thư còn chép rằng Triệu Việt Vương gả con gái cho con trai của Lý Phật Tử là Nhã Lang, và cho Nhã Lang về ở rể trong nhà mình.
+**187024** (77%) Sau năm trận ấy, Lý Phật Tử xin làm hòa. Triệu Việt Vương nhận lời vì Lý Phật Tử là người cùng họ với Lý Nam Đế. Hai bên chia đất và lấy bãi Quân Thần làm ranh giới, nay là vùng Thượng Cát và Hạ Cát của Hà Nội. Sử cũ còn chép rằng Triệu Việt Vương gả con gái cho con trai của Lý Phật Tử là Nhã Lang, và cho Nhã Lang về ở rể trong nhà mình.
 
-**187025** (81%) Điều đáng để ý ở đây chính là cái họ Lý. Triệu Việt Vương giữ nước từ ngày Lý Nam Đế giao lại, và cũng vì cái họ ấy mà ông chịu chia đất cho một người vừa đem quân đánh mình. Năm trận ngang sức cho thấy nếu đánh tiếp thì chưa chắc bên nào thắng, nên làm hòa là cách giữ được đất mà không phải đánh nhau với người cùng phe. Còn ông có từng nghi ngờ Lý Phật Tử hay không, thì sử không chép.
+**187025** (81%) Cái họ Lý ấy có hai mặt. Triệu Việt Vương giữ nước từ ngày Lý Nam Đế giao lại, và cũng vì cái họ ấy mà ông chịu chia đất cho một người vừa đem quân đánh mình. Năm trận ngang sức cho thấy nếu đánh tiếp thì chưa chắc bên nào thắng, nên làm hòa là cách giữ được đất mà không phải đánh nhau với người cùng phe. Còn ông có từng nghi ngờ Lý Phật Tử hay không, thì sử không chép.
 
-**187026** (85%) Năm năm trăm bảy mươi mốt, Lý Phật Tử phá bỏ lời hòa ước và bất ngờ đem quân đánh úp. Vì không hề đề phòng, Triệu Việt Vương bị đánh thua và phải chạy về phía nam. Theo Toàn thư, ông bị đuổi tới cửa biển Đại Nha thuộc vùng Nam Định cũ, và khi bị chặn lại ở đó thì ông nhảy xuống biển. Về sau, người dân lập đền thờ ông ngay tại cửa biển ấy.
+**187026** (85%) Năm năm trăm bảy mươi mốt, Lý Phật Tử phá bỏ lời hòa ước và bất ngờ đem quân đánh úp. Vì không hề đề phòng, Triệu Việt Vương bị đánh thua và phải chạy về phía nam. Ông bị đuổi tới cửa biển Đại Nha thuộc vùng Nam Định cũ, và khi bị chặn lại ở đó thì ông nhảy xuống biển. Về sau, người dân lập đền thờ ông ngay tại cửa biển ấy.
 
-**187027** (89%) Toàn thư còn kể thêm vì sao ông thua. Theo lời kể ấy, Nhã Lang dỗ vợ cho xem chiếc móng rồng gắn trên mũ trụ của cha vợ, thứ mà tương truyền thần Chử Đồng Tử đã trao cho ông, rồi lén đánh tráo. Câu chuyện này giống hệt chuyện Mỵ Châu và Trọng Thủy, nên các nhà viết sử triều Nguyễn, khi soạn sách Cương mục, đã gọi đó là chuyện hoang đường.
+**187027** (89%) Toàn thư còn kể thêm vì sao ông thua. Theo lời kể ấy, Nhã Lang dỗ vợ cho xem chiếc móng rồng gắn trên mũ trụ của cha vợ, thứ mà người ta kể là do thần Chử Đồng Tử đã trao cho ông, rồi lén đánh tráo. Câu chuyện này giống hệt chuyện Mỵ Châu và Trọng Thủy, nên các nhà viết sử triều Nguyễn, khi soạn sách Cương mục, đã gọi đó là chuyện hoang đường.
 
-**187028** (93%) Nếu bỏ chuyện móng rồng đi, điều còn lại chỉ là một lời hòa ước bị phá bỏ. Ngô Sĩ Liên chê việc làm của Lý Phật Tử, cho rằng người muốn làm vua một cách chính đáng mà làm như vậy thì còn tệ hơn loài chó lợn. Ở trong đầm, Triệu Quang Phục thắng được là vì kẻ thù không biết ông ở đâu, vậy mà đến cuối đời, nếu tin lời Toàn thư, con trai của kẻ đánh úp ông lại sống ngay trong nhà ông.
+**187028** (93%) Nếu bỏ chuyện móng rồng đi, điều còn lại chỉ là một lời hòa ước bị phá bỏ. Ngô Sĩ Liên chê việc làm của Lý Phật Tử, cho rằng người muốn làm vua một cách chính đáng mà làm như vậy thì còn tệ hơn loài chó lợn. Ở trong đầm, Triệu Quang Phục thắng được là vì kẻ thù không biết ông ở đâu, vậy mà đến cuối đời, con trai của kẻ đánh úp ông lại sống ngay trong nhà ông.
 
 **187029** (98%) Người trong đầm đã sống lâu hơn đạo quân kéo sang lấy đất của mình, nhờ bùn lầy, nhờ những đêm đánh úp, và nhờ cả cuộc nổi loạn bên kia biên giới. Nhưng rốt cuộc, ông lại thua vào đúng lúc ông tin một lời hòa ước.
 
@@ -138,7 +150,7 @@ Người trong đầm đã sống lâu hơn đạo quân kéo sang lấy đất 
 | 187021 | Quân Lương rút trước hết vì nhà Lương tự loạn; cơ hội chỉ có ích cho người còn đứng được | Toàn thư 4/19a; sử Trung Hoa về loạn Hầu Cảnh | "trước hết", không nói "chỉ vì"; giữ đúng tác nhân |
 | 187022 | Người không phá nổi một cái đầm lại lập được cả một triều đại | Trần Bá Tiên lên ngôi năm 557 (Wikipedia) | tương phản hai việc có thật |
 | 187025 | Chính cái họ Lý vừa là lý do ông giữ nước, vừa là lý do ông chịu chia đất; năm trận ngang sức nên làm hòa giữ được đất; sử không chép ông có nghi ngờ gì không | Toàn thư 4/20a và Cương mục 4/11b–12b (nhận lời vì cùng họ Lý; năm trận không phân thắng bại) | lý do làm hòa là của sử; phần "đánh tiếp chưa chắc ai thắng" suy từ năm trận ngang sức; nói thẳng chỗ sử không ghi |
-| 187028 | Bỏ truyền thuyết thì còn một lời hòa bị phá; trong đầm ông thắng vì giặc không biết ông ở đâu, cuối đời con trai kẻ đánh úp sống trong nhà ông | Toàn thư 4/17b, 4/20a–21b; lời Ngô Sĩ Liên 4/21b | "nếu tin lời Toàn thư" cho chuyện ở rể |
+| 187028 | Bỏ truyền thuyết thì còn một lời hòa bị phá; trong đầm ông thắng vì giặc không biết ông ở đâu, cuối đời con trai kẻ đánh úp sống trong nhà ông | Toàn thư 4/17b, 4/20a–21b; lời Ngô Sĩ Liên 4/21b | "sử cũ còn chép" cho chuyện ở rể (đoạn 187024) |
 
 Lời sử gia có tên (giữ, không tính là phân tích của người kể): Lê Văn Hưu chê Lý Nam Đế (187008), Ngô Sĩ Liên chê Lý Phật Tử (187028). Câu "nước lũ giúp quân Lương" của Ngô Sĩ Liên ở bản 1 đã bỏ, thay bằng phân tích ba lần thua.
 
@@ -180,8 +192,8 @@ Giữ nguyên (tên riêng hoặc từ thông dụng): Vạn Xuân, Dạ Trạch
 ## 6. Kết quả bộ kiểm
 
 - `kiem_cau_cut.py` (mới): 0 ❌, 0 ⚠️.
-- `kiem_kich_ban.py`: 0 ❌, 20 ⚠️ (đều "nhiều hơn 3 dấu phẩy"; sẽ kiểm lại bằng nhận dạng giọng).
-- `kiem_mach_ke.py`: 0 ❌, 21 ⚠️. `kiem_mo_dau.py`: ✅. `kiem_khung.py`: 0 ❌, 13 ⚠️ (tham khảo). `kiem_giong_van.py`: 0 ❌, 0 ⚠️.
+- `kiem_kich_ban.py`: 0 ❌, 19 ⚠️ (đều "nhiều hơn 3 dấu phẩy"; sẽ kiểm lại bằng nhận dạng giọng).
+- `kiem_mach_ke.py`: 0 ❌, 19 ⚠️. `kiem_mo_dau.py`: ✅. `kiem_khung.py`: 0 ❌, 13 ⚠️ (tham khảo). `kiem_giong_van.py`: 0 ❌, 0 ⚠️.
 - Không dùng dấu hai chấm trong lời đọc.
 
 ## 7. Câu hỏi cho chủ kênh

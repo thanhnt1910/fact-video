@@ -1,5 +1,6 @@
 # Bản dài tm11m: Dương Đình Nghệ lấy lại Đại La 931 (bộ tranh riêng t11_*), kịch bản mới kể kèm phân tích
-import math,re,json
+import math,re,json,zlib
+import hieu_ung as HU
 import khung_dung as K
 from khung_dung import cam,cpath,PAP,W,H,title
 from canh import *
@@ -64,6 +65,17 @@ def walk(cv,c,img,x0,x1,y,t,a,b,s,ph=0.,o=1.0,amp=5):
     put(cv,c,fl,lerp(x0,x1,u),y-abs(math.sin(t*7+ph))*amp,ay=1,s=s,o=o*min(1,u*10)*min(1,(1-u)*10))
 def bowr(t,i,sd,base=0.,amp=7.):
     return (1 if sd==0 else -1)*(base+amp*max(0,math.sin(2*math.pi*t/2.6-i*.6+sd)))
+# ---------- hiệu ứng mực chung (chủ kênh duyệt 19/11): tranh nền loang mực, sương trôi, tro bay từ lửa. Quân giữ nguyên bản tĩnh.
+_TN=[0.]
+_put0=put
+def put(cv,cam,img,*a,**k):
+    if isinstance(img,str) and img.startswith('t11_') and A(img).shape[1]>=1200:
+        k.setdefault('scale_px',asc(img));nm=img;img=HU.mucloang(nm,_TN[0],seed=zlib.crc32(nm.encode())%97+1)
+        _put0(cv,cam,img,*a,**k);HU.suong(cv,cam,_TN[0],700,.06,n=2);return
+    return _put0(cv,cam,img,*a,**k)
+_flame0=flame
+def flame(cv,c,x,y,t,s=.4,ph=0.):
+    _flame0(cv,c,x,y,t,s,ph);HU.tro(cv,c,t,0,1e9,[(x,y-20*s*3)],n=3,seed=int(abs(x))%50+1,o=.5)
 HD=(645,651)   # Hải Dương, tính từ tọa độ Đại La theo kinh vĩ độ
 # ---------- 1. hook
 def S_1(cv,t):
@@ -372,9 +384,13 @@ def S_end(cv,t):
     for k in range(4): dust(cv,c,(t*28+k*600)%2600-300,820+(k%2)*40,o=.22,s=.9)
 S=lambda n:T[n]-.3
 SB=lambda n,k:sb(n,k)-.3
+def _w(f):
+    def g(cv,t): _TN[0]=t;return f(cv,t)
+    return g
 SH=[(0,S(2),S_1),(S(2),S(3),S_2),(S(3),SB(3,1),S_3a),(SB(3,1),SB(3,2),S_3b),(SB(3,2),S(4),S_3c),(S(4),S(5),S_4),(S(5),SB(5,2),S_5a),(SB(5,2),S(6),S_5b),
  (S(6),S(7),S_6),(S(7),S(8),S_7),(S(8),S(9),S_8),(S(9),S(10),S_9),(S(10),S(11),S_10),(S(11),S(12),S_11),(S(12),S(13),S_12),(S(13),SB(13,1),S_13a),(SB(13,1),S(14),S_13b),
  (S(14),E[14]-1.2,S_14),(E[14]-1.2,V.TOTAL+1,S_end)]
+SH=[(a,b,_w(f)) for a,b,f in SH]
 _J=json.load(open('/tmp/pc/ke-hoach/thu-giong-hai/tm11m_full.json'))
 SENT={}
 for _i,_d in enumerate(_J):

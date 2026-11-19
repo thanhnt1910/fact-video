@@ -193,6 +193,11 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 - **Đoạn giao chiến** có tên bay, máy quay rung nhẹ, quân hai bên áp vào.
 - **Mặt cắt lòng sông** dùng để giải thích kế sách: thủy triều lên xuống, cọc được đóng xuống đáy.
 
+### 4.3b Hiệu ứng mực chung và quân (chủ kênh duyệt 19/11/2026, từ tm11m)
+- **Áp cho mọi tranh nền** (ảnh rộng từ 1200 px trở lên): nét mực rung và quầng mực thấm (`hieu_ung.mucloang`), sương trôi nhẹ phía dưới (`suong`, rất mờ để không làm nhạt cảnh), tro hoặc bụi mực bay lên từ lửa (`tro`, gắn trong `flame`). Mẫu cài: đoạn "hiệu ứng mực chung" trong `dai_tm11m.py`.
+- **Quân giữ nguyên bản tĩnh** (`fig_*` bóng đen, chỉ nhún hoặc di chuyển cả khối). KHÔNG dùng người ghép mảnh `hieu_ung.linh`: thử ở tm11m thấy cứng như người que, tỉ lệ dễ cao kều, không đáng công. Muốn cận cảnh nhân vật sống động thì vẽ riêng từng nhân vật.
+- Dựng chậm hơn khoảng 0,8 giây mỗi khung; kiểm mờ sương trên khung thật trước khi dựng cả video.
+
 ### 4.4 Mở đầu, chuyển chương, kết
 - **Giây 0:** đã có hình và chữ lớn trên màn hình (câu hỏi của hook). Không mở bằng logo hay đoạn giới thiệu.
 - **Thẻ tựa** sau hook: vệt mực loang, tên trận và triện năm.

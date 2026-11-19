@@ -36,7 +36,7 @@ Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Mã Viện đuổi theo,
 
 Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư, bộ sử của phía nhà Hán, chép Mã Viện chém hai bà rồi gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận, còn sử triều Nguyễn ghi hai bà bị bắt. Chuyện hai bà gieo mình xuống sông Hát là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Cách kể nào cũng không thay được cách kể khác.
 
-Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người Việt thời ấy, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa.
+Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người bản địa, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa.
 
 Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nhắc rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình.
 
@@ -68,7 +68,7 @@ Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái ch
 
 **188012.** Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư, bộ sử của phía nhà Hán, chép Mã Viện chém hai bà rồi gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận, còn sử triều Nguyễn ghi hai bà bị bắt. Chuyện hai bà gieo mình xuống sông Hát là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Cách kể nào cũng không thay được cách kể khác.
 
-**188013.** Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người Việt thời ấy, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa.
+**188013.** Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người bản địa, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa.
 
 **188014.** Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nhắc rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình.
 

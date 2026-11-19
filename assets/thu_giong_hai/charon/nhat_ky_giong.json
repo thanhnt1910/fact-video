@@ -3032,11 +3032,11 @@
 "du_phong": false
 },
 "c187001": {
-"nhom": "187001-187015",
+"nhom": "187001-187016",
 "model": "gemini-3.8-flash-tts",
 "voice": "Charon",
 "style_var": "C_chuong",
-"thoi_diem": "2026-11-19 05:58:41",
+"thoi_diem": "2026-11-19 14:44:55",
 "du_phong": false
 },
 "c187016": {
@@ -3045,6 +3045,14 @@
 "voice": "Charon",
 "style_var": "C_chuong",
 "thoi_diem": "2026-11-19 05:59:16",
+"du_phong": false
+},
+"c187017": {
+"nhom": "187017-187029",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-19 14:45:28",
 "du_phong": false
 }
 }

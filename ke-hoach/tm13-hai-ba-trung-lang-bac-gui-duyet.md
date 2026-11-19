@@ -14,17 +14,17 @@
 
 Viên thái thú nhà Hán bỏ chạy khỏi quận, vì hai người phụ nữ.
 
-Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ dấy binh, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại.
+Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ đứng lên, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại.
 
 Thế mà ba năm sau, cuộc nổi dậy đã tắt. Vì sao một tiếng gọi được cả vùng đáp lại, rồi vẫn không giữ nổi?
 
 Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên. Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù.
 
-Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị dấy binh. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, Tô Định bỏ chạy về Nam Hải, còn Trưng Trắc xưng vương, đóng đô ở Mê Linh, quê bà.
+Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị nổi dậy. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, Tô Định bỏ chạy về Nam Hải, vùng nay thuộc Quảng Đông, còn Trưng Trắc tự xưng làm vua, đóng đô ở Mê Linh, quê bà.
 
 Nghe thì như một mối thù riêng. Nhưng sử cũng chép Tô Định trói buộc cả dân Giao Chỉ, nên có thể hiểu vì sao tiếng gọi của bà vang xa hơn một nhà.
 
-Nhà Hán không bỏ quận ấy. Triều đình ở Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang.
+Nhà Hán không bỏ quận ấy. Triều đình ở kinh đô Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang.
 
 Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau. Quân của hai bà đông bao nhiêu thì sử không ghi, nên ta không thể so hai bên.
 
@@ -36,7 +36,7 @@ Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Mã Viện đuổi theo,
 
 Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư, bộ sử của phía nhà Hán, chép Mã Viện chém hai bà rồi gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận, còn sử triều Nguyễn ghi hai bà bị bắt. Chuyện hai bà gieo mình xuống sông Hát là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Cách kể nào cũng không thay được cách kể khác.
 
-Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh Lạc Việt, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì khí độc và dịch bệnh, gần một nửa.
+Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người Việt thời ấy, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa.
 
 Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nhắc rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình.
 
@@ -46,17 +46,17 @@ Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái ch
 
 **188001.** Viên thái thú nhà Hán bỏ chạy khỏi quận, vì hai người phụ nữ.
 
-**188002.** Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ dấy binh, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại.
+**188002.** Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ đứng lên, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại.
 
 **188003.** Thế mà ba năm sau, cuộc nổi dậy đã tắt. Vì sao một tiếng gọi được cả vùng đáp lại, rồi vẫn không giữ nổi?
 
 **188004.** Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên. Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù.
 
-**188005.** Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị dấy binh. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, Tô Định bỏ chạy về Nam Hải, còn Trưng Trắc xưng vương, đóng đô ở Mê Linh, quê bà.
+**188005.** Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị nổi dậy. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, Tô Định bỏ chạy về Nam Hải, vùng nay thuộc Quảng Đông, còn Trưng Trắc tự xưng làm vua, đóng đô ở Mê Linh, quê bà.
 
 **188006.** Nghe thì như một mối thù riêng. Nhưng sử cũng chép Tô Định trói buộc cả dân Giao Chỉ, nên có thể hiểu vì sao tiếng gọi của bà vang xa hơn một nhà.
 
-**188007.** Nhà Hán không bỏ quận ấy. Triều đình ở Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang.
+**188007.** Nhà Hán không bỏ quận ấy. Triều đình ở kinh đô Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang.
 
 **188008.** Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau. Quân của hai bà đông bao nhiêu thì sử không ghi, nên ta không thể so hai bên.
 
@@ -68,7 +68,7 @@ Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái ch
 
 **188012.** Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư, bộ sử của phía nhà Hán, chép Mã Viện chém hai bà rồi gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận, còn sử triều Nguyễn ghi hai bà bị bắt. Chuyện hai bà gieo mình xuống sông Hát là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Cách kể nào cũng không thay được cách kể khác.
 
-**188013.** Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh Lạc Việt, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì khí độc và dịch bệnh, gần một nửa.
+**188013.** Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người Việt thời ấy, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa.
 
 **188014.** Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nhắc rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình.
 

@@ -1,2 +1,2 @@
 tm11mca
-# mốc chữ tm11m v4 lần 2 (bỏ mục c195011 cũ trong chuong_*.json)
+# mốc chữ tm11m v4: một file giọng c195001, kịch bản ca gộp 14 đoạn

@@ -48,7 +48,7 @@ Suốt ban ngày, người trong đầm tắt hết khói bếp để bên ngoà
 
 Điều lạ là các nhà nghiên cứu không tìm thấy tên Triệu Quang Phục trong sử Trung Hoa thời ấy. Vì vậy mà phần lớn những gì ta biết về đầm Dạ Trạch đều đến từ sử nước ta, được chép lại nhiều thế kỷ sau.
 
-Tháng ba năm năm trăm bốn mươi tám, Lý Nam Đế mất ở động Khuất Lão. Sách Toàn thư của nước ta chép rằng ông chết vì bệnh do khí độc nơi rừng núi, còn sử Trung Hoa lại chép rằng ông bị người Lão ở vùng đó giết, rồi đầu bị gửi về cho nhà Lương.
+Tháng ba năm năm trăm bốn mươi tám, Lý Nam Đế mất ở động Khuất Lão. Sách Toàn thư của nước ta chép rằng ông chết vì bệnh do khí độc nơi rừng núi, còn sử Trung Hoa lại chép rằng ông bị người dân tộc thiểu số miền núi ở vùng đó giết, rồi đầu bị gửi về cho nhà Lương.
 
 Sau khi Lý Nam Đế mất, Triệu Quang Phục tự lên làm vua với hiệu là Triệu Việt Vương, nhưng vẫn ở lại trong đầm. Trong khi đó, anh trai của Lý Nam Đế đã chạy lên vùng núi giáp nước Lào bây giờ và cũng tự xưng vua ở đó. Sử không chép hai người nghĩ gì về nhau, chỉ biết rằng từ đây, những người từng theo Lý Nam Đế có tới hai vị vua.
 
@@ -108,7 +108,7 @@ Người trong đầm đã sống lâu hơn đạo quân kéo sang lấy đất 
 
 **187015** (45%) Điều lạ là các nhà nghiên cứu không tìm thấy tên Triệu Quang Phục trong sử Trung Hoa thời ấy. Vì vậy mà phần lớn những gì ta biết về đầm Dạ Trạch đều đến từ sử nước ta, được chép lại nhiều thế kỷ sau.
 
-**187016** (47%) Tháng ba năm năm trăm bốn mươi tám, Lý Nam Đế mất ở động Khuất Lão. Sách Toàn thư của nước ta chép rằng ông chết vì bệnh do khí độc nơi rừng núi, còn sử Trung Hoa lại chép rằng ông bị người Lão ở vùng đó giết, rồi đầu bị gửi về cho nhà Lương.
+**187016** (47%) Tháng ba năm năm trăm bốn mươi tám, Lý Nam Đế mất ở động Khuất Lão. Sách Toàn thư của nước ta chép rằng ông chết vì bệnh do khí độc nơi rừng núi, còn sử Trung Hoa lại chép rằng ông bị người dân tộc thiểu số miền núi ở vùng đó giết, rồi đầu bị gửi về cho nhà Lương.
 
 **187017** (50%) Sau khi Lý Nam Đế mất, Triệu Quang Phục tự lên làm vua với hiệu là Triệu Việt Vương, nhưng vẫn ở lại trong đầm. Trong khi đó, anh trai của Lý Nam Đế đã chạy lên vùng núi giáp nước Lào bây giờ và cũng tự xưng vua ở đó. Sử không chép hai người nghĩ gì về nhau, chỉ biết rằng từ đây, những người từng theo Lý Nam Đế có tới hai vị vua.
 
@@ -183,6 +183,7 @@ Giữ nguyên (tên riêng hoặc từ thông dụng): Vạn Xuân, Dạ Trạch
 ## 5. Ghi chú độ chắc
 
 - Nguồn chính đã đọc: Toàn thư Ngoại kỷ quyển 4 và Cương mục Tiền biên quyển 4 (bản dịch Hawaii).
+- "Người Lão" (chữ 獠) là tên sử Trung Hoa gọi chung các tộc người miền núi phía nam, không phải người Lào ngày nay; lời đọc đổi thành "người dân tộc thiểu số miền núi" (chủ kênh hỏi 19/11).
 - Qua nguồn thứ cấp: Lý Nam Đế bị người Lão giết (Britannica, Wikipedia); vua Lương chết khi bị Hầu Cảnh giam; Trần Bá Tiên lên ngôi năm 557; sử Trung Hoa không ghi tên Triệu Quang Phục (Taylor 1983).
 - "Bảy thước": giữ đúng chữ sử, không quy đổi ra mét.
 - Anh trai Lý Nam Đế (Lý Thiên Bảo) tự xưng Đào Lang Vương ở Dã Năng, vùng giáp Ai Lao (Toàn thư 4/19a–b; Cương mục 4/9a–10b). Không nêu tên để bớt tên người. Toàn thư không ghi năm xưng vương nên lời kể không nói "cùng lúc".

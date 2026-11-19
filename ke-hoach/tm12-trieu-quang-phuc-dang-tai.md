@@ -3,7 +3,9 @@
 Video: `tm12_thuymac_dai.mp4` (16:9, khoảng 8 phút 50 giây, giọng Charon, 41 cảnh, 37 tranh riêng `t12_*`, mỗi cảnh có chuyển động trong tranh). Ảnh bìa: `assets/bia/TM12/bia_tm12.png` (1920×1080) và `bia_tm12_youtube.jpg` (1280×720), chữ lớn "VUA ĐẦM ĐÊM", có logo đúng cỡ và vị trí.
 
 ## Tiêu đề YouTube
-**Chọn:** Trốn trong đầm lầy mà đuổi được quân nhà Lương, rồi mất nước vì một lời hòa | Triệu Quang Phục
+**Chọn:** Ba năm trốn trong đầm lầy, rồi mất nước vì một lời hòa | Triệu Quang Phục
+
+(Bỏ tiêu đề cũ "…mà đuổi được quân nhà Lương": video nói rõ quân Lương rút trước hết vì nhà Lương tự loạn, nên tiêu đề không được nói Triệu Quang Phục đuổi họ đi.)
 
 Phương án khác:
 - Vua đầm đêm: Triệu Quang Phục và đầm Dạ Trạch

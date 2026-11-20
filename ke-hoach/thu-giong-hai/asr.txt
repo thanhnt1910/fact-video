@@ -1,2 +1,2 @@
-tm13ca
-# nhận dạng giọng tm13 đọc lại
+tm16ca
+# nhận dạng giọng tm16 bản 2

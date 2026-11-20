@@ -4,7 +4,7 @@ Theo mạch truyện đã duyệt (`tm18-mai-thuc-loan-mach-truyen-20-11.md`) v�
 
 **Điểm nhấn (gắn với ông):** hai cách gọi một con người. Người Hoan Châu gọi ông là vua Đen, Toàn thư gọi là tướng giặc; gần ba trăm năm sau Ngô Thì Sĩ viết lại thành "châu dân". Hook đặt câu hỏi, cuối video trả lời bằng lời bàn có tên của Ngô Thì Sĩ.
 
-**Biến cố chính:** quân nhà Đường sang, bắt đầu ở đoạn 13, khoảng 46% (sử về thời trước ông rất ít nên phần đầu chủ yếu là cái tên, chuyện dân gian và việc ông xưng đế; không thêm chi tiết để kéo dài).
+**Biến cố chính:** quân nhà Đường sang, bắt đầu ở đoạn 13, khoảng 44%, trong mục tiêu 35–45% (sử về thời trước ông rất ít nên phần đầu chủ yếu là cái tên, chuyện dân gian và việc ông xưng đế; không thêm chi tiết để kéo dài).
 
 ## Lời đọc
 

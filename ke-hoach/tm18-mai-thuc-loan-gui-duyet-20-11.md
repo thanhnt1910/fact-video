@@ -1,6 +1,6 @@
 # tm18 Mai Thúc Loan: lời đọc bản 1 (20/11/2026, chờ duyệt, chưa đọc giọng)
 
-Theo mạch truyện đã duyệt (`tm18-mai-thuc-loan-mach-truyen-20-11.md`) và các quyết định của chủ kênh lúc 23:28: hook phương án 2, kể chuyện gánh vải và nói rõ là dân gian, giữ chi tiết chất xác thành gò. 27 đoạn, 824 chữ (bản 1.1, đã rà lại theo quy tắc 23:34), khoảng 4 phút 25 giây. Mã đoạn 200001–200027. Năm 722 bằng số ở `tts`.
+Theo mạch truyện đã duyệt (`tm18-mai-thuc-loan-mach-truyen-20-11.md`) và các quyết định của chủ kênh lúc 23:28: hook phương án 2, kể chuyện gánh vải và nói rõ là dân gian, giữ chi tiết chất xác thành gò. 27 đoạn, 866 chữ, khoảng 4 phút 40 giây (bản 1.2: thay toàn bộ từ dịch thô từ chữ Hán, chủ kênh nhắc 23:41), khoảng 4 phút 25 giây. Mã đoạn 200001–200027. Năm 722 bằng số ở `tts`.
 
 **Điểm nhấn (gắn với ông):** hai cách gọi một con người. Người Hoan Châu gọi ông là vua Đen, Toàn thư gọi là tướng giặc; gần ba trăm năm sau Ngô Thì Sĩ viết lại thành "châu dân". Hook đặt câu hỏi, cuối video trả lời bằng lời bàn có tên của Ngô Thì Sĩ.
 
@@ -8,59 +8,59 @@ Theo mạch truyện đã duyệt (`tm18-mai-thuc-loan-mach-truyen-20-11.md`) v�
 
 ## Lời đọc
 
-Người cùng quê gọi ông là vua Đen. Còn bộ chính sử của nhà Lê thì gọi ông là tướng giặc.
+Người cùng quê gọi ông là vua Đen. Còn bộ sử của triều đình nhà Lê thì gọi ông là tướng giặc.
 
-Hai cách gọi ấy nói về cùng một người, Mai Thúc Loan. Phải gần ba trăm năm sau mới có một sử gia viết lại hai chữ ấy.
+Hai cách gọi ấy nói về cùng một người, Mai Thúc Loan. Phải gần ba trăm năm sau mới có một người viết sử sửa lại hai chữ ấy.
 
-Ông đã làm gì để bị chép là giặc, và người viết lại đã chọn hai chữ nào thay vào?
+Ông đã làm gì để bị ghi là giặc, và người viết sử kia đã chọn hai chữ nào để thay vào?
 
-Đầu thế kỷ thứ tám, nước ta nằm dưới sự cai trị của nhà Đường. Hoan Châu, vùng Nghệ An và Hà Tĩnh bây giờ, ở cách xa nơi quan đô hộ đóng.
+Đầu thế kỷ thứ tám, nước ta nằm dưới sự cai trị của nhà Đường và bị chia thành nhiều châu. Hoan Châu là vùng Nghệ An và Hà Tĩnh bây giờ, ở rất xa nơi đóng của quan nhà Đường.
 
-Mai Thúc Loan là người làng Mai Phụ ở Hà Tĩnh. Sử chép rất ít về đời ông, chỉ ghi rằng ông có nước da rất đen.
+Mai Thúc Loan là người làng Mai Phụ ở Hà Tĩnh. Sử ghi rất ít về đời ông, chỉ nói rằng ông có nước da rất đen.
 
-Vì nước da ấy mà người trong châu gọi ông là Hắc Đế, tức vua Đen. Cái tên ấy không do triều đình nào phong, mà do chính người Hoan Châu đặt.
+Vì nước da ấy mà người trong vùng gọi ông là Hắc Đế, tức vua Đen. Cái tên ấy không do vua nào ban, mà do chính người Hoan Châu đặt cho ông.
 
-Chính sử không chép lý do ông nổi dậy. Dân gian kể rằng ông từng phải đi phu gánh vải tươi sang cống cho nhà Đường, đường xa và khổ đến mức không ai chịu nổi.
+Sử cũ không nói vì sao ông đứng lên. Dân gian kể rằng ông từng phải đi gánh vải tươi sang nộp cho nhà Đường, đường xa và khổ đến mức không ai chịu nổi.
 
-Đó là chuyện dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt An Nam cống vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy phản ánh cảnh cống nộp và đi phu của người dân thời ấy.
+Chuyện ấy chỉ là lời kể của dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt nước ta nộp vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy cho thấy cảnh người dân phải nộp của và đi làm không công thời ấy.
 
-Điều sử chép chắc chắn là việc xảy ra vào mùa thu năm bảy trăm hai mươi hai. Tháng bảy năm ấy, Mai Thúc Loan giữ lấy Hoan Châu và xưng đế.
+Điều sử ghi chắc chắn là việc xảy ra vào mùa thu năm bảy trăm hai mươi hai. Tháng bảy năm ấy, Mai Thúc Loan chiếm lấy Hoan Châu và tự lên làm vua.
 
-Ông còn liên kết với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói ông dấy được dân của ba mươi hai châu.
+Ông còn bắt tay với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói người của ba mươi hai châu đã đứng lên theo ông.
 
-Theo sử nhà Đường, quân của ông còn đánh chiếm được trụ sở An Nam phủ, nơi quan đô hộ nhà Đường đóng.
+Theo sử nhà Đường, quân của ông còn đánh chiếm được thành của viên quan đứng đầu bộ máy cai trị nhà Đường ở nước ta.
 
-Bộ chính sử nhà Lê là Đại Việt sử ký toàn thư chép quân của ông nói là có ba mươi vạn. Sử nhà Đường còn chép cao hơn, tới bốn mươi vạn người.
+Bộ sử nhà Lê, tên là Đại Việt sử ký toàn thư, ghi quân của ông có tới ba mươi vạn. Sử nhà Đường còn ghi cao hơn, tới bốn mươi vạn người.
 
-Tin ấy về tới kinh đô nhà Đường. Vua Đường sai Dương Tư Húc, một hoạn quan đã ngoài sáu mươi tuổi, cùng quan đô hộ Quang Sở Khách đem quân sang.
+Tin ấy về tới kinh đô nhà Đường. Vua Đường sai Dương Tư Húc, một thái giám đã ngoài sáu mươi tuổi, cùng viên quan Quang Sở Khách đem quân sang.
 
-Để có quân, Dương Tư Húc mộ mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Người được mộ là con em các thủ lĩnh ở vùng ấy.
+Để có quân, Dương Tư Húc gọi được mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Những người này là con cháu của người đứng đầu các vùng ấy.
 
-Rồi ông ta chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang dẹp Hai Bà Trưng.
+Rồi ông ta chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang đánh Hai Bà Trưng.
 
-Đạo quân ấy kéo đến lúc bên ta không ngờ. Sử nhà Đường chép Mai Thúc Loan sững sờ, không kịp tính kế gì.
+Đạo quân ấy kéo đến lúc bên ta không ngờ tới. Sử nhà Đường ghi rằng Mai Thúc Loan sững sờ, không kịp nghĩ ra cách nào để chống đỡ.
 
-Quân của ông thua lớn. Theo Tân Đường thư, quân nhà Đường chất xác những người đã chết thành một gò lớn rồi mới rút về.
+Quân của ông thua lớn. Theo một bộ sử nhà Đường, quân nhà Đường chất xác những người đã chết thành một gò lớn rồi mới rút về.
 
-Ông mất thế nào thì các sách chép không giống nhau. Một bộ sử nhà Đường chép ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn chép ông rút về núi Hùng Sơn.
+Ông mất thế nào thì các sách ghi không giống nhau. Một bộ sử nhà Đường ghi ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn ghi ông rút về núi Hùng Sơn.
 
-Toàn thư thì chỉ ghi gọn rằng nhà Đường đánh dẹp được, và gọi ông là tướng giặc.
+Bộ sử nhà Lê thì chỉ ghi gọn rằng nhà Đường đánh tan được, và gọi ông là tướng giặc.
 
-Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ Cương mục, các nhà viết sử triều Nguyễn không tin con số ấy.
+Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ sử Cương mục, những người viết sử triều Nguyễn không tin con số ấy.
 
-Họ chỉ ra rằng An Nam đô hộ phủ khi ấy chỉ có mười hai châu, nên khó có chuyện ông dấy được dân ba mươi hai châu. Họ ngờ tướng nhà Đường đã thổi phồng thế giặc để lấy công.
+Họ chỉ ra rằng nhà Đường khi ấy chỉ chia nước ta thành mười hai châu, nên khó có chuyện ba mươi hai châu theo ông. Họ ngờ tướng nhà Đường đã nói quân ta đông lên để được thưởng.
 
-Nếu họ đúng thì con số lớn là của người thắng. Điều chắc chắn chỉ là một người ở Hoan Châu đã dám xưng đế, và nhà Đường phải đem mười vạn quân sang.
+Nếu họ đúng thì con số lớn là của người thắng. Điều chắc chắn chỉ là một người ở Hoan Châu đã dám tự lên làm vua, và nhà Đường phải đem mười vạn quân sang.
 
-Còn hai chữ tướng giặc trong Toàn thư thì nằm yên gần ba trăm năm. Đến thế kỷ mười tám, sử gia Ngô Thì Sĩ viết sách Việt sử tiêu án và bàn lại về ông.
+Còn hai chữ tướng giặc trong bộ sử nhà Lê thì nằm yên gần ba trăm năm. Đến thế kỷ mười tám, nhà sử học Ngô Thì Sĩ viết sách Việt sử tiêu án và bàn lại về ông.
 
-Ngô Thì Sĩ cho rằng Mai Hắc Đế là người xuất chúng trong đám hào trưởng địa phương. Việc thành thì làm nên Lý Bí hay Triệu Quang Phục, không thành thì là Phùng Hưng hay Mai Thúc Loan.
+Ngô Thì Sĩ khen Mai Thúc Loan là người giỏi hơn hẳn những người có thế lực trong vùng. Ông đặt Mai Thúc Loan ngang với Lý Bí và Triệu Quang Phục, chỉ khác là việc của Mai Thúc Loan không thành.
 
-Trong sách của mình, ông không chép tướng giặc mà viết hai chữ lớn châu dân, nghĩa là người trong châu, để khen việc Mai Thúc Loan đã làm.
+Trong sách của mình, ông không ghi tướng giặc mà viết hai chữ lớn châu dân, nghĩa là người trong châu, để khen việc Mai Thúc Loan đã làm.
 
-Ở Sa Nam thuộc Nam Đàn, nơi sách ấy chép là chỗ nhà ông ở, người ta vẫn lập đền thờ Mai Hắc Đế.
+Ở Sa Nam thuộc Nam Đàn, nơi sách ấy ghi là chỗ nhà ông ở, người ta vẫn lập đền thờ vua Đen.
 
-Bị chép là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe.
+Bị ghi là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe.
 
 ## Ghi chú độ chắc
 - Năm 722, tháng bảy, giữ Hoan Châu, xưng Hắc Đế; Toàn thư gọi "tặc soái": Toàn thư, Cương mục.
@@ -83,6 +83,9 @@ Bị chép là tướng giặc suốt gần ba trăm năm, người mà quê hư
 
 ## Bộ kiểm
 `kiem_kich_ban`, `kiem_mo_dau`, `kiem_khung`, `kiem_cau_cut`, `kiem_giong_van`: 0 ❌. `kiem_mach_ke`: 0 ❌, 4 ⚠️ (đoạn 1 có 21 chữ nhưng câu đầu chỉ 7 chữ; ít từ nối; đoạn 10 có tên nước kèm lời giải thích; đoạn 24 có 6 tên riêng vì trích lời bàn của Ngô Thì Sĩ).
+
+## Sửa ở bản 1.2 (bỏ từ dịch thô)
+- dấy dân → người của ba mươi hai châu đứng lên theo ông; mộ → gọi được; giữ lấy châu → chiếm lấy; xưng đế → tự lên làm vua; quan đô hộ, trụ sở An Nam phủ → quan nhà Đường, thành của viên quan đứng đầu bộ máy cai trị; hoạn quan → thái giám; tính kế → nghĩ ra cách chống đỡ; thổi phồng thế giặc để lấy công → nói quân ta đông lên để được thưởng; hào trưởng, xuất chúng → giỏi hơn hẳn những người có thế lực trong vùng; câu "việc thành thì… không thành thì…" kể lại thành "đặt ngang với Lý Bí và Triệu Quang Phục, chỉ khác là việc không thành"; chính sử, chép → bộ sử của triều đình, ghi; cống nộp, đi phu → nộp của, đi làm không công; dẹp → đánh; Toàn thư ở đoạn 19 và 23 gọi là "bộ sử nhà Lê".
 
 ## Sửa ở bản 1.1 (rà quy tắc)
 - Câu đầu 7 chữ, không tên lạ ("Người cùng quê gọi ông là vua Đen").

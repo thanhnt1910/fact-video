@@ -4,216 +4,216 @@
   "chuong": 1,
   "nhip": "hook1",
   "tone": "story",
-  "text": "Người cùng quê gọi ông là vua Đen. Còn bộ chính sử của nhà Lê thì gọi ông là tướng giặc.",
-  "hien": "Người cùng quê gọi ông là vua Đen. Còn bộ chính sử của nhà Lê thì gọi ông là tướng giặc."
+  "text": "Người cùng quê gọi ông là vua Đen. Còn bộ sử của triều đình nhà Lê thì gọi ông là tướng giặc.",
+  "hien": "Người cùng quê gọi ông là vua Đen. Còn bộ sử của triều đình nhà Lê thì gọi ông là tướng giặc."
  },
  {
   "n": 200002,
   "chuong": 1,
   "nhip": "hook2",
   "tone": "story",
-  "text": "Hai cách gọi ấy nói về cùng một người, Mai Thúc Loan. Phải gần ba trăm năm sau mới có một sử gia viết lại hai chữ ấy.",
-  "hien": "Hai cách gọi ấy nói về cùng một người, Mai Thúc Loan. Phải gần ba trăm năm sau mới có một sử gia viết lại hai chữ ấy."
+  "text": "Hai cách gọi ấy nói về cùng một người, Mai Thúc Loan. Phải gần ba trăm năm sau mới có một người viết sử sửa lại hai chữ ấy.",
+  "hien": "Hai cách gọi ấy nói về cùng một người, Mai Thúc Loan. Phải gần ba trăm năm sau mới có một người viết sử sửa lại hai chữ ấy."
  },
  {
   "n": 200003,
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
-  "text": "Ông đã làm gì để bị chép là giặc, và người viết lại đã chọn hai chữ nào thay vào?",
-  "hien": "Ông đã làm gì để bị chép là giặc, và người viết lại đã chọn hai chữ nào thay vào?"
+  "text": "Ông đã làm gì để bị ghi là giặc, và người viết sử kia đã chọn hai chữ nào để thay vào?",
+  "hien": "Ông đã làm gì để bị ghi là giặc, và người viết sử kia đã chọn hai chữ nào để thay vào?"
  },
  {
   "n": 200004,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Đầu thế kỷ thứ tám, nước ta nằm dưới sự cai trị của nhà Đường. Hoan Châu, vùng Nghệ An và Hà Tĩnh bây giờ, ở cách xa nơi quan đô hộ đóng.",
-  "hien": "Đầu thế kỷ thứ tám, nước ta nằm dưới sự cai trị của nhà Đường. Hoan Châu, vùng Nghệ An và Hà Tĩnh bây giờ, ở cách xa nơi quan đô hộ đóng."
+  "text": "Đầu thế kỷ thứ tám, nước ta nằm dưới sự cai trị của nhà Đường và bị chia thành nhiều châu. Hoan Châu là vùng Nghệ An và Hà Tĩnh bây giờ, ở rất xa nơi đóng của quan nhà Đường.",
+  "hien": "Đầu thế kỷ thứ tám, nước ta nằm dưới sự cai trị của nhà Đường và bị chia thành nhiều châu. Hoan Châu là vùng Nghệ An và Hà Tĩnh bây giờ, ở rất xa nơi đóng của quan nhà Đường."
  },
  {
   "n": 200005,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Mai Thúc Loan là người làng Mai Phụ ở Hà Tĩnh. Sử chép rất ít về đời ông, chỉ ghi rằng ông có nước da rất đen.",
-  "hien": "Mai Thúc Loan là người làng Mai Phụ ở Hà Tĩnh. Sử chép rất ít về đời ông, chỉ ghi rằng ông có nước da rất đen."
+  "text": "Mai Thúc Loan là người làng Mai Phụ ở Hà Tĩnh. Sử ghi rất ít về đời ông, chỉ nói rằng ông có nước da rất đen.",
+  "hien": "Mai Thúc Loan là người làng Mai Phụ ở Hà Tĩnh. Sử ghi rất ít về đời ông, chỉ nói rằng ông có nước da rất đen."
  },
  {
   "n": 200006,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Vì nước da ấy mà người trong châu gọi ông là Hắc Đế, tức vua Đen. Cái tên ấy không do triều đình nào phong, mà do chính người Hoan Châu đặt.",
-  "hien": "Vì nước da ấy mà người trong châu gọi ông là Hắc Đế, tức vua Đen. Cái tên ấy không do triều đình nào phong, mà do chính người Hoan Châu đặt."
+  "text": "Vì nước da ấy mà người trong vùng gọi ông là Hắc Đế, tức vua Đen. Cái tên ấy không do vua nào ban, mà do chính người Hoan Châu đặt cho ông.",
+  "hien": "Vì nước da ấy mà người trong vùng gọi ông là Hắc Đế, tức vua Đen. Cái tên ấy không do vua nào ban, mà do chính người Hoan Châu đặt cho ông."
  },
  {
   "n": 200007,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Chính sử không chép lý do ông nổi dậy. Dân gian kể rằng ông từng phải đi phu gánh vải tươi sang cống cho nhà Đường, đường xa và khổ đến mức không ai chịu nổi.",
-  "hien": "Chính sử không chép lý do ông nổi dậy. Dân gian kể rằng ông từng phải đi phu gánh vải tươi sang cống cho nhà Đường, đường xa và khổ đến mức không ai chịu nổi."
+  "text": "Sử cũ không nói vì sao ông đứng lên. Dân gian kể rằng ông từng phải đi gánh vải tươi sang nộp cho nhà Đường, đường xa và khổ đến mức không ai chịu nổi.",
+  "hien": "Sử cũ không nói vì sao ông đứng lên. Dân gian kể rằng ông từng phải đi gánh vải tươi sang nộp cho nhà Đường, đường xa và khổ đến mức không ai chịu nổi."
  },
  {
   "n": 200008,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Đó là chuyện dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt An Nam cống vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy phản ánh cảnh cống nộp và đi phu của người dân thời ấy.",
-  "hien": "Đó là chuyện dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt An Nam cống vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy phản ánh cảnh cống nộp và đi phu của người dân thời ấy."
+  "text": "Chuyện ấy chỉ là lời kể của dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt nước ta nộp vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy cho thấy cảnh người dân phải nộp của và đi làm không công thời ấy.",
+  "hien": "Chuyện ấy chỉ là lời kể của dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt nước ta nộp vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy cho thấy cảnh người dân phải nộp của và đi làm không công thời ấy."
  },
  {
   "n": 200009,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Điều sử chép chắc chắn là việc xảy ra vào mùa thu năm bảy trăm hai mươi hai. Tháng bảy năm ấy, Mai Thúc Loan giữ lấy Hoan Châu và xưng đế.",
-  "hien": "Điều sử chép chắc chắn là việc xảy ra vào mùa thu năm bảy trăm hai mươi hai. Tháng bảy năm ấy, Mai Thúc Loan giữ lấy Hoan Châu và xưng đế.",
-  "tts": "Điều sử chép chắc chắn là việc xảy ra vào mùa thu năm 722. Tháng bảy năm ấy, Mai Thúc Loan giữ lấy Hoan Châu và xưng đế."
+  "text": "Điều sử ghi chắc chắn là việc xảy ra vào mùa thu năm bảy trăm hai mươi hai. Tháng bảy năm ấy, Mai Thúc Loan chiếm lấy Hoan Châu và tự lên làm vua.",
+  "hien": "Điều sử ghi chắc chắn là việc xảy ra vào mùa thu năm bảy trăm hai mươi hai. Tháng bảy năm ấy, Mai Thúc Loan chiếm lấy Hoan Châu và tự lên làm vua.",
+  "tts": "Điều sử ghi chắc chắn là việc xảy ra vào mùa thu năm 722. Tháng bảy năm ấy, Mai Thúc Loan chiếm lấy Hoan Châu và tự lên làm vua."
  },
  {
   "n": 200010,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Ông còn liên kết với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói ông dấy được dân của ba mươi hai châu.",
-  "hien": "Ông còn liên kết với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói ông dấy được dân của ba mươi hai châu."
+  "text": "Ông còn bắt tay với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói người của ba mươi hai châu đã đứng lên theo ông.",
+  "hien": "Ông còn bắt tay với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói người của ba mươi hai châu đã đứng lên theo ông."
  },
  {
   "n": 200011,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Theo sử nhà Đường, quân của ông còn đánh chiếm được trụ sở An Nam phủ, nơi quan đô hộ nhà Đường đóng.",
-  "hien": "Theo sử nhà Đường, quân của ông còn đánh chiếm được trụ sở An Nam phủ, nơi quan đô hộ nhà Đường đóng."
+  "text": "Theo sử nhà Đường, quân của ông còn đánh chiếm được thành của viên quan đứng đầu bộ máy cai trị nhà Đường ở nước ta.",
+  "hien": "Theo sử nhà Đường, quân của ông còn đánh chiếm được thành của viên quan đứng đầu bộ máy cai trị nhà Đường ở nước ta."
  },
  {
   "n": 200012,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Bộ chính sử nhà Lê là Đại Việt sử ký toàn thư chép quân của ông nói là có ba mươi vạn. Sử nhà Đường còn chép cao hơn, tới bốn mươi vạn người.",
-  "hien": "Bộ chính sử nhà Lê là Đại Việt sử ký toàn thư chép quân của ông nói là có ba mươi vạn. Sử nhà Đường còn chép cao hơn, tới bốn mươi vạn người."
+  "text": "Bộ sử nhà Lê, tên là Đại Việt sử ký toàn thư, ghi quân của ông có tới ba mươi vạn. Sử nhà Đường còn ghi cao hơn, tới bốn mươi vạn người.",
+  "hien": "Bộ sử nhà Lê, tên là Đại Việt sử ký toàn thư, ghi quân của ông có tới ba mươi vạn. Sử nhà Đường còn ghi cao hơn, tới bốn mươi vạn người."
  },
  {
   "n": 200013,
   "chuong": 4,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Tin ấy về tới kinh đô nhà Đường. Vua Đường sai Dương Tư Húc, một hoạn quan đã ngoài sáu mươi tuổi, cùng quan đô hộ Quang Sở Khách đem quân sang.",
-  "hien": "Tin ấy về tới kinh đô nhà Đường. Vua Đường sai Dương Tư Húc, một hoạn quan đã ngoài sáu mươi tuổi, cùng quan đô hộ Quang Sở Khách đem quân sang."
+  "text": "Tin ấy về tới kinh đô nhà Đường. Vua Đường sai Dương Tư Húc, một thái giám đã ngoài sáu mươi tuổi, cùng viên quan Quang Sở Khách đem quân sang.",
+  "hien": "Tin ấy về tới kinh đô nhà Đường. Vua Đường sai Dương Tư Húc, một thái giám đã ngoài sáu mươi tuổi, cùng viên quan Quang Sở Khách đem quân sang."
  },
  {
   "n": 200014,
   "chuong": 4,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Để có quân, Dương Tư Húc mộ mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Người được mộ là con em các thủ lĩnh ở vùng ấy.",
-  "hien": "Để có quân, Dương Tư Húc mộ mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Người được mộ là con em các thủ lĩnh ở vùng ấy."
+  "text": "Để có quân, Dương Tư Húc gọi được mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Những người này là con cháu của người đứng đầu các vùng ấy.",
+  "hien": "Để có quân, Dương Tư Húc gọi được mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Những người này là con cháu của người đứng đầu các vùng ấy."
  },
  {
   "n": 200015,
   "chuong": 5,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Rồi ông ta chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang dẹp Hai Bà Trưng.",
-  "hien": "Rồi ông ta chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang dẹp Hai Bà Trưng."
+  "text": "Rồi ông ta chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang đánh Hai Bà Trưng.",
+  "hien": "Rồi ông ta chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang đánh Hai Bà Trưng."
  },
  {
   "n": 200016,
   "chuong": 5,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Đạo quân ấy kéo đến lúc bên ta không ngờ. Sử nhà Đường chép Mai Thúc Loan sững sờ, không kịp tính kế gì.",
-  "hien": "Đạo quân ấy kéo đến lúc bên ta không ngờ. Sử nhà Đường chép Mai Thúc Loan sững sờ, không kịp tính kế gì."
+  "text": "Đạo quân ấy kéo đến lúc bên ta không ngờ tới. Sử nhà Đường ghi rằng Mai Thúc Loan sững sờ, không kịp nghĩ ra cách nào để chống đỡ.",
+  "hien": "Đạo quân ấy kéo đến lúc bên ta không ngờ tới. Sử nhà Đường ghi rằng Mai Thúc Loan sững sờ, không kịp nghĩ ra cách nào để chống đỡ."
  },
  {
   "n": 200017,
   "chuong": 5,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Quân của ông thua lớn. Theo Tân Đường thư, quân nhà Đường chất xác những người đã chết thành một gò lớn rồi mới rút về.",
-  "hien": "Quân của ông thua lớn. Theo Tân Đường thư, quân nhà Đường chất xác những người đã chết thành một gò lớn rồi mới rút về."
+  "text": "Quân của ông thua lớn. Theo một bộ sử nhà Đường, quân nhà Đường chất xác những người đã chết thành một gò lớn rồi mới rút về.",
+  "hien": "Quân của ông thua lớn. Theo một bộ sử nhà Đường, quân nhà Đường chất xác những người đã chết thành một gò lớn rồi mới rút về."
  },
  {
   "n": 200018,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Ông mất thế nào thì các sách chép không giống nhau. Một bộ sử nhà Đường chép ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn chép ông rút về núi Hùng Sơn.",
-  "hien": "Ông mất thế nào thì các sách chép không giống nhau. Một bộ sử nhà Đường chép ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn chép ông rút về núi Hùng Sơn."
+  "text": "Ông mất thế nào thì các sách ghi không giống nhau. Một bộ sử nhà Đường ghi ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn ghi ông rút về núi Hùng Sơn.",
+  "hien": "Ông mất thế nào thì các sách ghi không giống nhau. Một bộ sử nhà Đường ghi ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn ghi ông rút về núi Hùng Sơn."
  },
  {
   "n": 200019,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Toàn thư thì chỉ ghi gọn rằng nhà Đường đánh dẹp được, và gọi ông là tướng giặc.",
-  "hien": "Toàn thư thì chỉ ghi gọn rằng nhà Đường đánh dẹp được, và gọi ông là tướng giặc."
+  "text": "Bộ sử nhà Lê thì chỉ ghi gọn rằng nhà Đường đánh tan được, và gọi ông là tướng giặc.",
+  "hien": "Bộ sử nhà Lê thì chỉ ghi gọn rằng nhà Đường đánh tan được, và gọi ông là tướng giặc."
  },
  {
   "n": 200020,
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ Cương mục, các nhà viết sử triều Nguyễn không tin con số ấy.",
-  "hien": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ Cương mục, các nhà viết sử triều Nguyễn không tin con số ấy."
+  "text": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ sử Cương mục, những người viết sử triều Nguyễn không tin con số ấy.",
+  "hien": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ sử Cương mục, những người viết sử triều Nguyễn không tin con số ấy."
  },
  {
   "n": 200021,
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Họ chỉ ra rằng An Nam đô hộ phủ khi ấy chỉ có mười hai châu, nên khó có chuyện ông dấy được dân ba mươi hai châu. Họ ngờ tướng nhà Đường đã thổi phồng thế giặc để lấy công.",
-  "hien": "Họ chỉ ra rằng An Nam đô hộ phủ khi ấy chỉ có mười hai châu, nên khó có chuyện ông dấy được dân ba mươi hai châu. Họ ngờ tướng nhà Đường đã thổi phồng thế giặc để lấy công."
+  "text": "Họ chỉ ra rằng nhà Đường khi ấy chỉ chia nước ta thành mười hai châu, nên khó có chuyện ba mươi hai châu theo ông. Họ ngờ tướng nhà Đường đã nói quân ta đông lên để được thưởng.",
+  "hien": "Họ chỉ ra rằng nhà Đường khi ấy chỉ chia nước ta thành mười hai châu, nên khó có chuyện ba mươi hai châu theo ông. Họ ngờ tướng nhà Đường đã nói quân ta đông lên để được thưởng."
  },
  {
   "n": 200022,
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Nếu họ đúng thì con số lớn là của người thắng. Điều chắc chắn chỉ là một người ở Hoan Châu đã dám xưng đế, và nhà Đường phải đem mười vạn quân sang.",
-  "hien": "Nếu họ đúng thì con số lớn là của người thắng. Điều chắc chắn chỉ là một người ở Hoan Châu đã dám xưng đế, và nhà Đường phải đem mười vạn quân sang."
+  "text": "Nếu họ đúng thì con số lớn là của người thắng. Điều chắc chắn chỉ là một người ở Hoan Châu đã dám tự lên làm vua, và nhà Đường phải đem mười vạn quân sang.",
+  "hien": "Nếu họ đúng thì con số lớn là của người thắng. Điều chắc chắn chỉ là một người ở Hoan Châu đã dám tự lên làm vua, và nhà Đường phải đem mười vạn quân sang."
  },
  {
   "n": 200023,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Còn hai chữ tướng giặc trong Toàn thư thì nằm yên gần ba trăm năm. Đến thế kỷ mười tám, sử gia Ngô Thì Sĩ viết sách Việt sử tiêu án và bàn lại về ông.",
-  "hien": "Còn hai chữ tướng giặc trong Toàn thư thì nằm yên gần ba trăm năm. Đến thế kỷ mười tám, sử gia Ngô Thì Sĩ viết sách Việt sử tiêu án và bàn lại về ông."
+  "text": "Còn hai chữ tướng giặc trong bộ sử nhà Lê thì nằm yên gần ba trăm năm. Đến thế kỷ mười tám, nhà sử học Ngô Thì Sĩ viết sách Việt sử tiêu án và bàn lại về ông.",
+  "hien": "Còn hai chữ tướng giặc trong bộ sử nhà Lê thì nằm yên gần ba trăm năm. Đến thế kỷ mười tám, nhà sử học Ngô Thì Sĩ viết sách Việt sử tiêu án và bàn lại về ông."
  },
  {
   "n": 200024,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Ngô Thì Sĩ cho rằng Mai Hắc Đế là người xuất chúng trong đám hào trưởng địa phương. Việc thành thì làm nên Lý Bí hay Triệu Quang Phục, không thành thì là Phùng Hưng hay Mai Thúc Loan.",
-  "hien": "Ngô Thì Sĩ cho rằng Mai Hắc Đế là người xuất chúng trong đám hào trưởng địa phương. Việc thành thì làm nên Lý Bí hay Triệu Quang Phục, không thành thì là Phùng Hưng hay Mai Thúc Loan."
+  "text": "Ngô Thì Sĩ khen Mai Thúc Loan là người giỏi hơn hẳn những người có thế lực trong vùng. Ông đặt Mai Thúc Loan ngang với Lý Bí và Triệu Quang Phục, chỉ khác là việc của Mai Thúc Loan không thành.",
+  "hien": "Ngô Thì Sĩ khen Mai Thúc Loan là người giỏi hơn hẳn những người có thế lực trong vùng. Ông đặt Mai Thúc Loan ngang với Lý Bí và Triệu Quang Phục, chỉ khác là việc của Mai Thúc Loan không thành."
  },
  {
   "n": 200025,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Trong sách của mình, ông không chép tướng giặc mà viết hai chữ lớn châu dân, nghĩa là người trong châu, để khen việc Mai Thúc Loan đã làm.",
-  "hien": "Trong sách của mình, ông không chép tướng giặc mà viết hai chữ lớn châu dân, nghĩa là người trong châu, để khen việc Mai Thúc Loan đã làm."
+  "text": "Trong sách của mình, ông không ghi tướng giặc mà viết hai chữ lớn châu dân, nghĩa là người trong châu, để khen việc Mai Thúc Loan đã làm.",
+  "hien": "Trong sách của mình, ông không ghi tướng giặc mà viết hai chữ lớn châu dân, nghĩa là người trong châu, để khen việc Mai Thúc Loan đã làm."
  },
  {
   "n": 200026,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Ở Sa Nam thuộc Nam Đàn, nơi sách ấy chép là chỗ nhà ông ở, người ta vẫn lập đền thờ Mai Hắc Đế.",
-  "hien": "Ở Sa Nam thuộc Nam Đàn, nơi sách ấy chép là chỗ nhà ông ở, người ta vẫn lập đền thờ Mai Hắc Đế."
+  "text": "Ở Sa Nam thuộc Nam Đàn, nơi sách ấy ghi là chỗ nhà ông ở, người ta vẫn lập đền thờ vua Đen.",
+  "hien": "Ở Sa Nam thuộc Nam Đàn, nơi sách ấy ghi là chỗ nhà ông ở, người ta vẫn lập đền thờ vua Đen."
  },
  {
   "n": 200027,
   "chuong": 9,
   "nhip": "ket",
   "tone": "story",
-  "text": "Bị chép là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe.",
-  "hien": "Bị chép là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe."
+  "text": "Bị ghi là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe.",
+  "hien": "Bị ghi là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe."
  }
 ]

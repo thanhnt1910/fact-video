@@ -1,2 +1,2 @@
 tm13ca
-# nhận dạng giọng tm13 bản 5
+# nhận dạng giọng tm13 đọc lại

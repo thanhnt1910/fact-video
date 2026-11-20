@@ -1,0 +1,108 @@
+{
+ "beats": [
+  {
+   "say": "Một con sóng cao chưa tới một mét, tàu ngoài khơi chẳng nhận ra: sao vào bờ nó lại tàn phá khủng khiếp?",
+   "text": "Sóng cao *chưa tới 1 mét*, tàu ngoài khơi *chẳng nhận ra*: sao vào bờ nó lại *tàn phá khủng khiếp*?"
+  },
+  {
+   "say": "Bí mật nằm ở tốc độ, vì ngoài biển sâu, sóng thần chạy nhanh ngang máy bay.",
+   "text": "Bí mật nằm ở *tốc độ*: ngoài biển sâu, sóng thần chạy *nhanh ngang máy bay*."
+  },
+  {
+   "say": "Nhưng làm sao biết tốc độ của một con sóng khi ta chưa kịp nhìn thấy nó?",
+   "text": "Nhưng làm sao biết *tốc độ* của con sóng khi *chưa kịp nhìn thấy* nó?"
+  },
+  {
+   "say": "Hóa ra tốc độ ấy chỉ phụ thuộc vào một thứ: biển ở đó sâu bao nhiêu.",
+   "text": "Hóa ra tốc độ chỉ phụ thuộc *một thứ*: biển ở đó *sâu bao nhiêu*."
+  },
+  {
+   "say": "Sóng thần là con sóng cực dài: từ đỉnh này tới đỉnh kế tiếp có thể hơn một trăm ki-lô-mét.",
+   "text": "Sóng thần *cực dài*: từ đỉnh này tới đỉnh kế tiếp có thể *hơn 100 ki-lô-mét*."
+  },
+  {
+   "say": "Biển chỉ sâu bốn ki-lô-mét, bằng một phần hai mươi lăm chiều dài sóng, nên với sóng này biển là nông.",
+   "text": "Biển chỉ sâu *4 ki-lô-mét*, bằng *1/25* chiều dài sóng, nên với sóng này biển là *nông*."
+  },
+  {
+   "say": "Với loại sóng ấy, cả cột nước từ mặt xuống tới đáy cùng đung đưa, nên đáy biển quyết định tốc độ.",
+   "text": "Cả *cột nước* từ mặt xuống đáy cùng đung đưa, nên *đáy biển* quyết định tốc độ."
+  },
+  {
+   "say": "Công thức là: tốc độ bằng căn bậc hai của g nhân độ sâu.",
+   "text": "Công thức: *tốc độ = √(g × độ sâu)*."
+  },
+  {
+   "say": "Số g là con số làm hòn đá rơi nhanh dần, chừng chín phẩy tám.",
+   "text": "Số *g* làm hòn đá rơi nhanh dần, chừng *9,8*."
+  },
+  {
+   "say": "Căn bậc hai của một số là số nhân với chính nó ra số ấy.",
+   "text": "*Căn bậc hai* của một số là số *nhân với chính nó* ra số ấy."
+  },
+  {
+   "say": "Ví dụ căn bậc hai của chín là ba, vì ba nhân ba bằng chín.",
+   "text": "Ví dụ căn bậc hai của *9* là *3*, vì *3 × 3 = 9*."
+  },
+  {
+   "say": "Thử ở giữa Thái Bình Dương, nơi biển sâu bốn nghìn mét.",
+   "text": "Thử ở giữa *Thái Bình Dương*, nơi biển sâu *4.000 mét*."
+  },
+  {
+   "say": "Chín phẩy tám nhân bốn nghìn ra ba mươi chín nghìn hai trăm.",
+   "text": "*9,8 × 4.000 = 39.200*."
+  },
+  {
+   "say": "Căn bậc hai của số ấy là khoảng một trăm chín mươi tám.",
+   "text": "*Căn bậc hai* của số ấy là khoảng *198*."
+  },
+  {
+   "say": "Vậy sóng chạy khoảng một trăm chín mươi tám mét trong mỗi giây.",
+   "text": "Vậy sóng chạy khoảng *198 mét* trong mỗi giây."
+  },
+  {
+   "say": "Đổi ra ki-lô-mét mỗi giờ, ta nhân với ba phẩy sáu, ra khoảng bảy trăm mười ba.",
+   "text": "Đổi ra ki-lô-mét mỗi giờ, ta nhân với *3,6*, ra khoảng *713*."
+  },
+  {
+   "say": "Hơn bảy trăm ki-lô-mét mỗi giờ, gần bằng một chiếc máy bay phản lực chở khách.",
+   "text": "*Hơn 700 ki-lô-mét mỗi giờ*, gần bằng *máy bay phản lực* chở khách."
+  },
+  {
+   "say": "Nhưng ngoài khơi sóng thấp dưới một mét, nên trên tàu người ta hầu như không thấy gì.",
+   "text": "Nhưng ngoài khơi sóng *thấp dưới 1 mét*, nên trên tàu *hầu như không thấy gì*."
+  },
+  {
+   "say": "Rồi sóng tiến vào gần bờ, nơi biển nông dần, chỉ còn sâu mười mét.",
+   "text": "Rồi sóng vào gần bờ, biển *nông dần*, chỉ còn sâu *10 mét*."
+  },
+  {
+   "say": "Chín phẩy tám nhân mười ra chín mươi tám.",
+   "text": "*9,8 × 10 = 98*."
+  },
+  {
+   "say": "Căn bậc hai của chín mươi tám là khoảng chín phẩy chín mét mỗi giây.",
+   "text": "*Căn bậc hai* của *98* là khoảng *9,9 mét* mỗi giây."
+  },
+  {
+   "say": "Nhân với ba phẩy sáu, ra khoảng ba mươi sáu ki-lô-mét mỗi giờ, chậm hơn gần hai mươi lần.",
+   "text": "Nhân với *3,6*, ra khoảng *36 ki-lô-mét mỗi giờ*, chậm hơn *gần 20 lần*."
+  },
+  {
+   "say": "Nhưng phần sóng phía sau vẫn chạy nhanh, nên nó dồn vào phần phía trước đã chậm lại.",
+   "text": "Nhưng *phần sóng phía sau* vẫn chạy nhanh, nên *dồn vào* phần phía trước đã chậm."
+  },
+  {
+   "say": "Giống đoàn xe trên đường: xe đầu bị chậm, xe sau vẫn lao nhanh, nên xe dồn lại thành một đống.",
+   "text": "Như *đoàn xe*: xe đầu chậm, xe sau vẫn nhanh, nên xe *dồn lại thành đống*."
+  },
+  {
+   "say": "Sóng cũng vậy: nước dồn lại, nên con sóng cao lên và dòng nước chảy mạnh hơn.",
+   "text": "Sóng cũng vậy: nước *dồn lại*, sóng *cao lên*, dòng nước *mạnh hơn*."
+  },
+  {
+   "say": "Vậy chỉ một công thức với độ sâu đã giải thích vì sao sóng thấp ngoài khơi lại dữ dội ở bờ.",
+   "text": "Vậy chỉ *một công thức* với *độ sâu* đã giải thích vì sao sóng thấp ngoài khơi lại *dữ dội ở bờ*."
+  }
+ ]
+}

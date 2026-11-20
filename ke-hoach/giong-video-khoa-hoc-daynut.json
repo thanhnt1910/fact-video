@@ -1,0 +1,155 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Giữa biển mênh mông không có cột mốc: làm sao biết tàu chạy nhanh bao nhiêu?",
+   "say": "Giữa biển mênh mông không có cột mốc nào: làm sao biết tàu đang chạy nhanh bao nhiêu?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng thủy thủ xưa làm được chỉ với một mảnh gỗ, một sợi dây và một đồng hồ cát.",
+   "say": "Nhưng thủy thủ ngày xưa làm được, chỉ với một mảnh gỗ, một sợi dây và một chiếc đồng hồ cát."
+  },
+  {
+   "n": 3,
+   "text": "Nhờ sợi dây ấy, đến nay tốc độ tàu vẫn tính bằng nút.",
+   "say": "Và nhờ sợi dây ấy, đến nay tốc độ tàu vẫn tính bằng nút."
+  },
+  {
+   "n": 4,
+   "text": "Muốn biết tốc độ, cần quãng đường và thời gian.",
+   "say": "Muốn biết tốc độ, ta cần quãng đường và thời gian."
+  },
+  {
+   "n": 5,
+   "text": "Nhưng trên biển không có cột cây số để đếm quãng đường.",
+   "say": "Nhưng trên biển không có cột cây số để đếm quãng đường."
+  },
+  {
+   "n": 6,
+   "text": "Họ lấy nước làm mốc: thả xuống biển một mảnh gỗ, nó gần như đứng yên.",
+   "say": "Họ lấy nước làm mốc: thả xuống biển một mảnh gỗ, nó gần như đứng yên."
+  },
+  {
+   "n": 7,
+   "text": "Tàu chạy đi, dây buộc vào mảnh gỗ tuột dần khỏi cuộn.",
+   "say": "Tàu chạy đi, kéo dây buộc vào mảnh gỗ tuột dần khỏi cuộn."
+  },
+  {
+   "n": 8,
+   "text": "Trên dây có những nút thắt cách đều nhau.",
+   "say": "Trên sợi dây có những nút thắt cách đều nhau."
+  },
+  {
+   "n": 9,
+   "text": "Mỗi nút chạy qua tay nghĩa là tàu đã đi thêm một đoạn.",
+   "say": "Mỗi nút chạy qua tay thủy thủ nghĩa là tàu đã đi thêm một đoạn nữa."
+  },
+  {
+   "n": 10,
+   "text": "Lật đồng hồ cát, rồi đếm bao nhiêu nút tuột ra cho tới khi cát chảy hết.",
+   "say": "Người ta lật đồng hồ cát, rồi đếm có bao nhiêu nút tuột ra cho tới khi cát chảy hết."
+  },
+  {
+   "n": 11,
+   "text": "Cách đo này đã có từ thế kỷ 16.",
+   "say": "Cách đo này đã có từ thế kỷ mười sáu."
+  },
+  {
+   "n": 12,
+   "text": "Khoảng cách giữa hai nút phải chọn sao cho số nút đúng bằng tốc độ.",
+   "say": "Nhưng khoảng cách giữa hai nút phải chọn sao cho số nút đếm được đúng bằng tốc độ."
+  },
+  {
+   "n": 13,
+   "text": "Mốc để so là một hải lý, quãng tàu đi trong một giờ khi chạy một nút.",
+   "say": "Mốc để so là một hải lý, quãng tàu đi được trong một giờ khi chạy một nút."
+  },
+  {
+   "n": 14,
+   "text": "1 hải lý dài 1.852 mét.",
+   "say": "Một hải lý dài một nghìn tám trăm năm mươi hai mét."
+  },
+  {
+   "n": 15,
+   "text": "Con số ấy có lý do: 1 hải lý ứng với một phút vĩ độ.",
+   "say": "Con số ấy có lý do: một hải lý ứng với một phút của vĩ độ."
+  },
+  {
+   "n": 16,
+   "text": "Vòng quanh Trái Đất có 21.600 phút như vậy.",
+   "say": "Vòng quanh Trái Đất có hai mươi mốt nghìn sáu trăm phút như vậy."
+  },
+  {
+   "n": 17,
+   "text": "40.000 ÷ 21.600 ra khoảng 1,85 ki-lô-mét.",
+   "say": "Bốn mươi nghìn ki-lô-mét chia cho hai mươi mốt nghìn sáu trăm ra khoảng một phẩy tám lăm ki-lô-mét."
+  },
+  {
+   "n": 18,
+   "text": "Đồng hồ cát chảy hết trong 28 giây, còn 1 giờ có 3.600 giây.",
+   "say": "Giờ đến đồng hồ cát: nó chảy hết trong hai mươi tám giây, còn một giờ có ba nghìn sáu trăm giây."
+  },
+  {
+   "n": 19,
+   "text": "Tàu chạy một nút thì mỗi giờ đi 1.852 mét.",
+   "say": "Tàu chạy một nút thì mỗi giờ đi một nghìn tám trăm năm mươi hai mét."
+  },
+  {
+   "n": 20,
+   "text": "Chia cho 3.600 giây, mỗi giây tàu đi được khoảng 0,5 mét.",
+   "say": "Chia cho ba nghìn sáu trăm giây, mỗi giây tàu đi được khoảng nửa mét."
+  },
+  {
+   "n": 21,
+   "text": "Nhân với 28 giây, ra khoảng 14,4 mét.",
+   "say": "Nhân với hai mươi tám giây, ra khoảng mười bốn phẩy bốn mét."
+  },
+  {
+   "n": 22,
+   "text": "Vậy hai nút liền nhau cách nhau khoảng 14,4 mét.",
+   "say": "Vậy hai nút liền nhau cách nhau khoảng mười bốn phẩy bốn mét."
+  },
+  {
+   "n": 23,
+   "text": "Giả sử trong 28 giây, 8 nút tuột ra.",
+   "say": "Giả sử trong hai mươi tám giây, tám nút tuột ra."
+  },
+  {
+   "n": 24,
+   "text": "Vậy tàu chạy 8 nút, tức 8 hải lý mỗi giờ.",
+   "say": "Vậy tàu chạy tám nút, tức tám hải lý mỗi giờ."
+  },
+  {
+   "n": 25,
+   "text": "Đổi ra ki-lô-mét: 8 × 1,852 ra khoảng 14,8 ki-lô-mét mỗi giờ.",
+   "say": "Đổi ra ki-lô-mét, tám nhân một phẩy tám lăm hai ra khoảng mười bốn phẩy tám ki-lô-mét mỗi giờ."
+  },
+  {
+   "n": 26,
+   "text": "Cứ nửa giờ hoặc lâu hơn, họ lại thả dây đo rồi ghi vào sổ.",
+   "say": "Cứ nửa giờ hoặc lâu hơn, họ lại thả dây đo một lần rồi ghi vào sổ."
+  },
+  {
+   "n": 27,
+   "text": "Tàu chạy 8 nút suốt một ngày: 8 × 24 = 192 hải lý.",
+   "say": "Tàu chạy tám nút suốt một ngày: tám nhân hai mươi bốn ra một trăm chín mươi hai hải lý."
+  },
+  {
+   "n": 28,
+   "text": "Đó là khoảng 356 ki-lô-mét, nên thủy thủ biết mình đã đi bao xa.",
+   "say": "Đó là khoảng ba trăm năm mươi sáu ki-lô-mét, nên thủy thủ biết mình đã đi được bao xa."
+  },
+  {
+   "n": 29,
+   "text": "Giữa biển không cột mốc, mảnh gỗ, dây thắt nút và đồng hồ cát đã đo được tốc độ tàu.",
+   "say": "Vậy giữa biển không cột mốc, mảnh gỗ, dây thắt nút và đồng hồ cát đã đo được tốc độ tàu."
+  },
+  {
+   "n": 30,
+   "text": "Và tên gọi nút còn lại đến nay.",
+   "say": "Và tên gọi nút còn lại đến nay."
+  }
+ ]
+}

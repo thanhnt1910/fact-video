@@ -1,0 +1,124 @@
+{
+ "beats": [
+  {
+   "say": "Giữa biển mênh mông không có cột mốc nào: làm sao biết tàu đang chạy nhanh bao nhiêu?",
+   "text": "Giữa biển mênh mông *không có cột mốc*: làm sao biết tàu *chạy nhanh bao nhiêu*?"
+  },
+  {
+   "say": "Nhưng thủy thủ ngày xưa làm được, chỉ với một mảnh gỗ, một sợi dây và một chiếc đồng hồ cát.",
+   "text": "Nhưng thủy thủ xưa làm được chỉ với *một mảnh gỗ*, *một sợi dây* và *một đồng hồ cát*."
+  },
+  {
+   "say": "Và nhờ sợi dây ấy, đến nay tốc độ tàu vẫn tính bằng nút.",
+   "text": "Nhờ sợi dây ấy, đến nay *tốc độ tàu* vẫn tính bằng *nút*."
+  },
+  {
+   "say": "Muốn biết tốc độ, ta cần quãng đường và thời gian.",
+   "text": "Muốn biết tốc độ, cần *quãng đường* và *thời gian*."
+  },
+  {
+   "say": "Nhưng trên biển không có cột cây số để đếm quãng đường.",
+   "text": "Nhưng trên biển *không có cột cây số* để đếm quãng đường."
+  },
+  {
+   "say": "Họ lấy nước làm mốc: thả xuống biển một mảnh gỗ, nó gần như đứng yên.",
+   "text": "Họ lấy *nước làm mốc*: thả xuống biển *một mảnh gỗ*, nó gần như *đứng yên*."
+  },
+  {
+   "say": "Tàu chạy đi, kéo dây buộc vào mảnh gỗ tuột dần khỏi cuộn.",
+   "text": "Tàu chạy đi, *dây buộc vào mảnh gỗ* tuột dần khỏi cuộn."
+  },
+  {
+   "say": "Trên sợi dây có những nút thắt cách đều nhau.",
+   "text": "Trên dây có những *nút thắt* cách đều nhau."
+  },
+  {
+   "say": "Mỗi nút chạy qua tay thủy thủ nghĩa là tàu đã đi thêm một đoạn nữa.",
+   "text": "Mỗi *nút* chạy qua tay nghĩa là tàu đã *đi thêm một đoạn*."
+  },
+  {
+   "say": "Người ta lật đồng hồ cát, rồi đếm có bao nhiêu nút tuột ra cho tới khi cát chảy hết.",
+   "text": "Lật *đồng hồ cát*, rồi đếm *bao nhiêu nút* tuột ra cho tới khi cát chảy hết."
+  },
+  {
+   "say": "Cách đo này đã có từ thế kỷ mười sáu.",
+   "text": "Cách đo này đã có từ *thế kỷ 16*."
+  },
+  {
+   "say": "Nhưng khoảng cách giữa hai nút phải chọn sao cho số nút đếm được đúng bằng tốc độ.",
+   "text": "Khoảng cách giữa hai nút phải chọn sao cho *số nút* đúng bằng *tốc độ*."
+  },
+  {
+   "say": "Mốc để so là một hải lý, quãng tàu đi được trong một giờ khi chạy một nút.",
+   "text": "Mốc để so là *một hải lý*, quãng tàu đi trong *một giờ* khi chạy *một nút*."
+  },
+  {
+   "say": "Một hải lý dài một nghìn tám trăm năm mươi hai mét.",
+   "text": "*1 hải lý* dài *1.852 mét*."
+  },
+  {
+   "say": "Con số ấy có lý do: một hải lý ứng với một phút của vĩ độ.",
+   "text": "Con số ấy có lý do: *1 hải lý* ứng với *một phút vĩ độ*."
+  },
+  {
+   "say": "Vòng quanh Trái Đất có hai mươi mốt nghìn sáu trăm phút như vậy.",
+   "text": "Vòng quanh Trái Đất có *21.600 phút* như vậy."
+  },
+  {
+   "say": "Bốn mươi nghìn ki-lô-mét chia cho hai mươi mốt nghìn sáu trăm ra khoảng một phẩy tám lăm ki-lô-mét.",
+   "text": "*40.000 ÷ 21.600* ra khoảng *1,85 ki-lô-mét*."
+  },
+  {
+   "say": "Giờ đến đồng hồ cát: nó chảy hết trong hai mươi tám giây, còn một giờ có ba nghìn sáu trăm giây.",
+   "text": "Đồng hồ cát chảy hết trong *28 giây*, còn *1 giờ* có *3.600 giây*."
+  },
+  {
+   "say": "Tàu chạy một nút thì mỗi giờ đi một nghìn tám trăm năm mươi hai mét.",
+   "text": "Tàu chạy *một nút* thì mỗi giờ đi *1.852 mét*."
+  },
+  {
+   "say": "Chia cho ba nghìn sáu trăm giây, mỗi giây tàu đi được khoảng nửa mét.",
+   "text": "Chia cho *3.600 giây*, mỗi giây tàu đi được khoảng *0,5 mét*."
+  },
+  {
+   "say": "Nhân với hai mươi tám giây, ra khoảng mười bốn phẩy bốn mét.",
+   "text": "Nhân với *28 giây*, ra khoảng *14,4 mét*."
+  },
+  {
+   "say": "Vậy hai nút liền nhau cách nhau khoảng mười bốn phẩy bốn mét.",
+   "text": "Vậy hai nút liền nhau cách nhau khoảng *14,4 mét*."
+  },
+  {
+   "say": "Giả sử trong hai mươi tám giây, tám nút tuột ra.",
+   "text": "Giả sử trong *28 giây*, *8 nút* tuột ra."
+  },
+  {
+   "say": "Vậy tàu chạy tám nút, tức tám hải lý mỗi giờ.",
+   "text": "Vậy tàu chạy *8 nút*, tức *8 hải lý* mỗi giờ."
+  },
+  {
+   "say": "Đổi ra ki-lô-mét, tám nhân một phẩy tám lăm hai ra khoảng mười bốn phẩy tám ki-lô-mét mỗi giờ.",
+   "text": "Đổi ra ki-lô-mét: *8 × 1,852* ra khoảng *14,8 ki-lô-mét mỗi giờ*."
+  },
+  {
+   "say": "Cứ nửa giờ hoặc lâu hơn, họ lại thả dây đo một lần rồi ghi vào sổ.",
+   "text": "Cứ *nửa giờ* hoặc lâu hơn, họ lại *thả dây đo* rồi *ghi vào sổ*."
+  },
+  {
+   "say": "Tàu chạy tám nút suốt một ngày: tám nhân hai mươi bốn ra một trăm chín mươi hai hải lý.",
+   "text": "Tàu chạy *8 nút* suốt một ngày: *8 × 24 = 192 hải lý*."
+  },
+  {
+   "say": "Đó là khoảng ba trăm năm mươi sáu ki-lô-mét, nên thủy thủ biết mình đã đi được bao xa.",
+   "text": "Đó là khoảng *356 ki-lô-mét*, nên thủy thủ *biết mình đã đi bao xa*."
+  },
+  {
+   "say": "Vậy giữa biển không cột mốc, mảnh gỗ, dây thắt nút và đồng hồ cát đã đo được tốc độ tàu.",
+   "text": "Giữa biển không cột mốc, *mảnh gỗ*, *dây thắt nút* và *đồng hồ cát* đã đo được *tốc độ tàu*."
+  },
+  {
+   "say": "Và tên gọi nút còn lại đến nay.",
+   "text": "Và tên gọi *nút* còn lại đến nay."
+  }
+ ]
+}

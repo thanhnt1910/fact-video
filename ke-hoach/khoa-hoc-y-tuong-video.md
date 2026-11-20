@@ -54,6 +54,8 @@ Cách giải thích cho dễ hiểu:
 | 22 | Mặt Trời nặng bao nhiêu (tốc độ quỹ đạo, M = v² × r ÷ G) | `ke-hoach/khoa-hoc-video-22-can-mat-troi-kich-ban.md` |
 | 23 | Giếng sâu bao nhiêu (Galileo, máng dốc, quãng đường = ½ × g × thời gian²) | `ke-hoach/khoa-hoc-video-23-gieng-sau-kich-ban.md` |
 | 24 | Vũ trụ bao nhiêu tuổi (Hubble, thời gian = khoảng cách ÷ tốc độ, 1 ÷ H) | `ke-hoach/khoa-hoc-video-24-tuoi-vu-tru-kich-ban.md` |
+| 25 | Sóng thần chạy nhanh bao nhiêu (tốc độ = √(g × độ sâu), 4.000 m ra 713 km/h) | `ke-hoach/khoa-hoc-video-25-song-than-kich-ban.md` |
+| 26 | Tàu chạy nhanh bao nhiêu (dây thắt nút, đồng hồ cát 28 giây, hải lý, 14,4 m) | `ke-hoach/khoa-hoc-video-26-day-nut-kich-ban.md` |
 
 ## Chưa làm
 

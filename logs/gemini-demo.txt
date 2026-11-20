@@ -1,32 +1,35 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Sóng cao chưa tới 1 mét, tàu ngoài khơi chẳng nhận
-OK Leda 02: Bí mật nằm ở tốc độ: ngoài biển sâu, sóng thần chạ
-OK Leda 03: Nhưng làm sao biết tốc độ của con sóng khi chưa kị
-OK Leda 04: Hóa ra tốc độ chỉ phụ thuộc một thứ: biển ở đó sâu
+OK Leda 01: Giữa biển mênh mông không có cột mốc: làm sao biết
+OK Leda 02: Nhưng thủy thủ xưa làm được chỉ với một mảnh gỗ, m
+OK Leda 03: Nhờ sợi dây ấy, đến nay tốc độ tàu vẫn tính bằng n
+OK Leda 04: Muốn biết tốc độ, cần quãng đường và thời gian.
+OK Leda 05: Nhưng trên biển không có cột cây số để đếm quãng đ
+OK Leda 06: Họ lấy nước làm mốc: thả xuống biển một mảnh gỗ, n
+OK Leda 07: Tàu chạy đi, dây buộc vào mảnh gỗ tuột dần khỏi cu
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Sóng thần cực dài: từ đỉnh này tới đỉnh kế tiếp có
-OK Leda 06: Biển chỉ sâu 4 ki-lô-mét, bằng 1/25 chiều dài sóng
-OK Leda 07: Cả cột nước từ mặt xuống đáy cùng đung đưa, nên đá
-OK Leda 08: Công thức: tốc độ = √(g × độ sâu).
+OK Leda 08: Trên dây có những nút thắt cách đều nhau.
+OK Leda 09: Mỗi nút chạy qua tay nghĩa là tàu đã đi thêm một đ
+OK Leda 10: Lật đồng hồ cát, rồi đếm bao nhiêu nút tuột ra cho
+OK Leda 11: Cách đo này đã có từ thế kỷ 16.
+OK Leda 12: Khoảng cách giữa hai nút phải chọn sao cho số nút 
+OK Leda 13: Mốc để so là một hải lý, quãng tàu đi trong một gi
+OK Leda 14: 1 hải lý dài 1.852 mét.
+OK Leda 15: Con số ấy có lý do: 1 hải lý ứng với một phút vĩ đ
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 09: Số g làm hòn đá rơi nhanh dần, chừng 9,8.
-OK Leda 10: Căn bậc hai của một số là số nhân với chính nó ra 
-OK Leda 11: Ví dụ căn bậc hai của 9 là 3, vì 3 × 3 = 9.
-OK Leda 12: Thử ở giữa Thái Bình Dương, nơi biển sâu 4.000 mét
-OK Leda 13: 9,8 × 4.000 = 39.200.
+OK Leda 16: Vòng quanh Trái Đất có 21.600 phút như vậy.
+OK Leda 17: 40.000 ÷ 21.600 ra khoảng 1,85 ki-lô-mét.
+OK Leda 18: Đồng hồ cát chảy hết trong 28 giây, còn 1 giờ có 3
+OK Leda 19: Tàu chạy một nút thì mỗi giờ đi 1.852 mét.
+OK Leda 20: Chia cho 3.600 giây, mỗi giây tàu đi được khoảng 0
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Căn bậc hai của số ấy là khoảng 198.
-OK Leda 15: Vậy sóng chạy khoảng 198 mét trong mỗi giây.
-OK Leda 16: Đổi ra ki-lô-mét mỗi giờ, ta nhân với 3,6, ra khoả
-OK Leda 17: Hơn 700 ki-lô-mét mỗi giờ, gần bằng máy bay phản l
-OK Leda 18: Nhưng ngoài khơi sóng thấp dưới 1 mét, nên trên tà
+OK Leda 21: Nhân với 28 giây, ra khoảng 14,4 mét.
+OK Leda 22: Vậy hai nút liền nhau cách nhau khoảng 14,4 mét.
+OK Leda 23: Giả sử trong 28 giây, 8 nút tuột ra.
+OK Leda 24: Vậy tàu chạy 8 nút, tức 8 hải lý mỗi giờ.
+OK Leda 25: Đổi ra ki-lô-mét: 8 × 1,852 ra khoảng 14,8 ki-lô-m
+OK Leda 26: Cứ nửa giờ hoặc lâu hơn, họ lại thả dây đo rồi ghi
+OK Leda 27: Tàu chạy 8 nút suốt một ngày: 8 × 24 = 192 hải lý.
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Rồi sóng vào gần bờ, biển nông dần, chỉ còn sâu 10
-OK Leda 20: 9,8 × 10 = 98.
-OK Leda 21: Căn bậc hai của 98 là khoảng 9,9 mét mỗi giây.
-OK Leda 22: Nhân với 3,6, ra khoảng 36 ki-lô-mét mỗi giờ, chậm
-OK Leda 23: Nhưng phần sóng phía sau vẫn chạy nhanh, nên dồn v
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 24: Như đoàn xe: xe đầu chậm, xe sau vẫn nhanh, nên xe
-OK Leda 25: Sóng cũng vậy: nước dồn lại, sóng cao lên, dòng nư
-OK Leda 26: Vậy chỉ một công thức với độ sâu đã giải thích vì 
+OK Leda 28: Đó là khoảng 356 ki-lô-mét, nên thủy thủ biết mình
+OK Leda 29: Giữa biển không cột mốc, mảnh gỗ, dây thắt nút và 
+OK Leda 30: Và tên gọi nút còn lại đến nay.

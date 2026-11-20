@@ -3,7 +3,7 @@ import math,random
 from engine import put,inn,cl
 from fx_tran import arrows,dust,sparks,fall
 BACC=(.17,.29,.45);LYCC=(.69,.5,.13);VIETC=(.69,.16,.11)
-MAU={'bac':BACC,'viet':VIETC,'ly':LYCC,'ngo':BACC,'cc':VIETC,'han':BACC,'trung':VIETC,'luong':BACC,'lamap':(.31,.24,.39),'noiloan':LYCC}
+MAU={'bac':BACC,'viet':VIETC,'ly':LYCC,'ngo':BACC,'cc':VIETC,'han':BACC,'trung':VIETC,'luong':BACC,'lamap':(.31,.24,.39),'noiloan':LYCC,'duong':BACC,'ta':VIETC}
 def clash(cv,c,t,a,b,L,R,xm=960,y=860,s=.9,push=0,seed=1,ten=True,thua=None,pre='t12_spr_'):
     """Hai hàng quân L (bên trái) và R (bên phải) lao vào nhau rồi giáp trận ở xm.
     push=+1: bên trái đẩy bên phải lùi dần; -1 ngược lại. thua: bên bị ngã nhiều ('L'/'R'), mặc định bên bị đẩy."""

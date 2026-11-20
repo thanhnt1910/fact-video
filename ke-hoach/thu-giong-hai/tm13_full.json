@@ -1,122 +1,189 @@
 [
  {
-  "n": 188001,
+  "n": 198001,
   "chuong": 1,
   "nhip": "hook1",
   "tone": "story",
-  "text": "Viên thái thú nhà Hán bỏ chạy khỏi quận, vì hai người phụ nữ.",
-  "hien": "Viên thái thú nhà Hán bỏ chạy khỏi quận, vì hai người phụ nữ."
+  "text": "Có một con ngựa đồng được đúc từ những chiếc trống của người Lạc Việt.",
+  "hien": "Có một con ngựa đồng được đúc từ những chiếc trống của người Lạc Việt."
  },
  {
-  "n": 188002,
+  "n": 198002,
   "chuong": 1,
   "nhip": "hook2",
   "tone": "story",
-  "text": "Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ đứng lên, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại.",
-  "hien": "Ông ta tên Tô Định, quan đứng đầu quận Giao Chỉ, vùng đồng bằng sông Hồng mà nhà Hán đã cai trị hơn một trăm bốn mươi năm. Hai người phụ nữ ấy là chị em, Trưng Trắc và Trưng Nhị. Khi họ đứng lên, Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, sáu mươi lăm thành đáp lại."
+  "text": "Người đúc nó là Mã Viện, viên tướng nhà Hán vừa dẹp xong cuộc nổi dậy của Hai Bà Trưng. Ông nấu chảy những chiếc trống đồng thu được ở Giao Chỉ, đúc thành ngựa, rồi mang về dâng vua.",
+  "hien": "Người đúc nó là Mã Viện, viên tướng nhà Hán vừa dẹp xong cuộc nổi dậy của Hai Bà Trưng. Ông nấu chảy những chiếc trống đồng thu được ở Giao Chỉ, đúc thành ngựa, rồi mang về dâng vua."
  },
  {
-  "n": 188003,
+  "n": 198003,
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
-  "text": "Thế mà ba năm sau, cuộc nổi dậy đã tắt. Vì sao một tiếng gọi được cả vùng đáp lại, rồi vẫn không giữ nổi?",
-  "hien": "Thế mà ba năm sau, cuộc nổi dậy đã tắt. Vì sao một tiếng gọi được cả vùng đáp lại, rồi vẫn không giữ nổi?"
+  "text": "Trống đồng là vật gắn với quyền của các thủ lĩnh người Lạc Việt, và người khiến nhà Hán phải đem quân sang chính là con gái một thủ lĩnh như thế. Vì sao tiếng gọi của bà được cả vùng đáp lại, rồi chỉ ba năm sau đã tắt?",
+  "hien": "Trống đồng là vật gắn với quyền của các thủ lĩnh người Lạc Việt, và người khiến nhà Hán phải đem quân sang chính là con gái một thủ lĩnh như thế. Vì sao tiếng gọi của bà được cả vùng đáp lại, rồi chỉ ba năm sau đã tắt?"
  },
  {
-  "n": 188004,
+  "n": 198004,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên. Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù.",
-  "hien": "Trưng Trắc là con gái một Lạc tướng ở Mê Linh, người đứng đầu một vùng đất, và là vợ của Thi Sách ở Chu Diên. Theo sử ta, Tô Định dùng luật nhà Hán trói buộc dân Giao Chỉ, lại giết Thi Sách. Trưng Trắc tìm cách trả thù."
+  "text": "Bà tên Trưng Trắc, con gái một Lạc tướng ở Mê Linh, người đứng đầu cả một vùng đất. Bà lấy chồng là Thi Sách, người ở Chu Diên.",
+  "hien": "Bà tên Trưng Trắc, con gái một Lạc tướng ở Mê Linh, người đứng đầu cả một vùng đất. Bà lấy chồng là Thi Sách, người ở Chu Diên."
  },
  {
-  "n": 188005,
-  "chuong": 3,
-  "nhip": "buoc_ngoat",
+  "n": 198005,
+  "chuong": 2,
+  "nhip": "goc_re",
   "tone": "story",
-  "text": "Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị nổi dậy. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, Tô Định bỏ chạy về Nam Hải, vùng nay thuộc Quảng Đông, còn Trưng Trắc tự xưng làm vua, đóng đô ở Mê Linh, quê bà.",
-  "hien": "Mùa xuân năm bốn mươi, bà cùng em là Trưng Nhị nổi dậy. Họ chiếm được nơi đặt trụ sở của quan nhà Hán, Tô Định bỏ chạy về Nam Hải, vùng nay thuộc Quảng Đông, còn Trưng Trắc tự xưng làm vua, đóng đô ở Mê Linh, quê bà."
+  "text": "Lúc ấy nhà Hán đã cai trị vùng đồng bằng sông Hồng hơn một trăm bốn mươi năm. Viên thái thú quận Giao Chỉ là Tô Định, và sử ta chép ông ta dùng luật nhà Hán trói buộc dân.",
+  "hien": "Lúc ấy nhà Hán đã cai trị vùng đồng bằng sông Hồng hơn một trăm bốn mươi năm. Viên thái thú quận Giao Chỉ là Tô Định, và sử ta chép ông ta dùng luật nhà Hán trói buộc dân."
  },
  {
-  "n": 188006,
+  "n": 198006,
   "chuong": 3,
-  "nhip": "buoc_ngoat",
+  "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Nghe thì như một mối thù riêng. Nhưng sử cũng chép Tô Định trói buộc cả dân Giao Chỉ, nên có thể hiểu vì sao tiếng gọi của bà vang xa hơn một nhà.",
-  "hien": "Nghe thì như một mối thù riêng. Nhưng sử cũng chép Tô Định trói buộc cả dân Giao Chỉ, nên có thể hiểu vì sao tiếng gọi của bà vang xa hơn một nhà."
+  "text": "Rồi Tô Định giết Thi Sách. Sử chỉ chép thêm một câu ngắn, rằng Trưng Trắc tìm cách trả thù.",
+  "hien": "Rồi Tô Định giết Thi Sách. Sử chỉ chép thêm một câu ngắn, rằng Trưng Trắc tìm cách trả thù."
  },
  {
-  "n": 188007,
+  "n": 198007,
   "chuong": 4,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Nhà Hán không bỏ quận ấy. Triều đình ở kinh đô Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang.",
-  "hien": "Nhà Hán không bỏ quận ấy. Triều đình ở kinh đô Lạc Dương chậm tay, đến năm bốn mươi hai mới sai tướng Mã Viện đem quân sang."
+  "text": "Mùa xuân năm bốn mươi, bà cùng em gái là Trưng Nhị nổi dậy. Họ đánh vào nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ cả quận mà chạy về Nam Hải.",
+  "hien": "Mùa xuân năm bốn mươi, bà cùng em gái là Trưng Nhị nổi dậy. Họ đánh vào nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ cả quận mà chạy về Nam Hải.",
+  "tts": "Mùa xuân năm 40, bà cùng em gái là Trưng Nhị nổi dậy. Họ đánh vào nơi đặt trụ sở của quan nhà Hán, và Tô Định bỏ cả quận mà chạy về Nam Hải."
  },
  {
-  "n": 188008,
+  "n": 198008,
   "chuong": 4,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau. Quân của hai bà đông bao nhiêu thì sử không ghi, nên ta không thể so hai bên.",
-  "hien": "Mã Viện mang hiệu Phục Ba tướng quân, vị tướng dẹp sóng. Quân đi qua vùng núi hiểm trở, còn thuyền chở lương chạy dọc bờ biển từ Quảng Đông theo sau. Quân của hai bà đông bao nhiêu thì sử không ghi, nên ta không thể so hai bên."
+  "text": "Tiếng gọi ấy không dừng ở Giao Chỉ. Người ở Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, và sử chép sáu mươi lăm thành đã đáp lại.",
+  "hien": "Tiếng gọi ấy không dừng ở Giao Chỉ. Người ở Cửu Chân, Nhật Nam và Hợp Phố đều hưởng ứng, và sử chép sáu mươi lăm thành đã đáp lại."
  },
  {
-  "n": 188009,
+  "n": 198009,
   "chuong": 5,
-  "nhip": "lan1",
+  "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Hai bên gặp nhau ở Lãng Bạc, nơi người xưa cho là Hồ Tây, người nay đặt ở vùng núi Tiên Du. Mã Viện thắng lớn. Theo một nhà nghiên cứu, hàng nghìn người theo hai bà ngã xuống và hơn mười nghìn người ra hàng. Hai bà lui về Cấm Khê.",
-  "hien": "Hai bên gặp nhau ở Lãng Bạc, nơi người xưa cho là Hồ Tây, người nay đặt ở vùng núi Tiên Du. Mã Viện thắng lớn. Theo một nhà nghiên cứu, hàng nghìn người theo hai bà ngã xuống và hơn mười nghìn người ra hàng. Hai bà lui về Cấm Khê."
+  "text": "Trưng Trắc tự xưng làm vua và đóng đô ở Mê Linh, quê của bà. Sau hơn một trăm bốn mươi năm, vùng đất này có một người của mình làm vua.",
+  "hien": "Trưng Trắc tự xưng làm vua và đóng đô ở Mê Linh, quê của bà. Sau hơn một trăm bốn mươi năm, vùng đất này có một người của mình làm vua."
  },
  {
-  "n": 188010,
+  "n": 198010,
+  "chuong": 5,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Nhà Hán không chịu bỏ. Năm bốn mươi hai, vua Hán sai Mã Viện đem quân sang, người mang hiệu Phục Ba tướng quân, nghĩa là vị tướng dẹp sóng.",
+  "hien": "Nhà Hán không chịu bỏ. Năm bốn mươi hai, vua Hán sai Mã Viện đem quân sang, người mang hiệu Phục Ba tướng quân, nghĩa là vị tướng dẹp sóng."
+ },
+ {
+  "n": 198011,
   "chuong": 6,
-  "nhip": "diem_thap",
+  "nhip": "goc_re",
   "tone": "story",
-  "text": "Toàn thư kể thêm rằng nhiều người theo hai bà bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng.",
-  "hien": "Toàn thư kể thêm rằng nhiều người theo hai bà bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng."
+  "text": "Quân bộ đi qua núi rừng hiểm trở, còn thuyền chở lương chạy dọc bờ biển theo sau. Đạo quân ấy không phải vội, vì nó mang theo cái ăn của mình.",
+  "hien": "Quân bộ đi qua núi rừng hiểm trở, còn thuyền chở lương chạy dọc bờ biển theo sau. Đạo quân ấy không phải vội, vì nó mang theo cái ăn của mình."
  },
  {
-  "n": 188011,
+  "n": 198012,
   "chuong": 7,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Hai bên gặp nhau ở Lãng Bạc. Sách cũ cho đó là Hồ Tây còn người nay đặt ở vùng Tiên Du, và sử không ghi quân của hai bà đông bao nhiêu.",
+  "hien": "Hai bên gặp nhau ở Lãng Bạc. Sách cũ cho đó là Hồ Tây còn người nay đặt ở vùng Tiên Du, và sử không ghi quân của hai bà đông bao nhiêu."
+ },
+ {
+  "n": 198013,
+  "chuong": 8,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Mã Viện đuổi theo, đánh nhiều trận, và quân hai bà thua hết lần này đến lần khác rồi tan chạy. Sang năm bốn mươi ba, hai chị em vẫn chống trả, nhưng đã bị cô lập và thua trận.",
-  "hien": "Cấm Khê ở đâu, đến nay chưa ai chỉ chắc. Mã Viện đuổi theo, đánh nhiều trận, và quân hai bà thua hết lần này đến lần khác rồi tan chạy. Sang năm bốn mươi ba, hai chị em vẫn chống trả, nhưng đã bị cô lập và thua trận."
+  "text": "Mã Viện thắng lớn. Theo một nhà nghiên cứu, hàng nghìn người theo hai bà ngã xuống, và hơn mười nghìn người ra hàng.",
+  "hien": "Mã Viện thắng lớn. Theo một nhà nghiên cứu, hàng nghìn người theo hai bà ngã xuống, và hơn mười nghìn người ra hàng."
  },
  {
-  "n": 188012,
-  "chuong": 7,
-  "nhip": "chi_tiet_nguoi",
-  "tone": "story",
-  "text": "Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư, bộ sử của phía nhà Hán, chép Mã Viện chém hai bà rồi gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận, còn sử triều Nguyễn ghi hai bà bị bắt. Chuyện hai bà gieo mình xuống sông Hát là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Cách kể nào cũng không thay được cách kể khác.",
-  "hien": "Hai bà mất ra sao thì sách kể khác nhau. Hậu Hán thư, bộ sử của phía nhà Hán, chép Mã Viện chém hai bà rồi gửi đầu về Lạc Dương. Toàn thư của ta chỉ ghi hai bà thua trận, còn sử triều Nguyễn ghi hai bà bị bắt. Chuyện hai bà gieo mình xuống sông Hát là điều người đời giữ lại, gắn với đền thờ ở Hát Môn. Cách kể nào cũng không thay được cách kể khác."
- },
- {
-  "n": 188013,
-  "chuong": 8,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người bản địa, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa.",
-  "hien": "Mã Viện còn cho nấu chảy trống đồng, vật tượng trưng quyền của các thủ lĩnh người bản địa, đúc thành tượng ngựa, mùa thu năm bốn mươi bốn mang về dâng vua. Cả chiến dịch, quân của ông cũng trả giá nặng, cứ mười người thì có bốn, năm người chết vì hơi độc nơi rừng núi và dịch bệnh, gần một nửa."
- },
- {
-  "n": 188014,
-  "chuong": 8,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nhắc rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình.",
-  "hien": "Vậy vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà không giữ nổi? Sử không đưa ra một lý do duy nhất. Sử chỉ ghi một đạo quân có thuyền chở lương theo bờ biển, và ghi rằng sau Lãng Bạc nhiều người đã bỏ đi. Sử gia Lê Văn Hưu thì nhắc rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình."
- },
- {
-  "n": 188015,
+  "n": 198014,
   "chuong": 9,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Toàn thư kể thêm một chi tiết cay đắng. Nhiều người bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng.",
+  "hien": "Toàn thư kể thêm một chi tiết cay đắng. Nhiều người bỏ đi, vì cho rằng người đứng đầu là phụ nữ thì không thể thắng."
+ },
+ {
+  "n": 198015,
+  "chuong": 10,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Hai bà lui về Cấm Khê, nơi đến nay chưa ai chỉ chắc ở đâu. Mã Viện đuổi theo, đánh nhiều trận, và đến năm bốn mươi ba thì hai chị em bị cô lập rồi thua trận.",
+  "hien": "Hai bà lui về Cấm Khê, nơi đến nay chưa ai chỉ chắc ở đâu. Mã Viện đuổi theo, đánh nhiều trận, và đến năm bốn mươi ba thì hai chị em bị cô lập rồi thua trận.",
+  "tts": "Hai bà lui về Cấm Khê, nơi đến nay chưa ai chỉ chắc ở đâu. Mã Viện đuổi theo, đánh nhiều trận, và đến năm 43 thì hai chị em bị cô lập rồi thua trận."
+ },
+ {
+  "n": 198016,
+  "chuong": 11,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Hai bà mất thế nào, mỗi sách chép một kiểu. Sử phía nhà Hán chép hai bà bị chém và sử triều Nguyễn chép bị bắt, còn dân gian giữ chuyện hai bà gieo mình xuống sông Hát.",
+  "hien": "Hai bà mất thế nào, mỗi sách chép một kiểu. Sử phía nhà Hán chép hai bà bị chém và sử triều Nguyễn chép bị bắt, còn dân gian giữ chuyện hai bà gieo mình xuống sông Hát."
+ },
+ {
+  "n": 198017,
+  "chuong": 11,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Rồi Mã Viện làm một việc mà sử nhà Hán chép lại rất rõ. Ông thu những chiếc trống đồng của người Lạc Việt, rồi đem nấu chảy.",
+  "hien": "Rồi Mã Viện làm một việc mà sử nhà Hán chép lại rất rõ. Ông thu những chiếc trống đồng của người Lạc Việt, rồi đem nấu chảy."
+ },
+ {
+  "n": 198018,
+  "chuong": 11,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Đồng ấy được đúc thành một con ngựa mẫu. Mùa thu năm bốn mươi bốn, ông mang nó về kinh đô dâng vua.",
+  "hien": "Đồng ấy được đúc thành một con ngựa mẫu. Mùa thu năm bốn mươi bốn, ông mang nó về kinh đô dâng vua.",
+  "tts": "Đồng ấy được đúc thành một con ngựa mẫu. Mùa thu năm 44, ông mang nó về kinh đô dâng vua."
+ },
+ {
+  "n": 198019,
+  "chuong": 12,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Trống là vật gắn với quyền của các Lạc tướng, những người như cha của Trưng Trắc. Đem nó nấu thành ngựa dâng vua, khó có cách nào nói rõ hơn rằng ai đã thắng.",
+  "hien": "Trống là vật gắn với quyền của các Lạc tướng, những người như cha của Trưng Trắc. Đem nó nấu thành ngựa dâng vua, khó có cách nào nói rõ hơn rằng ai đã thắng."
+ },
+ {
+  "n": 198020,
+  "chuong": 13,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Nhưng chiến thắng ấy không rẻ. Quân của Mã Viện, cứ mười người thì có bốn, năm người chết vì khí độc nơi rừng núi và dịch bệnh.",
+  "hien": "Nhưng chiến thắng ấy không rẻ. Quân của Mã Viện, cứ mười người thì có bốn, năm người chết vì khí độc nơi rừng núi và dịch bệnh."
+ },
+ {
+  "n": 198021,
+  "chuong": 14,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà vẫn không giữ nổi? Sử không đưa ra một lý do duy nhất, chỉ ghi một đạo quân có thuyền lương theo sau, và những người đã bỏ đi sau Lãng Bạc.",
+  "hien": "Vì sao một tiếng gọi được sáu mươi lăm thành đáp lại mà vẫn không giữ nổi? Sử không đưa ra một lý do duy nhất, chỉ ghi một đạo quân có thuyền lương theo sau, và những người đã bỏ đi sau Lãng Bạc."
+ },
+ {
+  "n": 198022,
+  "chuong": 15,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Sử gia Lê Văn Hưu thì nhìn ở phía khác. Ông viết rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình.",
+  "hien": "Sử gia Lê Văn Hưu thì nhìn ở phía khác. Ông viết rằng chỉ một tiếng gọi của hai người phụ nữ mà sáu mươi lăm thành đáp lại, nên người nước ta không có cớ tự coi thường mình."
+ },
+ {
+  "n": 198023,
+  "chuong": 16,
   "nhip": "ket",
   "tone": "story",
-  "text": "Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái chết của họ theo những cách khác nhau.",
-  "hien": "Hai người phụ nữ làm vua ba năm, và đến nay sử vẫn kể cái chết của họ theo những cách khác nhau."
+  "text": "Trống đồng có thể bị nấu chảy, nhưng sáu mươi lăm thành đã đáp lại tiếng gọi của hai bà, và sử vẫn chép điều đó. Cảm ơn bạn đã lắng nghe.",
+  "hien": "Trống đồng có thể bị nấu chảy, nhưng sáu mươi lăm thành đã đáp lại tiếng gọi của hai bà, và sử vẫn chép điều đó. Cảm ơn bạn đã lắng nghe."
  }
 ]

@@ -399,7 +399,6 @@ def S_22(cv,t):
         put(cv,c,'t17x_trieu',960,560,s=1.1)
     else:
         put(cv,c,'t17x_trieu',960,560,s=1.1)
-        put(cv,cam(960,540,1),'t17_spr_congnho',360,300,s=.35,o=.6*(1-inn(t,q+1.5,1)))
     for i in range(2): di(cv,c,'t17_spr_1viet',-300-i*200,880,600+i*120,880,t,a+i*.4,b,s=.6,bob=2,f=3.6,ph=i)
     di(cv,c,'t17_spr_1viet',2300,880,1500,880,t,a+.3,b,s=.6,bob=2,f=3.4)
     truoc(cv,c,t)
@@ -492,7 +491,7 @@ def caps(cv,t):
     for n,hs in SENT.items():
         for k,h in enumerate(hs):
             a=sb(n,k) if len(hs)>1 else T[n];b=sb(n,k+1) if len(hs)>1 else E[n]
-            if a-.2<t<b+.05: caption(cv,h,inn(t,a-.15,.15)*(1-inn(t,b-.15,.15)),False)
+            if a<t<b: caption(cv,h,inn(t,a,.12)*(1-inn(t,b-.12,.12)),False)
 def ov(cv,t):
     if FREEZE: return
     dem(cv,t)

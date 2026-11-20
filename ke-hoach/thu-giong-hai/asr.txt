@@ -1,2 +1,2 @@
 tm17ca
-# nhận dạng tm17 (Lý Bí bản 3), một file giọng
+# nhận dạng lại tm17 sau khi đọc lại

@@ -306,6 +306,16 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 
 ## 7. Ghi chú kỹ thuật cho Claude
 - **Nhánh làm việc dùng sparse checkout.** Khi thêm file mới (kịch bản, giọng, mã), chạy `git sparse-checkout add '<đường dẫn>'` cho đúng mẫu đường dẫn. Nếu không, lần `sparse-checkout add` sau sẽ xóa các file ấy khỏi thư mục làm việc. Ở tm2, `tm2_full.json` từng biến mất vì lỗi này.
+- **Cách dựng cho hấp dẫn (chủ kênh chốt 20/11/2026 sau bản thử mở đầu tm17; áp dụng mọi video từ nay, mẫu `dai_tm17.py`):**
+  1. **Hình ảnh lặp lại theo điểm nhấn:** chọn một hình gắn với điểm nhấn của nhân vật chính (tm17: khí độc xanh xám `t17_spr_doc`, hàm `khidoc`) và chỉ cho nó xuất hiện ở các lúc lời kể nhắc tới (mở đầu, giữa, cuối), để người xem tự nối. Màu của hình này không dùng cho việc khác.
+  2. **Mở đầu như phim:** 1–2 giây đầu là giọt mực rơi trên nền giấy rồi loang ra thành cảnh (hàm `loang`), chữ lớn câu hỏi hook hiện cùng câu đầu, có tiếng giọt rơi và cồng. Không mở bằng logo hay tên kênh.
+  3. **Chuyển cảnh bằng mực ở các bước ngoặt:** nét quét có mép rách (`quet`), cuộn giấy mở, triện đóng; không cắt cứng ở chỗ đổi thời gian hoặc đổi nơi.
+  4. **Bộ đếm khi câu chuyện có các lần lặp** (ba lần bị đánh, bốn cái giả…): góc màn hình có các ô triện, mỗi lần xong thì đóng dấu ghi kết quả.
+  5. **Chia đôi màn hình khi các nguồn chép khác nhau:** hai cuộn sử cạnh nhau, cuộn đang được đọc sáng lên, chữ viết dần theo câu đọc.
+  6. **Cận cảnh đồ vật** 2–3 giây ở chi tiết đắt (của đút lót, cổng thành, tờ lệnh) để đổi nhịp.
+  7. **Lặng nhịp và âm thanh theo câu:** nhạc lặng ngay trước câu nhấn, tiếng cọ khi quét cảnh, trống khi trận, chỉ còn gió khi khí độc tràn.
+  8. **Ánh sáng, mùa theo chương:** đổi tông màu theo tâm trạng (sáng khi lập nước, tối ẩm ở cảnh mất mát), chỉ dùng mùa, giờ có trong sử hoặc là bối cảnh chung không khẳng định sự kiện.
+  - Tất cả là cách thể hiện, không thêm sự việc. Trước khi dựng cả video, dựng thử phần hook (đến hết đoạn mở) gửi chủ kênh xem.
 - **Cách dựng cảnh nhiều lớp (từ 20/11/2026, mẫu `dai_tm16.py`, `dai_tm13.py`):** mỗi tập vẽ bộ lớp riêng `tNN_far` (núi xa, đặt `k=.35`), `tNN_mid` (đồng, làng, `k=.62`), `tNN_frontL/frontR` (cây tiền cảnh, `k=1.3`, đung đưa), cảnh trong nhà `tNN_inback` (`k=.5`) và `tNN_inL/inR`; sương hai tầng `k=.5` và `1.1`. Tranh vật chính vẽ bản tách nền `tNNx_<tên>` (gọi lại hàm tranh với cờ `NOBG=true`, bỏ `ridge`, `hills16`, `gnd16`) để đặt chồng lên các lớp. Người, quân, thuyền đi bằng hàm `di()` (nhún bước, lắc riêng từng vật, mốc theo câu `sb(n,k)`); lính vẽ bằng `sol16()` (bước chân, áo màu phe, vũ khí riêng); trận dùng `clash(..., pre='tNN_spr_')` với hình nhỏ của tập. Mặt đất của người khoảng y 830–900 để không bị phụ đề che. Phụ đề từng câu không chồng nhau (mờ vào và mờ ra trong khoảng của câu).
 - `CLAUDE.md` đã được tái cấu trúc ngày 18/11/2026 (chỉ điều phối); quy tắc chung nằm ở `quy-tac/`. Sửa quy tắc chung: theo mục 5 của `CLAUDE.md`.
 

@@ -1,2 +1,2 @@
-tm17ca
-# nhận dạng giọng tm17 đọc lại (274 giây)
+tm13ca
+# nhận dạng giọng tm13 bản 5

@@ -20,7 +20,7 @@ const DEFS=`<defs>
 <linearGradient id="bedg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${INK}" stop-opacity=".75"/><stop offset="1" stop-color="${INK}" stop-opacity=".25"/></linearGradient>
 </defs>`;
 function setup(w,h){S.innerHTML=DEFS;S.setAttribute('width',w);S.setAttribute('height',h);S.setAttribute('viewBox',`0 0 ${w} ${h}`);return S}
-function ridge(p,y0,amp,x0,x1,peaks,fill,op,base){let d=`M${x0} ${base}`;const n=80;const ph=[...Array(peaks)].map(()=>[rnd()*(x1-x0)+x0,amp*(.5+rnd()*.7),60+rnd()*170]);
+function ridge(p,y0,amp,x0,x1,peaks,fill,op,base){if(typeof NOBG!=='undefined'&&NOBG){const ph=[...Array(peaks)].map(()=>[rnd(),rnd(),rnd()]);for(let i=0;i<=80;i++)rnd();return el(p,'g',{})}let d=`M${x0} ${base}`;const n=80;const ph=[...Array(peaks)].map(()=>[rnd()*(x1-x0)+x0,amp*(.5+rnd()*.7),60+rnd()*170]);
  for(let i=0;i<=n;i++){const x=x0+(x1-x0)*i/n;let h=0;ph.forEach(([c,a,w])=>{h=Math.max(h,a*Math.exp(-((x-c)**2)/(2*w*w)))});h+=Math.sin(x*.05)*6+rnd()*8;d+=` L${x.toFixed(0)} ${(y0-h).toFixed(0)}`}
  d+=` L${x1} ${base}Z`;return el(p,'path',{d,fill,opacity:op})}
 function pine(g,tx,ty,s){el(g,'path',{d:`M${tx} ${ty} l0 ${-46*s} m0 ${12*s} l${-22*s} ${10*s} m${22*s} ${-2*s} l${20*s} ${10*s} m${-20*s} ${-26*s} l${-16*s} ${8*s} m${16*s} ${-2*s} l${14*s} ${8*s}`,stroke:INK,'stroke-width':5*s,fill:'none','stroke-linecap':'round'})}
@@ -1311,8 +1311,8 @@ function elephant(g,x,y,s,o={}){const k=el(g,'g',{transform:`translate(${x},${y}
  el(k,'path',{d:'M-44 -208 L64 -208 L74 -192 L-54 -192Z',fill:C,opacity:.9});
  if(o.rider!==0)person(k,10,-206,1.15,{ao:'#c9a227',arm:'M10 -52 L44 -90'});
  return k}
-function gnd16(g,w,y,h,op){el(g,'path',{d:`M0 ${y} Q${w*.25} ${y-34} ${w*.5} ${y-6} T${w} ${y-18} L${w} ${h} L0 ${h}Z`,fill:INK,opacity:op||.2})}
-function hills16(g,w,h,y1,y2){ridge(g,y1,110,0,w,6,INK,.15,h);ridge(g,y2,90,0,w,7,INK,.27,h)}
+function gnd16(g,w,y,h,op){if(typeof NOBG!=='undefined'&&NOBG)return;el(g,'path',{d:`M0 ${y} Q${w*.25} ${y-34} ${w*.5} ${y-6} T${w} ${y-18} L${w} ${h} L0 ${h}Z`,fill:INK,opacity:op||.2})}
+function hills16(g,w,h,y1,y2){if(typeof NOBG!=='undefined'&&NOBG)return;ridge(g,y1,110,0,w,6,INK,.15,h);ridge(g,y2,90,0,w,7,INK,.27,h)}
 function pole16(g,x,y,hh,col){el(g,'line',{x1:x,y1:y,x2:x,y2:y-hh,stroke:INK,'stroke-width':4});el(g,'path',{d:`M${x} ${y-hh} L${x+60} ${y-hh+14} L${x} ${y-hh+34}Z`,fill:col,opacity:.95})}
 function books16(g,x,y,n,w,h){for(let i=0;i<n;i++){const hh=h*(.75+rnd()*.25);el(g,'rect',{x:x+i*w,y:y-hh,width:w-3,height:hh,fill:INK,opacity:.8-.1*(i%3)});el(g,'line',{x1:x+i*w+4,y1:y-hh*.7,x2:x+i*w+w-8,y2:y-hh*.7,stroke:PAPER,'stroke-width':1.6,opacity:.4})}}
 Object.assign(A,{
@@ -1433,6 +1433,133 @@ t16_spr_voi_kl(){const s=setup(520,440);seed=1623;const g=el(s,'g',{filter:'url(
 t16_spr_voi_k(){const s=setup(520,440);seed=1623;const g=el(s,'g',{filter:'url(#ink)'});elephant(g,230,420,1.0,{walk:1,rider:0})},
 t16_spr_thuyenlon(){const s=setup(430,340);seed=1624;boatBig2(el(s,'g',{filter:'url(#ink)'}))},
 });
+
+let NOBG=false;
+function sol16(g,x,y,s,o={}){// lính chi tiết: bước chân, thắt lưng, tay áo, khăn/mũ trụ, vũ khí riêng
+ const k=el(g,'g',{transform:`translate(${x},${y}) scale(${o.flip?-s:s},${s})`});const C=INK,ao=o.ao||INK,st=o.st||0;
+ const L1=[[-6,-34,-16-st*8,-16,-20-st*10,0],[6,-34,10+st*10,-16,16+st*12,0]];
+ L1.forEach(([a,b,c,d,e,f])=>el(k,'path',{d:`M${a} ${b} L${c} ${d} L${e} ${f}`,stroke:C,'stroke-width':7,fill:'none','stroke-linecap':'round','stroke-linejoin':'round'}));
+ el(k,'path',{d:'M-14 -66 L14 -66 Q20 -48 17 -30 L-17 -30 Q-20 -48 -14 -66Z',fill:C});
+ el(k,'path',{d:'M-12 -64 L12 -64 Q17 -48 15 -33 L-15 -33 Q-17 -48 -12 -64Z',fill:ao,opacity:.9});
+ el(k,'path',{d:'M-16 -38 L16 -38',stroke:C,'stroke-width':4});
+ el(k,'path',{d:'M-8 -62 L0 -50 L8 -62',stroke:PAPER,'stroke-width':1.5,fill:'none',opacity:.5});
+ el(k,'path',{d:'M-17 -30 L-20 -18 L20 -18 L17 -30Z',fill:ao,opacity:.75});
+ el(k,'circle',{cx:1,cy:-77,r:10,fill:C});el(k,'path',{d:'M9 -79 l5 3 l-5 2',fill:C});
+ if(o.helm){el(k,'path',{d:'M-12 -80 Q1 -100 14 -80 L18 -76 L-16 -76Z',fill:C});el(k,'path',{d:'M-14 -78 Q-22 -70 -18 -60',stroke:C,'stroke-width':3,fill:'none'})}
+ else{el(k,'path',{d:'M-11 -83 Q1 -95 12 -83 L12 -78 L-11 -78Z',fill:C});el(k,'path',{d:'M-11 -80 Q-20 -76 -22 -66',stroke:C,'stroke-width':3,fill:'none'})}
+ const w=o.w||'spear';
+ if(w=='spear'){el(k,'path',{d:'M8 -58 L22 -46',stroke:C,'stroke-width':6,'stroke-linecap':'round'});el(k,'line',{x1:12,y1:4,x2:30,y2:-150,stroke:C,'stroke-width':3});el(k,'path',{d:'M27 -150 L33 -170 L35 -149Z',fill:C});if(o.tua)el(k,'path',{d:'M30 -146 q-8 10 -2 20',stroke:ao,'stroke-width':4,fill:'none'})}
+ if(w=='bow'){el(k,'path',{d:'M10 -60 L34 -62',stroke:C,'stroke-width':6,'stroke-linecap':'round'});el(k,'path',{d:'M34 -100 Q56 -62 34 -24',stroke:C,'stroke-width':3,fill:'none'});el(k,'line',{x1:34,y1:-100,x2:34,y2:-24,stroke:C,'stroke-width':1})}
+ if(w=='dao'){el(k,'path',{d:'M8 -58 L26 -86',stroke:C,'stroke-width':6,'stroke-linecap':'round'});el(k,'path',{d:'M26 -86 L40 -124 Q46 -120 32 -84Z',fill:C})}
+ if(w=='pole'){el(k,'line',{x1:-40,y1:-70,x2:40,y2:-70,stroke:C,'stroke-width':4});el(k,'path',{d:'M-46 -68 l-10 30 l20 0Z M46 -68 l-10 30 l20 0Z',fill:C,opacity:.85})}
+ if(o.shield){el(k,'ellipse',{cx:-16,cy:-46,rx:12,ry:19,fill:C});el(k,'ellipse',{cx:-16,cy:-46,rx:8,ry:14,fill:ao,opacity:.9});el(k,'circle',{cx:-16,cy:-46,r:3,fill:C})}
+ if(o.co){el(k,'line',{x1:-4,y1:0,x2:-8,y2:-210,stroke:C,'stroke-width':3});el(k,'path',{d:'M-8 -208 Q30 -200 62 -196 Q40 -186 64 -176 Q30 -176 -8 -170Z',fill:o.co,opacity:.95})}
+ return k}
+function famil16(g,x,y,s,o={}){// một nhà: người cha gánh, người mẹ đội thúng, đứa trẻ
+ const k=el(g,'g',{transform:`translate(${x},${y}) scale(${s})`});
+ sol16(k,0,0,1,{w:'pole',ao:o.ao||'#6b5a3a',st:o.st||0});
+ const m=el(k,'g',{transform:'translate(70,4) scale(.92)'});
+ el(m,'path',{d:'M-14 -64 L14 -64 Q22 -30 20 0 L-20 0 Q-22 -30 -14 -64Z',fill:INK});el(m,'path',{d:'M-11 -60 L11 -60 Q16 -34 15 -6 L-15 -6 Q-16 -34 -11 -60Z',fill:o.ao2||'#7a6a4a',opacity:.85});
+ el(m,'circle',{cx:0,cy:-76,r:10,fill:INK});el(m,'ellipse',{cx:0,cy:-92,rx:20,ry:7,fill:INK});el(m,'path',{d:'M-16 -92 Q0 -104 16 -92',fill:INK});
+ const c=el(k,'g',{transform:'translate(112,8) scale(.6)'});sol16(c,0,0,1,{w:'none',ao:'#8a7a5a',st:(o.st||0)*-1});
+ return k}
+function karst16(g,x,base,w,h,op){el(g,'path',{d:`M${x-w/2} ${base} Q${x-w/2} ${base-h*.7} ${x-w*.3} ${base-h*.95} Q${x} ${base-h*1.08} ${x+w*.28} ${base-h*.9} Q${x+w/2} ${base-h*.6} ${x+w/2} ${base}Z`,fill:INK,opacity:op});
+ el(g,'path',{d:`M${x-w*.15} ${base-h*.9} Q${x-w*.05} ${base-h*.5} ${x-w*.2} ${base-h*.2}`,stroke:PAPER,'stroke-width':3,fill:'none',opacity:.35})}
+function bamboo16(g,x,y,s,n){for(let i=0;i<n;i++){const xx=x+i*26*s,hh=(520+rnd()*260)*s,b=(rnd()-.5)*90*s;el(g,'path',{d:`M${xx} ${y} Q${xx+b*.4} ${y-hh*.5} ${xx+b} ${y-hh}`,stroke:INK,'stroke-width':9*s,fill:'none'});
+ for(let j=1;j<7;j++){const yy=y-hh*j/7,xb=xx+b*(j/7)**1.6;el(g,'line',{x1:xb-6*s,y1:yy,x2:xb+6*s,y2:yy,stroke:PAPER,'stroke-width':2.5*s,opacity:.6});
+  if(j>2)for(let q=0;q<3;q++){const d=(q%2?1:-1)*(40+rnd()*40)*s;el(g,'path',{d:`M${xb} ${yy} q${d*.45} ${-26*s} ${d} ${10*s} q${-d*.55} ${4*s} ${-d} ${-10*s}Z`,fill:INK,opacity:.9})}}}}
+function grass16(g,x,y,w,h,n){for(let i=0;i<n;i++){const xx=x+rnd()*w,hh=h*(.4+rnd()*.6),b=(rnd()-.5)*h*.6;el(g,'path',{d:`M${xx} ${y} Q${xx+b*.3} ${y-hh*.6} ${xx+b} ${y-hh}`,stroke:INK,'stroke-width':3+rnd()*3,fill:'none',opacity:.75})}}
+function blind16(g,x,y,w,h){for(let i=0;i<w/14;i++)el(g,'line',{x1:x+i*14,y1:y,x2:x+i*14,y2:y+h*(.86+rnd()*.14),stroke:INK,'stroke-width':4,opacity:.65});el(g,'rect',{x:x-10,y:y-16,width:w+20,height:18,fill:INK});
+ for(let j=1;j<4;j++)el(g,'line',{x1:x,y1:y+h*j/4,x2:x+w,y2:y+h*j/4,stroke:INK,'stroke-width':2,opacity:.5})}
+Object.assign(A,{
+t16_far(){const s=setup(3000,700);seed=1651;const g=el(s,'g',{filter:'url(#ink)'});
+ for(let i=0;i<11;i++)karst16(g,120+i*280+rnd()*90,640,170+rnd()*140,260+rnd()*240,.1+rnd()*.08);
+ for(let i=0;i<9;i++)karst16(g,250+i*330+rnd()*90,680,130+rnd()*110,170+rnd()*160,.2+rnd()*.06);
+ el(el(s,'g',{filter:'url(#wash)'}),'rect',{x:0,y:520,width:3000,height:180,fill:'#efe6d1',opacity:.6})},
+t16_mid(){const s=setup(3000,520);seed=1652;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,250,90,0,3000,9,INK,.3,520);
+ for(let i=0;i<26;i++){const x=rnd()*3000,y=230+rnd()*60;el(g,'line',{x1:x,y1:y,x2:x+(rnd()-.5)*20,y2:y-90-rnd()*60,stroke:INK,'stroke-width':4,opacity:.55});
+  for(let q=0;q<5;q++){const a=(q-2)*.6;el(g,'path',{d:`M${x} ${y-120} q${Math.cos(a)*30} ${-20+Math.sin(a)*10} ${Math.sin(a)*60} ${10}`,stroke:INK,'stroke-width':3,fill:'none',opacity:.55})}}
+ for(let r=0;r<5;r++)el(g,'path',{d:`M0 ${380+r*28} Q1500 ${370+r*30} 3000 ${384+r*28}`,stroke:INK,'stroke-width':2,fill:'none',opacity:.25});
+ for(let i=0;i<5;i++)village(g,300+i*600+rnd()*100,370,.55)},
+t16_frontL(){const s=setup(900,800);seed=1653;const g=el(s,'g',{filter:'url(#ink)'});bamboo16(g,60,800,1.0,6);grass16(g,0,800,700,260,60);el(g,'path',{d:'M0 800 Q120 650 340 700 Q500 740 620 800Z',fill:INK,opacity:.9})},
+t16_frontR(){const s=setup(900,800);seed=1654;const g=el(s,'g',{filter:'url(#ink)'});bamboo16(g,560,800,.9,5);grass16(g,200,800,700,240,60);el(g,'path',{d:'M300 800 Q420 700 640 690 Q820 690 900 760 L900 800Z',fill:INK,opacity:.9})},
+t16_inback(){const s=setup(2600,900);seed=1655;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'rect',{x:0,y:80,width:2600,height:820,fill:INK,opacity:.07});for(let i=0;i<8;i++){el(g,'rect',{x:120+i*330,y:60,width:30,height:840,fill:INK,opacity:.5})}
+ el(g,'path',{d:'M0 80 L2600 80 L2600 40 L0 40Z',fill:INK,opacity:.7});for(let i=0;i<40;i++)el(g,'line',{x1:i*66,y1:40,x2:i*66+20,y2:80,stroke:PAPER,'stroke-width':2,opacity:.3});
+ for(let i=0;i<3;i++){const x=400+i*800;el(g,'rect',{x:x,y:200,width:220,height:420,fill:PAPER,stroke:INK,'stroke-width':5,opacity:.8});for(let j=0;j<5;j++)el(g,'line',{x1:x+40+j*36,y1:240,x2:x+40+j*36,y2:580,stroke:INK,'stroke-width':4,opacity:.45})}},
+t16_inL(){const s=setup(700,1000);seed=1656;const g=el(s,'g',{filter:'url(#ink)'});el(g,'rect',{x:420,y:0,width:70,height:1000,fill:INK});blind16(g,40,20,360,560);el(g,'path',{d:'M0 1000 L0 820 Q300 790 700 840 L700 1000Z',fill:INK,opacity:.85})},
+t16_inR(){const s=setup(700,1000);seed=1657;const g=el(s,'g',{filter:'url(#ink)'});el(g,'rect',{x:210,y:0,width:70,height:1000,fill:INK});blind16(g,300,20,360,560);el(g,'path',{d:'M0 840 Q400 790 700 820 L700 1000 L0 1000Z',fill:INK,opacity:.85})},
+t16_spr_ngo(){const s=setup(760,300);seed=1661;const g=el(s,'g',{filter:'url(#ink)'});[[60,0],[170,1],[280,0],[390,1],[500,0],[610,1]].forEach(([x,i],n)=>sol16(g,x,286-(n%2)*12,1.0,{helm:1,ao:BAC,st:i?1:-1,shield:n%2,w:n==4?'bow':'spear',tua:1,co:n==2?BAC:0}))},
+t16_spr_cc(){const s=setup(760,300);seed=1662;const g=el(s,'g',{filter:'url(#ink)'});[[80,1],[190,0],[300,1],[410,0],[520,1],[630,0]].forEach(([x,i],n)=>sol16(g,x,286-(n%2)*12,1.0,{flip:1,ao:VIET,st:i?1:-1,w:['dao','spear','bow','spear','dao','spear'][n],co:n==3?VIET:0}))},
+t16_spr_1ngo(){const s=setup(160,300);seed=1663;sol16(el(s,'g',{filter:'url(#ink)'}),70,290,1.0,{helm:1,ao:BAC,w:'spear'})},
+t16_spr_1cc(){const s=setup(160,300);seed=1664;sol16(el(s,'g',{filter:'url(#ink)'}),80,290,1.0,{flip:1,ao:VIET,w:'dao'})},
+t16_spr_ngo1(){const s=setup(160,300);seed=1665;sol16(el(s,'g',{filter:'url(#ink)'}),70,290,1.0,{helm:1,ao:BAC,w:'spear',st:1,shield:1})},
+t16_spr_ccco(){const s=setup(200,320);seed=1666;sol16(el(s,'g',{filter:'url(#ink)'}),80,310,1.0,{ao:VIET,w:'none',co:VIET,st:1})},
+t16_spr_dan(){const s=setup(420,240);seed=1667;famil16(el(s,'g',{filter:'url(#ink)'}),70,230,1.0,{st:1})},
+t16_spr_dan2(){const s=setup(420,240);seed=1668;famil16(el(s,'g',{filter:'url(#ink)'}),70,230,1.0,{st:-1,ao:'#5a5040',ao2:'#6b604a'})},
+t16_spr_quy(){const s=setup(260,200);seed=1669;const g=el(s,'g',{filter:'url(#ink)'});const k=el(g,'g',{transform:'translate(120,190)'});
+ el(k,'path',{d:'M-30 0 Q-34 -30 -16 -50 L10 -46 Q22 -30 26 0Z',fill:INK});el(k,'path',{d:'M-26 -4 Q-28 -28 -14 -44 L8 -42 Q18 -26 20 -4Z',fill:'#6b5a3a',opacity:.85});
+ el(k,'circle',{cx:18,cy:-58,r:10,fill:INK});el(k,'path',{d:'M8 -40 L46 -24',stroke:INK,'stroke-width':6,'stroke-linecap':'round'});el(k,'line',{x1:-70,y1:-14,x2:110,y2:-26,stroke:INK,'stroke-width':3});el(k,'path',{d:'M110 -30 L130 -27 L110 -22Z',fill:INK})},
+t16_spr_ngua(){const s=setup(300,280);seed=1670;const g=el(s,'g',{filter:'url(#ink)'});horse(g,140,270,1.0,{run:1,quan:1});el(g,'path',{d:'M126 -0',fill:'none'})},
+t16_spr_thuyen(){const s=setup(300,260);seed=1671;const g=el(s,'g',{filter:'url(#ink)'});el(g,'path',{d:'M20 200 Q40 236 90 240 L220 240 Q270 232 286 196 L240 206 L50 206Z',fill:INK});el(g,'rect',{x:146,y:40,width:6,height:170,fill:INK});
+ el(g,'path',{d:'M152 50 Q220 80 230 180 L152 186Z',fill:'#2b2620',opacity:.85});for(let i=1;i<5;i++)el(g,'line',{x1:152,y1:50+i*30,x2:170+i*14,y2:52+i*31,stroke:PAPER,'stroke-width':2,opacity:.4});el(g,'path',{d:'M146 44 L110 54 L146 64Z',fill:BAC})},
+t16_spr_quan(){const s=setup(260,240);seed=1672;const g=el(s,'g',{filter:'url(#ink)'});fig(g,110,230,1.2,{sit:1,hat:'quan',arm:'M14 -56 L60 -44'});el(g,'line',{x1:170,y1:166,x2:186,y2:140,stroke:INK,'stroke-width':3})},
+t16_spr_ba(){const s=setup(260,300);seed=1673;const g=el(s,'g',{filter:'url(#ink)'});sol16(g,120,290,1.15,{ao:'#c9a227',w:'none',co:VIET,st:0})},
+t16_spr_dau(){const s=setup(220,160);seed=1674;const g=el(s,'g',{filter:'url(#ink)'});for(let i=0;i<14;i++){const x=20+rnd()*180,a=(rnd()-.5)*1.2;el(g,'line',{x1:x,y1:150,x2:x+Math.sin(a)*130,y2:150-Math.cos(a)*120,stroke:INK,'stroke-width':3})}for(let i=0;i<4;i++)el(g,'ellipse',{cx:40+i*45,cy:140,rx:20,ry:28,fill:INK,opacity:.85})},
+t16_spr_khach(){const s=setup(520,220);seed=1675;const g=el(s,'g',{filter:'url(#ink)'});[60,150,240,330,420].forEach((x,i)=>{const k=el(g,'g',{transform:`translate(${x},210)`});el(k,'path',{d:'M-22 0 Q-26 -38 -14 -60 L14 -60 Q26 -38 24 0Z',fill:INK});el(k,'path',{d:'M-18 -4 Q-22 -36 -12 -56 L12 -56 Q22 -36 20 -4Z',fill:['#6b5a3a','#5a5040','#7a6a4a','#6b604a','#5d5038'][i],opacity:.85});el(k,'circle',{cx:0,cy:-72,r:10,fill:INK})})},
+});
+for(const n of ['voi1','trusoo','so','luudai','sulien','thu','chiemthanh','lucdan','rahang','bovukhi','noilen','voi2','dep','thutu','den','sunguyen','sachtong','hoangduong','haicot','ke','cuoi'])
+ A['t16x_'+n]=function(){NOBG=true;try{A['t16_'+n]()}finally{NOBG=false}};
+
+function drum13(g,x,y,s){const k=el(g,'g',{transform:`translate(${x},${y}) scale(${s})`});
+ el(k,'path',{d:'M-70 0 L-60 -60 Q-80 -70 -76 -90 L76 -90 Q80 -70 60 -60 L70 0Z',fill:INK});
+ el(k,'ellipse',{cx:0,cy:-90,rx:78,ry:16,fill:'#3a3328'});for(let r=1;r<4;r++)el(k,'ellipse',{cx:0,cy:-90,rx:20*r,ry:4*r,fill:'none',stroke:PAPER,'stroke-width':1.5,opacity:.5});
+ for(let i=0;i<10;i++){const a=i/10*Math.PI*2;el(k,'line',{x1:0,y1:-90,x2:Math.cos(a)*14,y2:-90+Math.sin(a)*3,stroke:PAPER,'stroke-width':1.5,opacity:.6})}
+ for(let j=0;j<3;j++)el(k,'path',{d:`M-64 ${-50+j*14} L64 ${-50+j*14}`,stroke:PAPER,'stroke-width':1.4,opacity:.35});return k}
+Object.assign(A,{
+t13_far(){const s=setup(3000,700);seed=1381;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,430,230,0,3000,7,INK,.1,700);ridge(g,520,150,0,3000,9,INK,.17,700);
+ el(g,'path',{d:'M0 610 Q800 570 1500 600 T3000 590 L3000 640 Q1500 650 0 650Z',fill:'#efe6d1',opacity:.9});
+ el(el(s,'g',{filter:'url(#wash)'}),'rect',{x:0,y:540,width:3000,height:160,fill:'#efe6d1',opacity:.55})},
+t13_mid(){const s=setup(3000,520);seed=1382;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,300,60,0,3000,10,INK,.22,520);
+ for(let i=0;i<7;i++){const x=200+i*430+rnd()*80;tree(g,x,330,.9+rnd()*.3);}
+ for(let i=0;i<6;i++){const x=400+i*480;for(let j=0;j<9;j++)el(g,'line',{x1:x+j*16,y1:340,x2:x+j*16+rnd()*10-5,y2:250-rnd()*40,stroke:INK,'stroke-width':5,opacity:.6});village(g,x+60,350,.6)}
+ for(let r=0;r<6;r++)el(g,'path',{d:`M0 ${380+r*22} Q1500 ${372+r*24} 3000 ${384+r*22}`,stroke:INK,'stroke-width':2,fill:'none',opacity:.22});
+ for(let i=0;i<40;i++){const x=rnd()*3000,y=390+rnd()*120;el(g,'path',{d:`M${x} ${y} l6 -16 l6 16`,stroke:INK,'stroke-width':2.5,fill:'none',opacity:.4})}},
+t13_frontL(){const s=setup(900,800);seed=1383;const g=el(s,'g',{filter:'url(#ink)'});
+ for(let i=0;i<5;i++){const x=60+i*70,h=380+rnd()*200;el(g,'path',{d:`M${x} 800 Q${x+10} ${800-h*.6} ${x+30} ${800-h}`,stroke:INK,'stroke-width':10,fill:'none'});
+  el(g,'path',{d:`M${x+30} ${800-h} q${120+rnd()*60} ${-40} ${220} ${40} q-110 ${20} -220 ${-40}Z`,fill:INK,opacity:.88});el(g,'path',{d:`M${x+30} ${800-h} l200 ${30}`,stroke:PAPER,'stroke-width':2,opacity:.4})}
+ grass16(g,0,800,800,260,70);el(g,'path',{d:'M0 800 Q160 660 380 700 Q560 740 680 800Z',fill:INK,opacity:.9})},
+t13_frontR(){const s=setup(900,800);seed=1384;const g=el(s,'g',{filter:'url(#ink)'});grass16(g,150,800,750,300,90);
+ for(let i=0;i<12;i++){const x=400+rnd()*480,h=200+rnd()*200;el(g,'path',{d:`M${x} 800 L${x+rnd()*20-10} ${800-h}`,stroke:INK,'stroke-width':3,opacity:.8});el(g,'ellipse',{cx:x,cy:800-h,rx:6,ry:22,fill:INK,opacity:.8})}
+ el(g,'path',{d:'M250 800 Q420 700 640 690 Q820 690 900 760 L900 800Z',fill:INK,opacity:.9})},
+t13_inback(){const s=setup(2600,900);seed=1385;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'rect',{x:0,y:90,width:2600,height:810,fill:INK,opacity:.08});for(let i=0;i<7;i++)el(g,'rect',{x:180+i*370,y:60,width:36,height:840,fill:'#5a1e17',opacity:.75});
+ el(g,'path',{d:'M0 90 L2600 90 L2600 30 L0 30Z',fill:INK,opacity:.75});for(let i=0;i<30;i++)el(g,'path',{d:`M${i*90} 30 l45 30 l45 -30`,stroke:PAPER,'stroke-width':2,fill:'none',opacity:.3});
+ for(let i=0;i<2;i++){const x=600+i*1100;el(g,'rect',{x:x,y:220,width:300,height:380,fill:PAPER,stroke:INK,'stroke-width':6,opacity:.75});for(let r=0;r<6;r++)for(let c=0;c<5;c++)el(g,'rect',{x:x+30+c*52,y:250+r*56,width:36,height:40,fill:'none',stroke:INK,'stroke-width':3,opacity:.5})}},
+t13_inL(){const s=setup(700,1000);seed=1386;const g=el(s,'g',{filter:'url(#ink)'});el(g,'rect',{x:400,y:0,width:80,height:1000,fill:'#3d1712'});el(g,'path',{d:'M0 0 Q200 60 380 20 L380 420 Q220 470 0 420Z',fill:'#7a2a1e',opacity:.75});el(g,'path',{d:'M0 1000 L0 830 Q300 800 700 850 L700 1000Z',fill:INK,opacity:.85})},
+t13_inR(){const s=setup(700,1000);seed=1387;const g=el(s,'g',{filter:'url(#ink)'});el(g,'rect',{x:220,y:0,width:80,height:1000,fill:'#3d1712'});el(g,'path',{d:'M700 0 Q500 60 320 20 L320 420 Q480 470 700 420Z',fill:'#7a2a1e',opacity:.75});el(g,'path',{d:'M0 850 Q400 800 700 830 L700 1000 L0 1000Z',fill:INK,opacity:.85})},
+t13_spr_han(){const s=setup(760,300);seed=1391;const g=el(s,'g',{filter:'url(#ink)'});[60,170,280,390,500,610].forEach((x,n)=>sol16(g,x,286-(n%2)*12,1.0,{helm:1,ao:BAC,st:n%2?1:-1,shield:(n+1)%2,w:n==1||n==4?'bow':'spear',tua:1,co:n==3?BAC:0}))},
+t13_spr_trung(){const s=setup(760,300);seed=1392;const g=el(s,'g',{filter:'url(#ink)'});[80,190,300,410,520,630].forEach((x,n)=>sol16(g,x,286-(n%2)*12,1.0,{flip:1,ao:VIET,st:n%2?-1:1,w:['bow','spear','dao','bow','spear','dao'][n],shield:n==2,co:n==1?VIET:0}))},
+t13_spr_1han(){const s=setup(160,300);seed=1393;sol16(el(s,'g',{filter:'url(#ink)'}),70,290,1.0,{helm:1,ao:BAC,w:'spear',shield:1})},
+t13_spr_1trung(){const s=setup(160,300);seed=1394;sol16(el(s,'g',{filter:'url(#ink)'}),80,290,1.0,{flip:1,ao:VIET,w:'bow'})},
+t13_spr_trungco(){const s=setup(200,320);seed=1395;sol16(el(s,'g',{filter:'url(#ink)'}),80,310,1.0,{ao:VIET,w:'none',co:VIET,st:-1})},
+t13_spr_dan(){const s=setup(420,240);seed=1396;famil16(el(s,'g',{filter:'url(#ink)'}),70,230,1.0,{st:1,ao:'#5b5340',ao2:'#6e6046'})},
+t13_spr_trai(){const s=setup(520,240);seed=1397;const g=el(s,'g',{filter:'url(#ink)'});for(let i=0;i<4;i++)sol16(g,60+i*110,230,.9,{w:'none',ao:'#5b5340',st:i%2?1:-1});el(g,'path',{d:'M40 120 Q100 140 160 120 T270 120 T380 120 T490 120',stroke:INK,'stroke-width':3,fill:'none'})},
+t13_spr_dinh(){const s=setup(320,300);seed=1398;const g=el(s,'g',{filter:'url(#ink)'});horse(g,150,290,1.05,{run:1,quan:1});el(g,'path',{d:'M128 120 q-30 -10 -60 6',stroke:BAC,'stroke-width':10,fill:'none','stroke-linecap':'round'})},
+t13_spr_mavien(){const s=setup(340,320);seed=1399;const g=el(s,'g',{filter:'url(#ink)'});horse(g,160,310,1.1,{mong:0});el(g,'path',{d:'M140 140 Q100 170 80 230 L130 200Z',fill:BAC,opacity:.9});el(g,'line',{x1:170,y1:150,x2:200,y2:-0,stroke:INK,'stroke-width':4})},
+t13_spr_thuyen(){const s=setup(420,220);seed=1400;const g=el(s,'g',{filter:'url(#ink)'});el(g,'path',{d:'M10 150 Q210 214 410 150 L380 116 L40 116Z',fill:INK});for(let j=0;j<5;j++)el(g,'ellipse',{cx:90+j*60,cy:104,rx:26,ry:16,fill:'#6b5a3a',stroke:INK,'stroke-width':3});
+ el(g,'rect',{x:206,y:10,width:6,height:110,fill:INK});el(g,'path',{d:'M212 18 Q270 40 276 104 L212 108Z',fill:'#2b2620',opacity:.85});el(g,'path',{d:'M206 14 L170 24 L206 34Z',fill:BAC})},
+t13_spr_haiba(){const s=setup(360,360);seed=1401;const g=el(s,'g',{filter:'url(#ink)'});woman(g,120,350,1.6,{});woman(g,240,350,1.5,{arm:'M-10 -60 L-36 -130'});el(g,'line',{x1:300,y1:350,x2:300,y2:60,stroke:INK,'stroke-width':4});el(g,'path',{d:'M300 62 Q340 70 360 76 Q336 88 358 100 Q330 100 300 104Z',fill:VIET})},
+t13_spr_trong(){const s=setup(200,140);seed=1402;drum13(el(s,'g',{filter:'url(#ink)'}),100,130,1.0)},
+t13_spr_quan(){const s=setup(200,260);seed=1403;const g=el(s,'g',{filter:'url(#ink)'});fig(g,100,250,1.15,{hat:'quan',arm:'M14 -56 L44 -40'})},
+t13_spr_ngua(){const s=setup(240,240);seed=1404;const g=el(s,'g',{filter:'url(#ink)'});const k=el(g,'g',{transform:'translate(110,230) scale(.9)'});
+ el(k,'rect',{x:-80,y:-20,width:180,height:20,fill:INK});horse(k,10,-20,1.0,{empty:1});el(k,'path',{d:'M-50 -80 q60 -20 120 0',stroke:'#8a6a2a','stroke-width':6,fill:'none',opacity:.6})},
+});
+for(const n of ['chay','phu','tat','lang','hoi','troi','trieu','vien','thuyenluong','langbac','hang','roi','camkhe','hat','sach','lo','ngua','thanh65','cuoi'])
+ A['t13x_'+n]=function(){NOBG=true;try{A['t13_'+n]()}finally{NOBG=false}};
 
 window.A=A;window.sealDraw=sealDraw;
 </script></body></html>

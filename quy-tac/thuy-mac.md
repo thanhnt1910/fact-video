@@ -306,6 +306,7 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 
 ## 7. Ghi chú kỹ thuật cho Claude
 - **Nhánh làm việc dùng sparse checkout.** Khi thêm file mới (kịch bản, giọng, mã), chạy `git sparse-checkout add '<đường dẫn>'` cho đúng mẫu đường dẫn. Nếu không, lần `sparse-checkout add` sau sẽ xóa các file ấy khỏi thư mục làm việc. Ở tm2, `tm2_full.json` từng biến mất vì lỗi này.
+- **Cách dựng cảnh nhiều lớp (từ 20/11/2026, mẫu `dai_tm16.py`, `dai_tm13.py`):** mỗi tập vẽ bộ lớp riêng `tNN_far` (núi xa, đặt `k=.35`), `tNN_mid` (đồng, làng, `k=.62`), `tNN_frontL/frontR` (cây tiền cảnh, `k=1.3`, đung đưa), cảnh trong nhà `tNN_inback` (`k=.5`) và `tNN_inL/inR`; sương hai tầng `k=.5` và `1.1`. Tranh vật chính vẽ bản tách nền `tNNx_<tên>` (gọi lại hàm tranh với cờ `NOBG=true`, bỏ `ridge`, `hills16`, `gnd16`) để đặt chồng lên các lớp. Người, quân, thuyền đi bằng hàm `di()` (nhún bước, lắc riêng từng vật, mốc theo câu `sb(n,k)`); lính vẽ bằng `sol16()` (bước chân, áo màu phe, vũ khí riêng); trận dùng `clash(..., pre='tNN_spr_')` với hình nhỏ của tập. Mặt đất của người khoảng y 830–900 để không bị phụ đề che. Phụ đề từng câu không chồng nhau (mờ vào và mờ ra trong khoảng của câu).
 - `CLAUDE.md` đã được tái cấu trúc ngày 18/11/2026 (chỉ điều phối); quy tắc chung nằm ở `quy-tac/`. Sửa quy tắc chung: theo mục 5 của `CLAUDE.md`.
 
 ## 8. Khuôn mở đầu đã dùng của series

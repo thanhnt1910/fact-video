@@ -2,7 +2,7 @@
 
 Theo mạch truyện `tm17-ly-bi-mach-truyen-20-11.md` đã duyệt 20/11: hook 1, kể gọn năm 545–548, giữ câu "nhiều bài viết ngày nay kể khác", màu quân theo đề xuất, có lời cảm ơn.
 
-31 đoạn, 1.305 chữ, ước khoảng 6,5 phút (tm16 đọc 997 chữ hết 4 phút 53 giây). File máy đọc: `ke-hoach/thu-giong-hai/tm17_full.json` (mã 197001–197031); năm 541, 543, 544, 545, 548 ghi bằng số ở trường `tts`.
+31 đoạn, 1.320 chữ, ước khoảng 6,5 phút (tm16 đọc 997 chữ hết 4 phút 53 giây). File máy đọc: `ke-hoach/thu-giong-hai/tm17_full.json` (mã 197001–197031); năm 541, 543, 544, 545, 548 ghi bằng số ở trường `tts`.
 
 ## 1. Lời đọc
 
@@ -10,9 +10,9 @@ Theo mạch truyện `tm17-ly-bi-mach-truyen-20-11.md` đã duyệt 20/11: hook 
 
 Không có trận đánh nào cả. Vậy mà sau đó, hai viên tướng cầm đạo quân ấy bị chính vua của mình bắt phải chết, và từ vụ ấy nổi lên người về sau sẽ đánh bại Lý Bí.
 
-Chuyện gì đã xảy ra trên con đường hành quân ấy? Mọi việc bắt đầu từ cách nhà Lương giao vùng đất phía nam cho người trong họ nhà vua.
+Chuyện gì đã xảy ra trên con đường hành quân ấy? Mọi việc bắt đầu từ cách nhà Lương giao vùng đất phía nam cho chính họ hàng của nhà vua.
 
-Hơn một nghìn bốn trăm năm trước, vùng đồng bằng sông Hồng có tên là Giao Châu và đang nằm dưới sự cai trị của nhà Lương, một triều đại ở miền nam Trung Hoa. Người đứng đầu Giao Châu khi ấy là Tiêu Tư trong họ nhà vua Lương, và theo sử chép, ông ta cai trị hà khắc đến mức mất lòng dân.
+Hơn một nghìn bốn trăm năm trước, vùng đồng bằng sông Hồng có tên là Giao Châu và đang nằm dưới sự cai trị của nhà Lương, một triều đại ở miền nam Trung Hoa. Người được cử sang đứng đầu Giao Châu là Tiêu Tư, cháu của vua Lương, và sử chép rằng ông ta cai trị hà khắc đến mức mất lòng dân.
 
 Lý Bí là con nhà có thế lực ở địa phương. Theo Toàn thư, tổ tiên ông vốn là người phương bắc, tránh loạn sang đây từ cuối đời Tây Hán, tới đời ông đã bảy đời và thành người phương nam.
 
@@ -28,7 +28,7 @@ Một viên quan được vua giao giữ cả vùng đất lại phải mua đư
 
 Nhà Lương không chịu để Giao Châu thoát khỏi tay mình. Vua Lương sai hai viên tướng là Tôn Quýnh và Lư Tử Hùng đem quân sang lấy lại, đặt dưới quyền các viên quan nhà Lương đang ở Quảng Châu, trong đó có chính Tiêu Tư.
 
-Hai tướng xin đợi tới mùa thu, vì lúc ấy là mùa xuân, cỏ cây vừa mọc và dịch bệnh vùng nóng ẩm đang nổi lên. Viên quan đứng đầu Quảng Châu là Tiêu Ánh, cũng người trong họ nhà vua, không cho, còn Tiêu Tư thì hối thúc phải đi ngay.
+Hai tướng xin đợi tới mùa thu, vì lúc ấy là mùa xuân, cỏ cây vừa mọc và dịch bệnh vùng nóng ẩm đang nổi lên. Viên quan đứng đầu Quảng Châu là Tiêu Ánh, một người cháu khác của vua Lương, không cho, còn Tiêu Tư thì hối thúc phải đi ngay.
 
 Không cãi được lệnh, hai tướng đành dẫn quân lên đường. Tới Hợp Phố, vùng ven biển nay thuộc Quảng Tây, cứ mười người lính thì sáu bảy người đã chết vì bệnh, số còn lại chán ngán việc binh mà tan chạy, ngăn không nổi.
 
@@ -38,7 +38,7 @@ Thất bại ấy phải có người gánh tội. Tiêu Tư tâu lên vua Lươ
 
 Người hối thúc quân đi giữa mùa dịch là Tiêu Tư, và người tâu tội hai tướng cũng là Tiêu Tư. Sử không chép vua Lương có thấy điều đó hay không, chỉ chép rằng lời tâu được tin.
 
-Cái chết của hai tướng không dừng ở đó. Em trai Lư Tử Hùng cùng những thuộc tướng cũ của ông kéo quân vây đánh Quảng Châu ngày đêm, đòi giết hai viên quan họ nhà vua để báo thù cho chủ.
+Cái chết của hai tướng không dừng ở đó. Em trai Lư Tử Hùng cùng những thuộc tướng cũ của ông kéo quân vây đánh Quảng Châu ngày đêm, đòi giết hai người cháu của vua Lương để báo thù cho chủ.
 
 Lúc ấy, viên quan coi vùng Cao Yếu gần Quảng Châu là Trần Bá Tiên. Ông đem ba nghìn quân tinh nhuệ tới cứu, phá tan vòng vây và bắt sống hai viên tướng của quân nổi loạn.
 
@@ -58,9 +58,9 @@ Người từng bị nhà Lương cho đi canh cổng thành nay giữ chức l�
 
 Năm năm trăm bốn mươi lăm, nhà Lương lại cử Dương Phiêu sang làm người đứng đầu Giao Châu, và người cầm quân đi theo chính là Trần Bá Tiên.
 
-Một viên quan khác trong họ nhà vua thấy lính sợ đi xa nên tìm cách trì hoãn. Theo sử chép, Trần Bá Tiên nói Giao Chỉ làm phản là lỗi của người trong họ nhà vua, nhưng đã nhận lệnh đi đánh thì phải sống chết với việc ấy, rồi dẫn quân đi trước làm tiên phong.
+Một viên quan khác cũng là họ hàng của vua Lương thấy lính sợ đi xa nên tìm cách trì hoãn. Theo sử chép, Trần Bá Tiên nói Giao Chỉ làm phản là lỗi của chính họ hàng nhà vua, nhưng đã nhận lệnh đi đánh thì phải sống chết với việc ấy, rồi dẫn quân đi trước làm tiên phong.
 
-Lời ấy khớp với những gì đã xảy ra. Người làm mất Giao Châu, người hối thúc quân đi giữa mùa dịch và người đổ tội cho hai tướng đều là người trong họ nhà vua Lương.
+Lời ấy khớp với những gì đã xảy ra. Người làm mất Giao Châu, người hối thúc quân đi giữa mùa dịch và người đổ tội cho hai tướng đều là họ hàng của vua Lương.
 
 Khoảng ba vạn quân của Lý Nam Đế ra chặn, nhưng thua quân nhà Lương ở Chu Diên, rồi thua tiếp ở cửa sông Tô Lịch, và ông phải lui vào giữ thành Gia Ninh.
 
@@ -105,6 +105,9 @@ Nhãn đọc mạnh chỉ ở đoạn 9 (nổi dậy), 13 (Hợp Phố), 17–18
 - Câu kết: "Đạo quân đầu tiên của nhà Lương tan vì dịch bệnh và một lệnh hối thúc, còn đạo quân thứ hai thì do người bước lên từ chính sai lầm ấy dẫn đầu. Cảm ơn bạn đã lắng nghe."
 - Khuôn mở đầu: sự kiện bất ngờ (đạo quân tan trước khi gặp đối thủ), chưa dùng ở tm11–tm16.
 - Từ Hán Việt đã đổi: chướng khí → dịch bệnh vùng nóng ẩm; thứ sử → người đứng đầu Giao Châu; hào trưởng → người có thế lực ở địa phương; Quảng Dương môn lang → người canh cổng thành; tiền phong giữ "tiên phong" (từ quen).
+
+- Quan hệ với vua Lương (sửa 20/11 theo chủ kênh): Tiêu Tư và Tiêu Ánh nói là "cháu của vua Lương" (con các em trai Lương Vũ Đế theo Lương thư q.22 và tài liệu thứ cấp; lời kể chỉ nói "cháu", không nói rõ cháu ruột). Tiêu Bột nói chung là "họ hàng của vua Lương". Câu của Trần Bá Tiên (罪由宗室) dịch là "lỗi của chính họ hàng nhà vua".
+- Giao Châu "đang nằm dưới sự cai trị của nhà Lương", không nói "thuộc nhà Lương".
 
 ## 5. Kết quả bộ kiểm
 

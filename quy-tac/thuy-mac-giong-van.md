@@ -91,3 +91,21 @@ Chủ kênh thấy bd2 "nghe vẫn hợp lý" và yêu cầu các tập sau tham
 - Trước: "...và ông ta tính đổi cách, chặn đường lương, vây cho lâu. Đây là chỗ hiểm của cách đánh trong đầm." Sau: "...và ông ta tính đổi cách đánh. Thay vì cố đánh vào đầm, ông định chặn hết đường tiếp lương rồi vây thật lâu. Đây chính là điểm yếu của cách đánh trong đầm, vì quân Dạ Trạch sống nhờ lương cướp từ trại giặc..."
 
 **Kiểm:** `python phim_ban_do/kiem_cau_cut.py <mã>` phải 0 ❌ trước khi gửi duyệt. Cảnh báo "nhiều hơn 3 dấu phẩy" của `kiem_kich_ban.py` cũng không được ghi "chấp nhận" khi câu đó là chuỗi vế cụt; phải sửa.
+
+## 6. Kể bằng cảnh, không liệt kê theo sách (chủ kênh nhắc 20/11/2026, tm17 bản 1–2; áp dụng mọi kịch bản từ nay)
+Chủ kênh chê: kịch bản "chỉ dạng liệt kê, dịch nguyên theo sách và thêm các câu phân tích chưa đủ sáng tạo cũng như hấp dẫn". Nguyên nhân đã rút ra:
+1. Bám thứ tự từng mục của Toàn thư ("năm X, ai làm Y"), mỗi đoạn một mục.
+2. Câu gần như dịch lại câu sử, chỉ thay từ Hán Việt.
+3. Phân tích là câu "có thể hiểu là…" gắn thêm sau sự việc, không dẫn chuyện.
+4. Không có cảnh, không có câu hỏi treo; đoạn nào cũng tự trọn vẹn.
+5. Quy tắc gộp đoạn ngắn, chống câu cụt làm câu nào cũng dài đều, hai vế.
+
+Cách viết:
+- **Một điểm nhấn của nhân vật chính làm khung** (`nguyen-tac-cot-loi.md` mục 10c): mở bằng nó, nhắc lại ở giữa, khép ở cuối.
+- **Mỗi chương mở bằng một khoảnh khắc có người, có việc** ("Cùng thời ấy, một người Giao Châu tên Tinh Thiều lên tận kinh đô…"), không mở bằng "Năm X, Y làm Z".
+- **Phân tích nằm trong cách đặt sự việc cạnh nhau**, câu tương phản, câu nối hệ quả ("Thành Long Biên đổi chủ gần như không đổ máu. Nhưng nhà Lương sẽ quay lại…"), hạn chế câu "có thể hiểu là" đứng riêng.
+- **Câu treo cuối chương**: để lại một việc chưa xong ("Mấy năm sau, cái tên ấy sẽ xuất hiện ở Giao Châu."; "Hãy nhớ thứ khí độc ấy, vì nó sẽ còn quay lại").
+- **Nới câu ngắn (chủ kênh duyệt 20/11/2026, ưu tiên hơn mục "đoạn dưới 14 chữ phải gộp" khi viết series thủy mặc):** được dùng câu ngắn có chủ ý để nhấn ("Không có trận đánh nào ở Hợp Phố."; "Tinh Thiều bỏ về."), miễn câu có người hoặc việc rõ ràng và nối được với câu trước. Mỗi đoạn vẫn tối đa 32 chữ và hai câu (bộ kiểm không đổi).
+- **Cắt các danh sách**: chức quan, tên phụ của phía địch chỉ giữ khi cần cho chuyện.
+- Giữ nguyên các giới hạn: không bịa lời thoại, suy nghĩ, chi tiết; chỗ nào chỉ một bộ sử chép thì nói rõ.
+- Mẫu: `ke-hoach/tm17-van-xuoi-ban3.txt` (so với bản 1, bản 2 để thấy khác biệt).

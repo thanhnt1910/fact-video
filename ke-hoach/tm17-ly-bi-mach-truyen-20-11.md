@@ -132,3 +132,7 @@ Cả ba đúng sự thật. Phương án 1 và 3 có tên Lý Bí ở câu đầ
 ## Sửa trục kể (20/11/2026, chủ kênh chốt)
 
 Bản 1 kể song song chuyện Lý Bí và chuyện nội bộ nhà Lương, nên không có cốt truyện rõ. Chủ đề kênh là trận đánh giữ nước, vì vậy trục mới là **ba lần chính quyền Lý Bí bị đánh**: lần một (nhà Lương, tan ở Hợp Phố, không đánh), lần hai (Lâm Ấp, Phạm Tu thắng ở Cửu Đức), lần ba (nhà Lương năm 545, Trần Bá Tiên, thua). Câu hỏi ở hook: hai lần đầu giữ được, vì sao lần ba thì không. Chuyện đổ tội và vây Quảng Châu rút còn ba đoạn, chỉ để giới thiệu Trần Bá Tiên.
+
+## Bản 3: khung bí ẩn cái chết của Lý Nam Đế (20/11/2026, chủ kênh duyệt hướng)
+
+Điểm nhấn đặt ở nhân vật chính: Toàn thư chép ông ốm nhiều ngày vì khí độc núi rừng rồi mất ở động Khuất Lão (NK 4/18a); Trần thư và Nam sử chép người Khuất Lão chém ông, gửi đầu về kinh. Khí độc ấy cũng là thứ làm tan đạo quân nhà Lương ở Hợp Phố (Trần thư: 瘴癘方起). Mở bằng bí ẩn, nhắc lại sau Hợp Phố ("hãy nhớ thứ khí độc ấy"), khép ở cuối. Trục ba lần bị đánh giữ nguyên. Trần Bá Tiên chỉ được nhắc đủ để hiểu lần thứ ba. Bỏ chùa Khai Quốc (không có trong Toàn thư).

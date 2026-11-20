@@ -109,6 +109,16 @@ Kể lịch sử mà chỉ liệt kê sự việc thì không đủ cuốn. Mọ
 - Gửi duyệt cổng C kèm bảng phân tích (đoạn, câu phân tích, dựa vào sự việc nào và nguồn nào, rào đón ở chữ nào).
 - Mẫu: `ke-hoach/tm11m-v3-gui-duyet-18-11.md` mục 3.
 
+## 10c. Mỗi video phải có điểm nhấn, đặt ở nhân vật chính (chủ kênh quyết 20/11/2026, từ tm17 Lý Bí)
+Chỉ kể theo sử rồi thêm phân tích thì không giữ được người xem. Mỗi video phải có ít nhất một điểm nhấn có nguồn, chọn ở bước tìm câu chuyện (mục 4) và ghi trong mạch truyện:
+1. Bí ẩn hoặc chỗ các bộ sử chép khác nhau về chính nhân vật chính (ví dụ tm17: Toàn thư chép Lý Nam Đế ốm vì khí độc núi rừng rồi mất ở động Khuất Lão, Trần thư chép người trong động chém ông).
+2. Chi tiết lạ có trong sử nhưng sách phổ thông bỏ qua (gốc gác, việc nhỏ có hệ quả lớn).
+3. Nhân vật phụ phía ta có số phận đáng kể (Tinh Thiều bị cho canh cổng thành rồi thành quan lớn của Vạn Xuân).
+4. Dấu vết còn đến nay (nơi chốn, tên gọi, đền chùa), nói rõ nếu chỉ là truyền lại.
+5. Điều bị hiểu nhầm: sử cũ chép khác cách người ta hay kể.
+- **Video sử Việt: điểm nhấn phải nằm ở nhân vật chính hoặc phía ta, không đặt vào phía xâm lược** (không lấy số phận tướng giặc làm khung câu chuyện). Phía xâm lược chỉ xuất hiện đủ để hiểu chuyện.
+- Điểm nhấn làm khung cho cả video: mở bằng nó, nhắc lại ở giữa (một câu "hãy nhớ…" hoặc một chi tiết quay lại), giải hoặc khép ở cuối. Không được biến giả thuyết thành sự thật; chỗ sử chưa phân xử thì nói thẳng.
+
 ## 11. Quy trình viết (bốn bước)
 
 **Bước 1. Tìm câu chuyện.** Chưa viết câu chữ. Nghiên cứu, ghi các sự việc có nguồn. Tìm mâu thuẫn, điều bất ngờ, lựa chọn của con người, điều khiến sự kiện đáng kể. Chọn góc kể.

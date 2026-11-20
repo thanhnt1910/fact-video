@@ -1,100 +1,94 @@
-# tm17 Lý Bí, 541–548: lời đọc bản 2 (chờ duyệt, chưa đọc giọng)
+# tm17 Lý Bí, 541–548: lời đọc bản 3 (chờ duyệt, chưa đọc giọng)
 
-Bản 2 đổi trục kể theo chủ kênh (20/11): **ba lần chính quyền Lý Bí bị đánh**. Lý Bí là nhân vật chính suốt video; chuyện nội bộ nhà Lương chỉ còn ba đoạn để giới thiệu Trần Bá Tiên. Giữ các quyết định đã duyệt: kể gọn năm 545–548, giữ câu "nhiều bài viết ngày nay kể khác", màu quân theo đề xuất, có lời cảm ơn.
+Bản 3 viết lại theo cách viết mới (20/11): kể bằng cảnh, có điểm nhấn của nhân vật chính làm khung (cái chết của Lý Nam Đế, mỗi bộ sử chép một kiểu; khí độc từng cứu ông rồi khép đời ông), trục ba lần bị đánh giữ nguyên. Bản 1, bản 2 giữ trong repo.
 
-27 đoạn, 1.219 chữ, ước khoảng 6 phút. File máy đọc: `ke-hoach/thu-giong-hai/tm17_full.json` (197001–197027); năm 541, 543, 544, 545, 548 ghi bằng số ở trường `tts`. Bản 1 giữ ở `tm17-van-xuoi-ban1.txt`.
+29 đoạn, 969 chữ, ước khoảng 5 phút. File máy đọc: `ke-hoach/thu-giong-hai/tm17_full.json` (197001–197029); năm 541, 543, 544, 545, 548 ghi bằng số ở trường `tts`.
 
 ## 1. Lời đọc
 
-Trong bốn năm Lý Bí bị đánh ba lần, và lần đầu tiên quân địch đã tan rã trước khi tới nơi.
+Người lập ra nước Vạn Xuân đã chết thế nào, đến nay vẫn chưa ai nói chắc được.
 
-Hai lần đầu, ông giữ được đất của mình và còn dựng nên một nước riêng tên là Vạn Xuân. Nhưng lần thứ ba thì ông thua, và viên tướng nhà Lương thắng ông lần ấy được vua Lương biết đến nhờ một việc xảy ra ngay sau lần thứ nhất.
+Sử ta chép rằng ông ốm nhiều ngày vì khí độc nơi núi rừng, rồi mất trong động Khuất Lão. Sử phương bắc lại chép rằng chính người trong động đã chém ông, rồi gửi đầu về kinh đô nhà Lương.
 
-Vì sao hai lần đầu giữ được, còn lần thứ ba thì không? Câu chuyện bắt đầu từ cách nhà Lương giao vùng đất phía nam cho chính họ hàng của nhà vua.
+Nếu sử ta đúng, thì thứ đã khép lại đời ông lại chính là thứ từng cứu ông mấy năm trước. Câu chuyện ấy bắt đầu từ một viên quan nhỏ không có chỗ đứng.
 
-Hơn một nghìn bốn trăm năm trước, vùng đồng bằng sông Hồng có tên là Giao Châu và đang nằm dưới sự cai trị của nhà Lương, một triều đại ở miền nam Trung Hoa. Người được cử sang đứng đầu Giao Châu là Tiêu Tư, cháu của vua Lương, và sử chép rằng ông ta cai trị hà khắc đến mức mất lòng dân.
+Bảy năm trước ngày ông mất, chẳng ai nghĩ Lý Bí sẽ làm vua. Ông làm quan cho nhà Lương, có tài cả văn lẫn võ, nhưng sử chép rằng ông không có chỗ để đem tài ra dùng.
 
-Lý Bí là con nhà có thế lực ở địa phương. Theo Toàn thư, tổ tiên ông vốn là người phương bắc, tránh loạn sang đây từ cuối đời Tây Hán, tới đời ông đã bảy đời và thành người phương nam.
+Gốc gác của ông lại càng lạ. Tổ tiên ông là người phương bắc chạy loạn sang đây từ cuối đời Tây Hán, sống bảy đời thì đã thành người phương nam.
 
-Ông có tài cả văn lẫn võ, từng làm quan cho nhà Lương và được giao trông coi việc quân ở Cửu Đức, vùng Hà Tĩnh bây giờ. Nhưng sử chép rằng ông không có chỗ để đem tài năng ra dùng.
+Phương nam ấy khi đó là Giao Châu, đang nằm dưới sự cai trị của nhà Lương. Người được cử sang đứng đầu là Tiêu Tư, cháu của vua Lương, và sử chép ông ta hà khắc đến mức mất lòng dân.
 
-Người có tài ở Giao Châu bị gạt ra như vậy không chỉ có Lý Bí. Tinh Thiều, một người giỏi văn chương, sang tận kinh đô nhà Lương xin làm quan, thì bị viên quan coi việc chọn người chê họ Tinh xưa nay chưa ai làm nên chuyện, chỉ cho làm người canh cổng thành.
+Cùng thời ấy, một người Giao Châu tên Tinh Thiều lên tận kinh đô nhà Lương xin làm quan. Ông giỏi văn chương, nhưng viên quan coi việc chọn người lại chê họ Tinh xưa nay chưa ai làm nên chuyện.
 
-Tinh Thiều thấy nhục, bỏ về quê và theo Lý Bí. Triệu Túc, người đứng đầu vùng Chu Diên, cũng mến tài Lý Bí mà đem người của mình tới, và người có thế lực ở nhiều châu lần lượt kết nối với ông.
+Rồi Tinh Thiều được giao việc canh một cổng thành. Ông thấy nhục, bỏ về quê, và người ông tìm đến là Lý Bí.
 
-Năm năm trăm bốn mươi mốt, Lý Bí cùng những người theo ông nổi dậy chống nhà Lương. Tiêu Tư không đem quân ra chống, mà đem của cải đút lót cho Lý Bí để được yên thân chạy về Quảng Châu, và Lý Bí vào giữ thành Long Biên.
+Người tìm đến Lý Bí không chỉ có Tinh Thiều. Triệu Túc, người đứng đầu vùng Chu Diên, cũng mến tài ông mà đem người tới, rồi người có thế lực ở nhiều châu lần lượt theo về.
 
-Một viên quan được vua giao giữ cả vùng đất lại phải đút lót cho chính người nổi dậy để thoát thân. Có thể hiểu vì sao người Giao Châu không đứng về phía nhà Lương, khi chính người đứng đầu của nhà Lương ở đây cũng bỏ thành mà chạy.
+Năm năm trăm bốn mươi mốt, họ nổi dậy. Tiêu Tư không đánh lấy một trận, mà gom của cải đút lót cho chính người nổi dậy để được chạy về Quảng Châu.
 
-Lần bị đánh thứ nhất đến ngay sau đó. Vua Lương sai hai viên tướng là Tôn Quýnh và Lư Tử Hùng đem quân sang lấy lại Giao Châu, đặt dưới quyền các viên quan nhà Lương đang ở Quảng Châu, trong đó có chính Tiêu Tư.
+Thành Long Biên đổi chủ gần như không đổ máu. Nhưng nhà Lương sẽ quay lại, và trong mấy năm sau đó, đất của Lý Bí bị đánh ba lần.
 
-Hai tướng xin đợi tới mùa thu, vì lúc ấy là mùa xuân, cỏ cây vừa mọc và dịch bệnh vùng nóng ẩm đang nổi lên. Viên quan đứng đầu Quảng Châu là Tiêu Ánh, một người cháu khác của vua Lương, không cho, còn Tiêu Tư thì hối thúc phải đi ngay.
+Lần thứ nhất đến rất nhanh. Vua Lương sai hai tướng là Tôn Quýnh và Lư Tử Hùng đem quân sang, đặt dưới quyền chính Tiêu Tư và một người cháu khác của vua là Tiêu Ánh.
 
-Không cãi được lệnh, hai tướng đành dẫn quân lên đường. Tới Hợp Phố, vùng ven biển nay thuộc Quảng Tây, cứ mười người lính thì sáu bảy người đã chết vì bệnh, số còn lại chán ngán việc binh mà tan chạy, ngăn không nổi.
+Lúc ấy đang mùa xuân, mùa khí độc ở vùng nóng ẩm phía nam bắt đầu bốc lên, nên hai tướng xin đợi tới mùa thu. Hai người cháu của vua Lương không cho, còn hối thúc phải đi ngay.
 
-Lần thứ nhất, Lý Bí giữ được đất mà không phải đánh. Nhiều bài viết ngày nay kể rằng ông mai phục, đánh tan quân nhà Lương ở Hợp Phố, nhưng Toàn thư, Cương mục và cả sử Trung Hoa đều chép là đạo quân ấy tan vì dịch bệnh.
+Đạo quân đành lên đường. Tới Hợp Phố, cứ mười người lính thì sáu bảy người đã chết vì bệnh, số còn lại tan chạy, không ai ngăn nổi.
 
-Bên phía nhà Lương, thất bại ấy phải có người gánh tội. Tiêu Tư tâu lên vua Lương rằng hai tướng đã thông đồng với Lý Bí nên cố tình dừng quân, và vua Lương ra lệnh bắt cả hai phải chết ở Quảng Châu.
+Không có trận đánh nào ở Hợp Phố. Nhiều bài viết ngày nay kể Lý Bí mai phục đánh tan quân nhà Lương, nhưng sử cũ của cả hai bên đều chép là đạo quân ấy tan vì bệnh.
 
-Thuộc tướng cũ của Lư Tử Hùng nổi loạn, vây đánh Quảng Châu ngày đêm để báo thù cho chủ. Trần Bá Tiên, viên quan coi vùng Cao Yếu gần đó, đem ba nghìn quân tinh nhuệ tới phá tan vòng vây và bắt sống hai viên tướng của quân nổi loạn.
+Hãy nhớ thứ khí độc ấy, vì nó sẽ còn quay lại trong câu chuyện này. Còn lúc này, nó đứng về phía Lý Bí.
 
-Theo sử Trung Hoa, vua Lương khen ngợi Trần Bá Tiên, ban chức tước và còn sai người vẽ lại dung mạo ông để xem. Ba năm sau, cái tên ấy sẽ quay lại Giao Châu.
+Bên nhà Lương, thất bại phải có người gánh. Tiêu Tư tâu rằng hai tướng đã thông đồng với Lý Bí, và vua Lương ra lệnh bắt cả hai phải chết.
 
-Trước đó, chính quyền của Lý Bí còn phải chống lần bị đánh thứ hai, lần này từ phía nam. Năm năm trăm bốn mươi ba, vua nước Lâm Ấp ở vùng miền Trung bây giờ đem quân đánh vào quận Nhật Nam.
+Vụ ấy còn kéo theo một cuộc nổi loạn ở Quảng Châu, và người dẹp được là một viên quan tên Trần Bá Tiên. Mấy năm sau, cái tên ấy sẽ xuất hiện ở Giao Châu.
 
-Lý Bí sai tướng Phạm Tu ra chặn, và Phạm Tu đánh thắng quân Lâm Ấp ở Cửu Đức. Phía bắc quân nhà Lương đã tan, phía nam quân Lâm Ấp đã thua, nên lần thứ hai Lý Bí cũng giữ được đất.
+Lần thứ hai đến từ phía nam. Năm năm trăm bốn mươi ba, vua nước Lâm Ấp ở vùng miền Trung bây giờ đem quân đánh vào quận Nhật Nam.
 
-Tháng giêng năm năm trăm bốn mươi tư, Lý Bí tự xưng hoàng đế, sử ta gọi ông là Lý Nam Đế. Ông đặt niên hiệu Thiên Đức, đặt tên nước là Vạn Xuân với mong muốn đất nước bền vững muôn đời, và dựng điện Vạn Xuân làm nơi các quan vào chầu.
+Lý Bí sai tướng Phạm Tu ra chặn, và quân Lâm Ấp thua ở Cửu Đức. Lần này không nhờ trời, mà là một trận thắng do chính người của ông đánh.
 
-Triệu Túc được phong chức thái phó, một chức rất cao trong triều. Tinh Thiều, người từng bị nhà Lương cho đi canh cổng thành, nay cùng Phạm Tu và nhiều người khác giữ những chức lớn về văn và về võ.
+Tháng giêng năm năm trăm bốn mươi tư, Lý Bí xưng hoàng đế, sử ta gọi ông là Lý Nam Đế. Ông đặt niên hiệu Thiên Đức, và đặt tên nước là Vạn Xuân, mong đất nước bền vững như muôn mùa xuân.
 
-Lần bị đánh thứ ba đến vào năm năm trăm bốn mươi lăm. Nhà Lương cử Dương Phiêu sang làm người đứng đầu Giao Châu, và người cầm quân đi theo chính là Trần Bá Tiên.
+Triệu Túc được phong một chức rất cao trong triều. Còn Tinh Thiều, người từng bị cho đi canh cổng thành, nay cùng Phạm Tu giữ những chức lớn của một nước riêng.
 
-Một viên quan khác cũng là họ hàng của vua Lương thấy lính sợ đi xa nên tìm cách trì hoãn. Theo sử chép, Trần Bá Tiên nói Giao Chỉ làm phản là lỗi của chính họ hàng nhà vua, nhưng đã nhận lệnh đi đánh thì phải sống chết với việc ấy, rồi dẫn quân đi trước làm tiên phong.
+Lần thứ ba đến vào năm năm trăm bốn mươi lăm. Nhà Lương cử Dương Phiêu sang làm người đứng đầu Giao Châu, và người cầm quân đi đầu chính là Trần Bá Tiên.
 
-Khoảng ba vạn quân của Lý Nam Đế ra chặn, nhưng thua quân nhà Lương ở Chu Diên, rồi thua tiếp ở cửa sông Tô Lịch, và ông phải lui vào giữ thành Gia Ninh.
+Khoảng ba vạn quân của Lý Nam Đế ra chặn ở Chu Diên, rồi ở cửa sông Tô Lịch, và cả hai lần đều thua. Ông phải lui về giữ thành Gia Ninh.
 
-Sử không chép đủ để nói hết vì sao lần thứ ba khác hai lần trước. Nhưng có một điều khác rõ, lần này đạo quân nhà Lương đã tới được nơi, và người dẫn đầu là người đã bước lên từ chính thất bại ở Hợp Phố.
+Thành Gia Ninh cũng không giữ được. Ông rút lên giữ động Khuất Lão ở vùng núi để chỉnh đốn lại quân, rồi giao cho tướng Triệu Quang Phục việc giữ nước.
 
-Từ đó Vạn Xuân rơi vào những năm chống đỡ vất vả, và đến năm năm trăm bốn mươi tám thì Lý Nam Đế mất. Nước ông lập ra mang cái tên muôn đời, nhưng chính ông chỉ làm vua được bốn năm.
+Và ở nơi núi rừng ấy, thứ khí độc từng làm tan đạo quân nhà Lương đã quay lại. Theo sử ta, ông ốm nhiều ngày rồi mất ở đó, vào năm năm trăm bốn mươi tám.
 
-Lý Bí giữ được đất qua hai lần bị đánh, nhưng lần thứ ba đến từ chính người bước lên sau thất bại đầu tiên của nhà Lương. Cảm ơn bạn đã lắng nghe.
+Sử phương bắc chép rằng ông bị chính người trong động chém. Hai cách chép ấy đến nay vẫn chưa có gì để phân xử.
 
-## 2. Trục kể và thời điểm
+Điều chắc chắn là nước ông lập không mất theo ông, vì Triệu Quang Phục, người được ông giao việc giữ nước, còn đánh tiếp nhiều năm sau đó.
 
-| Mốc | Đoạn | Vị trí |
-|---|---|---|
-| Hook: ba lần bị đánh, vì sao lần ba thua | 1–3 | 0–7% |
-| Lý Bí và người bị gạt ra | 4–8 | 7–29% |
-| Nổi dậy năm 541 | 9–10 | 29–37% |
-| **Lần thứ nhất**: quân nhà Lương tan ở Hợp Phố | 11–14 | 37–52% |
-| Đổ tội, Trần Bá Tiên nổi lên | 15–17 | 52–64% |
-| **Lần thứ hai**: Phạm Tu thắng Lâm Ấp | 18–19 | 64–72% |
-| Vạn Xuân năm 544 | 20–21 | 72–79% |
-| **Lần thứ ba**: năm 545, Trần Bá Tiên, thua ở Chu Diên, Tô Lịch | 22–24 | 79–91% |
-| Trả lời hook, kết | 25–27 | 91–100% |
+Theo sử ta, khí độc nơi rừng núi đã giúp Lý Bí giữ được đất lần đầu, rồi cũng chính nó khép lại đời ông. Cảm ơn bạn đã lắng nghe.
 
-Biến cố chính (lần bị đánh thứ nhất) bắt đầu ở 37%. Nhãn đọc mạnh chỉ ở đoạn 16 (vây Quảng Châu), 19 (Lâm Ấp), 24 (trận năm 545).
+## 2. Khung kể
 
-## 3. Ghi chú kỹ thuật kể chuyện
+| Mốc | Đoạn |
+|---|---|
+| Bí ẩn cái chết, câu treo "thứ từng cứu ông" | 1–3 |
+| Lý Bí, gốc gác, Tinh Thiều canh cổng thành | 4–9 |
+| Nổi dậy năm 541, Tiêu Tư đút lót bỏ chạy | 10–11 |
+| **Lần thứ nhất**: khí độc làm tan quân nhà Lương ở Hợp Phố; "hãy nhớ thứ khí độc ấy" | 12–18 |
+| **Lần thứ hai**: Phạm Tu thắng Lâm Ấp | 19–20 |
+| Vạn Xuân năm 544, Tinh Thiều thành quan lớn | 21–22 |
+| **Lần thứ ba**: năm 545, thua ở Chu Diên, Tô Lịch, mất Gia Ninh, lên động Khuất Lão | 23–25 |
+| Khí độc quay lại; hai cách chép về cái chết; Triệu Quang Phục giữ nước | 26–28 |
+| Câu kết | 29 |
 
-| Đoạn | Diễn giải | Dựa vào |
-|---|---|---|
-| 1–2, 11, 14, 18–19, 22 | Gọi tên từng lần bị đánh để người nghe đếm theo | ba sự việc có trong Toàn thư |
-| 10 | "Có thể hiểu" vì sao dân không theo nhà Lương | Tiêu Tư đút lót để chạy |
-| 19 | Lần hai cũng giữ được đất | quân Lương đã tan, Lâm Ấp thua |
-| 25 | Trả lời hook: nói rõ sử không chép đủ, chỉ nêu điều khác rõ (quân Lương tới nơi, người dẫn đầu đi lên từ Hợp Phố), không coi là nguyên nhân duy nhất | Toàn thư, Trần thư |
+## 3. Ghi chú độ chắc
 
-## 4. Ghi chú độ chắc
+- Cái chết: Toàn thư NK 4/18a chép ông ốm nhiều ngày vì khí độc núi rừng rồi mất ở động Khuất Lão (bản dịch ghi Khuất Liêu); Trần thư, Nam sử chép người Khuất Lão chém ông, gửi đầu về Kiến Khang. Lời kể nói rõ hai cách chép, không phân xử.
+- Hợp Phố: Trần thư (瘴癘方起), Toàn thư, Tư trị thông giám: quân tan vì bệnh, mười phần chết sáu bảy.
+- Câu nối "khí độc từng cứu ông rồi khép đời ông": là cách người kể đặt hai sự việc có nguồn cạnh nhau, nói rõ "theo sử ta" và "nếu sử ta đúng".
+- Năm 546 (mất Gia Ninh, lên động Khuất Lão, giao Triệu Quang Phục giữ nước): Toàn thư NK 4/17a.
+- Tinh Thiều bị cho làm người canh cổng Quảng Dương: Toàn thư NK 4/15a. Câu "nay cùng Phạm Tu giữ những chức lớn" theo Toàn thư (giao làm tướng văn võ).
+- Bỏ chùa Khai Quốc (không có trong Toàn thư).
+- Câu đầu (15 chữ, không ngày tháng, không tên lạ).
+- Câu kết: "Theo sử ta, khí độc nơi rừng núi đã giúp Lý Bí giữ được đất lần đầu, rồi cũng chính nó khép lại đời ông. Cảm ơn bạn đã lắng nghe."
 
-- Hợp Phố: Toàn thư, Trần thư, Tư trị thông giám đều chép quân tan vì dịch bệnh, mười phần chết sáu bảy; không có trận mai phục.
-- Năm cho lần thứ nhất: hook nói chung "trong bốn năm"; lời kể không ghi năm cho chuyến quân Hợp Phố vì Toàn thư và Tư trị lệch nhau.
-- Vẽ dung mạo Trần Bá Tiên: Nam sử quyển 9. Câu "lỗi của chính họ hàng nhà vua": Toàn thư NK 4/16a và Nam sử.
-- Tiêu Tư, Tiêu Ánh nói là "cháu của vua Lương" (không nói cháu ruột); Tiêu Bột nói là "họ hàng của vua Lương". Giao Châu "đang nằm dưới sự cai trị của nhà Lương".
-- Bỏ: Trần Bá Tiên làm tư mã Giao Châu năm 544; Tinh Thiều, Phạm Tu "đứng đầu" quan văn, quan võ.
-- Câu kết: "Lý Bí giữ được đất qua hai lần bị đánh, nhưng lần thứ ba đến từ chính người bước lên sau thất bại đầu tiên của nhà Lương. Cảm ơn bạn đã lắng nghe."
-- Khuôn mở đầu: sự kiện bất ngờ kết hợp đếm lần (ba lần bị đánh).
-
-## 5. Kết quả bộ kiểm
+## 4. Kết quả bộ kiểm
 
 kiem_kich_ban, kiem_mach_ke, kiem_mo_dau, kiem_khung, kiem_cau_cut, kiem_giong_van: 0 ❌.

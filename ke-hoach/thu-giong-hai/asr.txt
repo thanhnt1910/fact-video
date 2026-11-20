@@ -1,2 +1,2 @@
-tm16ca
-# nhận dạng tm16 (Bà Triệu), một file giọng
+tm17ca
+# nhận dạng tm17 (Lý Bí bản 3), một file giọng

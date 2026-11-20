@@ -128,3 +128,7 @@ Cả ba đúng sự thật. Phương án 1 và 3 có tên Lý Bí ở câu đầ
 3. **Câu nói rõ "nhiều bài viết ngày nay kể khác" ở Hợp Phố:** giữ (khuyên dùng, vì đây là điểm mới với người xem), hay chỉ kể theo sử cũ, không nhắc cách kể khác?
 4. **Màu quân ở cảnh vây Quảng Châu** (hai phe đều là người nhà Lương): quân nổi loạn màu vàng đất, quân Trần Bá Tiên màu xanh chàm như mọi quân phương bắc? Từ cảnh này trở đi, Trần Bá Tiên giữ màu xanh chàm suốt video.
 5. **Lời cảm ơn cuối video:** thêm hay không (tm12, tm13, tm16 đều chưa có).
+
+## Sửa trục kể (20/11/2026, chủ kênh chốt)
+
+Bản 1 kể song song chuyện Lý Bí và chuyện nội bộ nhà Lương, nên không có cốt truyện rõ. Chủ đề kênh là trận đánh giữ nước, vì vậy trục mới là **ba lần chính quyền Lý Bí bị đánh**: lần một (nhà Lương, tan ở Hợp Phố, không đánh), lần hai (Lâm Ấp, Phạm Tu thắng ở Cửu Đức), lần ba (nhà Lương năm 545, Trần Bá Tiên, thua). Câu hỏi ở hook: hai lần đầu giữ được, vì sao lần ba thì không. Chuyện đổ tội và vây Quảng Châu rút còn ba đoạn, chỉ để giới thiệu Trần Bá Tiên.

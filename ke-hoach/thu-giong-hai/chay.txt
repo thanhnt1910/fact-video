@@ -1,1 +1,1 @@
-doc-tm16 Charon tm16 ca (bản 2, chủ kênh duyệt 20/11)
+doc-tm13 Charon tm13 ca (đọc lại: lần trước bỏ sót câu ở đoạn 2 và 3; đã xóa file giọng cũ)

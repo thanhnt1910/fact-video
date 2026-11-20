@@ -22,9 +22,9 @@ Người có tài ở Giao Châu bị gạt ra như vậy không chỉ có Lý B
 
 Tinh Thiều thấy nhục, bỏ về quê và theo Lý Bí. Triệu Túc, người đứng đầu vùng Chu Diên, cũng mến tài Lý Bí mà đem người của mình tới, và người có thế lực ở nhiều châu lần lượt kết nối với ông.
 
-Năm năm trăm bốn mươi mốt, Lý Bí nổi dậy, và người đứng đầu Giao Châu không đánh lấy một trận. Tiêu Tư đem của cải đút lót cho Lý Bí để được yên thân chạy về Quảng Châu, còn Lý Bí vào giữ thành Long Biên.
+Năm năm trăm bốn mươi mốt, Lý Bí cùng những người theo ông nổi dậy chống nhà Lương. Tiêu Tư không đem quân ra chống, mà đem của cải đút lót cho Lý Bí để được yên thân chạy về Quảng Châu, và Lý Bí vào giữ thành Long Biên.
 
-Một viên quan được vua giao giữ cả vùng đất lại phải mua đường sống từ chính người nổi dậy. Có thể hiểu vì sao người Giao Châu không đứng về phía nhà Lương, khi chính người đại diện cho nhà Lương ở đây cũng không đứng lại.
+Một viên quan được vua giao giữ cả vùng đất lại phải đút lót cho chính người nổi dậy để thoát thân. Có thể hiểu vì sao người Giao Châu không đứng về phía nhà Lương, khi chính người đứng đầu của nhà Lương ở đây cũng bỏ thành mà chạy.
 
 Nhà Lương không chịu để Giao Châu thoát khỏi tay mình. Vua Lương sai hai viên tướng là Tôn Quýnh và Lư Tử Hùng đem quân sang lấy lại, đặt dưới quyền các viên quan nhà Lương đang ở Quảng Châu, trong đó có chính Tiêu Tư.
 
@@ -88,7 +88,7 @@ Nhãn đọc mạnh chỉ ở đoạn 9 (nổi dậy), 13 (Hợp Phố), 17–18
 
 | Đoạn | Diễn giải | Dựa vào |
 |---|---|---|
-| 10 | Viên quan phải mua đường sống; "có thể hiểu" vì sao dân không theo nhà Lương | Tiêu Tư đút lót để chạy (Toàn thư, Tư trị thông giám) |
+| 10 | Viên quan phải đút lót để thoát thân, bỏ thành mà chạy; "có thể hiểu" vì sao dân không theo nhà Lương | Tiêu Tư đút lót để chạy (Toàn thư, Tư trị thông giám) |
 | 16 | Người hối thúc và người tâu tội là một; sử không chép vua có thấy không | Toàn thư, Trần thư, Tư trị |
 | 20 | "Nhìn lại từ kết quả", các việc nối thành chuỗi | không nói ai tính trước |
 | 22 | Chính quyền Lý Bí đủ sức giữ hai mặt | thắng Lâm Ấp sau khi nhà Lương tan quân |

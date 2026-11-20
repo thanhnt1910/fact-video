@@ -1,1 +1,1 @@
-doc-tm13 Charon tm13 ca (đọc lại: lần trước bỏ sót câu ở đoạn 2 và 3; đã xóa file giọng cũ)
+doc-tm18 Charon tm18 ca (bản 1.2, chủ kênh duyệt 20/11)

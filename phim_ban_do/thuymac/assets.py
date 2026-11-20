@@ -36,6 +36,8 @@ SIZES.update({'t13_far':(3000,700,1.5),'t13_mid':(3000,520,1.5),'t13_frontL':(90
 SIZES.update({'t17_far':(3000,700,1.5),'t17_mid':(3000,560,1.5),'t17_frontL':(900,800,1.5),'t17_frontR':(900,800,1.5),'t17x_dong':(1900,900,1.5),'t17_spr_lb':(300,260,1.5),'t17_spr_doc':(900,420,1.5),'t17_spr_luong':(760,300,1.5),'t17_spr_1luong':(160,300,1.5),'t17_spr_viet':(760,300,1.5),'t17_cuon':(760,900,1.5),'t17x_quan':(1900,800,1.5)})
 SIZES.update({'t17x_trai':(1900,800,1.5),'t17x_deo':(2400,800,1.5),'t17x_tieutu':(1900,800,1.5),'t17x_kinhdo':(1900,800,1.5),'t17x_cong':(1900,900,1.5),'t17x_hoi':(1900,800,1.5),'t17x_longbien':(2200,900,1.5),'t17x_luongtrai':(2200,800,1.5),'t17x_dien':(1900,800,1.5),'t17x_trieu':(1900,800,1.5),'t17x_quangchau':(2400,800,1.5),'t17x_luongdien':(1900,800,1.5),'t17x_nui':(2400,800,1.5),'t17x_dam':(2400,700,1.5),'t17x_cuoi':(2800,700,1.5),'t17_spr_dicu':(420,240,1.5),'t17_spr_cuacai':(260,200,1.5),'t17_spr_ngua':(320,300,1.5),'t17_spr_noiloan':(760,300,1.5),'t17_spr_1noiloan':(160,300,1.5),'t17_spr_lamap':(760,300,1.5),'t17_spr_1lamap':(160,300,1.5),'t17_spr_1viet':(160,300,1.5),'t17_spr_vietr':(760,300,1.5),'t17_spr_tbt':(340,320,1.5),'t17_spr_thuyen':(420,240,1.5),'t17_spr_tqp':(300,300,1.5),'t17_spr_quy2':(300,200,1.5)})
 SIZES.update({'t17x_thanhco':(1900,900,1.5)})
+SIZES.update({'t13_spr_matrong':(700,700,1.5),'t13x_trongto':(1900,900,1.5),'t13x_dangvua':(1900,800,1.5)})
+SEALS.update({'stitle13b':(['MÊ LINH','40'],260,200,44)})
 only=sys.argv[1:]
 with sync_playwright() as p:
     b=p.chromium.launch()

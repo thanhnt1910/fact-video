@@ -1561,6 +1561,33 @@ t13_spr_ngua(){const s=setup(240,240);seed=1404;const g=el(s,'g',{filter:'url(#i
 for(const n of ['chay','phu','tat','lang','hoi','troi','trieu','vien','thuyenluong','langbac','hang','roi','camkhe','hat','sach','lo','ngua','thanh65','cuoi'])
  A['t13x_'+n]=function(){NOBG=true;try{A['t13_'+n]()}finally{NOBG=false}};
 
+
+Object.assign(A,{
+t13_spr_matrong(){const s=setup(700,700);seed=1450;const g=el(s,'g',{filter:'url(#ink)'});const cx=350,cy=350;
+ el(g,'circle',{cx,cy,r:330,fill:'#3a3328'});el(g,'circle',{cx,cy,r:330,fill:'none',stroke:INK,'stroke-width':14});
+ for(const r of [300,250,200,140,80])el(g,'circle',{cx,cy,r,fill:'none',stroke:PAPER,'stroke-width':3,opacity:.55});
+ for(let i=0;i<14;i++){const a=i/14*Math.PI*2,a1=a-.12,a2=a+.12;el(g,'path',{d:`M${cx+Math.cos(a1)*24} ${cy+Math.sin(a1)*24} L${cx+Math.cos(a)*76} ${cy+Math.sin(a)*76} L${cx+Math.cos(a2)*24} ${cy+Math.sin(a2)*24}Z`,fill:'#c9a45a',opacity:.85})}
+ el(g,'circle',{cx,cy,r:22,fill:'#c9a45a',opacity:.9});
+ for(let i=0;i<10;i++){const a=i/10*Math.PI*2,x=cx+Math.cos(a)*225,y=cy+Math.sin(a)*225,d=a*180/Math.PI+90;
+  const k=el(g,'g',{transform:`translate(${x},${y}) rotate(${d})`});el(k,'path',{d:'M-26 6 Q-6 -4 0 -18 Q6 -4 30 -10 Q10 4 -26 6Z',fill:PAPER,opacity:.7});el(k,'path',{d:'M0 -18 l4 -14',stroke:PAPER,'stroke-width':3,opacity:.7})}
+ for(let i=0;i<24;i++){const a=i/24*Math.PI*2;el(g,'line',{x1:cx+Math.cos(a)*145,y1:cy+Math.sin(a)*145,x2:cx+Math.cos(a)*195,y2:cy+Math.sin(a)*195,stroke:PAPER,'stroke-width':2.4,opacity:.45})}
+ for(let i=0;i<36;i++){const a=i/36*Math.PI*2;el(g,'circle',{cx:cx+Math.cos(a)*275,cy:cy+Math.sin(a)*275,r:6,fill:'none',stroke:PAPER,'stroke-width':2,opacity:.5})}},
+t13_trongto(){const s=setup(1900,900);seed=1451;const g=el(s,'g',{filter:'url(#ink)'});
+ ridge(g,470,120,0,1900,6,INK,.12,900);
+ el(g,'path',{d:'M0 760 Q950 720 1900 770 L1900 900 L0 900Z',fill:INK,opacity:.3});
+ drum13(g,950,780,4.2);
+ for(const[x,f]of[[430,0],[1470,1]]){fig(g,x,780,1.7,{hat:'quan',arm:f?'M-14 -56 L-44 -90':'M14 -56 L44 -90'});el(g,'line',{x1:x+(f?-60:60),y1:780,x2:x+(f?-60:60),y2:420,stroke:INK,'stroke-width':6});el(g,'path',{d:`M${x+(f?-60:60)} 424 q${f?-50:50} 10 ${f?-80:80} 20 q${f?30:-30} 14 0 34 Z`,fill:VIET})}
+ for(let i=0;i<9;i++){const x=200+i*190+rnd()*40;if(Math.abs(x-950)<380)continue;el(g,'path',{d:`M${x} 800 l-14 40 M${x} 800 l14 40`,stroke:INK,'stroke-width':4,opacity:.4})}},
+t13_dangvua(){const s=setup(1900,800);seed=1452;const g=el(s,'g',{filter:'url(#ink)'});
+ roof(g,950,170,1500,120);
+ [[330],[640],[1260],[1570]].forEach(([x])=>el(g,'rect',{x:x-14,y:170,width:28,height:500,fill:INK}));
+ for(let r=0;r<4;r++)el(g,'rect',{x:420+r*40,y:600+r*30,width:1060-r*80,height:30,fill:INK,opacity:.55+r*.1});
+ el(g,'rect',{x:760,y:520,width:380,height:60,fill:INK});horse(g,950,520,1.9,{empty:1});
+ el(g,'path',{d:'M790 520 Q950 498 1110 520',stroke:'#c9a45a','stroke-width':4,opacity:.6,fill:'none'});
+ for(let i=0;i<5;i++){fig(g,300+i*70,760,.9,{sit:1,quan:1});fig(g,1300+i*70,760,.9,{sit:1,quan:1})}
+ fig(g,700,760,1.1,{sit:1,quan:1,arm:'M14 -40 L50 -50'})},
+});
+for(const n of ['trongto','dangvua']) A['t13x_'+n]=function(){NOBG=true;try{A['t13_'+n]()}finally{NOBG=false}};
 const DOC='#5f6b4c';
 function fern17(g,x,y,s,flip){const k=el(g,'g',{transform:`translate(${x},${y}) scale(${flip?-s:s},${s})`});
  for(let i=0;i<5;i++){const a=-1.2+i*.5,L=260+rnd()*120;let d=`M0 0 Q${Math.sin(a)*L*.5} ${-L*.7} ${Math.sin(a)*L} ${-L*.9}`;el(k,'path',{d,stroke:INK,'stroke-width':5,fill:'none'});

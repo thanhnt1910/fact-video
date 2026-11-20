@@ -1,33 +1,32 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Vũ trụ bao nhiêu tuổi, khi không ai sống đủ lâu để
-OK Leda 02: Nhưng ta có thể làm như xem phim chạy ngược.
-OK Leda 03: Hóa ra các thiên hà đang bay xa nhau, và tốc độ ấy
+OK Leda 01: Sóng cao chưa tới 1 mét, tàu ngoài khơi chẳng nhận
+OK Leda 02: Bí mật nằm ở tốc độ: ngoài biển sâu, sóng thần chạ
+OK Leda 03: Nhưng làm sao biết tốc độ của con sóng khi chưa kị
+OK Leda 04: Hóa ra tốc độ chỉ phụ thuộc một thứ: biển ở đó sâu
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 04: Hình dung ổ bánh mì nhiều hạt nho, đang nở ra.
-OK Leda 05: Bánh nở đều, nên hai hạt nho càng xa nhau thì rời 
-OK Leda 06: Thiên hà cũng vậy: càng ở xa ta, càng chạy xa nhan
-OK Leda 07: Năm 1929, Edwin Hubble tìm ra điều ấy.
-OK Leda 08: Hai năm trước, Lemaître cũng đã đi tới kết luận tư
-OK Leda 09: Hubble viết: tốc độ = H × khoảng cách.
-OK Leda 10: H là hằng số, ngày nay khoảng 70 ki-lô-mét mỗi giâ
+OK Leda 05: Sóng thần cực dài: từ đỉnh này tới đỉnh kế tiếp có
+OK Leda 06: Biển chỉ sâu 4 ki-lô-mét, bằng 1/25 chiều dài sóng
+OK Leda 07: Cả cột nước từ mặt xuống đáy cùng đung đưa, nên đá
+OK Leda 08: Công thức: tốc độ = √(g × độ sâu).
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 11: 1 mê-ga-pác-xéc là khoảng cách bằng 3,26 triệu năm
+OK Leda 09: Số g làm hòn đá rơi nhanh dần, chừng 9,8.
+OK Leda 10: Căn bậc hai của một số là số nhân với chính nó ra 
+OK Leda 11: Ví dụ căn bậc hai của 9 là 3, vì 3 × 3 = 9.
+OK Leda 12: Thử ở giữa Thái Bình Dương, nơi biển sâu 4.000 mét
+OK Leda 13: 9,8 × 4.000 = 39.200.
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 12: Tức khoảng 30,9 tỉ tỉ ki-lô-mét.
-OK Leda 13: Vậy thiên hà cách 1 mê-ga-pác-xéc đang chạy xa kho
-OK Leda 14: Chiếu phim ngược: thời gian = quãng đường ÷ tốc độ
-OK Leda 15: Xe chạy 60 ki-lô-mét mỗi giờ, cách nhà 120 ki-lô-m
-OK Leda 16: Với thiên hà ấy, chia 30,9 tỉ tỉ ki-lô-mét cho 70 
+OK Leda 14: Căn bậc hai của số ấy là khoảng 198.
+OK Leda 15: Vậy sóng chạy khoảng 198 mét trong mỗi giây.
+OK Leda 16: Đổi ra ki-lô-mét mỗi giờ, ta nhân với 3,6, ra khoả
+OK Leda 17: Hơn 700 ki-lô-mét mỗi giờ, gần bằng máy bay phản l
+OK Leda 18: Nhưng ngoài khơi sóng thấp dưới 1 mét, nên trên tà
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 17: Ra khoảng 4,41 × 10¹⁷ giây.
-OK Leda 18: Đổi ra năm: 1 năm có khoảng 31,6 triệu giây.
-OK Leda 19: Chia 4,41 × 10¹⁷ cho 31,6 triệu, ra khoảng 14 tỉ n
-OK Leda 20: Thiên hà nào cũng cho cùng kết quả, vì tốc độ tăng
-OK Leda 21: Vậy mọi thứ từng ở cùng một chỗ cách đây khoảng 14
-OK Leda 22: Thực ra tốc độ giãn nở có thay đổi, nên con số tốt
+OK Leda 19: Rồi sóng vào gần bờ, biển nông dần, chỉ còn sâu 10
+OK Leda 20: 9,8 × 10 = 98.
+OK Leda 21: Căn bậc hai của 98 là khoảng 9,9 mét mỗi giây.
+OK Leda 22: Nhân với 3,6, ra khoảng 36 ki-lô-mét mỗi giờ, chậm
+OK Leda 23: Nhưng phần sóng phía sau vẫn chạy nhanh, nên dồn v
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 23: Nhưng H đầu tiên của Hubble là 500, lớn gấp hơn 7 
-OK Leda 24: Với 500, tuổi vũ trụ chỉ khoảng 2 tỉ năm.
-OK Leda 25: Về sau khoảng cách được đo lại chính xác hơn, nên 
-OK Leda 26: Vậy tuổi vũ trụ tăng từ 2 tỉ lên 14 tỉ năm, chỉ nh
-OK Leda 27: Từ tốc độ các thiên hà bay xa nhau, ta biết vũ trụ
+OK Leda 24: Như đoàn xe: xe đầu chậm, xe sau vẫn nhanh, nên xe
+OK Leda 25: Sóng cũng vậy: nước dồn lại, sóng cao lên, dòng nư
+OK Leda 26: Vậy chỉ một công thức với độ sâu đã giải thích vì 

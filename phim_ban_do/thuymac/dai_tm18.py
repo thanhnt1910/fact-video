@@ -390,7 +390,6 @@ def S_20(cv,t):
     put(cv,c,'t18x_nguyen',960,630,s=1.1)
     di(cv,c,'t18_spr_quan',-300,880,380,880,t,a,b,s=.55,bob=2,f=3)
     di(cv,c,'t18_spr_dan',2300,890,1650,890,t,a,b,s=.5,bob=2,f=3.4,lat=True)
-    flick(cv,c,960,470,t,.6)
     truoc(cv,c,t)
     if not FREEZE:
         sh=6*math.sin(t*20)*inn(t,q,.5);put_screen(cv,band(560,130,PAPER,.9,20),960+sh,270,inn(t,a+.3,.4))
@@ -460,7 +459,7 @@ def S_25(cv,t):
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.3)
     cuon(cv,1060,500,t,'VIỆT SỬ TIÊU ÁN','tướng giặc',s=.75,sz=66,gach=inn(t,a+.8,.6),thay='châu dân',uthay=inn(t,a+1.6,1.2))
-    if not FREEZE: put_screen(cv,text('người trong châu',36,RED,700),1060,820,inn(t,a+3.0,.6))
+    if not FREEZE: put_screen(cv,band(420,70,PAPER,.92,12),1500,640,inn(t,a+3.0,.6));put_screen(cv,text('người trong châu',36,RED,700),1500,638,inn(t,a+3.0,.6))
 # ---- 26: đền thờ ở Sa Nam
 def S_26(cv,t):
     a,b=T[26]-.3,E[26]+.3

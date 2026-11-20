@@ -4,8 +4,8 @@
   "chuong": 1,
   "nhip": "hook1",
   "tone": "story",
-  "text": "Người Hoan Châu gọi ông là vua Đen, còn bộ sử lớn nhất của nước ta gọi ông là tướng giặc.",
-  "hien": "Người Hoan Châu gọi ông là vua Đen, còn bộ sử lớn nhất của nước ta gọi ông là tướng giặc."
+  "text": "Người cùng quê gọi ông là vua Đen. Còn bộ chính sử của nhà Lê thì gọi ông là tướng giặc.",
+  "hien": "Người cùng quê gọi ông là vua Đen. Còn bộ chính sử của nhà Lê thì gọi ông là tướng giặc."
  },
  {
   "n": 200002,
@@ -60,8 +60,8 @@
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Đó là chuyện dân gian, sử nhà Đường không ghi lệ bắt An Nam cống vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy phản ánh cảnh cống nộp và đi phu của người dân thời ấy.",
-  "hien": "Đó là chuyện dân gian, sử nhà Đường không ghi lệ bắt An Nam cống vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy phản ánh cảnh cống nộp và đi phu của người dân thời ấy."
+  "text": "Đó là chuyện dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt An Nam cống vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy phản ánh cảnh cống nộp và đi phu của người dân thời ấy.",
+  "hien": "Đó là chuyện dân gian, vì các nhà nghiên cứu không tìm thấy trong sử nhà Đường lệ bắt An Nam cống vải. Theo nhà sử học Phan Huy Lê, câu chuyện ấy phản ánh cảnh cống nộp và đi phu của người dân thời ấy."
  },
  {
   "n": 200009,
@@ -77,8 +77,8 @@
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Ông không đứng một mình mà liên kết với các nước phía nam như Lâm Ấp và Chân Lạp. Sử nhà Đường còn nói ông dấy được dân của ba mươi hai châu.",
-  "hien": "Ông không đứng một mình mà liên kết với các nước phía nam như Lâm Ấp và Chân Lạp. Sử nhà Đường còn nói ông dấy được dân của ba mươi hai châu."
+  "text": "Ông còn liên kết với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói ông dấy được dân của ba mươi hai châu.",
+  "hien": "Ông còn liên kết với Lâm Ấp ở miền Trung và Chân Lạp ở Campuchia bây giờ. Sử nhà Đường nói ông dấy được dân của ba mươi hai châu."
  },
  {
   "n": 200011,
@@ -93,8 +93,8 @@
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Toàn thư chép quân của ông nói là có ba mươi vạn. Sử nhà Đường còn chép cao hơn, tới bốn mươi vạn người.",
-  "hien": "Toàn thư chép quân của ông nói là có ba mươi vạn. Sử nhà Đường còn chép cao hơn, tới bốn mươi vạn người."
+  "text": "Bộ chính sử nhà Lê là Đại Việt sử ký toàn thư chép quân của ông nói là có ba mươi vạn. Sử nhà Đường còn chép cao hơn, tới bốn mươi vạn người.",
+  "hien": "Bộ chính sử nhà Lê là Đại Việt sử ký toàn thư chép quân của ông nói là có ba mươi vạn. Sử nhà Đường còn chép cao hơn, tới bốn mươi vạn người."
  },
  {
   "n": 200013,
@@ -109,8 +109,8 @@
   "chuong": 4,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Dương Tư Húc không đưa quân từ phương bắc xa xôi sang. Ông ta mộ mười vạn người ở Lĩnh Nam, là con em các thủ lĩnh vùng ấy.",
-  "hien": "Dương Tư Húc không đưa quân từ phương bắc xa xôi sang. Ông ta mộ mười vạn người ở Lĩnh Nam, là con em các thủ lĩnh vùng ấy."
+  "text": "Để có quân, Dương Tư Húc mộ mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Người được mộ là con em các thủ lĩnh ở vùng ấy.",
+  "hien": "Để có quân, Dương Tư Húc mộ mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Người được mộ là con em các thủ lĩnh ở vùng ấy."
  },
  {
   "n": 200015,
@@ -141,8 +141,8 @@
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Ông mất thế nào thì các sách chép không giống nhau. Một bộ sử nhà Đường chép ông bị bắt và chém ngay tại trận, còn sách địa chí triều Nguyễn chép ông rút về núi Hùng Sơn.",
-  "hien": "Ông mất thế nào thì các sách chép không giống nhau. Một bộ sử nhà Đường chép ông bị bắt và chém ngay tại trận, còn sách địa chí triều Nguyễn chép ông rút về núi Hùng Sơn."
+  "text": "Ông mất thế nào thì các sách chép không giống nhau. Một bộ sử nhà Đường chép ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn chép ông rút về núi Hùng Sơn.",
+  "hien": "Ông mất thế nào thì các sách chép không giống nhau. Một bộ sử nhà Đường chép ông bị bắt và chém ngay tại trận, còn một bộ sách của triều Nguyễn chép ông rút về núi Hùng Sơn."
  },
  {
   "n": 200019,
@@ -157,16 +157,16 @@
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Nhưng có một chi tiết ít người để ý. Khi soạn bộ Cương mục, các nhà viết sử triều Nguyễn không tin con số bốn mươi vạn quân và ba mươi hai châu.",
-  "hien": "Nhưng có một chi tiết ít người để ý. Khi soạn bộ Cương mục, các nhà viết sử triều Nguyễn không tin con số bốn mươi vạn quân và ba mươi hai châu."
+  "text": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ Cương mục, các nhà viết sử triều Nguyễn không tin con số ấy.",
+  "hien": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ Cương mục, các nhà viết sử triều Nguyễn không tin con số ấy."
  },
  {
   "n": 200021,
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Họ chỉ ra rằng An Nam đô hộ phủ khi ấy chỉ có mười hai châu, và không thấy chép châu nào khác bị mất. Họ ngờ tướng nhà Đường đã thổi phồng thế giặc để lấy công.",
-  "hien": "Họ chỉ ra rằng An Nam đô hộ phủ khi ấy chỉ có mười hai châu, và không thấy chép châu nào khác bị mất. Họ ngờ tướng nhà Đường đã thổi phồng thế giặc để lấy công."
+  "text": "Họ chỉ ra rằng An Nam đô hộ phủ khi ấy chỉ có mười hai châu, nên khó có chuyện ông dấy được dân ba mươi hai châu. Họ ngờ tướng nhà Đường đã thổi phồng thế giặc để lấy công.",
+  "hien": "Họ chỉ ra rằng An Nam đô hộ phủ khi ấy chỉ có mười hai châu, nên khó có chuyện ông dấy được dân ba mươi hai châu. Họ ngờ tướng nhà Đường đã thổi phồng thế giặc để lấy công."
  },
  {
   "n": 200022,
@@ -213,7 +213,7 @@
   "chuong": 9,
   "nhip": "ket",
   "tone": "story",
-  "text": "Bị chép là tướng giặc suốt gần ba trăm năm, Mai Thúc Loan được viết lại là người trong châu, đúng như người Hoan Châu vẫn nhìn ông. Cảm ơn bạn đã lắng nghe.",
-  "hien": "Bị chép là tướng giặc suốt gần ba trăm năm, Mai Thúc Loan được viết lại là người trong châu, đúng như người Hoan Châu vẫn nhìn ông. Cảm ơn bạn đã lắng nghe."
+  "text": "Bị chép là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe.",
+  "hien": "Bị chép là tướng giặc suốt gần ba trăm năm, người mà quê hương gọi là vua Đen đã được viết lại là người trong châu. Cảm ơn bạn đã lắng nghe."
  }
 ]

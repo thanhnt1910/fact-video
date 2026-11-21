@@ -46,7 +46,11 @@ Quân của ông thua lớn. Theo một bộ sử nhà Đường, quân nhà Đ�
 
 Bộ sử nhà Lê thì chỉ ghi gọn rằng nhà Đường đánh tan được, và gọi ông là tướng giặc.
 
-Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ sử Cương mục, những người viết sử triều Nguyễn không tin con số ấy.
+Vì sao một bộ sử của chính nước ta lại gọi ông như vậy? Sách nhà Đường viết về ông như viết về một kẻ làm phản, và dùng thẳng chữ giặc.
+
+Những người viết sử triều Nguyễn nhận xét rằng đoạn chép về ông trong bộ sử nhà Lê phần lớn lấy theo sách nhà Đường mà không xét lại.
+
+Cả con số bốn mươi vạn quân, họ cũng không tin. Trong bộ sử Cương mục, họ viết rằng con số ấy khó có thật.
 
 Họ chỉ ra rằng nhà Đường khi ấy chỉ chia nước ta thành mười hai châu, nên khó có chuyện ba mươi hai châu theo ông. Họ ngờ tướng nhà Đường đã nói quân ta đông lên để được thưởng.
 
@@ -83,6 +87,9 @@ Bị ghi là tướng giặc suốt gần ba trăm năm, người mà quê hươ
 
 ## Bộ kiểm
 `kiem_kich_ban`, `kiem_mo_dau`, `kiem_khung`, `kiem_cau_cut`, `kiem_giong_van`: 0 ❌. `kiem_mach_ke`: 0 ❌, 4 ⚠️ (đoạn 1 có 21 chữ nhưng câu đầu chỉ 7 chữ; ít từ nối; đoạn 10 có tên nước kèm lời giải thích; đoạn 24 có 6 tên riêng vì trích lời bàn của Ngô Thì Sĩ).
+
+## Sửa ở bản 1.3 (chủ kênh nhắc 21/11 07:19: chưa giải thích vì sao bị gọi là tướng giặc)
+- Thêm hai đoạn sau đoạn 19: sách nhà Đường viết về ông như kẻ làm phản, dùng thẳng chữ giặc (Tân Đường thư: 叛, 賊); Cương mục nhận xét sử cũ chép đoạn này đại khái lấy theo Đường thư mà không khảo lại (蓋略取唐書，未考其實也). Đoạn về con số bốn mươi vạn viết lại cho khỏi hai câu hỏi gần nhau. 29 đoạn, 925 chữ, khoảng 4 phút 20 giây theo nhịp giọng thật.
 
 ## Sửa ở bản 1.2 (bỏ từ dịch thô)
 - dấy dân → người của ba mươi hai châu đứng lên theo ông; mộ → gọi được; giữ lấy châu → chiếm lấy; xưng đế → tự lên làm vua; quan đô hộ, trụ sở An Nam phủ → quan nhà Đường, thành của viên quan đứng đầu bộ máy cai trị; hoạn quan → thái giám; tính kế → nghĩ ra cách chống đỡ; thổi phồng thế giặc để lấy công → nói quân ta đông lên để được thưởng; hào trưởng, xuất chúng → giỏi hơn hẳn những người có thế lực trong vùng; câu "việc thành thì… không thành thì…" kể lại thành "đặt ngang với Lý Bí và Triệu Quang Phục, chỉ khác là việc không thành"; chính sử, chép → bộ sử của triều đình, ghi; cống nộp, đi phu → nộp của, đi làm không công; dẹp → đánh; Toàn thư ở đoạn 19 và 23 gọi là "bộ sử nhà Lê".

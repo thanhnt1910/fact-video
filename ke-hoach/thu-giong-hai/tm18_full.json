@@ -157,11 +157,27 @@
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ sử Cương mục, những người viết sử triều Nguyễn không tin con số ấy.",
-  "hien": "Nhưng bốn mươi vạn quân ấy có thật không? Khi soạn bộ sử Cương mục, những người viết sử triều Nguyễn không tin con số ấy."
+  "text": "Vì sao một bộ sử của chính nước ta lại gọi ông như vậy? Sách nhà Đường viết về ông như viết về một kẻ làm phản, và dùng thẳng chữ giặc.",
+  "hien": "Vì sao một bộ sử của chính nước ta lại gọi ông như vậy? Sách nhà Đường viết về ông như viết về một kẻ làm phản, và dùng thẳng chữ giặc."
  },
  {
   "n": 200021,
+  "chuong": 7,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Những người viết sử triều Nguyễn nhận xét rằng đoạn chép về ông trong bộ sử nhà Lê phần lớn lấy theo sách nhà Đường mà không xét lại.",
+  "hien": "Những người viết sử triều Nguyễn nhận xét rằng đoạn chép về ông trong bộ sử nhà Lê phần lớn lấy theo sách nhà Đường mà không xét lại."
+ },
+ {
+  "n": 200022,
+  "chuong": 7,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Cả con số bốn mươi vạn quân, họ cũng không tin. Trong bộ sử Cương mục, họ viết rằng con số ấy khó có thật.",
+  "hien": "Cả con số bốn mươi vạn quân, họ cũng không tin. Trong bộ sử Cương mục, họ viết rằng con số ấy khó có thật."
+ },
+ {
+  "n": 200023,
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
@@ -169,7 +185,7 @@
   "hien": "Họ chỉ ra rằng nhà Đường khi ấy chỉ chia nước ta thành mười hai châu, nên khó có chuyện ba mươi hai châu theo ông. Họ ngờ tướng nhà Đường đã nói quân ta đông lên để được thưởng."
  },
  {
-  "n": 200022,
+  "n": 200024,
   "chuong": 7,
   "nhip": "goc_re",
   "tone": "story",
@@ -177,7 +193,7 @@
   "hien": "Nếu họ đúng thì con số lớn là của người thắng. Điều chắc chắn chỉ là một người ở Hoan Châu đã dám tự lên làm vua, và nhà Đường phải đem mười vạn quân sang."
  },
  {
-  "n": 200023,
+  "n": 200025,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -185,7 +201,7 @@
   "hien": "Còn hai chữ tướng giặc trong bộ sử nhà Lê thì nằm yên gần ba trăm năm. Đến thế kỷ mười tám, nhà sử học Ngô Thì Sĩ viết sách Việt sử tiêu án và bàn lại về ông."
  },
  {
-  "n": 200024,
+  "n": 200026,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -193,7 +209,7 @@
   "hien": "Ngô Thì Sĩ khen Mai Thúc Loan là người giỏi hơn hẳn những người có thế lực trong vùng. Ông đặt Mai Thúc Loan ngang với Lý Bí và Triệu Quang Phục, chỉ khác là việc của Mai Thúc Loan không thành."
  },
  {
-  "n": 200025,
+  "n": 200027,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -201,7 +217,7 @@
   "hien": "Trong sách của mình, ông không ghi tướng giặc mà viết hai chữ lớn châu dân, nghĩa là người trong châu, để khen việc Mai Thúc Loan đã làm."
  },
  {
-  "n": 200026,
+  "n": 200028,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -209,7 +225,7 @@
   "hien": "Ở Sa Nam thuộc Nam Đàn, nơi sách ấy ghi là chỗ nhà ông ở, người ta vẫn lập đền thờ vua Đen."
  },
  {
-  "n": 200027,
+  "n": 200029,
   "chuong": 9,
   "nhip": "ket",
   "tone": "story",

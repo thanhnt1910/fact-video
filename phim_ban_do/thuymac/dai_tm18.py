@@ -83,6 +83,11 @@ def vong(cv,x,y,t,t0,n=3,per=1.4,rmax=520,o=.55,col=None,flat=.55):
         m=np.maximum(m,np.clip(1-np.abs(d-r)/7,0,1)*(1-u)*o)
     m=m[...,None];cv[y0:y1,x0:x1]=cv[y0:y1,x0:x1]*(1-m)+col*m
 NAU=np.array((.55,.42,.27),np.float32)
+PT=json.load(open('/tmp/gen/bd/a/map_trung_pts.json'))
+def mapbg_trung(cv,cam,u=1.0,o=1.0):
+    im=A('map_trung')
+    if u<1: im=wipe(im,u,0,.25,seed=4)
+    put(cv,cam,im,960,540,o=o,scale_px=1.5)
 def cuon(cv,x,y,t,tieu,chu,col=None,o=1.0,s=.62,sz=60,u=1.0,gach=0.0,thay=None,uthay=0.0):
     """hình ảnh lặp lại: cuộn sử có hai chữ; gach>0 thì gạch chéo, thay = hai chữ mới viết đè"""
     put(cv,C0,'t18_cuon',x,y,s=s,o=o,r=.5*math.sin(t*.7+x))
@@ -146,9 +151,9 @@ def S_3(cv,t):
 # ---- 4: bản đồ: nước ta dưới nhà Đường, chia thành châu; Hoan Châu
 def S_4(cv,t):
     a,b=T[4]-.3,E[4]+.3;q=sb(4,1)
-    dl,ng,th=P['daila'],P['nghean'],P['thanhhoa']
-    c=mcam(t,[(a,(700,720,1.2)),(q,(760,760,1.05)),(b,(820,820,1.2))])
-    mapbg(cv,c,u=inn(t,a-.2,1.0))
+    dl,ng,th=PT['daila'],PT['hoanchau'],PT['aichau']
+    c=mcam(t,[(a,(820,400,1.2)),(q,(800,480,1.1)),(b,(780,600,1.25))])
+    mapbg_trung(cv,c,u=inn(t,a-.2,1.0))
     for nm,p,t0 in (('nơi đóng của quan nhà Đường',dl,a+.6),('Ái Châu',th,a+1.2),('Hoan Châu',ng,q)):
         if t>t0: dot(cv,c,*p,o=inn(t,t0,.3),col=RED if nm=='Hoan Châu' else INK);tag(cv,c,p[0]+22,p[1]-6,nm,dy=0,sz=26)
     if t>q: pulse(cv,c,*ng,t);stroke(cv,c,[dl,th,ng],inn(t,q,1.5),wid=4,col=INK,o=.5,head=False)
@@ -226,11 +231,11 @@ def S_9(cv,t):
 # ---- 10: bắt tay Lâm Ấp, Chân Lạp; ba mươi hai châu (bản đồ, bộ đếm)
 def S_10(cv,t):
     a,b=T[10]-.3,E[10]+.3;q=sb(10,1)
-    ng,qn=P['nghean'],P['quynhon']
-    c=mcam(t,[(a,(520,800,1.45)),(b,(700,700,1.12))])
-    mapbg(cv,c,u=inn(t,a-.2,1.0))
+    ng=PT['hoanchau']
+    c=mcam(t,[(a,(780,640,1.3)),(b,(820,700,1.05))])
+    mapbg_trung(cv,c,u=inn(t,a-.2,1.0))
     dot(cv,c,*ng,col=RED);tag(cv,c,ng[0]+22,ng[1]-6,'Hoan Châu',dy=0,sz=26);pulse(cv,c,*ng,t)
-    for nm,p,t0 in (('Lâm Ấp',(760,1070),a+.6),('Chân Lạp',(110,1070),a+1.6)):
+    for nm,p,t0 in (('Lâm Ấp',(PT['lamap'][0],880),a+.6),('Chân Lạp',(PT['chanlap'][0]+60,880),a+1.6)):
         if t>t0: tag(cv,c,p[0]+20,p[1]-6,nm,dy=0,sz=26);stroke(cv,c,[p,ng],inn(t,t0,1.2),wid=5,col=RED,o=.7)
         u=inn(t,t0,1.4);put(cv,c,'t18_spr_coda',p[0]+(ng[0]-p[0])*u,p[1]+(ng[1]-p[1])*u,s=.2,ay=1,o=inn(t,t0,.3),r=3*math.sin(t*3+t0))
     di(cv,c,'t18_spr_mtl',ng[0]-30,ng[1]+20,ng[0]+10,ng[1]+20,t,a,b,s=.2,bob=1,f=3,k=1.01)
@@ -292,10 +297,10 @@ def S_14(cv,t):
 DUONG_CU=None
 def S_15(cv,t):
     a,b=T[15]-.3,E[15]+.3;q=sb(15,1)
-    lc,dl,th,ng=P['liemchau'],P['daila'],P['thanhhoa'],P['nghean']
+    lc,dl,th,ng=PT['liemchau'],PT['daila'],PT['aichau'],PT['hoanchau']
     pts=[lc,dl,th,ng]
-    c=mcam(t,[(a,(900,600,1.05)),(b,(820,720,1.0))])
-    mapbg(cv,c,u=inn(t,a-.2,1.0))
+    c=mcam(t,[(a,(1000,300,1.15)),(b,(800,560,1.1))])
+    mapbg_trung(cv,c,u=inn(t,a-.2,1.0))
     for nm,p in (('Lĩnh Nam',lc),('Hoan Châu',ng)): dot(cv,c,*p,col=RED if nm=='Hoan Châu' else INK);tag(cv,c,p[0]+22,p[1]-6,nm,dy=0,sz=26)
     def theo(u):
         seg=min(int(u*3),2);v=u*3-seg;p,q2=pts[seg],pts[seg+1];return p[0]+(q2[0]-p[0])*v,p[1]+(q2[1]-p[1])*v

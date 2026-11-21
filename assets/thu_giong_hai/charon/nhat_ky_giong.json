@@ -3088,11 +3088,11 @@
 "du_phong": false
 },
 "c200001": {
-"nhom": "200001-200027",
+"nhom": "200001-200029",
 "model": "gemini-3.8-flash-tts",
 "voice": "Charon",
 "style_var": "C_chuong",
-"thoi_diem": "2026-11-20 16:47:48",
+"thoi_diem": "2026-11-21 00:25:01",
 "du_phong": false
 }
 }

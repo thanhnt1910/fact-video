@@ -262,6 +262,8 @@ def S_12(cv,t):
     ngoai(cv,c,t,g=880,seed=12,mist=.4)
     put(cv,c,'t18x_quanta',960,620,s=1.0,o=.8)
     for r in range(2): di(cv,c,'t18_spr_ta',2600+r*200,890+r*28,1500+r*160,890+r*28,t,a+r*.3,b+1,s=.5,bob=4,f=5.6+r*.4,ph=r,lat=True)
+    di(cv,c,'t18_spr_coda',-300,880,450,880,t,a,b,s=.55,bob=4,f=5)
+    di(cv,c,'t18_spr_1ta',-600,890,250,890,t,a+.3,b,s=.6,bob=4,f=5.4,ph=1)
     truoc(cv,c,t)
     if not FREEZE:
         for x,tt,n,t0,col in ((560,'BỘ SỬ NHÀ LÊ',300000,a+.4,INK),(1360,'SỬ NHÀ ĐƯỜNG',400000,q,RED)):
@@ -387,9 +389,38 @@ def S_19(cv,t):
     truoc(cv,c,t)
     cuon(cv,1440,470,t,'BỘ SỬ NHÀ LÊ','tướng giặc',s=.5,sz=52,u=inn(t,a+.6,.8))
     lb(cv,C0,'chỉ ghi: nhà Đường đánh tan được',960,150,t,a+.3,b,col=INK,sz=40)
-# ---- 20: bốn mươi vạn có thật không? (sử triều Nguyễn)
+# ---- 20: vì sao sử ta gọi là giặc? sách nhà Đường viết về ông như kẻ làm phản (cuộn sử, hình ảnh lặp lại)
 def S_20(cv,t):
     a,b=T[20]-.3,E[20]+.3;q=sb(20,1)
+    c=kc(t,[(a,(960,560,1.0)),(b,(1100,540,1.1))])
+    ngoai(cv,c,t,g=880,seed=30,mist=.5,far=.6,midv=.6)
+    di(cv,c,'t18_spr_quan',-300,880,380,880,t,a,b,s=.6,bob=2,f=3)
+    for i in range(2): di(cv,c,'t18_spr_1duong',2300+i*180,880,1650+i*140,880,t,a+i*.4,b,s=.6,bob=2,f=3.2,ph=i,lat=True)
+    di(cv,c,'t18_spr_dan',-600,890,100,890,t,a+.4,b,s=.5,bob=2,f=3.4)
+    truoc(cv,c,t)
+    if not FREEZE: ink_wash(cv,.3)
+    cuon(cv,1060,500,t,'SÁCH NHÀ ĐƯỜNG','kẻ làm phản',col=DUONGC,s=.7,sz=58,u=inn(t,q,.8))
+    if not FREEZE and t>q+1.2: put_screen(cv,wipe(text('giặc',80,RED,700),inn(t,q+1.2,.6),0,.25,seed=20),1060,640,1)
+    lb(cv,C0,'vì sao sử của chính nước ta gọi ông như vậy?',960,150,t,a+.3,q-.2,col=RED,sz=40)
+# ---- 21: sử cũ chép theo sách nhà Đường mà không xét lại (chữ giặc chảy từ cuộn này sang cuộn kia)
+def S_21(cv,t):
+    a,b=T[21]-.3,E[21]+.3
+    c=kc(t,[(a,(960,560,1.04)),(b,(960,560,1.0))])
+    ngoai(cv,c,t,g=880,seed=31,mist=.5,far=.6,midv=.6)
+    di(cv,c,'t18_spr_suga',-300,880,260,880,t,a,b,s=.6,bob=1,f=1.5,lac=.4)
+    di(cv,c,'t18_spr_quan',2300,880,1700,880,t,a,b,s=.55,bob=2,f=3,lat=True)
+    di(cv,c,'t18_spr_dan',2600,890,2000,890,t,a+.5,b,s=.5,bob=2,f=3.4,lat=True)
+    truoc(cv,c,t)
+    if not FREEZE: ink_wash(cv,.3)
+    cuon(cv,560,520,t,'SÁCH NHÀ ĐƯỜNG','giặc',col=DUONGC,s=.6,sz=60)
+    cuon(cv,1360,520,t,'BỘ SỬ NHÀ LÊ','tướng giặc',s=.6,sz=56,u=inn(t,a+1.8,.8))
+    if not FREEZE:
+        u=inn(t,a+.6,1.4);stroke(cv,C0,[(720,520),(1200,520)],u,wid=8,col=RED,o=.8)
+        if t>a+.6: put_screen(cv,text('giặc',40,RED,700),lerp(720,1200,u),470,.9*(1-inn(t,a+2.0,.4)))
+        put_screen(cv,band(780,80,PAPER,.9,14),960,800,inn(t,a+2.6,.4));put_screen(cv,text('Cương mục: lấy theo sách nhà Đường, không xét lại',32,INK,700),960,798,inn(t,a+2.6,.4))
+# ---- 22: bốn mươi vạn có thật không? (sử triều Nguyễn)
+def S_22(cv,t):
+    a,b=T[22]-.3,E[22]+.3;q=sb(22,1)
     c=kc(t,[(a,(960,520,1.12)),(b,(960,560,1.0))])
     ngoai(cv,c,t,g=880,seed=21,far=.5,midv=.5)
     put(cv,c,'t18x_nguyen',960,630,s=1.1)
@@ -400,9 +431,9 @@ def S_20(cv,t):
         sh=6*math.sin(t*20)*inn(t,q,.5);put_screen(cv,band(560,130,PAPER,.9,20),960+sh,270,inn(t,a+.3,.4))
         put_screen(cv,text('400.000 quân ?',62,RED,700),960+sh,270,inn(t,a+.3,.4))
     lb(cv,C0,'những người viết sử triều Nguyễn không tin',960,140,t,q+.2,b,col=INK,sz=40)
-# ---- 21: mười hai châu, không phải ba mươi hai (bộ đếm)
-def S_21(cv,t):
-    a,b=T[21]-.3,E[21]+.3;q=sb(21,1)
+# ---- 23: mười hai châu, không phải ba mươi hai (bộ đếm)
+def S_23(cv,t):
+    a,b=T[23]-.3,E[23]+.3;q=sb(23,1)
     c=kc(t,[(a,(960,560,1.0)),(b,(1100,560,1.08))])
     ngoai(cv,c,t,g=880,seed=22,mist=.6)
     for i in range(2): di(cv,c,'t18_spr_1duong',600+i*200,880,800+i*200,880,t,a,b,s=.6,bob=1.5,f=1.6,ph=i,lac=.6)
@@ -416,9 +447,9 @@ def S_21(cv,t):
         put_screen(cv,text('32 châu theo sử nhà Đường',34,INK,700),790,500,inn(t,a+1.2,.4))
         if t>q: put_screen(cv,band(700,90,PAPER,.9,14),1400,330,inn(t,q,.4));put_screen(cv,text('nói quân ta đông lên để được thưởng',34,DUONGC,700),1400,330,inn(t,q,.4))
     lb(cv,C0,'nhà Đường chỉ chia nước ta thành mười hai châu',960,150,t,a+.3,q-.2,col=INK,sz=40)
-# ---- 22: điều chắc chắn: một người dám tự lên làm vua
-def S_22(cv,t):
-    a,b=T[22]-.3,E[22]+.3;q=sb(22,1)
+# ---- 24: điều chắc chắn: một người dám tự lên làm vua
+def S_24(cv,t):
+    a,b=T[24]-.3,E[24]+.3;q=sb(24,1)
     c=kc(t,[(a,(1300,560,1.05)),(q,(700,560,1.12)),(b,(800,540,1.18))])
     ngoai(cv,c,t,g=880,seed=23,mist=.4)
     put(cv,c,'t18x_doi',960,560,s=1.0)
@@ -427,9 +458,9 @@ def S_22(cv,t):
     truoc(cv,c,t)
     lb(cv,C0,'con số lớn là của người thắng?',960,150,t,a+.3,q-.2,col=INK,sz=42)
     lb(cv,C0,'chắc chắn: một người dám tự lên làm vua',960,150,t,q+.2,b,col=RED,sz=42)
-# ---- 23: Ngô Thì Sĩ, thế kỷ mười tám
-def S_23(cv,t):
-    a,b=T[23]-.3,E[23]+.3;q=sb(23,1)
+# ---- 25: Ngô Thì Sĩ, thế kỷ mười tám
+def S_25(cv,t):
+    a,b=T[25]-.3,E[25]+.3;q=sb(25,1)
     c=kc(t,[(a,(960,520,1.15)),(b,(960,560,1.0))])
     ngoai(cv,c,t,g=880,seed=24,far=.4,midv=.4,mist=.3)
     put(cv,c,'t18x_ngothisi',960,630,s=1.1)
@@ -440,9 +471,9 @@ def S_23(cv,t):
     if not FREEZE: ink_wash(cv,.2*inn(t,a,1))
     lb(cv,C0,'hai chữ tướng giặc nằm yên gần ba trăm năm',960,150,t,a+.3,q-.2,col=INK,sz=40)
     lb(cv,C0,'Ngô Thì Sĩ, sách Việt sử tiêu án',960,150,t,q+.2,b,col=RED,sz=42)
-# ---- 24: ngang với Lý Bí, Triệu Quang Phục
-def S_24(cv,t):
-    a,b=T[24]-.3,E[24]+.3;q=sb(24,1)
+# ---- 26: ngang với Lý Bí, Triệu Quang Phục
+def S_26(cv,t):
+    a,b=T[26]-.3,E[26]+.3;q=sb(26,1)
     c=kc(t,[(a,(960,560,1.0)),(b,(1200,560,1.12))])
     ngoai(cv,c,t,g=880,seed=25,mist=.5)
     put(cv,c,'t18x_bacanh',960,560,s=1.0)
@@ -454,9 +485,9 @@ def S_24(cv,t):
             u=inn(t,q+k*.5,.4);put_screen(cv,band(300,60,PAPER,.88,12),x,820,u);put_screen(cv,text(nm,30,RED if k==2 else INK,700),x,818,u)
     lb(cv,C0,'giỏi hơn hẳn những người có thế lực trong vùng',960,150,t,a+.3,q-.2,col=INK,sz=38)
     lb(cv,C0,'ngang với họ, chỉ khác là việc không thành',960,150,t,q+.2,b,col=RED,sz=40)
-# ---- 25: hình ảnh lặp lại khép lại: gạch tướng giặc, viết châu dân (cận cảnh, lặng trước nét cọ)
-def S_25(cv,t):
-    a,b=T[25]-.3,E[25]+.3
+# ---- 27: hình ảnh lặp lại khép lại: gạch tướng giặc, viết châu dân (cận cảnh, lặng trước nét cọ)
+def S_27(cv,t):
+    a,b=T[27]-.3,E[27]+.3
     c=kc(t,[(a,(960,560,1.0)),(b,(960,540,1.06))])
     ngoai(cv,c,t,g=880,seed=26,mist=.5,far=.5,midv=.5)
     di(cv,c,'t18_spr_suga',-300,880,280,880,t,a,b,s=.6,bob=1,f=1.5,lac=.4)
@@ -465,9 +496,9 @@ def S_25(cv,t):
     if not FREEZE: ink_wash(cv,.3)
     cuon(cv,1060,500,t,'VIỆT SỬ TIÊU ÁN','tướng giặc',s=.75,sz=66,gach=inn(t,a+.8,.6),thay='châu dân',uthay=inn(t,a+1.6,1.2))
     if not FREEZE: put_screen(cv,band(420,70,PAPER,.92,12),1500,640,inn(t,a+3.0,.6));put_screen(cv,text('người trong châu',36,RED,700),1500,638,inn(t,a+3.0,.6))
-# ---- 26: đền thờ ở Sa Nam
-def S_26(cv,t):
-    a,b=T[26]-.3,E[26]+.3
+# ---- 28: đền thờ ở Sa Nam
+def S_28(cv,t):
+    a,b=T[28]-.3,E[28]+.3
     c=kc(t,[(a,(960,500,1.06)),(b,(960,560,1.0))])
     ngoai(cv,c,t,g=880,seed=27)
     put(cv,c,'t18x_den',960,560,s=1.0)
@@ -476,9 +507,9 @@ def S_26(cv,t):
     flock(cv,c,t,.6)
     truoc(cv,c,t)
     lb(cv,C0,'Sa Nam, Nam Đàn: đền thờ vua Đen',960,160,t,a+.4,b,col=RED,sz=44)
-# ---- 27: kết
-def S_27(cv,t):
-    a=T[27]-.3;b=E[27]+4;q=sb(27,1)
+# ---- 29: kết
+def S_29(cv,t):
+    a=T[29]-.3;b=E[29]+4;q=sb(29,1)
     c=kc(t,[(a,(900,560,1.06)),(b,(1100,520,1.0))])
     ngoai(cv,c,t,g=880,seed=28,mist=.6)
     put(cv,c,'t18x_cuoi',960,560,s=1.0)
@@ -489,7 +520,7 @@ def S_27(cv,t):
     if not FREEZE:
         tx=text('Mai Thúc Loan, năm 722',54,INK,700);put_screen(cv,wipe(tx,inn(t,a+.8,1.4),0,.3,seed=13),W/2,170)
         put_screen(cv,text('vua Đen · người trong châu',34,RED,700),W/2,240,inn(t,a+2.4,1))
-        put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,300,inn(t,E[27]+.6,1))
+        put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,300,inn(t,E[29]+.6,1))
 DUONGC=(.17,.29,.45)
 if FREEZE:
     lb=lambda *a,**k:None
@@ -497,7 +528,7 @@ if FREEZE:
     big=lambda *a,**k:None
     flock=lambda *a,**k:None
 S=lambda n:T[n]-.3
-SH=[(0 if n==1 else S(n),S(n+1) if n<27 else V.TOTAL+1,globals()[f'S_{n}']) for n in range(1,28)]
+SH=[(0 if n==1 else S(n),S(n+1) if n<29 else V.TOTAL+1,globals()[f'S_{n}']) for n in range(1,30)]
 _J=json.load(open('/tmp/pc/ke-hoach/thu-giong-hai/tm18_full.json'))
 SENT={}
 for _i,_d in enumerate(_J):
@@ -513,7 +544,7 @@ def ov(cv,t):
     TT=T[4]
     if TT-4.2<t<TT+.2: title(cv,t,TT-3.6,'HOAN CHÂU','stitle18',.55)
     caps(cv,t)
-V.NHAN={13:'Dương Tư Húc – thái giám nhà Đường',23:'Ngô Thì Sĩ – nhà sử học thế kỷ 18'}
+V.NHAN={13:'Dương Tư Húc – thái giám nhà Đường',25:'Ngô Thì Sĩ – nhà sử học thế kỷ 18'}
 class _V2: pass
 V2=_V2();V2.__dict__.update(V.__dict__);V2.TX={}
 def frame(t): return K.compose(V2,SH,t,ov,{})

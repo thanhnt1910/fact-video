@@ -1,6 +1,6 @@
 # Mai Thúc Loan, năm 722 (thủy mặc tm18): tiêu đề, mô tả, bình luận ghim, ảnh bìa
 
-Video: `tm18_thuymac_dai.mp4` (16:9, 4 phút 2 giây, giọng Charon, kịch bản bản 1.2, 27 cảnh). Ảnh bìa: `assets/bia/TM18/bia_tm18.png` và `bia_tm18_youtube.jpg`, chữ lớn "VUA ĐEN HAY GIẶC?", có logo đúng cỡ và vị trí.
+Video: `tm18_thuymac_dai.mp4` (16:9, 4 phút 18 giây, giọng Charon, kịch bản bản 1.3, 29 cảnh). Ảnh bìa: `assets/bia/TM18/bia_tm18.png` và `bia_tm18_youtube.jpg`, chữ lớn "VUA ĐEN HAY GIẶC?", có logo đúng cỡ và vị trí.
 
 ## Tiêu đề YouTube
 **Chọn:** Quê hương gọi ông là vua Đen, sử nhà Lê gọi ông là tướng giặc | Mai Thúc Loan năm 722

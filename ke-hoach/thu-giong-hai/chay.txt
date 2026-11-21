@@ -1,1 +1,1 @@
-doc-tm19 Charon tm19 ca (đọc lại lần 3: lần 2 đọc sai năm 791 thành 779 ở đoạn 20; chủ kênh yêu cầu 21/11; đã xóa file giọng cũ)
+doc-tm19 Charon tm19 ca (đọc lại lần 4: lần 3 trầm hơn mọi tập trước, cao độ 116 Hz; giữ nguyên chỉ dẫn; chủ kênh yêu cầu 21/11)

@@ -88,7 +88,7 @@ def nv(cv,c,name,x,y,t,s=.7,r=0,o=1.0,flip=False):
     put(cv,c,Af(name) if flip else name,x,y-2*math.sin(t*1.6+x),s=s*GS if y>700 else s,ay=1,o=o,r=r+.6*math.sin(t*1.1+x),scale_px=asc(name))
 def bien(cv,x,y,t,chu='',u=1.0,o=1.0,s=.9,phu=''):
     """hình ảnh lặp lại: tấm biển gỗ thờ Bố Cái"""
-    put(cv,C0,'t19_bien',x,y,s=s,o=o,r=.4*math.sin(t*.6))
+    put(cv,C0,'t19_bien',x,y,s=s,o=o)
     if FREEZE: return
     if chu: put_screen(cv,wipe(text(chu,int(84*s/.9*min(1,9/max(len(chu),1))),GOLDC,700),u,0,.25,seed=19),x,y-6,o)
     if phu: put_screen(cv,text(phu,int(34*s/.9),RED,700),x,y+int(140*s/.9),o*u)
@@ -376,9 +376,9 @@ def S_19(cv,t):
     c=kc(t,[(a,(1200,560,1.05)),(b,(900,560,1.0))])
     ngoai(cv,c,t,g=880,seed=20,mist=.5)
     put(cv,c,'t19x_trieuxuong',960,560,s=1.0)
-    di(cv,c,'t19n_xuong',2300,885,1450,885,t,a,q+1,s=.72,bob=2,f=3,lat=True)
-    for i in range(2): di(cv,c,'t19n_1duong',2600+i*180,885,1700+i*150,885,t,a+i*.3,q+1,s=.6,bob=3,f=4,ph=i,lat=True)
-    if t>q: di(cv,c,'t19n_dan2',1300,890,400,890,t,q,b+1,s=.55,bob=3,f=4.4,lat=True)
+    di(cv,c,'t19n_xuong',2300,885,1500,885,t,a,q+1,s=.72,bob=2,f=3,lat=True)
+    for i in range(2): di(cv,c,'t19n_1duong',2600+i*180,885,1720+i*170,885,t,a+i*.3,q+1,s=.6,bob=3,f=4,ph=i,lat=True)
+    di(cv,c,'t19n_duong',2900,890,2150,890,t,a+.6,b,s=.5,bob=3,f=4.2,lat=True)
     truoc(cv,c,t)
     lb(cv,C0,'nhà Đường không đem quân sang đánh',960,150,t,a+.3,q-.2,col=INK,sz=42)
     lb(cv,C0,'sai người đến thuyết phục Phùng An',960,230,t,q+.2,b,col=DUONGC,sz=40)

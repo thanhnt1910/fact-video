@@ -306,6 +306,9 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 10. Giao cho chủ kênh. Sau khi đăng, ghi số liệu giữ chân người xem.
 
 ## 7. Ghi chú kỹ thuật cho Claude
+- **So giọng với tập trước trước khi dựng (chủ kênh nhắc 21/11/2026, tm19):** cùng giọng Charon, cùng mô hình và câu chỉ dẫn, Gemini vẫn có lần đọc trầm, chậm, phẳng. Sau mỗi lần đọc, ngoài nhận dạng giọng để kiểm đủ chữ, chạy `python3 phim_ban_do/thuymac/do_giong.py <mp3 tập trước> <mp3 mới>` (cao độ, độ lên xuống, khoảng lặng). Lệch rõ (cao độ thấp hơn từ 4 Hz hoặc độ lên xuống thấp hơn khoảng 10%) thì báo chủ kênh trước khi dựng. Kiểm riêng từng năm trong lời đọc: lần đọc 2 của tm19 đọc "791" thành "779".
+- **Nhân vật chính khác hẳn lính (chủ kênh nhắc 21/11/2026, tm19):** không dùng cùng màu khăn, áo, đai của lính cho nhân vật có tên rồi chỉ vẽ to hơn. Nhân vật chính đổi ít nhất hai thứ trong khăn, áo, đai hoặc thêm giáp (tm19: Phùng Hưng giáp sẫm, khăn đen, đai vàng; lính khăn đỏ, áo vải sáng). Tranh đã có sẵn một nhân vật thì cảnh đó không thêm hình rời cùng nhân vật (tm19 cảnh Triệu Xương từng có hai Triệu Xương). Người đi trên bờ không đi ngang qua thuyền vẽ trong tranh.
+- **Biển, cuộn sử có chữ đè lên thì không xoay, không lắc**, vì chữ đặt riêng sẽ lệch khỏi biển.
 - **Nhánh làm việc dùng sparse checkout.** Khi thêm file mới (kịch bản, giọng, mã), chạy `git sparse-checkout add '<đường dẫn>'` cho đúng mẫu đường dẫn. Nếu không, lần `sparse-checkout add` sau sẽ xóa các file ấy khỏi thư mục làm việc. Ở tm2, `tm2_full.json` từng biến mất vì lỗi này.
 - **Cách dựng cho hấp dẫn (chủ kênh chốt 20/11/2026 sau bản thử mở đầu tm17; áp dụng mọi video từ nay, mẫu `dai_tm17.py`):**
   1. **Hình ảnh lặp lại theo điểm nhấn:** chọn một hình gắn với điểm nhấn của nhân vật chính (tm17: khí độc xanh xám `t17_spr_doc`, hàm `khidoc`) và chỉ cho nó xuất hiện ở các lúc lời kể nhắc tới (mở đầu, giữa, cuối), để người xem tự nối. Màu của hình này không dùng cho việc khác.

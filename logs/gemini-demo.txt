@@ -1,48 +1,44 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Đứng trên bãi biển nhìn ra khơi, đường chân trời x
-OK Leda 02: Nhưng không cần thước dây, chỉ cần một tam giác vu
-OK Leda 03: Con số ra rất bất ngờ: chỉ khoảng 5 ki-lô-mét.
-OK Leda 04: Đường chân trời là chỗ mặt biển cong khuất đi, ta 
+OK Leda 01: Không ai mang nhiệt kế tới Mặt Trời, vậy sao biết 
+OK Leda 02: Nhưng bí mật nằm ở màu sắc: màu của vật nóng cho b
+OK Leda 03: Vậy chỉ cần nhìn ánh sáng, ta đọc được nhiệt độ từ
+OK Leda 04: Hãy nghĩ đến thanh sắt trong lò rèn.
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Trái Đất như quả bóng khổng lồ, mắt bạn là một chấ
-OK Leda 06: Tia nhìn xa nhất lướt sát mặt bóng, chạm bóng tại 
-OK Leda 07: Điểm chạm ấy chính là đường chân trời.
-OK Leda 08: Với hình tròn: đường thẳng chạm vào đường tròn luô
-OK Leda 09: Ta có tam giác vuông: một đỉnh ở tâm Trái Đất, một
+OK Leda 05: Mới nung, nó đỏ sẫm, khoảng 700 đến 800 độ C.
+OK Leda 06: Nung thêm, nó chuyển màu cam, khoảng 1.000 độ C.
+OK Leda 07: Nóng hơn nữa, nó sáng trắng, từ khoảng 1.300 độ C 
+OK Leda 08: Như vậy càng nóng, ánh sáng càng chuyển từ đỏ sang
+OK Leda 09: Năm 1893, nhà vật lý Đức Wilhelm Wien biến điều nà
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Cạnh từ tâm tới chân trời là bán kính Trái Đất, kh
-OK Leda 11: Cạnh tới mắt dài hơn: bán kính cộng chiều cao của 
-OK Leda 12: Cạnh còn lại là khoảng cách từ mắt tới chân trời: 
-OK Leda 13: Định lý Pythagoras: bình phương cạnh huyền bằng tổ
+OK Leda 10: Rồi năm 1911, ông nhận giải Nobel Vật lý cho các k
+OK Leda 11: Công thức ấy: bước sóng màu sáng nhất bằng hằng số
+OK Leda 12: Bước sóng là độ dài một sóng ánh sáng, mỗi màu có 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Cạnh huyền là cạnh tới mắt: bán kính cộng chiều ca
-OK Leda 15: Khai triển ra, bán kính bình phương ở hai bên triệ
-OK Leda 16: Còn lại: khoảng cách bình phương = 2 × bán kính × 
-OK Leda 17: Mắt chỉ cao 1,7 mét, quá nhỏ so với bán kính, nên 
-OK Leda 18: Vậy khoảng cách = căn bậc hai của 2 × bán kính × c
-OK Leda 19: Đổi chiều cao mắt ra ki-lô-mét: 1,7 mét là 0,0017 
+OK Leda 13: Bước sóng đo bằng nano-mét, một phần triệu mi-li-m
+OK Leda 14: Hằng số ấy là 2.898.000, tính theo nano-mét nhân đ
+OK Leda 15: Kelvin là thang nhiệt độ bắt đầu từ độ không tuyệt
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Hai nhân 6.371 ra 12.742.
-OK Leda 21: Nhân với 0,0017, ra khoảng 21,66.
-OK Leda 22: Căn bậc hai của 21,66 là khoảng 4,65.
-OK Leda 23: Vậy chân trời cách người cao 1,7 mét khoảng 4,65 k
-OK Leda 24: Đó là quãng đi bộ chưa tới 1 giờ.
-OK Leda 25: Giờ leo lên tháp cao 100 mét.
+OK Leda 16: Muốn đổi từ độ C sang kelvin, chỉ cần cộng khoảng 
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 26: Mắt lúc này cao gấp khoảng 59 lần.
-OK Leda 27: Nhưng chân trời không xa gấp 59 lần.
-OK Leda 28: Nó chỉ xa gấp khoảng 7,7 lần, vì có căn bậc hai.
-OK Leda 29: 12.742 nhân 0,1 ra khoảng 1.274.
-OK Leda 30: Căn bậc hai của số đó khoảng 35,7.
+OK Leda 17: Thử với thanh sắt 1.000 độ C.
+OK Leda 18: Cộng 273, ra 1.273 kelvin.
+OK Leda 19: Rồi lấy 2.898.000 ÷ 1.273.
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 31: Vậy đứng trên tháp, thấy chân trời xa khoảng 35,7 
-OK Leda 32: Thực tế không khí bẻ cong tia sáng, nên thấy xa hơ
+OK Leda 20: Ra khoảng 2.300 nano-mét.
+OK Leda 21: Con số này dài hơn nhiều so với màu đỏ, nên sắt ph
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 33: Cộng phần đó, trên bãi biển thấy chân trời cách kh
-OK Leda 34: Vì sao tàu đi xa thì thân tàu mất trước, cột buồm 
-OK Leda 35: Tàu vượt chân trời, mặt biển cong che phần thấp tr
-OK Leda 36: Tính như trên với cột buồm cao 30 mét, ta được kho
+OK Leda 22: Vì vậy mắt chỉ bắt được phần đuôi màu đỏ, và thanh
+OK Leda 23: Giờ đến Mặt Trời: tách ánh sáng của nó thành từng 
+OK Leda 24: Rồi xem màu nào mạnh nhất.
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 37: Cộng 4,65, còn thấy ngọn cột buồm đến khoảng 24 ki
-OK Leda 38: Nếu mặt biển phẳng, tàu chỉ nhỏ dần, không chìm từ
-OK Leda 39: Chân trời cách ta khoảng 5 ki-lô-mét, và tam giác 
+OK Leda 25: Kết quả, mạnh nhất ở khoảng 500 nano-mét, thuộc vù
+OK Leda 26: Lấy 2.898.000 ÷ 500.
+OK Leda 27: Ra khoảng 5.800 kelvin.
+OK Leda 28: Trừ khoảng 273, đó là khoảng 5.500 độ C.
+OK Leda 29: Con số này gần với giá trị NASA ghi: 5.772 kelvin.
+OK Leda 30: Bề mặt Mặt Trời không có ranh giới rõ ràng.
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 31: Nên sách ghi quanh 5.700 đến 6.000 kelvin.
+OK Leda 32: Cũng nhờ cách ấy, đo được nhiệt độ các ngôi sao kh
+OK Leda 33: Sao sáng nhất ở bước sóng ngắn hơn thì nóng hơn Mặ
+OK Leda 34: Vậy dù không ai chạm tới, màu ánh sáng cho biết bề

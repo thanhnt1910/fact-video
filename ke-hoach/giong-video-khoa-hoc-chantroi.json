@@ -1,0 +1,200 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Đứng trên bãi biển nhìn ra khơi, đường chân trời xa bao nhiêu?",
+   "say": "Đứng trên bãi biển nhìn ra khơi, đường chân trời xa bao nhiêu?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng không cần thước dây, chỉ cần một tam giác vuông và chiều cao của mắt.",
+   "say": "Nhưng bạn không cần thước dây, chỉ cần một tam giác vuông và chiều cao của mắt."
+  },
+  {
+   "n": 3,
+   "text": "Con số ra rất bất ngờ: chỉ khoảng 5 ki-lô-mét.",
+   "say": "Và con số ra rất bất ngờ: chỉ khoảng năm ki-lô-mét."
+  },
+  {
+   "n": 4,
+   "text": "Đường chân trời là chỗ mặt biển cong khuất đi, ta không thấy gì xa hơn.",
+   "say": "Đường chân trời là chỗ mặt biển cong khuất đi, và ta không nhìn thấy gì xa hơn nữa."
+  },
+  {
+   "n": 5,
+   "text": "Trái Đất như quả bóng khổng lồ, mắt bạn là một chấm nhỏ trên mặt bóng.",
+   "say": "Hãy hình dung Trái Đất như một quả bóng khổng lồ, còn mắt bạn là một chấm nhỏ bám trên mặt bóng."
+  },
+  {
+   "n": 6,
+   "text": "Tia nhìn xa nhất lướt sát mặt bóng, chạm bóng tại đúng một điểm.",
+   "say": "Tia nhìn xa nhất là tia lướt sát mặt bóng, chỉ chạm vào bóng tại đúng một điểm."
+  },
+  {
+   "n": 7,
+   "text": "Điểm chạm ấy chính là đường chân trời.",
+   "say": "Điểm chạm ấy chính là đường chân trời."
+  },
+  {
+   "n": 8,
+   "text": "Với hình tròn: đường thẳng chạm vào đường tròn luôn vuông góc với bán kính.",
+   "say": "Với hình tròn có một điều chắc chắn: đường thẳng chạm vào đường tròn luôn vuông góc với bán kính."
+  },
+  {
+   "n": 9,
+   "text": "Ta có tam giác vuông: một đỉnh ở tâm Trái Đất, một ở mắt bạn, một ở đường chân trời.",
+   "say": "Ta có tam giác vuông: một đỉnh ở tâm Trái Đất, một đỉnh ở mắt bạn, một đỉnh ở đường chân trời."
+  },
+  {
+   "n": 10,
+   "text": "Cạnh từ tâm tới chân trời là bán kính Trái Đất, khoảng 6.371 ki-lô-mét.",
+   "say": "Cạnh từ tâm tới đường chân trời là bán kính Trái Đất, khoảng sáu nghìn ba trăm bảy mươi mốt ki-lô-mét."
+  },
+  {
+   "n": 11,
+   "text": "Cạnh tới mắt dài hơn: bán kính cộng chiều cao của mắt.",
+   "say": "Cạnh từ tâm tới mắt bạn dài hơn một chút, bằng bán kính cộng chiều cao của mắt."
+  },
+  {
+   "n": 12,
+   "text": "Cạnh còn lại là khoảng cách từ mắt tới chân trời: điều cần tìm.",
+   "say": "Cạnh còn lại là khoảng cách từ mắt tới đường chân trời, chính là điều ta cần tìm."
+  },
+  {
+   "n": 13,
+   "text": "Định lý Pythagoras: bình phương cạnh huyền bằng tổng bình phương hai cạnh góc vuông.",
+   "say": "Định lý Py-ta-go nói: bình phương cạnh huyền bằng tổng bình phương hai cạnh góc vuông."
+  },
+  {
+   "n": 14,
+   "text": "Cạnh huyền là cạnh tới mắt: bán kính cộng chiều cao mắt, rồi bình phương.",
+   "say": "Ở đây cạnh huyền là cạnh tới mắt, nên ta lấy bán kính cộng chiều cao mắt rồi bình phương lên."
+  },
+  {
+   "n": 15,
+   "text": "Khai triển ra, bán kính bình phương ở hai bên triệt tiêu nhau.",
+   "say": "Khi khai triển, phần bán kính bình phương ở hai bên triệt tiêu nhau."
+  },
+  {
+   "n": 16,
+   "text": "Còn lại: khoảng cách bình phương = 2 × bán kính × chiều cao + chiều cao bình phương.",
+   "say": "Còn lại: khoảng cách bình phương bằng hai nhân bán kính nhân chiều cao, cộng chiều cao bình phương."
+  },
+  {
+   "n": 17,
+   "text": "Mắt chỉ cao 1,7 mét, quá nhỏ so với bán kính, nên bỏ phần chiều cao bình phương.",
+   "say": "Chiều cao mắt chỉ một mét bảy, quá nhỏ so với bán kính, nên phần chiều cao bình phương bỏ đi được."
+  },
+  {
+   "n": 18,
+   "text": "Vậy khoảng cách = căn bậc hai của 2 × bán kính × chiều cao.",
+   "say": "Vậy khoảng cách tới đường chân trời bằng căn bậc hai của hai nhân bán kính nhân chiều cao."
+  },
+  {
+   "n": 19,
+   "text": "Đổi chiều cao mắt ra ki-lô-mét: 1,7 mét là 0,0017 ki-lô-mét.",
+   "say": "Đổi chiều cao mắt ra ki-lô-mét: một mét bảy là không phẩy không không một bảy ki-lô-mét."
+  },
+  {
+   "n": 20,
+   "text": "Hai nhân 6.371 ra 12.742.",
+   "say": "Hai nhân sáu nghìn ba trăm bảy mươi mốt ra mười hai nghìn bảy trăm bốn mươi hai."
+  },
+  {
+   "n": 21,
+   "text": "Nhân với 0,0017, ra khoảng 21,66.",
+   "say": "Nhân với không phẩy không không một bảy, ra khoảng hai mươi mốt phẩy sáu sáu."
+  },
+  {
+   "n": 22,
+   "text": "Căn bậc hai của 21,66 là khoảng 4,65.",
+   "say": "Căn bậc hai của hai mươi mốt phẩy sáu sáu là khoảng bốn phẩy sáu lăm."
+  },
+  {
+   "n": 23,
+   "text": "Vậy chân trời cách người cao 1,7 mét khoảng 4,65 ki-lô-mét.",
+   "say": "Vậy chân trời cách người cao một mét bảy khoảng bốn phẩy sáu lăm ki-lô-mét."
+  },
+  {
+   "n": 24,
+   "text": "Đó là quãng đi bộ chưa tới 1 giờ.",
+   "say": "Đó là quãng đi bộ chưa tới một giờ."
+  },
+  {
+   "n": 25,
+   "text": "Giờ leo lên tháp cao 100 mét.",
+   "say": "Giờ leo lên tháp cao một trăm mét."
+  },
+  {
+   "n": 26,
+   "text": "Mắt lúc này cao gấp khoảng 59 lần.",
+   "say": "Mắt lúc này cao gấp khoảng năm mươi chín lần."
+  },
+  {
+   "n": 27,
+   "text": "Nhưng chân trời không xa gấp 59 lần.",
+   "say": "Nhưng chân trời không xa gấp năm mươi chín lần."
+  },
+  {
+   "n": 28,
+   "text": "Nó chỉ xa gấp khoảng 7,7 lần, vì có căn bậc hai.",
+   "say": "Nó chỉ xa gấp khoảng bảy phẩy bảy lần, vì có căn bậc hai."
+  },
+  {
+   "n": 29,
+   "text": "12.742 nhân 0,1 ra khoảng 1.274.",
+   "say": "Mười hai nghìn bảy trăm bốn mươi hai nhân không phẩy một ra một nghìn hai trăm bảy mươi bốn."
+  },
+  {
+   "n": 30,
+   "text": "Căn bậc hai của số đó khoảng 35,7.",
+   "say": "Căn bậc hai của số đó khoảng ba mươi lăm phẩy bảy."
+  },
+  {
+   "n": 31,
+   "text": "Vậy đứng trên tháp, thấy chân trời xa khoảng 35,7 ki-lô-mét.",
+   "say": "Vậy đứng trên tháp, ta thấy chân trời xa khoảng ba mươi lăm ki-lô-mét."
+  },
+  {
+   "n": 32,
+   "text": "Thực tế không khí bẻ cong tia sáng, nên thấy xa hơn công thức khoảng 8%.",
+   "say": "Thực tế không khí bẻ cong tia sáng một chút, nên ta thấy xa hơn công thức khoảng tám phần trăm."
+  },
+  {
+   "n": 33,
+   "text": "Cộng phần đó, trên bãi biển thấy chân trời cách khoảng 5 ki-lô-mét.",
+   "say": "Cộng thêm phần đó, người đứng trên bãi biển thấy chân trời cách khoảng năm ki-lô-mét."
+  },
+  {
+   "n": 34,
+   "text": "Vì sao tàu đi xa thì thân tàu mất trước, cột buồm mất sau?",
+   "say": "Giờ ta hiểu vì sao tàu đi xa thì thân tàu biến mất trước, cột buồm biến mất sau."
+  },
+  {
+   "n": 35,
+   "text": "Tàu vượt chân trời, mặt biển cong che phần thấp trước, phần cao vẫn lộ ra.",
+   "say": "Khi tàu vượt qua đường chân trời, mặt biển cong che phần thấp trước, còn phần cao vẫn lộ ra."
+  },
+  {
+   "n": 36,
+   "text": "Tính như trên với cột buồm cao 30 mét, ta được khoảng 19,6 ki-lô-mét.",
+   "say": "Tính như trên với cột buồm cao ba mươi mét, ta được khoảng mười chín phẩy sáu ki-lô-mét."
+  },
+  {
+   "n": 37,
+   "text": "Cộng 4,65, còn thấy ngọn cột buồm đến khoảng 24 ki-lô-mét.",
+   "say": "Cộng với bốn phẩy sáu lăm, ta còn thấy ngọn cột buồm đến khoảng hai mươi bốn ki-lô-mét."
+  },
+  {
+   "n": 38,
+   "text": "Nếu mặt biển phẳng, tàu chỉ nhỏ dần, không chìm từ dưới lên.",
+   "say": "Nếu mặt biển phẳng, tàu chỉ nhỏ dần chứ không bị chìm từ dưới lên."
+  },
+  {
+   "n": 39,
+   "text": "Chân trời cách ta khoảng 5 ki-lô-mét, và tam giác vuông ấy cho thấy Trái Đất tròn.",
+   "say": "Vậy đường chân trời cách ta khoảng năm ki-lô-mét, và chính tam giác vuông ấy cho thấy Trái Đất tròn."
+  }
+ ]
+}

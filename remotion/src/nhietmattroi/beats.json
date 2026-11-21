@@ -1,0 +1,140 @@
+{
+ "beats": [
+  {
+   "say": "Không ai mang nhiệt kế tới Mặt Trời, vậy sao ta biết bề mặt nó nóng khoảng năm nghìn tám trăm độ?",
+   "text": "Không ai mang *nhiệt kế* tới Mặt Trời, vậy sao biết *bề mặt* nó nóng khoảng *5.800 độ*?"
+  },
+  {
+   "say": "Nhưng bí mật nằm ở màu sắc: màu của một vật nóng cho biết nhiệt độ của nó.",
+   "text": "Nhưng bí mật nằm ở *màu sắc*: màu của vật nóng cho biết *nhiệt độ*."
+  },
+  {
+   "say": "Vậy chỉ cần nhìn ánh sáng, ta đọc được nhiệt độ từ rất xa.",
+   "text": "Vậy chỉ cần *nhìn ánh sáng*, ta đọc được nhiệt độ *từ rất xa*."
+  },
+  {
+   "say": "Hãy nghĩ đến thanh sắt trong lò rèn.",
+   "text": "Hãy nghĩ đến *thanh sắt* trong *lò rèn*."
+  },
+  {
+   "say": "Mới nung, nó đỏ sẫm, ứng với khoảng bảy trăm đến tám trăm độ C.",
+   "text": "Mới nung, nó *đỏ sẫm*, khoảng *700 đến 800 độ C*."
+  },
+  {
+   "say": "Nung thêm, nó chuyển sang màu cam, khoảng một nghìn độ C.",
+   "text": "Nung thêm, nó chuyển *màu cam*, khoảng *1.000 độ C*."
+  },
+  {
+   "say": "Nóng hơn nữa, nó sáng trắng, từ khoảng một nghìn ba trăm độ C trở lên.",
+   "text": "Nóng hơn nữa, nó *sáng trắng*, từ khoảng *1.300 độ C* trở lên."
+  },
+  {
+   "say": "Như vậy càng nóng, ánh sáng càng chuyển từ đỏ sang trắng.",
+   "text": "Như vậy *càng nóng*, ánh sáng càng chuyển từ *đỏ sang trắng*."
+  },
+  {
+   "say": "Năm một nghìn tám trăm chín mươi ba, nhà vật lý người Đức Vin-hem Vin biến điều này thành công thức.",
+   "text": "Năm *1893*, nhà vật lý Đức *Wilhelm Wien* biến điều này thành *công thức*."
+  },
+  {
+   "say": "Rồi năm một nghìn chín trăm mười một, ông nhận giải Nô-ben Vật lý cho các khám phá về bức xạ nhiệt.",
+   "text": "Rồi năm *1911*, ông nhận *giải Nobel Vật lý* cho các khám phá về *bức xạ nhiệt*."
+  },
+  {
+   "say": "Công thức ấy nói: bước sóng của màu sáng nhất bằng một hằng số chia cho nhiệt độ.",
+   "text": "Công thức ấy: *bước sóng màu sáng nhất* bằng *hằng số* chia cho *nhiệt độ*."
+  },
+  {
+   "say": "Trong đó bước sóng là độ dài của một sóng ánh sáng, mỗi màu có một bước sóng riêng.",
+   "text": "*Bước sóng* là độ dài một sóng ánh sáng, *mỗi màu* có một bước sóng riêng."
+  },
+  {
+   "say": "Bước sóng đo bằng nano-mét, một phần triệu của một mi-li-mét.",
+   "text": "Bước sóng đo bằng *nano-mét*, *một phần triệu mi-li-mét*."
+  },
+  {
+   "say": "Hằng số ấy là hai triệu tám trăm chín mươi tám nghìn, tính theo nano-mét nhân độ kelvin.",
+   "text": "*Hằng số* ấy là *2.898.000*, tính theo nano-mét nhân độ *kelvin*."
+  },
+  {
+   "say": "Kelvin là thang nhiệt độ bắt đầu từ độ không tuyệt đối.",
+   "text": "*Kelvin* là thang nhiệt độ bắt đầu từ *độ không tuyệt đối*."
+  },
+  {
+   "say": "Muốn đổi từ độ C sang kelvin, chỉ cần cộng khoảng hai trăm bảy mươi ba.",
+   "text": "Muốn đổi từ độ C sang kelvin, chỉ cần *cộng khoảng 273*."
+  },
+  {
+   "say": "Thử với thanh sắt một nghìn độ C.",
+   "text": "Thử với *thanh sắt 1.000 độ C*."
+  },
+  {
+   "say": "Cộng hai trăm bảy mươi ba, ra một nghìn hai trăm bảy mươi ba kelvin.",
+   "text": "Cộng 273, ra *1.273 kelvin*."
+  },
+  {
+   "say": "Rồi lấy hai triệu tám trăm chín mươi tám nghìn chia một nghìn hai trăm bảy mươi ba.",
+   "text": "Rồi lấy *2.898.000 ÷ 1.273*."
+  },
+  {
+   "say": "Ra khoảng hai nghìn ba trăm nano-mét.",
+   "text": "Ra khoảng *2.300 nano-mét*."
+  },
+  {
+   "say": "Con số này dài hơn nhiều so với màu đỏ, nên sắt phát mạnh nhất ở vùng mắt ta không thấy.",
+   "text": "Con số này *dài hơn nhiều* so với màu đỏ, nên sắt phát mạnh nhất ở vùng *mắt không thấy*."
+  },
+  {
+   "say": "Vì vậy mắt ta chỉ bắt được phần đuôi màu đỏ, và thanh sắt trông đỏ rực.",
+   "text": "Vì vậy mắt chỉ bắt được *phần đuôi màu đỏ*, và thanh sắt trông *đỏ rực*."
+  },
+  {
+   "say": "Giờ đến Mặt Trời: các nhà khoa học tách ánh sáng của nó thành từng màu.",
+   "text": "Giờ đến *Mặt Trời*: tách ánh sáng của nó *thành từng màu*."
+  },
+  {
+   "say": "Rồi xem màu nào mạnh nhất.",
+   "text": "Rồi xem *màu nào mạnh nhất*."
+  },
+  {
+   "say": "Kết quả, ánh sáng mạnh nhất ở khoảng năm trăm nano-mét, thuộc vùng màu lục.",
+   "text": "Kết quả, mạnh nhất ở khoảng *500 nano-mét*, thuộc vùng *màu lục*."
+  },
+  {
+   "say": "Lấy hai triệu tám trăm chín mươi tám nghìn chia năm trăm.",
+   "text": "Lấy *2.898.000 ÷ 500*."
+  },
+  {
+   "say": "Ra khoảng năm nghìn tám trăm kelvin.",
+   "text": "Ra khoảng *5.800 kelvin*."
+  },
+  {
+   "say": "Trừ đi khoảng hai trăm bảy mươi ba, đó là khoảng năm nghìn năm trăm độ C.",
+   "text": "Trừ khoảng 273, đó là khoảng *5.500 độ C*."
+  },
+  {
+   "say": "Con số này gần với giá trị Na-sa ghi: năm nghìn bảy trăm bảy mươi hai kelvin.",
+   "text": "Con số này gần với giá trị *NASA* ghi: *5.772 kelvin*."
+  },
+  {
+   "say": "Bề mặt Mặt Trời không có ranh giới rõ ràng.",
+   "text": "Bề mặt Mặt Trời *không có ranh giới rõ ràng*."
+  },
+  {
+   "say": "Nên các sách ghi quanh khoảng năm nghìn bảy trăm đến sáu nghìn kelvin.",
+   "text": "Nên sách ghi quanh *5.700 đến 6.000 kelvin*."
+  },
+  {
+   "say": "Cũng nhờ cách ấy, người ta đo được nhiệt độ các ngôi sao khác.",
+   "text": "Cũng nhờ cách ấy, đo được *nhiệt độ các ngôi sao* khác."
+  },
+  {
+   "say": "Sao nào sáng nhất ở bước sóng ngắn hơn thì nóng hơn Mặt Trời.",
+   "text": "Sao *sáng nhất ở bước sóng ngắn hơn* thì *nóng hơn* Mặt Trời."
+  },
+  {
+   "say": "Vậy dù không ai chạm tới, màu ánh sáng cho biết bề mặt Mặt Trời nóng khoảng năm nghìn tám trăm kelvin.",
+   "text": "Vậy dù không ai chạm tới, *màu ánh sáng* cho biết bề mặt Mặt Trời nóng khoảng *5.800 kelvin*."
+  }
+ ]
+}

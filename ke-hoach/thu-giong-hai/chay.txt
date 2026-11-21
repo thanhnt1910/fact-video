@@ -1,1 +1,1 @@
-doc-tm19 Charon tm19 ca (đọc lại lần 4: lần 3 trầm hơn mọi tập trước, cao độ 116 Hz; giữ nguyên chỉ dẫn; chủ kênh yêu cầu 21/11)
+doc-tm19 Charon tm19 ca (đọc lại lần 5 có chỉ dẫn riêng tm19 trong style_them.txt: cao vừa, lên xuống rõ; chủ kênh duyệt 21/11)

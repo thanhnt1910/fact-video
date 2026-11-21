@@ -41,6 +41,8 @@ import {Songthan} from './songthan/Songthan';
 import {timeline as timelineSt} from './songthan/content';
 import {Daynut} from './daynut/Daynut';
 import {Chantroi} from './chantroi/Chantroi';
+import {Nhietmattroi} from './nhietmattroi/Nhietmattroi';
+import {timeline as timelineNm} from './nhietmattroi/content';
 import {timeline as timelineCt} from './chantroi/content';
 import {timeline as timelineDn} from './daynut/content';
 import {Tuoivutru} from './tuoivutru/Tuoivutru';
@@ -90,6 +92,7 @@ export const Root: React.FC = () => {
       <Composition id="Tuoivutru" component={Tuoivutru} durationInFrames={timelineTv().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Songthan" component={Songthan} durationInFrames={timelineSt().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Daynut" component={Daynut} durationInFrames={timelineDn().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Nhietmattroi" component={Nhietmattroi} durationInFrames={timelineNm().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Chantroi" component={Chantroi} durationInFrames={timelineCt().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Gieng" component={Gieng} durationInFrames={timelineGs().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Nhietke" component={Nhietke} durationInFrames={timelineNk().total} fps={FPS} width={1080} height={1920} />

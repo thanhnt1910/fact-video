@@ -21,7 +21,7 @@ const heat = (h: number) => {
 };
 const Iron: React.FC<{x: number; y: number; h: number; w?: number; o?: number}> = ({x, y, h, w = 520, o = 1}) => (
   <g opacity={o}>
-    <circle cx={x + w / 2} cy={y} r={70 + 60 * h} fill={heat(h)} opacity={0.12 + 0.12 * h} />
+    <circle cx={x + w / 2} cy={y} r={50 + 40 * h} fill={heat(h)} opacity={0.1 + 0.08 * h} />
     <rect x={x} y={y - 28} width={w} height={56} rx={28} fill={heat(h)} stroke={C.cream} strokeWidth={5} />
   </g>
 );
@@ -132,7 +132,7 @@ const P4: Panel = ({f}) => (
   <g>
     <Head a="Mới nung" b="đỏ sẫm" />
     <Iron x={340} y={800} h={0.05 + 0.1 * sp(f, 0, 30)} w={600} />
-    <Big x={CX + 100} y={980} size={120} color={AM} o={sp(f, 8, 22)}>700–800 °C</Big>
+    <Big x={CX + 100} y={1060} size={120} color={AM} o={sp(f, 8, 22)}>700–800 °C</Big>
     <Hero2 f={f} />
   </g>
 );
@@ -140,7 +140,7 @@ const P5: Panel = ({f}) => (
   <g>
     <Head a="Nung thêm" b="màu cam" />
     <Iron x={340} y={800} h={0.2 + 0.3 * sp(f, 0, 30)} w={600} />
-    <Big x={CX + 100} y={980} size={120} color={AM} o={sp(f, 8, 22)}>≈ 1.000 °C</Big>
+    <Big x={CX + 100} y={1060} size={120} color={AM} o={sp(f, 8, 22)}>≈ 1.000 °C</Big>
     <Hero2 f={f} />
   </g>
 );
@@ -148,7 +148,7 @@ const P6: Panel = ({f}) => (
   <g>
     <Head a="Nóng hơn nữa" b="sáng trắng" />
     <Iron x={340} y={800} h={0.6 + 0.4 * sp(f, 0, 30)} w={600} />
-    <Big x={CX + 100} y={980} size={120} color={AM} o={sp(f, 8, 22)}>từ 1.300 °C</Big>
+    <Big x={CX + 100} y={1060} size={120} color={AM} o={sp(f, 8, 22)}>từ 1.300 °C</Big>
     <Hero2 f={f} />
   </g>
 );
@@ -236,7 +236,7 @@ const P16: Panel = ({f}) => (
   <g>
     <Head a="Thử với thanh sắt" b="1.000 độ C" />
     <Iron x={340} y={800} h={0.5} w={600} />
-    <Big x={CX + 100} y={980} size={120} color={AM} o={sp(f, 8, 22)}>1.000 °C</Big>
+    <Big x={CX + 100} y={1060} size={120} color={AM} o={sp(f, 8, 22)}>1.000 °C</Big>
     <Hero2 f={f} />
   </g>
 );
@@ -277,7 +277,7 @@ const P21: Panel = ({f}) => (
   <g>
     <Head a="Mắt chỉ bắt được" b="phần đuôi màu đỏ" />
     <Iron x={340} y={800} h={0.2} w={600} />
-    <Tag x={CX + 100} y={980} color={C.cream} size={44} o={sp(f, 8, 22)}>nên sắt trông đỏ rực</Tag>
+    <Tag x={CX + 100} y={1050} color={C.cream} size={46} o={sp(f, 8, 22)}>nên sắt trông đỏ rực</Tag>
     <Hero2 f={f} />
   </g>
 );

@@ -1,35 +1,48 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Giữa biển mênh mông không có cột mốc: làm sao biết
-OK Leda 02: Nhưng thủy thủ xưa làm được chỉ với một mảnh gỗ, m
-OK Leda 03: Nhờ sợi dây ấy, đến nay tốc độ tàu vẫn tính bằng n
-OK Leda 04: Muốn biết tốc độ, cần quãng đường và thời gian.
-OK Leda 05: Nhưng trên biển không có cột cây số để đếm quãng đ
-OK Leda 06: Họ lấy nước làm mốc: thả xuống biển một mảnh gỗ, n
-OK Leda 07: Tàu chạy đi, dây buộc vào mảnh gỗ tuột dần khỏi cu
+OK Leda 01: Đứng trên bãi biển nhìn ra khơi, đường chân trời x
+OK Leda 02: Nhưng không cần thước dây, chỉ cần một tam giác vu
+OK Leda 03: Con số ra rất bất ngờ: chỉ khoảng 5 ki-lô-mét.
+OK Leda 04: Đường chân trời là chỗ mặt biển cong khuất đi, ta 
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 08: Trên dây có những nút thắt cách đều nhau.
-OK Leda 09: Mỗi nút chạy qua tay nghĩa là tàu đã đi thêm một đ
-OK Leda 10: Lật đồng hồ cát, rồi đếm bao nhiêu nút tuột ra cho
-OK Leda 11: Cách đo này đã có từ thế kỷ 16.
-OK Leda 12: Khoảng cách giữa hai nút phải chọn sao cho số nút 
-OK Leda 13: Mốc để so là một hải lý, quãng tàu đi trong một gi
-OK Leda 14: 1 hải lý dài 1.852 mét.
-OK Leda 15: Con số ấy có lý do: 1 hải lý ứng với một phút vĩ đ
+OK Leda 05: Trái Đất như quả bóng khổng lồ, mắt bạn là một chấ
+OK Leda 06: Tia nhìn xa nhất lướt sát mặt bóng, chạm bóng tại 
+OK Leda 07: Điểm chạm ấy chính là đường chân trời.
+OK Leda 08: Với hình tròn: đường thẳng chạm vào đường tròn luô
+OK Leda 09: Ta có tam giác vuông: một đỉnh ở tâm Trái Đất, một
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 16: Vòng quanh Trái Đất có 21.600 phút như vậy.
-OK Leda 17: 40.000 ÷ 21.600 ra khoảng 1,85 ki-lô-mét.
-OK Leda 18: Đồng hồ cát chảy hết trong 28 giây, còn 1 giờ có 3
-OK Leda 19: Tàu chạy một nút thì mỗi giờ đi 1.852 mét.
-OK Leda 20: Chia cho 3.600 giây, mỗi giây tàu đi được khoảng 0
+OK Leda 10: Cạnh từ tâm tới chân trời là bán kính Trái Đất, kh
+OK Leda 11: Cạnh tới mắt dài hơn: bán kính cộng chiều cao của 
+OK Leda 12: Cạnh còn lại là khoảng cách từ mắt tới chân trời: 
+OK Leda 13: Định lý Pythagoras: bình phương cạnh huyền bằng tổ
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 21: Nhân với 28 giây, ra khoảng 14,4 mét.
-OK Leda 22: Vậy hai nút liền nhau cách nhau khoảng 14,4 mét.
-OK Leda 23: Giả sử trong 28 giây, 8 nút tuột ra.
-OK Leda 24: Vậy tàu chạy 8 nút, tức 8 hải lý mỗi giờ.
-OK Leda 25: Đổi ra ki-lô-mét: 8 × 1,852 ra khoảng 14,8 ki-lô-m
-OK Leda 26: Cứ nửa giờ hoặc lâu hơn, họ lại thả dây đo rồi ghi
-OK Leda 27: Tàu chạy 8 nút suốt một ngày: 8 × 24 = 192 hải lý.
+OK Leda 14: Cạnh huyền là cạnh tới mắt: bán kính cộng chiều ca
+OK Leda 15: Khai triển ra, bán kính bình phương ở hai bên triệ
+OK Leda 16: Còn lại: khoảng cách bình phương = 2 × bán kính × 
+OK Leda 17: Mắt chỉ cao 1,7 mét, quá nhỏ so với bán kính, nên 
+OK Leda 18: Vậy khoảng cách = căn bậc hai của 2 × bán kính × c
+OK Leda 19: Đổi chiều cao mắt ra ki-lô-mét: 1,7 mét là 0,0017 
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 28: Đó là khoảng 356 ki-lô-mét, nên thủy thủ biết mình
-OK Leda 29: Giữa biển không cột mốc, mảnh gỗ, dây thắt nút và 
-OK Leda 30: Và tên gọi nút còn lại đến nay.
+OK Leda 20: Hai nhân 6.371 ra 12.742.
+OK Leda 21: Nhân với 0,0017, ra khoảng 21,66.
+OK Leda 22: Căn bậc hai của 21,66 là khoảng 4,65.
+OK Leda 23: Vậy chân trời cách người cao 1,7 mét khoảng 4,65 k
+OK Leda 24: Đó là quãng đi bộ chưa tới 1 giờ.
+OK Leda 25: Giờ leo lên tháp cao 100 mét.
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 26: Mắt lúc này cao gấp khoảng 59 lần.
+OK Leda 27: Nhưng chân trời không xa gấp 59 lần.
+OK Leda 28: Nó chỉ xa gấp khoảng 7,7 lần, vì có căn bậc hai.
+OK Leda 29: 12.742 nhân 0,1 ra khoảng 1.274.
+OK Leda 30: Căn bậc hai của số đó khoảng 35,7.
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 31: Vậy đứng trên tháp, thấy chân trời xa khoảng 35,7 
+OK Leda 32: Thực tế không khí bẻ cong tia sáng, nên thấy xa hơ
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 33: Cộng phần đó, trên bãi biển thấy chân trời cách kh
+OK Leda 34: Vì sao tàu đi xa thì thân tàu mất trước, cột buồm 
+OK Leda 35: Tàu vượt chân trời, mặt biển cong che phần thấp tr
+OK Leda 36: Tính như trên với cột buồm cao 30 mét, ta được kho
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 37: Cộng 4,65, còn thấy ngọn cột buồm đến khoảng 24 ki
+OK Leda 38: Nếu mặt biển phẳng, tàu chỉ nhỏ dần, không chìm từ
+OK Leda 39: Chân trời cách ta khoảng 5 ki-lô-mét, và tam giác 

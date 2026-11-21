@@ -1,2 +1,2 @@
 tm18ca
-# nhận dạng giọng tm18
+# nhận dạng giọng tm18 bản 1.3

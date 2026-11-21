@@ -6,6 +6,8 @@ NH=(NH+['don_cuoi']*40)[:len(P)-1]+['ket']
 xuat2(list(zip(NH,P)),'tm19',201001)
 p='/tmp/pc/ke-hoach/thu-giong-hai/tm19_full.json';J=json.load(open(p))
 for d in J:
+    # đoạn 20 (201020) giữ năm bằng chữ: hai lần đọc (2 và 5) Gemini đọc số "791" thành "bảy trăm bảy mươi chín" (chủ kênh nghe xác nhận 21/11)
+    if d['n']==201020: d.pop('tts',None);continue
     x=d['text'].replace('năm bảy trăm chín mươi mốt','năm 791')
     if x!=d['text']: d['tts']=x
 json.dump(J,open(p,'w',encoding='utf-8'),ensure_ascii=False,indent=1)

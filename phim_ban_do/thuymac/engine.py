@@ -10,7 +10,8 @@ def A(name):
         a=np.asarray(Image.open(D+name+'.png').convert('RGBA'),np.float32)/255
         a[...,:3]*=a[...,3:4];_A[name]=a
     return _A[name]
-def asc(name): return SC.get(name,1.5)
+import re as _re
+def asc(name): return 3 if _re.match(r't\d+n_',name) else SC.get(name,1.5)  # hình người kiểu mới (tNNn_) xuất ở độ phân giải gấp ba
 PTS=json.load(open(D+'map_pts.json'))
 cl=lambda x:max(0.,min(1.,x))
 def ease(x):

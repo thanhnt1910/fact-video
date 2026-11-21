@@ -40,10 +40,11 @@ SIZES.update({'t13_spr_matrong':(700,700,1.5),'t13x_trongto':(1900,900,1.5),'t13
 SEALS.update({'stitle13b':(['MÊ LINH','40'],260,200,44)})
 SIZES.update({'t18_far':(3000,700,1.5),'t18_mid':(3000,540,1.5),'t18_frontL':(900,800,1.5),'t18_frontR':(900,800,1.5),'t18_cuon':(760,900,1.5),'t18_spr_mtl':(240,320,1.5),'t18_spr_mtl2':(240,320,1.5),'t18_spr_ta':(760,300,1.5),'t18_spr_1ta':(160,300,1.5),'t18_spr_duong':(760,300,1.5),'t18_spr_1duong':(160,300,1.5),'t18_spr_tuhuc':(340,320,1.5),'t18_spr_mavien':(340,320,1.5),'t18_spr_phu':(220,260,1.5),'t18_spr_dan':(420,240,1.5),'t18_spr_coda':(200,320,1.5),'t18_spr_suga':(260,180,1.5),'t18_spr_quan':(200,260,1.5),'t18x_lang':(2400,800,1.5),'t18x_dancu':(1900,800,1.5),'t18x_ganhvai':(2400,800,1.5),'t18x_xungde':(1900,800,1.5),'t18x_phuthanh':(2200,900,1.5),'t18x_quanta':(2800,700,1.5),'t18x_trieuduong':(1900,800,1.5),'t18x_moquan':(2400,800,1.5),'t18x_batngo':(2400,800,1.5),'t18x_go':(1900,800,1.5),'t18x_hungson':(2400,800,1.5),'t18x_sule':(1900,800,1.5),'t18x_nguyen':(1900,800,1.5),'t18x_doi':(2400,800,1.5),'t18x_ngothisi':(1900,800,1.5),'t18x_bacanh':(2400,800,1.5),'t18x_den':(2400,800,1.5),'t18x_cuoi':(2800,700,1.5)})
 SEALS.update({'s722':(['722'],200,130,58),'stitle18':(['HOAN CHÂU','722'],280,200,44)})
+SIZES.update({'t18n_mtl':(260,400,3),'t18n_ta':(220,400,3),'t18n_duong':(220,400,3)})
 only=sys.argv[1:]
 with sync_playwright() as p:
     b=p.chromium.launch()
-    for sc in (1,1.5):
+    for sc in (1,1.5,3):
         pg=b.new_page(device_scale_factor=sc,viewport={'width':800,'height':600});pg.goto(H);pg.wait_for_timeout(500)
         for k,(w,h,s) in SIZES.items():
             if s!=sc or (only and k not in only): continue

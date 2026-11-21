@@ -2,6 +2,7 @@ import React from 'react';
 import {Arrow, Big, C, Calc, Head, HatHero, Panel, Tag, clamp01, lerp, sp} from '../khoahoc/kit';
 
 const WATER = '#2f6f96';
+const SOLID = '#22435c';
 const RED = '#e0613b';
 const AM = C.amber;
 const CX = 540;
@@ -66,12 +67,12 @@ const Tri: React.FC<{o?: number; fill?: number}> = ({o = 1, fill = 0.18}) => (
 );
 const Dot: React.FC<{x: number; y: number; r?: number}> = ({x, y, r = 13}) => <circle cx={x} cy={y} r={r} fill={C.cream} stroke={AM} strokeWidth={4} />;
 
-const Sea: React.FC<{f: number; y: number; bottom?: number}> = ({f, y, bottom = 1220}) => {
+const Sea: React.FC<{f: number; y: number; bottom?: number; solid?: boolean}> = ({f, y, bottom = 1220, solid = false}) => {
   let d = '';
   for (let x = 300; x <= 990; x += 10) d += `${x === 300 ? 'M' : 'L'} ${x} ${y + 6 * Math.sin(x * 0.02 - f * 0.1)} `;
   return (
     <g>
-      <path d={`${d} L 990 ${bottom} L 300 ${bottom} Z`} fill={WATER} opacity={0.5} />
+      <path d={`${d} L 990 ${bottom} L 300 ${bottom} Z`} fill={solid ? SOLID : WATER} opacity={solid ? 1 : 0.5} />
       <path d={d} fill="none" stroke={C.cream} strokeWidth={5} />
     </g>
   );
@@ -85,9 +86,9 @@ const ShipS: React.FC<{x: number; y: number; s?: number}> = ({x, y, s = 1}) => (
 );
 // Mặt biển cong (dùng cho cảnh 4 và 35): đường cong bậc hai, đỉnh ở (640, 880).
 const CURVE = 'M 300 1000 Q 640 760 980 1000';
-const Curve: React.FC = () => (
+const Curve: React.FC<{solid?: boolean}> = ({solid = false}) => (
   <g>
-    <path d={`${CURVE} L 980 1220 L 300 1220 Z`} fill={WATER} opacity={0.55} />
+    <path d={`${CURVE} L 980 1220 L 300 1220 Z`} fill={solid ? SOLID : WATER} opacity={solid ? 1 : 0.55} />
     <path d={CURVE} fill="none" stroke={C.cream} strokeWidth={5} />
   </g>
 );
@@ -172,7 +173,7 @@ const P7: Panel = ({f}) => (
     <Tangent />
     <line x1={E.x} y1={E.y} x2={lerp(E.x, H.x, sp(f, 2, 28))} y2={lerp(E.y, H.y, sp(f, 2, 28))} stroke={C.cream} strokeWidth={5} strokeDasharray="12 10" />
     <RightAngle o={sp(f, 26, 40)} />
-    <Tag x={760} y={870} color={RED} size={38} o={sp(f, 30, 44)}>90°</Tag>
+    <Tag x={705} y={840} color="#ff9a78" size={42} o={sp(f, 30, 44)}>90°</Tag>
     <Hero2 f={f} />
   </g>
 );
@@ -197,7 +198,7 @@ const P9: Panel = ({f}) => (
     <Ball o={0.6} />
     <Tri />
     <line x1={E.x} y1={E.y} x2={H.x} y2={H.y} stroke={AM} strokeWidth={12} strokeLinecap="round" opacity={sp(f, 2, 14)} />
-    <Tag x={770} y={960} color={AM} size={36} o={sp(f, 10, 24)}>R ≈ 6.371 km</Tag>
+    <Tag x={790} y={1075} color={AM} size={40} o={sp(f, 10, 24)}>R ≈ 6.371 km</Tag>
     <Hero2 f={f} />
   </g>
 );
@@ -327,7 +328,7 @@ const P23: Panel = ({f}) => {
       <Dot x={940} y={900} />
       <circle cx={380 + 560 * p} cy={860} r={20} fill={AM} stroke={C.cream} strokeWidth={4} />
       <line x1={380 + 560 * p} y1={880} x2={380 + 560 * p} y2={900} stroke={AM} strokeWidth={8} />
-      <Tag x={CX + 100} y={1010} color={C.cream} size={40} o={sp(f, 10, 26)}>đi bộ chưa tới 1 giờ</Tag>
+      <Tag x={CX + 100} y={1010} color={C.cream} size={46} o={sp(f, 10, 26)}>đi bộ chưa tới 1 giờ</Tag>
       <Hero2 f={f} />
     </g>
   );
@@ -343,7 +344,7 @@ const P24: Panel = ({f}) => (
     <g opacity={sp(f, 30, 44)}>
       <circle cx={520} cy={1176} r={8} fill={C.cream} />
       <line x1={520} y1={1184} x2={520} y2={1200} stroke={C.cream} strokeWidth={5} />
-      <Tag x={520} y={1140} color={C.cream} size={32}>1,7 m</Tag>
+      <Tag x={520} y={1140} color={C.cream} size={38}>1,7 m</Tag>
     </g>
     <Hero2 f={f} />
   </g>
@@ -419,9 +420,9 @@ const P33: Panel = ({f}) => (
   <g>
     <Head a="Tàu đi xa" b="thân mất trước, cột buồm mất sau" />
     <ShipS x={720} y={975} />
-    <Sea f={f} y={930} />
-    <Tag x={720} y={1110} color={RED} size={38} o={sp(f, 10, 24)}>thân tàu bị che</Tag>
-    <Tag x={720} y={800} color={AM} size={38} o={sp(f, 20, 34)}>cột buồm còn thấy</Tag>
+    <Sea f={f} y={930} solid />
+    <Tag x={720} y={1110} color="#ff9a78" size={42} o={sp(f, 10, 24)}>thân tàu bị che</Tag>
+    <Tag x={720} y={790} color={AM} size={42} o={sp(f, 20, 34)}>cột buồm còn thấy</Tag>
     <Hero2 f={f} />
   </g>
 );
@@ -429,10 +430,10 @@ const P34: Panel = ({f}) => (
   <g>
     <Head a="Mặt biển cong" b="che phần thấp trước" />
     <ShipS x={878} y={957} />
-    <Curve />
+    <Curve solid />
     <circle cx={436} cy={880} r={15} fill={AM} stroke={C.cream} strokeWidth={4} />
     <line x1={436} y1={880} x2={980} y2={880} stroke={AM} strokeWidth={5} strokeDasharray="12 10" opacity={sp(f, 6, 24)} />
-    <Tag x={640} y={800} color={AM} size={36} o={sp(f, 24, 40)}>phần cao vẫn lộ ra</Tag>
+    <Tag x={640} y={790} color={AM} size={42} o={sp(f, 24, 40)}>phần cao vẫn lộ ra</Tag>
     <Hero2 f={f} />
   </g>
 );
@@ -459,7 +460,7 @@ const P37: Panel = ({f}) => {
       <ShipS x={460 + 380 * p} y={960} s={1 - 0.65 * p} />
       <Tag x={CX + 100} y={820} color={AM} size={44} o={sp(f, 8, 22)}>nhỏ dần</Tag>
       <g opacity={sp(f, 40, 56)}>
-        <Tag x={CX + 100} y={1100} color={RED} size={40}>không chìm từ dưới lên</Tag>
+        <Tag x={CX + 100} y={1120} color="#ff9a78" size={44}>không chìm từ dưới lên</Tag>
       </g>
       <Hero2 f={f} />
     </g>

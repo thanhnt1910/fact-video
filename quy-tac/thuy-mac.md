@@ -210,6 +210,13 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 - **Quân giữ nguyên bản tĩnh** (`fig_*` bóng đen, chỉ nhún hoặc di chuyển cả khối). KHÔNG dùng người ghép mảnh `hieu_ung.linh`: thử ở tm11m thấy cứng như người que, tỉ lệ dễ cao kều, không đáng công. Muốn cận cảnh nhân vật sống động thì vẽ riêng từng nhân vật.
 - Dựng chậm hơn khoảng 0,8 giây mỗi khung; kiểm mờ sương trên khung thật trước khi dựng cả video.
 
+### 4.3c Màu nước, gió, 30 khung/giây (chủ kênh chọn 22/11/2026 sau bản thử tm21)
+- Tô màu nước lên lớp nền sau khi vẽ tranh, trước khi vẽ người (`mau21.to_mau`): trời vàng nhạt, núi xanh chàm, đất xanh ngọc, viền giấy loang nâu; cảnh đêm ngả xanh tím; bản đồ dùng `to_mau_bd` (biển xanh chàm, đất màu giấy). Người giữ màu riêng.
+- Lá đỏ, vàng và bụi mực bay chéo qua khung (`mau21.bui`). Tà áo và tua cờ tiết của nhân vật chính bay theo gió bằng uốn hình (`mau21.gio`), nhân vật chính thở nhẹ. Lính vẫn tĩnh theo 4.3b.
+- Dựng 30 khung/giây.
+- Nhân vật chính và người có tên vẽ dáng riêng (áo bào dài, mũ, vật cầm tay riêng: `quan21`), không phóng to dáng lính rồi đổi màu (chủ kênh nhắc 22/11/2026).
+- Chống chồng hình: `lb` vẽ chữ cao hơn tọa độ truyền vào khoảng 65 px, nên dải nhãn trên đặt y=200 (không đè dòng tên góc trái ở y≈64). Bảng chữ phụ đặt ở khối phải. Người đứng cách nhau đủ rộng: tâm cách nhau ít nhất bằng nửa bề ngang hai hình cộng lại. Người đi cùng lúc thì cùng tốc độ. Lớp núi xa và gần chỉ lệch tối đa ±180 px (công thức cũ `seed*60` làm mép lớp lọt vào khung ở các cảnh số lớn).
+
 ### 4.4 Mở đầu, chuyển chương, kết
 - **Giây 0:** đã có hình và chữ lớn trên màn hình (câu hỏi của hook). Không mở bằng logo hay đoạn giới thiệu.
 - **Thẻ tựa** sau hook: vệt mực loang, tên trận và triện năm.

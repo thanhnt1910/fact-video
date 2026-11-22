@@ -182,8 +182,8 @@ def S_2(cv,t):
     flock(cv,c,t,.5)
     bui(cv,t)
     truoc(cv,c,t)
-    if not FREEZE:
-        ink_wash(cv,.22)
+    if not FREEZE: ink_wash(cv,.22)
+    if not FREEZE and not DOC:
         for k,(tt,t0) in enumerate((('lá cờ ấy là gì?',a+.4),('vì sao phải xin?',T[2]+L*.3),('vì sao xin được rồi lại mất đất?',T[2]+L*.55))):
             put_screen(cv,text(tt,44,RED if k==2 else INK,700),1300,300+k*90,inn(t,t0,.4))
 # ---- 3: bản đồ: An Nam cuối thế kỷ chín, nhà Đường đã suy
@@ -288,6 +288,7 @@ def S_8(cv,t):
     nv(cv,c,'t21n_thuadu',560,885,t,s=.7)
     if t<q: di(cv,c,'t21n_sulu',900,885,2300,885,t,a+.6,q-.2,s=.64,bob=3,f=4)
     else: di(cv,c,'t21n_sulu',2300,885,1560,885,t,q+.2,q+2.4,s=.64,bob=3,f=4,lat=True)
+    di(cv,c,'t21n_1ta',-300,890,200,890,t,a,b,s=.5,bob=2,f=3)
     smoke(cv,c,960,640,t,.4)
     bui(cv,t)
     truoc(cv,c,t)
@@ -325,8 +326,9 @@ def S_10(cv,t):
         ink_wash(cv,.1)
         X,Y=c.p(778,600)
         if t>q: put_screen(cv,band(150,360,GOLDC,.22*(.6+.4*math.sin(t*4)),40),X,Y,inn(t,q,.5))
-        put_screen(cv,text('cờ tiết',40,RED,700),X-200,Y-40,inn(t,a+.6,.4))
-        X2,Y2=c.p(1112,560);put_screen(cv,text('búa việt',40,INK,700),X2+200,Y2-40,inn(t,a+1.4,.4))
+        if not DOC:
+            put_screen(cv,text('cờ tiết',40,RED,700),X-200,Y-40,inn(t,a+.6,.4))
+            X2,Y2=c.p(1112,560);put_screen(cv,text('búa việt',40,INK,700),X2+200,Y2-40,inn(t,a+1.4,.4))
     lb(cv,C0,'tiết việt: dấu hiệu của quyền cai quản',960,200,t,a+.3,q-.2,col=INK,sz=42)
     big(cv,'HÃY NHỚ LÁ CỜ NÀY',t,q+.1,b,RED,170,70,seed=10)
 # ---- 11: năm 907, Khúc Thừa Dụ mất; nhà Đường mất, nhà Lương lên thay
@@ -360,6 +362,7 @@ def S_12(cv,t):
     if t<th: nv(cv,c,'t21n_hao2',1300,885,t,s=.7,flip=True)
     else: nv(cv,c,'t21n_hao',1300,885,t,s=.7,flip=True)
     di(cv,c,'t21n_1ta',-500,890,480,890,t,a+.5,th,s=.52,bob=3,f=4)
+    di(cv,c,'t21n_dan',2400,890,1950,890,t,a,b,s=.5,bob=2,f=3,lat=True)
     flock(cv,c,t,.5)
     bui(cv,t)
     truoc(cv,c,t)
@@ -569,7 +572,7 @@ def S_23(cv,t):
     lb(cv,c,'nơi xa: nhà Lương',800,470,t,a+.4,b,col=LUONGC,sz=30)
     lb(cv,c,'ngay sát bên: Nam Hán',1420,330,t,a+1.0,b,col=NAMHANC,sz=30)
     lb(cv,C0,'sử không chép Khúc Thừa Mỹ tính toán gì',960,200,t,q+.1,q2-.2,col=INK,sz=38)
-    if not FREEZE:
+    if not FREEZE and not DOC:
         put_screen(cv,band(760,70,PAPER,.88,14),960,150,inn(t,q2+.1,.4))
         put_screen(cv,text('xin lá cờ nơi xa, chuốc cơn giận người ở gần',36,RED,700),960,150,inn(t,q2+.1,.4))
 # ---- 24: Nam Hán đem quân sang đánh, bắt Khúc Thừa Mỹ
@@ -597,6 +600,7 @@ def S_25(cv,t):
     mau(cv)
     di(cv,c,'t21n_dan',-300,890,300,890,t,a,b,s=.52,bob=2,f=3)
     di(cv,c,'t21n_dan2',2300,890,1700,890,t,a,b,s=.52,bob=2,f=3.4,lat=True)
+    smoke(cv,c,960,640,t,.4)
     bui(cv,t)
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.28)

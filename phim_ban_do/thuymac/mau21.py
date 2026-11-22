@@ -38,3 +38,48 @@ def bui(cv,t,o=1.0):
             _splat(cv,x,y,7+6*sz,2.5+1.5*sz,t*(1.5+sp)+i,col,o*.8)
         else:          # bụi mực
             _splat(cv,x,y,2+2.5*sz,2+2.5*sz,0,np.float32([.1,.09,.08]),o*(.25+.3*sp))
+# ---- nền tô màu: tính sẵn các lớp không đổi theo khung
+_CACHE={}
+def _nen(hor,dem):
+    k=(hor,dem)
+    if k not in _CACHE:
+        tren=(_Y<hor).astype(np.float32);mem=np.clip((_Y-hor+.05)/.1,0,1)
+        troi=TROI_TREN*(1-_Y/hor)*tren+TROI_DUOI*np.clip(_Y/hor,0,1)*tren+DAT_SANG*(1-tren)
+        if dem: troi=troi*np.float32([.62,.64,.82])
+        tint=NUI*(1-mem)+DAT*mem
+        if dem: tint=tint*np.float32([.7,.72,.95])
+        v=np.clip((np.abs(_X)**3*.6+np.abs(_Y-.5)**3*1.6),0,1)
+        _CACHE[k]=(np.broadcast_to(troi,(1080,1920,3)).astype(np.float32),np.broadcast_to(tint,(1080,1920,3)).astype(np.float32),np.broadcast_to(v,(1080,1920,1)).astype(np.float32))
+    return _CACHE[k]
+def to_mau(cv,hor=.6,o=1.0,dem=False):
+    troi,tint,v=_nen(hor,dem)
+    L=cv.mean(2,keepdims=True)
+    wp=np.clip((L-.80)/.08,0,1)*o;wm=np.clip(1-np.abs(L-.62)/.22,0,1)*(.7*o)
+    out=cv+wp*(troi*(L/.88)-cv)
+    out+=wm*(tint*(L/.62)-out)
+    out+=v*.35*o*(np.float32([.45,.32,.2])-out)
+    np.clip(out,0,1,out=cv)
+BIEN=np.float32([.40,.52,.60]);GIAY_BD=np.float32([.93,.86,.70])
+def to_mau_bd(cv,o=1.0):
+    """bản đồ: biển và núi xanh chàm nhạt, đất màu giấy ấm"""
+    _,_,v=_nen(.6,False)
+    L=cv.mean(2,keepdims=True)
+    wp=np.clip((L-.80)/.08,0,1)*o;wm=np.clip(1-np.abs(L-.6)/.25,0,1)*(.6*o)
+    out=cv+wp*(GIAY_BD*(L/.88)-cv)
+    out+=wm*(BIEN*(L/.6)-out)
+    out+=v*.3*o*(np.float32([.45,.32,.2])-out)
+    np.clip(out,0,1,out=cv)
+# ---- tà áo và tua cờ bay theo gió (uốn hình, không lắc cả hình)
+import cv2
+_G={}
+def gio(img,t,ph=0.0,tua=True):
+    h,w=img.shape[:2]
+    if (h,w) not in _G:
+        yy,xx=np.mgrid[0:h,0:w].astype(np.float32)
+        robe=np.clip((yy/h-.42)/.58,0,1)**1.5
+        tm=((xx>w*.6)&(yy<h*.45)).astype(np.float32);tm=cv2.GaussianBlur(tm,(0,0),6)*(1-np.clip(yy/(h*.45),0,1))
+        _G[(h,w)]=(xx,yy,robe,tm)
+    xx,yy,robe,tm=_G[(h,w)]
+    dx=robe*(w*.018)*np.sin(t*2.1+yy/h*7+ph)
+    if tua: dx=dx+tm*(w*.03)*np.sin(t*3.2+yy/h*14+ph)
+    return cv2.remap(img,xx-dx.astype(np.float32),yy,cv2.INTER_LINEAR,borderMode=cv2.BORDER_CONSTANT,borderValue=0)

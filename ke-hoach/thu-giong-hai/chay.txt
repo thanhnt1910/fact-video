@@ -1,1 +1,1 @@
-doc-tm20 Charon tm20 ca lần 2: cả bài một lần, đoạn 15 ghi năm 819 bằng số (lần 1 đọc thành 820, trầm 117 Hz); chủ kênh yêu cầu 22/11
+doc-tm20 Charon tm20 ca lần 3: lần 2 đọc đúng 819 nhưng bỏ sót câu thứ hai của đoạn 1; chủ kênh yêu cầu đọc lại 22/11

@@ -79,6 +79,7 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 - **Kiểm trước khi giao:** đọc lại như người chưa học sử; ghi vào "Ghi chú độ chắc" bảng ba câu hỏi (ai, vì sao, lúc nào ở đâu) với số đoạn trả lời, và danh sách tên người kèm cụm giới thiệu.
 
 ### 3.4 Lời kể kiểu nói chuyện, giữ độ gay cấn tới cuối (chủ kênh góp ý tập 2, 17/11/2026)
+- **Gọi thẳng tên quan, tướng bên xâm lược (chủ kênh yêu cầu 22/11/2026):** không gọi họ là "ông", "ông ta". Nhắc lại thì dùng đúng tên ("Cao Chính Bình bắt dân nộp thuế", "Triệu Xương sai người") hoặc chức kèm tên; tránh lặp tên quá dày thì đổi câu cho chủ ngữ là việc làm của họ. "Ông" chỉ dùng cho người bên ta, sử gia, người kể chuyện. `kiem_khung.py` báo lỗi khi thấy "ông ta"; chữ "ông" trơn vẫn phải tự rà xem trỏ vào ai. Ví dụ đã sửa: tm16 đoạn 6 (Lục Dận), tm18 đoạn 15 (Dương Tư Húc), tm19 đoạn 8 (Cao Chính Bình) và 19 (Triệu Xương).
 - **Viết như kể miệng.** Câu ngắn, từ thường ngày ("nóng ruột", "chắc ăn", "ai biết công cho"). Tham khảo cách sách giáo khoa kể thẳng sự việc. Không viết giọng dịch nguyên từ sách sử.
 - **Không nhắc nguồn liên tục trong lời đọc.** Không lặp "sử nhà Tống chép", "sử nước ta chép". Cả video tối đa một hai lần "theo sử cũ", và chỉ ở chỗ cần phân biệt. Chỗ các nguồn chép khác nhau thì để ở "Ghi chú độ chắc".
 - **Dùng đúng từ:**

@@ -1,1 +1,1 @@
-doc-tm16 Charon tm16 ca (lần 1 cao hơn các tập trước (130 Hz), đọc lại; chủ kênh yêu cầu 22/11)
+doc-tm20 Charon tm20 ca (lời kể bản 1 đã duyệt 22/11, chủ kênh yêu cầu dựng)

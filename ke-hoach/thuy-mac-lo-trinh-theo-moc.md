@@ -11,6 +11,7 @@ Mỗi tập làm theo bốn bước (`quy-tac/nguyen-tac-cot-loi.md`): mạch tr
 | 4 | 546–550 | Triệu Quang Phục ở Dạ Trạch | tm12, viết lại |
 | 5 | 722 | Mai Thúc Loan | MỚI |
 | 6 | 791 | Phùng Hưng | MỚI |
+| 6b | 819–820 | Dương Thanh quay quân đánh phủ đô hộ | tm20, mạch truyện chờ duyệt (thêm 22/11) |
 | 7 | 905–907 | Khúc Thừa Dụ lấy Tống Bình | MỚI |
 | 8 | 931 | Dương Đình Nghệ ở Đại La | tm11, đã viết lại |
 | 9 | 938 | Ngô Quyền, Bạch Đằng | ĐÃ ĐĂNG |

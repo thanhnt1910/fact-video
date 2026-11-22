@@ -15,12 +15,11 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-22 02:47:57
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK chương c202001 (34 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
-[báo cáo giọng] 0/34 đoạn có nhật ký tạo giọng
+OK chương c203001 (29 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
+[báo cáo giọng] 0/29 đoạn có nhật ký tạo giọng
    model: 
    cach_goi: 
    voice: 
    style_id: 
-   34 đoạn không có nhật ký (tạo trước khi có nhật ký): 202001…202034
+   29 đoạn không có nhật ký (tạo trước khi có nhật ký): 203001…203029

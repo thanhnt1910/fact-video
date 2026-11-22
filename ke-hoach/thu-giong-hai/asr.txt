@@ -1,2 +1,2 @@
-tm21ca medium khong_goi_y
-# nhận dạng không gợi ý tm21, giọng lần 2
+tm21ca
+# mốc chữ tm21 giọng lần 2 (có gợi ý)

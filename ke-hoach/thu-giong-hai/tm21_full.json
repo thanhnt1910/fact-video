@@ -20,8 +20,8 @@
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Chuyện bắt đầu vào cuối thế kỷ thứ chín. Nước ta khi ấy vẫn là đất An Nam do nhà Đường bên phương bắc cai trị, nhưng nhà Đường đã yếu lắm rồi.",
-  "hien": "Chuyện bắt đầu vào cuối thế kỷ thứ chín. Nước ta khi ấy vẫn là đất An Nam do nhà Đường bên phương bắc cai trị, nhưng nhà Đường đã yếu lắm rồi."
+  "text": "Chuyện bắt đầu vào cuối thế kỷ thứ chín. Nước ta khi ấy vẫn là đất An Nam do nhà Đường bên phương bắc cai trị, nhưng nhà Đường khi ấy đã suy yếu.",
+  "hien": "Chuyện bắt đầu vào cuối thế kỷ thứ chín. Nước ta khi ấy vẫn là đất An Nam do nhà Đường bên phương bắc cai trị, nhưng nhà Đường khi ấy đã suy yếu."
  },
  {
   "n": 203004,
@@ -116,8 +116,8 @@
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Cùng một chức, nhà Lương trao cho cả hai người. Cái danh mà họ Khúc phải xin mới có, nay có thêm một người hàng xóm cùng cầm.",
-  "hien": "Cùng một chức, nhà Lương trao cho cả hai người. Cái danh mà họ Khúc phải xin mới có, nay có thêm một người hàng xóm cùng cầm."
+  "text": "Cùng một chức, nhà Lương trao cho cả hai người. Cái danh mà họ Khúc phải xin mới có, nay có thêm một người láng giềng cùng nắm.",
+  "hien": "Cùng một chức, nhà Lương trao cho cả hai người. Cái danh mà họ Khúc phải xin mới có, nay có thêm một người láng giềng cùng nắm."
  },
  {
   "n": 203016,
@@ -172,16 +172,16 @@
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Khúc Thừa Mỹ sai sứ sang nhà Lương, xin được ban tiết việt. Nhà Lương trao cho. Theo Toàn thư, vua Nam Hán biết chuyện thì cả giận.",
-  "hien": "Khúc Thừa Mỹ sai sứ sang nhà Lương, xin được ban tiết việt. Nhà Lương trao cho. Theo Toàn thư, vua Nam Hán biết chuyện thì cả giận."
+  "text": "Khúc Thừa Mỹ sai sứ sang nhà Lương, xin được ban tiết việt. Nhà Lương trao cho. Theo Toàn thư, vua Nam Hán biết chuyện thì nổi giận.",
+  "hien": "Khúc Thừa Mỹ sai sứ sang nhà Lương, xin được ban tiết việt. Nhà Lương trao cho. Theo Toàn thư, vua Nam Hán biết chuyện thì nổi giận."
  },
  {
   "n": 203023,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Kinh đô nhà Lương ở tận phía bắc, rất xa, còn Nam Hán thì ở ngay sát bên. Sử không chép Khúc Thừa Mỹ tính toán gì. Chỉ biết ông xin lá cờ của nơi xa, và làm giận người ở gần.",
-  "hien": "Kinh đô nhà Lương ở tận phía bắc, rất xa, còn Nam Hán thì ở ngay sát bên. Sử không chép Khúc Thừa Mỹ tính toán gì. Chỉ biết ông xin lá cờ của nơi xa, và làm giận người ở gần."
+  "text": "Kinh đô nhà Lương ở tận phía bắc, rất xa, còn Nam Hán thì ở ngay sát bên. Sử không chép Khúc Thừa Mỹ tính toán gì. Chỉ biết ông xin lá cờ của nơi xa, và chuốc lấy cơn giận của người ở gần.",
+  "hien": "Kinh đô nhà Lương ở tận phía bắc, rất xa, còn Nam Hán thì ở ngay sát bên. Sử không chép Khúc Thừa Mỹ tính toán gì. Chỉ biết ông xin lá cờ của nơi xa, và chuốc lấy cơn giận của người ở gần."
  },
  {
   "n": 203024,

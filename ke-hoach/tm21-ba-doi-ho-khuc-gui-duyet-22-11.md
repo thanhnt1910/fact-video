@@ -1,4 +1,4 @@
-# tm21 Ba đời họ Khúc: lời đọc bản 1 (22/11/2026, chờ duyệt cổng C, chưa đọc giọng)
+# tm21 Ba đời họ Khúc: lời đọc bản 2 (22/11/2026, chờ duyệt cổng C, chưa đọc giọng)
 
 ## tm21 Ba đời họ Khúc, năm 905–930
 
@@ -19,13 +19,21 @@ Theo mạch truyện `tm21-ba-doi-ho-khuc-mach-truyen-22-11.md` đã duyệt t�
 
 So với câu đã duyệt ở mạch truyện, đổi vế sau: "Rồi chỉ vì một lá cờ xin từ phương xa, cả họ mất đất" thành "Rồi một lá cờ xin từ phương xa đã làm người láng giềng ngay sát bên nổi giận". Lý do: Toàn thư chỉ chép việc xin tiết việt khiến vua Nam Hán cả giận, rồi vài năm sau mới sang đánh; nói "chỉ vì" là khẳng định nguyên nhân duy nhất, sử không chép như vậy. Việc mất đất vẫn được hứa ở câu hỏi đoạn 2.
 
+### Bảng đổi lần 1 (22/11, theo góp ý chủ kênh về chữ "cả giận", "làm giận")
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 22 | Theo Toàn thư, vua Nam Hán biết chuyện thì cả giận. | Theo Toàn thư, vua Nam Hán biết chuyện thì nổi giận. | "cả giận" là chữ dịch cổ của sử, nghe đơn giản và lạ tai; đổi theo ý chủ kênh |
+| 23 | Chỉ biết ông xin lá cờ của nơi xa, và làm giận người ở gần. | Chỉ biết ông xin lá cờ của nơi xa, và chuốc lấy cơn giận của người ở gần. | "làm giận" nói khẩu ngữ; đổi theo ý chủ kênh, không dùng lại "nổi giận" vì đoạn 22 vừa dùng |
+| 3 | nhưng nhà Đường đã yếu lắm rồi. | nhưng nhà Đường khi ấy đã suy yếu. | rà cùng lượt: "yếu lắm rồi" khẩu ngữ, không hợp giọng kể sử |
+| 15 | nay có thêm một người hàng xóm cùng cầm. | nay có thêm một người láng giềng cùng nắm. | rà cùng lượt: "hàng xóm cùng cầm" khẩu ngữ; "láng giềng" khớp với câu mở |
+
 ### Toàn văn lời kể
 
 **1.** Ba đời giữ đất mà không cần một trận đánh lớn nào. Rồi một lá cờ xin từ phương xa đã làm người láng giềng ngay sát bên nổi giận.
 
 **2.** Lá cờ ấy là gì, vì sao phải xin, và vì sao xin được rồi thì cả họ lại mất đất?
 
-**3.** Chuyện bắt đầu vào cuối thế kỷ thứ chín. Nước ta khi ấy vẫn là đất An Nam do nhà Đường bên phương bắc cai trị, nhưng nhà Đường đã yếu lắm rồi.
+**3.** Chuyện bắt đầu vào cuối thế kỷ thứ chín. Nước ta khi ấy vẫn là đất An Nam do nhà Đường bên phương bắc cai trị, nhưng nhà Đường khi ấy đã suy yếu.
 
 **4.** Năm tám trăm tám mươi, quân lính trong phủ thành nổi loạn. Viên quan nhà Đường đứng đầu An Nam là Tăng Cổn phải bỏ thành mà chạy. Quân nhà Đường đóng ở vùng biên cũng thường tự ý bỏ về.
 
@@ -49,7 +57,7 @@ So với câu đã duyệt ở mạch truyện, đổi vế sau: "Rồi chỉ v�
 
 **14.** Toàn thư chép, một bên giữ Quảng Châu, một bên giữ phủ thành ở An Nam, hai bên có ý mưu đồ lẫn nhau.
 
-**15.** Cùng một chức, nhà Lương trao cho cả hai người. Cái danh mà họ Khúc phải xin mới có, nay có thêm một người hàng xóm cùng cầm.
+**15.** Cùng một chức, nhà Lương trao cho cả hai người. Cái danh mà họ Khúc phải xin mới có, nay có thêm một người láng giềng cùng nắm.
 
 **16.** Khúc Hạo không chỉ giữ thành. Theo Cương mục, ông đổi các hương ở các huyện thành giáp, mỗi giáp đặt một viên quản giáp và một phó tri giáp để lo việc thu thuế.
 
@@ -63,9 +71,9 @@ So với câu đã duyệt ở mạch truyện, đổi vế sau: "Rồi chỉ v�
 
 **21.** Khúc Hạo mất, Khúc Thừa Mỹ lên thay. Còn Khúc Hạo mất năm nào thì các sách ghi không giống nhau.
 
-**22.** Khúc Thừa Mỹ sai sứ sang nhà Lương, xin được ban tiết việt. Nhà Lương trao cho. Theo Toàn thư, vua Nam Hán biết chuyện thì cả giận.
+**22.** Khúc Thừa Mỹ sai sứ sang nhà Lương, xin được ban tiết việt. Nhà Lương trao cho. Theo Toàn thư, vua Nam Hán biết chuyện thì nổi giận.
 
-**23.** Kinh đô nhà Lương ở tận phía bắc, rất xa, còn Nam Hán thì ở ngay sát bên. Sử không chép Khúc Thừa Mỹ tính toán gì. Chỉ biết ông xin lá cờ của nơi xa, và làm giận người ở gần.
+**23.** Kinh đô nhà Lương ở tận phía bắc, rất xa, còn Nam Hán thì ở ngay sát bên. Sử không chép Khúc Thừa Mỹ tính toán gì. Chỉ biết ông xin lá cờ của nơi xa, và chuốc lấy cơn giận của người ở gần.
 
 **24.** Vua Nam Hán sai một viên tướng đem quân sang đánh. Quân Nam Hán bắt được Khúc Thừa Mỹ, đưa về Quảng Châu.
 

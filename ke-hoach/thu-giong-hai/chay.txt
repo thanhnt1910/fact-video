@@ -1,1 +1,1 @@
-doc-tm21 lan 5 Charon tm21: lần 4 lặp một đoạn 48 giây và đọc 923 thành 929, đọc lại cả bài một lần (23/11)
+doc-tm21 lan 6 Charon tm21: lần 5 đọc 923 thành 929, đoạn 25 ghi cả hai năm bằng số, đọc lại cả bài một lần (23/11)

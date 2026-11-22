@@ -1,6 +1,6 @@
 # Dương Thanh, năm 819–820 (thủy mặc tm20): tiêu đề, mô tả, bình luận ghim, ảnh bìa, bản dọc
 
-Video: `tm20_thuymac_dai.mp4` (16:9, giọng Charon đọc cả kịch bản một lần, kịch bản bản 1, 34 cảnh, người vẽ kiểu mới). Bản dọc: `tm20_thuymac_doc.mp4` (9:16, khoảng 70 giây, cắt từ đoạn 1–3 và 13–17). Ảnh bìa: `assets/bia/TM20/bia_tm20.png`.
+Video: `tm20_thuymac_dai.mp4` (16:9, 5 phút 26 giây, giọng Charon đọc cả kịch bản một lần (lần đọc 3, 22/11), kịch bản bản 1, 34 cảnh, người vẽ kiểu mới). Bản dọc: `tm20_thuymac_doc.mp4` (9:16, 67 giây, cắt từ đoạn 1–3 và 13–17). Ảnh bìa: `assets/bia/TM20/bia_tm20.png`.
 
 ## Tiêu đề YouTube
 **Chọn:** Được giao quân đi đánh trận, ông quay quân về đánh chính người giao quân | Dương Thanh năm 819
@@ -38,4 +38,6 @@ Chữ lớn trên cùng: "QUAY QUÂN GIỮA ĐÊM", "BÀN KÍN BÊN ĐỐNG LỬ
 Dương Thanh giơ đao trước hàng quân đang quay về phủ thành trong đêm; ngọn giáo quay đầu (hình ảnh lặp lại của video). Chữ "QUAY QUÂN GIỮA ĐÊM", dòng phụ "Dương Thanh · năm 819". Hình tự vẽ (thủy mặc, mã `bia_tm20.py`), không dùng ảnh ngoài.
 
 ## Ghi chú kiểm
+- Giọng (22/11): lần 1 đọc năm 819 thành 820 và trầm (117 Hz); lần 2 đọc đúng năm nhưng bỏ sót câu thứ hai của đoạn 1; lần 3 đủ câu, mọi năm đúng (819, 820, 828), cao độ 119 Hz, độ lên xuống 87 (tm16–tm19: 121–124 Hz, 95–101). Đoạn 15 ghi năm bằng số "819" trong trường đọc. Thử đọc lại riêng câu năm 819 rồi ghép: không dùng vì câu mới cao hơn khoảng 20 Hz.
+- Âm thanh bản dài: −12,6 LUFS.
 - Bộ kiểm cảnh: 34 cảnh, 26 tranh riêng, không cảnh tĩnh, không khung trùng, không tranh lặp, không hình mượn.

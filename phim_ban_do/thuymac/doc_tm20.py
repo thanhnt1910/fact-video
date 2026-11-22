@@ -6,7 +6,7 @@ import sys,math,subprocess,numpy as np,cv2
 import dai_tm20 as D
 from engine import text,band,put_screen,caption,blend,inn
 from canh import RED,INK,PAPER
-D.NOCAP=True;D.V2.NHAN={}
+D.NOCAP=True;D.DOC=True;D.V2.NHAN={}
 _nolb=lambda *a,**k:None
 D.lb=_nolb;D.big=_nolb
 T,E,sb=D.T,D.E,D.sb

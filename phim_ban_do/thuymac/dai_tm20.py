@@ -13,6 +13,7 @@ from dai_tm2 import big,lb
 V=K.setup('tm20',{4:4.0})
 T,E,mid,TX=V.T,V.E,V.mid,V.TX
 FREEZE=bool(os.environ.get('KIEM_TINH'))
+DOC=False   # bản dọc: tắt các nhãn tên đặt ngang ở mép khung (bị cắt khi cắt dải dọc)
 GS=1.45
 DUONGC=(.17,.29,.45)
 GOLDC=(.79,.64,.35)
@@ -298,7 +299,7 @@ def S_13(cv,t):
     di(cv,c,'t20n_1ta',-300,890,250,890,t,a+.4,b,s=.58,bob=3,f=4.2)
     truoc(cv,c,t)
     dem(cv,.3)
-    if not FREEZE:
+    if not FREEZE and not DOC:
         for k,(nm,x,t0) in enumerate((('Dương Thanh',560,a+.3),('Dương Chí Liệt · con trai',1180,a+1.2),('Đỗ Sĩ Giao · người thân tín',1180,a+2.0))):
             put_screen(cv,band(440,64,PAPER,.88,14),x,250+(k>0)*(k-1)*70,inn(t,t0,.4));put_screen(cv,text(nm,32,RED if k==0 else INK,700),x,248+(k>0)*(k-1)*70,inn(t,t0,.4))
     lb(cv,C0,'không đi đánh Hoàng Động nữa',960,150,t,q+.2,b,col=RED,sz=42)

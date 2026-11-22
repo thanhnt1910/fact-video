@@ -68,6 +68,6 @@ out=np.zeros((OH,OW,4),np.uint8);out[...,:3]=ink;out[...,3]=(A*255).astype(np.ui
 Image.fromarray(out,'RGBA').save('/tmp/gen/bd/a/map_trung.png')
 # tọa độ thế giới (1920x1080) của các địa danh
 def wpt(lon,lat): X=(lon-LON0)*KX;Y=(LAT1-lat)*S;return round((X-x0)*sc/1.5,1),round((Y-y0)*sc/1.5,1)
-P={'daila':(105.85,21.03),'aichau':(105.78,19.80),'hoanchau':(105.75,18.45),'liemchau':(109.15,21.66),'lamap':(108.25,15.85),'chanlap':(103.6,16.4),'namdan':(105.5,18.7)}
+P={'daila':(105.85,21.03),'aichau':(105.78,19.80),'hoanchau':(105.75,18.45),'liemchau':(109.15,21.66),'lamap':(108.25,15.85),'chanlap':(103.6,16.4),'namdan':(105.5,18.7),'quynhchau':(110.35,19.98)}
 import json;json.dump({k:wpt(*v) for k,v in P.items()},open('/tmp/gen/bd/a/map_trung_pts.json','w'),indent=1)
 print({k:wpt(*v) for k,v in P.items()})

@@ -165,9 +165,13 @@ def S_4(cv,t):
     lb(cv,c,'phủ thành nhà Đường',x+60,y-40,t,q,b,col=DUONGC,sz=36)
     u=inn(t,q,b-q-.6)
     if not FREEZE: stroke(cv,c,[(x-40,y-180),(x,y-30)],u,wid=8,col=DUONGC,o=.8)
+    for i in range(3):
+        u=((t*.08+i/3)%1.0);put(cv,c,'t20n_1duong',x-60+i*40,y-260+230*u,s=.16,ay=1,scale_px=3,r=3*math.sin(t*6+i))
+    for i in range(2):
+        u=((t*.05+i/2)%1.0);put(cv,c,'t20n_thuyen',900+i*200+260*u,330+120*i,s=.22,scale_px=3,r=2*math.sin(t*2+i))
     flock(cv,c,t,.4,y0=700)
-    lb(cv,C0,'đầu thế kỷ thứ chín',960,150,t,a+.3,q-.2,col=INK,sz=46)
-    lb(cv,C0,'đất An Nam, nhà Đường cai trị',960,150,t,q+.2,b,col=DUONGC,sz=44)
+    lb(cv,C0,'đầu thế kỷ thứ chín',960,780,t,a+.3,q-.2,col=INK,sz=46)
+    lb(cv,C0,'đất An Nam, nhà Đường cai trị',960,780,t,q+.2,b,col=DUONGC,sz=44)
 # ---- 5: Lý Tượng Cổ thu thuế, dân nộp
 def S_5(cv,t):
     a,b=T[5]-.3,E[5]+.3;q=sb(5,1)
@@ -176,7 +180,7 @@ def S_5(cv,t):
     put(cv,c,'t20x_phu',960,630,s=1.1)
     for i in range(3): di(cv,c,'t20n_dan' if i%2 else 't20n_dan2',-500-i*200,890,250+i*130,890,t,a+i*.4,b,s=.55,bob=3,f=3+i*.2,ph=i)
     di(cv,c,'t20n_1duong',2300,885,1500,885,t,q,b,s=.6,bob=2,f=3.2,lat=True)
-    for i in range(2): flick(cv,c,700+i*520,600,t+i,.3)
+    for i in range(2): smoke(cv,c,600+i*700,640,t+i,.5)
     truoc(cv,c,t)
     lb(cv,C0,'người trong họ nhà vua Đường',960,230,t,a+.3,q-.2,col=DUONGC,sz=40)
     lb(cv,C0,'tham lam, tàn bạo, cai trị hà khắc',960,150,t,q+.2,b,col=RED,sz=44)
@@ -206,11 +210,13 @@ def S_7(cv,t):
     u=inn(t,q,b-q-.4)
     if not FREEZE:
         pts=[(xh,yh-20),(xh+30,(yh+yd)/2),(xd,yd+24)];stroke(cv,c,pts,u,wid=7,col=RED,o=.85,dash=1)
-        if u>0:
-            k=min(int(u*2),1);px=pts[k][0]+(pts[k+1][0]-pts[k][0])*(u*2-k);py=pts[k][1]+(pts[k+1][1]-pts[k][1])*(u*2-k)
-            put(cv,c,'t20n_thanh',px,py+10,s=.32,ay=1,scale_px=3,r=2*math.sin(t*6))
-    lb(cv,C0,'sử nhà Đường: Lý Tượng Cổ ghét thế lực của ông',960,150,t,a+.3,q-.2,col=DUONGC,sz=38)
-    lb(cv,C0,'gọi về làm nha tướng, ở ngay trong phủ',960,150,t,q+.2,b,col=INK,sz=42)
+    pts=[(xh,yh-20),(xh+30,(yh+yd)/2),(xd,yd+24)]
+    for j,dl in enumerate((0,.06,.12)):
+        uu=max(0.0,min(1.0,u-dl)) if not FREEZE else (j*.1+(t%9)/9)%1
+        k=min(int(uu*2),1);px=pts[k][0]+(pts[k+1][0]-pts[k][0])*(uu*2-k);py=pts[k][1]+(pts[k+1][1]-pts[k][1])*(uu*2-k)
+        put(cv,c,'t20n_thanh' if j==0 else 't20n_1duong',px,py+10,s=.3 if j==0 else .24,ay=1,scale_px=3,r=2*math.sin(t*6+j))
+    lb(cv,C0,'sử nhà Đường: Lý Tượng Cổ ghét thế lực của ông',960,850,t,a+.3,q-.2,col=DUONGC,sz=38)
+    lb(cv,C0,'gọi về làm nha tướng, ở ngay trong phủ',960,850,t,q+.2,b,col=INK,sz=42)
 # ---- 8: trong phủ, đứng dưới trướng người dè chừng mình
 def S_8(cv,t):
     a,b=T[8]-.3,E[8]+.3;q=sb(8,1);q2=sb(8,2)
@@ -218,13 +224,13 @@ def S_8(cv,t):
     ngoai(cv,c,t,g=880,seed=8,far=.4,midv=.4,mist=.4)
     put(cv,c,'t20x_trong',960,560,s=1.1)
     for i in range(2): di(cv,c,'t20n_1duong',300+i*1200,885,600+i*1200,885,t,a+i*.5,b,s=.55,bob=2,f=2.6,ph=i,lat=bool(i))
-    flick(cv,c,700,600,t,.35);flick(cv,c,1200,600,t+1,.35)
+    smoke(cv,c,960,560,t,.5)
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.18)
     if not FREEZE and t>q:
         u=inn(t,q,.6);put_screen(cv,band(520,140,PAPER,.88,18),560,330,u)
         put_screen(cv,text('thứ sử một châu',34,INK,700),560,300,u);stroke(cv,C0,[(430,300),(690,296)],inn(t,q+.6,.5),wid=6,col=RED,o=.85,head=False)
-        put_screen(cv,text('→ tướng dưới quyền',38,RED,700),560,355,inn(t,q+.9,.4))
+        put_screen(cv,text('thành tướng dưới quyền',38,RED,700),560,355,inn(t,q+.9,.4))
     lb(cv,C0,'sử nhà Đường chép: uất ức, không vui',960,150,t,q2+.1,b,col=INK,sz=40)
 # ---- 9: Hoàng Động nổi lên ở phía bắc
 def S_9(cv,t):
@@ -246,6 +252,8 @@ def S_10(cv,t):
     put(cv,c,'t20x_chieu',960,560,s=1.08)
     di(cv,c,'t20n_su',2300,885,1300,885,t,q,b,s=.62,bob=3,f=4,lat=True)
     for i in range(2): nv(cv,c,'t20n_uoc',700+i*160,885,t,s=.6,r=-6*inn(t,a+.5+i*.3,.6))
+    di(cv,c,'t20n_1duong',-300,890,350,890,t,a,b,s=.56,bob=3,f=4)
+    di(cv,c,'t20n_1duong',-600,890,100,890,t,a+.4,b,s=.54,bob=3,f=4.3,ph=1)
     truoc(cv,c,t)
     if not FREEZE and t>q:
         u=inn(t,q+.3,.8);put(cv,C0,'t19_cuon',1500,420,s=.32*u+.01,o=u)
@@ -271,7 +279,7 @@ def S_12(cv,t):
     c=kc(t,[(a,(960,560,1.0)),(b,(980,540,1.12))])
     put(cv,c,'t20_far',960,760,ay=1,k=.35,o=.4)
     put(cv,c,'t20x_lenh',960,600,s=1.0)
-    for i in range(2): flick(cv,c,300+i*1300,420,t+i,.4)
+    for i in range(2): smoke(cv,c,300+i*1300,700,t+i,.6)
     suong(cv,c,t,560,.35,12)
     if not FREEZE:
         ink_wash(cv,.12)
@@ -285,6 +293,7 @@ def S_13(cv,t):
     ngoai(cv,c,t,g=880,seed=13,far=.5,midv=.5,mist=.4)
     put(cv,c,'t20x_ban',960,560,s=1.1)
     flick(cv,c,960,880,t,.7);smoke(cv,c,960,700,t,.6)
+    nv(cv,c,'t20n_thanh',760,885,t,s=.74);nv(cv,c,'t20n_liet',1150,885,t,s=.68,flip=True);nv(cv,c,'t20n_giao',1330,885,t,s=.66,flip=True)
     di(cv,c,'t20n_1ta',2300,890,1700,890,t,a,b,s=.58,bob=3,f=4,lat=True)
     di(cv,c,'t20n_1ta',-300,890,250,890,t,a+.4,b,s=.58,bob=3,f=4.2)
     truoc(cv,c,t)
@@ -307,9 +316,9 @@ def demhanh(cv,t,a,b):
     put(cv,c,'t20x_demhanh',960,560,s=1.0)
     for r in range(3): di(cv,c,'t20n_ta',2400+r*260,880+r*20,700+r*200,880+r*20,t,a+r*.25,b+.5,s=.58,bob=5,f=6.4+r*.3,ph=r,lat=True)
     di(cv,c,'t20n_thanh2',2000,885,500,885,t,a,b,s=.74,bob=5,f=6,lat=True)
-    duoc_lua(cv,c,[(900,690),(1200,690),(1500,690),(1800,690)],t)
+    for i in range(3): smoke(cv,c,900+i*400,640,t+i,.45)
     if not FREEZE:
-        u=inn(t,a+.4,b-a-.6);stroke(cv,c,[(1900,760),(1200,740),(500,700)],u,wid=9,col=RED,o=.8)
+        u=inn(t,a+.4,b-a-.6);stroke(cv,C0,[(1700,300),(1100,280),(500,330)],u,wid=8,col=RED,o=.8)
     truoc(cv,c,t)
     dem(cv,.36)
 # ---- 15: mấy ngày sau thành mới vỡ (bộ đếm ngày), tháng mười năm 819
@@ -375,7 +384,7 @@ def S_19(cv,t):
     put(cv,c,'t20x_trieu',960,560,s=1.0)
     di(cv,c,'t20n_vu',300,885,820,885,t,q,b,s=.72,bob=2,f=2.8)
     for i in range(2): nv(cv,c,'t20n_su',1350+i*140,885,t,s=.6,flip=True,r=-5*inn(t,a+.4+i*.3,.6))
-    flick(cv,c,960,600,t,.3)
+    smoke(cv,c,960,560,t,.4)
     truoc(cv,c,t)
     if not FREEZE and t>q:
         for k,(tt,t0) in enumerate((('tha tội',q+.8),('phong thứ sử Quỳnh Châu',q+1.8))):
@@ -384,17 +393,19 @@ def S_19(cv,t):
 # ---- 20: bản đồ: Quỳnh Châu (đảo Hải Nam) cách Hoan Châu một vùng biển
 def S_20(cv,t):
     a,b=T[20]-.3,E[20]+.3;q=sb(20,1);q2=sb(20,2)
-    c=mcam(t,[(a,(1100,500,1.0)),(b,(1100,470,1.12))])
+    c=mcam(t,[(a,(1150,500,1.45)),(b,(1120,480,1.6))])
     mapbg(cv,c)
     xq,yq=PT['quynhchau'];xh,yh=PT['hoanchau']
     pulse(cv,c,xq,yq,t);dot(cv,c,xq,yq,col=RED,r=12);dot(cv,c,xh,yh,col=RED,r=12)
-    lb(cv,c,'Quỳnh Châu',xq,yq-60,t,a+.3,b,col=RED,sz=40);lb(cv,c,'đảo Hải Nam ngày nay',xq,yq+60,t,a+.8,b,col=INK,sz=30)
+    lb(cv,c,'Quỳnh Châu',xq,yq-60,t,a+.3,b,col=RED,sz=40);lb(cv,c,'đảo Hải Nam ngày nay',xq,yq+110,t,a+.8,b,col=INK,sz=30)
     lb(cv,c,'Hoan Châu',xh+120,yh,t,a+.3,b,col=RED,sz=38)
     if not FREEZE:
         u=inn(t,q,1.6);stroke(cv,c,[(xh+20,yh-10),((xh+xq)/2,(yh+yq)/2-80),(xq-30,yq+10)],u,wid=6,col=INK,o=.7,dash=1)
         for k in range(5):
             wx=(xh+xq)/2-200+k*100+20*math.sin(t*1.5+k);wy=(yh+yq)/2+60+8*math.sin(t*2+k)
             stroke(cv,c,[(wx-30,wy),(wx,wy-10),(wx+30,wy)],1,wid=3,col=INK,o=.4,head=False)
+    for i in range(3):
+        uu=((t*.06+i/3)%1.0);put(cv,c,'t20n_thuyen',xh+60+(xq-xh-120)*uu,yh-40+(yq-yh)*uu+30*math.sin(uu*3.14),s=.2,scale_px=3,r=3*math.sin(t*2+i))
     lb(cv,C0,'sử không chép nhà Đường tính toán gì',960,150,t,q+.2,q2,col=INK,sz=40)
     lb(cv,C0,'được tha, nhưng phải rời xa đất của mình',960,150,t,q2+.1,b,col=RED,sz=42)
 # ---- 21: không nhận; chặn ở biên giới, năm 820
@@ -409,7 +420,7 @@ def S_21(cv,t):
     truoc(cv,c,t)
     if not FREEZE:
         put_screen(cv,text('không nhận',50,RED,700),960,190,inn(t,a+.3,.4)*(1-inn(t,q-.2,.3)))
-        if t>q2: u=inn(t,q2,.5);stroke(cv,C0,[(1250,700),(1250,860)],u,wid=12,col=RED,o=.9,head=False);put_screen(cv,text('không cho vào',44,RED,700),1250,620,u)
+        if t>q2: u=inn(t,q2,.5);stroke(cv,C0,[(1250,700),(1250,860)],u,wid=12,col=RED,o=.9,head=False);put_screen(cv,band(420,80,PAPER,.9,14),1250,330,u);put_screen(cv,text('không cho vào',44,RED,700),1250,328,u)
     seal(cv,'s820',400,300,q+.2,t,s=.8,r=-4)
 # ---- 22: Quế Trọng Vũ sai người thuyết phục từng tù trưởng
 def S_22(cv,t):
@@ -462,6 +473,8 @@ def S_25(cv,t):
     put(cv,c,'t20x_bien',960,560,s=1.0,r=1.2*math.sin(t*.9))
     for k in range(6):
         x=((t*60+k*330)%2200)-100;stroke(cv,c,[(x-40,820+k*8),(x,810+k*8),(x+40,820+k*8)],1,wid=3,col=INK,o=.35,head=False)
+    for i in range(2): put(cv,c,'t20n_thuyen',300+i*900+((t*40+i*300)%600),760+i*20,s=.5,scale_px=3,r=3*math.sin(t*1.7+i))
+    di(cv,c,'t20n_su',2300,890,1700,890,t,a,b,s=.55,bob=3,f=4,lat=True)
     flock(cv,c,t,.5)
     if not FREEZE:
         put_screen(cv,band(520,150,PAPER,.88,18),560,300,inn(t,a+.3,.4))

@@ -1,2 +1,1 @@
-tm21ca
-# mốc chữ tm21 giọng lần 2 (có gợi ý)
+tm21gtca medium khong_goi_y

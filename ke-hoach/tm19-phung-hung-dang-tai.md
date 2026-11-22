@@ -1,6 +1,6 @@
 # Phùng Hưng, năm 791 (thủy mặc tm19): tiêu đề, mô tả, bình luận ghim, ảnh bìa, bản dọc
 
-Video: `tm19_thuymac_dai.mp4` (16:9, khoảng 3 phút 25 giây, giọng Charon đọc cả kịch bản một lần (lần đọc thứ 3), kịch bản bản 1, 25 cảnh, người vẽ kiểu mới). Bản dọc: `tm19_thuymac_doc.mp4` (9:16, khoảng 69 giây, cắt từ đoạn 1–3, 9–12, 16–17 của bản dài, kết bằng lời mời xem bản đầy đủ). Ảnh bìa: `assets/bia/TM19/bia_tm19.png` và `bia_tm19_youtube.jpg`, chữ lớn "VUA HAY CHA MẸ?", có logo đúng cỡ và vị trí.
+Video: `tm19_thuymac_dai.mp4` (16:9, khoảng 3 phút 33 giây, giọng Charon đọc cả kịch bản một lần (bản đọc 22/11 sau khi sửa lời), kịch bản bản 1, 25 cảnh, người vẽ kiểu mới). Bản dọc: `tm19_thuymac_doc.mp4` (9:16, khoảng 73 giây, cắt từ đoạn 1–3, 9–12, 16–17 của bản dài, kết bằng lời mời xem bản đầy đủ). Ảnh bìa: `assets/bia/TM19/bia_tm19.png` và `bia_tm19_youtube.jpg`, chữ lớn "VUA HAY CHA MẸ?", có logo đúng cỡ và vị trí.
 
 ## Tiêu đề YouTube
 **Chọn:** Người dân không gọi ông là vua, họ gọi ông là cha mẹ | Phùng Hưng và danh hiệu Bố Cái Đại Vương
@@ -19,6 +19,6 @@ Toàn thư và Cương mục chép Phùng Hưng vào phủ thành chưa bao lâu
 Chữ lớn trên cùng: "VÌ SAO GỌI ÔNG LÀ CHA MẸ?", "ĐÁNH MÃI KHÔNG THẮNG", "NĂM 791, VÂY PHỦ THÀNH", "BỐ CÁI ĐẠI VƯƠNG". Màn cuối: "Xem bản đầy đủ trên kênh Người Gác Sử". Giọng và nhạc cắt nguyên từ bản dài, không đọc giọng mới.
 
 ## Ghi chú kiểm
-- Giọng: lần 1 trầm, chậm, phẳng hơn tm18 (cao độ 119 Hz, độ lên xuống 80 Hz, tm18 là 123 và 91), chủ kênh cho đọc lại. Lần 2 đọc sai "năm 791" thành "779" ở đoạn 20, đọc lại lần nữa. Lần 3 (dùng): cao độ 116 Hz, độ lên xuống 85 Hz; nhận dạng giọng cho thấy đủ mọi câu, hai lần "năm 791" đều đúng, chỗ lệch chỉ là máy nghe nhầm (Phùng thành "phụng", số thành chữ số).
+- Giọng (22/11): kịch bản sửa đoạn 8 và 19 để gọi thẳng tên Cao Chính Bình, Triệu Xương (không gọi "ông ta"); đoạn 20 ghi năm bằng chữ. Đọc lại sáng 22/11: cao độ 124 Hz, độ lên xuống 100 Hz, trong khoảng các tập trước (120–126 Hz, 90–97 Hz). Nhận dạng giọng: đủ mọi câu, hai lần "năm 791" đúng; chỗ lệch chỉ là máy chuyển số thành chữ số. Các lần đọc chiều 21/11 đều trầm, phẳng (Gemini đọc khác theo giờ), không dùng.
 - Hình (sửa theo góp ý 21/11): Phùng Hưng mặc áo giáp sẫm, khăn đen, đai vàng; Phùng Hãi áo nâu sẫm, khăn sẫm; Phùng An áo đỏ thẫm, khăn đen; lính vẫn khăn đỏ áo vải sáng, nên không còn giống nhau chỉ khác cỡ. Tấm biển "Bố Cái" không lắc nữa để chữ luôn nằm giữa. Cảnh Triệu Xương: thuyền nằm riêng bên trái, người đứng bên phải, bỏ hình Triệu Xương bị vẽ trùng hai lần.
 - Bộ kiểm cảnh: 25 cảnh, 17 tranh riêng, không cảnh tĩnh, không khung trùng, không tranh lặp, không hình mượn.

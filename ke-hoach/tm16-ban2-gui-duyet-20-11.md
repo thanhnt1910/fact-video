@@ -18,7 +18,7 @@ Năm hai trăm bốn mươi tám, vùng Cửu Chân ở Thanh Hóa bây giờ đ
 
 Người Giao Châu đã từng thấy lời hứa của nhà Ngô đáng giá thế nào. Hơn hai mươi năm trước, tướng Lữ Đại hứa tha cho Sĩ Huy nếu chịu ra hàng, rồi chém ông ngay khi ông ra hàng.
 
-Lần này nhà Ngô cử Lục Dận sang. Ông gửi lời kêu gọi khắp nơi, hứa sẽ khoan dung và giữ chữ tín với ai chịu bỏ vũ khí.
+Lần này nhà Ngô cử Lục Dận sang. Lục Dận gửi lời kêu gọi khắp nơi, hứa sẽ khoan dung và giữ chữ tín với ai chịu bỏ vũ khí.
 
 Và phần lớn đã nhận lời. Theo Toàn thư, hơn ba vạn nhà, tức hơn ba mươi nghìn gia đình, đã ra hàng, còn sử nhà Ngô ghi tới hơn năm vạn nhà và hơn một trăm thủ lĩnh.
 

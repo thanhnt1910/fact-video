@@ -22,7 +22,7 @@ Hơn mười năm trước trận đánh lớn nhất đời ông, xứ ta có l
 
 Các làng theo ông gọi ông là Đô Quân, tức người đứng đầu cả vùng. Một vùng đất tự giữ lấy mình đã hình thành ngay gần nơi đóng của quan nhà Đường.
 
-Người đứng đầu bộ máy cai trị của nhà Đường ở nước ta khi ấy là Cao Chính Bình. Sử ghi ông ta bắt dân nộp thuế rất nặng.
+Người đứng đầu bộ máy cai trị của nhà Đường ở nước ta khi ấy là Cao Chính Bình. Sử ghi Cao Chính Bình bắt dân nộp thuế rất nặng.
 
 Phùng Hưng đem quân đánh Cao Chính Bình, nhưng đánh mãi không thắng. Thứ giúp ông thắng về sau không phải sức vật trâu, mà là kế của một người cùng làng.
 
@@ -44,7 +44,7 @@ Sử cũ có lời chú rằng tục xưa gọi cha là bố và gọi mẹ là 
 
 Danh hiệu ấy do con ông đặt, nhưng người dân đã giữ nó lại, thờ ông dưới cái tên ấy suốt hơn một nghìn năm.
 
-Còn nhà Đường thì không đem quân sang đánh. Tháng bảy cùng năm, họ cử Triệu Xương sang làm quan đứng đầu, và ông ta sai người đến thuyết phục Phùng An.
+Tháng bảy cùng năm, nhà Đường cử Triệu Xương sang làm quan đứng đầu. Triệu Xương không đem quân đánh, mà sai người đến thuyết phục Phùng An.
 
 Phùng An đem quân ra hàng. Sử ghi tất cả những việc ấy ngay trong năm bảy trăm chín mươi mốt.
 

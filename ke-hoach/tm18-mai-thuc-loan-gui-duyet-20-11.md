@@ -36,7 +36,7 @@ Tin ấy về tới kinh đô nhà Đường. Vua Đường sai Dương Tư Húc
 
 Để có quân, Dương Tư Húc gọi được mười vạn người ở Lĩnh Nam, vùng Quảng Đông và Quảng Tây bây giờ. Những người này là con cháu của người đứng đầu các vùng ấy.
 
-Rồi ông ta chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang đánh Hai Bà Trưng.
+Rồi Dương Tư Húc chọn một con đường cũ. Đó là đường Mã Viện đã đi gần bảy trăm năm trước, khi viên tướng nhà Hán sang đánh Hai Bà Trưng.
 
 Đạo quân ấy kéo đến lúc bên ta không ngờ tới. Sử nhà Đường ghi rằng Mai Thúc Loan sững sờ, không kịp nghĩ ra cách nào để chống đỡ.
 

@@ -1,2 +1,2 @@
-tm19ca
-# nhận dạng giọng tm19 đọc lại 22/11
+tm18ca
+# nhận dạng giọng tm18 đọc lại 22/11

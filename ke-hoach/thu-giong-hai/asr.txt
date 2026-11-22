@@ -1,2 +1,2 @@
-tm20ca medium khong_goi_y
-# nhận dạng không gợi ý tm20
+tm20ca
+# mốc chữ tm20 có gợi ý

@@ -281,7 +281,7 @@ def S_13(cv,t):
     if t>q: di(cv,c,'t18_spr_tuhuc',2400,880,1300,880,t,q,b+1,s=.62,bob=5,f=7,lat=True)
     truoc(cv,c,t)
     lb(cv,C0,'tin về tới kinh đô nhà Đường',960,150,t,a+.3,q-.2,col=INK,sz=42)
-    lb(cv,C0,'Dương Tư Húc, thái giám đã ngoài sáu mươi',960,150,t,q+.2,b,col=DUONGC,sz=40)
+    lb(cv,C0,'thái giám đã ngoài sáu mươi tuổi',960,230,t,q+.2,b,col=DUONGC,sz=40)
 # ---- 14: gọi được mười vạn người ở Lĩnh Nam (bộ đếm)
 def S_14(cv,t):
     a,b=T[14]-.3,E[14]+.3;q=sb(14,1)
@@ -470,7 +470,7 @@ def S_25(cv,t):
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.2*inn(t,a,1))
     lb(cv,C0,'hai chữ tướng giặc nằm yên gần ba trăm năm',960,150,t,a+.3,q-.2,col=INK,sz=40)
-    lb(cv,C0,'Ngô Thì Sĩ, sách Việt sử tiêu án',960,150,t,q+.2,b,col=RED,sz=42)
+    lb(cv,C0,'sách Việt sử tiêu án',960,230,t,q+.2,b,col=RED,sz=42)
 # ---- 26: ngang với Lý Bí, Triệu Quang Phục
 def S_26(cv,t):
     a,b=T[26]-.3,E[26]+.3;q=sb(26,1)

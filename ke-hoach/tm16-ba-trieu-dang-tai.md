@@ -1,6 +1,6 @@
 # Bà Triệu (thủy mặc tm16, bản 2): tiêu đề, mô tả, bình luận ghim, ảnh bìa
 
-Video: `tm16_thuymac_dai.mp4` (16:9, khoảng 3 phút 3 giây, giọng Charon, kịch bản bản 2, 20 cảnh). Ảnh bìa: `assets/bia/TM16/bia_tm16.png` và `bia_tm16_youtube.jpg`, chữ lớn "KHÔNG CÓ TRONG SỬ", có logo đúng cỡ và vị trí. Bản dựng trước (bản 1, khung "bà không ra hàng") không dùng nữa.
+Video: `tm16_thuymac_dai.mp4` (16:9, khoảng 3 phút 4 giây, giọng Charon đọc lại 22/11, kịch bản bản 2 có sửa đoạn 6 gọi thẳng tên Lục Dận, 20 cảnh). Ảnh bìa: `assets/bia/TM16/bia_tm16.png` và `bia_tm16_youtube.jpg`, chữ lớn "KHÔNG CÓ TRONG SỬ", có logo đúng cỡ và vị trí. Bản dựng trước (bản 1, khung "bà không ra hàng") không dùng nữa.
 
 ## Tiêu đề YouTube
 **Chọn:** Câu nói nổi tiếng nhất của Bà Triệu không có trong bộ sử nào | Bà Triệu năm 248

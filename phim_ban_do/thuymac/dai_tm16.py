@@ -383,14 +383,15 @@ def S_17(cv,t):
     if t<q-.3 or FREEZE:
         put(cv,c,'t16x_sachtong',960,560,s=1.1)
         for j in range(6): viet(cv,c,[(1400,250+j*44),(1500,250+j*44)],t,a+.6+j*.5,.4,wid=4,o=.7)
-        flick(cv,c,760,560,t,.7);smoke(cv,c,760,500,t,.6)
     else:
         put(cv,c,'t16x_hoangduong',960,560,s=1.1,o=inn(t,q-.3,.6))
         for i in range(4):
             u=inn(t,q+i*.8,1.4);put(cv,c,'blot',600+i*240,320+(i%2)*170,s=(.25+.3*u)*(1+.12*math.sin(t*1.3+i)),o=.18*u,r=30*u+8*math.sin(t*.9+i))
         for i in range(2): viet(cv,c,[(520+i*400,300+i*60),(800+i*400,440+i*60)],t,q+1.5+i*1.0,.6,wid=8,col=RED,o=.65)
     di(cv,c,'t16_spr_khach',-500,920,300,920,t,a,b,s=.45,bob=2,f=4)
-    di(cv,c,'t16_spr_quan',2300,860,1700,860,t,q,b,s=.7,bob=2,f=3)
+    di(cv,c,'t16_spr_quan',2300,860,1700,860,t,a+.3,b,s=.7,bob=2,f=3)
+    di(cv,c,'t16_spr_dan',-400,930,500,930,t,a+.8,b,s=.42,bob=2,f=3.6)
+    if t<q-.3 or FREEZE: flick(cv,c,760,560,t,.7);smoke(cv,c,760,500,t,.6)
     trong_truoc(cv,c,t)
     lb(cv,C0,'sách địa lý đời Tống: hơn 700 năm sau',960,160,t,a+.4,q-.2,col=INK,sz=40)
     lb(cv,C0,'sử gia triều Nguyễn chê: hoang đường',960,160,t,q+.2,b,col=RED,sz=42)

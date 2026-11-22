@@ -7,6 +7,8 @@
 - **Không có sàn thời lượng hay số chữ.** Độ dài do chất liệu của câu chuyện quyết định. Chuyện chỉ đủ 6–7 phút thì làm 6–7 phút, không kéo bằng đoạn giải thích hay nhắc lại. Con số cũ (10 phút, 1.900 chữ, 70–90 beat; video dọc 60–80 giây) chỉ là mức tham khảo khi lên kế hoạch. Video quá ngắn so với chất liệu thì mới cần xem lại xem còn thiếu mạch nào.
 - `review.py` không còn chặn ❌ theo thời lượng; chỉ báo ⚠️ khi video ngắn bất thường để chủ kênh biết.
 - **Mỗi video tự hoàn chỉnh.** Không có câu kết mặc định "Tập sau sẽ kể tiếp" hay "Hẹn bạn ở tập tiếp theo". Chỉ mời xem tập sau khi hai tập thật sự nối tiếp và lời mời có giá trị với người xem; khi đó ghi lý do trong bản gửi duyệt.
+- **Không lược vì tập khác đã kể** (chủ kênh 22/11/2026, tm21 họ Khúc). Người xem có thể chưa xem tập kia, nên mạch phải kể đủ để hiểu. Trùng nội dung với tập trước thì kể lại theo góc của tập này, không cắt bỏ.
+  - Trước: tm21 định chỉ nhắc một câu việc Khúc Hạo sửa thuế và năm 923/930 vì tm11m đã kể. Sau: kể đủ trong mạch tm21.
 - Đoạn cuối theo nguyên tắc cốt lõi (`nguyen-tac-cot-loi.md`).
 
 

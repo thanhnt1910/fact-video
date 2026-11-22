@@ -2,7 +2,7 @@
 
 Chủ kênh chọn chủ đề tối 22/11/2026 (cổng A), để nối liền chuỗi Bắc thuộc sau tm20 Dương Thanh và dẫn thẳng vào tm11m Dương Đình Nghệ (931). Lộ trình mục 7 (`thuy-mac-lo-trinh-theo-moc.md`). Hình người vẽ theo kiểu mới (`nguoi18`).
 
-**Tránh trùng tm11m.** Đoạn 2–5 của tm11m đã kể ngắn: họ Khúc chiếm thành, xưng tiết độ sứ, nhà Đường công nhận; Khúc Hạo sửa thuế, lập sổ; Nam Hán bắt Khúc Thừa Mỹ, hai sách lệch năm 923 và 930. tm21 không kể lại theo cùng cách. Phần mới của tm21 là: vì sao họ Khúc nắm được quyền mà không cần đánh trận lớn; cùng một chức tiết độ sứ bị trao cho cả người hàng xóm Lưu Ẩn; Khúc Hạo sai con sang Quảng Châu làm sứ để dò xét; Khúc Thừa Mỹ xin tiết việt của nhà Lương ở rất xa và khiến vua Nam Hán ở ngay sát nổi giận.
+**Kể đủ, không dựa vào tm11m** (chủ kênh 22/11, theo `dung-mach-truyen.md`: mỗi video tự hoàn chỉnh). Bản đầu định lược phần tm11m đã kể (sửa thuế, năm 923/930); nay kể đủ để người chưa xem tm11m vẫn hiểu. Phần mới so với tm11m vẫn giữ: vì sao họ Khúc nắm được quyền mà không cần trận lớn; năm 907 cùng một chức bị trao cho cả Lưu Ẩn; Khúc Hạo sai con sang Quảng Châu dò xét; Khúc Thừa Mỹ xin tiết việt nhà Lương và vua Nam Hán nổi giận.
 
 ## Bước 1. Tìm câu chuyện
 
@@ -46,7 +46,7 @@ Chủ kênh chọn chủ đề tối 22/11/2026 (cổng A), để nối liền c
 
 ## Bước 2. Mạch truyện
 
-Mỗi mục: sự việc → vì sao → dẫn tới gì. Dự kiến 650–800 chữ, khoảng 4–5 phút.
+Mỗi mục: sự việc → vì sao → dẫn tới gì. Dự kiến 850–1.000 chữ, khoảng 5–6 phút (kể đủ).
 
 **0. Mở (0–8%).** Theo hook được chọn. Cài câu hỏi: vì sao một lá cờ xin từ phương xa lại làm mất đất?
 
@@ -66,7 +66,7 @@ Mỗi mục: sự việc → vì sao → dẫn tới gì. Dự kiến 650–800 
 *(Thông giám q.266; Toàn thư năm 907)*
 
 **4. Khúc Hạo: giáp và người sứ đi dò (50–68%).**
-- Đổi hương thành giáp, đặt quản giáp, phó tri giáp lo thuế (một câu, không kể lại tm11m).
+- Kể đủ việc dựng bộ máy: đổi các hương ở các huyện thành giáp, mỗi giáp một quản giáp và một phó tri giáp lo việc thu thuế; phân tích: lần đầu đất này có bộ máy thu thuế do người đứng đầu tại chỗ đặt ra (rào đón "theo Cương mục"). Các việc "bình quân thuế ruộng, tha lực dịch, lập sổ hộ khẩu" chỉ thêm vào nếu tra được nguồn gốc trước khi viết lời.
 - Năm 917 Lưu Nham lập nước Nam Hán. Khúc Hạo sai con là Khúc Thừa Mỹ sang Quảng Châu làm sứ giao hảo để dò thực hư.
 - Cài: hãy nhớ tên người sứ ấy.
 *(Cương mục trong chú Toàn thư; Toàn thư năm 917)*
@@ -77,12 +77,14 @@ Mỗi mục: sự việc → vì sao → dẫn tới gì. Dự kiến 650–800 
 *(Toàn thư năm 919)*
 
 **6. Quân Nam Hán sang (82–92%).**
-- Vua Nam Hán sai quân đánh Giao Châu, bắt Khúc Thừa Mỹ đưa về Quảng Châu, đặt Lý Tiến thay; câu của vua Nam Hán "chỉ có thể ràng buộc mà thôi". Một câu về hai mốc năm 923, 930.
+- Vua Nam Hán sai quân đánh Giao Châu, bắt Khúc Thừa Mỹ đưa về Quảng Châu, đặt Lý Tiến thay; câu của vua Nam Hán "chỉ có thể ràng buộc mà thôi".
+- Kể đủ chỗ lệch năm: Toàn thư và Cương mục chép năm 923, Thông giám và Tân Ngũ đại sử chép năm 930; chú thích bản dịch Toàn thư nói chưa rõ vì sao. Lời kể nói cả hai, không chọn. Tên tướng cũng lệch (Lý Khắc Chính, Lương Khắc Trinh): nói "một viên tướng Nam Hán".
 - Chi tiết khép vòng: người từng sang Quảng Châu làm sứ dò xét, nay bị đưa về chính Quảng Châu.
 *(Toàn thư năm 923; Thông giám q.277)*
 
 **7. Kết (92–100%).**
-- Ba đời giữ đất, nhưng chiếc tiết việt vẫn phải xin của người khác. Người đứng lên sau đó là một tướng của Khúc Hạo ở Ái Châu, Dương Đình Nghệ (câu nối, không kể lại tm11m). Không có lời cảm ơn bắt buộc.
+- Kể đủ để khép chuyện: một tướng của Khúc Hạo ở Ái Châu là Dương Đình Nghệ về sau đánh lấy lại thành (năm 931, Toàn thư), hai câu, không đi vào chi tiết trận (đã có tm11m).
+- Ba đời giữ đất, nhưng chiếc tiết việt vẫn phải xin của người khác. Không có lời cảm ơn bắt buộc.
 
 ## Ba phương án hook (gửi chủ kênh chọn)
 

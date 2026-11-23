@@ -1,33 +1,41 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Ánh sáng Mặt Trời màu trắng, vậy sao bầu trời lại 
-OK Leda 02: Nhưng chiều tối, cùng bầu trời ấy lại đỏ rực.
-OK Leda 03: Cả hai chuyện đều do một quy luật có số 4.
-OK Leda 04: Trước hết, ánh sáng trắng là hỗn hợp nhiều màu, từ
-OK Leda 05: Và mỗi màu có một bước sóng, tức độ dài một sóng á
-OK Leda 06: Đỏ sóng dài khoảng 700 nm, tím sóng ngắn khoảng 40
-OK Leda 07: Còn không khí gồm vô số phân tử nhỏ xíu, nhỏ hơn b
-OK Leda 08: Ánh sáng đi qua bị bắn ra mọi hướng, gọi là tán xạ
+OK Leda 01: Trái Đất quay đúng một vòng mất bao lâu, có phải 2
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 09: Nên phần bị bắn vào mắt, ta thấy nó ở khắp bầu trờ
-OK Leda 10: Màu sóng ngắn bị bắn mạnh hơn màu sóng dài, mức ch
-OK Leda 11: Năm 1859, John Tyndall bước những bước đầu giải th
-OK Leda 12: Rồi vài năm sau, huân tước Rayleigh nghiên cứu chi
+OK Leda 02: Nhưng thật ra, nó quay xong sớm hơn khoảng 4 phút.
+OK Leda 03: 4 phút ấy từ đâu ra, và vì sao ngày dài hơn?
+OK Leda 04: Có hai cách đo một ngày, cách đầu là nhìn Mặt Trời
+OK Leda 05: Đo từ lúc Mặt Trời giữa trời hôm nay, tới giữa trờ
+OK Leda 06: Trung bình 24 giờ, và đồng hồ của ta dùng con số n
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 13: Ánh sáng bị bắn tỉ lệ nghịch với bước sóng nhân vớ
-OK Leda 14: Bước sóng ngắn đi một nửa, bị bắn mạnh gấp 16 lần.
-OK Leda 15: So tím với đỏ: lấy 700 ÷ 400.
-OK Leda 16: Từ đó ra 1,75.
+OK Leda 07: Cách hai: nhìn một ngôi sao rất xa.
+OK Leda 08: Rồi đo tới lúc nó trở lại đúng chỗ cũ.
+OK Leda 09: Sao rất xa nên hướng không đổi, và đó là một vòng 
+OK Leda 10: Kết quả là khoảng 23 giờ 56 phút.
+OK Leda 11: Vậy hai cách đo lệch nhau khoảng 4 phút.
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 17: Nhân 1,75 với chính nó, ra khoảng 3,06.
-OK Leda 18: Rồi nhân số đó với chính nó lần nữa, ra khoảng 9,4
-OK Leda 19: Vậy tím bị bắn mạnh gần gấp 10 lần đỏ.
-OK Leda 20: Vậy sao bầu trời không màu tím?
-OK Leda 21: Vì Mặt Trời có ít tím hơn xanh, và mắt ta kém nhạy
-OK Leda 22: Cộng lại, màu xanh thắng, nên bầu trời xanh.
+OK Leda 12: Vì Trái Đất không chỉ quay quanh mình, mà còn đi v
+OK Leda 13: Ví dụ đồng hồ: kim giờ và kim phút gặp nhau lúc 12
+OK Leda 14: Kim phút đi hết 1 vòng 60 phút, nhưng kim giờ đã n
+OK Leda 15: Nên kim phút phải đi thêm một đoạn mới đuổi kịp ki
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 23: Lúc hoàng hôn, Mặt Trời nằm thấp sát chân trời.
-OK Leda 24: Vì thế ánh sáng đi qua lớp không khí dày hơn rất n
-OK Leda 25: Nên trên đường đi, màu xanh bị bắn ra gần hết.
-OK Leda 26: Cuối cùng chỉ còn đỏ, cam, vàng tới mắt ta.
-OK Leda 27: Mây trắng vì giọt nước rất lớn, bắn mọi màu gần đề
-OK Leda 28: Bầu trời xanh, hoàng hôn đỏ: cùng một quy luật, só
+OK Leda 16: Hai kim gặp lại sau khoảng 65,5 phút, không phải 6
+OK Leda 17: Trái Đất cũng vậy: vòng quay như kim phút, hướng t
+OK Leda 18: Mỗi ngày đi một đoạn trên quỹ đạo, hướng tới Mặt T
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 19: Một vòng quanh Mặt Trời dài 365 ngày.
+OK Leda 20: Còn một vòng tròn có 360 độ.
+OK Leda 21: 360 ÷ 365 ra gần 1 độ mỗi ngày.
+OK Leda 22: Sau một vòng quay, Mặt Trời chưa về giữa trời, phả
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 23: Một ngày 24 × 60 = 1.440 phút.
+OK Leda 24: 1.440 ÷ 360 = 4 phút cho mỗi độ.
+OK Leda 25: Gần 1 độ × 4 phút ra gần 4 phút.
+OK Leda 26: Đó là 4 phút quay thêm, nên ngày Mặt Trời dài hơn 
+OK Leda 27: Nhờ vậy, mỗi đêm sao mọc sớm hơn khoảng 4 phút.
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 28: Sau 30 đêm, 30 × 4 = 120 phút.
+OK Leda 29: Tức là nó mọc sớm hơn 2 tiếng.
+OK Leda 30: Cả năm, quay quanh mình nhiều hơn số ngày đúng một
+OK Leda 31: Vậy Trái Đất quay một vòng mất khoảng 23 giờ 56 ph
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 32: Còn ngày dài hơn 4 phút, vì Trái Đất còn đi quanh 

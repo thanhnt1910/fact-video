@@ -32,7 +32,7 @@ Chữ lớn trên cùng: "BỐN BỀ LÀ NÚI ĐÁ", "HAI VUA KHÔNG HẠ NỔI"
 Đinh Bộ Lĩnh giơ đao giữa thung lũng Hoa Lư, quân khăn đỏ bên trái, quân nhà Ngô dừng ở bên phải; chữ "HAI VUA KHÔNG HẠ NỔI", dòng phụ "Đinh Bộ Lĩnh và Hoa Lư · năm 944–968". Tự vẽ bằng mã `bia_tm22.py`.
 
 ## Ghi chú kiểm
-- Giọng (23/11, lần đọc 1): cao độ 124 Hz (tm21: 122 Hz), 396,6 giây. Nhận dạng không gợi ý: đủ chữ (1.373/1.390 từ, phần lệch là lỗi dấu của máy nhận dạng, ví dụ "Hoa Lư" thành "hòa lư", "Xương" thành "sương"). Các năm: 951, 965, 967 nghe đúng; năm 968 máy ghi "1968", nhưng độ dài con số (0,82 giây) bằng "965" (0,86 giây), nên giọng không đọc thêm "một nghìn". Chủ kênh nên nghe kiểm ở khoảng 5 phút 54 giây.
+- Giọng (23/11, lần đọc 1): cao độ 124 Hz (tm21: 122 Hz), 396,6 giây. Nhận dạng không gợi ý: đủ chữ (1.373/1.390 từ, phần lệch là lỗi dấu của máy nhận dạng, ví dụ "Hoa Lư" thành "hòa lư", "Xương" thành "sương"). Các năm: 951, 965, 967 nghe đúng; năm 968 máy ghi "1968", nhưng độ dài con số (0,82 giây) bằng "965" (0,86 giây), nên giọng không đọc thêm "một nghìn". Chủ kênh đã nghe đoạn cắt quanh năm 968 và xác nhận đọc đúng (23/11 15:28).
 - Quy ước màu: quân Đinh khăn đỏ; quân nhà Ngô mũ trụ, áo xanh lục, khiên lục; quân các sứ quân khác khăn tím (quy ước hình ảnh, không phải khẳng định lịch sử).
 - Nhân vật có tên vẽ dáng riêng: Đinh Bộ Lĩnh giáp sẫm, khăn đỏ thẫm, đai vàng; khi lên ngôi mặc áo bào vàng, mũ miện; Đinh Liễn khăn đỏ, áo nâu nhạt; hai vua nhà Ngô áo bào lục và chàm; Dương Tam Kha mũ phốc đầu, áo tím; Trần Lãm áo nâu, râu trắng; Phạm Bạch Hổ khăn trắng.
 - Cảnh ngọn sào: người treo vẽ nhỏ, ở xa, không tả cảnh; cảnh tay nỏ không vẽ tên bắn vào người.

@@ -1,4 +1,4 @@
-# tm22 Đinh Bộ Lĩnh và Hoa Lư: lời đọc bản 2 (23/11/2026, chờ duyệt cổng C, chưa đọc giọng)
+# tm22 Đinh Bộ Lĩnh và Hoa Lư: lời đọc bản 3 (23/11/2026, chờ duyệt cổng C, chưa đọc giọng)
 
 ## tm22 Hoa Lư, năm 944–968
 
@@ -21,6 +21,11 @@ Theo mạch truyện `tm22-dinh-bo-linh-mach-truyen-23-11.md`, chủ kênh duy�
 | 1 | Địa điểm bất ngờ | Có một thung lũng bốn bề núi đá dựng đứng như bức vách. Hai vua nhà Ngô kéo quân đến, hơn một tháng không hạ nổi. Về sau, nó thành kinh đô của cả nước. | Chủ kênh chọn |
 | 2 | Câu đố sử chép gọn | Sử chép Đinh Bộ Lĩnh dẹp mười hai sứ quân chỉ bằng một câu. Vậy từ nơi nào ông cất quân, và trong mười lăm năm trước đó ông đã làm gì? | |
 | 3 | Cảnh có người (trùng video cũ dbl1) | Hai vua nhà Ngô treo một người con lên ngọn sào để ép cha phải đầu hàng. Người cha ra lệnh cho quân cầm nỏ nhắm vào người con ấy. | |
+
+### Bảng đổi lần 2 (23/11, chủ kênh: "người bên vợ ông" nghe như ngoại tình)
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 4 | Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, người bên vợ ông và cũng là gia thần của ông. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn. | Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, anh vợ của ông, cũng là bề tôi thân cận trong nhà. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn. | "người bên vợ ông" mơ hồ, nghe như quan hệ ngoài vợ chồng. Toàn thư chép Dương Tam Kha là anh của Dương hậu, vợ Ngô Quyền (có sách chép là em), nên gọi thẳng "anh vợ". "Gia thần" là chữ Hán ít người hiểu, đổi thành "bề tôi thân cận trong nhà" |
 
 ### Bảng đổi lần 1 (23/11, chủ kênh nhắc tên riêng viết tắt)
 Chủ kênh hỏi kịch bản đã tuân thủ quy tắc chưa, vì nhiều chỗ viết tắt "Bộ Lĩnh", "Liễn". Rà lại thấy hai lỗi:
@@ -61,7 +66,7 @@ Số đoạn của bản 2 lệch đi một từ đoạn 10 (đoạn 10 cũ gộ
 
 **3.** Nơi ấy là Hoa Lư. Chuyện xảy ra hơn một nghìn năm trước, ít lâu sau khi Ngô Quyền đánh thắng quân nhà Nam Hán từ phương bắc và giành lại quyền tự chủ cho nước ta.
 
-**4.** Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, người bên vợ ông và cũng là gia thần của ông. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn.
+**4.** Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, anh vợ của ông, cũng là bề tôi thân cận trong nhà. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn.
 
 **5.** Sau sáu năm, con thứ của Ngô Quyền là Ngô Xương Văn quay quân lật đổ Dương Tam Kha. Ông không giết người cướp ngôi mà chỉ giáng chức. Sau đó ông đón anh là Ngô Xương Ngập về cùng trông coi việc nước. Hai anh em xưng là Nam Tấn Vương và Thiên Sách Vương.
 
@@ -155,7 +160,7 @@ Số đoạn của bản 2 lệch đi một từ đoạn 10 (đoạn 10 cũ gộ
 | Số trận dẹp loạn | Lê Văn Hưu: "một phen cất quân" | Toàn thư Ngoại kỷ: kể từng bước (nương Trần Lãm, Phạm Bạch Hổ hàng, Ô Man) | Đoạn 30 và 31 nói cả hai, nói rõ không có trận nào từng sứ quân |
 | Đối thủ của Bộ Lĩnh | Toàn thư: mười hai sứ quân | Tống sử: "mười hai châu" loạn, nêu tên đối thủ khác (Ngô Xử Bình, Kiều Tri Hộ, Dương Huy...) | Đoạn 32 chỉ nói "các đối thủ", không nêu tên |
 | Nơi Nam Tấn Vương chết | Toàn thư, Cương mục: Thái Bình | Ngũ đại sử (qua chú Cương mục): Giao Châu | Đoạn 17 theo Toàn thư (hai thôn Đường và Nguyễn ở Thái Bình) |
-| Dương Tam Kha là anh hay em Dương hậu | Toàn thư: anh (có sách chép em) | | Đoạn 4 nói "người bên vợ ông" |
+| Dương Tam Kha là anh hay em Dương hậu | Toàn thư: anh (có sách chép em) | | Đoạn 4 nói "anh vợ" theo chính văn Toàn thư; lệch "có sách chép em" ghi ở đây |
 
 ### Chi tiết đã bỏ
 - Chuyện chăn trâu, cờ lau, con Thứ sử châu Hoan Đinh Công Trứ (một nguồn, giai thoại); hai rồng vàng; sấm và điềm báo về Đỗ Thích.

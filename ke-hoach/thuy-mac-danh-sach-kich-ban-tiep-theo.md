@@ -31,7 +31,7 @@ Mạch 905 đến 938 đã kín (họ Khúc, Dương Đình Nghệ, Kiều Công
 |---|---|---|---|---|
 | 1 | 687 | Lý Tự Tiên, Đinh Kiến khởi nghĩa chống Lưu Diên Hựu | BỎ (23/11): chủ kênh bỏ vì ít nguồn | Mục C.1 giữ để tham khảo |
 | 2 | 860–866 | Nam Chiếu chiếm Giao Châu, Cao Biền lấy lại, thành Đại La | BỎ (23/11): chủ kênh bỏ vì ít nguồn | Mục C.2 giữ để tham khảo |
-| 3 | 944–968 | Đinh Bộ Lĩnh dẹp loạn mười hai sứ quân | Qua cổng A (23/11); mạch truyện tm22 đã gửi duyệt cổng B: `tm22-dinh-bo-linh-mach-truyen-23-11.md` (đổi góc so với video cũ dbl1) | Đã có `ke-hoach/dinh-bo-linh-dan-y.md` và `dinh-bo-linh-kich-ban.md` (loạt cũ) |
+| 3 | 944–968 | Đinh Bộ Lĩnh dẹp loạn mười hai sứ quân | Qua cổng A (23/11); qua cổng B (23/11); lời kể tm22 đã gửi duyệt cổng C: `tm22-dinh-bo-linh-gui-duyet-23-11.md` (mạch: `tm22-dinh-bo-linh-mach-truyen-23-11.md`; đổi góc so với video cũ dbl1) | Đã có `ke-hoach/dinh-bo-linh-dan-y.md` và `dinh-bo-linh-kich-ban.md` (loạt cũ) |
 | 4 | 1075 | Lý Thường Kiệt đánh Ung Châu | Đề xuất | Mở đầu cho tm3 Như Nguyệt |
 | 5 | 1406–1407 | Nhà Hồ thua quân Minh, Hồ Quý Ly bị bắt | Đề xuất | |
 | 6 | 1407–1413 | Hậu Trần chống Minh | Đề xuất | Cầu nối nhà Hồ và Lam Sơn |

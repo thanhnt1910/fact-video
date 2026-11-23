@@ -431,7 +431,7 @@ def S_15(cv,t):
     lb(cv,C0,'nay có thêm một người láng giềng cùng nắm',960,200,t,q+.1,b,col=NAMHANC,sz=40)
 # ---- 16: đổi hương thành giáp, đặt người thu thuế
 def S_16(cv,t):
-    a,b=T[16]-.3,E[16]+.3;q=sb(16,1)
+    a,b=T[16]-.3,E[16]+.3;q=sb(16,2)
     c=kc(t,[(a,(1100,560,1.05)),(b,(900,560,1.0))])
     ngoai(cv,c,t,g=880,seed=16)
     put(cv,c,'t21x_giap',960,560,s=1.0)

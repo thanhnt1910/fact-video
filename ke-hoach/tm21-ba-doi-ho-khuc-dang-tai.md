@@ -1,6 +1,6 @@
 # Ba đời họ Khúc, năm 905–930 (thủy mặc tm21): tiêu đề, mô tả, bình luận ghim, ảnh bìa, bản dọc
 
-Video: `tm21_thuymac_dai.mp4` (16:9, khoảng 4 phút 37 giây, 30 khung/giây, giọng Charon đọc cả kịch bản một lần (lần đọc 2, 22/11), lời kể bản 2, 29 cảnh, tô màu nước theo bản thử chủ kênh chọn 22/11). Bản dọc: `tm21_thuymac_doc.mp4` (9:16, khoảng 64 giây, cắt từ đoạn 1–2, 10, 22–24, 26). Ảnh bìa: `assets/bia/TM21/bia_tm21.png`.
+Video: `tm21_thuymac_dai.mp4` (16:9, khoảng 4 phút 37 giây, 30 khung/giây, giọng Charon đọc cả kịch bản một lần (lần đọc 7, 23/11), lời kể bản 2, 29 cảnh, tô màu nước theo bản thử chủ kênh chọn 22/11). Bản dọc: `tm21_thuymac_doc.mp4` (9:16, khoảng 64 giây, cắt từ đoạn 1–2, 10, 22–24, 26). Ảnh bìa: `assets/bia/TM21/bia_tm21.png`.
 
 ## Tiêu đề YouTube
 **Chọn:** Ba đời giữ đất không cần trận lớn, rồi mất đất vì một lá cờ xin từ phương xa | Họ Khúc năm 905–930
@@ -32,7 +32,8 @@ Chữ lớn trên cùng: "BA ĐỜI, KHÔNG MỘT TRẬN LỚN", ba câu hỏi, 
 Khúc Thừa Mỹ cầm chiếc tiết (hình ảnh lặp lại) bên trái, vua Nam Hán chỉ tay bên phải, cổng Quảng Châu phía sau; chữ "XIN CỜ NƠI XA", dòng phụ "Ba đời họ Khúc · năm 905–930". Tự vẽ bằng mã `bia_tm21.py`.
 
 ## Ghi chú kiểm
-- Giọng (22/11): lần 1 (117 Hz) đọc 905 thành 906 và 923 thành 939 (nhận dạng không gợi ý và đường cao độ âm cuối cùng chỉ ra). Lần 2 đọc cả bài một lần, ghi số 905 và 923 trong trường đọc: mọi năm đúng (880, 905, 906, 907, 917, 923, 930, 931, 939), đủ câu, cao độ 118 Hz, độ lên xuống 92 (tm16–tm19: 121–124 Hz; tm20: 119 Hz). Nhận dạng ghi "1917" ở đoạn 18 nhưng đường cao độ cho thấy chỉ có "chín trăm mười bảy".
+- Giọng (23/11): chủ kênh báo chữ "giáp" nghe thành "giác". Đo âm cuối ở bản cũ: giọng dừng hẳn ở "p", không bật hơi, nên dễ nghe thành "c"; tần số F2 cuối chữ đi xuống như âm môi (giống "lập"), không đi lên như "việc". Đã sửa câu ở đoạn 16 để "giáp" đứng trước từ mở đầu bằng nguyên âm ("...thành giáp. Ở mỗi giáp, ông đặt..."); bản mới đo vẫn không bật hơi ở âm "p" (F2 vẫn đi xuống như âm môi), nên cần chủ kênh nghe lại giây 130–142 và 148 của bản dài. Đọc lại cả bài một lần, đủ chín năm đúng (880, 905, 906, 907, 917, 923, 930, 931, 939), đủ câu, không lặp đoạn, cao độ 122 Hz (c201001: 124 Hz).
+- Lịch sử đọc: lần 1 đọc 905 thành 906 và 923 thành 939; lần 3 đọc 905 thành 906; lần 4 lặp một đoạn 48 giây và đọc 923 thành 929; lần 5 đọc 923 thành 929; lần 6 đọc 923 thành 939; lần 7 đạt. Đoạn 5 ghi "chín trăm linh năm", đoạn 25 ghi 923 bằng số và 930 bằng chữ trong trường đọc.
 - Nhân vật chính dùng dáng riêng (áo bào dài, mũ khác nhau, cầm tiết); lính dùng dáng ngắn, đứng tĩnh.
 - Bố cục: mỗi lúc một nhãn ở dải trên (đặt thấp hơn dòng tên góc trái), bảng chữ ở khối phải, người cách nhau đủ xa; đã xem khung từng cảnh.
 - Lớp núi xa và gần trước đây lệch theo số cảnh nên mép lớp lọt vào khung ở các cảnh cuối (tm20 cũng bị); tm21 đã giới hạn độ lệch.

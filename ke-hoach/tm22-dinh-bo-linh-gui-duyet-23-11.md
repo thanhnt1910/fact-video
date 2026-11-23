@@ -1,4 +1,4 @@
-# tm22 Đinh Bộ Lĩnh và Hoa Lư: lời đọc bản 3 (23/11/2026, chờ duyệt cổng C, chưa đọc giọng)
+# tm22 Đinh Bộ Lĩnh và Hoa Lư: lời đọc bản 4 (23/11/2026, chờ duyệt cổng C, chưa đọc giọng)
 
 ## tm22 Hoa Lư, năm 944–968
 
@@ -21,6 +21,28 @@ Theo mạch truyện `tm22-dinh-bo-linh-mach-truyen-23-11.md`, chủ kênh duy�
 | 1 | Địa điểm bất ngờ | Có một thung lũng bốn bề núi đá dựng đứng như bức vách. Hai vua nhà Ngô kéo quân đến, hơn một tháng không hạ nổi. Về sau, nó thành kinh đô của cả nước. | Chủ kênh chọn |
 | 2 | Câu đố sử chép gọn | Sử chép Đinh Bộ Lĩnh dẹp mười hai sứ quân chỉ bằng một câu. Vậy từ nơi nào ông cất quân, và trong mười lăm năm trước đó ông đã làm gì? | |
 | 3 | Cảnh có người (trùng video cũ dbl1) | Hai vua nhà Ngô treo một người con lên ngọn sào để ép cha phải đầu hàng. Người cha ra lệnh cho quân cầm nỏ nhắm vào người con ấy. | |
+
+### Bảng đổi lần 3 (23/11, chủ kênh: đoạn 6 và 26 giống dịch thẳng từ sách, hỏi đoạn 7 sử có chép đúng vậy không)
+Đoạn 7: Toàn thư chép "người động Hoa Lư là Đinh Bộ Lĩnh cậy núi khe hiểm cố, không chịu giữ chức phận làm tôi". Ý đúng sử, nhưng câu bản 3 gần như chép lại từng chữ. Theo `thuy-mac-giong-van.md` mục 1 điểm 7 (rà mọi câu cùng một lượt, không đợi chỉ từng chỗ), em rà cả bài và sửa thêm 13 đoạn có chữ dịch sát Toàn thư.
+
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 5 | Sau sáu năm, con thứ của Ngô Quyền là Ngô Xương Văn quay quân lật đổ Dương Tam Kha. Ông không giết người cướp ngôi mà chỉ giáng chức. Sau đó ông đón anh là Ngô Xương Ngập về cùng trông coi việc nước. Hai anh em xưng là Nam Tấn Vương và Thiên Sách Vương. | Sau sáu năm, con thứ của Ngô Quyền là Ngô Xương Văn quay quân lật đổ Dương Tam Kha. Ông không giết người cướp ngôi mà chỉ giáng chức. Sau đó ông đón anh là Ngô Xương Ngập về cùng lo việc nước. Hai anh em cùng làm vua, gọi là Nam Tấn Vương và Thiên Sách Vương. | "trông coi việc nước", "xưng là": chữ dịch từ Toàn thư |
+| 6 | Hai vua không hòa nhau. Thiên Sách Vương chuyên quyền, đến mức Nam Tấn Vương không còn được dự bàn việc nước. Ngôi vua có hai người ngồi, còn quyền thì chỉ một người cầm, và hai anh em sinh ra hiềm khích. | Có điều, hai anh em không ở yên với nhau được lâu. Người anh là Thiên Sách Vương nắm hết việc lớn, còn người em dù cũng là vua thì dần bị gạt ra ngoài. Từ đó hai anh em sinh ra nghi kỵ nhau. | Chủ kênh: câu dịch thẳng từ sách ("chuyên quyền", "dự bàn việc nước", "hiềm khích"); kể lại bằng việc làm |
+| 7 | Cùng lúc ấy, ở Hoa Lư có Đinh Bộ Lĩnh. Ông cậy vào địa thế hiểm trở, không chịu làm bề tôi nhà Ngô. | Cùng lúc ấy, ở Hoa Lư có một người tên là Đinh Bộ Lĩnh. Ông dựa vào núi non hiểm trở quanh mình mà không chịu nghe lệnh nhà Ngô. | Chủ kênh hỏi: câu gần như chép nguyên Toàn thư ("cậy núi khe hiểm cố, không chịu giữ chức phận làm tôi"); giữ ý, kể bằng lời thường |
+| 9 | Hai vua nhà Ngô muốn đem quân đi đánh. Đinh Bộ Lĩnh sợ, nên sai con trai là Đinh Liễn vào triều làm con tin, hy vọng ngăn được cuộc xuất quân. Chuyện xảy ra vào khoảng năm 951. | Hai vua nhà Ngô muốn đem quân đi đánh. Đinh Bộ Lĩnh sợ, nên sai con trai là Đinh Liễn vào triều làm con tin, mong hai vua thôi đem quân đến. Chuyện xảy ra vào khoảng năm 951. | "ngăn được cuộc xuất quân": chữ dịch |
+| 10 | Nhưng Đinh Liễn vừa đến, hai vua nhà Ngô đã trách Đinh Bộ Lĩnh không chịu vào chầu. Rồi họ giữ Đinh Liễn lại, mang theo khi kéo quân đánh Hoa Lư. | Nhưng Đinh Liễn vừa đến, hai vua nhà Ngô đã trách Đinh Bộ Lĩnh không chịu tự mình vào triều. Rồi họ giữ Đinh Liễn lại, mang theo khi kéo quân đánh Hoa Lư. | "vào chầu": chữ cổ |
+| 13 | Đinh Bộ Lĩnh tức giận. Ông nói rằng bậc đại trượng phu chỉ mong lập công danh, đâu có xót con như đàn bà. Rồi ông sai hơn mười người cầm nỏ nhắm vào con mình mà bắn. | Đinh Bộ Lĩnh tức giận. Ông nói rằng người làm việc lớn chỉ mong lập nên sự nghiệp, đâu có xót con như đàn bà. Rồi ông sai hơn mười người cầm nỏ nhắm vào con mình mà bắn. | "bậc đại trượng phu chỉ mong lập công danh": dịch sát; giữ ý câu nói trong sử |
+| 16 | Ít năm sau, Thiên Sách Vương Ngô Xương Ngập mất, và Nam Tấn Vương Ngô Xương Văn giữ ngôi một mình. | Ít năm sau, Thiên Sách Vương Ngô Xương Ngập mất, chỉ còn Nam Tấn Vương Ngô Xương Văn làm vua. | "giữ ngôi": chữ dịch |
+| 18 | Hai thôn ấy không xa lạ gì với Nam Tấn Vương. Mười lăm năm trước, chính Dương Tam Kha đã sai ông đến đánh hai thôn này, và giữa đường ông quay quân lật đổ Dương Tam Kha. Sử gia Ngô Sĩ Liên tiếc rằng lần này ông tham việc đánh dẹp, rốt cuộc tự giết mình. | Hai thôn ấy không xa lạ gì với Nam Tấn Vương. Mười lăm năm trước, chính Dương Tam Kha đã sai ông đến đánh hai thôn này, và giữa đường ông quay quân lật đổ Dương Tam Kha. Sử gia Ngô Sĩ Liên tiếc rằng lần này ông ham đánh dẹp, để rồi tự chuốc lấy cái chết. | "tham việc đánh dẹp, rốt cuộc tự giết mình": dịch sát lời bàn |
+| 23 | Trong nước không có chủ. Mười hai người tranh nhau làm trưởng, và không ai chịu nghe ai. | Trong nước không có vua. Mười hai người tranh nhau làm người đứng đầu, và không ai chịu nghe ai. | "không có chủ", "làm trưởng": chữ dịch |
+| 25 | Năm 967, Đinh Bộ Lĩnh cùng con là Đinh Liễn đến nương nhờ Trần Lãm, vì nghe tiếng Trần Lãm là người có đức mà chưa có con nối. | Năm 967, Đinh Bộ Lĩnh cùng con là Đinh Liễn đến nương nhờ Trần Lãm, vì nghe nói Trần Lãm là người hiền đức mà lại không có con trai nối nghiệp. | "có đức mà chưa có con nối": dịch sát |
+| 26 | Trần Lãm thấy Đinh Bộ Lĩnh dáng mạo khôi ngô, lại có khí lượng, nên nuôi làm con và giao cho coi quân. Từ đó, người giữ một thung lũng đã cầm trong tay quân của một sứ quân. | Trần Lãm thấy Đinh Bộ Lĩnh trông khác người, tính lại rộng rãi, nên nhận làm con nuôi rồi giao cho cầm quân. Thế là từ chỗ chỉ giữ một thung lũng, Đinh Bộ Lĩnh có trong tay quân của cả một sứ quân. | Chủ kênh: dịch thẳng từ sách ("dáng mạo khôi ngô", "khí lượng", "coi quân") |
+| 27 | Đinh Bộ Lĩnh được sai đi đánh các hùng trưởng khác, và trận nào cũng thắng. Một sứ quân khác là Phạm Bạch Hổ ở Đằng Châu cũng đem quân về hàng. | Đinh Bộ Lĩnh được sai đi đánh các hùng trưởng khác, và trận nào cũng thắng. Một sứ quân khác là Phạm Bạch Hổ ở Đằng Châu cũng tự đem quân đến xin hàng. | "đem quân về hàng": chữ dịch |
+| 29 | Nghe tin, Đinh Bộ Lĩnh cất quân đánh vùng sông và động ấy, và không bộ lạc nào không hàng phục. Nhà Ngô mất. | Nghe tin, Đinh Bộ Lĩnh đánh thẳng vào vùng Đỗ Động Giang, và mọi nơi ở đó đều xin hàng. Nhà Ngô đến đây thì chấm dứt. | "không bộ lạc nào không hàng phục": dịch sát; động từ "cất quân đánh" thay bằng "đánh thẳng vào" |
+| 30 | Sử gia Lê Văn Hưu, người thời nhà Trần, viết rằng Đinh Bộ Lĩnh chỉ một phen cất quân mà mười hai sứ quân đều phục. Thế nhưng không có trận nào đánh từng sứ quân được chép lại. | Sử gia Lê Văn Hưu, người thời nhà Trần, viết rằng Đinh Bộ Lĩnh chỉ ra quân một lần là mười hai sứ quân đều phục. Thế nhưng không có trận nào đánh từng sứ quân được chép lại. | "một phen cất quân": chữ cổ |
+| 34 | Ông từng chọn được một chỗ đất đẹp ở Đàm thôn, nhưng đất ấy chật hẹp, lại không có lợi cho việc đặt thế hiểm. Vì thế ông vẫn đóng đô ở Hoa Lư. Ở đó ông đắp thành và đào hào, rồi xây cung điện và đặt triều nghi. | Ông từng chọn được một chỗ đất đẹp ở Đàm thôn, nhưng đất ấy chật, lại khó phòng giữ. Vì thế ông vẫn đóng đô ở Hoa Lư. Ở đó ông đắp thành và đào hào, rồi xây cung điện và đặt ra lễ nghi trong triều. | "không có lợi cho việc đặt thế hiểm", "đặt triều nghi": dịch sát |
+| 35 | Lý do ông không dời đi được ghi rõ, là Đàm thôn không đủ hiểm. Còn Hoa Lư, nay thuộc tỉnh Ninh Bình, thì hai vua nhà Ngô đã kéo quân đến mà không hạ nổi. | Còn Hoa Lư, nay thuộc tỉnh Ninh Bình, là nơi hai vua nhà Ngô từng kéo quân đến mà không hạ nổi. Thung lũng đã che chở ông năm xưa, nay thành kinh đô của cả nước. | Câu "Lý do ông không dời đi được ghi rõ" nghe như văn bản, lặp ý đoạn 34; khép vòng bằng hình ảnh thung lũng |
 
 ### Bảng đổi lần 2 (23/11, chủ kênh: "người bên vợ ông" nghe như ngoại tình)
 | Đoạn | Trước | Sau | Vì sao |
@@ -68,33 +90,33 @@ Số đoạn của bản 2 lệch đi một từ đoạn 10 (đoạn 10 cũ gộ
 
 **4.** Ngô Quyền xưng vương nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là anh vợ của ông, Dương Tam Kha. Dương Tam Kha vốn là bề tôi thân cận trong nhà, nay cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn.
 
-**5.** Sau sáu năm, con thứ của Ngô Quyền là Ngô Xương Văn quay quân lật đổ Dương Tam Kha. Ông không giết người cướp ngôi mà chỉ giáng chức. Sau đó ông đón anh là Ngô Xương Ngập về cùng trông coi việc nước. Hai anh em xưng là Nam Tấn Vương và Thiên Sách Vương.
+**5.** Sau sáu năm, con thứ của Ngô Quyền là Ngô Xương Văn quay quân lật đổ Dương Tam Kha. Ông không giết người cướp ngôi mà chỉ giáng chức. Sau đó ông đón anh là Ngô Xương Ngập về cùng lo việc nước. Hai anh em cùng làm vua, gọi là Nam Tấn Vương và Thiên Sách Vương.
 
-**6.** Hai vua không hòa nhau. Thiên Sách Vương chuyên quyền, đến mức Nam Tấn Vương không còn được dự bàn việc nước. Ngôi vua có hai người ngồi, còn quyền thì chỉ một người cầm, và hai anh em sinh ra hiềm khích.
+**6.** Có điều, hai anh em không ở yên với nhau được lâu. Người anh là Thiên Sách Vương nắm hết việc lớn, còn người em dù cũng là vua thì dần bị gạt ra ngoài. Từ đó hai anh em sinh ra nghi kỵ nhau.
 
-**7.** Cùng lúc ấy, ở Hoa Lư có Đinh Bộ Lĩnh. Ông cậy vào địa thế hiểm trở, không chịu làm bề tôi nhà Ngô.
+**7.** Cùng lúc ấy, ở Hoa Lư có một người tên là Đinh Bộ Lĩnh. Ông dựa vào núi non hiểm trở quanh mình mà không chịu nghe lệnh nhà Ngô.
 
 **8.** Hoa Lư bốn mặt đều có núi đá dựng đứng như bức vách, bên trong chỉ có một chỗ hơi bằng phẳng. Nhìn địa thế ấy, cũng dễ hiểu vì sao Đinh Bộ Lĩnh dám không chịu hàng.
 
-**9.** Hai vua nhà Ngô muốn đem quân đi đánh. Đinh Bộ Lĩnh sợ, nên sai con trai là Đinh Liễn vào triều làm con tin, hy vọng ngăn được cuộc xuất quân. Chuyện xảy ra vào khoảng năm 951.
+**9.** Hai vua nhà Ngô muốn đem quân đi đánh. Đinh Bộ Lĩnh sợ, nên sai con trai là Đinh Liễn vào triều làm con tin, mong hai vua thôi đem quân đến. Chuyện xảy ra vào khoảng năm 951.
 
-**10.** Nhưng Đinh Liễn vừa đến, hai vua nhà Ngô đã trách Đinh Bộ Lĩnh không chịu vào chầu. Rồi họ giữ Đinh Liễn lại, mang theo khi kéo quân đánh Hoa Lư.
+**10.** Nhưng Đinh Liễn vừa đến, hai vua nhà Ngô đã trách Đinh Bộ Lĩnh không chịu tự mình vào triều. Rồi họ giữ Đinh Liễn lại, mang theo khi kéo quân đánh Hoa Lư.
 
 **11.** Hơn một tháng trôi qua, quân nhà Ngô vẫn không hạ nổi nơi ấy.
 
 **12.** Họ bèn treo Đinh Liễn lên ngọn sào, rồi sai người báo cho Đinh Bộ Lĩnh rằng nếu không chịu hàng thì con ông sẽ bị giết.
 
-**13.** Đinh Bộ Lĩnh tức giận. Ông nói rằng bậc đại trượng phu chỉ mong lập công danh, đâu có xót con như đàn bà. Rồi ông sai hơn mười người cầm nỏ nhắm vào con mình mà bắn.
+**13.** Đinh Bộ Lĩnh tức giận. Ông nói rằng người làm việc lớn chỉ mong lập nên sự nghiệp, đâu có xót con như đàn bà. Rồi ông sai hơn mười người cầm nỏ nhắm vào con mình mà bắn.
 
 **14.** Hai vua nhà Ngô kinh sợ. Họ nói rằng người cha tàn nhẫn đến thế thì treo con người ấy lên làm gì nữa. Họ không giết Đinh Liễn mà đem quân về.
 
 **15.** Đinh Bộ Lĩnh nói và làm như vậy vì đâu, đến nay không ai biết chắc. Chỉ biết hai vua nhà Ngô cùng kéo đến mà không hạ nổi một thung lũng núi đá. Hãy nhớ người con trên ngọn sào ấy, vì ông sẽ còn xuất hiện.
 
-**16.** Ít năm sau, Thiên Sách Vương Ngô Xương Ngập mất, và Nam Tấn Vương Ngô Xương Văn giữ ngôi một mình.
+**16.** Ít năm sau, Thiên Sách Vương Ngô Xương Ngập mất, chỉ còn Nam Tấn Vương Ngô Xương Văn làm vua.
 
 **17.** Năm 965, Nam Tấn Vương đem quân đi đánh hai thôn Đường và Nguyễn ở Thái Bình. Quân vừa đỗ thuyền lên bộ thì gặp phục binh cầm nỏ, và ông bị bắn chết.
 
-**18.** Hai thôn ấy không xa lạ gì với Nam Tấn Vương. Mười lăm năm trước, chính Dương Tam Kha đã sai ông đến đánh hai thôn này, và giữa đường ông quay quân lật đổ Dương Tam Kha. Sử gia Ngô Sĩ Liên tiếc rằng lần này ông tham việc đánh dẹp, rốt cuộc tự giết mình.
+**18.** Hai thôn ấy không xa lạ gì với Nam Tấn Vương. Mười lăm năm trước, chính Dương Tam Kha đã sai ông đến đánh hai thôn này, và giữa đường ông quay quân lật đổ Dương Tam Kha. Sử gia Ngô Sĩ Liên tiếc rằng lần này ông ham đánh dẹp, để rồi tự chuốc lấy cái chết.
 
 **19.** Cũng năm ấy, Đinh Liễn trở về Hoa Lư. Những năm trước đó ông ở đâu, không ai rõ.
 
@@ -104,21 +126,21 @@ Số đoạn của bản 2 lệch đi một từ đoạn 10 (đoạn 10 cũ gộ
 
 **22.** Vùng Phong Châu có một người giữ, vùng Đường Lâm có một người, vùng Đỗ Động Giang cũng vậy. Còn Trần Lãm thì giữ Bố Hải Khẩu.
 
-**23.** Trong nước không có chủ. Mười hai người tranh nhau làm trưởng, và không ai chịu nghe ai.
+**23.** Trong nước không có vua. Mười hai người tranh nhau làm người đứng đầu, và không ai chịu nghe ai.
 
 **24.** Có một chỗ sử không khớp nhau. Toàn thư xếp loạn sứ quân ngay sau khi nhà Ngô mất vua. Nhưng Cương mục chép các sứ quân nổi lên trước sau, không cùng lúc, còn Đinh Bộ Lĩnh thì đã đứng vững ở Hoa Lư từ trước đó. Ông làm gì trong chừng ấy năm, sử không ghi.
 
-**25.** Năm 967, Đinh Bộ Lĩnh cùng con là Đinh Liễn đến nương nhờ Trần Lãm, vì nghe tiếng Trần Lãm là người có đức mà chưa có con nối.
+**25.** Năm 967, Đinh Bộ Lĩnh cùng con là Đinh Liễn đến nương nhờ Trần Lãm, vì nghe nói Trần Lãm là người hiền đức mà lại không có con trai nối nghiệp.
 
-**26.** Trần Lãm thấy Đinh Bộ Lĩnh dáng mạo khôi ngô, lại có khí lượng, nên nuôi làm con và giao cho coi quân. Từ đó, người giữ một thung lũng đã cầm trong tay quân của một sứ quân.
+**26.** Trần Lãm thấy Đinh Bộ Lĩnh trông khác người, tính lại rộng rãi, nên nhận làm con nuôi rồi giao cho cầm quân. Thế là từ chỗ chỉ giữ một thung lũng, Đinh Bộ Lĩnh có trong tay quân của cả một sứ quân.
 
-**27.** Đinh Bộ Lĩnh được sai đi đánh các hùng trưởng khác, và trận nào cũng thắng. Một sứ quân khác là Phạm Bạch Hổ ở Đằng Châu cũng đem quân về hàng.
+**27.** Đinh Bộ Lĩnh được sai đi đánh các hùng trưởng khác, và trận nào cũng thắng. Một sứ quân khác là Phạm Bạch Hổ ở Đằng Châu cũng tự đem quân đến xin hàng.
 
 **28.** Trần Lãm mất. Đúng lúc ấy, hơn năm trăm con em họ Ngô ở vùng Đỗ Động Giang đem quân đến đánh. Họ mới vào đến đất Ô Man thì bị người trong làng đánh bại, phải quay về.
 
-**29.** Nghe tin, Đinh Bộ Lĩnh cất quân đánh vùng sông và động ấy, và không bộ lạc nào không hàng phục. Nhà Ngô mất.
+**29.** Nghe tin, Đinh Bộ Lĩnh đánh thẳng vào vùng Đỗ Động Giang, và mọi nơi ở đó đều xin hàng. Nhà Ngô đến đây thì chấm dứt.
 
-**30.** Sử gia Lê Văn Hưu, người thời nhà Trần, viết rằng Đinh Bộ Lĩnh chỉ một phen cất quân mà mười hai sứ quân đều phục. Thế nhưng không có trận nào đánh từng sứ quân được chép lại.
+**30.** Sử gia Lê Văn Hưu, người thời nhà Trần, viết rằng Đinh Bộ Lĩnh chỉ ra quân một lần là mười hai sứ quân đều phục. Thế nhưng không có trận nào đánh từng sứ quân được chép lại.
 
 **31.** Những gì chắc chắn chỉ là ba việc. Đinh Bộ Lĩnh nắm được quân của một sứ quân nhờ được nhận làm con. Một sứ quân khác đem quân về hàng. Và một đạo quân họ Ngô đã thua một người trong làng trước khi ông ra tay. Nhìn vào đó, có thể hiểu quyền thống nhất đến từ một đội quân nhận được đúng lúc và những đối thủ đã yếu dần, hơn là từ một trận lớn.
 
@@ -126,9 +148,9 @@ Số đoạn của bản 2 lệch đi một từ đoạn 10 (đoạn 10 cũ gộ
 
 **33.** Theo Toàn thư, năm 968, Đinh Bộ Lĩnh lên ngôi hoàng đế, đặt tên nước là Đại Cồ Việt.
 
-**34.** Ông từng chọn được một chỗ đất đẹp ở Đàm thôn, nhưng đất ấy chật hẹp, lại không có lợi cho việc đặt thế hiểm. Vì thế ông vẫn đóng đô ở Hoa Lư. Ở đó ông đắp thành và đào hào, rồi xây cung điện và đặt triều nghi.
+**34.** Ông từng chọn được một chỗ đất đẹp ở Đàm thôn, nhưng đất ấy chật, lại khó phòng giữ. Vì thế ông vẫn đóng đô ở Hoa Lư. Ở đó ông đắp thành và đào hào, rồi xây cung điện và đặt ra lễ nghi trong triều.
 
-**35.** Lý do ông không dời đi được ghi rõ, là Đàm thôn không đủ hiểm. Còn Hoa Lư, nay thuộc tỉnh Ninh Bình, thì hai vua nhà Ngô đã kéo quân đến mà không hạ nổi.
+**35.** Còn Hoa Lư, nay thuộc tỉnh Ninh Bình, là nơi hai vua nhà Ngô từng kéo quân đến mà không hạ nổi. Thung lũng đã che chở ông năm xưa, nay thành kinh đô của cả nước.
 
 **36.** Lê Văn Hưu tóm cả cuộc dẹp loạn trong một câu. Nhưng đường đi từ ngọn sào đến ngai vàng dài hơn mười năm, và phần lớn trong đó, sử không ghi.
 
@@ -143,7 +165,7 @@ Số đoạn của bản 2 lệch đi một từ đoạn 10 (đoạn 10 cũ gộ
 | 24 | Toàn thư và Cương mục xếp thứ tự khác nhau, Đinh Bộ Lĩnh đứng vững từ trước | Toàn thư (loạn sứ quân sau 965); Cương mục 951 và 966 ("trước sau") | Nói thẳng chỗ lệch và "sử không ghi" |
 | 31 | Quyền thống nhất đến từ đội quân nhận đúng lúc và đối thủ yếu dần, hơn là một trận lớn | Đoạn 25–29 (Toàn thư: nuôi làm con, Phạm Bạch Hổ hàng, quân họ Ngô thua ở Ô Man) | "có thể hiểu"; trước đó nói rõ ba việc chắc chắn |
 | 32 | Người con từng bị treo trên sào nay đã ra trận cùng cha | Tống sử q.488; Toàn thư 967 (Đinh Liễn cùng đến nương Trần Lãm) | Chỉ đặt hai việc cạnh nhau |
-| 35 | Hoa Lư là nơi hai vua không hạ nổi và là nơi ông giữ làm đô | Toàn thư 968 (Đàm thôn chật, không có lợi về việc đặt hiểm); đoạn 10–14 | Chỉ nói lý do được ghi (Đàm thôn không đủ hiểm) |
+| 35 | Thung lũng che chở ông năm xưa nay thành kinh đô | Toàn thư 968 (Đàm thôn chật, không có lợi về việc đặt hiểm, nên vẫn đóng đô ở Hoa Lư); đoạn 10–14 | Không nói ông chọn Hoa Lư vì cây sào; lý do sử ghi nằm ở đoạn 34 |
 | 36 | Một câu tóm, nhưng đường thật dài hơn mười năm | Cương mục 951 đến Toàn thư 968; lời bàn Lê Văn Hưu | "phần lớn trong đó, sử không ghi" |
 
 ### Nguồn đã đọc

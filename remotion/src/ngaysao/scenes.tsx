@@ -165,7 +165,7 @@ const P11: Panel = ({f}) => {
       <ellipse cx={640} cy={860} rx={260} ry={150} fill="none" stroke={C.cream} strokeWidth={3} strokeDasharray="10 8" opacity={0.7} />
       <Sun x={640} y={860} r={44} f={f} />
       <Earth x={ex} y={ey} r={46} rot={f * 8} />
-      <Tag x={640} y={1090} color={C.cream} size={38} o={sp(f, 10, 24)}>quay quanh mình + đi vòng quanh Mặt Trời</Tag>
+      <Tag x={640} y={1090} color={C.cream} size={38} o={sp(f, 10, 24)}>quay quanh mình và quanh Mặt Trời</Tag>
       <Hero2 f={f} />
     </g>
   );
@@ -210,9 +210,9 @@ const P16: Panel = ({f}) => (
   <g>
     <Head a="Trái Đất cũng vậy" />
     <Clock x={430} y={820} r={70} hr={0} mn={f * 6} />
-    <Tag x={760} y={830} color={C.cream} size={42} o={sp(f, 4, 18)}>vòng quay như kim phút</Tag>
+    <Tag x={790} y={830} color={C.cream} size={40} o={sp(f, 4, 18)}>vòng quay như kim phút</Tag>
     <Sun x={430} y={1030} r={44} f={f} />
-    <Tag x={760} y={1040} color={C.cream} size={42} o={sp(f, 18, 32)}>hướng Mặt Trời như kim giờ</Tag>
+    <Tag x={790} y={1040} color={C.cream} size={40} o={sp(f, 18, 32)}>hướng Mặt Trời: kim giờ</Tag>
     <Hero2 f={f} />
   </g>
 );
@@ -246,7 +246,7 @@ const P18: Panel = ({f}) => (
 const P19: Panel = ({f}) => (
   <g>
     <Head a="Một vòng tròn" />
-    <circle cx={CX + 100} cy={850} r={150} fill="none" stroke={C.cream} strokeWidth={8} />
+    <circle cx={CX + 100} cy={850} r={200} fill="none" stroke={C.cream} strokeWidth={8} />
     <Big x={CX + 100} y={890} size={110} color={AM} o={sp(f, 4, 20)}>360 độ</Big>
     <Hero2 f={f} />
   </g>
@@ -278,7 +278,7 @@ const P22: Panel = ({f}) => (
 const P23: Panel = ({f}) => (
   <g>
     <Head a="Chia cho 360 độ" />
-    <Calc f={f} x={CX + 100} y={780} step={150} lines={[{t: '1.440 ÷ 360', at: 2, size: 130}, {t: '= 4 phút mỗi độ', at: 22, size: 110, color: AM}]} />
+    <Calc f={f} x={CX + 100} y={780} step={150} lines={[{t: '1.440 ÷ 360', at: 2, size: 130}, {t: '= 4 phút mỗi độ', at: 22, size: 96, color: AM}]} />
     <Hero2 f={f} />
   </g>
 );

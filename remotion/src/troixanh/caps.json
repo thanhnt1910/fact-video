@@ -1,0 +1,563 @@
+[
+ [
+  {
+   "text": "Ánh sáng Mặt",
+   "start": 0.47,
+   "end": 1.222
+  },
+  {
+   "text": "Trời màu *trắng*,",
+   "start": 1.222,
+   "end": 1.975
+  },
+  {
+   "text": "vậy sao bầu trời",
+   "start": 1.975,
+   "end": 3.298
+  },
+  {
+   "text": "lại *màu* *xanh*?",
+   "start": 3.298,
+   "end": 4.17
+  }
+ ],
+ [
+  {
+   "text": "Nhưng chiều tối,",
+   "start": 0.35,
+   "end": 1.169
+  },
+  {
+   "text": "cùng bầu trời ấy",
+   "start": 1.169,
+   "end": 2.561
+  },
+  {
+   "text": "lại *đỏ* *rực*.",
+   "start": 2.561,
+   "end": 3.5
+  }
+ ],
+ [
+  {
+   "text": "Cả hai chuyện đều",
+   "start": 0.41,
+   "end": 1.505
+  },
+  {
+   "text": "do *một* *quy* *luật*",
+   "start": 1.505,
+   "end": 2.689
+  },
+  {
+   "text": "có *số* *4*.",
+   "start": 2.689,
+   "end": 3.63
+  }
+ ],
+ [
+  {
+   "text": "Trước hết,",
+   "start": 0.32,
+   "end": 1.12
+  },
+  {
+   "text": "ánh sáng trắng là",
+   "start": 1.12,
+   "end": 2.08
+  },
+  {
+   "text": "*hỗn* *hợp* *nhiều* *màu*,",
+   "start": 2.08,
+   "end": 3.48
+  },
+  {
+   "text": "từ *đỏ* *đến* *tím*,",
+   "start": 3.48,
+   "end": 4.62
+  },
+  {
+   "text": "như cầu vồng.",
+   "start": 4.62,
+   "end": 5.46
+  }
+ ],
+ [
+  {
+   "text": "Và mỗi màu có",
+   "start": 0.42,
+   "end": 1.354
+  },
+  {
+   "text": "một *bước* *sóng*,",
+   "start": 1.354,
+   "end": 2.355
+  },
+  {
+   "text": "tức *độ* *dài* *một*",
+   "start": 2.355,
+   "end": 3.289
+  },
+  {
+   "text": "*sóng* *ánh* *sáng*.",
+   "start": 3.289,
+   "end": 4.11
+  }
+ ],
+ [
+  {
+   "text": "Đỏ *sóng* *dài*",
+   "start": 0.43,
+   "end": 1.188
+  },
+  {
+   "text": "khoảng *700* *nm*,",
+   "start": 1.188,
+   "end": 3.305
+  },
+  {
+   "text": "tím *sóng* *ngắn*",
+   "start": 3.305,
+   "end": 4.182
+  },
+  {
+   "text": "khoảng *400* *nm*.",
+   "start": 4.182,
+   "end": 6.24
+  }
+ ],
+ [
+  {
+   "text": "Còn không khí",
+   "start": 0.32,
+   "end": 1.169
+  },
+  {
+   "text": "gồm vô số *phân*",
+   "start": 1.169,
+   "end": 2.302
+  },
+  {
+   "text": "*tử* *nhỏ* *xíu*,",
+   "start": 2.302,
+   "end": 3.151
+  },
+  {
+   "text": "*nhỏ* *hơn* *bước*",
+   "start": 3.151,
+   "end": 4.001
+  },
+  {
+   "text": "*sóng* ánh sáng.",
+   "start": 4.001,
+   "end": 4.97
+  }
+ ],
+ [
+  {
+   "text": "Ánh sáng đi",
+   "start": 0.36,
+   "end": 1.251
+  },
+  {
+   "text": "qua bị bắn",
+   "start": 1.251,
+   "end": 2.302
+  },
+  {
+   "text": "ra *mọi* *hướng*,",
+   "start": 2.302,
+   "end": 3.192
+  },
+  {
+   "text": "gọi là *tán* *xạ*.",
+   "start": 3.192,
+   "end": 4.81
+  }
+ ],
+ [
+  {
+   "text": "Nên phần bị",
+   "start": 0.34,
+   "end": 1.152
+  },
+  {
+   "text": "bắn vào mắt,",
+   "start": 1.152,
+   "end": 1.965
+  },
+  {
+   "text": "ta thấy nó *ở*",
+   "start": 1.965,
+   "end": 3.328
+  },
+  {
+   "text": "*khắp* *bầu* *trời*.",
+   "start": 3.328,
+   "end": 4.26
+  }
+ ],
+ [
+  {
+   "text": "Màu *sóng* *ngắn*",
+   "start": 0.41,
+   "end": 1.169
+  },
+  {
+   "text": "bị bắn *mạnh* *hơn*",
+   "start": 1.169,
+   "end": 2.18
+  },
+  {
+   "text": "màu sóng dài,",
+   "start": 2.18,
+   "end": 3.239
+  },
+  {
+   "text": "mức chênh *rất* *lớn*.",
+   "start": 3.239,
+   "end": 4.37
+  }
+ ],
+ [
+  {
+   "text": "Năm *1859*,",
+   "start": 0.37,
+   "end": 2.382
+  },
+  {
+   "text": "*John* *Tyndall* bước những",
+   "start": 2.382,
+   "end": 3.49
+  },
+  {
+   "text": "bước đầu giải thích",
+   "start": 3.49,
+   "end": 4.376
+  },
+  {
+   "text": "*màu* *bầu* *trời*.",
+   "start": 4.376,
+   "end": 5.16
+  }
+ ],
+ [
+  {
+   "text": "Rồi vài năm sau,",
+   "start": 0.28,
+   "end": 1.282
+  },
+  {
+   "text": "huân tước *Rayleigh* nghiên",
+   "start": 1.282,
+   "end": 2.905
+  },
+  {
+   "text": "cứu chi tiết hơn,",
+   "start": 2.905,
+   "end": 3.908
+  },
+  {
+   "text": "tìm ra *quy* *luật*.",
+   "start": 3.908,
+   "end": 5.39
+  }
+ ],
+ [
+  {
+   "text": "Ánh sáng bị bắn",
+   "start": 0.41,
+   "end": 1.782
+  },
+  {
+   "text": "*tỉ* *lệ* *nghịch* với",
+   "start": 1.782,
+   "end": 2.835
+  },
+  {
+   "text": "*bước* *sóng* *nhân* *với*",
+   "start": 2.835,
+   "end": 3.887
+  },
+  {
+   "text": "*chính* *nó* *4* *lần*.",
+   "start": 3.887,
+   "end": 5.06
+  }
+ ],
+ [
+  {
+   "text": "Bước sóng ngắn",
+   "start": 0.42,
+   "end": 1.388
+  },
+  {
+   "text": "đi *một* *nửa*,",
+   "start": 1.388,
+   "end": 2.196
+  },
+  {
+   "text": "bị bắn *mạnh*",
+   "start": 2.196,
+   "end": 3.244
+  },
+  {
+   "text": "*gấp* *16* *lần*.",
+   "start": 3.244,
+   "end": 4.94
+  }
+ ],
+ [
+  {
+   "text": "So *tím* với *đỏ*:",
+   "start": 0.29,
+   "end": 1.075
+  },
+  {
+   "text": "lấy *700* *÷* *400*.",
+   "start": 1.075,
+   "end": 4.03
+  }
+ ],
+ [
+  {
+   "text": "Từ đó ra *1,75*.",
+   "start": 0.51,
+   "end": 2.28
+  }
+ ],
+ [
+  {
+   "text": "Nhân *1,75*",
+   "start": 0.42,
+   "end": 1.629
+  },
+  {
+   "text": "với chính nó,",
+   "start": 1.629,
+   "end": 2.418
+  },
+  {
+   "text": "ra khoảng *3,06*.",
+   "start": 2.418,
+   "end": 3.92
+  }
+ ],
+ [
+  {
+   "text": "Rồi nhân số",
+   "start": 0.34,
+   "end": 0.92
+  },
+  {
+   "text": "đó với chính",
+   "start": 0.92,
+   "end": 1.5
+  },
+  {
+   "text": "nó *lần* *nữa*,",
+   "start": 1.5,
+   "end": 2.08
+  },
+  {
+   "text": "ra khoảng *9,4*.",
+   "start": 2.08,
+   "end": 3.6
+  }
+ ],
+ [
+  {
+   "text": "Vậy *tím* bị",
+   "start": 0.27,
+   "end": 0.968
+  },
+  {
+   "text": "bắn mạnh *gần* *gấp*",
+   "start": 0.968,
+   "end": 1.898
+  },
+  {
+   "text": "*10* *lần* đỏ.",
+   "start": 1.898,
+   "end": 3.18
+  }
+ ],
+ [
+  {
+   "text": "Vậy sao bầu trời",
+   "start": 0.43,
+   "end": 1.499
+  },
+  {
+   "text": "*không* *màu* *tím*?",
+   "start": 1.499,
+   "end": 2.42
+  }
+ ],
+ [
+  {
+   "text": "Vì Mặt Trời có",
+   "start": 0.39,
+   "end": 1.489
+  },
+  {
+   "text": "*ít* *tím* *hơn* *xanh*,",
+   "start": 1.489,
+   "end": 2.587
+  },
+  {
+   "text": "và mắt ta *kém*",
+   "start": 2.587,
+   "end": 4.136
+  },
+  {
+   "text": "*nhạy* *với* *tím*.",
+   "start": 4.136,
+   "end": 5.08
+  }
+ ],
+ [
+  {
+   "text": "Cộng lại,",
+   "start": 0.31,
+   "end": 1.077
+  },
+  {
+   "text": "*màu* *xanh* *thắng*,",
+   "start": 1.077,
+   "end": 2.107
+  },
+  {
+   "text": "nên bầu trời *xanh*.",
+   "start": 2.107,
+   "end": 3.32
+  }
+ ],
+ [
+  {
+   "text": "Lúc *hoàng* *hôn*,",
+   "start": 0.42,
+   "end": 1.439
+  },
+  {
+   "text": "Mặt Trời nằm *thấp*",
+   "start": 1.439,
+   "end": 2.451
+  },
+  {
+   "text": "*sát* *chân* *trời*.",
+   "start": 2.451,
+   "end": 3.33
+  }
+ ],
+ [
+  {
+   "text": "Vì thế ánh",
+   "start": 0.45,
+   "end": 1.272
+  },
+  {
+   "text": "sáng đi qua",
+   "start": 1.272,
+   "end": 2.093
+  },
+  {
+   "text": "lớp không khí *dày*",
+   "start": 2.093,
+   "end": 3.188
+  },
+  {
+   "text": "*hơn* *rất* *nhiều*.",
+   "start": 3.188,
+   "end": 4.13
+  }
+ ],
+ [
+  {
+   "text": "Nên trên đường đi,",
+   "start": 0.36,
+   "end": 1.712
+  },
+  {
+   "text": "*màu* *xanh* bị bắn",
+   "start": 1.712,
+   "end": 2.814
+  },
+  {
+   "text": "ra *gần* *hết*.",
+   "start": 2.814,
+   "end": 3.76
+  }
+ ],
+ [
+  {
+   "text": "Cuối cùng",
+   "start": 0.46,
+   "end": 1.102
+  },
+  {
+   "text": "chỉ còn *đỏ*,",
+   "start": 1.102,
+   "end": 2.14
+  },
+  {
+   "text": "*cam*,",
+   "start": 2.14,
+   "end": 2.416
+  },
+  {
+   "text": "*vàng* tới mắt ta.",
+   "start": 2.416,
+   "end": 3.74
+  }
+ ],
+ [
+  {
+   "text": "Mây *trắng* vì giọt",
+   "start": 0.33,
+   "end": 1.605
+  },
+  {
+   "text": "nước *rất* *lớn*,",
+   "start": 1.605,
+   "end": 2.653
+  },
+  {
+   "text": "bắn *mọi* *màu*",
+   "start": 2.653,
+   "end": 3.452
+  },
+  {
+   "text": "gần đều nhau.",
+   "start": 3.452,
+   "end": 4.37
+  }
+ ],
+ [
+  {
+   "text": "Bầu trời *xanh*,",
+   "start": 0.26,
+   "end": 1.205
+  },
+  {
+   "text": "hoàng hôn *đỏ*:",
+   "start": 1.205,
+   "end": 2.4
+  },
+  {
+   "text": "cùng *một* *quy* *luật*,",
+   "start": 2.4,
+   "end": 4.21
+  },
+  {
+   "text": "*sóng* *ngắn* bị",
+   "start": 4.21,
+   "end": 5.155
+  },
+  {
+   "text": "bắn nhiều hơn.",
+   "start": 5.155,
+   "end": 6.22
+  }
+ ]
+]

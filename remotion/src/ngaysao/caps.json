@@ -1,0 +1,626 @@
+[
+ [
+  {
+   "text": "Trái Đất quay",
+   "start": 0.43,
+   "end": 1.058
+  },
+  {
+   "text": "*đúng* *một* *vòng*",
+   "start": 1.058,
+   "end": 1.686
+  },
+  {
+   "text": "mất bao lâu,",
+   "start": 1.686,
+   "end": 2.314
+  },
+  {
+   "text": "có phải",
+   "start": 2.314,
+   "end": 3.133
+  },
+  {
+   "text": "*24* *giờ* không?",
+   "start": 3.133,
+   "end": 4.3
+  }
+ ],
+ [
+  {
+   "text": "Nhưng thật ra,",
+   "start": 0.36,
+   "end": 1.362
+  },
+  {
+   "text": "nó quay xong *sớm*",
+   "start": 1.362,
+   "end": 2.551
+  },
+  {
+   "text": "*hơn* *khoảng* *4* *phút*.",
+   "start": 2.551,
+   "end": 3.86
+  }
+ ],
+ [
+  {
+   "text": "*4* *phút* ấy",
+   "start": 0.46,
+   "end": 1.262
+  },
+  {
+   "text": "từ đâu ra,",
+   "start": 1.262,
+   "end": 2.415
+  },
+  {
+   "text": "và vì sao",
+   "start": 2.415,
+   "end": 3.218
+  },
+  {
+   "text": "*ngày* *dài* *hơn*?",
+   "start": 3.218,
+   "end": 4.14
+  }
+ ],
+ [
+  {
+   "text": "Có *hai* *cách*",
+   "start": 0.55,
+   "end": 1.36
+  },
+  {
+   "text": "*đo* một ngày,",
+   "start": 1.36,
+   "end": 2.51
+  },
+  {
+   "text": "cách đầu là",
+   "start": 2.51,
+   "end": 3.32
+  },
+  {
+   "text": "*nhìn* *Mặt* *Trời*.",
+   "start": 3.32,
+   "end": 4.34
+  }
+ ],
+ [
+  {
+   "text": "Đo từ lúc",
+   "start": 0.53,
+   "end": 1.316
+  },
+  {
+   "text": "Mặt Trời *giữa*",
+   "start": 1.316,
+   "end": 2.103
+  },
+  {
+   "text": "*trời* hôm nay,",
+   "start": 2.103,
+   "end": 3.279
+  },
+  {
+   "text": "tới *giữa*",
+   "start": 3.279,
+   "end": 3.804
+  },
+  {
+   "text": "*trời* hôm sau.",
+   "start": 3.804,
+   "end": 4.71
+  }
+ ],
+ [
+  {
+   "text": "Trung bình *24* *giờ*,",
+   "start": 0.42,
+   "end": 1.868
+  },
+  {
+   "text": "và đồng hồ",
+   "start": 1.868,
+   "end": 2.702
+  },
+  {
+   "text": "của ta dùng",
+   "start": 2.702,
+   "end": 3.426
+  },
+  {
+   "text": "*con* *số* *này*.",
+   "start": 3.426,
+   "end": 4.27
+  }
+ ],
+ [
+  {
+   "text": "Cách hai:",
+   "start": 0.4,
+   "end": 0.945
+  },
+  {
+   "text": "nhìn *một* *ngôi*",
+   "start": 0.945,
+   "end": 2.012
+  },
+  {
+   "text": "*sao* *rất* *xa*.",
+   "start": 2.012,
+   "end": 2.95
+  }
+ ],
+ [
+  {
+   "text": "Rồi đo tới",
+   "start": 0.31,
+   "end": 1.294
+  },
+  {
+   "text": "lúc nó *trở* *lại*",
+   "start": 1.294,
+   "end": 2.956
+  },
+  {
+   "text": "*đúng* *chỗ* *cũ*.",
+   "start": 2.956,
+   "end": 4.06
+  }
+ ],
+ [
+  {
+   "text": "Sao rất xa nên",
+   "start": 0.39,
+   "end": 1.513
+  },
+  {
+   "text": "hướng *không* *đổi*,",
+   "start": 1.513,
+   "end": 2.355
+  },
+  {
+   "text": "và đó là *một*",
+   "start": 2.355,
+   "end": 3.828
+  },
+  {
+   "text": "*vòng* *quay* *thật*.",
+   "start": 3.828,
+   "end": 4.79
+  }
+ ],
+ [
+  {
+   "text": "Kết quả là khoảng",
+   "start": 0.41,
+   "end": 1.283
+  },
+  {
+   "text": "*23* *giờ* *56* *phút*.",
+   "start": 1.283,
+   "end": 3.15
+  }
+ ],
+ [
+  {
+   "text": "Vậy hai cách",
+   "start": 0.42,
+   "end": 1.217
+  },
+  {
+   "text": "đo lệch nhau",
+   "start": 1.217,
+   "end": 2.013
+  },
+  {
+   "text": "khoảng *4* *phút*.",
+   "start": 2.013,
+   "end": 3.05
+  }
+ ],
+ [
+  {
+   "text": "Vì Trái Đất không",
+   "start": 0.36,
+   "end": 1.395
+  },
+  {
+   "text": "chỉ *quay* *quanh* *mình*,",
+   "start": 1.395,
+   "end": 2.429
+  },
+  {
+   "text": "mà còn *đi* *vòng*",
+   "start": 2.429,
+   "end": 3.464
+  },
+  {
+   "text": "*quanh* *Mặt* *Trời*.",
+   "start": 3.464,
+   "end": 4.36
+  }
+ ],
+ [
+  {
+   "text": "Ví dụ *đồng* *hồ*:",
+   "start": 0.41,
+   "end": 1.375
+  },
+  {
+   "text": "*kim* *giờ* và",
+   "start": 1.375,
+   "end": 2.519
+  },
+  {
+   "text": "*kim* *phút* gặp nhau",
+   "start": 2.519,
+   "end": 3.484
+  },
+  {
+   "text": "lúc *12* *giờ*.",
+   "start": 3.484,
+   "end": 4.97
+  }
+ ],
+ [
+  {
+   "text": "Kim phút đi hết",
+   "start": 0.46,
+   "end": 1.448
+  },
+  {
+   "text": "*1* *vòng* *60* *phút*,",
+   "start": 1.448,
+   "end": 3.279
+  },
+  {
+   "text": "nhưng *kim* *giờ*",
+   "start": 3.279,
+   "end": 4.019
+  },
+  {
+   "text": "*đã* *nhích* *đi*.",
+   "start": 4.019,
+   "end": 4.97
+  }
+ ],
+ [
+  {
+   "text": "Nên kim phút",
+   "start": 0.39,
+   "end": 1.112
+  },
+  {
+   "text": "phải *đi* *thêm*",
+   "start": 1.112,
+   "end": 1.835
+  },
+  {
+   "text": "*một* *đoạn* mới *đuổi*",
+   "start": 1.835,
+   "end": 2.958
+  },
+  {
+   "text": "*kịp* kim giờ.",
+   "start": 2.958,
+   "end": 3.8
+  }
+ ],
+ [
+  {
+   "text": "Hai kim gặp lại",
+   "start": 0.47,
+   "end": 1.342
+  },
+  {
+   "text": "sau khoảng *65,5* *phút*,",
+   "start": 1.342,
+   "end": 3.303
+  },
+  {
+   "text": "không phải *60* *phút*.",
+   "start": 3.303,
+   "end": 5.02
+  }
+ ],
+ [
+  {
+   "text": "Trái Đất cũng vậy:",
+   "start": 0.17,
+   "end": 1.845
+  },
+  {
+   "text": "*vòng* *quay*",
+   "start": 1.845,
+   "end": 2.382
+  },
+  {
+   "text": "như kim phút,",
+   "start": 2.382,
+   "end": 3.489
+  },
+  {
+   "text": "*hướng* *tới* *Mặt* *Trời*",
+   "start": 3.489,
+   "end": 4.774
+  },
+  {
+   "text": "như kim giờ.",
+   "start": 4.774,
+   "end": 5.7
+  }
+ ],
+ [
+  {
+   "text": "Mỗi ngày đi một",
+   "start": 0.47,
+   "end": 1.802
+  },
+  {
+   "text": "đoạn trên quỹ đạo,",
+   "start": 1.802,
+   "end": 2.805
+  },
+  {
+   "text": "hướng tới Mặt Trời",
+   "start": 2.805,
+   "end": 4.058
+  },
+  {
+   "text": "*dịch* *khoảng* *1* *độ*.",
+   "start": 4.058,
+   "end": 5.18
+  }
+ ],
+ [
+  {
+   "text": "Một vòng quanh Mặt",
+   "start": 0.39,
+   "end": 1.837
+  },
+  {
+   "text": "Trời dài *365* *ngày*.",
+   "start": 1.837,
+   "end": 4.13
+  }
+ ],
+ [
+  {
+   "text": "Còn một vòng tròn",
+   "start": 0.54,
+   "end": 1.293
+  },
+  {
+   "text": "có *360* *độ*.",
+   "start": 1.293,
+   "end": 2.84
+  }
+ ],
+ [
+  {
+   "text": "*360* *÷* *365*",
+   "start": 0.58,
+   "end": 3.232
+  },
+  {
+   "text": "ra gần *1*",
+   "start": 3.232,
+   "end": 3.846
+  },
+  {
+   "text": "*độ* mỗi ngày.",
+   "start": 3.846,
+   "end": 4.58
+  }
+ ],
+ [
+  {
+   "text": "Sau một vòng quay,",
+   "start": 0.34,
+   "end": 1.655
+  },
+  {
+   "text": "Mặt Trời *chưa*",
+   "start": 1.655,
+   "end": 2.891
+  },
+  {
+   "text": "*về* *giữa* *trời*,",
+   "start": 2.891,
+   "end": 4.218
+  },
+  {
+   "text": "phải quay thêm",
+   "start": 4.218,
+   "end": 5.204
+  },
+  {
+   "text": "*gần* *1* *độ*.",
+   "start": 5.204,
+   "end": 6.31
+  }
+ ],
+ [
+  {
+   "text": "Một ngày *24* *×*",
+   "start": 0.39,
+   "end": 1.735
+  },
+  {
+   "text": "*60* *=* *1.440* *phút*.",
+   "start": 1.735,
+   "end": 4.64
+  }
+ ],
+ [
+  {
+   "text": "*1.440* *÷* *360*",
+   "start": 0.36,
+   "end": 2.403
+  },
+  {
+   "text": "*=* *4* *phút*",
+   "start": 2.403,
+   "end": 2.832
+  },
+  {
+   "text": "cho mỗi độ.",
+   "start": 2.832,
+   "end": 3.38
+  }
+ ],
+ [
+  {
+   "text": "*Gần* *1* *độ*",
+   "start": 0.38,
+   "end": 1.124
+  },
+  {
+   "text": "*×* *4* *phút* ra",
+   "start": 1.124,
+   "end": 2.416
+  },
+  {
+   "text": "gần *4* *phút*.",
+   "start": 2.416,
+   "end": 3.28
+  }
+ ],
+ [
+  {
+   "text": "Đó là *4*",
+   "start": 0.39,
+   "end": 1.185
+  },
+  {
+   "text": "*phút* quay thêm,",
+   "start": 1.185,
+   "end": 2.19
+  },
+  {
+   "text": "nên *ngày* *Mặt* *Trời*",
+   "start": 2.19,
+   "end": 3.58
+  },
+  {
+   "text": "dài hơn *ngày* *sao*.",
+   "start": 3.58,
+   "end": 4.76
+  }
+ ],
+ [
+  {
+   "text": "Nhờ vậy,",
+   "start": 0.38,
+   "end": 1.269
+  },
+  {
+   "text": "mỗi đêm sao",
+   "start": 1.269,
+   "end": 2.183
+  },
+  {
+   "text": "mọc *sớm* *hơn*",
+   "start": 2.183,
+   "end": 3.096
+  },
+  {
+   "text": "*khoảng* *4* *phút*.",
+   "start": 3.096,
+   "end": 4.13
+  }
+ ],
+ [
+  {
+   "text": "Sau 30 đêm,",
+   "start": 0.36,
+   "end": 1.322
+  },
+  {
+   "text": "*30* *×* *4*",
+   "start": 1.322,
+   "end": 2.644
+  },
+  {
+   "text": "*=* *120* *phút*.",
+   "start": 2.644,
+   "end": 4.33
+  }
+ ],
+ [
+  {
+   "text": "Tức là nó mọc",
+   "start": 0.33,
+   "end": 1.32
+  },
+  {
+   "text": "*sớm* *hơn* *2* *tiếng*.",
+   "start": 1.32,
+   "end": 2.43
+  }
+ ],
+ [
+  {
+   "text": "Cả năm,",
+   "start": 0.49,
+   "end": 1.078
+  },
+  {
+   "text": "quay quanh mình",
+   "start": 1.078,
+   "end": 2.291
+  },
+  {
+   "text": "*nhiều* *hơn* *số* *ngày*",
+   "start": 2.291,
+   "end": 3.468
+  },
+  {
+   "text": "đúng *một* *vòng*.",
+   "start": 3.468,
+   "end": 4.56
+  }
+ ],
+ [
+  {
+   "text": "Vậy Trái Đất quay",
+   "start": 0.38,
+   "end": 1.212
+  },
+  {
+   "text": "một vòng mất khoảng",
+   "start": 1.212,
+   "end": 2.045
+  },
+  {
+   "text": "*23* *giờ* *56* *phút*.",
+   "start": 2.045,
+   "end": 3.83
+  }
+ ],
+ [
+  {
+   "text": "Còn ngày dài",
+   "start": 0.42,
+   "end": 1.189
+  },
+  {
+   "text": "hơn *4* *phút*,",
+   "start": 1.189,
+   "end": 1.959
+  },
+  {
+   "text": "vì Trái Đất còn",
+   "start": 1.959,
+   "end": 3.114
+  },
+  {
+   "text": "*đi* *quanh* *Mặt* *Trời*.",
+   "start": 3.114,
+   "end": 4.26
+  }
+ ]
+]

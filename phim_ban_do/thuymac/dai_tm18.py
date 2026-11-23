@@ -27,6 +27,20 @@ def sb(n,k): return T[n]+(E[n]-T[n])*_SC[n][min(k,len(_SC[n])-1)]
 def kc(t,keys,sh=0):
     if FREEZE: t=keys[0][0];sh=0
     cx,cy,z=cpath(t,keys);return cam(cx,cy,z,sh,sh)
+HSP=[(112.33,16.95),(112.6,16.83),(111.6,16.52),(111.75,16.45),(111.5,16.58)]
+def hsw(lon,lat): return 744+160*(lon-105.85),169.8+190.8*(21.03-lat)   # kinh vĩ độ -> tọa độ bản đồ nền map_trung
+def hs(cv,c,o=1.0):
+    """Hoàng Sa, Trường Sa trên mọi khung bản đồ có biển phía đông (quy-tac/kiem-tra-lich-su.md). Hoàng Sa nằm trọn trong khung thì chấm và nhãn tại chỗ; ngoài khung thì thẻ ở mép trái."""
+    for lon,lat in HSP:
+        x,y=hsw(lon,lat);dot(cv,c,x,y,o=.9*o,col=INK,r=4)
+    px,py=c.p(*hsw(111.75,16.6));trong=(260<px<1660 and 160<py<940)
+    if trong:
+        x,y=hsw(112.0,16.95);tag(cv,c,x,y-6,'Quần đảo Hoàng Sa (Việt Nam)',o=o,sz=26,col=RED)
+    cards=[] if trong else [('Quần đảo Hoàng Sa (Việt Nam) ở phía đông nam',400)]
+    cards.append(('Trường Sa (Việt Nam) ở phía nam',400 if not cards else 454))
+    for s,y in cards:
+        tx=text(s,24,RED,700);w=tx.shape[1]+50
+        put_screen(cv,band(w,48,PAPER,.88,12),40+w/2,y,o);put_screen(cv,tx,40+w/2,y,o)
 def mcam(t,keys):
     if FREEZE: t=keys[0][0]
     cx,cy,z=cpath(t,keys);cx=min(max(cx,960/z),1920-960/z);cy=min(max(cy,540/z),1080-540/z);return cam(cx,cy,z)
@@ -36,8 +50,8 @@ def suong(cv,c,t,y=560,o=.5,seed=0):
     for i,(sp,k,yy,s) in enumerate([(22,.5,y-120,2.2),(34,1.1,y+120,2.6)]):
         x=(300+seed*400+i*900+t*sp)%2800-400;put(cv,c,'mist',x,yy,s=s,o=o*(.8 if i else 1),k=k)
 def ngoai(cv,c,t,g=900,far=.9,midv=.85,mist=.5,seed=0):
-    put(cv,c,'t18_far',960+seed*60,g-120,ay=1,k=.35,o=far)
-    put(cv,c,'t18_mid',960-seed*40,g+30,ay=1,k=.62,o=midv)
+    put(cv,c,'t18_far',960+(seed%7-3)*60,g-120,ay=1,k=.35,o=far)
+    put(cv,c,'t18_mid',960-(seed%5-2)*40,g+30,ay=1,k=.62,o=midv)
     suong(cv,c,t,g-260,mist,seed)
 def truoc(cv,c,t,o=1):
     put(cv,c,'t18_frontL',-120,1120,ax=0,ay=1,k=1.3,s=.85,r=1.2*math.sin(t*.8),o=o)
@@ -154,6 +168,7 @@ def S_4(cv,t):
     dl,ng,th=PT['daila'],PT['hoanchau'],PT['aichau']
     c=mcam(t,[(a,(820,400,1.2)),(q,(800,480,1.1)),(b,(780,600,1.25))])
     mapbg_trung(cv,c,u=inn(t,a-.2,1.0))
+    hs(cv,c,inn(t,a,.4))
     for nm,p,t0 in (('nơi đóng của quan nhà Đường',dl,a+.6),('Ái Châu',th,a+1.2),('Hoan Châu',ng,q)):
         if t>t0: dot(cv,c,*p,o=inn(t,t0,.3),col=RED if nm=='Hoan Châu' else INK);tag(cv,c,p[0]+22,p[1]-6,nm,dy=0,sz=26)
     if t>q: pulse(cv,c,*ng,t);stroke(cv,c,[dl,th,ng],inn(t,q,1.5),wid=4,col=INK,o=.5,head=False)
@@ -234,6 +249,7 @@ def S_10(cv,t):
     ng=PT['hoanchau']
     c=mcam(t,[(a,(780,640,1.3)),(b,(820,700,1.05))])
     mapbg_trung(cv,c,u=inn(t,a-.2,1.0))
+    hs(cv,c,inn(t,a,.4))
     dot(cv,c,*ng,col=RED);tag(cv,c,ng[0]+22,ng[1]-6,'Hoan Châu',dy=0,sz=26);pulse(cv,c,*ng,t)
     for nm,p,t0 in (('Lâm Ấp',(PT['lamap'][0],880),a+.6),('Chân Lạp',(PT['chanlap'][0]+60,880),a+1.6)):
         if t>t0: tag(cv,c,p[0]+20,p[1]-6,nm,dy=0,sz=26);stroke(cv,c,[p,ng],inn(t,t0,1.2),wid=5,col=RED,o=.7)
@@ -303,6 +319,7 @@ def S_15(cv,t):
     pts=[lc,dl,th,ng]
     c=mcam(t,[(a,(1000,300,1.15)),(b,(800,560,1.1))])
     mapbg_trung(cv,c,u=inn(t,a-.2,1.0))
+    hs(cv,c,inn(t,a,.4))
     for nm,p in (('Lĩnh Nam',lc),('Hoan Châu',ng)): dot(cv,c,*p,col=RED if nm=='Hoan Châu' else INK);tag(cv,c,p[0]+22,p[1]-6,nm,dy=0,sz=26)
     def theo(u):
         seg=min(int(u*3),2);v=u*3-seg;p,q2=pts[seg],pts[seg+1];return p[0]+(q2[0]-p[0])*v,p[1]+(q2[1]-p[1])*v

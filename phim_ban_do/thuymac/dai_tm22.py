@@ -169,7 +169,7 @@ def S_2(cv,t):
     ngoai(cv,c,t,g=880,seed=2,mist=.7,far=.85,midv=.7)
     put(cv,c,'t22_frontL',1560,980,ax=.5,ay=1,k=.85,s=1.15,o=.9)
     mau(cv)
-    nv(cv,c,'t22n_dbl',1610,470,t,s=.42,o=.85*inn(t,a+.6,.8))
+    nv(cv,c,'t22n_dbl',1020,885,t,s=.5,o=.9*inn(t,a+.6,.8))   # đứng trên mặt đất cạnh chân núi (cùng lớp k=1), không đặt trên đỉnh lớp núi trôi khác tốc độ
     for i in range(3): put(cv,c,'mist',(400+i*700+t*(30+i*8))%2600-300,620+i*60,s=2.4,o=.45,k=.9)
     flock(cv,c,t,.5)
     bui(cv,t)

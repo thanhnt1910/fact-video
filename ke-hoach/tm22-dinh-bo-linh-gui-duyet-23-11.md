@@ -25,7 +25,7 @@ Theo mạch truyện `tm22-dinh-bo-linh-mach-truyen-23-11.md`, chủ kênh duy�
 ### Bảng đổi lần 2 (23/11, chủ kênh: "người bên vợ ông" nghe như ngoại tình)
 | Đoạn | Trước | Sau | Vì sao |
 |---|---|---|---|
-| 4 | Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, người bên vợ ông và cũng là gia thần của ông. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn. | Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, anh vợ của ông, cũng là bề tôi thân cận trong nhà. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn. | "người bên vợ ông" mơ hồ, nghe như quan hệ ngoài vợ chồng. Toàn thư chép Dương Tam Kha là anh của Dương hậu, vợ Ngô Quyền (có sách chép là em), nên gọi thẳng "anh vợ". "Gia thần" là chữ Hán ít người hiểu, đổi thành "bề tôi thân cận trong nhà" |
+| 4 | Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, người bên vợ ông và cũng là gia thần của ông. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn. | Ngô Quyền xưng vương nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là anh vợ của ông, Dương Tam Kha. Dương Tam Kha vốn là bề tôi thân cận trong nhà, nay cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn. | "người bên vợ ông" mơ hồ, nghe như quan hệ ngoài vợ chồng. Toàn thư chép Dương Tam Kha là anh của Dương hậu, vợ Ngô Quyền (có sách chép là em), nên gọi thẳng "anh vợ". "Gia thần" là chữ Hán ít người hiểu, đổi thành "bề tôi thân cận trong nhà". Tách câu để mỗi đoạn không quá ba dấu phẩy |
 
 ### Bảng đổi lần 1 (23/11, chủ kênh nhắc tên riêng viết tắt)
 Chủ kênh hỏi kịch bản đã tuân thủ quy tắc chưa, vì nhiều chỗ viết tắt "Bộ Lĩnh", "Liễn". Rà lại thấy hai lỗi:
@@ -66,7 +66,7 @@ Số đoạn của bản 2 lệch đi một từ đoạn 10 (đoạn 10 cũ gộ
 
 **3.** Nơi ấy là Hoa Lư. Chuyện xảy ra hơn một nghìn năm trước, ít lâu sau khi Ngô Quyền đánh thắng quân nhà Nam Hán từ phương bắc và giành lại quyền tự chủ cho nước ta.
 
-**4.** Ngô Quyền xưng vương, nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là Dương Tam Kha, anh vợ của ông, cũng là bề tôi thân cận trong nhà. Dương Tam Kha cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn.
+**4.** Ngô Quyền xưng vương nhưng chỉ ít năm sau thì mất. Người lên nắm quyền không phải con ông mà là anh vợ của ông, Dương Tam Kha. Dương Tam Kha vốn là bề tôi thân cận trong nhà, nay cướp ngôi, còn con cả của Ngô Quyền phải chạy trốn.
 
 **5.** Sau sáu năm, con thứ của Ngô Quyền là Ngô Xương Văn quay quân lật đổ Dương Tam Kha. Ông không giết người cướp ngôi mà chỉ giáng chức. Sau đó ông đón anh là Ngô Xương Ngập về cùng trông coi việc nước. Hai anh em xưng là Nam Tấn Vương và Thiên Sách Vương.
 

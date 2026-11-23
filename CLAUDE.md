@@ -57,6 +57,7 @@ Dữ kiện cứng (năm, tên, chức, số, địa danh) phải tra xong TRƯ�
 |---|---|
 | Nguyên tắc cao nhất | `quy-tac/nguyen-tac-cot-loi.md` |
 | Series, trạng thái | `quy-tac/dna-series.md` |
+| Thủy mặc: chủ đề đã làm và hàng đợi theo năm | `ke-hoach/thuy-mac-danh-sach-kich-ban-tiep-theo.md` |
 | Nguồn sử liệu | `quy-tac/nghien-cuu-su-lieu.md` |
 | Chọn chủ đề | `quy-tac/tim-cau-chuyen.md` |
 | Mạch, mở đầu, độ dài, câu kết | `quy-tac/dung-mach-truyen.md` |

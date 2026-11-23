@@ -175,7 +175,7 @@ def S_2(cv,t):
     bui(cv,t)
     truoc(cv,c,t,l=False)
     if not FREEZE: ink_wash(cv,.18)
-    if not FREEZE:
+    if not FREEZE and not DOC:
         put_screen(cv,text('người giữ thung lũng ấy là ai?',46,INK,700),520,300,inn(t,a+.5,.4))
         put_screen(cv,text('vì sao nơi ấy thành kinh đô?',46,RED,700),520,390,inn(t,q,.4))
 # ===== 3: bản đồ: Hoa Lư; sông Bạch Đằng

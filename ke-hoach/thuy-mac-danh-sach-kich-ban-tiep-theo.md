@@ -29,9 +29,9 @@ Mạch 905 đến 938 đã kín (họ Khúc, Dương Đình Nghệ, Kiều Công
 ## B. Hàng đợi đề xuất, theo năm
 | # | Năm | Chủ đề | Trạng thái | Ghi chú |
 |---|---|---|---|---|
-| 1 | 687 | Lý Tự Tiên, Đinh Kiến khởi nghĩa chống Lưu Diên Hựu | Cổng A, chờ chủ kênh duyệt | Mục C.1 |
-| 2 | 860–866 | Nam Chiếu chiếm Giao Châu, Cao Biền lấy lại, thành Đại La | Cổng A, chờ chủ kênh duyệt | Mục C.2 |
-| 3 | 944–968 | Đinh Bộ Lĩnh dẹp loạn mười hai sứ quân | Đề xuất | Đã có `ke-hoach/dinh-bo-linh-dan-y.md` và `dinh-bo-linh-kich-ban.md` (loạt cũ) |
+| 1 | 687 | Lý Tự Tiên, Đinh Kiến khởi nghĩa chống Lưu Diên Hựu | BỎ (23/11): chủ kênh bỏ vì ít nguồn | Mục C.1 giữ để tham khảo |
+| 2 | 860–866 | Nam Chiếu chiếm Giao Châu, Cao Biền lấy lại, thành Đại La | BỎ (23/11): chủ kênh bỏ vì ít nguồn | Mục C.2 giữ để tham khảo |
+| 3 | 944–968 | Đinh Bộ Lĩnh dẹp loạn mười hai sứ quân | Qua cổng A (23/11, chủ kênh chọn); đang dựng mạch truyện | Đã có `ke-hoach/dinh-bo-linh-dan-y.md` và `dinh-bo-linh-kich-ban.md` (loạt cũ) |
 | 4 | 1075 | Lý Thường Kiệt đánh Ung Châu | Đề xuất | Mở đầu cho tm3 Như Nguyệt |
 | 5 | 1406–1407 | Nhà Hồ thua quân Minh, Hồ Quý Ly bị bắt | Đề xuất | |
 | 6 | 1407–1413 | Hậu Trần chống Minh | Đề xuất | Cầu nối nhà Hồ và Lam Sơn |

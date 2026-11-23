@@ -1,44 +1,33 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Không ai mang nhiệt kế tới Mặt Trời, vậy sao biết 
-OK Leda 02: Nhưng bí mật nằm ở màu sắc: màu của vật nóng cho b
-OK Leda 03: Vậy chỉ cần nhìn ánh sáng, ta đọc được nhiệt độ từ
-OK Leda 04: Hãy nghĩ đến thanh sắt trong lò rèn.
+OK Leda 01: Ánh sáng Mặt Trời màu trắng, vậy sao bầu trời lại 
+OK Leda 02: Nhưng chiều tối, cùng bầu trời ấy lại đỏ rực.
+OK Leda 03: Cả hai chuyện đều do một quy luật có số 4.
+OK Leda 04: Trước hết, ánh sáng trắng là hỗn hợp nhiều màu, từ
+OK Leda 05: Và mỗi màu có một bước sóng, tức độ dài một sóng á
+OK Leda 06: Đỏ sóng dài khoảng 700 nm, tím sóng ngắn khoảng 40
+OK Leda 07: Còn không khí gồm vô số phân tử nhỏ xíu, nhỏ hơn b
+OK Leda 08: Ánh sáng đi qua bị bắn ra mọi hướng, gọi là tán xạ
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Mới nung, nó đỏ sẫm, khoảng 700 đến 800 độ C.
-OK Leda 06: Nung thêm, nó chuyển màu cam, khoảng 1.000 độ C.
-OK Leda 07: Nóng hơn nữa, nó sáng trắng, từ khoảng 1.300 độ C 
-OK Leda 08: Như vậy càng nóng, ánh sáng càng chuyển từ đỏ sang
-OK Leda 09: Năm 1893, nhà vật lý Đức Wilhelm Wien biến điều nà
+OK Leda 09: Nên phần bị bắn vào mắt, ta thấy nó ở khắp bầu trờ
+OK Leda 10: Màu sóng ngắn bị bắn mạnh hơn màu sóng dài, mức ch
+OK Leda 11: Năm 1859, John Tyndall bước những bước đầu giải th
+OK Leda 12: Rồi vài năm sau, huân tước Rayleigh nghiên cứu chi
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Rồi năm 1911, ông nhận giải Nobel Vật lý cho các k
-OK Leda 11: Công thức ấy: bước sóng màu sáng nhất bằng hằng số
-OK Leda 12: Bước sóng là độ dài một sóng ánh sáng, mỗi màu có 
+OK Leda 13: Ánh sáng bị bắn tỉ lệ nghịch với bước sóng nhân vớ
+OK Leda 14: Bước sóng ngắn đi một nửa, bị bắn mạnh gấp 16 lần.
+OK Leda 15: So tím với đỏ: lấy 700 ÷ 400.
+OK Leda 16: Từ đó ra 1,75.
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 13: Bước sóng đo bằng nano-mét, một phần triệu mi-li-m
-OK Leda 14: Hằng số ấy là 2.898.000, tính theo nano-mét nhân đ
-OK Leda 15: Kelvin là thang nhiệt độ bắt đầu từ độ không tuyệt
+OK Leda 17: Nhân 1,75 với chính nó, ra khoảng 3,06.
+OK Leda 18: Rồi nhân số đó với chính nó lần nữa, ra khoảng 9,4
+OK Leda 19: Vậy tím bị bắn mạnh gần gấp 10 lần đỏ.
+OK Leda 20: Vậy sao bầu trời không màu tím?
+OK Leda 21: Vì Mặt Trời có ít tím hơn xanh, và mắt ta kém nhạy
+OK Leda 22: Cộng lại, màu xanh thắng, nên bầu trời xanh.
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 16: Muốn đổi từ độ C sang kelvin, chỉ cần cộng khoảng 
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 17: Thử với thanh sắt 1.000 độ C.
-OK Leda 18: Cộng 273, ra 1.273 kelvin.
-OK Leda 19: Rồi lấy 2.898.000 ÷ 1.273.
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Ra khoảng 2.300 nano-mét.
-OK Leda 21: Con số này dài hơn nhiều so với màu đỏ, nên sắt ph
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 22: Vì vậy mắt chỉ bắt được phần đuôi màu đỏ, và thanh
-OK Leda 23: Giờ đến Mặt Trời: tách ánh sáng của nó thành từng 
-OK Leda 24: Rồi xem màu nào mạnh nhất.
-   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 25: Kết quả, mạnh nhất ở khoảng 500 nano-mét, thuộc vù
-OK Leda 26: Lấy 2.898.000 ÷ 500.
-OK Leda 27: Ra khoảng 5.800 kelvin.
-OK Leda 28: Trừ khoảng 273, đó là khoảng 5.500 độ C.
-OK Leda 29: Con số này gần với giá trị NASA ghi: 5.772 kelvin.
-OK Leda 30: Bề mặt Mặt Trời không có ranh giới rõ ràng.
-   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 31: Nên sách ghi quanh 5.700 đến 6.000 kelvin.
-OK Leda 32: Cũng nhờ cách ấy, đo được nhiệt độ các ngôi sao kh
-OK Leda 33: Sao sáng nhất ở bước sóng ngắn hơn thì nóng hơn Mặ
-OK Leda 34: Vậy dù không ai chạm tới, màu ánh sáng cho biết bề
+OK Leda 23: Lúc hoàng hôn, Mặt Trời nằm thấp sát chân trời.
+OK Leda 24: Vì thế ánh sáng đi qua lớp không khí dày hơn rất n
+OK Leda 25: Nên trên đường đi, màu xanh bị bắn ra gần hết.
+OK Leda 26: Cuối cùng chỉ còn đỏ, cam, vàng tới mắt ta.
+OK Leda 27: Mây trắng vì giọt nước rất lớn, bắn mọi màu gần đề
+OK Leda 28: Bầu trời xanh, hoàng hôn đỏ: cùng một quy luật, só

@@ -43,11 +43,12 @@ def vframe(tv):
         put_screen(base,text('Xem bản đầy đủ',72,RED,700,glow=6),WV/2,1150,u)
         put_screen(base,text('trên kênh Người Gác Sử',56,INK,700),WV/2,1250,u)
         put_screen(base,text('Đinh Bộ Lĩnh và Hoa Lư, năm 944–968',42,INK,600),WV/2,1340,inn(tv,acc+.5,.8))
+        logo(base)
         return base
     return vframe_src(src(tv),tv)
 def vframe_src(t,tv):
     fr=D.frame(t);fr=fr.astype(np.float32)/255 if fr.dtype==np.uint8 else fr.astype(np.float32)
-    cx=cx_of(t);x0=int(round(cx-CW/2));x0=max(0,min(1920-CW,x0))
+    cx=cx_of(t);x0=int(round(cx-CW/2));x0=max(0,min(1740-CW,x0))   # không lấy vùng logo của bản dài (x 1746–1876); logo bản dọc đặt riêng
     cv=np.ascontiguousarray(cv2.resize(fr[:,x0:x0+CW],(WV,HV),interpolation=cv2.INTER_CUBIC))
     for a,b,h in HEAD:
         if a<t<b:
@@ -60,7 +61,15 @@ def vframe_src(t,tv):
             put_screen(cv,text(nm,46,RED,700),WV/2,450,o);put_screen(cv,text(ph,30,INK,600),WV/2,500,o)
     h,o=cap_at(t)
     if h: caption(cv,h,o,True)
+    logo(cv)
     return cv
+_LG=[None]
+def logo(cv):
+    if _LG[0] is None:
+        from PIL import Image
+        from canh import D as _D
+        lg=np.asarray(Image.open(_D+'nguoi-gac-su.png').convert('RGBA').resize((130,130),Image.LANCZOS),np.float32)/255;lg[...,:3]*=lg[...,3:4];_LG[0]=lg
+    blend(cv,_LG[0],WV-44-130,34,.8)
 FPS=30
 if __name__=='__main__':
     out,f0,f1=sys.argv[1],int(sys.argv[2]),int(sys.argv[3])

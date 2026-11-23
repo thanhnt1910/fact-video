@@ -1,1 +1,1 @@
-doc-tm21 lan 7 Charon tm21: lần 6 đọc 923 thành 939 (cả hai năm ghi số), trả đoạn 25 về dạng 923 bằng số và 930 bằng chữ, đọc lại cả bài một lần (23/11)
+doc-tm22 Charon tm22 ca (lời kể bản 6, chủ kênh duyệt cổng C 23/11 14:54, yêu cầu dựng)

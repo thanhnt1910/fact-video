@@ -58,6 +58,8 @@ Cách giải thích cho dễ hiểu:
 | 26 | Tàu chạy nhanh bao nhiêu (dây thắt nút, đồng hồ cát 28 giây, hải lý, 14,4 m) | `ke-hoach/khoa-hoc-video-26-day-nut-kich-ban.md` |
 | 27 | Đường chân trời xa bao nhiêu (tam giác vuông, d = √(2·R·h), 4,65 km, 35,7 km) | `ke-hoach/khoa-hoc-video-27-chan-troi-kich-ban.md` |
 | 28 | Mặt Trời nóng bao nhiêu (định luật Wien, 2.898.000 ÷ 500 ≈ 5.800 K) | `ke-hoach/khoa-hoc-video-28-nhiet-mat-troi-kich-ban.md` |
+| 29 | Vì sao bầu trời xanh, hoàng hôn đỏ (tán xạ Rayleigh, (700 ÷ 400)⁴ ≈ 9,4) | `ke-hoach/khoa-hoc-video-29-troi-xanh-kich-ban.md` |
+| 30 | Trái Đất quay một vòng bao lâu (ngày sao 23 giờ 56 phút, 1.440 ÷ 360 = 4 phút mỗi độ) | `ke-hoach/khoa-hoc-video-30-ngay-sao-kich-ban.md` |
 
 ## Chưa làm
 

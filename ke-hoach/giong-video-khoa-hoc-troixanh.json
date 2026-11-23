@@ -1,0 +1,145 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Ánh sáng Mặt Trời màu trắng, vậy sao bầu trời lại màu xanh?",
+   "say": "Ánh sáng Mặt Trời trông màu trắng, vậy sao bầu trời lại màu xanh?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng chiều tối, cùng bầu trời ấy lại đỏ rực.",
+   "say": "Nhưng đến chiều tối, cùng một bầu trời ấy lại đỏ rực."
+  },
+  {
+   "n": 3,
+   "text": "Cả hai chuyện đều do một quy luật có số 4.",
+   "say": "Hóa ra cả hai chuyện đều do một quy luật có chữ số bốn."
+  },
+  {
+   "n": 4,
+   "text": "Trước hết, ánh sáng trắng là hỗn hợp nhiều màu, từ đỏ đến tím, như cầu vồng.",
+   "say": "Trước hết, ánh sáng trắng là hỗn hợp của nhiều màu, từ đỏ đến tím, như trong cầu vồng."
+  },
+  {
+   "n": 5,
+   "text": "Và mỗi màu có một bước sóng, tức độ dài một sóng ánh sáng.",
+   "say": "Và mỗi màu có một bước sóng, tức là độ dài của một sóng ánh sáng."
+  },
+  {
+   "n": 6,
+   "text": "Đỏ sóng dài khoảng 700 nm, tím sóng ngắn khoảng 400 nm.",
+   "say": "Màu đỏ có sóng dài, khoảng bảy trăm nano-mét, còn màu tím có sóng ngắn, khoảng bốn trăm nano-mét."
+  },
+  {
+   "n": 7,
+   "text": "Còn không khí gồm vô số phân tử nhỏ xíu, nhỏ hơn bước sóng ánh sáng.",
+   "say": "Còn không khí gồm vô số phân tử nhỏ xíu, nhỏ hơn bước sóng ánh sáng rất nhiều."
+  },
+  {
+   "n": 8,
+   "text": "Ánh sáng đi qua bị bắn ra mọi hướng, gọi là tán xạ.",
+   "say": "Khi ánh sáng đi qua, các phân tử ấy bắn nó ra mọi hướng, gọi là tán xạ."
+  },
+  {
+   "n": 9,
+   "text": "Nên phần bị bắn vào mắt, ta thấy nó ở khắp bầu trời.",
+   "say": "Nên phần ánh sáng bị bắn vào mắt ta, ta thấy nó ở khắp bầu trời."
+  },
+  {
+   "n": 10,
+   "text": "Màu sóng ngắn bị bắn mạnh hơn màu sóng dài, mức chênh rất lớn.",
+   "say": "Nhưng màu sóng ngắn bị bắn mạnh hơn màu sóng dài, và mức chênh rất lớn."
+  },
+  {
+   "n": 11,
+   "text": "Năm 1859, John Tyndall bước những bước đầu giải thích màu bầu trời.",
+   "say": "Năm một nghìn tám trăm năm mươi chín, Giôn Tin-đan bước những bước đầu giải thích màu bầu trời."
+  },
+  {
+   "n": 12,
+   "text": "Rồi vài năm sau, huân tước Rayleigh nghiên cứu chi tiết hơn, tìm ra quy luật.",
+   "say": "Rồi vài năm sau, huân tước Rê-lây nghiên cứu chi tiết hơn và tìm ra quy luật."
+  },
+  {
+   "n": 13,
+   "text": "Ánh sáng bị bắn tỉ lệ nghịch với bước sóng nhân với chính nó 4 lần.",
+   "say": "Quy luật ấy: ánh sáng bị bắn ra tỉ lệ nghịch với bước sóng nhân với chính nó bốn lần."
+  },
+  {
+   "n": 14,
+   "text": "Bước sóng ngắn đi một nửa, bị bắn mạnh gấp 16 lần.",
+   "say": "Ví dụ, bước sóng ngắn đi một nửa thì ánh sáng bị bắn mạnh gấp mười sáu lần."
+  },
+  {
+   "n": 15,
+   "text": "So tím với đỏ: lấy 700 ÷ 400.",
+   "say": "Giờ so màu tím với màu đỏ: lấy bảy trăm chia bốn trăm."
+  },
+  {
+   "n": 16,
+   "text": "Từ đó ra 1,75.",
+   "say": "Từ đó ra một phẩy bảy lăm."
+  },
+  {
+   "n": 17,
+   "text": "Nhân 1,75 với chính nó, ra khoảng 3,06.",
+   "say": "Nhân một phẩy bảy lăm với chính nó, ra khoảng ba phẩy không sáu."
+  },
+  {
+   "n": 18,
+   "text": "Rồi nhân số đó với chính nó lần nữa, ra khoảng 9,4.",
+   "say": "Rồi nhân số đó với chính nó lần nữa, ra khoảng chín phẩy bốn."
+  },
+  {
+   "n": 19,
+   "text": "Vậy tím bị bắn mạnh gần gấp 10 lần đỏ.",
+   "say": "Vậy màu tím bị bắn mạnh gần gấp mười lần màu đỏ."
+  },
+  {
+   "n": 20,
+   "text": "Vậy sao bầu trời không màu tím?",
+   "say": "Vậy sao bầu trời không có màu tím?"
+  },
+  {
+   "n": 21,
+   "text": "Vì Mặt Trời có ít tím hơn xanh, và mắt ta kém nhạy với tím.",
+   "say": "Vì ánh sáng Mặt Trời có ít màu tím hơn màu xanh, và mắt ta kém nhạy với màu tím."
+  },
+  {
+   "n": 22,
+   "text": "Cộng lại, màu xanh thắng, nên bầu trời xanh.",
+   "say": "Cộng lại, màu xanh thắng, nên bầu trời có màu xanh."
+  },
+  {
+   "n": 23,
+   "text": "Lúc hoàng hôn, Mặt Trời nằm thấp sát chân trời.",
+   "say": "Lúc hoàng hôn, Mặt Trời nằm thấp sát chân trời."
+  },
+  {
+   "n": 24,
+   "text": "Vì thế ánh sáng đi qua lớp không khí dày hơn rất nhiều.",
+   "say": "Vì thế ánh sáng phải đi xuyên qua lớp không khí dày hơn rất nhiều."
+  },
+  {
+   "n": 25,
+   "text": "Nên trên đường đi, màu xanh bị bắn ra gần hết.",
+   "say": "Nên trên đường đi, màu xanh bị bắn ra khỏi tia nhìn gần hết."
+  },
+  {
+   "n": 26,
+   "text": "Cuối cùng chỉ còn đỏ, cam, vàng tới mắt ta.",
+   "say": "Cuối cùng chỉ còn đỏ, cam và vàng tới được mắt ta."
+  },
+  {
+   "n": 27,
+   "text": "Mây trắng vì giọt nước rất lớn, bắn mọi màu gần đều nhau.",
+   "say": "Còn mây trắng vì giọt nước rất lớn, nên bắn mọi màu gần như đều nhau."
+  },
+  {
+   "n": 28,
+   "text": "Bầu trời xanh, hoàng hôn đỏ: cùng một quy luật, sóng ngắn bị bắn nhiều hơn.",
+   "say": "Vậy bầu trời xanh và hoàng hôn đỏ là cùng một quy luật: màu sóng ngắn luôn bị bắn đi nhiều hơn."
+  }
+ ]
+}

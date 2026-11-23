@@ -1,0 +1,165 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Trái Đất quay đúng một vòng mất bao lâu, có phải 24 giờ không?",
+   "say": "Trái Đất quay đúng một vòng thì mất bao lâu, có phải hai mươi bốn giờ không?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng thật ra, nó quay xong sớm hơn khoảng 4 phút.",
+   "say": "Nhưng thật ra, nó quay xong một vòng sớm hơn khoảng bốn phút."
+  },
+  {
+   "n": 3,
+   "text": "4 phút ấy từ đâu ra, và vì sao ngày dài hơn?",
+   "say": "Bốn phút ấy từ đâu ra, và vì sao ngày của chúng ta lại dài hơn?"
+  },
+  {
+   "n": 4,
+   "text": "Có hai cách đo một ngày, cách đầu là nhìn Mặt Trời.",
+   "say": "Có hai cách đo một ngày, và cách đầu tiên là nhìn Mặt Trời."
+  },
+  {
+   "n": 5,
+   "text": "Đo từ lúc Mặt Trời giữa trời hôm nay, tới giữa trời hôm sau.",
+   "say": "Đo từ lúc Mặt Trời ở giữa trời hôm nay, tới lúc nó ở giữa trời hôm sau."
+  },
+  {
+   "n": 6,
+   "text": "Trung bình 24 giờ, và đồng hồ của ta dùng con số này.",
+   "say": "Kết quả trung bình là hai mươi bốn giờ, và đồng hồ của chúng ta dùng con số này."
+  },
+  {
+   "n": 7,
+   "text": "Cách hai: nhìn một ngôi sao rất xa.",
+   "say": "Cách thứ hai là nhìn một ngôi sao rất xa."
+  },
+  {
+   "n": 8,
+   "text": "Rồi đo tới lúc nó trở lại đúng chỗ cũ.",
+   "say": "Rồi đo từ lúc nó đứng ở một chỗ, tới lúc nó trở lại đúng chỗ đó."
+  },
+  {
+   "n": 9,
+   "text": "Sao rất xa nên hướng không đổi, và đó là một vòng quay thật.",
+   "say": "Sao ở rất xa nên hướng của nó không đổi, và đó là một vòng quay thật."
+  },
+  {
+   "n": 10,
+   "text": "Kết quả là khoảng 23 giờ 56 phút.",
+   "say": "Kết quả là khoảng hai mươi ba giờ năm mươi sáu phút."
+  },
+  {
+   "n": 11,
+   "text": "Vậy hai cách đo lệch nhau khoảng 4 phút.",
+   "say": "Vậy hai cách đo lệch nhau khoảng bốn phút."
+  },
+  {
+   "n": 12,
+   "text": "Vì Trái Đất không chỉ quay quanh mình, mà còn đi vòng quanh Mặt Trời.",
+   "say": "Lý do là Trái Đất không chỉ quay quanh mình, mà còn đi vòng quanh Mặt Trời."
+  },
+  {
+   "n": 13,
+   "text": "Ví dụ đồng hồ: kim giờ và kim phút gặp nhau lúc 12 giờ.",
+   "say": "Hãy lấy ví dụ chiếc đồng hồ: kim giờ và kim phút gặp nhau lúc mười hai giờ."
+  },
+  {
+   "n": 14,
+   "text": "Kim phút đi hết 1 vòng 60 phút, nhưng kim giờ đã nhích đi.",
+   "say": "Kim phút đi hết một vòng sáu mươi phút, nhưng lúc đó kim giờ đã nhích đi một đoạn."
+  },
+  {
+   "n": 15,
+   "text": "Nên kim phút phải đi thêm một đoạn mới đuổi kịp kim giờ.",
+   "say": "Nên kim phút phải đi thêm một đoạn nữa mới đuổi kịp kim giờ."
+  },
+  {
+   "n": 16,
+   "text": "Hai kim gặp lại sau khoảng 65,5 phút, không phải 60 phút.",
+   "say": "Vì thế hai kim gặp lại nhau sau khoảng sáu mươi lăm phút rưỡi, chứ không phải sáu mươi phút."
+  },
+  {
+   "n": 17,
+   "text": "Trái Đất cũng vậy: vòng quay như kim phút, hướng tới Mặt Trời như kim giờ.",
+   "say": "Trái Đất cũng vậy: vòng quay giống kim phút, còn hướng tới Mặt Trời dịch đi như kim giờ."
+  },
+  {
+   "n": 18,
+   "text": "Mỗi ngày đi một đoạn trên quỹ đạo, hướng tới Mặt Trời dịch khoảng 1 độ.",
+   "say": "Mỗi ngày Trái Đất đi được một đoạn trên quỹ đạo, nên hướng tới Mặt Trời dịch đi khoảng một độ."
+  },
+  {
+   "n": 19,
+   "text": "Một vòng quanh Mặt Trời dài 365 ngày.",
+   "say": "Kiểm tra lại: một vòng quanh Mặt Trời dài ba trăm sáu mươi lăm ngày."
+  },
+  {
+   "n": 20,
+   "text": "Còn một vòng tròn có 360 độ.",
+   "say": "Còn một vòng tròn có ba trăm sáu mươi độ."
+  },
+  {
+   "n": 21,
+   "text": "360 ÷ 365 ra gần 1 độ mỗi ngày.",
+   "say": "Ba trăm sáu mươi chia ba trăm sáu mươi lăm ra gần một độ mỗi ngày."
+  },
+  {
+   "n": 22,
+   "text": "Sau một vòng quay, Mặt Trời chưa về giữa trời, phải quay thêm gần 1 độ.",
+   "say": "Vậy sau một vòng quay, Mặt Trời vẫn chưa về giữa trời, và Trái Đất phải quay thêm gần một độ nữa."
+  },
+  {
+   "n": 23,
+   "text": "Một ngày 24 × 60 = 1.440 phút.",
+   "say": "Một ngày có hai mươi bốn giờ, tức là một nghìn bốn trăm bốn mươi phút."
+  },
+  {
+   "n": 24,
+   "text": "1.440 ÷ 360 = 4 phút cho mỗi độ.",
+   "say": "Chia cho ba trăm sáu mươi độ, ra bốn phút cho mỗi độ."
+  },
+  {
+   "n": 25,
+   "text": "Gần 1 độ × 4 phút ra gần 4 phút.",
+   "say": "Gần một độ nhân bốn phút ra gần bốn phút."
+  },
+  {
+   "n": 26,
+   "text": "Đó là 4 phút quay thêm, nên ngày Mặt Trời dài hơn ngày sao.",
+   "say": "Đó chính là bốn phút Trái Đất phải quay thêm, nên ngày Mặt Trời dài hơn ngày sao."
+  },
+  {
+   "n": 27,
+   "text": "Nhờ vậy, mỗi đêm sao mọc sớm hơn khoảng 4 phút.",
+   "say": "Nhờ vậy, mỗi đêm một ngôi sao mọc sớm hơn đêm trước khoảng bốn phút."
+  },
+  {
+   "n": 28,
+   "text": "Sau 30 đêm, 30 × 4 = 120 phút.",
+   "say": "Sau ba mươi đêm, ba mươi nhân bốn là một trăm hai mươi phút."
+  },
+  {
+   "n": 29,
+   "text": "Tức là nó mọc sớm hơn 2 tiếng.",
+   "say": "Tức là nó mọc sớm hơn hai tiếng."
+  },
+  {
+   "n": 30,
+   "text": "Cả năm, quay quanh mình nhiều hơn số ngày đúng một vòng.",
+   "say": "Cộng dồn cả năm, Trái Đất quay quanh mình nhiều hơn số ngày đúng một vòng."
+  },
+  {
+   "n": 31,
+   "text": "Vậy Trái Đất quay một vòng mất khoảng 23 giờ 56 phút.",
+   "say": "Vậy Trái Đất quay một vòng mất khoảng hai mươi ba giờ năm mươi sáu phút."
+  },
+  {
+   "n": 32,
+   "text": "Còn ngày dài hơn 4 phút, vì Trái Đất còn đi quanh Mặt Trời.",
+   "say": "Còn ngày của ta dài hơn bốn phút, vì Trái Đất còn đi vòng quanh Mặt Trời."
+  }
+ ]
+}

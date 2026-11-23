@@ -1,0 +1,116 @@
+{
+ "beats": [
+  {
+   "say": "Ánh sáng Mặt Trời trông màu trắng, vậy sao bầu trời lại màu xanh?",
+   "text": "Ánh sáng Mặt Trời màu *trắng*, vậy sao bầu trời lại *màu xanh*?"
+  },
+  {
+   "say": "Nhưng đến chiều tối, cùng một bầu trời ấy lại đỏ rực.",
+   "text": "Nhưng chiều tối, cùng bầu trời ấy lại *đỏ rực*."
+  },
+  {
+   "say": "Hóa ra cả hai chuyện đều do một quy luật có chữ số bốn.",
+   "text": "Cả hai chuyện đều do *một quy luật* có *số 4*."
+  },
+  {
+   "say": "Trước hết, ánh sáng trắng là hỗn hợp của nhiều màu, từ đỏ đến tím, như trong cầu vồng.",
+   "text": "Trước hết, ánh sáng trắng là *hỗn hợp nhiều màu*, từ *đỏ đến tím*, như cầu vồng."
+  },
+  {
+   "say": "Và mỗi màu có một bước sóng, tức là độ dài của một sóng ánh sáng.",
+   "text": "Và mỗi màu có một *bước sóng*, tức *độ dài một sóng ánh sáng*."
+  },
+  {
+   "say": "Màu đỏ có sóng dài, khoảng bảy trăm nano-mét, còn màu tím có sóng ngắn, khoảng bốn trăm nano-mét.",
+   "text": "Đỏ *sóng dài* khoảng *700 nm*, tím *sóng ngắn* khoảng *400 nm*."
+  },
+  {
+   "say": "Còn không khí gồm vô số phân tử nhỏ xíu, nhỏ hơn bước sóng ánh sáng rất nhiều.",
+   "text": "Còn không khí gồm vô số *phân tử nhỏ xíu*, *nhỏ hơn bước sóng* ánh sáng."
+  },
+  {
+   "say": "Khi ánh sáng đi qua, các phân tử ấy bắn nó ra mọi hướng, gọi là tán xạ.",
+   "text": "Ánh sáng đi qua bị bắn ra *mọi hướng*, gọi là *tán xạ*."
+  },
+  {
+   "say": "Nên phần ánh sáng bị bắn vào mắt ta, ta thấy nó ở khắp bầu trời.",
+   "text": "Nên phần bị bắn vào mắt, ta thấy nó *ở khắp bầu trời*."
+  },
+  {
+   "say": "Nhưng màu sóng ngắn bị bắn mạnh hơn màu sóng dài, và mức chênh rất lớn.",
+   "text": "Màu *sóng ngắn* bị bắn *mạnh hơn* màu sóng dài, mức chênh *rất lớn*."
+  },
+  {
+   "say": "Năm một nghìn tám trăm năm mươi chín, Giôn Tin-đan bước những bước đầu giải thích màu bầu trời.",
+   "text": "Năm *1859*, *John Tyndall* bước những bước đầu giải thích *màu bầu trời*."
+  },
+  {
+   "say": "Rồi vài năm sau, huân tước Rê-lây nghiên cứu chi tiết hơn và tìm ra quy luật.",
+   "text": "Rồi vài năm sau, huân tước *Rayleigh* nghiên cứu chi tiết hơn, tìm ra *quy luật*."
+  },
+  {
+   "say": "Quy luật ấy: ánh sáng bị bắn ra tỉ lệ nghịch với bước sóng nhân với chính nó bốn lần.",
+   "text": "Ánh sáng bị bắn *tỉ lệ nghịch* với *bước sóng nhân với chính nó 4 lần*."
+  },
+  {
+   "say": "Ví dụ, bước sóng ngắn đi một nửa thì ánh sáng bị bắn mạnh gấp mười sáu lần.",
+   "text": "Bước sóng ngắn đi *một nửa*, bị bắn *mạnh gấp 16 lần*."
+  },
+  {
+   "say": "Giờ so màu tím với màu đỏ: lấy bảy trăm chia bốn trăm.",
+   "text": "So *tím* với *đỏ*: lấy *700 ÷ 400*."
+  },
+  {
+   "say": "Từ đó ra một phẩy bảy lăm.",
+   "text": "Từ đó ra *1,75*."
+  },
+  {
+   "say": "Nhân một phẩy bảy lăm với chính nó, ra khoảng ba phẩy không sáu.",
+   "text": "Nhân *1,75* với chính nó, ra khoảng *3,06*."
+  },
+  {
+   "say": "Rồi nhân số đó với chính nó lần nữa, ra khoảng chín phẩy bốn.",
+   "text": "Rồi nhân số đó với chính nó *lần nữa*, ra khoảng *9,4*."
+  },
+  {
+   "say": "Vậy màu tím bị bắn mạnh gần gấp mười lần màu đỏ.",
+   "text": "Vậy *tím* bị bắn mạnh *gần gấp 10 lần* đỏ."
+  },
+  {
+   "say": "Vậy sao bầu trời không có màu tím?",
+   "text": "Vậy sao bầu trời *không màu tím*?"
+  },
+  {
+   "say": "Vì ánh sáng Mặt Trời có ít màu tím hơn màu xanh, và mắt ta kém nhạy với màu tím.",
+   "text": "Vì Mặt Trời có *ít tím hơn xanh*, và mắt ta *kém nhạy với tím*."
+  },
+  {
+   "say": "Cộng lại, màu xanh thắng, nên bầu trời có màu xanh.",
+   "text": "Cộng lại, *màu xanh thắng*, nên bầu trời *xanh*."
+  },
+  {
+   "say": "Lúc hoàng hôn, Mặt Trời nằm thấp sát chân trời.",
+   "text": "Lúc *hoàng hôn*, Mặt Trời nằm *thấp sát chân trời*."
+  },
+  {
+   "say": "Vì thế ánh sáng phải đi xuyên qua lớp không khí dày hơn rất nhiều.",
+   "text": "Vì thế ánh sáng đi qua lớp không khí *dày hơn rất nhiều*."
+  },
+  {
+   "say": "Nên trên đường đi, màu xanh bị bắn ra khỏi tia nhìn gần hết.",
+   "text": "Nên trên đường đi, *màu xanh* bị bắn ra *gần hết*."
+  },
+  {
+   "say": "Cuối cùng chỉ còn đỏ, cam và vàng tới được mắt ta.",
+   "text": "Cuối cùng chỉ còn *đỏ, cam, vàng* tới mắt ta."
+  },
+  {
+   "say": "Còn mây trắng vì giọt nước rất lớn, nên bắn mọi màu gần như đều nhau.",
+   "text": "Mây *trắng* vì giọt nước *rất lớn*, bắn *mọi màu* gần đều nhau."
+  },
+  {
+   "say": "Vậy bầu trời xanh và hoàng hôn đỏ là cùng một quy luật: màu sóng ngắn luôn bị bắn đi nhiều hơn.",
+   "text": "Bầu trời *xanh*, hoàng hôn *đỏ*: cùng *một quy luật*, *sóng ngắn* bị bắn nhiều hơn."
+  }
+ ]
+}

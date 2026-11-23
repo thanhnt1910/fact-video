@@ -10,7 +10,8 @@ d = json.load(open(f'{R}/ke-hoach/thu-giong-hai/{ten}_full.json', encoding='utf-
 # tên ngắn -> tên đủ (lời kể luôn ghi đủ họ tên). Có thể thêm bằng --ten
 TEN = {'Hoằng Tháo': 'Lưu Hoằng Tháo', 'Tam Kha': 'Dương Tam Kha', 'Đình Nghệ': 'Dương Đình Nghệ', 'Công Tiễn': 'Kiều Công Tiễn',
        'Thừa Mỹ': 'Khúc Thừa Mỹ', 'Khắc Chính': 'Lý Khắc Chính', 'Xương Ngập': 'Ngô Xương Ngập', 'Xương Văn': 'Ngô Xương Văn',
-       'Trưng Trắc': 'Trưng Trắc', 'Tô Định': 'Tô Định'}
+       'Trưng Trắc': 'Trưng Trắc', 'Tô Định': 'Tô Định',
+       'Bộ Lĩnh': 'Đinh Bộ Lĩnh', 'Liễn': 'Đinh Liễn'}  # tm22: chủ kênh nhắc 23/11 gọi đủ họ tên mọi lần
 if '--ten' in sys.argv:
     for kv in sys.argv[sys.argv.index('--ten') + 1].split(','):
         a, b = kv.split('='); TEN[a.strip()] = b.strip()

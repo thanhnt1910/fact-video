@@ -68,6 +68,7 @@ Chủ kênh thấy bd2 "nghe vẫn hợp lý" và yêu cầu các tập sau tham
 | "chỉ còn cách nhau mấy bến sông… bị chặn ở chính ba bến sông ấy" (câu trước nói "mấy", câu sau nói "ba": số không khớp) | một con số hoặc một sự vật nói nhất quán trong cả đoạn: "Giữa hai đạo quân ấy là dòng sông Hồng… ba bến sông trên chính dòng sông ấy" | tm5 |
 | "quân nhà Nguyên vào một Thăng Long bỏ trống" (động từ yếu, như đi thăm nhà người thân) | "tràn vào chiếm Thăng Long, nhưng kinh thành đã bị bỏ trống"; xem mục 1, điểm 7 | tm5 |
 | "quân của Thoát Hoan bắt đầu đói và ốm" (nói kết quả trước, nguyên nhân để sau và còn mơ hồ) | kể nguyên nhân trước, kết quả sau: thành trống, không tìm được lương tại chỗ, lương phải chở từ xa, mùa hè nắng nóng mưa dầm, nên quân lính thiếu ăn và đổ bệnh | tm5 |
+| "Bộ Lĩnh", "Liễn" sau lần giới thiệu đầu (gọi tắt tên người); "sử chép", "Toàn thư chép" lặp khoảng 25 lần trong một tập | gọi đủ họ tên "Đinh Bộ Lĩnh", "Đinh Liễn" ở mọi lần nhắc tên, câu đã có tên thì dùng "ông"; nêu nguồn chỉ ở chỗ cần phân biệt và lời sử gia có tên (thuy-mac.md mục 3.4). Series thủy mặc theo cách này, không dùng câu "sau lần đầu có thể dùng tên ngắn" của giong-van.md | tm22 (23/11) |
 
 ## 5. Câu cụt kiểu biên niên (chủ kênh nhắc 19/11/2026, tm12; áp dụng mọi kịch bản từ nay)
 

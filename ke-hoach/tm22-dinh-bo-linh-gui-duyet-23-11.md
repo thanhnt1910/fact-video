@@ -1,4 +1,4 @@
-# tm22 Đinh Bộ Lĩnh và Hoa Lư: lời đọc bản 5 (23/11/2026, chờ duyệt cổng C, chưa đọc giọng)
+# tm22 Đinh Bộ Lĩnh và Hoa Lư: lời đọc bản 6 (23/11/2026, chủ kênh duyệt cổng C lúc 14:54, yêu cầu dựng)
 
 ## tm22 Hoa Lư, năm 944–968
 
@@ -18,6 +18,11 @@ Mạch truyện `tm22-dinh-bo-linh-mach-truyen-23-11.md` (duyệt cổng B trưa
 | 1 | Địa điểm bất ngờ | Có một thung lũng bốn bề núi đá dựng đứng như bức vách. Hai vua nhà Ngô kéo quân đến, hơn một tháng không hạ nổi. Về sau, nó thành kinh đô của cả nước. | Chủ kênh chọn |
 | 2 | Câu đố sử chép gọn | Sử chép Đinh Bộ Lĩnh dẹp mười hai sứ quân chỉ bằng một câu. Vậy từ nơi nào ông cất quân, và trong mười lăm năm trước đó ông đã làm gì? | |
 | 3 | Cảnh có người (trùng video cũ dbl1) | Hai vua nhà Ngô treo một người con lên ngọn sào để ép cha phải đầu hàng. Người cha ra lệnh cho quân cầm nỏ nhắm vào người con ấy. | |
+
+### Bảng đổi lần 5 (23/11 14:54, chủ kênh: thêm câu cảm ơn như các tập khác, rồi dựng)
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 35 | Lê Văn Hưu chỉ cần một câu để kể cả cuộc dẹp loạn. Còn đường đi từ ngọn sào ở Hoa Lư đến ngai vàng thì dài hơn mười năm, và phần lớn quãng đường ấy không ai chép lại. | Lê Văn Hưu chỉ cần một câu để kể cả cuộc dẹp loạn. Còn đường đi từ ngọn sào ở Hoa Lư đến ngai vàng thì dài hơn mười năm, và phần lớn quãng đường ấy không ai chép lại. Cảm ơn bạn đã lắng nghe. | Chủ kênh yêu cầu câu cảm ơn cuối như tm19–tm21 |
 
 ### Bảng đổi lần 4 (bản chủ kênh 14:40 → bản 5)
 Đoạn nào không có trong bảng thì giữ nguyên chữ của chủ kênh (trừ năm viết bằng chữ trong `text`).
@@ -52,7 +57,7 @@ Mạch truyện `tm22-dinh-bo-linh-mach-truyen-23-11.md` (duyệt cổng B trưa
 | 33 | 32 | Theo Đại Việt sử ký toàn thư, năm chín trăm sáu mươi tám, Đinh Bộ Lĩnh lên ngôi hoàng đế, đặt quốc hiệu là Đại Cồ Việt. Đất nước có một vị hoàng đế mới, mở đầu cho một triều đại mới. | Theo Toàn thư, năm 968, Đinh Bộ Lĩnh lên ngôi hoàng đế, đặt quốc hiệu là Đại Cồ Việt. | Gọi gọn tên sách; bỏ câu "mở đầu cho một triều đại mới" (không thêm thông tin) |
 | 34 | 33 | Ban đầu, Đinh Bộ Lĩnh từng chọn Đàm thôn làm nơi đóng đô. Nhưng vùng đất ấy chật hẹp, lại khó phòng thủ. Vì thế, ông quyết định chọn Hoa Lư làm kinh đô. Tại đây, ông cho đắp thành, đào hào, xây dựng cung điện và đặt ra lễ nghi trong triều đình. | Ông từng muốn dựng đô ở Đàm thôn nhưng đất ấy chật hẹp, lại khó phòng giữ. Vì thế ông vẫn đóng đô ở Hoa Lư. Tại đây, ông cho đắp thành và đào hào, rồi xây cung điện và đặt ra lễ nghi trong triều. | "từng chọn Đàm thôn làm nơi đóng đô" → "từng muốn dựng đô" (Toàn thư: chưa dựng); tách chuỗi vế (bộ kiểm ❌) |
 | 35 | 34 | Hoa Lư, nay thuộc tỉnh Ninh Bình, chính là nơi hai vua nhà Ngô từng đem quân đến mà không hạ nổi. Thung lũng núi đá từng là căn cứ của Đinh Bộ Lĩnh, nay trở thành kinh đô của Đại Cồ Việt. | Còn Hoa Lư, nay thuộc tỉnh Ninh Bình, là nơi hai vua nhà Ngô từng kéo quân đến mà không hạ nổi. Thung lũng từng che chở ông năm xưa, nay thành kinh đô của Đại Cồ Việt. | Gọn câu |
-| 36 | 35 | Từ một người giữ riêng một thung lũng, Đinh Bộ Lĩnh đã trở thành hoàng đế, lập nên một quốc gia mới. Người con từng bị treo trên ngọn sào cũng đã cùng cha đi qua những năm tháng tranh hùng. Hơn mười năm biến động đã đưa Hoa Lư từ một căn cứ hiểm trở trở thành kinh đô của cả nước. Nhưng phần lớn con đường đưa Đinh Bộ Lĩnh đến ngai vàng ấy, sử sách vẫn không ghi lại. | Lê Văn Hưu chỉ cần một câu để kể cả cuộc dẹp loạn. Còn đường đi từ ngọn sào ở Hoa Lư đến ngai vàng thì dài hơn mười năm, và phần lớn quãng đường ấy không ai chép lại. | Câu kết cũ tóm lại cả bài và có "lập nên một quốc gia mới" (nước đã tự chủ từ thời Ngô Quyền); khép bằng một ý |
+| 36 | 35 | Từ một người giữ riêng một thung lũng, Đinh Bộ Lĩnh đã trở thành hoàng đế, lập nên một quốc gia mới. Người con từng bị treo trên ngọn sào cũng đã cùng cha đi qua những năm tháng tranh hùng. Hơn mười năm biến động đã đưa Hoa Lư từ một căn cứ hiểm trở trở thành kinh đô của cả nước. Nhưng phần lớn con đường đưa Đinh Bộ Lĩnh đến ngai vàng ấy, sử sách vẫn không ghi lại. | Lê Văn Hưu chỉ cần một câu để kể cả cuộc dẹp loạn. Còn đường đi từ ngọn sào ở Hoa Lư đến ngai vàng thì dài hơn mười năm, và phần lớn quãng đường ấy không ai chép lại. Cảm ơn bạn đã lắng nghe. | Câu kết cũ tóm lại cả bài và có "lập nên một quốc gia mới" (nước đã tự chủ từ thời Ngô Quyền); khép bằng một ý |
 
 ### Toàn văn lời kể
 
@@ -124,7 +129,7 @@ Mạch truyện `tm22-dinh-bo-linh-mach-truyen-23-11.md` (duyệt cổng B trưa
 
 **34.** Còn Hoa Lư, nay thuộc tỉnh Ninh Bình, là nơi hai vua nhà Ngô từng kéo quân đến mà không hạ nổi. Thung lũng từng che chở ông năm xưa, nay thành kinh đô của Đại Cồ Việt.
 
-**35.** Lê Văn Hưu chỉ cần một câu để kể cả cuộc dẹp loạn. Còn đường đi từ ngọn sào ở Hoa Lư đến ngai vàng thì dài hơn mười năm, và phần lớn quãng đường ấy không ai chép lại.
+**35.** Lê Văn Hưu chỉ cần một câu để kể cả cuộc dẹp loạn. Còn đường đi từ ngọn sào ở Hoa Lư đến ngai vàng thì dài hơn mười năm, và phần lớn quãng đường ấy không ai chép lại. Cảm ơn bạn đã lắng nghe.
 
 ### Bảng phân tích (`nguyen-tac-cot-loi.md` mục 10b)
 | Đoạn | Câu phân tích | Dựa vào sự việc và nguồn | Rào đón |

@@ -1,2 +1,2 @@
 tm22ca medium khong_goi_y
-lần 1 không gợi ý
+lần 1 không gợi ý (chạy lại: lần trước thiếu file giữ chỗ .h.json nên không lưu)

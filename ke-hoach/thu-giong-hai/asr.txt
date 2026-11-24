@@ -1,2 +1,2 @@
-tm23ca
-# nhận dạng giọng tm23 đọc lại 22/11
+tm24ca
+# nhận dạng giọng tm24

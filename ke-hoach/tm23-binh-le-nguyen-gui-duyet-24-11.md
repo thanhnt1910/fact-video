@@ -1,4 +1,10 @@
-# tm23 Bình Lệ Nguyên 1257–1258: lời kể bản 1 gửi duyệt (24/11/2026)
+# tm23 Bình Lệ Nguyên 1257–1258: lời kể bản 2 gửi duyệt (24/11/2026)
+
+**Bản 2 (sửa theo góp ý "câu văn đơn giản, trận đánh chưa kịch tính", 24/11 tối):**
+- Trận Bình Lệ Nguyên kể theo đúng diễn biến, xen hai nguồn: hàng voi bên kia sông → Ngột Lương Hợp Thai chia ba cánh và giăng bẫy cướp thuyền → trận nổ ra, vua xông vào tên đạn → quân lùi, chỉ còn Lê Phụ Trần → lời can "dốc hết vốn vào một ván" → rút xuống thuyền dưới làn tên, tấm ván che → bẫy hỏng vì Triệt Triệt Đô đánh sớm.
+- Người nghe biết cái bẫy trước khi trận nổ ra, nên đoạn rút xuống thuyền có độ căng; câu "Còn cái bẫy cướp thuyền thì sao?" mở phần lời giải theo sử nhà Nguyên.
+- Đông Bộ Đầu tách ba nhịp: đoàn thuyền rời chỗ đóng ngược sông, trên thuyền có cả vua và thái tử mười bảy tuổi, đánh thẳng vào bến.
+- Không thêm sự việc mới; mọi chi tiết trận vẫn theo Toàn thư hoặc Nguyên sử q.121.
 
 Theo mạch truyện `tm23-binh-le-nguyen-mach-truyen-24-11.md` và quyết định của chủ kênh tối 24/11:
 - hook phương án 1;
@@ -8,17 +14,17 @@ Theo mạch truyện `tm23-binh-le-nguyen-mach-truyen-24-11.md` và quyết đ�
 - tm4 bỏ;
 - duyệt bảng nhân vật.
 
-Tổng 38 đoạn, 1.101 chữ, khoảng 5 phút. Mã đoạn 205001–205038. Năm viết bằng chữ ở cả trường đọc, để Gemini khỏi đọc nhầm số như tm19, tm21. Giọng Charon, đọc cả bài một lần gọi, đọc vào sáng sớm hoặc tối muộn.
+Tổng 45 đoạn. 1.271 chữ. khoảng 6 phút. Mã đoạn 205001–205045. Năm viết bằng chữ ở cả trường đọc, để Gemini khỏi đọc nhầm số như tm19, tm21. Giọng Charon, đọc cả bài một lần gọi, đọc vào sáng sớm hoặc tối muộn.
 
 ## Lời kể
 
-### Mở đầu (0–6%)
+### Mở đầu (từ 0%)
 
 205001. Giữa trận, quân mình đã bắt đầu lùi, chỉ còn một người một ngựa xông vào xông ra, sắc mặt bình thản như không có chuyện gì.
 205002. Vậy mà chính người gan nhất trận ấy lại khuyên nhà vua bỏ chạy. Vì sao?
 205003. Muốn hiểu, phải theo một đoàn thuyền, và theo những gì xảy ra mười hai ngày sau đó.
 
-### Mối nguy từ Vân Nam (6–19%)
+### Mối nguy từ Vân Nam (từ 5%)
 
 205004. Chuyện xảy ra gần tám trăm năm trước, vào cuối năm một nghìn hai trăm năm mươi bảy, khi nước ta còn gọi là Đại Việt, dưới thời nhà Trần.
 205005. Lúc ấy, quân Mông Cổ đã đánh chiếm rất nhiều nước, kéo dài tới tận phía tây xa xôi. Họ vừa lấy xong nước Đại Lý ở Vân Nam, sát biên giới nước ta.
@@ -26,53 +32,60 @@ Tổng 38 đoạn, 1.101 chữ, khoảng 5 phút. Mã đoạn 205001–205038. N
 205007. Nhà Trần không trả lời. Không hàng thì phải đánh, nên vua Trần Thái Tông cho quân thủy, quân bộ lên giữ biên giới, đặt dưới quyền Trần Quốc Tuấn.
 205008. Ít lâu sau, lệnh truyền khắp nước chuẩn bị vũ khí. Trong số những người theo vua ra trận có một viên tướng tên là Lê Phụ Trần.
 
-### Bình Lệ Nguyên (19–37%)
+### Bình Lệ Nguyên: cái bẫy và trận đánh (từ 17%)
 
-205009. Ngày mười hai tháng Chạp, quân Mông Cổ tràn xuống tới Bình Lệ Nguyên, vùng Vĩnh Phúc bây giờ, cách kinh thành Thăng Long không xa.
-205010. Theo sử nhà Nguyên, triều đại mà người Mông Cổ lập ra về sau, vua Trần bày voi chiến và rất đông quân bộ ở bên kia sông để chặn.
-205011. Vua Trần Thái Tông tự mình đứng ra chỉ huy, xông vào giữa làn tên đạn. Nhưng quân Đại Việt yếu dần và bắt đầu lùi.
-205012. Nhà vua ngoảnh nhìn hai bên. Chỉ còn Lê Phụ Trần một mình một ngựa ra vào giữa quân Mông Cổ, sắc mặt bình thản như không.
-205013. Lúc ấy có người khuyên vua dừng lại, đánh tiếp cho tới cùng. Lê Phụ Trần thì can, nói đánh như thế là dốc hết vốn vào một ván, nên tạm lánh đi đã.
-205014. Nhà vua nghe theo Lê Phụ Trần. Quân Đại Việt rút khỏi trận, lui về sông Lô, khúc sông Hồng ở phía trên kinh thành.
-205015. Lê Phụ Trần đi sau cùng để chặn hậu. Quân Mông Cổ bắn tên loạn xạ, ông lấy tấm ván thuyền che cho nhà vua khỏi trúng tên.
+205009. Ngày mười hai tháng Chạp, quân Mông Cổ tràn xuống tới Bình Lệ Nguyên, vùng Vĩnh Phúc bây giờ. Từ đó về kinh thành Thăng Long chỉ còn một chặng đường ngắn.
+205010. Nhà vua đem quân ra chặn ngay tại đây. Theo sử nhà Nguyên, triều đại mà người Mông Cổ lập ra về sau, bên kia sông là cả một hàng voi chiến, sau lưng voi là rất đông quân bộ.
+205011. Ngột Lương Hợp Thai không đánh thẳng vào hàng voi. Ông chia quân làm ba cánh để vượt sông, và giao cho cánh đi đầu một việc rất riêng.
+205012. Cánh ấy sang sông rồi phải khoan đánh. Khi quân Đại Việt xông ra, cánh đi sau sẽ chặn phía sau họ, và cánh đi đầu chờ dịp cướp thuyền.
+205013. Không còn thuyền, quân Đại Việt dù có thua chạy cũng chỉ ra tới bờ sông là hết đường. Đó là cái bẫy được giăng sẵn trước trận.
+205014. Trận đánh nổ ra. Vua Trần Thái Tông tự mình đứng ra chỉ huy, xông thẳng vào giữa làn tên đạn như một người lính.
+205015. Nhưng sức quân Mông Cổ quá mạnh. Quân Đại Việt yếu dần, rồi bắt đầu lùi.
+205016. Nhà vua ngoảnh nhìn hai bên. Giữa đám người đang lùi, chỉ còn Lê Phụ Trần một mình một ngựa, ra vào giữa quân Mông Cổ, sắc mặt bình thản như không.
+205017. Lúc ấy có người khuyên vua dừng lại, đánh tiếp cho tới cùng. Lê Phụ Trần thì can, nói đánh như thế là dốc hết vốn vào một ván, nên tạm lánh đi đã.
+205018. Ván ấy mà thua thì mất cả vua lẫn quân. Nhà vua nghe theo Lê Phụ Trần, cho quân rút khỏi trận, xuống thuyền lui về sông Lô, khúc sông Hồng phía trên kinh thành.
+205019. Lê Phụ Trần đi sau cùng để chặn hậu. Tên của quân Mông Cổ bắn tới loạn xạ, và ông giơ tấm ván thuyền lên che cho nhà vua khỏi trúng tên.
 
-### Sử nhà Nguyên chép gì (37–48%)
+### Cái bẫy hỏng (từ 43%)
 
-205016. Ở phía bên kia, sử nhà Nguyên chép một chuyện lạ. Ngột Lương Hợp Thai đã dặn cánh quân đi đầu sang sông rồi khoan đánh, chờ cướp thuyền để quân Đại Việt hết đường chạy.
-205017. Nhưng viên tướng đi đầu là Triệt Triệt Đô lại trái lệnh, đánh ngay. Vì thế quân Đại Việt tuy thua to vẫn kịp xuống thuyền mà thoát.
-205018. Ngột Lương Hợp Thai nổi giận vì tướng dưới quyền trái lệnh. Triệt Triệt Đô sợ tội, uống thuốc độc mà chết.
-205019. Như vậy, cả sử nước ta lẫn sử nhà Nguyên đều chép một điều giống nhau. Thua trận, nhưng quân Đại Việt vẫn rút được, và vẫn còn thuyền.
+205020. Còn cái bẫy cướp thuyền thì sao? Theo sử nhà Nguyên, viên tướng cầm cánh đi đầu là Triệt Triệt Đô đã trái lệnh.
+205021. Triệt Triệt Đô cho quân đánh ngay khi vừa lên tới bờ, không chờ cướp thuyền. Vì thế quân Đại Việt tuy thua to vẫn kịp xuống thuyền mà thoát.
+205022. Ngột Lương Hợp Thai nổi giận vì tướng dưới quyền làm hỏng kế. Triệt Triệt Đô sợ tội, uống thuốc độc mà chết.
+205023. Như vậy, cả sử nước ta lẫn sử nhà Nguyên đều chép một điều giống nhau. Thua trận, nhưng quân Đại Việt vẫn rút được, và vẫn còn thuyền.
 
-### Mất kinh thành, hai câu trả lời trên thuyền (48–66%)
+### Mất kinh thành, hai câu trả lời trên thuyền (từ 51%)
 
-205020. Thế quân Mông Cổ vẫn rất mạnh. Vì vậy, nhà vua lui tiếp xuống sông Thiên Mạc ở phía dưới kinh thành, bỏ trống Thăng Long, và quân Mông Cổ kéo vào chiếm thành.
-205021. Trên sông, vua đi thuyền nhỏ tới hỏi em mình là Trần Nhật Hiệu, người đang coi việc quân, xem bây giờ phải làm sao.
-205022. Trần Nhật Hiệu ngồi dựa mạn thuyền, không đứng dậy nổi. Ông chấm ngón tay vào nước, viết lên mạn thuyền hai chữ nhập Tống, nghĩa là chạy sang nước Tống.
-205023. Vua hỏi đội quân Tinh Cương do ông chỉ huy đâu rồi. Trần Nhật Hiệu chỉ đáp rằng không gọi chúng đến được.
-205024. Lập tức, vua dời thuyền sang hỏi Trần Thủ Độ, người đứng đầu triều đình. Câu trả lời lần này là đầu thần chưa rơi xuống đất, bệ hạ đừng lo gì khác.
-205025. Về sau, sử gia Ngô Sĩ Liên chê Trần Nhật Hiệu là người khiếp sợ, giặc đến không có kế chống giữ, lại còn xui vua chạy sang nhờ nước khác.
-205026. Kinh thành đã mất, nhưng nhà vua vẫn còn đoàn thuyền và quân lính ở dưới sông Thiên Mạc, những thứ đã rút được khỏi Bình Lệ Nguyên.
+205024. Thế quân Mông Cổ vẫn rất mạnh. Vì vậy, nhà vua lui tiếp xuống sông Thiên Mạc ở phía dưới kinh thành, bỏ trống Thăng Long, và quân Mông Cổ kéo vào chiếm thành.
+205025. Trên sông, vua đi thuyền nhỏ tới hỏi em mình là Trần Nhật Hiệu, người đang coi việc quân, xem bây giờ phải làm sao.
+205026. Trần Nhật Hiệu ngồi dựa mạn thuyền, không đứng dậy nổi. Ông chấm ngón tay vào nước, viết lên mạn thuyền hai chữ nhập Tống, nghĩa là chạy sang nước Tống.
+205027. Vua hỏi đội quân Tinh Cương do ông chỉ huy đâu rồi. Trần Nhật Hiệu chỉ đáp rằng không gọi chúng đến được.
+205028. Lập tức, vua dời thuyền sang hỏi Trần Thủ Độ, người đứng đầu triều đình. Câu trả lời lần này là đầu thần chưa rơi xuống đất, bệ hạ đừng lo gì khác.
+205029. Về sau, sử gia Ngô Sĩ Liên chê Trần Nhật Hiệu là người khiếp sợ, giặc đến không có kế chống giữ, lại còn xui vua chạy sang nhờ nước khác.
+205030. Kinh thành đã mất, nhưng nhà vua vẫn còn đoàn thuyền và quân lính ở dưới sông Thiên Mạc, những thứ đã rút được khỏi Bình Lệ Nguyên.
 
-### Đông Bộ Đầu (66–77%)
+### Đông Bộ Đầu (từ 67%)
 
-205027. Ngày hai mươi bốn tháng Chạp, đúng mười hai ngày sau trận thua, vua cùng thái tử Trần Hoảng ngồi thuyền lớn có lầu, dẫn quân ngược sông lên kinh thành.
-205028. Đoàn thuyền tiến tới Đông Bộ Đầu, một bến sông Hồng gần cầu Long Biên bây giờ, nơi quân Mông Cổ đang đóng. Ngay tại bến ấy, quân Đại Việt đánh tan quân Mông Cổ.
-205029. Quân Mông Cổ phải rút ngược lên phía Vân Nam. Tới trại Quy Hóa ở miền núi, chủ trại là Hà Bổng gọi người trong vùng ra đánh úp thêm một trận.
-205030. Đám quân ấy cướp phá rồi đi, không ở lại chiếm đất, nên người bấy giờ gọi chúng là giặc Phật.
+205031. Ngày hai mươi bốn tháng Chạp, đúng mười hai ngày sau trận thua, đoàn thuyền ấy rời chỗ đóng, ngược sông Hồng tiến lên phía kinh thành.
+205032. Trên những chiếc thuyền lớn có lầu là cả nhà vua lẫn thái tử Trần Hoảng, khi ấy mới mười bảy tuổi. Lần này, chính họ đặt cả hai đời vua vào một trận.
+205033. Đích đến là Đông Bộ Đầu, một bến sông Hồng gần cầu Long Biên bây giờ, nơi quân Mông Cổ đang đóng.
+205034. Đoàn thuyền đánh thẳng vào bến. Quân Mông Cổ bị phá tan ngay tại Đông Bộ Đầu, và kinh thành trở về tay nhà Trần.
+205035. Quân Mông Cổ phải rút ngược lên phía Vân Nam. Tới trại Quy Hóa ở miền núi, chủ trại là Hà Bổng gọi người trong vùng ra đánh úp thêm một trận.
+205036. Đám quân ấy cướp phá rồi đi, không ở lại chiếm đất, nên người bấy giờ gọi chúng là giặc Phật.
+205037. Có điều, sử nhà Nguyên kể một cái kết khác. Theo sử nhà Nguyên, bảy ngày sau khi quân Mông Cổ vào nước ta thì vua Trần xin quy phục, rồi quân Mông Cổ mới rút về.
 
-### Hai cái kết (77–83%)
+### Hai cái kết (từ 83%)
 
-205031. Có điều, sử nhà Nguyên kể một cái kết khác. Theo sử nhà Nguyên, bảy ngày sau khi quân Mông Cổ vào nước ta thì vua Trần xin quy phục, rồi quân Mông Cổ mới rút về.
-205032. Hai bộ sử của hai bên chép hai cái kết ngược nhau, và đến nay người ta vẫn đặt chúng cạnh nhau như thế.
+205038. Hai bộ sử của hai bên chép hai cái kết ngược nhau, và đến nay người ta vẫn đặt chúng cạnh nhau như thế.
+205039. Còn ở Thăng Long, ngày mồng một Tết năm sau, nhà vua lại ngự điện cho trăm quan vào chầu, và dân chúng làm ăn yên ổn như cũ.
 
-### Người khuyên lui (83–100%)
+### Người khuyên lui (từ 87%)
 
-205033. Còn ở Thăng Long, ngày mồng một Tết năm sau, nhà vua lại ngự điện cho trăm quan vào chầu, và dân chúng làm ăn yên ổn như cũ.
-205034. Khi xét công, vua cho Lê Phụ Trần làm Ngự sử đại phu, một chức quan lớn trong triều, và gả công chúa Chiêu Thánh cho ông.
-205035. Vua nói với ông rằng nếu không có ông thì đâu có ngày hôm nay. Công chúa Chiêu Thánh chính là Lý Chiêu Hoàng, vị vua cuối cùng của nhà Lý, từng là hoàng hậu của vua Trần Thái Tông.
-205036. Nhưng chuyện với nhà Nguyên chưa xong. Sứ nhà Nguyên sang đòi cống nộp mỗi năm, đòi thêm lúc này lúc khác. Nhà vua cử Lê Phụ Trần đi sứ, và cuối cùng định lệ ba năm mới cống một lần.
-205037. Người từng lấy ván thuyền che tên cho vua ngoài trận, giờ lại sang tận đất nhà Nguyên để giữ nước bằng lời nói.
-205038. Lê Phụ Trần khuyên lui để giữ lấy đoàn thuyền, và mười hai ngày sau đoàn thuyền ấy lấy lại kinh thành. Cảm ơn bạn đã lắng nghe câu chuyện này.
+205040. Khi xét công, vua cho Lê Phụ Trần làm Ngự sử đại phu, một chức quan lớn trong triều, và gả công chúa Chiêu Thánh cho ông.
+205041. Vua nói với ông rằng nếu không có ông thì đâu có ngày hôm nay. Công chúa Chiêu Thánh chính là Lý Chiêu Hoàng, vị vua cuối cùng của nhà Lý, từng là hoàng hậu của vua Trần Thái Tông.
+205042. Nhưng chuyện với nhà Nguyên chưa xong. Sứ nhà Nguyên sang đòi cống nộp mỗi năm, đòi thêm lúc này lúc khác.
+205043. Nhà vua cử Lê Phụ Trần đi sứ, và cuối cùng định lệ ba năm mới cống một lần.
+205044. Người từng lấy ván thuyền che tên cho vua ngoài trận, giờ lại sang tận đất nhà Nguyên để giữ nước bằng lời nói.
+205045. Lê Phụ Trần khuyên lui để giữ lấy đoàn thuyền, và mười hai ngày sau đoàn thuyền ấy lấy lại kinh thành. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Ghi chú độ chắc
 - **Theo Toàn thư (năm Đinh Tỵ 1257, Mậu Ngọ 1258):**
@@ -97,7 +110,11 @@ Tổng 38 đoạn, 1.101 chữ, khoảng 5 phút. Mã đoạn 205001–205038. N
 - **Đoạn 205009, "vùng Vĩnh Phúc bây giờ":** theo chú thích bản dịch Toàn thư, Bình Lệ Nguyên có lẽ ở gần Hương Canh, Bình Xuyên. Nói "vùng" vì chỗ chính xác chưa chắc.
 - **Đoạn 205005, "đánh chiếm rất nhiều nước, tới tận phía tây xa xôi":** kiến thức chung về đế quốc Mông Cổ, không gắn số liệu.
 - **Đoạn 205010:** "triều đại mà người Mông Cổ lập ra về sau" là lời giải thích cho người nghe. Năm 1257 người Mông Cổ chưa lập nhà Nguyên, nhưng bộ sử về họ mang tên Nguyên sử.
-- **Đoạn 205017, "Vì thế quân Đại Việt… vẫn kịp xuống thuyền":** quan hệ nhân quả có sẵn trong câu của Nguyên sử (Triệt Triệt Đô trái lệnh, quân ta tuy thua to vẫn được xuống thuyền thoát), không phải suy luận của người kể.
+- **Đoạn 205011–205013 (cái bẫy):** theo lời dặn trong Nguyên sử q.121 (汝軍既濟，勿與之戰，彼必來逆我，駙馬隨斷其後，汝伺便奪其船。蠻若潰走，至江無船，必為我擒矣). Câu "đó là cái bẫy được giăng sẵn" là lời người kể tóm ý.
+- **Đoạn 205021 ("Vì thế quân Đại Việt… vẫn kịp xuống thuyền"):** quan hệ nhân quả có sẵn trong Nguyên sử (師既登岸，即縱與戰，徹徹都違命，蠻雖大敗，得駕舟逸去), không phải suy luận của người kể.
+- **Đoạn 205018 ("Ván ấy mà thua thì mất cả vua lẫn quân"):** lời người kể giải nghĩa lời can "đánh một ván dốc túi" của Toàn thư.
+- **Đoạn 205032 ("chính họ đặt cả hai đời vua vào một trận"):** diễn giải từ việc Toàn thư chép vua và thái tử cùng ngự lâu thuyền; thái tử về sau là vua Trần Thánh Tông.
+- **Thứ tự trận:** Toàn thư không chép việc vượt sông; Nguyên sử không ghi tên nơi đánh. Lời kể coi đó là cùng một trận vì cả hai chép trận đầu tiên sau khi quân Mông Cổ vào đất Đại Việt.
 - **Đoạn 205019:** đặt hai nguồn cạnh nhau, không nói lời can của Lê Phụ Trần gây ra việc thoát bằng thuyền.
 - **Đoạn 205026:** kinh thành mất nhưng còn thuyền và quân. Câu này dựa vào hai việc đã kể, là vua đi thuyền ở Thiên Mạc và ngày 24 dẫn lâu thuyền đánh lên.
 - **Đoạn 205031–205032, hai cái kết:** nói đúng hai nguồn, không phân xử.
@@ -118,10 +135,9 @@ Tổng 38 đoạn, 1.101 chữ, khoảng 5 phút. Mã đoạn 205001–205038. N
 - **Bỏ:** chuyện Hoàng Cự Đà và quả xoài, ấn báu bị mất, nhường ngôi.
 
 ## Thời điểm biến cố chính
-- Quân Mông Cổ tới Bình Lệ Nguyên ở đoạn 205009, khoảng **19%** (giây 59). Mục tiêu 35–45%.
+- Quân Mông Cổ tới Bình Lệ Nguyên ở đoạn 205009, khoảng **17%**; trận nổ ra ở đoạn 205014, khoảng **29%**; lời can của Lê Phụ Trần ở khoảng 35%. Mục tiêu 35–45%.
 - **Lý do lệch:** góc kể là chuyện sau trận thua (lui, cảnh trên thuyền, Đông Bộ Đầu, phần thưởng), nên trận phải đến sớm. Phần bối cảnh chỉ cần ba việc: Mông Cổ lấy Vân Nam, sứ đòi hàng, chuẩn bị quân. Tôi không kéo dài phần này để đạt tỷ lệ.
-- **Khoảnh khắc nghịch lý của hook** (Lê Phụ Trần khuyên lui, đoạn 205013) ở khoảng 28%.
-- **Cao trào thứ hai** (Đông Bộ Đầu, đoạn 205027) ở khoảng 66%.
+- **Cao trào thứ hai** (Đông Bộ Đầu, đoạn 205031–205034) ở khoảng 67–74%.
 
 ## Ba câu hỏi người chưa học sử
 - **Ai đánh ai:** quân Mông Cổ đánh Đại Việt thời nhà Trần (đoạn 205004–205006).
@@ -149,13 +165,13 @@ Tổng 38 đoạn, 1.101 chữ, khoảng 5 phút. Mã đoạn 205001–205038. N
    - "tức là", "nghĩa là" dùng 1 lần (đoạn 205022);
    - không hai đoạn liền nhau cùng chữ mở;
    - câu ngắn xen câu dài.
-5. **Kỹ thuật:** 38 đoạn, mọi đoạn ≤32 chữ và ≤2 câu.
+5. **Kỹ thuật:** 45 đoạn, mọi đoạn ≤32 chữ và ≤2 câu.
 
 ## Kết quả bộ kiểm
 - `kiem_kich_ban`: 0 ❌, 0 ⚠️.
 - `kiem_khung`, `kiem_cau_cut`, `kiem_giong_van`: 0 ❌, 0 ⚠️.
 - `kiem_mo_dau`: 0 ❌, 1 ⚠️ (đoạn 4 có năm và tên nhà Trần; chấp nhận, vì đây là câu trả lời "lúc nào").
-- `kiem_mach_ke`: 0 ❌, 7 ⚠️.
+- `kiem_mach_ke`: 0 ❌, 7 ⚠️ (thêm "trích nguồn quá 2 lần": cố ý, vì trận kể xen hai bộ sử và phải nói rõ chi tiết nào của sử nhà Nguyên).
   - "hook có năm": hook không có năm; năm nằm ở đoạn 4.
   - "ít từ nối": đã thêm "vì vậy", "nhưng".
   - Năm đoạn có 4–5 tên riêng, gồm tên sông, tên đất chú thích ngay trong câu.

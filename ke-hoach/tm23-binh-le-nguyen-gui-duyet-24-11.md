@@ -1,5 +1,7 @@
 # tm23 Bình Lệ Nguyên 1257–1258: lời kể bản 4 gửi duyệt (24/11/2026)
 
+**Bản 4b (24/11, chủ kênh: thời ấy chưa có súng đạn):** "tên đạn" ở đoạn 1 và 15 đổi thành "mũi tên", "làn tên". Toàn thư dịch "xông pha tên đạn" là thành ngữ cũ, nhưng người nghe hiểu là súng đạn nên không dùng.
+
 **Bản 4 (24/11 tối, chủ kênh: rà toàn bộ cách dùng từ; "quân Đại Việt yếu dần" nghe như sức khỏe):**
 - Đoạn 16: "Quân Đại Việt yếu dần" → "thế trận nghiêng dần về phía quân Mông Cổ, các hàng quân Đại Việt bị dồn ép, bắt đầu phải rút".
 - Đoạn 3: "khuyên nhà vua bỏ chạy" → "khuyên nhà vua rút quân"; câu kết "khuyên lui" → "khuyên rút quân".
@@ -20,7 +22,7 @@
 **Bản 3 (24/11 tối, góp ý "hook hơi đơn giản, không gọi giặc là ông"):** hook viết lại thành bốn đoạn (tên đạn khắp trận → một viên tướng một mình một ngựa → chính người ấy khuyên bỏ chạy, "hèn nhát hay là một nước cờ?" → theo một đoàn thuyền suốt mười hai ngày); câu "Ông chia quân làm ba cánh" (chỉ Ngột Lương Hợp Thai) đổi thành "Quân Mông Cổ chia làm ba cánh". Rà lại: mọi chữ "ông" còn lại đều chỉ người bên ta (Lê Phụ Trần, Trần Nhật Hiệu).
 
 **Bản 2 (sửa theo góp ý "câu văn đơn giản, trận đánh chưa kịch tính", 24/11 tối):**
-- Trận Bình Lệ Nguyên kể theo đúng diễn biến, xen hai nguồn: hàng voi bên kia sông → Ngột Lương Hợp Thai chia ba cánh và giăng bẫy cướp thuyền → trận nổ ra, vua xông vào tên đạn → quân lùi, chỉ còn Lê Phụ Trần → lời can "dốc hết vốn vào một ván" → rút xuống thuyền dưới làn tên, tấm ván che → bẫy hỏng vì Triệt Triệt Đô đánh sớm.
+- Trận Bình Lệ Nguyên kể theo đúng diễn biến, xen hai nguồn: hàng voi bên kia sông → Ngột Lương Hợp Thai chia ba cánh và giăng bẫy cướp thuyền → trận nổ ra, vua xông vào làn tên → quân lùi, chỉ còn Lê Phụ Trần → lời can "dốc hết vốn vào một ván" → rút xuống thuyền dưới làn tên, tấm ván che → bẫy hỏng vì Triệt Triệt Đô đánh sớm.
 - Người nghe biết cái bẫy trước khi trận nổ ra, nên đoạn rút xuống thuyền có độ căng; câu "Còn cái bẫy cướp thuyền thì sao?" mở phần lời giải theo sử nhà Nguyên.
 - Đông Bộ Đầu tách ba nhịp: đoàn thuyền rời chỗ đóng ngược sông, trên thuyền có cả vua và thái tử mười bảy tuổi, đánh thẳng vào bến.
 - Không thêm sự việc mới; mọi chi tiết trận vẫn theo Toàn thư hoặc Nguyên sử q.121.
@@ -39,7 +41,7 @@ Tổng 45 đoạn. 1.271 chữ. khoảng 6 phút. Mã đoạn 205001–205047. N
 
 ### Mở đầu (từ 0%)
 
-205001. Tên đạn bay khắp trận, quân Đại Việt đang phải rút dần trước sức tiến của quân Mông Cổ.
+205001. Mũi tên bay khắp trận, quân Đại Việt đang phải rút dần trước sức tiến của quân Mông Cổ.
 205002. Giữa hàng quân đang rút, chỉ một viên tướng vẫn một mình một ngựa xông vào xông ra, sắc mặt bình thản như không.
 205003. Vậy mà ít lâu sau, chính người gan nhất trận ấy lại khuyên nhà vua rút quân. Đó là hèn nhát, hay là một nước cờ?
 205004. Muốn biết, phải theo một đoàn thuyền đi suốt mười hai ngày, từ một trận thua tới một bến sông ngay dưới chân kinh thành.
@@ -59,7 +61,7 @@ Tổng 45 đoạn. 1.271 chữ. khoảng 6 phút. Mã đoạn 205001–205047. N
 205012. Ngột Lương Hợp Thai chia quân làm ba cánh để vượt sông, và giao cho cánh đi đầu một việc riêng.
 205013. Cánh ấy sang sông rồi phải khoan đánh. Khi quân Đại Việt xông ra, cánh đi sau sẽ chặn phía sau họ, và cánh đi đầu chờ dịp cướp thuyền.
 205014. Không còn thuyền, quân Đại Việt dù có thua chạy cũng chỉ ra tới bờ sông là hết đường. Đó là cái bẫy được giăng sẵn trước trận.
-205015. Trận đánh nổ ra. Vua Trần Thái Tông tự mình đứng ra chỉ huy, xông thẳng vào giữa làn tên đạn như một người lính.
+205015. Trận đánh nổ ra. Vua Trần Thái Tông tự mình đứng ra chỉ huy, xông thẳng vào giữa làn tên như một người lính.
 205016. Nhưng thế trận nghiêng dần về phía quân Mông Cổ. Các hàng quân Đại Việt bị dồn ép, bắt đầu phải rút.
 205017. Nhà vua ngoảnh nhìn hai bên. Giữa hàng quân đang rút, chỉ còn Lê Phụ Trần một mình một ngựa, ra vào giữa quân Mông Cổ, sắc mặt bình thản như không.
 205018. Lúc ấy có người khuyên vua dừng lại, đánh tiếp cho tới cùng. Lê Phụ Trần thì can, nói đánh như thế là dốc hết vốn vào một ván, nên tạm lánh đi đã.

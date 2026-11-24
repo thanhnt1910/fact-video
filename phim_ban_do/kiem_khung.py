@@ -26,7 +26,7 @@ TEN = {'hook1': 'Hook 1: câu kể thường', 'hook2': 'Hook 2: lật lại', '
 #   LAP = ⚠️ chỉ khi một kịch bản dùng từ LAP_NGUONG lần trở lên (cụm thông dụng: dùng một hai lần là tự nhiên).
 #   N2 = ⚠️ mỗi lần gặp: có thể đúng ngữ cảnh, cần xem lại. Công cụ chỉ nêu lý do và gợi ý, không tự sửa câu.
 # Không đánh đồng từ ngữ với cách viết: cùng một cụm có thể sáo ở câu này, tự nhiên ở câu khác.
-CAM = ['tên đạn', 'Tên đạn', 'ông ta', 'Ông ta', 'quân Đại Việt yếu dần', 'quân ta yếu dần', 'bắt đầu lùi', 'đang lùi dần', 'dấy được dân', 'dấy dân', 'mộ quân', 'mộ mười vạn', 'giữ lấy châu', 'xưng đế', 'hào trưởng', 'xuất chúng', 'tính kế', 'thổi phồng thế giặc', 'lấy công', 'việc thành thì', 'bước ngoặt quan trọng', 'chi tiết đặc biệt', 'nổi tiếng nhất', 'không thể quên', 'quyết liệt',
+CAM = ['nao núng', 'cực thịnh', 'tên đạn', 'Tên đạn', 'ông ta', 'Ông ta', 'quân Đại Việt yếu dần', 'quân ta yếu dần', 'bắt đầu lùi', 'đang lùi dần', 'dấy được dân', 'dấy dân', 'mộ quân', 'mộ mười vạn', 'giữ lấy châu', 'xưng đế', 'hào trưởng', 'xuất chúng', 'tính kế', 'thổi phồng thế giặc', 'lấy công', 'việc thành thì', 'bước ngoặt quan trọng', 'chi tiết đặc biệt', 'nổi tiếng nhất', 'không thể quên', 'quyết liệt',
        'mạnh mẽ', 'rơi vào tay', 'thất thủ', 'điều đáng chú ý', 'có thể thấy', 'không chỉ', 'bảo toàn lực lượng',
        'được tổ chức', 'câu trả lời nằm ở', 'muốn trả lời', 'coi chung', 'núng thế', 'sắm sửa', 'dấy binh',
        'đặt làm', 'bên này', 'phía bên kia', 'có thể hiểu vì sao', 'kinh hoàng', 'khủng khiếp', 'chấn động',

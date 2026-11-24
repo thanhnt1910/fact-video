@@ -1,2 +1,2 @@
 tm23ca
-# nhận dạng giọng tm23 đọc lại 22/11
+# nhận dạng giọng tm23 lần 2 (thêm tệp giữ chỗ còn thiếu)

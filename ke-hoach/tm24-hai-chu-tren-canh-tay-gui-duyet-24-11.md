@@ -1,4 +1,4 @@
-# tm24 Hai chữ trên cánh tay (1284–1285): lời kể bản 4, gửi duyệt 25/11/2026
+# tm24 Hai chữ trên cánh tay (1284–1285): lời kể bản 5, gửi duyệt 25/11/2026
 
 Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc duyệt binh ở Đông Bộ Đầu tới lời vua bàn "lấy nhàn chống mệt"; ba trận Hàm Tử, Chương Dương, Tây Kết và chuyện ống đồng để tm25. Hook phương án 1. Giọng Sadaltager/Charon như các tập thủy mặc, chưa đọc giọng (chờ duyệt lời).
 
@@ -8,7 +8,9 @@ Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc d
 
 **Bản 4 (25/11, rà soát lịch sử theo yêu cầu):** đổi "người nô" thành "đầy tớ"; sửa các chỗ lệch Toàn thư (xem mục "Rà soát lịch sử").
 
-**Số liệu:** 66 đoạn, 1.806 chữ, khoảng 10 phút.
+**Bản 5 (25/11):** đoạn Bãi Tân bỏ "mừng lắm", nối "Nói xong, ông cho chèo thuyền đi ngay" (TT: "nói xong cho chèo thuyền đi"); đoạn Đỗ Khắc Chung trở về nối liền với lời dọa cuối của Ô Mã Nhi.
+
+**Số liệu:** 67 đoạn, khoảng 1.830 chữ, khoảng 10 phút.
 
 ## Lời kể
 
@@ -28,12 +30,12 @@ Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc d
 14. Trời đã về chiều mà nhà vua vẫn chưa được ăn bữa cơm sáng. Một người lính tên Trần Lai dâng lên bát cơm nấu bằng gạo xấu.
 15. Nhà vua khen người lính ấy trung thành, rồi ban cho một chức nhỏ ở vùng Bạch Đằng.
 16. Thủy quân nhà Trần tan cả, Hưng Đạo Vương định rút theo đường chân núi. Đi theo ông lúc ấy có Dã Tượng, một người đầy tớ trong nhà.
-17. Hưng Đạo Vương còn một đầy tớ nữa tên Yết Kiêu. Dã Tượng là voi rừng, Yết Kiêu là một loài chó săn, đặt tên con vật là để chỉ thân phận thấp hèn.
+17. Hưng Đạo Vương còn một đầy tớ nữa tên Yết Kiêu. Dã Tượng là voi rừng, Yết Kiêu là một loài chó săn, tên con vật để chỉ thân phận thấp hèn.
 18. Ông đối đãi với hai người đầy tớ ấy rất hậu. Khi quân Nguyên kéo tới, Yết Kiêu được giao giữ thuyền ở Bãi Tân.
 19. Nghe chủ định đi đường núi, Dã Tượng nói ngay rằng Yết Kiêu chưa thấy Đại Vương thì nhất định không rời thuyền.
 20. Hưng Đạo Vương tìm đến Bãi Tân. Giữa lúc thủy quân tan tác, quả nhiên vẫn còn một chiếc thuyền đứng đợi, đó là thuyền của Yết Kiêu.
-21. Mừng lắm, Hưng Đạo Vương nói chim hồng hộc bay được cao là nhờ sáu chiếc lông cánh lớn, thiếu chúng thì cũng chỉ là chim thường.
-22. Thuyền vừa chèo ra giữa dòng thì kỵ binh của quân Nguyên đuổi tới bờ, nhưng đã không kịp nữa.
+21. Bước lên thuyền, Hưng Đạo Vương nói chim hồng hộc bay được cao là nhờ sáu chiếc lông cánh lớn, thiếu chúng thì cũng chỉ là chim thường.
+22. Nói xong, ông cho chèo thuyền đi ngay. Kỵ binh của quân Nguyên đuổi tới bờ thì đã không kịp nữa.
 23. Sang tháng giêng năm một nghìn hai trăm tám mươi lăm, tướng nhà Nguyên là Ô Mã Nhi đánh vào Vạn Kiếp và núi Phả Lại. Quân nhà Trần lại vỡ chạy.
 24. Ngày mười hai, quân Nguyên tràn vào Gia Lâm, Vũ Ninh, Đông Ngàn, vùng Hà Nội và Bắc Ninh bây giờ, rồi bắt được nhiều lính nhà Trần.
 25. Kéo tay áo của họ lên, quân Nguyên thấy người nào cũng xăm hai chữ Sát Thát bằng mực. Quân Nguyên tức giận, giết hại rất nhiều người.
@@ -48,36 +50,37 @@ Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc d
 34. Đây là cánh tay ở đầu câu chuyện. Giữa trại giặc, ông tự giơ ra chính thứ mà quân giặc vừa giết bao người vì nó.
 35. Ô Mã Nhi chuyển sang dọa nạt, rằng đại quân từ xa đến mà nước ngươi còn dám chống lại thì khác gì bọ ngựa giơ càng cản bánh xe.
 36. Viên quan nhỏ đáp rằng đã ép nhau đến đường cùng thì thú còn cắn lại, chim còn mổ lại, huống chi là người.
-37. Đỗ Khắc Chung về rồi. Ô Mã Nhi khen người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình.
-38. Rồi Ô Mã Nhi nói với các tướng, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa.
-39. Đó là câu nói ở đầu câu chuyện. Nhưng trong những ngày ấy, không phải người nào của nhà Trần cũng chọn như Đỗ Khắc Chung.
-40. Đầu tháng hai, Trần Kiện, một người trong họ nhà vua đang giữ vùng Thanh Hóa, đem cả quân đầu hàng quân Nguyên.
-41. Trên đường bị giải về phương Bắc, đến trại Ma Lục ở Lạng Sơn, Trần Kiện bị Nguyễn Địa Lô, một đầy tớ của Hưng Đạo Vương, bắn chết.
-42. Cũng trong những ngày ấy, Trần Bình Trọng đánh nhau với quân Nguyên ở bãi Đà Mạc và bị bắt.
-43. Bị giữ trong trại giặc, Trần Bình Trọng không chịu ăn, quân Nguyên hỏi việc nước cũng không trả lời.
-44. Quân Nguyên hỏi có muốn làm vương đất Bắc không. Trần Bình Trọng thét lên, ta thà làm ma nước Nam chứ không thèm làm vương đất Bắc, rồi bị giết.
-45. Quân Nguyên dồn tới mỗi lúc một gấp. Hai vua lặng lẽ đi một chiếc thuyền nhỏ, còn thuyền ngự thì cho người đưa đi hướng khác để đánh lừa quân giặc.
-46. Giữa lúc vua tôi phiêu dạt, nhiều người nghi ngại Hưng Đạo Vương. Cha ông là Yên Sinh Vương từng có mối hiềm cũ với vua Trần Thái Tông.
-47. Lúc sắp mất, Yên Sinh Vương dặn con phải giành lấy thiên hạ thì cha mới nhắm mắt. Hưng Đạo Vương ghi nhớ, nhưng không cho là phải.
-48. Khi nước nguy, binh quyền trong tay, ông đem lời ấy hỏi hai người đầy tớ. Họ can rằng làm thế được giàu sang một thời mà để tiếng xấu nghìn năm.
-49. Hai người thề thà chết già làm đầy tớ, chứ không làm quan mà mất lòng trung. Hưng Đạo Vương cảm động đến khóc.
-50. Hưng Đạo Vương đi theo vua, tay cầm cây gậy bịt sắt nhọn. Thấy mọi người gườm mắt nhìn, ông rút đầu sắt vứt đi, chỉ chống gậy không.
-51. Tháng ba, Trần Ích Tắc, em ruột của thượng hoàng, đem cả nhà đầu hàng quân Nguyên. Sử nước ta chép rằng Trần Ích Tắc mong được làm vua.
-52. Nhà Nguyên phong cho Trần Ích Tắc làm An Nam quốc vương. Một người chọn chết chứ không làm vương đất Bắc, một người lại nhận tước vương từ tay giặc.
-53. Cùng lúc ấy, tướng Toa Đô của nhà Nguyên từ Chiêm Thành đánh ra vùng Nghệ An, Thanh Hóa bây giờ, hẹn trong ba năm sẽ san phẳng nước ta.
-54. Phía bắc là đạo quân của Thoát Hoan, phía nam là đạo quân của Toa Đô. Nhà Trần bị kẹp giữa hai gọng kìm.
-55. Giữa lúc ấy, Trần Nhân Tông lại bàn với các quan một cách đánh khác hẳn. Vì sao nhà vua cho rằng mình vẫn có thể thắng?
-56. Nhà vua nói quân giặc nhiều năm phải đi xa, lương thảo chở qua hàng vạn dặm đường, thế nào cũng mỏi mệt.
-57. Ta lấy sức nhàn mà chống sức mệt, trước hết làm cho quân giặc nhụt chí, thì chắc chắn sẽ đánh bại được chúng.
-58. Quân Nguyên thắng nhiều trận, nhưng càng tiến sâu thì đường chở lương càng dài. Thời gian bắt đầu đứng về phía người giữ nước.
-59. Mùa hè năm ấy, quân nhà Trần đánh trở lại. Quân Nguyên thua liền mấy trận và phải bỏ chạy khỏi Đại Việt.
-60. Ba năm sau, quân Nguyên còn kéo sang thêm một lần nữa và lại thua chạy. Đến lúc ấy, nhà Trần mới xét công và xử tội những người từng theo giặc.
-61. Trong đồ quân Nguyên bỏ lại, người ta bắt được cả một hòm thư xin hàng của nhiều vương hầu, quan lại nhà Trần.
-62. Thượng hoàng Trần Thánh Tông sai đốt hết đi, để những người từng dao động được yên lòng. Chỉ ai đã thật sự sang hàng mới bị xử tội.
-63. Trần Kiện bị xóa họ Trần, đổi sang họ Mai. Trần Ích Tắc bị gọi là Ả Trần, ý chê hèn nhát, rồi chết ở đất Bắc trong hổ thẹn.
-64. Còn viên quan nhỏ giơ cánh tay giữa trại giặc năm nào được ban họ vua. Đỗ Khắc Chung từ đó thành Trần Khắc Chung, được giữ chức quan lớn trong triều.
-65. Nhìn lại những ngày ấy, có thể hiểu vì sao người ta vẫn xăm. Người đã xăm hai chữ ấy lên tay thì không còn đường quay sang hàng giặc.
-66. Hai chữ trên cánh tay là lời thề không quay đầu, và nhà Trần đã giữ trọn lời thề ấy. Cảm ơn bạn đã lắng nghe câu chuyện này.
+37. Ô Mã Nhi dọa thêm một lần rồi để Đỗ Khắc Chung trở về. Khi viên quan nhỏ đã đi khỏi, Ô Mã Nhi mới quay sang khen với các tướng.
+38. Theo lời Ô Mã Nhi, người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình.
+39. Rồi Ô Mã Nhi kết lại, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa.
+40. Đó là câu nói ở đầu câu chuyện. Nhưng trong những ngày ấy, không phải người nào của nhà Trần cũng chọn như Đỗ Khắc Chung.
+41. Đầu tháng hai, Trần Kiện, một người trong họ nhà vua đang giữ vùng Thanh Hóa, đem cả quân đầu hàng quân Nguyên.
+42. Trên đường bị giải về phương Bắc, đến trại Ma Lục ở Lạng Sơn, Trần Kiện bị Nguyễn Địa Lô, một đầy tớ của Hưng Đạo Vương, bắn chết.
+43. Cũng trong những ngày ấy, Trần Bình Trọng đánh nhau với quân Nguyên ở bãi Đà Mạc và bị bắt.
+44. Bị giữ trong trại giặc, Trần Bình Trọng không chịu ăn, quân Nguyên hỏi việc nước cũng không trả lời.
+45. Quân Nguyên hỏi có muốn làm vương đất Bắc không. Trần Bình Trọng thét lên, ta thà làm ma nước Nam chứ không thèm làm vương đất Bắc, rồi bị giết.
+46. Quân Nguyên dồn tới mỗi lúc một gấp. Hai vua lặng lẽ đi một chiếc thuyền nhỏ, còn thuyền ngự thì cho người đưa đi hướng khác để đánh lừa quân giặc.
+47. Giữa lúc vua tôi phiêu dạt, nhiều người nghi ngại Hưng Đạo Vương. Cha ông là Yên Sinh Vương từng có mối hiềm cũ với vua Trần Thái Tông.
+48. Lúc sắp mất, Yên Sinh Vương dặn con phải giành lấy thiên hạ thì cha mới nhắm mắt. Hưng Đạo Vương ghi nhớ, nhưng không cho là phải.
+49. Khi nước nguy, binh quyền trong tay, ông đem lời ấy hỏi hai người đầy tớ. Họ can rằng làm thế được giàu sang một thời mà để tiếng xấu nghìn năm.
+50. Hai người thề thà chết già làm đầy tớ, chứ không làm quan mà mất lòng trung. Hưng Đạo Vương cảm động đến khóc.
+51. Hưng Đạo Vương đi theo vua, tay cầm cây gậy bịt sắt nhọn. Thấy mọi người gườm mắt nhìn, ông rút đầu sắt vứt đi, chỉ chống gậy không.
+52. Tháng ba, Trần Ích Tắc, em ruột của thượng hoàng, đem cả nhà đầu hàng quân Nguyên. Sử nước ta chép rằng Trần Ích Tắc mong được làm vua.
+53. Nhà Nguyên phong cho Trần Ích Tắc làm An Nam quốc vương. Một người chọn chết chứ không làm vương đất Bắc, một người lại nhận tước vương từ tay giặc.
+54. Cùng lúc ấy, tướng Toa Đô của nhà Nguyên từ Chiêm Thành đánh ra vùng Nghệ An, Thanh Hóa bây giờ, hẹn trong ba năm sẽ san phẳng nước ta.
+55. Phía bắc là đạo quân của Thoát Hoan, phía nam là đạo quân của Toa Đô. Nhà Trần bị kẹp giữa hai gọng kìm.
+56. Giữa lúc ấy, Trần Nhân Tông lại bàn với các quan một cách đánh khác hẳn. Vì sao nhà vua cho rằng mình vẫn có thể thắng?
+57. Nhà vua nói quân giặc nhiều năm phải đi xa, lương thảo chở qua hàng vạn dặm đường, thế nào cũng mỏi mệt.
+58. Ta lấy sức nhàn mà chống sức mệt, trước hết làm cho quân giặc nhụt chí, thì chắc chắn sẽ đánh bại được chúng.
+59. Quân Nguyên thắng nhiều trận, nhưng càng tiến sâu thì đường chở lương càng dài. Thời gian bắt đầu đứng về phía người giữ nước.
+60. Mùa hè năm ấy, quân nhà Trần đánh trở lại. Quân Nguyên thua liền mấy trận và phải bỏ chạy khỏi Đại Việt.
+61. Ba năm sau, quân Nguyên còn kéo sang thêm một lần nữa và lại thua chạy. Đến lúc ấy, nhà Trần mới xét công và xử tội những người từng theo giặc.
+62. Trong đồ quân Nguyên bỏ lại, người ta bắt được cả một hòm thư xin hàng của nhiều vương hầu, quan lại nhà Trần.
+63. Thượng hoàng Trần Thánh Tông sai đốt hết đi, để những người từng dao động được yên lòng. Chỉ ai đã thật sự sang hàng mới bị xử tội.
+64. Trần Kiện bị xóa họ Trần, đổi sang họ Mai. Trần Ích Tắc bị gọi là Ả Trần, ý chê hèn nhát, rồi chết ở đất Bắc trong hổ thẹn.
+65. Còn viên quan nhỏ giơ cánh tay giữa trại giặc năm nào được ban họ vua. Đỗ Khắc Chung từ đó thành Trần Khắc Chung, được giữ chức quan lớn trong triều.
+66. Nhìn lại những ngày ấy, có thể hiểu vì sao người ta vẫn xăm. Người đã xăm hai chữ ấy lên tay thì không còn đường quay sang hàng giặc.
+67. Hai chữ trên cánh tay là lời thề không quay đầu, và nhà Trần đã giữ trọn lời thề ấy. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Ghi chú độ chắc (nguồn: Toàn thư, Bản kỷ q.5, năm 1284–1285)
 - Duyệt binh Đông Bộ Đầu tháng 8/1284; Trần Phủ về báo tháng 12; hội nghị Diên Hồng; lời bàn Ngô Sĩ Liên về Diên Hồng: TT.
@@ -128,4 +131,4 @@ Câu chuyện Đỗ Khắc Chung và hai chữ Sát Thát được chép trong �
 Đỗ Khắc Chung (chính, áo quan lục nhạt, mũ quan nhỏ, cánh tay có hai chữ xăm); Hưng Đạo Vương (áo đỏ son, giáp vảy đồng, gậy bịt sắt); Trần Nhân Tông (áo vàng đất, mũ vua thấp); Trần Bình Trọng (áo nâu đỏ, khăn nâu, giáo); Trần Ích Tắc (áo xanh ngọc, mũ vương); Yết Kiêu (áo ngắn chàm, mái chèo); Ô Mã Nhi (áo choàng xanh đen, mũ lông, đao cong); Toa Đô (áo đỏ sẫm, mũ trụ tròn, cưỡi ngựa); Thoát Hoan (áo vàng kim, mũ lông viền vàng); lính Đại Việt áo chàm khăn đỏ, giáo khiên mây, nỏ; lính Nguyên áo da nâu xám, mũ lông hoặc mũ trụ, cung, đao cong, giáo móc.
 
 ## Cần chủ kênh quyết
-1. Phần kết sau khi sửa mốc năm (đoạn 59–66) và bình luận ghim nháp có được không.
+1. Phần kết sau khi sửa mốc năm (đoạn 60–67) và bình luận ghim nháp có được không.

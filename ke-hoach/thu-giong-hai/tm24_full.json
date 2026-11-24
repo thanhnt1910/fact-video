@@ -132,8 +132,8 @@
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Hưng Đạo Vương còn một đầy tớ nữa tên Yết Kiêu. Dã Tượng là voi rừng, Yết Kiêu là một loài chó săn, đặt tên con vật là để chỉ thân phận thấp hèn.",
-  "hien": "Hưng Đạo Vương còn một đầy tớ nữa tên Yết Kiêu. Dã Tượng là voi rừng, Yết Kiêu là một loài chó săn, đặt tên con vật là để chỉ thân phận thấp hèn."
+  "text": "Hưng Đạo Vương còn một đầy tớ nữa tên Yết Kiêu. Dã Tượng là voi rừng, Yết Kiêu là một loài chó săn, tên con vật để chỉ thân phận thấp hèn.",
+  "hien": "Hưng Đạo Vương còn một đầy tớ nữa tên Yết Kiêu. Dã Tượng là voi rừng, Yết Kiêu là một loài chó săn, tên con vật để chỉ thân phận thấp hèn."
  },
  {
   "n": 206018,
@@ -164,16 +164,16 @@
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Mừng lắm, Hưng Đạo Vương nói chim hồng hộc bay được cao là nhờ sáu chiếc lông cánh lớn, thiếu chúng thì cũng chỉ là chim thường.",
-  "hien": "Mừng lắm, Hưng Đạo Vương nói chim hồng hộc bay được cao là nhờ sáu chiếc lông cánh lớn, thiếu chúng thì cũng chỉ là chim thường."
+  "text": "Bước lên thuyền, Hưng Đạo Vương nói chim hồng hộc bay được cao là nhờ sáu chiếc lông cánh lớn, thiếu chúng thì cũng chỉ là chim thường.",
+  "hien": "Bước lên thuyền, Hưng Đạo Vương nói chim hồng hộc bay được cao là nhờ sáu chiếc lông cánh lớn, thiếu chúng thì cũng chỉ là chim thường."
  },
  {
   "n": 206022,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Thuyền vừa chèo ra giữa dòng thì kỵ binh của quân Nguyên đuổi tới bờ, nhưng đã không kịp nữa.",
-  "hien": "Thuyền vừa chèo ra giữa dòng thì kỵ binh của quân Nguyên đuổi tới bờ, nhưng đã không kịp nữa."
+  "text": "Nói xong, ông cho chèo thuyền đi ngay. Kỵ binh của quân Nguyên đuổi tới bờ thì đã không kịp nữa.",
+  "hien": "Nói xong, ông cho chèo thuyền đi ngay. Kỵ binh của quân Nguyên đuổi tới bờ thì đã không kịp nữa."
  },
  {
   "n": 206023,
@@ -292,19 +292,27 @@
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Đỗ Khắc Chung về rồi. Ô Mã Nhi khen người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình.",
-  "hien": "Đỗ Khắc Chung về rồi. Ô Mã Nhi khen người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình."
+  "text": "Ô Mã Nhi dọa thêm một lần rồi để Đỗ Khắc Chung trở về. Khi viên quan nhỏ đã đi khỏi, Ô Mã Nhi mới quay sang khen với các tướng.",
+  "hien": "Ô Mã Nhi dọa thêm một lần rồi để Đỗ Khắc Chung trở về. Khi viên quan nhỏ đã đi khỏi, Ô Mã Nhi mới quay sang khen với các tướng."
  },
  {
   "n": 206038,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Rồi Ô Mã Nhi nói với các tướng, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa.",
-  "hien": "Rồi Ô Mã Nhi nói với các tướng, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa."
+  "text": "Theo lời Ô Mã Nhi, người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình.",
+  "hien": "Theo lời Ô Mã Nhi, người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình."
  },
  {
   "n": 206039,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Rồi Ô Mã Nhi kết lại, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa.",
+  "hien": "Rồi Ô Mã Nhi kết lại, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa."
+ },
+ {
+  "n": 206040,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -312,7 +320,7 @@
   "hien": "Đó là câu nói ở đầu câu chuyện. Nhưng trong những ngày ấy, không phải người nào của nhà Trần cũng chọn như Đỗ Khắc Chung."
  },
  {
-  "n": 206040,
+  "n": 206041,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -320,7 +328,7 @@
   "hien": "Đầu tháng hai, Trần Kiện, một người trong họ nhà vua đang giữ vùng Thanh Hóa, đem cả quân đầu hàng quân Nguyên."
  },
  {
-  "n": 206041,
+  "n": 206042,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -328,7 +336,7 @@
   "hien": "Trên đường bị giải về phương Bắc, đến trại Ma Lục ở Lạng Sơn, Trần Kiện bị Nguyễn Địa Lô, một đầy tớ của Hưng Đạo Vương, bắn chết."
  },
  {
-  "n": 206042,
+  "n": 206043,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -336,7 +344,7 @@
   "hien": "Cũng trong những ngày ấy, Trần Bình Trọng đánh nhau với quân Nguyên ở bãi Đà Mạc và bị bắt."
  },
  {
-  "n": 206043,
+  "n": 206044,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -344,7 +352,7 @@
   "hien": "Bị giữ trong trại giặc, Trần Bình Trọng không chịu ăn, quân Nguyên hỏi việc nước cũng không trả lời."
  },
  {
-  "n": 206044,
+  "n": 206045,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -352,7 +360,7 @@
   "hien": "Quân Nguyên hỏi có muốn làm vương đất Bắc không. Trần Bình Trọng thét lên, ta thà làm ma nước Nam chứ không thèm làm vương đất Bắc, rồi bị giết."
  },
  {
-  "n": 206045,
+  "n": 206046,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -360,7 +368,7 @@
   "hien": "Quân Nguyên dồn tới mỗi lúc một gấp. Hai vua lặng lẽ đi một chiếc thuyền nhỏ, còn thuyền ngự thì cho người đưa đi hướng khác để đánh lừa quân giặc."
  },
  {
-  "n": 206046,
+  "n": 206047,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -368,7 +376,7 @@
   "hien": "Giữa lúc vua tôi phiêu dạt, nhiều người nghi ngại Hưng Đạo Vương. Cha ông là Yên Sinh Vương từng có mối hiềm cũ với vua Trần Thái Tông."
  },
  {
-  "n": 206047,
+  "n": 206048,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -376,7 +384,7 @@
   "hien": "Lúc sắp mất, Yên Sinh Vương dặn con phải giành lấy thiên hạ thì cha mới nhắm mắt. Hưng Đạo Vương ghi nhớ, nhưng không cho là phải."
  },
  {
-  "n": 206048,
+  "n": 206049,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -384,7 +392,7 @@
   "hien": "Khi nước nguy, binh quyền trong tay, ông đem lời ấy hỏi hai người đầy tớ. Họ can rằng làm thế được giàu sang một thời mà để tiếng xấu nghìn năm."
  },
  {
-  "n": 206049,
+  "n": 206050,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -392,7 +400,7 @@
   "hien": "Hai người thề thà chết già làm đầy tớ, chứ không làm quan mà mất lòng trung. Hưng Đạo Vương cảm động đến khóc."
  },
  {
-  "n": 206050,
+  "n": 206051,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -400,7 +408,7 @@
   "hien": "Hưng Đạo Vương đi theo vua, tay cầm cây gậy bịt sắt nhọn. Thấy mọi người gườm mắt nhìn, ông rút đầu sắt vứt đi, chỉ chống gậy không."
  },
  {
-  "n": 206051,
+  "n": 206052,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -408,7 +416,7 @@
   "hien": "Tháng ba, Trần Ích Tắc, em ruột của thượng hoàng, đem cả nhà đầu hàng quân Nguyên. Sử nước ta chép rằng Trần Ích Tắc mong được làm vua."
  },
  {
-  "n": 206052,
+  "n": 206053,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -416,7 +424,7 @@
   "hien": "Nhà Nguyên phong cho Trần Ích Tắc làm An Nam quốc vương. Một người chọn chết chứ không làm vương đất Bắc, một người lại nhận tước vương từ tay giặc."
  },
  {
-  "n": 206053,
+  "n": 206054,
   "chuong": 6,
   "nhip": "the_nguy",
   "tone": "story",
@@ -424,7 +432,7 @@
   "hien": "Cùng lúc ấy, tướng Toa Đô của nhà Nguyên từ Chiêm Thành đánh ra vùng Nghệ An, Thanh Hóa bây giờ, hẹn trong ba năm sẽ san phẳng nước ta."
  },
  {
-  "n": 206054,
+  "n": 206055,
   "chuong": 6,
   "nhip": "the_nguy",
   "tone": "story",
@@ -432,7 +440,7 @@
   "hien": "Phía bắc là đạo quân của Thoát Hoan, phía nam là đạo quân của Toa Đô. Nhà Trần bị kẹp giữa hai gọng kìm."
  },
  {
-  "n": 206055,
+  "n": 206056,
   "chuong": 6,
   "nhip": "the_nguy",
   "tone": "story",
@@ -440,7 +448,7 @@
   "hien": "Giữa lúc ấy, Trần Nhân Tông lại bàn với các quan một cách đánh khác hẳn. Vì sao nhà vua cho rằng mình vẫn có thể thắng?"
  },
  {
-  "n": 206056,
+  "n": 206057,
   "chuong": 6,
   "nhip": "the_nguy",
   "tone": "story",
@@ -448,7 +456,7 @@
   "hien": "Nhà vua nói quân giặc nhiều năm phải đi xa, lương thảo chở qua hàng vạn dặm đường, thế nào cũng mỏi mệt."
  },
  {
-  "n": 206057,
+  "n": 206058,
   "chuong": 6,
   "nhip": "the_nguy",
   "tone": "story",
@@ -456,7 +464,7 @@
   "hien": "Ta lấy sức nhàn mà chống sức mệt, trước hết làm cho quân giặc nhụt chí, thì chắc chắn sẽ đánh bại được chúng."
  },
  {
-  "n": 206058,
+  "n": 206059,
   "chuong": 6,
   "nhip": "the_nguy",
   "tone": "story",
@@ -464,7 +472,7 @@
   "hien": "Quân Nguyên thắng nhiều trận, nhưng càng tiến sâu thì đường chở lương càng dài. Thời gian bắt đầu đứng về phía người giữ nước."
  },
  {
-  "n": 206059,
+  "n": 206060,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -472,7 +480,7 @@
   "hien": "Mùa hè năm ấy, quân nhà Trần đánh trở lại. Quân Nguyên thua liền mấy trận và phải bỏ chạy khỏi Đại Việt."
  },
  {
-  "n": 206060,
+  "n": 206061,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -480,7 +488,7 @@
   "hien": "Ba năm sau, quân Nguyên còn kéo sang thêm một lần nữa và lại thua chạy. Đến lúc ấy, nhà Trần mới xét công và xử tội những người từng theo giặc."
  },
  {
-  "n": 206061,
+  "n": 206062,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -488,7 +496,7 @@
   "hien": "Trong đồ quân Nguyên bỏ lại, người ta bắt được cả một hòm thư xin hàng của nhiều vương hầu, quan lại nhà Trần."
  },
  {
-  "n": 206062,
+  "n": 206063,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -496,7 +504,7 @@
   "hien": "Thượng hoàng Trần Thánh Tông sai đốt hết đi, để những người từng dao động được yên lòng. Chỉ ai đã thật sự sang hàng mới bị xử tội."
  },
  {
-  "n": 206063,
+  "n": 206064,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -504,7 +512,7 @@
   "hien": "Trần Kiện bị xóa họ Trần, đổi sang họ Mai. Trần Ích Tắc bị gọi là Ả Trần, ý chê hèn nhát, rồi chết ở đất Bắc trong hổ thẹn."
  },
  {
-  "n": 206064,
+  "n": 206065,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -512,7 +520,7 @@
   "hien": "Còn viên quan nhỏ giơ cánh tay giữa trại giặc năm nào được ban họ vua. Đỗ Khắc Chung từ đó thành Trần Khắc Chung, được giữ chức quan lớn trong triều."
  },
  {
-  "n": 206065,
+  "n": 206066,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -520,7 +528,7 @@
   "hien": "Nhìn lại những ngày ấy, có thể hiểu vì sao người ta vẫn xăm. Người đã xăm hai chữ ấy lên tay thì không còn đường quay sang hàng giặc."
  },
  {
-  "n": 206066,
+  "n": 206067,
   "chuong": 8,
   "nhip": "ket",
   "tone": "story",

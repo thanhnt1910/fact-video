@@ -17,8 +17,8 @@ Mỗi tập làm theo bốn bước (`quy-tac/nguyen-tac-cot-loi.md`): mạch tr
 | 9 | 938 | Ngô Quyền, Bạch Đằng | ĐÃ ĐĂNG |
 | 10 | 981 | Lê Hoàn phá Tống | ĐÃ ĐĂNG (tm2). Bản làm lại tm23 (24/11) bỏ vì trùng gần hết sự việc với tm2 |
 | 11 | 1077 | Như Nguyệt | tm3 |
-| 12 | 1257 | Bình Lệ Nguyên (Lê Phụ Trần) | TRÙNG: tm4 đã kể trận này (đoạn 10–15). Không làm riêng (24/11) |
-| 13 | 1258 | Đông Bộ Đầu | tm4 |
+| 12 | 1257 | Bình Lệ Nguyên (Lê Phụ Trần) | tm23, mạch truyện chờ duyệt (24/11); thay tm4 (chưa đăng) |
+| 13 | 1258 | Đông Bộ Đầu | tm4 (chưa đăng); gộp vào tm23 |
 | 14 | 1285 | Hàm Tử, Chương Dương, Tây Kết | tm5 |
 | 15 | 1285–88 | Vạn Kiếp (Trần Quốc Tuấn) | MỚI |
 | 16 | 1288 | Vân Đồn (Trần Khánh Dư) | MỚI (kiểm trùng series Nguyên Mông nm2) |

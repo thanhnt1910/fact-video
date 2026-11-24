@@ -50,9 +50,9 @@ Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc d
 34. Đây là cánh tay ở đầu câu chuyện. Giữa trại giặc, ông tự giơ ra chính thứ mà quân giặc vừa giết bao người vì nó.
 35. Ô Mã Nhi chuyển sang dọa nạt, rằng đại quân từ xa đến mà nước ngươi còn dám chống lại thì khác gì bọ ngựa giơ càng cản bánh xe.
 36. Viên quan nhỏ đáp rằng đã ép nhau đến đường cùng thì thú còn cắn lại, chim còn mổ lại, huống chi là người.
-37. Ô Mã Nhi dọa thêm một lần rồi để Đỗ Khắc Chung trở về. Khi viên quan nhỏ đã đi khỏi, Ô Mã Nhi mới quay sang khen với các tướng.
-38. Theo lời Ô Mã Nhi, người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình.
-39. Rồi Ô Mã Nhi kết lại, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa.
+37. Ô Mã Nhi dọa thêm một lần rồi để Đỗ Khắc Chung trở về. Khi viên quan nhỏ đã đi khỏi, Ô Mã Nhi mới quay sang nói với các tướng.
+38. Ô Mã Nhi khen người ấy bị dọa mà lời lẽ vẫn tự nhiên, không tâng bốc quân Nguyên, cũng không hạ thấp vua mình.
+39. Rồi viên tướng giặc kết lại, nước nó còn có người giỏi, chưa dễ mưu tính được. Quân Nguyên sai người đuổi theo, nhưng Đỗ Khắc Chung đã đi xa.
 40. Đó là câu nói ở đầu câu chuyện. Nhưng trong những ngày ấy, không phải người nào của nhà Trần cũng chọn như Đỗ Khắc Chung.
 41. Đầu tháng hai, Trần Kiện, một người trong họ nhà vua đang giữ vùng Thanh Hóa, đem cả quân đầu hàng quân Nguyên.
 42. Trên đường bị giải về phương Bắc, đến trại Ma Lục ở Lạng Sơn, Trần Kiện bị Nguyễn Địa Lô, một đầy tớ của Hưng Đạo Vương, bắn chết.

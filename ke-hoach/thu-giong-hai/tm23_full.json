@@ -1,0 +1,306 @@
+[
+ {
+  "n": 205001,
+  "chuong": 1,
+  "nhip": "hook1",
+  "tone": "story",
+  "text": "Giữa trận, quân mình đã bắt đầu lùi, chỉ còn một người một ngựa xông vào xông ra, sắc mặt bình thản như không có chuyện gì.",
+  "hien": "Giữa trận, quân mình đã bắt đầu lùi, chỉ còn một người một ngựa xông vào xông ra, sắc mặt bình thản như không có chuyện gì."
+ },
+ {
+  "n": 205002,
+  "chuong": 1,
+  "nhip": "hook2",
+  "tone": "story",
+  "text": "Vậy mà chính người gan nhất trận ấy lại khuyên nhà vua bỏ chạy. Vì sao?",
+  "hien": "Vậy mà chính người gan nhất trận ấy lại khuyên nhà vua bỏ chạy. Vì sao?"
+ },
+ {
+  "n": 205003,
+  "chuong": 1,
+  "nhip": "hook4",
+  "tone": "story",
+  "text": "Muốn hiểu, phải theo một đoàn thuyền, và theo những gì xảy ra mười hai ngày sau đó.",
+  "hien": "Muốn hiểu, phải theo một đoàn thuyền, và theo những gì xảy ra mười hai ngày sau đó."
+ },
+ {
+  "n": 205004,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Chuyện xảy ra gần tám trăm năm trước, vào cuối năm một nghìn hai trăm năm mươi bảy, khi nước ta còn gọi là Đại Việt, dưới thời nhà Trần.",
+  "hien": "Chuyện xảy ra gần tám trăm năm trước, vào cuối năm một nghìn hai trăm năm mươi bảy, khi nước ta còn gọi là Đại Việt, dưới thời nhà Trần."
+ },
+ {
+  "n": 205005,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Lúc ấy, quân Mông Cổ đã đánh chiếm rất nhiều nước, kéo dài tới tận phía tây xa xôi. Họ vừa lấy xong nước Đại Lý ở Vân Nam, sát biên giới nước ta.",
+  "hien": "Lúc ấy, quân Mông Cổ đã đánh chiếm rất nhiều nước, kéo dài tới tận phía tây xa xôi. Họ vừa lấy xong nước Đại Lý ở Vân Nam, sát biên giới nước ta."
+ },
+ {
+  "n": 205006,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Viên tướng Mông Cổ đóng ở Vân Nam tên là Ngột Lương Hợp Thai, và việc đầu tiên tướng này làm là sai sứ sang đòi nhà Trần chịu hàng.",
+  "hien": "Viên tướng Mông Cổ đóng ở Vân Nam tên là Ngột Lương Hợp Thai, và việc đầu tiên tướng này làm là sai sứ sang đòi nhà Trần chịu hàng."
+ },
+ {
+  "n": 205007,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Nhà Trần không trả lời. Không hàng thì phải đánh, nên vua Trần Thái Tông cho quân thủy, quân bộ lên giữ biên giới, đặt dưới quyền Trần Quốc Tuấn.",
+  "hien": "Nhà Trần không trả lời. Không hàng thì phải đánh, nên vua Trần Thái Tông cho quân thủy, quân bộ lên giữ biên giới, đặt dưới quyền Trần Quốc Tuấn."
+ },
+ {
+  "n": 205008,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Ít lâu sau, lệnh truyền khắp nước chuẩn bị vũ khí. Trong số những người theo vua ra trận có một viên tướng tên là Lê Phụ Trần.",
+  "hien": "Ít lâu sau, lệnh truyền khắp nước chuẩn bị vũ khí. Trong số những người theo vua ra trận có một viên tướng tên là Lê Phụ Trần."
+ },
+ {
+  "n": 205009,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Ngày mười hai tháng Chạp, quân Mông Cổ tràn xuống tới Bình Lệ Nguyên, vùng Vĩnh Phúc bây giờ, cách kinh thành Thăng Long không xa.",
+  "hien": "Ngày mười hai tháng Chạp, quân Mông Cổ tràn xuống tới Bình Lệ Nguyên, vùng Vĩnh Phúc bây giờ, cách kinh thành Thăng Long không xa."
+ },
+ {
+  "n": 205010,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Theo sử nhà Nguyên, triều đại mà người Mông Cổ lập ra về sau, vua Trần bày voi chiến và rất đông quân bộ ở bên kia sông để chặn.",
+  "hien": "Theo sử nhà Nguyên, triều đại mà người Mông Cổ lập ra về sau, vua Trần bày voi chiến và rất đông quân bộ ở bên kia sông để chặn."
+ },
+ {
+  "n": 205011,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Vua Trần Thái Tông tự mình đứng ra chỉ huy, xông vào giữa làn tên đạn. Nhưng quân Đại Việt yếu dần và bắt đầu lùi.",
+  "hien": "Vua Trần Thái Tông tự mình đứng ra chỉ huy, xông vào giữa làn tên đạn. Nhưng quân Đại Việt yếu dần và bắt đầu lùi."
+ },
+ {
+  "n": 205012,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Nhà vua ngoảnh nhìn hai bên. Chỉ còn Lê Phụ Trần một mình một ngựa ra vào giữa quân Mông Cổ, sắc mặt bình thản như không.",
+  "hien": "Nhà vua ngoảnh nhìn hai bên. Chỉ còn Lê Phụ Trần một mình một ngựa ra vào giữa quân Mông Cổ, sắc mặt bình thản như không."
+ },
+ {
+  "n": 205013,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Lúc ấy có người khuyên vua dừng lại, đánh tiếp cho tới cùng. Lê Phụ Trần thì can, nói đánh như thế là dốc hết vốn vào một ván, nên tạm lánh đi đã.",
+  "hien": "Lúc ấy có người khuyên vua dừng lại, đánh tiếp cho tới cùng. Lê Phụ Trần thì can, nói đánh như thế là dốc hết vốn vào một ván, nên tạm lánh đi đã."
+ },
+ {
+  "n": 205014,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Nhà vua nghe theo Lê Phụ Trần. Quân Đại Việt rút khỏi trận, lui về sông Lô, khúc sông Hồng ở phía trên kinh thành.",
+  "hien": "Nhà vua nghe theo Lê Phụ Trần. Quân Đại Việt rút khỏi trận, lui về sông Lô, khúc sông Hồng ở phía trên kinh thành."
+ },
+ {
+  "n": 205015,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Lê Phụ Trần đi sau cùng để chặn hậu. Quân Mông Cổ bắn tên loạn xạ, ông lấy tấm ván thuyền che cho nhà vua khỏi trúng tên.",
+  "hien": "Lê Phụ Trần đi sau cùng để chặn hậu. Quân Mông Cổ bắn tên loạn xạ, ông lấy tấm ván thuyền che cho nhà vua khỏi trúng tên."
+ },
+ {
+  "n": 205016,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Ở phía bên kia, sử nhà Nguyên chép một chuyện lạ. Ngột Lương Hợp Thai đã dặn cánh quân đi đầu sang sông rồi khoan đánh, chờ cướp thuyền để quân Đại Việt hết đường chạy.",
+  "hien": "Ở phía bên kia, sử nhà Nguyên chép một chuyện lạ. Ngột Lương Hợp Thai đã dặn cánh quân đi đầu sang sông rồi khoan đánh, chờ cướp thuyền để quân Đại Việt hết đường chạy."
+ },
+ {
+  "n": 205017,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Nhưng viên tướng đi đầu là Triệt Triệt Đô lại trái lệnh, đánh ngay. Vì thế quân Đại Việt tuy thua to vẫn kịp xuống thuyền mà thoát.",
+  "hien": "Nhưng viên tướng đi đầu là Triệt Triệt Đô lại trái lệnh, đánh ngay. Vì thế quân Đại Việt tuy thua to vẫn kịp xuống thuyền mà thoát."
+ },
+ {
+  "n": 205018,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Ngột Lương Hợp Thai nổi giận vì tướng dưới quyền trái lệnh. Triệt Triệt Đô sợ tội, uống thuốc độc mà chết.",
+  "hien": "Ngột Lương Hợp Thai nổi giận vì tướng dưới quyền trái lệnh. Triệt Triệt Đô sợ tội, uống thuốc độc mà chết."
+ },
+ {
+  "n": 205019,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Như vậy, cả sử nước ta lẫn sử nhà Nguyên đều chép một điều giống nhau. Thua trận, nhưng quân Đại Việt vẫn rút được, và vẫn còn thuyền.",
+  "hien": "Như vậy, cả sử nước ta lẫn sử nhà Nguyên đều chép một điều giống nhau. Thua trận, nhưng quân Đại Việt vẫn rút được, và vẫn còn thuyền."
+ },
+ {
+  "n": 205020,
+  "chuong": 7,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Thế quân Mông Cổ vẫn rất mạnh. Vì vậy, nhà vua lui tiếp xuống sông Thiên Mạc ở phía dưới kinh thành, bỏ trống Thăng Long, và quân Mông Cổ kéo vào chiếm thành.",
+  "hien": "Thế quân Mông Cổ vẫn rất mạnh. Vì vậy, nhà vua lui tiếp xuống sông Thiên Mạc ở phía dưới kinh thành, bỏ trống Thăng Long, và quân Mông Cổ kéo vào chiếm thành."
+ },
+ {
+  "n": 205021,
+  "chuong": 8,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Trên sông, vua đi thuyền nhỏ tới hỏi em mình là Trần Nhật Hiệu, người đang coi việc quân, xem bây giờ phải làm sao.",
+  "hien": "Trên sông, vua đi thuyền nhỏ tới hỏi em mình là Trần Nhật Hiệu, người đang coi việc quân, xem bây giờ phải làm sao."
+ },
+ {
+  "n": 205022,
+  "chuong": 8,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Trần Nhật Hiệu ngồi dựa mạn thuyền, không đứng dậy nổi. Ông chấm ngón tay vào nước, viết lên mạn thuyền hai chữ nhập Tống, nghĩa là chạy sang nước Tống.",
+  "hien": "Trần Nhật Hiệu ngồi dựa mạn thuyền, không đứng dậy nổi. Ông chấm ngón tay vào nước, viết lên mạn thuyền hai chữ nhập Tống, nghĩa là chạy sang nước Tống."
+ },
+ {
+  "n": 205023,
+  "chuong": 9,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Vua hỏi đội quân Tinh Cương do ông chỉ huy đâu rồi. Trần Nhật Hiệu chỉ đáp rằng không gọi chúng đến được.",
+  "hien": "Vua hỏi đội quân Tinh Cương do ông chỉ huy đâu rồi. Trần Nhật Hiệu chỉ đáp rằng không gọi chúng đến được."
+ },
+ {
+  "n": 205024,
+  "chuong": 9,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Lập tức, vua dời thuyền sang hỏi Trần Thủ Độ, người đứng đầu triều đình. Câu trả lời lần này là đầu thần chưa rơi xuống đất, bệ hạ đừng lo gì khác.",
+  "hien": "Lập tức, vua dời thuyền sang hỏi Trần Thủ Độ, người đứng đầu triều đình. Câu trả lời lần này là đầu thần chưa rơi xuống đất, bệ hạ đừng lo gì khác."
+ },
+ {
+  "n": 205025,
+  "chuong": 10,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Về sau, sử gia Ngô Sĩ Liên chê Trần Nhật Hiệu là người khiếp sợ, giặc đến không có kế chống giữ, lại còn xui vua chạy sang nhờ nước khác.",
+  "hien": "Về sau, sử gia Ngô Sĩ Liên chê Trần Nhật Hiệu là người khiếp sợ, giặc đến không có kế chống giữ, lại còn xui vua chạy sang nhờ nước khác."
+ },
+ {
+  "n": 205026,
+  "chuong": 10,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Kinh thành đã mất, nhưng nhà vua vẫn còn đoàn thuyền và quân lính ở dưới sông Thiên Mạc, những thứ đã rút được khỏi Bình Lệ Nguyên.",
+  "hien": "Kinh thành đã mất, nhưng nhà vua vẫn còn đoàn thuyền và quân lính ở dưới sông Thiên Mạc, những thứ đã rút được khỏi Bình Lệ Nguyên."
+ },
+ {
+  "n": 205027,
+  "chuong": 11,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Ngày hai mươi bốn tháng Chạp, đúng mười hai ngày sau trận thua, vua cùng thái tử Trần Hoảng ngồi thuyền lớn có lầu, dẫn quân ngược sông lên kinh thành.",
+  "hien": "Ngày hai mươi bốn tháng Chạp, đúng mười hai ngày sau trận thua, vua cùng thái tử Trần Hoảng ngồi thuyền lớn có lầu, dẫn quân ngược sông lên kinh thành."
+ },
+ {
+  "n": 205028,
+  "chuong": 11,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Đoàn thuyền tiến tới Đông Bộ Đầu, một bến sông Hồng gần cầu Long Biên bây giờ, nơi quân Mông Cổ đang đóng. Ngay tại bến ấy, quân Đại Việt đánh tan quân Mông Cổ.",
+  "hien": "Đoàn thuyền tiến tới Đông Bộ Đầu, một bến sông Hồng gần cầu Long Biên bây giờ, nơi quân Mông Cổ đang đóng. Ngay tại bến ấy, quân Đại Việt đánh tan quân Mông Cổ."
+ },
+ {
+  "n": 205029,
+  "chuong": 12,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Quân Mông Cổ phải rút ngược lên phía Vân Nam. Tới trại Quy Hóa ở miền núi, chủ trại là Hà Bổng gọi người trong vùng ra đánh úp thêm một trận.",
+  "hien": "Quân Mông Cổ phải rút ngược lên phía Vân Nam. Tới trại Quy Hóa ở miền núi, chủ trại là Hà Bổng gọi người trong vùng ra đánh úp thêm một trận."
+ },
+ {
+  "n": 205030,
+  "chuong": 12,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Đám quân ấy cướp phá rồi đi, không ở lại chiếm đất, nên người bấy giờ gọi chúng là giặc Phật.",
+  "hien": "Đám quân ấy cướp phá rồi đi, không ở lại chiếm đất, nên người bấy giờ gọi chúng là giặc Phật."
+ },
+ {
+  "n": 205031,
+  "chuong": 12,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Có điều, sử nhà Nguyên kể một cái kết khác. Theo sử nhà Nguyên, bảy ngày sau khi quân Mông Cổ vào nước ta thì vua Trần xin quy phục, rồi quân Mông Cổ mới rút về.",
+  "hien": "Có điều, sử nhà Nguyên kể một cái kết khác. Theo sử nhà Nguyên, bảy ngày sau khi quân Mông Cổ vào nước ta thì vua Trần xin quy phục, rồi quân Mông Cổ mới rút về."
+ },
+ {
+  "n": 205032,
+  "chuong": 13,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Hai bộ sử của hai bên chép hai cái kết ngược nhau, và đến nay người ta vẫn đặt chúng cạnh nhau như thế.",
+  "hien": "Hai bộ sử của hai bên chép hai cái kết ngược nhau, và đến nay người ta vẫn đặt chúng cạnh nhau như thế."
+ },
+ {
+  "n": 205033,
+  "chuong": 13,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Còn ở Thăng Long, ngày mồng một Tết năm sau, nhà vua lại ngự điện cho trăm quan vào chầu, và dân chúng làm ăn yên ổn như cũ.",
+  "hien": "Còn ở Thăng Long, ngày mồng một Tết năm sau, nhà vua lại ngự điện cho trăm quan vào chầu, và dân chúng làm ăn yên ổn như cũ."
+ },
+ {
+  "n": 205034,
+  "chuong": 14,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Khi xét công, vua cho Lê Phụ Trần làm Ngự sử đại phu, một chức quan lớn trong triều, và gả công chúa Chiêu Thánh cho ông.",
+  "hien": "Khi xét công, vua cho Lê Phụ Trần làm Ngự sử đại phu, một chức quan lớn trong triều, và gả công chúa Chiêu Thánh cho ông."
+ },
+ {
+  "n": 205035,
+  "chuong": 14,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Vua nói với ông rằng nếu không có ông thì đâu có ngày hôm nay. Công chúa Chiêu Thánh chính là Lý Chiêu Hoàng, vị vua cuối cùng của nhà Lý, từng là hoàng hậu của vua Trần Thái Tông.",
+  "hien": "Vua nói với ông rằng nếu không có ông thì đâu có ngày hôm nay. Công chúa Chiêu Thánh chính là Lý Chiêu Hoàng, vị vua cuối cùng của nhà Lý, từng là hoàng hậu của vua Trần Thái Tông."
+ },
+ {
+  "n": 205036,
+  "chuong": 14,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Nhưng chuyện với nhà Nguyên chưa xong. Sứ nhà Nguyên sang đòi cống nộp mỗi năm, đòi thêm lúc này lúc khác. Nhà vua cử Lê Phụ Trần đi sứ, và cuối cùng định lệ ba năm mới cống một lần.",
+  "hien": "Nhưng chuyện với nhà Nguyên chưa xong. Sứ nhà Nguyên sang đòi cống nộp mỗi năm, đòi thêm lúc này lúc khác. Nhà vua cử Lê Phụ Trần đi sứ, và cuối cùng định lệ ba năm mới cống một lần."
+ },
+ {
+  "n": 205037,
+  "chuong": 14,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Người từng lấy ván thuyền che tên cho vua ngoài trận, giờ lại sang tận đất nhà Nguyên để giữ nước bằng lời nói.",
+  "hien": "Người từng lấy ván thuyền che tên cho vua ngoài trận, giờ lại sang tận đất nhà Nguyên để giữ nước bằng lời nói."
+ },
+ {
+  "n": 205038,
+  "chuong": 15,
+  "nhip": "ket",
+  "tone": "story",
+  "text": "Lê Phụ Trần khuyên lui để giữ lấy đoàn thuyền, và mười hai ngày sau đoàn thuyền ấy lấy lại kinh thành. Cảm ơn bạn đã lắng nghe câu chuyện này.",
+  "hien": "Lê Phụ Trần khuyên lui để giữ lấy đoàn thuyền, và mười hai ngày sau đoàn thuyền ấy lấy lại kinh thành. Cảm ơn bạn đã lắng nghe câu chuyện này."
+ }
+]

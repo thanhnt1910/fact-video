@@ -4,16 +4,16 @@
   "chuong": 1,
   "nhip": "hook1",
   "tone": "story",
-  "text": "Tên đạn bay khắp trận, quân Đại Việt đang lùi dần trước quân Mông Cổ.",
-  "hien": "Tên đạn bay khắp trận, quân Đại Việt đang lùi dần trước quân Mông Cổ."
+  "text": "Tên đạn bay khắp trận, quân Đại Việt đang phải rút dần trước sức tiến của quân Mông Cổ.",
+  "hien": "Tên đạn bay khắp trận, quân Đại Việt đang phải rút dần trước sức tiến của quân Mông Cổ."
  },
  {
   "n": 205002,
   "chuong": 1,
   "nhip": "hook2",
   "tone": "story",
-  "text": "Giữa đám người đang lùi, chỉ một viên tướng vẫn một mình một ngựa xông vào xông ra, sắc mặt bình thản như không.",
-  "hien": "Giữa đám người đang lùi, chỉ một viên tướng vẫn một mình một ngựa xông vào xông ra, sắc mặt bình thản như không."
+  "text": "Giữa hàng quân đang rút, chỉ một viên tướng vẫn một mình một ngựa xông vào xông ra, sắc mặt bình thản như không.",
+  "hien": "Giữa hàng quân đang rút, chỉ một viên tướng vẫn một mình một ngựa xông vào xông ra, sắc mặt bình thản như không."
  },
  {
   "n": 205003,
@@ -124,16 +124,16 @@
   "chuong": 5,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Nhưng sức quân Mông Cổ quá mạnh. Quân Đại Việt yếu dần, rồi bắt đầu lùi.",
-  "hien": "Nhưng sức quân Mông Cổ quá mạnh. Quân Đại Việt yếu dần, rồi bắt đầu lùi."
+  "text": "Nhưng sức quân Mông Cổ quá mạnh. Quân Đại Việt yếu dần, các hàng quân bắt đầu phải rút.",
+  "hien": "Nhưng sức quân Mông Cổ quá mạnh. Quân Đại Việt yếu dần, các hàng quân bắt đầu phải rút."
  },
  {
   "n": 205017,
   "chuong": 6,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Nhà vua ngoảnh nhìn hai bên. Giữa đám người đang lùi, chỉ còn Lê Phụ Trần một mình một ngựa, ra vào giữa quân Mông Cổ, sắc mặt bình thản như không.",
-  "hien": "Nhà vua ngoảnh nhìn hai bên. Giữa đám người đang lùi, chỉ còn Lê Phụ Trần một mình một ngựa, ra vào giữa quân Mông Cổ, sắc mặt bình thản như không."
+  "text": "Nhà vua ngoảnh nhìn hai bên. Giữa hàng quân đang rút, chỉ còn Lê Phụ Trần một mình một ngựa, ra vào giữa quân Mông Cổ, sắc mặt bình thản như không.",
+  "hien": "Nhà vua ngoảnh nhìn hai bên. Giữa hàng quân đang rút, chỉ còn Lê Phụ Trần một mình một ngựa, ra vào giữa quân Mông Cổ, sắc mặt bình thản như không."
  },
  {
   "n": 205018,

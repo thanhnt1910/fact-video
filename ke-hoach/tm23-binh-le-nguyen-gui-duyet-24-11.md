@@ -138,9 +138,9 @@ Tổng 45 đoạn. 1.271 chữ. khoảng 6 phút. Mã đoạn 205001–205045. N
 - **Bỏ:** chuyện Hoàng Cự Đà và quả xoài, ấn báu bị mất, nhường ngôi.
 
 ## Thời điểm biến cố chính
-- Quân Mông Cổ tới Bình Lệ Nguyên ở đoạn 205010, khoảng **17%**; trận nổ ra ở đoạn 205015, khoảng **29%**; lời can của Lê Phụ Trần ở khoảng 35%. Mục tiêu 35–45%.
+- Quân Mông Cổ tới Bình Lệ Nguyên ở đoạn 205010, khoảng **19%**; trận nổ ra ở đoạn 205015, khoảng **31%**; lời can của Lê Phụ Trần ở khoảng 37%. Mục tiêu 35–45%.
 - **Lý do lệch:** góc kể là chuyện sau trận thua (lui, cảnh trên thuyền, Đông Bộ Đầu, phần thưởng), nên trận phải đến sớm. Phần bối cảnh chỉ cần ba việc: Mông Cổ lấy Vân Nam, sứ đòi hàng, chuẩn bị quân. Tôi không kéo dài phần này để đạt tỷ lệ.
-- **Cao trào thứ hai** (Đông Bộ Đầu, đoạn 205032–205035) ở khoảng 67–74%.
+- **Cao trào thứ hai** (Đông Bộ Đầu, đoạn 205032–205035) ở khoảng 68–75%.
 
 ## Ba câu hỏi người chưa học sử
 - **Ai đánh ai:** quân Mông Cổ đánh Đại Việt thời nhà Trần (đoạn 205005–205007).

@@ -108,7 +108,7 @@ Tổng 45 đoạn. 1.271 chữ. khoảng 6 phút. Mã đoạn 205001–205057. N
 ### Mất kinh thành, hai câu trả lời trên thuyền (từ 55%)
 
 205033. Thế quân Mông Cổ vẫn rất mạnh. Nhà vua đành lui tiếp xuống sông Thiên Mạc ở phía dưới kinh thành, bỏ ngỏ Thăng Long cho quân Mông Cổ tràn vào.
-205034. Trên sông Thiên Mạc, giữa những ngày cuối tháng Chạp, nhà vua ngồi thuyền nhỏ tìm đến em mình là Trần Nhật Hiệu, người đang nắm việc quân. Nhà vua chỉ hỏi một câu, giờ phải làm sao.
+205034. Những ngày cuối tháng Chạp, nhà vua ngồi thuyền nhỏ trên sông Thiên Mạc tìm đến em mình là Trần Nhật Hiệu, người đang nắm việc quân. Nhà vua chỉ hỏi một câu, giờ phải làm sao.
 205035. Câu trả lời không đến bằng lời. Trần Nhật Hiệu ngồi tựa mạn thuyền, không đứng dậy nổi, chỉ lặng lẽ chấm ngón tay xuống nước rồi viết lên mạn thuyền hai chữ nhập Tống.
 205036. Hai chữ ấy có nghĩa là chạy sang nước Tống, bỏ lại đất nước phía sau. Nhà vua hỏi tiếp đội quân Tinh Cương của Trần Nhật Hiệu đâu, thì chỉ nhận được một câu, không gọi họ đến được nữa.
 205037. Không nói thêm lời nào, nhà vua cho dời thuyền sang chỗ Trần Thủ Độ, người đứng đầu triều đình, và hỏi lại đúng câu hỏi ấy.

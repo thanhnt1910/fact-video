@@ -15,9 +15,9 @@ Mỗi tập làm theo bốn bước (`quy-tac/nguyen-tac-cot-loi.md`): mạch tr
 | 7 | 905–930 | Ba đời họ Khúc (Khúc Thừa Dụ, Khúc Hạo, Khúc Thừa Mỹ) | tm21, mạch truyện chờ duyệt (22/11) |
 | 8 | 931 | Dương Đình Nghệ ở Đại La | tm11, đã viết lại |
 | 9 | 938 | Ngô Quyền, Bạch Đằng | ĐÃ ĐĂNG |
-| 10 | 981 | Lê Hoàn phá Tống | ĐÃ ĐĂNG (tm2); làm lại tm23, mạch truyện chờ duyệt (24/11) |
+| 10 | 981 | Lê Hoàn phá Tống | ĐÃ ĐĂNG (tm2). Bản làm lại tm23 (24/11) bỏ vì trùng gần hết sự việc với tm2 |
 | 11 | 1077 | Như Nguyệt | tm3 |
-| 12 | 1257 | Bình Lệ Nguyên (Lê Phụ Trần) | MỚI |
+| 12 | 1257 | Bình Lệ Nguyên (Lê Phụ Trần) | TRÙNG: tm4 đã kể trận này (đoạn 10–15). Không làm riêng (24/11) |
 | 13 | 1258 | Đông Bộ Đầu | tm4 |
 | 14 | 1285 | Hàm Tử, Chương Dương, Tây Kết | tm5 |
 | 15 | 1285–88 | Vạn Kiếp (Trần Quốc Tuấn) | MỚI |

@@ -1,4 +1,6 @@
-# tm23 Lê Hoàn phá Tống, năm 980–981 (làm lại tm2): mạch truyện (bước 1–2, chưa viết văn, chờ duyệt)
+# [BỎ 24/11/2026: trùng gần hết sự việc với tm2 đã đăng] tm23 Lê Hoàn phá Tống, năm 980–981: mạch truyện
+
+> Chủ kênh hỏi có trùng không; so với `tm2_full.json` thì các ý chính (200 chiến thuyền, chờ ở Hoa Bộ, giả hàng, xử tướng, làm hòa) đều đã có ở tm2. Giữ file để tra nguồn Tống sử q.488. Mã tm23 dùng cho chủ đề khác.
 
 Chủ kênh yêu cầu ngày 24/11/2026 làm lại Lê Hoàn phá Tống, viết mới hoàn toàn. Bản cũ là `tm2`, đã đăng. Bản mới theo các quy tắc hiện hành: nhân vật múa rối có khớp, nhân vật chính khác nhân vật phụ, lính hai bên khác nhau cả trang phục lẫn vũ khí, gọi thẳng tên quan và tướng bên xâm lược.
 

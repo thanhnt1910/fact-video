@@ -70,7 +70,7 @@ Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc d
 58. Quân Nguyên thắng nhiều trận, nhưng càng tiến sâu thì đường chở lương càng dài. Thời gian bắt đầu đứng về phía người giữ nước.
 59. Mùa hè năm ấy, quân nhà Trần đánh trở lại. Quân Nguyên thua liền mấy trận, phải bỏ chạy khỏi Đại Việt, đúng như câu nói của Ô Mã Nhi.
 60. Khi quân Nguyên chạy rồi, người ta bắt được cả một hòm thư xin hàng của nhiều vương hầu, quan lại nhà Trần gửi sang trại giặc.
-61. Thượng hoàng Trần Thánh Tông sai đốt hết, không đọc, để những người từng dao động được yên lòng. Chỉ ai đã thật sự sang hàng mới bị xử tội.
+61. Thượng hoàng Trần Thánh Tông sai đốt hết đi, để những người từng dao động được yên lòng. Chỉ ai đã thật sự sang hàng mới bị xử tội.
 62. Trần Kiện bị xóa họ Trần, đổi sang họ Mai. Trần Ích Tắc bị gọi là Ả Trần, ý chê hèn nhát, rồi chết ở đất Bắc trong hổ thẹn.
 63. Còn viên quan nhỏ từng giơ cánh tay giữa trại giặc được ban họ của nhà vua. Đỗ Khắc Chung từ đó thành Trần Khắc Chung, được giữ chức quan lớn trong triều.
 64. Nhìn lại những ngày ấy, có thể hiểu vì sao người ta vẫn xăm. Người đã xăm hai chữ ấy lên tay thì không còn đường quay sang hàng giặc.

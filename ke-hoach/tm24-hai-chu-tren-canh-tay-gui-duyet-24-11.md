@@ -25,8 +25,8 @@ Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc d
 13. Quân nhà Trần đánh không lại, phải rút về bến Vạn Kiếp. Nhà vua Trần Nhân Tông đi một chiếc thuyền nhẹ ra vùng Hải Đông, ven biển phía đông.
 14. Trời đã về chiều mà nhà vua vẫn chưa được ăn bữa cơm sáng. Một người lính tên Trần Lai dâng lên bát cơm nấu bằng gạo xấu.
 15. Nhà vua khen người lính ấy trung thành, rồi ban cho một chức nhỏ ở vùng Bạch Đằng.
-16. Thủy quân nhà Trần tan cả, Hưng Đạo Vương định rút theo đường chân núi. Đi theo ông lúc ấy có Dã Tượng, một người nô trong nhà.
-17. Dã Tượng nghĩa là voi rừng. Người nô thứ hai tên Yết Kiêu, tên một loài chó săn, vì người hầu thấp hèn thời ấy thường bị gọi bằng tên con vật.
+16. Thủy quân nhà Trần tan cả, Hưng Đạo Vương định rút theo đường chân núi. Đi theo ông lúc ấy có Dã Tượng, một người đầy tớ trong nhà.
+17. Dã Tượng nghĩa là voi rừng. Người đầy tớ thứ hai tên Yết Kiêu, tên một loài chó săn, vì kẻ hầu hạ thời ấy thường bị gọi bằng tên con vật.
 18. Hưng Đạo Vương đối đãi với hai người rất hậu. Khi quân Nguyên kéo tới, Yết Kiêu được giao giữ thuyền ở Bãi Tân.
 19. Nghe chủ định đi đường núi, Dã Tượng nói ngay rằng Yết Kiêu chưa thấy Đại Vương thì nhất định không rời thuyền.
 20. Hưng Đạo Vương tìm đến Bãi Tân. Giữa lúc thủy quân tan tác, quả nhiên vẫn còn một chiếc thuyền đứng đợi, đó là thuyền của Yết Kiêu.
@@ -58,7 +58,7 @@ Phạm vi theo chủ kênh duyệt chia hai tập (24/11): tm24 kể từ lúc d
 46. Giữa lúc vua tôi phiêu dạt, nhiều người nghi ngại Hưng Đạo Vương. Cha ông là Yên Sinh Vương từng có mối hiềm cũ với vua Trần Thái Tông.
 47. Lúc sắp mất, Yên Sinh Vương nắm tay con trai, dặn phải giành lấy thiên hạ cho cha thì cha mới nhắm mắt được.
 48. Có lần Hưng Đạo Vương đem lời dặn ấy hỏi Dã Tượng và Yết Kiêu. Hai người can rằng làm thế được giàu sang một thời mà để tiếng xấu nghìn năm.
-49. Họ thề thà chết già làm người nô, chứ không làm quan mà mất lòng trung. Hưng Đạo Vương cảm động đến khóc.
+49. Họ thề thà chết già làm đầy tớ, chứ không làm quan mà mất lòng trung. Hưng Đạo Vương cảm động đến khóc.
 50. Hưng Đạo Vương đi theo vua, tay cầm cây gậy bịt sắt nhọn. Thấy mọi người gườm mắt nhìn, ông rút đầu sắt vứt đi, chỉ chống gậy không.
 51. Tháng ba, Trần Ích Tắc, em ruột của thượng hoàng, đem cả nhà đầu hàng quân Nguyên. Sử nước ta chép rằng Trần Ích Tắc mong được làm vua.
 52. Nhà Nguyên phong cho Trần Ích Tắc làm An Nam quốc vương. Một người chọn chết chứ không làm vương đất Bắc, một người lại nhận tước vương từ tay giặc.

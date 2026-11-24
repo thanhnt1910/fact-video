@@ -1,6 +1,6 @@
-# tm24 Chế Bồng Nga và chiếc thuyền sơn xanh, năm 1371–1390: mạch truyện (chưa viết văn, chờ duyệt)
+# tm26 Chế Bồng Nga và chiếc thuyền sơn xanh, năm 1371–1390: mạch truyện (chưa viết văn, chờ duyệt)
 
-Chủ kênh yêu cầu ngày 24/11/2026 lên kịch bản cho video tiếp theo trong lúc chờ dựng tm23. Tập này gộp hai mốc của lộ trình: #18 Đồ Bàn 1377 và #19 Trần Khát Chân 1390. Kiểu nhân vật: múa rối có khớp.
+Nháp làm ngày 24/11/2026. Chủ kênh muốn làm tiếp nhà Trần theo thứ tự thời gian (1285 rồi 1288) trước, nên chủ đề này lùi thành tm26.
 
 **Kiểm trùng:**
 - Đã tìm "Chế Bồng Nga", "Đồ Bàn", "Trần Khát Chân", "Hải Triều" trong mọi kịch bản `*_full.json` và `ke-hoach/*.md`: chưa video nào kể.

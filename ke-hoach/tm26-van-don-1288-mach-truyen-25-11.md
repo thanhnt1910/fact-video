@@ -28,7 +28,7 @@ Góc kể đề xuất: **lương thảo quyết định cuộc chiến**, và n
 3. **Trần Khánh Dư là ai.** Lần quân Nguyên sang trước, ông nhân sơ hở đánh úp được giặc, được thượng hoàng nhận làm con nuôi (Thiên tử nghĩa nam), lên tới Phiêu Kỵ đại tướng quân. Rồi ông phạm lỗi với công chúa Thiên Thụy, người đã được gả cho Hưng Vũ Vương, con trai Hưng Đạo Vương; bị đánh đòn, bị tước hết quan tước, tài sản, về Chí Linh làm nghề bán than (TT).
 4. **Bến Bình Than năm 1282.** Thuyền vua đỗ ở bến Bình Than, thấy một chiếc thuyền chở than, người lái đội nón lá, mặc áo ngắn; vua nhận ra Khánh Dư, sai người đuổi theo. Khánh Dư đáp "lão là người buôn bán". Vua nói "nam nhi mà đến nỗi này thì thực là cùng cực", tha tội, ban áo ngự, cho dự bàn việc nước, rồi phong Phó đô tướng quân (TT).
 5. **Vân Đồn và chiếc nón (chủ kênh quyết giữ hay bỏ).** Khánh Dư trấn giữ Vân Đồn, nơi dân sống bằng buôn bán với khách phương Bắc, ăn mặc theo người Bắc. Ông ra lệnh quân phải đội nón Ma Lôi để khỏi lẫn với giặc, nhưng đã sai người nhà chở sẵn một thuyền nón Ma Lôi về bán, giá lên tới một tấm vải một chiếc (TT). Sử chép ông tham lam, nơi nào ông trấn giữ cũng bị ghét; vua chỉ tiếc tài làm tướng.
-6. **Quân Nguyên vào.** Ngày 28 tháng 11, Trần Toàn đánh thủy quân giặc ở vụng Đa Mỗ (gần Móng Cái). Ngày 30 tháng 12, A Thai và Ô Mã Nhi họp ba mươi vạn quân đánh vào Vạn Kiếp (TT).
+6. **Quân Nguyên vào.** Ngày 28 tháng 11, Trần Toàn đánh thủy quân giặc ở vụng Đa Mỗ (gần Móng Cái). Ngày 30 tháng 12, quân Nguyên họp ba mươi vạn quân ở Vạn Kiếp (TT chép "thái tử A Thai cùng Ô Mã Nhi"; chú thích bản dịch nói đây là Thoát Hoan, cùng cánh thủy quân Ô Mã Nhi, Phàn Tiếp tới hội; lời kể gọi Thoát Hoan).
 7. **Thua ở Vân Đồn.** Thủy quân Nguyên đánh vào Vân Đồn; Hưng Đạo Vương đã giao việc biên thùy cho Khánh Dư; Khánh Dư đánh thất lợi. Thượng hoàng sai trung sứ xiềng ông giải về kinh. Ông xin khất hai ba ngày để mưu lập công (TT). Kể nhanh, không làm cao trào ở đây (khác `nm2`).
 8. **Đoán và chờ.** Khánh Dư liệu đoàn chiến thuyền đã qua thì thuyền vận tải tất theo sau; thu nhặt tàn binh mà đợi (TT). → Vì sao để đoàn chiến thuyền đi qua: không chặn nổi, nhưng thuyền lương nặng, đi chậm, ít quân hộ vệ (diễn giải, nói rõ là cách hiểu; CẦN đối chiếu thêm).
 9. **Thuyền lương đến.** Đánh bại, bắt lương thực, khí giới nhiều không kể xiết, tù binh rất nhiều; sai ngựa chạy về báo (TT).
@@ -38,7 +38,8 @@ Góc kể đề xuất: **lương thảo quyết định cuộc chiến**, và n
 ## Chỗ sử chép khác nhau (bình luận ghim)
 - Số lương: TT chép 70 vạn thạch; Nguyên sử chép khác (CẦN đối chiếu con số trong Nguyên sử trước khi viết lời).
 - Kết cục đoàn thuyền lương: TT chép Khánh Dư đánh bại, bắt được lương; Nguyên sử chép Trương Văn Hổ gặp quân ta, đánh không lại, đổ lương xuống biển rồi chạy (CẦN đối chiếu nguyên văn).
-- "Thái tử A Thai": chú thích TT nói Nguyên sử chép là chư vương A Thai, TT có lẽ lầm là thái tử. Lời kể gọi "A Thai".
+- "Thái tử A Thai": chú thích bản dịch nói Toàn thư chép nhầm Thoát Hoan thành A Thai ở trận Vạn Kiếp; A Thai là một chư vương đi theo cánh Vân Nam. Lời kể gọi Thoát Hoan.
+- "Đánh thất lợi" ở Vân Đồn: chú thích bản dịch giải thích là Khánh Dư không chặn nổi thủy quân giặc, để chúng qua cửa An Bang tiến về Vạn Kiếp.
 
 ## Cần chủ kênh quyết
 1. Chọn hook (đề xuất phương án 1).

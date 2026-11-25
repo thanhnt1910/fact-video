@@ -3158,5 +3158,13 @@
 "style_var": "C_chuong",
 "thoi_diem": "2026-11-24 19:17:05",
 "du_phong": false
+},
+"c207001": {
+"nhom": "207001-207054",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-25 03:43:37",
+"du_phong": false
 }
 }

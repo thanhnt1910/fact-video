@@ -51,6 +51,7 @@ SEALS.update({'s880':(['880'],190,130,58),'s905':(['905'],190,130,58),'s906':(['
 SEALS.update({'s819':(['819'],190,130,58),'s820':(['820'],190,130,58),'s828':(['828'],190,130,58),'stitle20':(['DƯƠNG THANH','819'],300,200,42)})
 SEALS.update({'s791':(['791'],190,130,58),'s722b':(['722'],190,130,58),'stitle19':(['ĐƯỜNG LÂM','791'],280,200,44)})
 SEALS.update({'s1257':(['1257'],210,130,56),'s12ngay':(['12 NGÀY'],240,130,46),'s3nam':(['3 NĂM','1 LẦN'],220,180,40),'stitle23':(['BÌNH LỆ NGUYÊN','1257'],330,200,40)})
+SEALS.update({'stitle25':(['BA BẾN SÔNG','1285'],330,200,40)})
 SEALS.update({'s1284':(['1284'],210,130,56),'s1285':(['1285'],210,130,56),'shen3':(['HẸN','3 NĂM'],220,180,44),'stitle24':(['HAI CHỮ','TRÊN CÁNH TAY'],330,200,40)})
 SIZES.update({'t22_far': (3000, 700, 1.5), 't22_mid': (3000, 540, 1.5), 't22_cuon': (760, 900, 1.5), 't22_sao': (220, 760, 1.5), 't22_sao0': (220, 760, 1.5), 't22_ngai': (500, 460, 1.5), 't22n_dbl': (280, 420, 3), 't22n_dbl2': (300, 460, 3), 't22n_dblvua': (260, 500, 3), 't22n_lien': (220, 400, 3), 't22n_lien2': (240, 420, 3), 't22n_ngoquyen': (260, 500, 3), 't22n_tamkha': (260, 500, 3), 't22n_xvan': (260, 500, 3), 't22n_xngap': (300, 500, 3), 't22n_tranlam': (300, 500, 3), 't22n_bachho': (240, 420, 3), 't22n_1ngo': (240, 420, 3), 't22n_ngo': (660, 400, 3), 't22n_1dinh': (220, 420, 3), 't22n_dinh': (660, 400, 3), 't22n_no': (300, 420, 3), 't22n_nohang': (760, 400, 3), 't22n_phuc': (760, 400, 3), 't22n_sq': (660, 400, 3), 't22n_dan': (240, 400, 3), 't22n_dan2': (240, 400, 3), 't22n_su': (240, 400, 3), 't22n_thuyen': (300, 200, 3), 't22n_ngua': (360, 300, 3), 't22x_hoalu': (2400, 800, 1.5), 't22x_hoalu2': (2400, 800, 1.5), 't22x_tren': (1900, 900, 1.5), 't22x_khe': (2400, 800, 1.5), 't22x_sanh1': (1900, 800, 1.5), 't22x_sanh2': (1900, 800, 1.5), 't22x_trieu': (2400, 800, 1.5), 't22x_trai': (2400, 800, 1.5), 't22x_lang': (2400, 800, 1.5), 't22x_langcu': (2400, 800, 1.5), 't22x_ngai0': (1900, 800, 1.5), 't22x_khoi': (2400, 800, 1.5), 't22x_cuahai': (2400, 800, 1.5), 't22x_dinhtran': (1900, 800, 1.5), 't22x_dong': (2400, 800, 1.5), 't22x_oman': (2400, 800, 1.5), 't22x_dodong': (2400, 800, 1.5), 't22x_dien': (1900, 800, 1.5), 't22x_damthon': (2400, 800, 1.5), 't22x_xay': (2400, 800, 1.5), 't22x_kinh': (2400, 800, 1.5), 't22x_cuoi': (2800, 700, 1.5)})
 SIZES.update({'t22n_1sq':(240,420,3),'t22n_1dan':(240,400,3)})
@@ -82,6 +83,14 @@ for _k in P25K:
     for _m in 'SGV': SIZES[f't25n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
 for _n,_wh in {'t25_far':(3000,700),'t25_mid':(3000,540),'t25_song':(3000,420),'t25_frontL':(900,800),'t25_frontR':(900,800)}.items(): SIZES[_n]=(_wh[0],_wh[1],1.5)
 for _n in ('t25_spr_coN','t25_spr_coV','t25_spr_coT'): SIZES[_n]=(220,420,1.5)
+for _k in ('hvv','tgh'):
+    for _p,(_w,_h) in R23.items(): SIZES[f't25n_r_{_k}_{_p}']=(_w,_h,3)
+    for _m in 'SGV': SIZES[f't25n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
+for _n,_wh in {'t25n_ongdong':(720,300),'t25n_hinhnhan':(300,600),'t25_cay':(1400,900),'t25n_hop':(320,240),'t25_ao':(460,280),'t25_quan':(700,300),'t25_cuon':(760,900),'t25n_trai':(2400,560),'t25_lua':(900,520)}.items(): SIZES[_n]=(_wh[0],_wh[1],3 if _n.startswith('t25n_') else 1.5)
+for _k in ['lpt','ttt','tth','tnh','tho','nlh','ttd','lv1','lv2','lv3','lm1','lm2','lm3','quan1','dan']:
+    for _m in 'SGV': SIZES[f't23n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
+for _k in P24K:
+    for _m in 'SGV': SIZES[f't24n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
 only=sys.argv[1:]
 with sync_playwright() as p:
     b=p.chromium.launch()

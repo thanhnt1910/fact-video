@@ -81,6 +81,7 @@ def vong(cv,x,y,t,t0,n=3,per=1.4,rmax=520,o=.55,col=None,flat=.55):
         m=np.maximum(m,np.clip(1-np.abs(d-r)/7,0,1)*(1-u)*o)
     m=m[...,None];cv[y0:y1,x0:x1]=cv[y0:y1,x0:x1]*(1-m)+col*m
 import rig
+from fx_tran import dust
 from engine import asc
 import rig
 from engine import asc
@@ -183,17 +184,18 @@ def pulse(cv,c,x,y,t,col=RED):
 # =================== các cảnh ===================
 G=[(1,1),(2,2),(3,3),(4,5),(6,7),(8,9),(10,11),(12,13),(14,15),(16,17),(18,19),(20,22),(23,24),(25,26),(27,28),(29,30),(31,32),(33,34),(35,36),(37,39),(40,42),(43,45),(46,46),(47,48),(49,50),(51,51),(52,53),(54,55),(56,58),(59,59),(60,60),(61,62),(63,63),(64,64),(65,65),(66,67)]
 def AB(i): a,b=G[i-1];return T[a]-.3,E[b]+.3
-def bat(PP,t_): PP.update(arF=-70,faF=-60,arB=40,faB=-30,lean=10)
-def troi(PP,t_): PP.update(arF=20,faF=-80,arB=20,faB=-80,lean=12)
+def bat(PP,t_): PP.update(arF=-70,faF=-60,arB=40,faB=-30,lean=10,mat='G')
+def troi(PP,t_): PP.update(arF=20,faF=-80,arB=20,faB=-80,lean=12,mat='S')
 def ngoiq(PP,t_): PP.update(thF=-80,thB=-76,knF=84,knB=82)
 # 1: quân giặc kéo tay áo người lính bị bắt
+def gianm(PP,t_): PP['mat']='G'
 def S_1(cv,t):
     a,b=0,E[1]+.3
-    c=kc(t,[(a,(1000,560,1.2)),(b,(980,540,1.35))])
+    c=kc(t,[(a,(1000,680,1.35)),(b,(1020,690,1.6))])
     nen(cv,c,t,seed=1,mist=.6)
-    nguoi(cv,c,'v2',900,905,t,s=.64,PP=rig.dung(t)|{'arF':30,'faF':-60,'lean':14})
+    nguoi(cv,c,'v2',900,905,t,s=.64,PP=rig.dung(t)|{'arF':30,'faF':-60,'lean':14,'mat':'S'})
     dib(cv,c,'m2',1300,1060,905,t,a,a+2,s=.64,vk=None,sua=bat,flip=True)
-    dib(cv,c,'m1',1700,1350,905,t,a+.4,b,s=.62,vk='daocong',flip=True)
+    dib(cv,c,'m1',1700,1350,905,t,a+.4,b,s=.62,vk='daocong',flip=True,sua=gianm)
     dib(cv,c,'m3',300,600,905,t,a,b,s=.6,vk='moc')
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.2)
@@ -203,7 +205,7 @@ def S_2(cv,t):
     c=kc(t,[(a,(960,560,1.05)),(b,(960,540,1.0))])
     nen(cv,c,t,seed=2,mist=.7)
     for i in range(4): dib(cv,c,['v1','v3','v2','v1'][i],300+i*380,320+i*380,905,t,a,b,s=.58,sua=troi,ph=i)
-    for i in range(3): dib(cv,c,['m1','m2','m3'][i],500+i*420,560+i*420,905,t,a,b,s=.6,vk=['daocong','moc','daocong'][i],ph=i,flip=True)
+    for i in range(3): dib(cv,c,['m1','m2','m3'][i],500+i*420,560+i*420,905,t,a,b,s=.6,vk=['daocong','moc','daocong'][i],ph=i,flip=True,sua=lambda PP,t_: PP.update(arF=-150+10*math.sin(t_*5),faF=-10,mat='G'))
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.45*inn(t,a,.6))
     tay(cv,960,430,t,a+.1,b,s=.85)
@@ -212,12 +214,12 @@ def S_2(cv,t):
 # 3: viên quan nhỏ giơ cánh tay trước tướng giặc
 def S_3(cv,t):
     a,b=AB(3)
-    c=kc(t,[(a,(1100,560,1.05)),(b,(1000,540,1.2))])
+    c=kc(t,[(a,(1100,640,1.1)),(b,(1050,690,1.45))])
     nen(cv,c,t,seed=3)
     put(cv,c,'t24n_trai',1100,860,ay=1,s=.5,k=.85,o=.9)
     co(cv,c,'t24_spr_colon',1650,880,t,s=.55)
-    nguoi(cv,c,'omn',1350,905,t,s=.66,vk='daocong',flip=True)
-    for i in range(2): nguoi(cv,c,['m2','m1'][i],1560+i*150,905,t,s=.6,vk=['moc','cung'][i],flip=True,ph=i)
+    nguoi(cv,c,'omn',1350,905,t,s=.66,vk='daocong',flip=True,PP=rig.dung(t)|{'mat':'G' if t<a+2.4 else 'S'})
+    for i in range(2): nguoi(cv,c,['m2','m1'][i],1560+i*150,905,t,s=.6,vk=['moc','cung'][i],flip=True,ph=i,PP=rig.dung(t+i)|{'mat':'G'})
     def g3(PP,t_): PP.update(arF=-150*inn(t_,a+2,1)+20,faF=-10)
     dib(cv,c,'dkc',500,900,905,t,a,a+2.4,s=.64,sua=g3)
     truoc(cv,c,t)
@@ -276,7 +278,7 @@ def S_7(cv,t):
     put(cv,c,'t24_dien',960,1010,ay=1,s=.78,k=.9)
     nguoi(cv,c,'tts',960,850,t,s=.6)
     def ho(PP,t_): 
-        if t_>q: PP.update(arF=-150+8*math.sin(t_*5),faF=-10)
+        if t_>q: PP.update(arF=-150+8*math.sin(t_*5),faF=-10,mat='G')
     for i in range(7):
         x0=-300-i*120 if i<4 else 2300+(i-4)*130;x1=300+i*140 if i<4 else 1550+(i-4)*140
         dib(cv,c,['bl1','bl2','bl1','bl2','bl2','bl1','bl2'][i],x0,x1,905+(i%2)*14,t,a+i*.2,q-.3,s=.56,ph=i,sua=ho,flip=(i>=4))
@@ -348,7 +350,7 @@ def S_12(cv,t):
     thuyen(cv,c,xb,800,t,s=.6,ngoi=([('yk',60,'cheo')]+([('hdv',-40,'dao')] if t>q-.5 else [])))
     if t<q: dib(cv,c,'hdv',-200,700,905,t,a,q-.5,s=.64,vk='dao')
     if t>r:
-        for i in range(3): ngua(cv,c,['nau','den','nau'][i],'m1',2400+i*200,1300+i*180,900+(i%2)*14,t,r+.2+i*.2,b,s=.52,vk='cung',ph=i,flip=True)
+        for i in range(3): ngua(cv,c,['nau','den','nau'][i],'m1',2400+i*200,1300+i*180,900+(i%2)*14,t,r+.2+i*.2,b,s=.52,vk='cung',ph=i,flip=True,sua=lambda PP,t_: PP.update(arF=-110+10*math.sin(t_*4),faF=-20,mat='G'))
     truoc(cv,c,t)
     nhan(cv,'chim hồng hộc bay cao nhờ sáu chiếc lông cánh lớn',960,170,t,q+.2,r-.1,INK,38)
     nhan(cv,'kỵ binh giặc đuổi không kịp',960,170,t,r+.8,b,VIETC,42)
@@ -376,9 +378,9 @@ def S_13(cv,t):
 # 14: phát hiện hai chữ Sát Thát
 def S_14(cv,t):
     a,b=AB(14);q=T[26]
-    c=kc(t,[(a,(1000,560,1.15)),(b,(960,540,1.05))])
+    c=kc(t,[(a,(1000,680,1.4)),(b,(960,600,1.1))])
     nen(cv,c,t,seed=14,mist=.6)
-    for i in range(3): nguoi(cv,c,['v1','v2','v3'][i],600+i*260,905,t,s=.6,PP=rig.dung(t+i)|{'arF':30,'faF':-60,'lean':14})
+    for i in range(3): nguoi(cv,c,['v1','v2','v3'][i],600+i*260,905,t,s=.6,PP=rig.dung(t+i)|{'arF':30,'faF':-60,'lean':14,'mat':'S'})
     for i in range(3): dib(cv,c,['m2','m1','m3'][i],1800+i*130,820+i*260+80,905,t,a+i*.3,a+2.5,s=.62,sua=bat,flip=True,ph=i)
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.35*inn(t,q-.5,.8))
@@ -412,11 +414,11 @@ def S_16(cv,t):
 # 17: hỏi tội; chó nhà cắn người lạ
 def S_17(cv,t):
     a,b=AB(17);q=T[32]
-    c=kc(t,[(a,(1000,560,1.05)),(b,(1000,540,1.15))])
+    c=kc(t,[(a,(1000,640,1.1)),(a+2.4,(1150,700,1.5)),(q,(1150,700,1.55)),(q+.6,(800,700,1.5)),(b,(820,700,1.55))])
     nen(cv,c,t,seed=17,mist=.4)
     put(cv,c,'t24n_trai',960,820,ay=1,s=.58,k=.85,o=.8)
     def chi(PP,t_): PP.update(arF=-90+10*math.sin(t_*3),faF=-10)
-    nguoi(cv,c,'omn',1250,905,t,s=.68,vk='daocong',flip=True,PP=rig.dung(t)|({'arF':-90+10*math.sin(t*3),'faF':-10} if t<q else {}))
+    nguoi(cv,c,'omn',1250,905,t,s=.68,vk='daocong',flip=True,PP=rig.dung(t)|({'arF':-90+10*math.sin(t*3),'faF':-10,'mat':'G'} if t<q else {}))
     for i in range(2): nguoi(cv,c,['m2','m3'][i],1480+i*150,905,t,s=.6,vk=['moc','daocong'][i],flip=True,ph=i)
     dib(cv,c,'dkc',300,760,905,t,a,a+2.2,s=.64)
     truoc(cv,c,t)
@@ -424,10 +426,10 @@ def S_17(cv,t):
 # 18: giơ cánh tay
 def S_18(cv,t):
     a,b=AB(18);q=T[34]
-    c=kc(t,[(a,(960,560,1.15)),(b,(900,540,1.3))])
+    c=kc(t,[(a,(960,660,1.25)),(b,(900,700,1.6))])
     nen(cv,c,t,seed=18,mist=.4)
     put(cv,c,'t24n_trai',960,820,ay=1,s=.58,k=.85,o=.8)
-    nguoi(cv,c,'omn',1200,905,t,s=.68,vk='daocong',flip=True)
+    nguoi(cv,c,'omn',1200,905,t,s=.68,vk='daocong',flip=True,PP=rig.dung(t)|({'mat':'S','lean':-6} if t>a+1.2 else {'mat':'G'}))
     def g18(PP,t_): PP.update(arF=-150*inn(t_,a+.6,.8)+20*(1-inn(t_,a+.6,.8)),faF=-10)
     dib(cv,c,'dkc',760,760,905,t,a,b,s=.64,sua=g18)
     truoc(cv,c,t)
@@ -436,11 +438,11 @@ def S_18(cv,t):
 # 19: dọa nạt và câu đáp
 def S_19(cv,t):
     a,b=AB(19);q=T[36]
-    c=kc(t,[(a,(1150,540,1.15)),(q,(800,560,1.15)),(b,(960,560,1.05))])
+    c=kc(t,[(a,(1150,700,1.55)),(q-.3,(1150,700,1.6)),(q+.4,(780,700,1.55)),(b,(900,660,1.3))])
     nen(cv,c,t,seed=19,mist=.4)
     put(cv,c,'t24n_trai',960,820,ay=1,s=.58,k=.85,o=.8)
     def doa(PP,t_): PP.update(arF=-120+30*math.sin(t_*4),faF=-30,lean=6)
-    nguoi(cv,c,'omn',1150,905,t,s=.68,vk='daocong',flip=True,PP=rig.dung(t)|({'arF':-120+30*math.sin(t*4),'faF':-30,'lean':6} if t<q else {}))
+    nguoi(cv,c,'omn',1150,905,t,s=.68,vk='daocong',flip=True,PP=rig.dung(t)|({'arF':-120+30*math.sin(t*4),'faF':-30,'lean':6,'mat':'G'} if t<q else {}))
     nguoi(cv,c,'dkc',760,905,t,s=.64)
     for i in range(2): nguoi(cv,c,['m1','m2'][i],1420+i*150,905,t,s=.6,vk=['cung','moc'][i],flip=True,ph=i)
     truoc(cv,c,t)
@@ -452,7 +454,7 @@ def S_20(cv,t):
     nen(cv,c,t,seed=20)
     put(cv,c,'t24n_trai',1200,820,ay=1,s=.55,k=.85,o=.8)
     dib(cv,c,'dkc',800,-300,905,t,a,a+4,s=.62)
-    nguoi(cv,c,'omn',1300,905,t,s=.68,vk='daocong',flip=False)
+    nguoi(cv,c,'omn',1300,905,t,s=.68,vk='daocong',flip=False,PP=rig.quat(t)|{'mat':''} if q<t<r+1 else None)
     for i in range(3): nguoi(cv,c,['m1','m2','m3'][i],1520+i*140,905,t,s=.6,vk=['cung','moc','daocong'][i],flip=True,ph=i)
     if t>r: ngua(cv,c,'nau','m1',1500,-300,900,t,sb(39,1),b,s=.52,vk='cung')
     truoc(cv,c,t)
@@ -469,7 +471,12 @@ def S_21(cv,t):
         for i in range(2): nguoi(cv,c,['m1','m2'][i],1500+i*150,905,t,s=.6,vk=['cung','moc'][i],flip=True,ph=i)
         if t<q: dib(cv,c,'dkc',800,-300,905,t,a,q,s=.6)
     else:
-        ngua(cv,c,'den','tkn',300,1300,900,t,r,b,s=.56,o=1-.6*inn(t,sb(42,1),.8))
+        hit=sb(42,1)
+        if t<hit: ngua(cv,c,'den','tkn',300,1300,900,t,r,b,s=.56)
+        else:
+            xh=300+1000*inn(t,r,b-r)
+            rig.ve23(cv,c,'tkn',xh-60,905,ss(905,.58),rig.nga(inn(t,hit,1.2)))
+            put(cv,c,'t23n_r_w_giao',xh-120-80*inn(t,hit,.8),860+40*inn(t,hit,.8),s=ss(905,.5),r=60+200*inn(t,hit,.8),scale_px=3)
         for i in range(2): ngua(cv,c,'nau','m1',100-i*200,1100-i*200,900,t,r,b,s=.52,vk='cung',ph=i)
         ten(cv,c,t,sb(42,1)-.6,b,[(1900,620),(1850,560)],[(1150,760),(1250,780)],n=6,h=80,col=VIETC)
     truoc(cv,c,t)
@@ -479,13 +486,13 @@ def S_21(cv,t):
 def S_22(cv,t):
     a,b=AB(22);q=T[44];r=T[45]
     hit=a+1;sh=(4*math.sin(t*37)*(1-inn(t,hit+.3,.6))) if hit<t<hit+.9 and not FREEZE else 0
-    c=kc(t,[(a,(1000,540,1.05)),(q,(960,560,1.15)),(b,(960,540,1.25))],sh)
+    c=kc(t,[(a,(1000,620,1.1)),(q,(960,680,1.3)),(r,(900,700,1.55)),(b,(900,700,1.65))],sh)
     nen(cv,c,t,seed=22,mist=.5)
     if t<q:
-        dib(cv,c,'tbt',400,800,905,t,a,q,s=.64,vk='giao')
+        dib(cv,c,'tbt',400,800,905,t,a,q,s=.64,vk='giao',sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
         for i in range(4): dib(cv,c,['m2','m3','m1','m2'][i],2000+i*140,1050+i*140,905,t,a,q,s=.58,vk=['moc','daocong','cung','moc'][i],ph=i,flip=True)
     else:
-        nguoi(cv,c,'tbt',900,905,t,s=.66,PP=rig.dung(t)|{'arF':20,'faF':-70,'arB':20,'faB':-70})
+        nguoi(cv,c,'tbt',900,905,t,s=.66,PP=(rig.quat(t) if t>r else rig.dung(t)|{'arF':20,'faF':-70,'arB':20,'faB':-70,'mat':'G'}))
         for i in range(2): nguoi(cv,c,['m1','m2'][i],1250+i*150,905,t,s=.6,vk=['cung','moc'][i],flip=True,ph=i)
         nguoi(cv,c,'thn',600,905,t,s=.64,PP=rig.dung(t)|{'arF':-60+10*math.sin(t*2),'faF':-40})
     truoc(cv,c,t)
@@ -580,7 +587,7 @@ def S_30(cv,t):
     a,b=AB(30)
     c=kc(t,[(a,(1100,560,1.0)),(b,(800,560,1.05))])
     nen(cv,c,t,seed=30,mist=.6)
-    def met(PP,t_): PP.update(lean=16,arF=10,faF=-40)
+    def met(PP,t_): PP.update(lean=16,arF=10,faF=-40,mat='S')
     for i in range(6): dib(cv,c,['m3','m1','m2'][i%3],1700+i*170,300+i*170,905+(i%2)*12,t,a+i*.15,b+2,s=.55,ph=i,sua=met,chay=.6,buoc=40)
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.2)
@@ -588,10 +595,17 @@ def S_30(cv,t):
 # 31: quân nhà Trần đánh trở lại
 def S_31(cv,t):
     a,b=AB(31)
-    c=kc(t,[(a,(800,560,1.0)),(b,(1200,560,1.1))])
+    sh=4*math.sin(t*37)*(1-inn(t,a+.8,1.2)) if not FREEZE and t>a+.3 else 0
+    c=kc(t,[(a,(800,600,1.05)),(b,(1250,600,1.1))],sh)
     nen(cv,c,t,'song',seed=31)
     for i in range(4): thuyen(cv,c,-200+i*330+700*inn(t,a,b-a),790+(i%2)*30,t,s=.48,ngoi=[('v1',-50,'cheo'),('v3',40,'giao')],ph=i)
-    for i in range(4): dib(cv,c,['m1','m2','m3','m1'][i],1500+i*120,2500+i*120,905,t,a+.5+i*.1,b,s=.55,vk=['cung','moc','daocong','cung'][i],ph=i,chay=1.3)
+    for i in range(5):
+        x0=700+i*150;t0=a+.5+i*.12;u=inn(t,t0,max(b-t0,.1));x=x0+1100*u
+        S_=ss(905,.55);P=rig.hoang(abs(x-x0)/(55*rig.SC*S_)*math.pi+i,t) if 0<u<1 else rig.dung(t+i)
+        rig.ve23(cv,c,['m1','m2','m3','m1','m2'][i],x,905+(i%2)*10,S_,P)
+        if t>t0: 
+            v=min(1,(t-t0)/.7);put(cv,c,['t23n_r_w_daocong','t23n_r_w_moc'][i%2],x0+20-120*v,800-60*math.sin(v*math.pi)+120*v*v,s=S_,r=30+300*v,scale_px=3)
+    for k in range(4): dust(cv,c,1200+k*90+60*(t-a),890,o=.3,s=.4+.1*(t-a))
     truoc(cv,c,t)
     nhan(cv,'mùa hè năm 1285 · quân Nguyên bỏ chạy',960,170,t,a+.3,b,VIETC,40)
 # 32: ba năm sau; hòm thư xin hàng

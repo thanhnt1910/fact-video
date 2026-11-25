@@ -175,10 +175,10 @@ def AB(i): a,b=G[i-1];return T[a]-.3,E[b]+.3
 # 1: mở đầu, trận rút, Lê Phụ Trần một mình một ngựa
 def S_1(cv,t):
     a,b=0,E[3]+.3;q=T[3]
-    c=kc(t,[(a,(900,560,1.05)),(q,(820,540,1.18)),(b,(760,520,1.3))])
+    c=kc(t,[(a,(900,600,1.05)),(q,(860,640,1.25)),(b,(900,690,1.55))])
     nen(cv,c,t,seed=1,mist=.55)
-    for i,key in enumerate(['lv1','lv3','lv2','lv1']): dib(cv,c,key,560-i*120,-300-i*160,905+(i%2)*14,t,a+.2+i*.15,b,s=.55,vk=['giao','dao','no','giao'][i],ph=i,chay=1.2)
-    for i,key in enumerate(['lm2','lm3','lm2']): dib(cv,c,key,2300+i*160,1450+i*150,905+(i%2)*12,t,a,b,s=.58,vk=['daocong','moc','daocong'][i],ph=i)
+    for i,key in enumerate(['lv1','lv3','lv2','lv1']): dib(cv,c,key,560-i*120,-300-i*160,905+(i%2)*14,t,a+.2+i*.15,b,s=.55,vk=['giao','dao','no','giao'][i],ph=i,chay=1.2,sua=lambda PP,t_: PP.update(mat='S',lean=PP['lean']+6))
+    for i,key in enumerate(['lm2','lm3','lm2']): dib(cv,c,key,2300+i*160,1450+i*150,905+(i%2)*12,t,a,b,s=.58,vk=['daocong','moc','daocong'][i],ph=i,sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
     ngua(cv,c,'nau','lm1',2600,1700,900,t,a+.4,b,s=.6,vk='cung')
     ngua(cv,c,'trang','lpt',600,1050,900,t,a+.3,q+1.5,s=.66,vk='giao',flip=False)
     ten(cv,c,t,a,b,[(1700,600),(1900,620)],[(500,840),(900,860)],n=12,h=160)
@@ -311,21 +311,21 @@ def S_11(cv,t):
     hit=a+.8;sh=(4*math.sin(t*37)*(1-inn(t,hit+.3,.6))) if hit<t<hit+.9 and not FREEZE else 0
     c=kc(t,[(a,(1000,540,1.1)),(b,(800,560,1.0))],sh)
     nen(cv,c,t,seed=11)
-    dib(cv,c,'ttt',500,800,905,t,a+.2,q,s=.64,vk='dao')
+    dib(cv,c,'ttt',500,800,905,t,a+.2,q,s=.64,vk='dao',sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
     for i in range(3): dib(cv,c,['lv1','lv3','lv2'][i],300-i*140,420-i*140,905+(i%2)*14,t,a,q,s=.55,vk=['giao','dao','no'][i],ph=i)
     if t>q:
-        for i in range(3): dib(cv,c,['lv1','lv3','lv2'][i],420-i*140,-200-i*140,905+(i%2)*14,t,q,b,s=.55,vk=['giao','dao','no'][i],ph=i)
-    for i in range(4): dib(cv,c,['lm2','lm3','lm2','lm3'][i],2200+i*150,1200+i*150,905,t,a,b,s=.56,vk=['daocong','moc','daocong','moc'][i],ph=i)
+        for i in range(3): dib(cv,c,['lv1','lv3','lv2'][i],420-i*140,-200-i*140,905+(i%2)*14,t,q,b,s=.55,vk=['giao','dao','no'][i],ph=i,sua=lambda PP,t_: PP.update(mat='S',lean=PP['lean']+6))
+    for i in range(4): dib(cv,c,['lm2','lm3','lm2','lm3'][i],2200+i*150,1200+i*150,905,t,a,b,s=.56,vk=['daocong','moc','daocong','moc'][i],ph=i,sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
     ten(cv,c,t,a,b,[(1600,600),(1800,620)],[(400,840),(900,860)],n=14,h=150)
     truoc(cv,c,t)
     nhan(cv,'thế trận nghiêng về phía quân Mông Cổ',960,170,t,q+.2,b,MONGC,40)
 # 12: chỉ còn Lê Phụ Trần
 def S_12(cv,t):
     a,b=AB(12)
-    c=kc(t,[(a,(960,540,1.2)),(b,(1000,520,1.35))])
+    c=kc(t,[(a,(960,620,1.2)),(b,(940,680,1.5))])
     nen(cv,c,t,seed=12,mist=.7)
     ngua(cv,c,'trang','lpt',700,1150,900,t,a,b,s=.66,vk='giao')
-    for i in range(4): dib(cv,c,['lm2','lm3','lm2','lm3'][i],[300,1600,1800,150][i],[500,1400,1700,350][i],905+(i%2)*12,t,a,b,s=.56,vk=['daocong','moc','daocong','moc'][i],ph=i,flip=[False,True,True,False][i])
+    for i in range(4): dib(cv,c,['lm2','lm3','lm2','lm3'][i],[300,1600,1800,150][i],[500,1400,1700,350][i],905+(i%2)*12,t,a,b,s=.56,vk=['daocong','moc','daocong','moc'][i],ph=i,flip=[False,True,True,False][i],sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
     ten(cv,c,t,a,b,[(1700,560),(200,560)],[(1000,820),(900,830)],n=10,h=140)
     truoc(cv,c,t)
     if not FREEZE: ink_wash(cv,.2)
@@ -333,9 +333,9 @@ def S_12(cv,t):
 # 13: lời can, dốc vốn một ván
 def S_13(cv,t):
     a,b=AB(13);q=T[25]
-    c=kc(t,[(a,(960,560,1.12)),(b,(960,540,1.05))])
+    c=kc(t,[(a,(1000,700,1.4)),(q,(1000,700,1.5)),(b,(900,690,1.35))])
     nen(cv,c,t,seed=13,mist=.6)
-    nguoi(cv,c,'ttt',820,905,t,s=.64,vk='dao')
+    nguoi(cv,c,'ttt',820,905,t,s=.64,vk='dao',PP=rig.dung(t)|({'head':8} if t>q else {}))
     nguoi(cv,c,'lv3',560,905,t,s=.6,vk='dao',ph=1)
     def can(PP,t_): PP.update(arF=-60+8*math.sin(t_*2),faF=-30)
     dib(cv,c,'lpt',1500,1100,905,t,a+.2,a+2,s=.64,sua=can,flip=True)
@@ -372,23 +372,23 @@ def S_15(cv,t):
     c=kc(t,[(a,(1100,540,1.05)),(b,(900,560,1.12))])
     nen(cv,c,t,'song',seed=15)
     thuyen(cv,c,500,790,t,s=.5,ph=1);thuyen(cv,c,900,795,t,s=.5,ph=2)
-    dib(cv,c,'ttd',2000,1300,905,t,q-.2,b,s=.62,vk='daocong',chay=1.3)
-    for i in range(3): dib(cv,c,['lm2','lm3','lm2'][i],2250+i*150,1500+i*150,905,t,q,b,s=.55,vk=['daocong','moc','daocong'][i],ph=i,chay=1.3)
-    for i in range(2): dib(cv,c,'lv1',300+i*120,-200+i*120,905,t,q+.6,b,s=.52,vk='giao',ph=i,chay=1.2)
+    dib(cv,c,'ttd',2000,1300,905,t,q-.2,b,s=.62,vk='daocong',chay=1.3,sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
+    for i in range(3): dib(cv,c,['lm2','lm3','lm2'][i],2250+i*150,1500+i*150,905,t,q,b,s=.55,vk=['daocong','moc','daocong'][i],ph=i,chay=1.3,sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
+    for i in range(2): dib(cv,c,'lv1',300+i*120,-200+i*120,905,t,q+.6,b,s=.52,vk='giao',ph=i,chay=1.2,sua=lambda PP,t_: PP.update(mat='S',lean=PP['lean']+6))
     truoc(cv,c,t)
     if not FREEZE and t<q+.3: ink_wash(cv,.35);cuon(cv,960,470,t,'SỬ NHÀ NGUYÊN','Triệt Triệt Đô|trái lệnh',col=MONGC,u=inn(t,a+.6,.8))
     nhan(cv,'Triệt Triệt Đô · đánh ngay, không chờ cướp thuyền',960,170,t,q+.2,b,MONGC,38)
 # 16: thoát bằng thuyền; Ngột Lương Hợp Thai nổi giận
 def S_16(cv,t):
     a,b=AB(16);q=T[31]
-    c=kc(t,[(a,(900,560,1.0)),(b,(1300,560,1.1))])
+    c=kc(t,[(a,(900,580,1.0)),(q,(1200,640,1.2)),(b,(1450,690,1.45))])
     nen(cv,c,t,'song',seed=16)
     for i in range(3): thuyen(cv,c,600+i*330-500*inn(t,a,q-a),930+(i%2)*10,t,s=.5,ngoi=[('lv1',-60,'cheo'),('lv3',40,'cheo')],ph=i)
     if t>q-.3:
-        def gian(PP,t_): PP.update(arF=-100+20*math.sin(t_*4),faF=-20)
+        def gian(PP,t_): PP.update(arF=-100+20*math.sin(t_*4),faF=-20,mat='G')
         dib(cv,c,'nlh',1900,1600,905,t,q-.3,q+1.2,s=.62,vk='daocong',sua=gian,flip=True)
         ten_o=1-inn(t,q+1.5,1.5)
-        nguoi(cv,c,'ttd',1250,905,t,s=.6,o=max(.05,ten_o))
+        nguoi(cv,c,'ttd',1250,905,t,s=.6,o=max(.05,ten_o),PP=rig.so(t,.7))
         dib(cv,c,'lm2',2300,1900,905,t,q,b,s=.55,vk='daocong',flip=True)
     truoc(cv,c,t)
     nhan(cv,'tuy thua to vẫn kịp xuống thuyền mà thoát',960,170,t,a+.3,q-.2,VIETC,38);nhan(cv,'Triệt Triệt Đô sợ tội, uống thuốc độc',960,170,t,q+.2,b,MONGC,38)
@@ -435,6 +435,7 @@ def S_20(cv,t):
     nen(cv,c,t,'song',seed=20,mist=.6)
     thuyen(cv,c,500+300*inn(t,a,q-a),940,t,s=.55,ngoi=[('ttt',-20,None),('lv1',70,'cheo')])
     thuyen(cv,c,1350,805,t,s=.58,ngoi=[('tth',-30,None)],flip=True,ph=2)
+    if t>q-1: rig.ve23(cv,c,'tth',1330,805-30,ss(905,.62),rig.quat(t),flip=True)
     thuyen(cv,c,1900-100*inn(t,a,b-a),965,t,s=.45,ngoi=[('lv3',0,'cheo')],ph=4,flip=True)
     truoc(cv,c,t)
     if not FREEZE and t>q:
@@ -492,8 +493,14 @@ def S_24(cv,t):
     nen(cv,c,t,'song',seed=24)
     put(cv,c,'t23_trai',1500,700,ay=1,s=.45,k=.85,o=.9);co(cv,c,'t23_spr_co',1750,690,t,s=.45)
     for i in range(2): thuyen(cv,c,200+i*360+500*inn(t,q-1,1.2),930+(i%2)*14,t,s=.5,lon=(i==0),ngoi=[('lv1',-50,'cheo'),('lv3',40,'dao')] if i else [('ttt',-300,'dao')],ph=i)
-    for i in range(4): dib(cv,c,['lm2','lm3','lm2','lm3'][i],1300+i*130,2400+i*130,905,t,q+.3+i*.1,b,s=.55,vk=['daocong','moc','daocong','moc'][i],ph=i,chay=1.3)
-    for i in range(2): dib(cv,c,['lv1','lv3'][i],900+i*120,1500+i*120,905,t,q+.2,b,s=.55,vk=['giao','dao'][i],ph=i,chay=1.2)
+    for i in range(5):
+        x0=1150+i*140;t0=q+.3+i*.1;u=inn(t,t0,max(b-t0,.1));x=x0+1100*u
+        S_=ss(905,.55);P=rig.hoang(abs(x-x0)/(55*rig.SC*S_)*math.pi+i,t) if 0<u<1 else rig.dung(t+i)
+        rig.ve23(cv,c,['lm2','lm3','lm2','lm3','lm2'][i],x,905+(i%2)*10,S_,P)
+        if t>t0:
+            v=min(1,(t-t0)/.7);put(cv,c,['t23n_r_w_daocong','t23n_r_w_moc'][i%2],x0+20-120*v,800-60*math.sin(v*math.pi)+120*v*v,s=S_,r=30+300*v,scale_px=3)
+    for k in range(4): dust(cv,c,1150+k*90+60*(t-q),890,o=.3,s=.4+.1*max(0,t-q))
+    for i in range(3): dib(cv,c,['lv1','lv3','lv2'][i],800+i*120,1500+i*120,905,t,q+.2,b,s=.55,vk=['giao','dao','giao'][i],ph=i,chay=1.2,sua=lambda PP,t_: PP.update(arF=-75,faF=-20,mat='G'))
     truoc(cv,c,t)
     nhan(cv,'quân Mông Cổ bị phá tan',960,170,t,q+.2,b,RED,44)
 # 25: bản đồ: quân Mông Cổ rút về Vân Nam; trại Quy Hóa, Hà Bổng đánh úp; "giặc Phật"

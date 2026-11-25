@@ -2849,4 +2849,51 @@ Object.assign(A,{t25_spr_coN(){const s=setup(220,420);seed=2520;S.innerHTML+=DEF
  t25_spr_coT(){const s=setup(220,420);seed=2522;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
  el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'rect',{x:44,y:30,width:150,height:120,fill:'#c8c6bc',stroke:INK,'stroke-width':4});el(g,'rect',{x:44,y:30,width:150,height:22,fill:'#6a6a66'})}});
 
+// tm25: thêm nhân vật Hưng Vũ Vương, Trương Hiển; đạo cụ riêng tập
+Object.assign(P25,{hvv:{da:'#dcc4a2',ao:'#8a3a22',quan:'#2e2018',mu:'khan',khan:'#3a2a1a',dai:'#c9a45a',giap:1},
+ tgh:{da:'#c8a480',ao:'#5a5248',quan:'#2e2a24',mu:'quan',dai:'#8a7a5a',rau:1,mong:1}});Object.assign(P23,P25);
+for(const key of ['hvv','tgh']){for(const part of Object.keys(RIG23))A[`t25n_r_${key}_${part}`]=()=>rigpart23(key,part);for(const m of ['S','G','V'])A[`t25n_r_${key}_head${m}`]=()=>rigpart23(key,'head'+m)}
+Object.assign(A,{
+t25n_ongdong(){const s=setup(720,300);seed=2530;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'rect',{x:80,y:90,width:560,height:150,rx:70,fill:'#9a7a3a',stroke:INK,'stroke-width':5});
+ el(g,'ellipse',{cx:630,cy:165,rx:30,ry:75,fill:'#7a5a26',stroke:INK,'stroke-width':4});
+ for(let i=0;i<5;i++)el(g,'path',{d:`M${170+i*100} 92 q-14 73 0 146`,stroke:'#5a3e18','stroke-width':6,fill:'none',opacity:.7});
+ el(g,'path',{d:'M120 120 Q360 104 600 120',stroke:'#e0c070','stroke-width':6,fill:'none',opacity:.5});
+ el(g,'line',{x1:0,y1:70,x2:720,y2:70,stroke:'#4a3420','stroke-width':12});for(const x of [200,520])el(g,'path',{d:`M${x} 70 L${x} 100`,stroke:'#4a3420','stroke-width':6})},
+t25n_hinhnhan(){const s=setup(300,600);seed=2531;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ for(let i=0;i<7;i++)el(g,'line',{x1:110+i*14,y1:600,x2:120+i*10,y2:120,stroke:'#b8a060','stroke-width':4,opacity:.8});
+ el(g,'path',{d:'M70 200 Q150 160 230 200 L250 470 Q150 500 50 470Z',fill:'#7a5a3a',stroke:INK,'stroke-width':5});
+ el(g,'path',{d:'M70 210 L10 330 M230 210 L290 330',stroke:'#b8a060','stroke-width':10});
+ el(g,'circle',{cx:150,cy:120,r:58,fill:'#c8b078',stroke:INK,'stroke-width':5});for(let i=0;i<6;i++)el(g,'path',{d:`M${100+i*20} 70 Q150 120 ${100+i*20} 172`,stroke:'#8a7040','stroke-width':2,fill:'none',opacity:.6});
+ el(g,'path',{d:'M94 92 Q150 30 206 92 Q150 74 94 92Z',fill:'#2c3e5a',stroke:INK,'stroke-width':3})},
+t25_cay(){const s=setup(1400,900);seed=2532;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ for(const [x,w] of [[380,150],[980,180]]){el(g,'path',{d:`M${x-w/2} 900 Q${x-w/2+20} 500 ${x-w/3} 80 L${x+w/3} 80 Q${x+w/2-20} 500 ${x+w/2} 900Z`,fill:'#5a4630',stroke:INK,'stroke-width':6});
+  for(let i=0;i<9;i++)el(g,'path',{d:`M${x-w/2+10+rnd()*w*.7} ${150+i*80} q${-10+rnd()*20} 40 0 80`,stroke:INK,'stroke-width':2,fill:'none',opacity:.45});
+  el(g,'ellipse',{cx:x,cy:430,rx:16,ry:22,fill:'#1a140e'});
+  el(g,'line',{x1:x-260,y1:430,x2:x+240,y2:426,stroke:'#3a2a1a','stroke-width':10});el(g,'path',{d:`M${x+240} 426 l40 -10 l-6 10 l6 10Z`,fill:'#4a4a4e',stroke:INK,'stroke-width':2});
+  el(g,'path',{d:`M${x-260} 430 l-30 -24 M${x-260} 430 l-30 24 M${x-240} 430 l-28 -22 M${x-240} 430 l-28 22`,stroke:'#8a3a2a','stroke-width':5})}
+ el(g,'path',{d:'M0 900 Q700 820 1400 900Z',fill:INK,opacity:.85})},
+t25n_hop(){const s=setup(320,240);seed=2533;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'rect',{x:30,y:80,width:260,height:140,fill:'#5a3a22',stroke:INK,'stroke-width':5});el(g,'path',{d:'M20 80 L300 80 L280 40 L40 40Z',fill:'#6a4a2a',stroke:INK,'stroke-width':5});
+ el(g,'rect',{x:140,y:90,width:40,height:30,fill:'#c9a45a',stroke:INK,'stroke-width':2})},
+t25_ao(){const s=setup(460,280);seed=2534;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'path',{d:'M30 200 Q230 150 430 200 L410 260 Q230 230 50 260Z',fill:'#c9a03a',stroke:INK,'stroke-width':5});
+ el(g,'path',{d:'M140 190 Q230 60 320 190',fill:'#d8b24a',stroke:INK,'stroke-width':4});
+ for(let i=0;i<5;i++)el(g,'circle',{cx:150+i*40,cy:215,r:9,fill:'none',stroke:'#7a5a1a','stroke-width':3})},
+t25_quan(){const s=setup(700,300);seed=2535;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'path',{d:'M40 120 L660 120 L640 270 L60 270Z',fill:'#4a3420',stroke:INK,'stroke-width':6});el(g,'path',{d:'M30 120 L670 120 L650 80 L50 80Z',fill:'#5a4228',stroke:INK,'stroke-width':6})},
+t25_cuon(){const s=setup(760,900);seed=2536;const g=el(s,'g',{filter:'url(#ink)'});el(g,'rect',{x:60,y:60,width:640,height:780,fill:PAPER,stroke:INK,'stroke-width':6});
+ el(g,'rect',{x:30,y:30,width:700,height:40,rx:16,fill:'#6a2a1e'});el(g,'rect',{x:30,y:830,width:700,height:40,rx:16,fill:'#6a2a1e'});
+ for(let i=0;i<14;i++)el(g,'line',{x1:620-i*40,y1:130,x2:620-i*40,y2:780,stroke:INK,'stroke-width':1.5,opacity:.12})},
+t25n_trai(){const s=setup(2400,560);seed=2537;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ for(let i=0;i<6;i++){const x=220+i*380+rnd()*60,y=520-(i%2)*30,w=230;el(g,'path',{d:`M${x-w/2} ${y} L${x} ${y-180} L${x+w/2} ${y}Z`,fill:'#d8cbae',stroke:INK,'stroke-width':4});el(g,'line',{x1:x,y1:y-180,x2:x,y2:y-210,stroke:INK,'stroke-width':4});el(g,'rect',{x:x-24,y:y-70,width:48,height:70,fill:'#3a2a1a'})}
+ for(let i=0;i<28;i++)el(g,'line',{x1:30+i*86,y1:560,x2:40+i*86,y2:480,stroke:'#4a3420','stroke-width':6})},
+t25_lua(){const s=setup(900,520);seed=2538;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ for(let i=0;i<11;i++){const x=80+i*72,h=180+rnd()*240;el(g,'path',{d:`M${x-44} 500 Q${x-30} ${500-h*.5} ${x} ${500-h} Q${x+30} ${500-h*.5} ${x+44} 500Z`,fill:i%2?'#c8642a':'#e0a040',opacity:.75})}}
+});
+
+// sửa 25/11: thêm nét mặt sợ, giận, reo cho nhân vật tm23 (t23n_r_) và tm24 (t24n_r_)
+for(const key of ['lpt','ttt','tth','tnh','tho','nlh','ttd','lv1','lv2','lv3','lm1','lm2','lm3','quan1','dan'])for(const m of ['S','G','V'])A[`t23n_r_${key}_head${m}`]=()=>rigpart23(key,'head'+m);
+for(const key of Object.keys(P24))for(const m of ['S','G','V'])A[`t24n_r_${key}_head${m}`]=()=>rigpart23(key,'head'+m);
+
 </script></body></html>

@@ -1,2 +1,2 @@
-tm24ca
-# nhận dạng giọng tm24 191826
+tm25ca
+# nhận dạng giọng tm25 034417

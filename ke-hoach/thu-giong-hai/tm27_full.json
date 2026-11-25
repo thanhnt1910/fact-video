@@ -36,11 +36,19 @@
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Đầu năm một nghìn hai trăm tám mươi tám, quân Nguyên đang đánh Đại Việt lần thứ ba, và đạo quân ấy đã bắt đầu thiếu lương.",
-  "hien": "Đầu năm một nghìn hai trăm tám mươi tám, quân Nguyên đang đánh Đại Việt lần thứ ba, và đạo quân ấy đã bắt đầu thiếu lương."
+  "text": "Đầu năm một nghìn hai trăm tám mươi tám, quân Nguyên đang đánh Đại Việt lần thứ ba mà đã bắt đầu thiếu lương, vì đoàn thuyền lương bị chặn ở Vân Đồn.",
+  "hien": "Đầu năm một nghìn hai trăm tám mươi tám, quân Nguyên đang đánh Đại Việt lần thứ ba mà đã bắt đầu thiếu lương, vì đoàn thuyền lương bị chặn ở Vân Đồn."
  },
  {
   "n": 209006,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Chuyện Trần Khánh Dư chặn đoàn thuyền lương ấy được kể trong video trước của kênh. Video này kể tiếp những gì xảy ra sau đó.",
+  "hien": "Chuyện Trần Khánh Dư chặn đoàn thuyền lương ấy được kể trong video trước của kênh. Video này kể tiếp những gì xảy ra sau đó."
+ },
+ {
+  "n": 209007,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
@@ -48,7 +56,7 @@
   "hien": "Thoát Hoan, vị hoàng tử nhà Nguyên cầm đầu đạo quân, kéo vào Thăng Long. Kinh thành đã bỏ trống, vua Trần lại xuống thuyền ra biển."
  },
  {
-  "n": 209007,
+  "n": 209008,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
@@ -56,7 +64,7 @@
   "hien": "Thoát Hoan đuổi theo tới cửa biển Thiên Trường thì không biết vua Trần đã đi về đâu, đành kéo quân trở về Thăng Long."
  },
  {
-  "n": 209008,
+  "n": 209009,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
@@ -64,7 +72,7 @@
   "hien": "Không có lương, các tướng Nguyên phải chia nhau dẫn quân vào núi, đi khắp các vùng để tìm thóc gạo."
  },
  {
-  "n": 209009,
+  "n": 209010,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
@@ -72,7 +80,7 @@
   "hien": "Thủy quân của Ô Mã Nhi thì đi lùng khắp vùng ven biển. Thư nhà Trần về sau kể tội Ô Mã Nhi đã dọa đuổi theo vua, giết và bắt dân ven biển."
  },
  {
-  "n": 209010,
+  "n": 209011,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
@@ -80,7 +88,7 @@
   "hien": "Tháng giêng, Ô Mã Nhi đánh vào phủ Long Hưng, quê gốc của họ Trần, nơi có lăng mộ các vua đầu triều."
  },
  {
-  "n": 209011,
+  "n": 209012,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
@@ -88,7 +96,7 @@
   "hien": "Ở đó có Chiêu Lăng, lăng của vua Trần Thái Tông, ông nội của vua Trần Nhân Tông đang trị vì."
  },
  {
-  "n": 209012,
+  "n": 209013,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
@@ -96,7 +104,7 @@
   "hien": "Quân Nguyên đào Chiêu Lăng, định phá đi. Toàn thư chép chúng đào bới mà không phạm được tới quan tài."
  },
  {
-  "n": 209013,
+  "n": 209014,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -104,7 +112,7 @@
   "hien": "Tháng ba, quân Nguyên quyết định rút về nước. Ô Mã Nhi và Phàn Tiếp đem thủy quân đi trước, có quân bộ đi dọc bờ sông hộ tống."
  },
  {
-  "n": 209014,
+  "n": 209015,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -112,7 +120,7 @@
   "hien": "Thoát Hoan sẽ dẫn đại quân về sau theo đường bộ. Đạo quân Nguyên chia làm hai ngả, một ngả theo đường sông, một ngả theo đường bộ."
  },
  {
-  "n": 209015,
+  "n": 209016,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -120,7 +128,7 @@
   "hien": "Từ Vạn Kiếp muốn ra biển, đoàn thuyền phải xuôi xuống sông Bạch Đằng. Hơn ba trăm năm trước, Ngô Quyền đã đánh tan thủy quân Nam Hán trên chính con sông này."
  },
  {
-  "n": 209016,
+  "n": 209017,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -128,7 +136,7 @@
   "hien": "Người chỉ huy toàn bộ quân Đại Việt là Hưng Đạo Vương Trần Quốc Tuấn. Ông đã cho đóng cọc gỗ xuống lòng sông Bạch Đằng, rồi lấy cỏ phủ lên đầu cọc."
  },
  {
-  "n": 209017,
+  "n": 209018,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -136,7 +144,7 @@
   "hien": "Vì sao lại là cọc? Khi thủy triều lên, nước sông dâng cao che kín bãi cọc, thuyền lớn đi qua phía trên mà không chạm phải."
  },
  {
-  "n": 209018,
+  "n": 209019,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -144,7 +152,7 @@
   "hien": "Khi thủy triều rút xuống, mặt nước hạ thấp, đầu cọc nhô lên. Thuyền nào còn nằm trên bãi cọc lúc ấy sẽ bị mắc lại."
  },
  {
-  "n": 209019,
+  "n": 209020,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -152,7 +160,7 @@
   "hien": "Quân Đại Việt mai phục sẵn quanh khúc sông, chờ thủy quân của Ô Mã Nhi đi xuống."
  },
  {
-  "n": 209020,
+  "n": 209021,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -160,7 +168,7 @@
   "hien": "Nghe tin Ô Mã Nhi đã kéo về tới Bạch Đằng, Hưng Đạo Vương dẫn quân qua sông Hóa, chỉ xuống dòng sông mà thề."
  },
  {
-  "n": 209021,
+  "n": 209022,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
@@ -168,7 +176,7 @@
   "hien": "Theo lời kể còn lưu lại, Hưng Đạo Vương thề rằng trận này không phá xong giặc Nguyên thì không trở về con sông này nữa."
  },
  {
-  "n": 209022,
+  "n": 209023,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -176,7 +184,7 @@
   "hien": "Ngày mồng tám tháng ba năm Mậu Tý, đoàn thuyền của Ô Mã Nhi xuôi tới sông Bạch Đằng, đúng lúc thủy triều đang lên."
  },
  {
-  "n": 209023,
+  "n": 209024,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -184,7 +192,7 @@
   "hien": "Một toán thuyền Đại Việt ra khiêu chiến. Đánh được một lúc, toán thuyền ấy giả thua, quay đầu chạy."
  },
  {
-  "n": 209024,
+  "n": 209025,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -192,7 +200,7 @@
   "hien": "Ô Mã Nhi cho cả đoàn thuyền đuổi theo. Nước đang lên cao, nên không chiếc thuyền nào chạm phải bãi cọc giấu bên dưới."
  },
  {
-  "n": 209025,
+  "n": 209026,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -200,7 +208,7 @@
   "hien": "Rồi thủy triều bắt đầu rút. Nước sông hạ xuống từng chút, và những hàng cọc nhọn dần nhô lên khỏi mặt nước."
  },
  {
-  "n": 209026,
+  "n": 209027,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -208,7 +216,7 @@
   "hien": "Quân Đại Việt từ khắp nơi đổ ra đánh. Thuyền giặc muốn quay ra biển thì vướng vào bãi cọc."
  },
  {
-  "n": 209027,
+  "n": 209028,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -216,7 +224,7 @@
   "hien": "Thuyền mắc cọc, nghiêng ngả rồi vỡ. Quân Nguyên trên thuyền rơi xuống sông, chết đuối rất nhiều."
  },
  {
-  "n": 209028,
+  "n": 209029,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -224,7 +232,7 @@
   "hien": "Sử nhà Nguyên chép hai bên đánh nhau tới tận chập tối. Trận ấy, quân Đại Việt bắt được hơn bốn trăm chiếc thuyền."
  },
  {
-  "n": 209029,
+  "n": 209030,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -232,7 +240,7 @@
   "hien": "Một viên tướng nhà Trần tên là Đỗ Hành bắt được Ô Mã Nhi cùng tướng Tích Lệ Cơ, rồi đem dâng lên thượng hoàng Trần Thánh Tông."
  },
  {
-  "n": 209030,
+  "n": 209031,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -240,7 +248,7 @@
   "hien": "Thượng hoàng cho dẫn Ô Mã Nhi lên thuyền ngự, cùng ngồi nói chuyện. Người từng dọa đuổi vua lên trời xuống nước, nay ngồi ngay trên thuyền của thượng hoàng."
  },
  {
-  "n": 209031,
+  "n": 209032,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -248,7 +256,7 @@
   "hien": "Tướng Phàn Tiếp cũng bị bắt. Thủy quân đi đường sông của quân Nguyên đã tan ở Bạch Đằng."
  },
  {
-  "n": 209032,
+  "n": 209033,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -256,7 +264,7 @@
   "hien": "Còn ngả đường bộ, Thoát Hoan dẫn đại quân rút về phía biên giới. Tới ải Nội Bàng, quân Đại Việt đã chờ sẵn."
  },
  {
-  "n": 209033,
+  "n": 209034,
   "chuong": 4,
   "nhip": "cao_trao",
   "tone": "story",
@@ -264,7 +272,7 @@
   "hien": "Sử nhà Nguyên chép Thoát Hoan phải để tướng Trương Quân dẫn ba nghìn quân tinh nhuệ đi sau cùng, đánh liều mạng mới ra được khỏi ải."
  },
  {
-  "n": 209034,
+  "n": 209035,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -272,7 +280,7 @@
   "hien": "Thoát ra rồi, thám báo lại về báo tin. Hai vua Trần và Hưng Đạo Vương đã chia hơn ba mươi vạn quân giữ các ải phía trước, nối dài hơn trăm dặm."
  },
  {
-  "n": 209035,
+  "n": 209036,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -280,7 +288,7 @@
   "hien": "Thoát Hoan bèn bỏ đường lớn, đi đường tắt qua Đan Kỷ, Lộc Châu mà chạy về Tư Minh, bên kia biên giới."
  },
  {
-  "n": 209036,
+  "n": 209037,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -288,7 +296,7 @@
   "hien": "Như vậy cả hai ngả đường về của quân Nguyên, đường sông hay đường bộ, đều đã có quân Đại Việt chờ sẵn."
  },
  {
-  "n": 209037,
+  "n": 209038,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -296,7 +304,7 @@
   "hien": "Ngày mười bảy tháng ba, hai vua Trần trở về phủ Long Hưng. Các tướng Nguyên bị bắt như Ô Mã Nhi, Phàn Tiếp và Tích Lệ Cơ cũng bị giải theo."
  },
  {
-  "n": 209038,
+  "n": 209039,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -304,7 +312,7 @@
   "hien": "Triều đình làm lễ dâng thắng trận ở Chiêu Lăng, đúng ngôi lăng mà quân Nguyên đã đào phá chưa đầy hai tháng trước."
  },
  {
-  "n": 209039,
+  "n": 209040,
   "chuong": 5,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -312,7 +320,7 @@
   "hien": "Toàn thư chép thêm một chi tiết lạ. Khi giặc thua chạy, người ta thấy chân những con ngựa đá ở lăng đều lấm bùn."
  },
  {
-  "n": 209040,
+  "n": 209041,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -320,7 +328,7 @@
   "hien": "Sử cũ coi đó là thần linh ngầm giúp, như thể ngựa đá cũng đã ra trận. Trong lễ bái yết hôm ấy, nhà vua làm thơ."
  },
  {
-  "n": 209041,
+  "n": 209042,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -328,7 +336,7 @@
   "hien": "Bài thơ có câu xã tắc lưỡng hồi lao thạch mã. Câu ấy nói rằng đất nước hai lần gặp nạn, đến ngựa đá cũng phải nhọc nhằn."
  },
  {
-  "n": 209042,
+  "n": 209043,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -336,7 +344,7 @@
   "hien": "Ô Mã Nhi không bị giết ngay sau trận. Tháng hai năm sau, năm một nghìn hai trăm tám mươi chín, triều đình sai người đưa Ô Mã Nhi về nước."
  },
  {
-  "n": 209043,
+  "n": 209044,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -344,7 +352,7 @@
   "hien": "Toàn thư chép rằng theo kế của Hưng Đạo Vương, ban đêm thuyền chở Ô Mã Nhi bị đục cho đắm, và Ô Mã Nhi chết đuối."
  },
  {
-  "n": 209044,
+  "n": 209045,
   "chuong": 6,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -352,7 +360,7 @@
   "hien": "Từ sau trận Bạch Đằng năm ấy, quân Nguyên không còn sang đánh Đại Việt thêm một lần nào nữa."
  },
  {
-  "n": 209045,
+  "n": 209046,
   "chuong": 7,
   "nhip": "ket",
   "tone": "story",

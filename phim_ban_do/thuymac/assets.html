@@ -2784,4 +2784,10 @@ Object.assign(A,{t23n_sodo(){const s=setup(1920,1080);seed=2331;const g=el(s,'g'
  for(let i=0;i<60;i++){const x=rnd()*1920,y=700+rnd()*330;el(g,'path',{d:`M${x} ${y} l6 -14 l6 14`,stroke:INK,'stroke-width':1.5,fill:'none',opacity:.25})}
  for(let i=0;i<60;i++){const x=rnd()*1920,y=60+rnd()*300;el(g,'path',{d:`M${x} ${y} l6 -14 l6 14`,stroke:INK,'stroke-width':1.5,fill:'none',opacity:.2})}}});
 
+// tm24 sửa 25/11: cờ đạo quân cho bản đồ (Đại Việt: cờ đỏ viền vàng; quân Nguyên: cờ đen viền vàng)
+Object.assign(A,{t24_spr_coV(){const s=setup(220,420);seed=2420;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'path',{d:'M44 30 L210 70 L44 150Z',fill:'#a8281c',stroke:'#c9a45a','stroke-width':5})},
+ t24_spr_coN(){const s=setup(220,420);seed=2421;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'path',{d:'M44 30 Q140 40 210 30 Q170 90 210 150 Q140 140 44 150Z',fill:'#2a2a30',stroke:'#c9a45a','stroke-width':5})}});
+
 </script></body></html>

@@ -148,6 +148,38 @@ def tay(cv,x,y,t,t0,t1,s=.62,o=1.0):
     if not(t0<t<t1): return
     u=inn(t,t0,.6)*(1-inn(t,t1-.5,.5));put(cv,C0,'t24n_canhtay',x+30*(t-t0),y,s=s*(1+.03*(t-t0)),o=u*o)
 def gio(PP,t_): PP.update(arF=-150+6*math.sin(t_*2),faF=-10)
+# ---------- bản đồ và sơ đồ trận (sửa 25/11 theo góp ý chủ kênh) ----------
+PTM=json.load(open('/tmp/gen/bd/a/map_pts.json'))
+def mcam(t,keys):
+    if FREEZE: t=keys[0][0]
+    cx,cy,z=cpath(t,keys);cx=min(max(cx,960/z),1920-960/z);cy=min(max(cy,540/z),1080-540/z);return cam(cx,cy,z)
+def bando(cv,c,t,a):
+    im=A('map')
+    if not FREEZE and t<a+1: im=wipe(im,inn(t,a-.2,1.0),0,.25,seed=4)
+    put(cv,c,im,960,540,scale_px=1.5)
+def diem(cv,c,nm,p,t,t0,col=INK,sz=36,dx=22,dy=-6):
+    if t<t0: return
+    o=inn(t,t0,.3);dot(cv,c,*p,o=o,col=col,r=7)
+    X,Y=c.p(*p);tx=text(nm,sz,col,700,glow=3)
+    put_screen(cv,tx,X+dx+(tx.shape[1]/2 if dx>=0 else -tx.shape[1]/2),Y+dy,o)
+def duong(cv,c,pts,t,t0,dur,col,wid=9):
+    if FREEZE: return stroke(cv,c,pts,1,wid=wid,col=col,o=.85,head=True)
+    stroke(cv,c,pts,inn(t,t0,dur),wid=wid,col=col,o=.85,head=True)
+def theo(pts,u):
+    L=[math.dist(pts[i],pts[i+1]) for i in range(len(pts)-1)];tot=sum(L);d=u*tot
+    for i,l in enumerate(L):
+        if d<=l or i==len(L)-1:
+            v=min(d/l,1) if l else 0;return pts[i][0]+(pts[i+1][0]-pts[i][0])*v,pts[i][1]+(pts[i+1][1]-pts[i][1])*v
+        d-=l
+def cotheo(cv,c,name,pts,t,t0,dur,s=.14,ph=0,o=1.0):
+    """lá cờ đi theo đường tiến quân (dấu hiệu một đạo quân trên bản đồ)"""
+    u=inn(t,t0,dur);x,y=theo(pts,u)
+    put(cv,c,name,x,y,s=s,ay=1,r=2*math.sin(t*3+ph),o=o)
+def khoi(cv,c,x,y,w,h,col,o=.9):
+    put(cv,c,band(w,h,col,o,6),x,y)
+def pulse(cv,c,x,y,t,col=RED):
+    for k in range(2):
+        u=((t*.6+k*.5)%1.0);dot(cv,c,x,y,o=.6*(1-u),col=col,r=int(8+40*u))
 # =================== các cảnh ===================
 G=[(1,1),(2,2),(3,3),(4,5),(6,7),(8,9),(10,11),(12,13),(14,15),(16,17),(18,19),(20,22),(23,24),(25,26),(27,28),(29,30),(31,32),(33,34),(35,36),(37,39),(40,42),(43,45),(46,46),(47,48),(49,50),(51,51),(52,53),(54,55),(56,58),(59,59),(60,60),(61,62),(63,63),(64,64),(65,65),(66,67)]
 def AB(i): a,b=G[i-1];return T[a]-.3,E[b]+.3
@@ -214,20 +246,29 @@ def S_5(cv,t):
     truoc(cv,c,t)
     seal(cv,'s1284',1580,280,a+.6,t,s=.8,r=4)
     nhan(cv,'Hưng Đạo Vương Trần Quốc Tuấn duyệt binh',960,170,t,a+.3,q-.2,VIETC,40);nhan(cv,'chia quân giữ bến Bình Than',960,170,t,sb(7,1),b,VIETC,40)
-# 6: sứ về báo tin; Thoát Hoan
+# 6: sứ về báo tin; bản đồ: quân Nguyên chia nhiều đường vào nước ta
 def S_6(cv,t):
     a,b=AB(6);q=T[9]
-    c=kc(t,[(a,(900,560,1.05)),(q,(1200,560,1.0)),(b,(1300,540,1.08))])
-    nen(cv,c,t,seed=6)
-    if t<q+.5:
+    if t<q:
+        c=kc(t,[(a,(900,560,1.05)),(q,(1000,560,1.0))])
+        nen(cv,c,t,seed=6)
         ngua(cv,c,'den','q24',-300,700,900,t,a,a+3,s=.56)
         nguoi(cv,c,'tnt',1000,905,t,s=.64,flip=True)
-    else:
-        ngua(cv,c,'den','thn',2000,1300,900,t,q,b,s=.6,vk='cung',flip=True)
-        for i in range(4): ngua(cv,c,['nau','den','nau','den'][i],'m1',2200+i*220,1500+i*200,900+(i%2)*14,t,q+.2+i*.2,b,s=.52,vk='cung',ph=i,flip=True)
-    truoc(cv,c,t)
-    nhan(cv,'sứ giả từ phương Bắc về báo tin',960,170,t,a+.3,sb(8,1),INK,40);nhan(cv,'hoàng tử Thoát Hoan đem đại quân sang',960,170,t,sb(8,1)+.1,q-.1,MONGC,40)
-    nhan(cv,'cái cớ: mượn đường đánh Chiêm Thành',960,170,t,q+.1,b,MONGC,40)
+        for i in range(2): dib(cv,c,'q24',1600+i*150,1300+i*150,905,t,a+.5,q,s=.58,flip=True,ph=i)
+        truoc(cv,c,t)
+        nhan(cv,'sứ giả từ phương Bắc về báo tin',960,170,t,a+.3,sb(8,1),INK,40);nhan(cv,'hoàng tử Thoát Hoan đem đại quân sang',960,170,t,sb(8,1)+.1,q-.1,MONGC,40)
+        return
+    tl,ls,un,qn=tuple(PTM['thanglong']),tuple(PTM['langson']),tuple(PTM['ungchau']),tuple(PTM['quangnguyen'])
+    c=mcam(t,[(q,(700,460,1.25)),(b,(620,480,1.45))])
+    bando(cv,c,t,q)
+    diem(cv,c,'Thăng Long',tl,t,q,VIETC,dx=24,dy=24)
+    duongs=[[un,(760,330),ls,(520,520),tl],[qn,(500,380),(470,500),tl],[(1000,200),(900,380),(720,560),(560,600)]]
+    for k,ps in enumerate(duongs):
+        duong(cv,c,ps,t,q+.2+k*.4,b-q-1.2,MONGC,7)
+        cotheo(cv,c,'t24_spr_coN',ps,t,q+.2+k*.4,b-q-.8,s=.14,ph=k)
+    pulse(cv,c,*tl,t,VIETC)
+    nhan(cv,'cái cớ: mượn đường đánh Chiêm Thành',960,150,t,q+.1,sb(9,1),MONGC,40)
+    nhan(cv,'thật ra chia nhiều đường vào cướp nước ta',960,150,t,sb(9,1)+.1,b,RED,40)
 # 7: hội nghị Diên Hồng
 def S_7(cv,t):
     a,b=AB(7);q=T[11]
@@ -242,16 +283,30 @@ def S_7(cv,t):
     truoc(cv,c,t)
     nhan(cv,'thềm điện Diên Hồng',960,170,t,a+.3,q-.2,INK,42)
     if not FREEZE and t>q: big(cv,'ĐÁNH!',t,q+.1,b,RED,300,96,seed=11)
-# 8: các ải biên giới; vua đi thuyền nhẹ
+# 8: bản đồ: quân Nguyên đánh các ải biên giới phía bắc (có Chi Lăng); quân nhà Trần rút về Vạn Kiếp; vua ra Hải Đông
 def S_8(cv,t):
-    a,b=AB(8);q=T[13]
-    c=kc(t,[(a,(1100,540,1.0)),(b,(900,560,1.08))])
-    put(cv,c,'t24_ai',960,900,ay=1,s=.75,k=.6,o=.9)
-    for i in range(4): ngua(cv,c,['nau','den','nau','den'][i],'m1',2400+i*200,1100+i*170,900+(i%2)*14,t,a+i*.2,q,s=.52,vk='cung',ph=i,flip=True)
-    for i in range(4): dib(cv,c,['v1','v3','v2','v1'][i],1000-i*130,-300-i*150,905,t,a+.8,b,s=.55,vk=['giao','dao','no','giao'][i],ph=i,chay=1.2)
-    ten(cv,c,t,a,q,[(1900,560),(2000,600)],[(800,840),(1100,860)],n=10,h=140)
-    truoc(cv,c,t)
-    nhan(cv,'ngày 26 tháng chạp · ải Chi Lăng',960,170,t,a+.3,q-.2,INK,40);nhan(cv,'rút về bến Vạn Kiếp',960,170,t,q+.1,b,VIETC,42)
+    a,b=AB(8);q=T[13];r=sb(13,1)
+    ls,cl,vk,tl=tuple(PTM['langson']),tuple(PTM['chilang']),tuple(PTM['vankiep']),tuple(PTM['thanglong'])
+    hd=(640,610)
+    c=mcam(t,[(a,(600,450,1.8)),(q,(560,520,2.0)),(b,(580,560,2.0))])
+    bando(cv,c,t,a)
+    diem(cv,c,'ải Chi Lăng',cl,t,a+.4,RED,dx=24,dy=-24)
+    for k,ps in enumerate([[(600,330),ls,cl],[(700,380),(640,450),(600,500)],[(520,360),(530,430),(540,480)]]):
+        duong(cv,c,ps,t,a+.3+k*.3,q-a-.8,MONGC,6)
+        cotheo(cv,c,'t24_spr_coN',ps,t,a+.3+k*.3,q-a-.6,s=.12,ph=k)
+    if t>a+1: pulse(cv,c,*cl,t)
+    if t>q:
+        rut=[(cl[0]-4,cl[1]+10),(545,540),vk]
+        duong(cv,c,rut,t,q,r-q-.3,VIETC,6)
+        for i in range(2): cotheo(cv,c,'t24_spr_coV',rut,t,q+i*.3,r-q,s=.12,ph=i)
+        diem(cv,c,'Vạn Kiếp',vk,t,q+.6,VIETC,dx=-24,dy=20)
+    if t>r:
+        ra=[vk,(580,600),hd]
+        duong(cv,c,ra,t,r,b-r-.4,VIETC,5)
+        cotheo(cv,c,'t23n_thuyen',ra,t,r,b-r,s=.06,ph=3)
+        diem(cv,c,'Hải Đông',hd,t,r+.8,VIETC,dx=24,dy=20)
+    nhan(cv,'ngày 26 tháng chạp · các ải biên giới phía bắc',960,150,t,a+.3,q-.2,INK,40);nhan(cv,'rút về Vạn Kiếp',960,150,t,q+.1,r-.1,VIETC,42)
+    nhan(cv,'nhà vua đi thuyền nhẹ ra Hải Đông',960,150,t,r+.1,b,VIETC,40)
 # 9: vua chưa ăn cơm sáng; Trần Lai
 def S_9(cv,t):
     a,b=AB(9);q=sb(14,1)
@@ -297,18 +352,27 @@ def S_12(cv,t):
     truoc(cv,c,t)
     nhan(cv,'chim hồng hộc bay cao nhờ sáu chiếc lông cánh lớn',960,170,t,q+.2,r-.1,INK,38)
     nhan(cv,'kỵ binh giặc đuổi không kịp',960,170,t,r+.8,b,VIETC,42)
-# 13: Ô Mã Nhi đánh Vạn Kiếp; tràn vào Gia Lâm
+# 13: bản đồ: Ô Mã Nhi đánh Vạn Kiếp, núi Phả Lại; ngày 12 tràn vào vùng Gia Lâm, Vũ Ninh, Đông Ngàn
 def S_13(cv,t):
     a,b=AB(13);q=T[24]
-    hit=a+1.0;sh=(4*math.sin(t*37)*(1-inn(t,hit+.3,.6))) if hit<t<hit+.9 and not FREEZE else 0
-    c=kc(t,[(a,(1200,540,1.05)),(b,(800,560,1.0))],sh)
-    nen(cv,c,t,seed=13)
-    dib(cv,c,'omn',2200,1300,905,t,a,q,s=.66,vk='daocong',flip=True)
-    for i in range(5): dib(cv,c,['m2','m3','m1','m2','m3'][i],2400+i*150,1400+i*150-300*inn(t,q,b-q),905+(i%2)*12,t,a+.2+i*.15,b,s=.56,vk=['moc','daocong','cung','moc','daocong'][i],ph=i,flip=True)
-    for i in range(3): dib(cv,c,['v1','v2','v3'][i],900-i*140,-300-i*140,905,t,a+.8,q+1,s=.55,vk=['giao','no','dao'][i],ph=i,chay=1.2)
-    truoc(cv,c,t)
+    vk,tl=tuple(PTM['vankiep']),tuple(PTM['thanglong'])
+    gl=(455,585)
+    c=mcam(t,[(a,(520,540,2.4)),(q,(490,575,2.6)),(b,(470,585,2.7))])
+    bando(cv,c,t,a)
+    diem(cv,c,'Vạn Kiếp · núi Phả Lại',vk,t,a+.3,RED,dx=24,dy=-24)
+    vao=[(560,470),(545,530),vk]
+    duong(cv,c,vao,t,a+.3,q-a-1.0,MONGC,5)
+    for i in range(3): cotheo(cv,c,'t24_spr_coN',vao,t,a+.3+i*.3,q-a-.6,s=.1,ph=i)
+    if t>a+1.2: pulse(cv,c,*vk,t)
+    diem(cv,c,'Thăng Long',tl,t,a,VIETC,dx=-24,dy=24)
+    if t>q:
+        tran=[vk,(500,580),gl]
+        duong(cv,c,tran,t,q,b-q-.8,MONGC,5)
+        for i in range(3): cotheo(cv,c,'t24_spr_coN',[vk,(500,575+i*6),(gl[0]+i*8,gl[1]-6+i*6)],t,q+i*.3,b-q-.4,s=.1,ph=i+3)
+        if t>q+1.5: pulse(cv,c,*gl,t)
+        diem(cv,c,'vùng Gia Lâm, Vũ Ninh, Đông Ngàn',gl,t,q+1.2,MONGC,dx=-24,dy=-60)
     seal(cv,'s1285',1580,280,a+.6,t,s=.8,r=4)
-    nhan(cv,'Ô Mã Nhi đánh Vạn Kiếp, núi Phả Lại',960,170,t,a+.3,q-.2,MONGC,40);nhan(cv,'Gia Lâm · Vũ Ninh · Đông Ngàn',960,170,t,q+.1,b,INK,42)
+    nhan(cv,'Ô Mã Nhi · quân nhà Trần lại vỡ chạy',960,150,t,a+.3,q-.2,MONGC,40);nhan(cv,'ngày 12 tháng giêng',960,150,t,q+.1,b,INK,42)
 # 14: phát hiện hai chữ Sát Thát
 def S_14(cv,t):
     a,b=AB(14);q=T[26]
@@ -480,27 +544,26 @@ def S_27(cv,t):
     truoc(cv,c,t)
     nhan(cv,'Trần Ích Tắc · em ruột thượng hoàng',960,170,t,a+.3,q-.2,INK,40);nhan(cv,'An Nam quốc vương',960,170,t,q+.1,sb(53,1),MONGC,46)
     nhan(cv,'người chọn chết · người nhận tước vương từ tay giặc',960,170,t,sb(53,1)+.1,b,RED,36)
-# 28: Toa Đô từ phía nam; hai gọng kìm
+# 28: bản đồ: Toa Đô từ Chiêm Thành đánh ra Nghệ An, Thanh Hóa; hai gọng kìm Thoát Hoan phía bắc, Toa Đô phía nam
 def S_28(cv,t):
     a,b=AB(28);q=T[55]
-    c=kc(t,[(a,(960,540,1.0)),(b,(960,540,1.06))])
-    if t<q:
-        nen(cv,c,t,seed=28)
-        ngua(cv,c,'nau','tdo',-300,900,900,t,a,q,s=.6,vk='moc')
-        for i in range(4): ngua(cv,c,['den','nau','den','nau'][i],'m2',-500-i*220,700-i*200,900+(i%2)*14,t,a+.2+i*.2,q,s=.52,vk='moc',ph=i)
-        truoc(cv,c,t)
-        seal(cv,'shen3',1580,280,sb(54,1),t,s=.8,r=4)
-    else:
-        nen(cv,c,t,seed=29)
-        for i in range(3): dib(cv,c,['v1','v2','v3'][i],860+i*110,880+i*110,905,t,q,b,s=.56,vk=['giao','no','dao'][i],ph=i)
-        ngua(cv,c,'den','thn',-300,450,900,t,q,b-1,s=.58,vk='cung')
-        for i in range(2): ngua(cv,c,'nau','m1',-500-i*200,250-i*150,900,t,q+.2,b-1,s=.5,vk='cung',ph=i)
-        ngua(cv,c,'nau','tdo',2200,1500,900,t,q,b-1,s=.58,vk='moc',flip=True)
-        for i in range(2): ngua(cv,c,'den','m2',2400+i*200,1700+i*150,900,t,q+.2,b-1,s=.5,vk='moc',ph=i,flip=True)
-        truoc(cv,c,t)
-        nhan(cv,'Thoát Hoan · phía bắc',450,300,t,q+.4,b,MONGC,40);nhan(cv,'Toa Đô · phía nam',1480,300,t,q+.6,b,MONGC,40)
-        nhan(cv,'nhà Trần ở giữa',960,620,t,q+1.2,b,VIETC,40)
-    nhan(cv,'Toa Đô · đánh ra vùng Nghệ An, Thanh Hóa',960,170,t,a+.3,q-.2,MONGC,40)
+    tl,na,th,ls=tuple(PTM['thanglong']),tuple(PTM['nghean']),tuple(PTM['thanhhoa']),tuple(PTM['langson'])
+    c=mcam(t,[(a,(520,860,1.55)),(q,(520,720,1.25)),(b,(520,660,1.2))])
+    bando(cv,c,t,a)
+    nam=[(392,1075),na,th,(436,700)]
+    duong(cv,c,nam,t,a+.2,q-a-.4,MONGC,7)
+    for i in range(3): cotheo(cv,c,'t24_spr_coN',nam,t,a+.2+i*.3,b-a-1.2,s=.14,ph=i)
+    diem(cv,c,'Nghệ An',na,t,a+.8,INK,dx=24,dy=-10);diem(cv,c,'Thanh Hóa',th,t,a+1.6,INK,dx=24,dy=-10)
+    seal(cv,'shen3',1580,280,sb(54,1),t,s=.8,r=4)
+    if t>q:
+        bac=[(620,330),ls,(500,540),(436,585)]
+        duong(cv,c,bac,t,q,b-q-.6,MONGC,7)
+        for i in range(3): cotheo(cv,c,'t24_spr_coN',bac,t,q+i*.3,b-q-.4,s=.14,ph=i+3)
+        diem(cv,c,'Thăng Long',tl,t,q,VIETC,dx=24,dy=24)
+        pulse(cv,c,*tl,t,VIETC)
+        nhan(cv,'phía bắc · Thoát Hoan',960,150,t,q+.1,b,MONGC,40)
+    nhan(cv,'Toa Đô · từ Chiêm Thành đánh ra',960,150,t,a+.3,q-.1,MONGC,40)
+    nhan(cv,'phía nam · Toa Đô',960,780,t,q+.6,b,MONGC,40)
 # 29: lấy nhàn chống mệt
 def S_29(cv,t):
     a,b=AB(29);q=T[58]

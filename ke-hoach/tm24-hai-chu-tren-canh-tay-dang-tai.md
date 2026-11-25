@@ -1,6 +1,6 @@
 # Hai chữ trên cánh tay, năm 1285 (thủy mặc tm24): tiêu đề, mô tả, bình luận ghim, ảnh bìa, bản dọc
 
-Video: `tm24_thuymac_dai.mp4` (16:9, khoảng 9 phút 4 giây, giọng Charon đọc cả kịch bản một lần (lần 3, 25/11), kịch bản bản 5, 36 cảnh, nhân vật múa rối riêng của tập). Bản dọc: `tm24_thuymac_doc.mp4` (9:16, khoảng 77 giây, cắt từ đoạn 1–5 và 31–34 của bản dài, kết bằng lời mời xem bản đầy đủ). Ảnh bìa: `assets/bia/TM24/bia_tm24.png` và `bia_tm24_youtube.jpg`, chữ lớn "VÌ SAO VẪN XĂM?", có logo đúng cỡ và vị trí.
+Video: `tm24_thuymac_dai.mp4` (16:9, khoảng 9 phút 4 giây, giọng Charon đọc cả kịch bản một lần (lần 3, 25/11), kịch bản bản 5, 36 cảnh, nhân vật múa rối riêng của tập; sửa 25/11: 4 cảnh tiến quân đổi sang bản đồ: quân Nguyên chia nhiều đường, các ải và rút về Vạn Kiếp, Ô Mã Nhi đánh Vạn Kiếp rồi tràn vào Gia Lâm, hai gọng kìm Thoát Hoan và Toa Đô). Bản dọc: `tm24_thuymac_doc.mp4` (9:16, khoảng 77 giây, cắt từ đoạn 1–5 và 31–34 của bản dài, kết bằng lời mời xem bản đầy đủ). Ảnh bìa: `assets/bia/TM24/bia_tm24.png` và `bia_tm24_youtube.jpg`, chữ lớn "VÌ SAO VẪN XĂM?", có logo đúng cỡ và vị trí.
 
 ## Tiêu đề YouTube
 **Chọn:** Bị bắt là chết, vì sao lính nhà Trần vẫn xăm hai chữ này lên tay? | Sát Thát và Đỗ Khắc Chung năm 1285

@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
-      - name: Gọi Cloudflare (3 ảnh)
+      - name: Gọi Cloudflare (ảnh theo danh sách)
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
@@ -23,7 +23,7 @@ jobs:
       - name: Lưu kết quả
         if: always()
         run: |
-          git add logs/cf_thuy_mac.txt assets/anh_2d/NBM_cf assets/anh_2d/NB4_cf || true
+          git add logs/cf_thuy_mac.txt assets/anh_2d/*_cf || true
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"

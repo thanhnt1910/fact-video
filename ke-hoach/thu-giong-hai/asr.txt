@@ -1,2 +1,2 @@
-tm26ca
-# nhận dạng giọng tm26 084200
+tm27ca
+# nhận dạng giọng tm27 144021

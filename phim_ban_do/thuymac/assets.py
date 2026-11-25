@@ -74,6 +74,7 @@ for _k in P24K:
     for _p,(_w,_h) in R23.items(): SIZES[f't24n_r_{_k}_{_p}']=(_w,_h,3)
 for _t in ('gay','gays'): SIZES[f't23n_r_w_{_t}']=(40,330,3)
 for _n,_wh in {'t24_far':(3000,700),'t24_mid':(3000,540),'t24_song':(3000,420),'t24_frontL':(900,800),'t24_frontR':(900,800),'t24_ai':(3000,800),'t24_dien':(2400,800),'t24n_trai':(2600,600),'t24_spr_colon':(420,900),'t24n_canhtay':(1600,700),'t24_cuon':(760,900),'t24_hom':(700,420),'t24_lua':(800,500),'t24_bando':(1400,1000)}.items(): SIZES[_n]=(_wh[0],_wh[1],1.5)
+SIZES['t23n_sodo']=(1920,1080,1.5)
 only=sys.argv[1:]
 with sync_playwright() as p:
     b=p.chromium.launch()

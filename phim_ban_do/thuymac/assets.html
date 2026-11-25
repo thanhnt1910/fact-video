@@ -2774,4 +2774,14 @@ t24_bando(){const s=setup(1400,1000);seed=2414;const g=el(s,'g',{filter:'url(#in
 for(const key of Object.keys(P24))for(const part of Object.keys(RIG23))A[`t24n_r_${key}_${part}`]=()=>rigpart23(key,part);
 for(const t of ['gay','gays'])A[`t23n_r_w_${t}`]=()=>vk23(t);
 
+// tm23 sửa 25/11: sơ đồ trận Bình Lệ Nguyên nhìn từ trên xuống (sông chắn ngang, bờ gần là quân nhà Trần, bờ xa là quân Mông Cổ)
+Object.assign(A,{t23n_sodo(){const s=setup(1920,1080);seed=2331;const g=el(s,'g',{filter:'url(#ink)'});
+ el(el(s,'g',{filter:'url(#wash)'}),'path',{d:'M0 430 Q480 380 960 420 Q1440 460 1920 400 L1920 600 Q1440 650 960 610 Q480 570 0 620Z',fill:'#b9b2a0',opacity:.75});
+ el(g,'path',{d:'M0 430 Q480 380 960 420 Q1440 460 1920 400',stroke:INK,'stroke-width':4,fill:'none',opacity:.8});
+ el(g,'path',{d:'M0 620 Q480 570 960 610 Q1440 650 1920 600',stroke:INK,'stroke-width':4,fill:'none',opacity:.8});
+ for(let r=0;r<9;r++){const y=455+r*18;el(g,'path',{d:`M${60+rnd()*200} ${y+rnd()*10} q300 ${-14+rnd()*10} ${600+rnd()*300} ${rnd()*10}`,stroke:INK,'stroke-width':1.4,fill:'none',opacity:.18});el(g,'path',{d:`M${1000+rnd()*300} ${y+20} q300 ${-6} ${600} ${8}`,stroke:INK,'stroke-width':1.4,fill:'none',opacity:.16})}
+ for(let i=0;i<6;i++){const x=120+i*300+rnd()*80,y=150+rnd()*120;el(g,'path',{d:`M${x-90} ${y+40} Q${x-30} ${y-50} ${x} ${y-60} Q${x+40} ${y-50} ${x+90} ${y+40}`,stroke:INK,'stroke-width':3,fill:'none',opacity:.35});el(g,'path',{d:`M${x-40} ${y+20} Q${x} ${y-30} ${x+40} ${y+20}`,stroke:INK,'stroke-width':2,fill:'none',opacity:.3})}
+ for(let i=0;i<60;i++){const x=rnd()*1920,y=700+rnd()*330;el(g,'path',{d:`M${x} ${y} l6 -14 l6 14`,stroke:INK,'stroke-width':1.5,fill:'none',opacity:.25})}
+ for(let i=0;i<60;i++){const x=rnd()*1920,y=60+rnd()*300;el(g,'path',{d:`M${x} ${y} l6 -14 l6 14`,stroke:INK,'stroke-width':1.5,fill:'none',opacity:.2})}}});
+
 </script></body></html>

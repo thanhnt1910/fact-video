@@ -1,6 +1,6 @@
 # Bình Lệ Nguyên, năm 1257 (thủy mặc tm23): tiêu đề, mô tả, bình luận ghim, ảnh bìa, bản dọc
 
-Video: `tm23_thuymac_dai.mp4` (16:9, khoảng 7 phút 44 giây, giọng Charon đọc cả kịch bản một lần (lần 3, 24/11), kịch bản bản 7, 31 cảnh). Tập đầu tiên dùng nhân vật múa rối có khớp (người, ngựa), cùng voi và thuyền vẽ riêng cho tập. Bản dọc: `tm23_thuymac_doc.mp4` (9:16, khoảng 76 giây, cắt từ đoạn 1–5 và 23–26 của bản dài, kết bằng lời mời xem bản đầy đủ). Ảnh bìa: `assets/bia/TM23/bia_tm23.png` và `bia_tm23_youtube.jpg`, chữ lớn "SAO LẠI RÚT?", có logo đúng cỡ và vị trí.
+Video: `tm23_thuymac_dai.mp4` (16:9, khoảng 7 phút 42 giây, giọng Charon đọc cả kịch bản một lần (lần 3, 24/11), kịch bản bản 7, 31 cảnh; sửa 25/11: cắt cụm "Ngay lúc ấy có người" bị đọc chèn ở đoạn 23, thay 8 cảnh bằng bản đồ và sơ đồ trận). Tập đầu tiên dùng nhân vật múa rối có khớp (người, ngựa), cùng voi và thuyền vẽ riêng cho tập. Bản dọc: `tm23_thuymac_doc.mp4` (9:16, khoảng 74 giây, cắt từ đoạn 1–5 và 23–26 của bản dài, kết bằng lời mời xem bản đầy đủ). Ảnh bìa: `assets/bia/TM23/bia_tm23.png` và `bia_tm23_youtube.jpg`, chữ lớn "SAO LẠI RÚT?", có logo đúng cỡ và vị trí.
 
 ## Tiêu đề YouTube
 **Chọn:** Vị tướng gan nhất trận lại khuyên vua rút chạy | Lê Phụ Trần và trận Bình Lệ Nguyên năm 1257

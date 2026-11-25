@@ -156,6 +156,8 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
 
 ### 4.2 Bản đồ để chỉ chỗ, tranh để kể việc (chủ kênh nhắc 16/11/2026)
 - Bản đồ mực vẽ từ đường bờ biển và sông thật (`mapink.py` dùng `world7.jpg`). Chỉ dùng bản đồ khi lời kể nói về vị trí hoặc đường đi. **Không để quá hai đoạn liền nhau chỉ có bản đồ.**
+- **Đoạn kể dàn trận, chia cánh quân, tiến quân, rút quân phải có bản đồ hoặc sơ đồ (chủ kênh yêu cầu 25/11/2026, sau khi xem tm23):** cảnh người đứng, ngựa chạy không cho người xem hiểu "ba cánh vượt sông", "voi hàng đầu, quân bộ phía sau", "lui xuống sông Thiên Mạc". Đường đi của quân dùng bản đồ mực (`map`, điểm mốc `map_pts.json`, cờ đạo quân chạy theo đường); thế trận một trận đánh dùng sơ đồ nhìn từ trên xuống (mẫu `t23n_sodo`: sông chắn ngang, khối quân hai màu, nhãn từng cánh). Khi rà video, đọc từng đoạn lời kể và hỏi: người xem có hình dung được vị trí và hướng đi không? Không thì đổi sang bản đồ.
+- **Nghe lại giọng ở mọi chỗ ASR lệch chữ** (tm23: giọng chèn thừa "Ngay lúc ấy có người" của câu sau vào trước "giữa hàng quân", chủ kênh phát hiện). Chèn thừa ngắn thì cắt khỏi tệp giọng ở khoảng lặng hai đầu (đo năng lượng âm), dời mốc chữ sau chỗ cắt trong `asr_<mã>ca.json` rồi dựng lại; không cần đọc lại cả bài.
 - **Đoạn nào kể một sự việc thì phải có tranh riêng.** Bộ tranh đã có trong `assets.html`:
 
   | Sự việc | Tranh |

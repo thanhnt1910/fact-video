@@ -19,11 +19,11 @@ Mỗi tập làm theo bốn bước (`quy-tac/nguyen-tac-cot-loi.md`): mạch tr
 | 11 | 1077 | Như Nguyệt | tm3 |
 | 12 | 1257 | Bình Lệ Nguyên (Lê Phụ Trần) | tm23, mạch truyện chờ duyệt (24/11); thay tm4 (chưa đăng) |
 | 13 | 1258 | Đông Bộ Đầu | tm4 (chưa đăng); gộp vào tm23 |
-| 14 | 1285 | Sát Thát; Hàm Tử, Chương Dương, Tây Kết | tm5 (chưa đăng); chia hai tập: tm24 Hai chữ trên cánh tay (đã dựng 25/11), tm25 Ba bến sông (mạch truyện chờ duyệt 25/11) |
-| 15 | 1285–88 | Vạn Kiếp (Trần Quốc Tuấn) | MỚI |
-| 16 | 1288 | Vân Đồn (Trần Khánh Dư) | MỚI (kiểm trùng series Nguyên Mông nm2) |
-| 17 | 1288 | Bạch Đằng | tm6 |
-| 18 | 1377 | Đồ Bàn, Chế Bồng Nga | tm26, mạch truyện nháp (24/11), gộp với #19 |
+| 14 | 1285 | Sát Thát; Hàm Tử, Chương Dương, Tây Kết | tm5 (chưa đăng); chia hai tập: tm24 Hai chữ trên cánh tay, tm25 Ba bến sông (đã dựng 25/11) |
+| 15 | 1285–88 | Vạn Kiếp (Trần Quốc Tuấn) | gộp vào tm26, tm27 |
+| 16 | 1288 | Vân Đồn (Trần Khánh Dư) | tm26 Thuyền lương ở Vân Đồn, mạch truyện chờ duyệt (25/11); khác góc kể với nm2 |
+| 17 | 1288 | Bạch Đằng | tm6 (chưa đăng); làm lại tm27 |
+| 18 | 1377 | Đồ Bàn, Chế Bồng Nga | tm28 (đổi từ tm26), mạch truyện nháp (24/11), gộp với #19 |
 | 19 | 1390 | Trần Khát Chân và Chế Bồng Nga | MỚI |
 | 20 | 1406–07 | Đa Bang, Mộc Hoàn (nhà Hồ chống nhà Minh) | MỚI |
 | 21 | 1408 | Bô Cô (Giản Định Đế) | MỚI |

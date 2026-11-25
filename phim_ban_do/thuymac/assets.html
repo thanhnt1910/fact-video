@@ -3052,4 +3052,18 @@ function linhsau(ph,ao,mu){const s=setup(300,560);seed=2710;S.innerHTML+=DEFS_IN
  if(mu=='long'){el(g,'ellipse',{cx:150,cy:118,rx:36,ry:14,fill:'#5a4430',stroke:INK,'stroke-width':3});el(g,'path',{d:'M126 114 Q150 70 174 114Z',fill:'#4a3828',stroke:INK,'stroke-width':3})}
  else{el(g,'path',{d:'M118 128 Q118 86 150 82 Q182 86 182 128 Q150 118 118 128Z',fill:'#55524c',stroke:INK,'stroke-width':3});el(g,'line',{x1:150,y1:82,x2:150,y2:62,stroke:INK,'stroke-width':4})}}
 for(const [k,ao,mu] of [['a','#5e5448','long'],['b','#4a4a48','tru'],['c','#6a5a44','long']])for(const p of [0,1])A[`t27n_linhsau_${k}_${p}`]=()=>linhsau(p,ao,mu);
+</script><script>
+// ===== tm27 Bạch Đằng 1288: nhân vật riêng (t27n_r_*) =====
+const P27={
+ dh7:{da:'#d0b08a',ao:'#5a3a2a',quan:'#2a2018',mu:'khan',khan:'#1a1a1e',dai:'#b0281c',giap:1,rau:1},
+ ptp:{da:'#c8a27e',ao:'#3e4a3a',quan:'#24281e',mu:'tru',tru:'#55524c',dai:'#9a8030',giap:1,rau:1,mong:1},
+ tlc:{da:'#c6a07c',ao:'#6a4a3a',quan:'#2a1e18',mu:'long',long:'#4a3020',dai:'#b0902e',giap:1,mong:1},
+ tqn:{da:'#caa680',ao:'#5a5a52',quan:'#2a2a26',mu:'tru',tru:'#4a4a44',dai:'#8a7a40',giap:1,rau:1,mong:1},
+ v9:{da:'#d2b48c',ao:'#4a3a2e',quan:'#2a2018',mu:'khan',khan:'#7a1e16',dai:'#7a1e16'},
+ v10:{da:'#c9a47e',ao:'#3a4450',quan:'#22262c',mu:'khan',khan:'#1a1a1e',dai:'#b0281c'},
+ v11:{da:'#d4b893',ao:'#5a4a36',quan:'#2e2a22',mu:'non',dai:'#3a3a30'}};
+Object.assign(P23,P27);
+for(const key of Object.keys(P27)){for(const part of Object.keys(RIG23))A[`t27n_r_${key}_${part}`]=()=>rigpart23(key,part);
+ for(const m of ['S','G','V'])A[`t27n_r_${key}_head${m}`]=()=>rigpart23(key,'head'+m)}
+
 </script></body></html>

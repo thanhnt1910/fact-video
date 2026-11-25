@@ -22,7 +22,7 @@ Mỗi tập làm theo bốn bước (`quy-tac/nguyen-tac-cot-loi.md`): mạch tr
 | 14 | 1285 | Sát Thát; Hàm Tử, Chương Dương, Tây Kết | tm5 (chưa đăng); chia hai tập: tm24 Hai chữ trên cánh tay, tm25 Ba bến sông (đã dựng 25/11) |
 | 15 | 1285–88 | Vạn Kiếp (Trần Quốc Tuấn) | gộp vào tm26, tm27 |
 | 16 | 1288 | Vân Đồn (Trần Khánh Dư) | tm26 Thuyền lương ở Vân Đồn, lời kể bản 2 đã duyệt, đã dựng bản dài và bản dọc (25/11); khác góc kể với nm2 |
-| 17 | 1288 | Bạch Đằng | tm6 (chưa đăng); làm lại tm27 |
+| 17 | 1288 | Bạch Đằng | tm27 Bạch Đằng 1288, lời kể đã duyệt, đã dựng bản dài và bản dọc theo phong cách nền tranh FLUX + người vẽ bằng mã (25/11); tm6 cũ không dùng |
 | 18 | 1377 | Đồ Bàn, Chế Bồng Nga | tm28 (đổi từ tm26), mạch truyện nháp (24/11), gộp với #19 |
 | 19 | 1390 | Trần Khát Chân và Chế Bồng Nga | MỚI |
 | 20 | 1406–07 | Đa Bang, Mộc Hoàn (nhà Hồ chống nhà Minh) | MỚI |

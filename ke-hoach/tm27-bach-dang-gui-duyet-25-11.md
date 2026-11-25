@@ -2,13 +2,15 @@
 
 Theo mạch truyện đã duyệt: hook lời dọa của Ô Mã Nhi; kể hồi kết của Ô Mã Nhi năm 1289; kể đủ đoạn Thoát Hoan chạy đường bộ.
 
-**Số liệu:** 57 đoạn, 1466 chữ, khoảng 8.1 phút. Giọng dự kiến là Charon, đọc cả bài một lần. Chưa đọc giọng.
+**Số liệu:** 57 đoạn, 1532 chữ, khoảng 8.5 phút. Giọng dự kiến là Charon, đọc cả bài một lần. Chưa đọc giọng.
 
 **Sửa 25/11 (tối):** bỏ các đoạn trùng tm26 (Ô Mã Nhi ra cửa An Bang đón thuyền lương, các tướng Nguyên bàn rút vì thiếu lương và trời nóng); chỉ giữ một câu nối.
 
 **Sửa 25/11 (20:30):** thêm đoạn 6 nhắc video trước (tm26) theo yêu cầu chủ kênh; đoạn 5 nêu nguyên nhân thiếu lương là thuyền lương bị chặn ở Vân Đồn.
 
 **Sửa 25/11 (21:00):** đoạn 18–40 thay bằng lời chủ kênh viết, chỉ chia đoạn cho vừa giới hạn 32 chữ và 2 câu, bỏ dấu hai chấm, đổi "đường lui" thành "đường rút", đổi chữ "bất ngờ" thứ hai thành "lại", và viết lại câu "Đó không chỉ là… mà còn là…". Chi tiết "tiếng trống trận vang dậy" (đoạn 34) là hình ảnh minh họa, sử không chép.
+
+**Sửa 25/11 (21:10):** theo quy tắc mới về hình ảnh minh họa, thêm hình ảnh cho các đoạn ngoài trận đánh. Ví dụ: cung điện vắng tanh, sóng biển mênh mông ở Thiên Trường, ngựa đá đứng chầu trước lăng (đặt sẵn từ đoạn 12 để cuối video quay lại), quân Đại Việt chờ hai bên vách núi ở ải Nội Bàng, thuyền chở Ô Mã Nhi chìm dần giữa đêm. Không đổi sự việc nào.
 
 **Bộ kiểm:**
 - kiem_kich_ban: 0 ❌, 0 ⚠️.
@@ -25,21 +27,21 @@ Theo mạch truyện đã duyệt: hook lời dọa của Ô Mã Nhi; kể hồi
 ## Lời kể
 1. Có một viên tướng giặc từng dọa vua Đại Việt. Ngươi chạy lên trời, ta theo lên trời, ngươi lặn xuống nước, ta theo xuống nước.
 2. Lời dọa ấy được chép lại trong thư nhà Trần gửi sang nhà Nguyên. Người bị kể tội là Ô Mã Nhi, viên tướng chỉ huy thủy quân nhà Nguyên.
-3. Vậy mà chỉ ít tháng sau, Ô Mã Nhi lại bị giải tới trước một ngôi lăng của nhà Trần, chính ngôi lăng mà quân của Ô Mã Nhi đã đào phá.
+3. Vậy mà chỉ ít tháng sau, Ô Mã Nhi lại bị giải tới trước một ngôi lăng nhà Trần, chính ngôi lăng mà quân của Ô Mã Nhi đã đào bới.
 4. Giữa lời dọa ấy và ngày bị giải tới trước lăng, chuyện gì đã xảy ra?
 5. Đầu năm một nghìn hai trăm tám mươi tám, quân Nguyên đang đánh Đại Việt lần thứ ba mà đã bắt đầu thiếu lương, vì đoàn thuyền lương bị chặn ở Vân Đồn.
 6. Chuyện Trần Khánh Dư chặn đoàn thuyền lương ấy được kể trong video trước của kênh. Video này kể tiếp những gì xảy ra sau đó.
-7. Thoát Hoan, vị hoàng tử nhà Nguyên cầm đầu đạo quân, kéo vào Thăng Long. Kinh thành đã bỏ trống, vua Trần lại xuống thuyền ra biển.
-8. Thoát Hoan đuổi theo tới cửa biển Thiên Trường thì không biết vua Trần đã đi về đâu, đành kéo quân trở về Thăng Long.
-9. Không có lương, các tướng Nguyên phải chia nhau dẫn quân vào núi, đi khắp các vùng để tìm thóc gạo.
-10. Thủy quân của Ô Mã Nhi thì đi lùng khắp vùng ven biển. Thư nhà Trần về sau kể tội Ô Mã Nhi đã dọa đuổi theo vua, giết và bắt dân ven biển.
-11. Tháng giêng, Ô Mã Nhi đánh vào phủ Long Hưng, quê gốc của họ Trần, nơi có lăng mộ các vua đầu triều.
-12. Ở đó có Chiêu Lăng, lăng của vua Trần Thái Tông, ông nội của vua Trần Nhân Tông đang trị vì.
-13. Quân Nguyên đào Chiêu Lăng, định phá đi. Toàn thư chép chúng đào bới mà không phạm được tới quan tài.
-14. Tháng ba, quân Nguyên quyết định rút về nước. Ô Mã Nhi và Phàn Tiếp đem thủy quân đi trước, có quân bộ đi dọc bờ sông hộ tống.
+7. Thoát Hoan là hoàng tử nhà Nguyên cầm đầu đạo quân. Kéo vào Thăng Long, Thoát Hoan chỉ thấy cung điện vắng tanh, vì vua Trần đã xuống thuyền ra biển từ trước.
+8. Thoát Hoan đuổi theo tới cửa biển Thiên Trường. Trước mặt chỉ còn sóng biển mênh mông, không biết vua Trần đã đi về đâu, đành kéo quân trở về.
+9. Kho lương trống rỗng, các tướng Nguyên phải chia nhau dẫn quân vào núi, lùng sục khắp các làng để tìm từng bao thóc gạo.
+10. Thủy quân của Ô Mã Nhi thì lùng sục khắp vùng ven biển. Thư nhà Trần về sau kể tội Ô Mã Nhi đã dọa đuổi theo vua, giết và bắt dân ven biển.
+11. Tháng giêng, chiến thuyền của Ô Mã Nhi ập vào phủ Long Hưng, quê gốc của họ Trần, nơi yên nghỉ của các vua đầu triều.
+12. Giữa vùng đất ấy có Chiêu Lăng, lăng của vua Trần Thái Tông, ông nội của vua Trần Nhân Tông đang trị vì. Trước lăng có những con ngựa đá đứng chầu.
+13. Quân Nguyên kéo vào đào bới Chiêu Lăng, định phá tan ngôi mộ. Toàn thư chép chúng đào mà vẫn không phạm được tới quan tài.
+14. Tháng ba, quân Nguyên đành rút về nước. Ô Mã Nhi và Phàn Tiếp đem thủy quân đi trước, có quân bộ đi dọc bờ sông hộ tống.
 15. Thoát Hoan sẽ dẫn đại quân về sau theo đường bộ. Đạo quân Nguyên chia làm hai ngả, một ngả theo đường sông, một ngả theo đường bộ.
-16. Từ Vạn Kiếp muốn ra biển, đoàn thuyền phải xuôi xuống sông Bạch Đằng. Hơn ba trăm năm trước, Ngô Quyền đã đánh tan thủy quân Nam Hán trên chính con sông này.
-17. Người chỉ huy toàn bộ quân Đại Việt là Hưng Đạo Vương Trần Quốc Tuấn. Ông đã cho đóng cọc gỗ xuống lòng sông Bạch Đằng, rồi lấy cỏ phủ lên đầu cọc.
+16. Từ Vạn Kiếp muốn ra biển, đoàn thuyền phải xuôi xuống sông Bạch Đằng. Hơn ba trăm năm trước, Ngô Quyền đã nhấn chìm thủy quân Nam Hán trên chính con sông này.
+17. Người chỉ huy toàn bộ quân Đại Việt là Hưng Đạo Vương Trần Quốc Tuấn. Ông cho đóng những hàng cọc gỗ xuống lòng sông Bạch Đằng, rồi lấy cỏ phủ kín đầu cọc.
 18. Vì sao lại là cọc? Bởi khi thủy triều dâng, nước sông phủ kín những bãi cọc, biến chúng thành một cái bẫy vô hình dưới lòng sông.
 19. Thuyền giặc có thể ung dung vượt qua mà không hề hay biết hiểm họa đang chờ phía dưới.
 20. Nhưng khi thủy triều rút, tất cả sẽ đổi khác. Mực nước hạ xuống, những đầu cọc nhọn dần hiện lên.
@@ -63,21 +65,21 @@ Theo mạch truyện đã duyệt: hook lời dọa của Ô Mã Nhi; kể hồi
 38. Thủy quân từng tung hoành trên các dòng sông, giờ đây bị chính dòng sông Bạch Đằng dồn vào đường cùng.
 39. Sử nhà Nguyên chép rằng hai bên giao chiến đến tận chập tối. Kết thúc trận đánh, quân Đại Việt bắt được hơn bốn trăm chiếc thuyền giặc.
 40. Một lần nữa, Bạch Đằng trở thành nơi chôn vùi tham vọng xâm lược của một đế chế phương Bắc.
-41. Một viên tướng nhà Trần tên là Đỗ Hành bắt được Ô Mã Nhi cùng tướng Tích Lệ Cơ, rồi đem dâng lên thượng hoàng Trần Thánh Tông.
+41. Giữa cảnh hỗn loạn ấy, tướng nhà Trần là Đỗ Hành bắt sống được Ô Mã Nhi cùng tướng Tích Lệ Cơ, rồi đem dâng lên thượng hoàng Trần Thánh Tông.
 42. Thượng hoàng cho dẫn Ô Mã Nhi lên thuyền ngự, cùng ngồi nói chuyện. Người từng dọa đuổi vua lên trời xuống nước, nay ngồi ngay trên thuyền của thượng hoàng.
-43. Tướng Phàn Tiếp cũng bị bắt. Thủy quân đi đường sông của quân Nguyên đã tan ở Bạch Đằng.
-44. Còn ngả đường bộ, Thoát Hoan dẫn đại quân rút về phía biên giới. Tới ải Nội Bàng, quân Đại Việt đã chờ sẵn.
-45. Sử nhà Nguyên chép Thoát Hoan phải để tướng Trương Quân dẫn ba nghìn quân tinh nhuệ đi sau cùng, đánh liều mạng mới ra được khỏi ải.
-46. Thoát ra rồi, thám báo lại về báo tin. Hai vua Trần và Hưng Đạo Vương đã chia hơn ba mươi vạn quân giữ các ải phía trước, nối dài hơn trăm dặm.
-47. Thoát Hoan bèn bỏ đường lớn, đi đường tắt qua Đan Kỷ, Lộc Châu mà chạy về Tư Minh, bên kia biên giới.
+43. Tướng Phàn Tiếp cũng bị bắt. Đoàn chiến thuyền từng ngạo nghễ đuổi vua trên biển, nay tan tác trên sông Bạch Đằng.
+44. Còn ngả đường bộ, Thoát Hoan dẫn đại quân rút qua những dãy núi về phía biên giới. Tới ải Nội Bàng, quân Đại Việt đã chờ sẵn hai bên vách núi.
+45. Sử nhà Nguyên chép Thoát Hoan phải để tướng Trương Quân dẫn ba nghìn quân tinh nhuệ chặn phía sau, đánh liều mạng mới mở được đường ra khỏi ải.
+46. Vừa thoát ra, thám báo hớt hải về báo tin. Hai vua Trần và Hưng Đạo Vương đã chia hơn ba mươi vạn quân giữ các ải, nối dài hơn trăm dặm.
+47. Thoát Hoan bèn bỏ đường lớn, cho quân len lỏi theo đường tắt qua Đan Kỷ, Lộc Châu mà chạy về Tư Minh, bên kia biên giới.
 48. Như vậy cả hai ngả đường về của quân Nguyên, đường sông hay đường bộ, đều đã có quân Đại Việt chờ sẵn.
-49. Ngày mười bảy tháng ba, hai vua Trần trở về phủ Long Hưng. Các tướng Nguyên bị bắt như Ô Mã Nhi, Phàn Tiếp và Tích Lệ Cơ cũng bị giải theo.
-50. Triều đình làm lễ dâng thắng trận ở Chiêu Lăng, đúng ngôi lăng mà quân Nguyên đã đào phá chưa đầy hai tháng trước.
-51. Toàn thư chép thêm một chi tiết lạ. Khi giặc thua chạy, người ta thấy chân những con ngựa đá ở lăng đều lấm bùn.
+49. Ngày mười bảy tháng ba, hai vua Trần trở về phủ Long Hưng. Đi sau đoàn rước vua là các tướng Nguyên bị bắt, Ô Mã Nhi, Phàn Tiếp và Tích Lệ Cơ.
+50. Triều đình làm lễ dâng thắng trận ở Chiêu Lăng. Ngôi lăng bị đào bới chưa đầy hai tháng trước, nay chứng kiến kẻ phá lăng bị giải tới trước mặt.
+51. Toàn thư chép thêm một chi tiết lạ. Khi giặc thua chạy, người ta thấy chân những con ngựa đá đứng chầu trước lăng đều lấm bùn.
 52. Sử cũ coi đó là thần linh ngầm giúp, như thể ngựa đá cũng đã ra trận. Trong lễ bái yết hôm ấy, nhà vua làm thơ.
 53. Bài thơ có câu xã tắc lưỡng hồi lao thạch mã. Câu ấy nói rằng đất nước hai lần gặp nạn, đến ngựa đá cũng phải nhọc nhằn.
 54. Ô Mã Nhi không bị giết ngay sau trận. Tháng hai năm sau, năm một nghìn hai trăm tám mươi chín, triều đình sai người đưa Ô Mã Nhi về nước.
-55. Toàn thư chép rằng theo kế của Hưng Đạo Vương, ban đêm thuyền chở Ô Mã Nhi bị đục cho đắm, và Ô Mã Nhi chết đuối.
+55. Toàn thư chép rằng theo kế của Hưng Đạo Vương, giữa đêm, con thuyền chở Ô Mã Nhi bị đục thủng rồi chìm dần, và Ô Mã Nhi chết đuối.
 56. Từ sau trận Bạch Đằng năm ấy, quân Nguyên không còn sang đánh Đại Việt thêm một lần nào nữa.
 57. Kẻ dọa đuổi vua lên trời xuống nước rốt cuộc bị bắt ở Bạch Đằng, rồi bị dẫn tới trước ngôi lăng mình đào phá. Cảm ơn bạn đã lắng nghe câu chuyện này.
 

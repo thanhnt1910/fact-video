@@ -13,7 +13,7 @@ Kịch bản phải có mạch kể tự nhiên. Câu văn có đầu có cuối
 ## 2. Điều kiện bắt buộc: đúng lịch sử
 
 Đúng lịch sử không nằm trong bảng xếp hạng ưu tiên. Đó là cửa phải qua: sai sử thì không giao, dù câu chuyện hay tới đâu.
-- Chỉ kể sự việc có nguồn. Không bịa lời thoại, suy nghĩ, động cơ, tình tiết, số liệu.
+- Chỉ kể sự việc có nguồn. Không bịa lời thoại, suy nghĩ, động cơ, tình tiết, số liệu. ("Tình tiết" ở đây là sự việc. Hình ảnh minh họa như âm thanh, cảnh vật, không khí không đổi sự việc thì được dùng, xem `thuy-mac.md` mục "Hình ảnh minh họa", chủ kênh chốt 25/11/2026.)
 - Lời kể trong sử cũ, giai thoại và chỗ các nguồn chép khác nhau phải nói rõ là lời kể hoặc là chỗ chưa chắc.
 - Người kể được diễn giải theo mục 7, nhưng không được biến diễn giải thành sự thật.
 - Những điều này vẫn theo `giong-van.md` (mục "Diễn giải của người kể") và `nghien-cuu-su-lieu.md`.

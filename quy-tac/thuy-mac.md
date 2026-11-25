@@ -139,6 +139,7 @@ Một số tập mơ hồ với người không nhớ sử. Mỗi video phải t
   - từng đoạn có cảnh, chuyển động, chữ trên màn hình và âm thanh;
   - danh sách tranh mới cần vẽ;
   - ghi chú độ chắc của phần hình (vị trí chưa rõ, cách thể hiện cái chết).
+- **Trận đánh chính phải kể thành cảnh, không liệt kê (chủ kênh sửa tm27, 25/11/2026).** Bản tm27 cũ kể trận Bạch Đằng bằng các câu ngắn nối nhau như danh sách ("ra khiêu chiến… giả thua… thủy triều rút… mắc cọc"), mất hết kịch tính. Chủ kênh viết lại thành một mạch có không khí và cảm giác: nước dâng che bãi cọc thành "cái bẫy vô hình", thuyền giặc ung dung đuổi theo mà "hiểm họa vẫn nằm im dưới mặt nước", rồi "con nước bắt đầu đổi chiều", trước mặt là quân Đại Việt, phía sau là cọc. Cách làm: dành cho trận chính khoảng 20 đoạn, mỗi bước của trận có một câu cảnh (người xem thấy gì) và một câu nhịp (căng hay chậm lại); câu cảm giác chỉ tả điều suy ra được từ sử, chi tiết minh họa không có trong sử (như "tiếng trống trận") phải ghi vào ghi chú độ chắc. Không lặp lại nguyên các đoạn đã kể ở tập liền trước (tm27 từng chép lại cảnh các tướng Nguyên bàn rút của tm26).
 
 ## 4. Hình: tranh thủy mặc
 ### 4.1 Phong cách

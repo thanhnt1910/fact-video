@@ -2492,14 +2492,24 @@ function rigpart(key,part){const o=P19[key]||{},[W,H,P]=RIG[part];const s=setup(
   el(k,'rect',{x:-22,y:-142,width:44,height:9,fill:o.dai||INK,stroke:INK,'stroke-width':2});
   el(k,'path',{d:'M-14 -134 q-4 16 -10 26 M-10 -134 q2 14 -2 24',stroke:o.dai||INK,'stroke-width':4,fill:'none'});
   el(k,'rect',{x:-6,y:-212,width:12,height:16,fill:da,stroke:INK,'stroke-width':2.5})}
- if(part=='head'){k=el(k,'g',{transform:'translate(0 206) translate(0 -212) scale(.86) translate(0 212)'});
+ if(part.startsWith('head')){k=el(k,'g',{transform:'translate(0 206) translate(0 -212) scale(.86) translate(0 212)'});
   el(k,'path',{d:'M-4 -252 Q-20 -250 -20 -232 Q-20 -216 -8 -211 L2 -208 Q10 -209 13 -214 L15 -219 L19 -222 L15 -225 L17 -231 Q16 -248 -4 -252Z',fill:da,stroke:INK,'stroke-width':3.5,'stroke-linejoin':'round'});
-  el(k,'path',{d:'M8 -235 l5 0',stroke:INK,'stroke-width':3,'stroke-linecap':'round'});el(k,'path',{d:'M4 -240 q5 -3 10 0',stroke:INK,'stroke-width':2,fill:'none'});
+  const mat=part.slice(4);
+  if(mat=='S'){el(k,'circle',{cx:10.5,cy:-235,r:4,fill:'#f4ecdc',stroke:INK,'stroke-width':2.4});el(k,'circle',{cx:12,cy:-235,r:1.5,fill:INK});
+   el(k,'path',{d:'M4 -243 q5 -6 11 -3',stroke:INK,'stroke-width':2.2,fill:'none'});el(k,'ellipse',{cx:13,cy:-218,rx:3.2,ry:5,fill:INK});
+   el(k,'path',{d:'M-2 -246 q-2 5 0 7 q2 -2 0 -7Z',fill:'#9ab4c8',opacity:.8})}
+  else if(mat=='G'){el(k,'path',{d:'M8 -235 l5 0',stroke:INK,'stroke-width':3.4,'stroke-linecap':'round'});el(k,'path',{d:'M3 -243 L15 -237',stroke:INK,'stroke-width':3,fill:'none'});
+   el(k,'path',{d:'M9 -221 L17 -220 L15 -215Z',fill:INK})}
+  else if(mat=='V'){el(k,'path',{d:'M7 -234 q3.5 -4 7 0',stroke:INK,'stroke-width':2.6,fill:'none'});el(k,'path',{d:'M4 -241 q5 -4 10 -1',stroke:INK,'stroke-width':2,fill:'none'});
+   el(k,'path',{d:'M8 -220 q5 4 9 -1 q-4 1 -9 1Z',fill:INK})}
+  else{el(k,'path',{d:'M8 -235 l5 0',stroke:INK,'stroke-width':3,'stroke-linecap':'round'});el(k,'path',{d:'M4 -240 q5 -3 10 0',stroke:INK,'stroke-width':2,fill:'none'})}
   el(k,'path',{d:'M-6 -230 q-5 4 0 8',stroke:INK,'stroke-width':2.5,fill:'none'});
   if(o.rau)el(k,'path',{d:'M14 -214 Q10 -198 2 -194 Q8 -204 6 -212Z',fill:INK});
   if(o.mu=='khan'){el(k,'path',{d:'M-21 -238 Q-22 -262 0 -262 Q18 -260 17 -238 Q0 -244 -21 -238Z',fill:o.khan||'#b0281c',stroke:INK,'stroke-width':3});
    el(k,'path',{d:'M-20 -246 Q-8 -252 14 -246 M-21 -240 Q-4 -248 16 -240',stroke:INK,'stroke-width':1.6,fill:'none',opacity:.6});
    el(k,'path',{d:'M-20 -244 q-14 6 -18 22 q8 -8 16 -12',fill:o.khan||'#b0281c',stroke:INK,'stroke-width':2})}
+  else if(mu=='phoc'){el(k,'path',{d:'M-21 -238 Q-22 -266 -2 -266 Q17 -264 16 -238 Q0 -244 -21 -238Z',fill:'#2a2a2e',stroke:INK,'stroke-width':3});
+   el(k,'path',{d:'M-18 -252 q-16 10 -26 32 M-14 -250 q-12 12 -18 34',stroke:'#2a2a2e','stroke-width':5,fill:'none'})}
   else{el(k,'path',{d:'M-20 -236 Q-20 -258 0 -258 Q16 -256 16 -240 Q0 -248 -20 -236Z',fill:INK});el(k,'circle',{cx:-14,cy:-254,r:8,fill:INK})}}
 }
 for(const key of ['ph','ta'])for(const part of Object.keys(RIG))A[`t19n_r_${key}_${part}`]=()=>rigpart(key,part);
@@ -2522,7 +2532,7 @@ const P23={
  dan:{da:'#d9bf9c',ao:'#8a7a60',quan:'#5a4c3a',mu:'khan',khan:'#6b5a44',dai:'#4a3a2a'},
  quan1:{da:'#dcc3a0',ao:'#4a6a52',quan:'#2a3a2e',mu:'quan',dai:'#c8c8c8'}};
 const RIG23={legU:[60,90,14],legL:[80,90,14],armU:[50,70,14],armL:[50,70,14],torso:[120,220,150],head:[130,150,125]};
-function rigpart23(key,part){const o=P23[key]||{},[W,H,P]=RIG23[part];const s=setup(W,H);S.innerHTML+=DEFS_INKF;seed=2500;
+function rigpart23(key,part){const o=P23[key]||{},[W,H,P]=RIG23[part.startsWith('head')?'head':part];const s=setup(W,H);S.innerHTML+=DEFS_INKF;seed=2500;
  const da=o.da||'#e3d3b8',ao=o.ao||'#8a7a62',quan=o.quan||'#6b5d48';
  let k=el(el(s,'g',{filter:'url(#inkf)'}),'g',{transform:`translate(${part=='legL'?30:W/2},${P}) scale(1.1)`});
  if(part=='legU'){chi(k,[[0,0],[0,52]],17,quan);if(o.mong)el(k,'path',{d:'M-9 30 L9 30',stroke:INK,'stroke-width':2,opacity:.4})}
@@ -2542,9 +2552,17 @@ function rigpart23(key,part){const o=P23[key]||{},[W,H,P]=RIG23[part];const s=se
   el(k,'rect',{x:-22,y:-142,width:44,height:9,fill:o.dai||INK,stroke:INK,'stroke-width':2});
   el(k,'path',{d:'M-14 -134 q-4 16 -10 26 M-10 -134 q2 14 -2 24',stroke:o.dai||INK,'stroke-width':4,fill:'none'});
   el(k,'rect',{x:-6,y:-212,width:12,height:16,fill:da,stroke:INK,'stroke-width':2.5})}
- if(part=='head'){k=el(k,'g',{transform:'translate(0 206) translate(0 -212) scale(.86) translate(0 212)'});
+ if(part.startsWith('head')){k=el(k,'g',{transform:'translate(0 206) translate(0 -212) scale(.86) translate(0 212)'});
   el(k,'path',{d:'M-4 -252 Q-20 -250 -20 -232 Q-20 -216 -8 -211 L2 -208 Q10 -209 13 -214 L15 -219 L19 -222 L15 -225 L17 -231 Q16 -248 -4 -252Z',fill:da,stroke:INK,'stroke-width':3.5,'stroke-linejoin':'round'});
-  el(k,'path',{d:'M8 -235 l5 0',stroke:INK,'stroke-width':3,'stroke-linecap':'round'});el(k,'path',{d:'M4 -240 q5 -3 10 0',stroke:INK,'stroke-width':2,fill:'none'});
+  const mat=part.slice(4);
+  if(mat=='S'){el(k,'circle',{cx:10.5,cy:-235,r:4,fill:'#f4ecdc',stroke:INK,'stroke-width':2.4});el(k,'circle',{cx:12,cy:-235,r:1.5,fill:INK});
+   el(k,'path',{d:'M4 -243 q5 -6 11 -3',stroke:INK,'stroke-width':2.2,fill:'none'});el(k,'ellipse',{cx:13,cy:-218,rx:3.2,ry:5,fill:INK});
+   el(k,'path',{d:'M-2 -246 q-2 5 0 7 q2 -2 0 -7Z',fill:'#9ab4c8',opacity:.8})}
+  else if(mat=='G'){el(k,'path',{d:'M8 -235 l5 0',stroke:INK,'stroke-width':3.4,'stroke-linecap':'round'});el(k,'path',{d:'M3 -243 L15 -237',stroke:INK,'stroke-width':3,fill:'none'});
+   el(k,'path',{d:'M9 -221 L17 -220 L15 -215Z',fill:INK})}
+  else if(mat=='V'){el(k,'path',{d:'M7 -234 q3.5 -4 7 0',stroke:INK,'stroke-width':2.6,fill:'none'});el(k,'path',{d:'M4 -241 q5 -4 10 -1',stroke:INK,'stroke-width':2,fill:'none'});
+   el(k,'path',{d:'M8 -220 q5 4 9 -1 q-4 1 -9 1Z',fill:INK})}
+  else{el(k,'path',{d:'M8 -235 l5 0',stroke:INK,'stroke-width':3,'stroke-linecap':'round'});el(k,'path',{d:'M4 -240 q5 -3 10 0',stroke:INK,'stroke-width':2,fill:'none'})}
   el(k,'path',{d:'M-6 -230 q-5 4 0 8',stroke:INK,'stroke-width':2.5,fill:'none'});
   if(o.rau==1)el(k,'path',{d:'M14 -214 Q10 -198 2 -194 Q8 -204 6 -212Z',fill:INK});
   if(o.rau==2){el(k,'path',{d:'M15 -214 Q12 -190 0 -184 Q4 -198 4 -212Z',fill:'#d8d4cc',stroke:INK,'stroke-width':1.6});el(k,'path',{d:'M4 -240 q5 -3 10 0',stroke:'#d8d4cc','stroke-width':2.4,fill:'none'})}
@@ -2564,6 +2582,8 @@ function rigpart23(key,part){const o=P23[key]||{},[W,H,P]=RIG23[part];const s=se
    el(k,'path',{d:'M-22 -244 Q0 -250 20 -244',stroke:'#c9a45a','stroke-width':2.4,fill:'none'});
    el(k,'path',{d:'M0 -272 L0 -286',stroke:INK,'stroke-width':3});el(k,'path',{d:'M0 -286 q-8 8 -12 20 q8 -6 12 -10 q4 4 12 10 q-4 -12 -12 -20Z',fill:'#7a2a20'});
    el(k,'path',{d:'M-22 -238 q-6 12 -2 26 l8 -4 q-4 -10 0 -20Z',fill:o.tru||'#5a5a58',stroke:INK,'stroke-width':2})}
+  else if(mu=='phoc'){el(k,'path',{d:'M-21 -238 Q-22 -266 -2 -266 Q17 -264 16 -238 Q0 -244 -21 -238Z',fill:'#2a2a2e',stroke:INK,'stroke-width':3});
+   el(k,'path',{d:'M-18 -252 q-16 10 -26 32 M-14 -250 q-12 12 -18 34',stroke:'#2a2a2e','stroke-width':5,fill:'none'})}
   else{el(k,'path',{d:'M-20 -236 Q-20 -258 0 -258 Q16 -256 16 -240 Q0 -248 -20 -236Z',fill:INK});el(k,'circle',{cx:-14,cy:-254,r:8,fill:INK})}}
 }
 // vũ khí dùng chung, điểm khớp ở tay (W/2,P)
@@ -2789,5 +2809,44 @@ Object.assign(A,{t24_spr_coV(){const s=setup(220,420);seed=2420;S.innerHTML+=DEF
  el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'path',{d:'M44 30 L210 70 L44 150Z',fill:'#a8281c',stroke:'#c9a45a','stroke-width':5})},
  t24_spr_coN(){const s=setup(220,420);seed=2421;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
  el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'path',{d:'M44 30 Q140 40 210 30 Q170 90 210 150 Q140 140 44 150Z',fill:'#2a2a30',stroke:'#c9a45a','stroke-width':5})}});
+
+// ===== tm25 Ba bến sông (1285): nhân vật riêng (t25n_r_*), có biến thể nét mặt headS/headG/headV =====
+const P25={
+ qk:{da:'#dcc3a0',ao:'#2e4a6e',quan:'#1e2a3a',mu:'tru',tru:'#a8823a',dai:'#d0a850',giap:1,rau:1},
+ nd:{da:'#e0c8a6',ao:'#7a6a9a',quan:'#3a3048',mu:'khan',khan:'#1a1a1e',dai:'#c9a45a'},
+ tq:{da:'#dcc6a8',ao:'#c8c6bc',quan:'#4a4a48',mu:'phoc',dai:'#5a5a58',rau:1},
+ st1:{da:'#d8c2a0',ao:'#bdbab0',quan:'#4e4c48',mu:'phoc',dai:'#6a6a66'},
+ st2:{da:'#d2b896',ao:'#a8a69c',quan:'#46443e',mu:'phoc',dai:'#5a5a56',rau:1},
+ qt:{da:'#e4ccaa',ao:'#c8321e',quan:'#4a1e18',mu:'khan',khan:'#1a1a1e',dai:'#e8c860'},
+ hd:{da:'#c9a47e',ao:'#7a5a3a',quan:'#3a2a1c',mu:'khan',khan:'#2c3e5a',dai:'#2c3e5a',rau:1},
+ hc:{da:'#d2b48c',ao:'#9a7a54',quan:'#4a3a2a',mu:'khan',khan:'#2c3e5a',dai:'#6a5a44'},
+ tnt5:{da:'#e2caa8',ao:'#c9a03a',quan:'#5a4626',mu:'vua',dai:'#efe2b0'},
+ tts5:{da:'#d8bf9c',ao:'#9c7430',quan:'#4a3a22',mu:'vua',dai:'#e0d2a0',rau:1},
+ hdv5:{da:'#d4b692',ao:'#7e2420',quan:'#2e2420',mu:'khan',khan:'#1a1a1e',dai:'#d0a850',giap:1,rau:1},
+ tdo5:{da:'#c8a27e',ao:'#6a2420',quan:'#2e1a18',mu:'tru',tru:'#6a6a64',dai:'#c9a45a',giap:1,rau:1,mong:1},
+ omn5:{da:'#c6a07c',ao:'#26323e',quan:'#1a222a',mu:'long',long:'#5a4632',dai:'#b0902e',giap:1,rau:1,mong:1},
+ thn5:{da:'#d0aa84',ao:'#b08a2a',quan:'#3a2a1a',mu:'long',long:'#3a2a1a',dai:'#e8d28a',giap:1,mong:1},
+ lh:{da:'#c4a07c',ao:'#5e4a36',quan:'#2e241a',mu:'tru',tru:'#7a7a74',dai:'#3a2a1a',giap:1,rau:1,mong:1},
+ lq:{da:'#c8a480',ao:'#6e5a40',quan:'#3a2c1e',mu:'tru',tru:'#5e5e58',dai:'#3a2a1a',giap:1,mong:1},
+ v4:{da:'#d4b893',ao:'#34506e',quan:'#2a3440',mu:'khan',khan:'#b0281c',dai:'#b0281c'},
+ v5:{da:'#cfae86',ao:'#2f4a64',quan:'#263040',mu:'khan',khan:'#b0281c',dai:'#b0281c'},
+ db1:{da:'#c9a47e',ao:'#8a6a46',quan:'#4a3a28',mu:'khan',khan:'#d8ccb0',dai:'#4a3a28'},
+ db2:{da:'#cfae88',ao:'#6e5a40',quan:'#3a2e22',mu:'khan',khan:'#8a7a5a',dai:'#2a2016',rau:1},
+ m4:{da:'#c7a07a',ao:'#7a6248',quan:'#4a3a2a',mu:'long',long:'#6a5038',dai:'#3a2a1a',giap:1,mong:1},
+ m5:{da:'#c9a47e',ao:'#6a6660',quan:'#3a3632',mu:'tru',tru:'#4e4e4a',dai:'#2a2a2a',giap:1,mong:1},
+ m6:{da:'#c4a07c',ao:'#82684c',quan:'#4a3a2a',mu:'tru',tru:'#5e5a50',dai:'#3a2a1a',mong:1}};
+Object.assign(P23,P25);
+for(const key of Object.keys(P25)){for(const part of Object.keys(RIG23))A[`t25n_r_${key}_${part}`]=()=>rigpart23(key,part);
+ for(const m of ['S','G','V'])A[`t25n_r_${key}_head${m}`]=()=>rigpart23(key,'head'+m)}
+
+// tm25: nền riêng (cùng cách vẽ nền tm24, đổi hạt giống để núi, cây, sóng khác đi)
+for(const n of ['far','mid','song','frontL','frontR']){const src=A['t24_'+n].toString().replace(/seed=24(\d\d)/,(m,d)=>'seed=25'+d);A['t25_'+n]=eval('({'+src+'})').__proto__?eval('({'+src+'})')['t24_'+n]:null}
+
+Object.assign(A,{t25_spr_coN(){const s=setup(220,420);seed=2520;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'path',{d:'M44 30 Q140 40 210 30 Q170 90 210 150 Q140 140 44 150Z',fill:'#2a2a30',stroke:'#c9a45a','stroke-width':5})},
+ t25_spr_coV(){const s=setup(220,420);seed=2521;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'path',{d:'M44 30 L210 70 L44 150Z',fill:'#a8281c',stroke:'#c9a45a','stroke-width':5})},
+ t25_spr_coT(){const s=setup(220,420);seed=2522;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ el(g,'line',{x1:40,y1:420,x2:40,y2:20,stroke:'#3a2a1a','stroke-width':9});el(g,'rect',{x:44,y:30,width:150,height:120,fill:'#c8c6bc',stroke:INK,'stroke-width':4});el(g,'rect',{x:44,y:30,width:150,height:22,fill:'#6a6a66'})}});
 
 </script></body></html>

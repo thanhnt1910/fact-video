@@ -71,7 +71,7 @@ def ve23(cv,c,key,x,ground,s,P,flip=False,vk=None,o=1.0,hip=None):
     sB=rot((-6,-78),P['lean']);sF=rot((10,-78),P['lean']);nk=rot((0,-94),P['lean'])
     eB=seg(sB,P['arB'],30);part(n('armU'),sB,P['arB'],'armU');aB=P['arB']+P['faB'];part(n('armL'),eB,aB,'armL')
     if P.get('vkB'): part(f"t23n_r_w_{P['vkB']}",seg(eB,aB,30),aB+P.get('vkBr',0),P['vkB'])
-    part(n('torso'),(0,0),P['lean'],'torso');part(n('head'),nk,P['lean']+P['head'],'head23')
+    part(n('torso'),(0,0),P['lean'],'torso');part(n('head'+P.get('mat','')),nk,P['lean']+P['head'],'head23')
     eF=seg(sF,P['arF'],30);aF=P['arF']+P['faF'];hand=seg(eF,aF,30)
     if vk:
         g=P.get('giuong',0);r0=10+.4*(aF+22)
@@ -100,3 +100,26 @@ def ngua(cv,c,mau,x,ground,s,ph,chay=1.0,flip=False,o=1.0,nguoi=None,P=None,vk=N
         PP=P or ngoi(t)
         ve23(cv,c,nguoi,0,0,s,PP,flip=flip,vk=vk,o=o,hip=W((-4,-56)))
     for lx,ly,a in [(64,10,A*math.sin(ph)),(-46,10,-A*math.sin(ph+.6))]: part(f't23n_ngua_{mau}_chan',(lx,ly),a,.5,12/140)
+
+# ===== tư thế cảm xúc (tm25 trở đi) =====
+def so(t,manh=1.0):
+    """sợ hãi: ngả người ra sau, hai tay giơ lên che trước mặt, gối chùn, người run"""
+    r=1.5*math.sin(t*23)*manh
+    return dict(thF=-8,thB=10,knF=18,knB=14,arF=-120+r,faF=-70,arB=-100-r,faB=-80,lean=-12*manh+r*.4,head=-6+r,mat='S')
+def hoang(ph,t,amp=1.2):
+    """hoảng chạy: dáng chạy, người chúi về trước, tay vung loạn"""
+    P=walk(ph,amp);P.update(lean=16,arF=-150+40*math.sin(t*9),faF=-30,arB=60+30*math.sin(t*7),faB=-20,head=-10,mat='S');return P
+def reo(t):
+    """reo hò: giơ vũ khí lên cao"""
+    b=math.sin(t*6)
+    return dict(thF=-10,thB=8,knF=6,knB=6,arF=-165+8*b,faF=-5,arB=-140-8*b,faB=-10,lean=-4,head=-4,mat='V')
+def quat(t):
+    """quát, chỉ tay: một tay chỉ thẳng về trước"""
+    b=math.sin(t*4)
+    return dict(thF=-12,thB=10,knF=8,knB=6,arF=-88+4*b,faF=-4,arB=20,faB=-50,lean=6,head=-2,mat='G')
+def xung(ph,amp=1.3):
+    """xông lên: chạy, vũ khí chĩa về trước, mặt giận"""
+    P=walk(ph,amp);P.update(lean=12,arF=-75,faF=-20,mat='G');return P
+def nga(u):
+    """ngã ngửa dần (u: 0 đứng, 1 nằm)"""
+    return dict(thF=-30*u,thB=-10*u,knF=40*u,knB=30*u,arF=-150*u,faF=-20,arB=-120*u,faB=-30,lean=-80*u,head=-10*u,mat='S')

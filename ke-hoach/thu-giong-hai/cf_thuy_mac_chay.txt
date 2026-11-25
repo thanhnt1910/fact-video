@@ -1,1 +1,1 @@
-lan3 NBTM27
+lan4 NBTM27B

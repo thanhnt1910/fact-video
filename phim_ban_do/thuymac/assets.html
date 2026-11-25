@@ -2984,4 +2984,54 @@ t26_nang(){const s=setup(700,700);seed=2632;const g=el(s,'g',{filter:'url(#ink)'
  for(let i=0;i<16;i++){const a=i*Math.PI/8;el(g,'line',{x1:350+Math.cos(a)*150,y1:350+Math.sin(a)*150,x2:350+Math.cos(a)*(230+rnd()*80),y2:350+Math.sin(a)*(230+rnd()*80),stroke:'#c8602a','stroke-width':6,opacity:.6})}}
 });
 
+</script>
+<script>
+// ===== tm27 thử kiểu tranh bút lông: tướng cưỡi ngựa nhìn từ phía sau (t27n_kysau_a/_b: hai nhịp chân) =====
+function kysau(ph){const s=setup(600,820);seed=2701;S.innerHTML+=DEFS_INKF;const g=el(s,'g',{filter:'url(#inkf)'});
+ const HO='#8a3a20',HO2='#5e2614',GI='#6e6c66',AO='#b08a2a';
+ // chân sau (hai nhịp)
+ const lg=(x,dir,lift)=>{const hk=650-lift*.6,hf=770-lift;
+  el(g,'path',{d:`M${x-46} 520 Q${x-50} 600 ${x-22*dir-6} ${hk} Q${x-14*dir-8} ${hk+40} ${x-10} ${hf-14} L${x+8} ${hf-14} Q${x+10-6*dir} ${hk+30} ${x+16-4*dir} ${hk} Q${x+40} 600 ${x+44} 520Z`,fill:HO2,stroke:INK,'stroke-width':4});
+  el(g,'path',{d:`M${x-12} ${hf-16} L${x+10} ${hf-16} L${x+14} ${hf} L${x-16} ${hf}Z`,fill:INK})};
+ lg(228,1,ph?46:0);lg(372,-1,ph?0:46);
+ el(g,'path',{d:`M150 470 L146 ${ph?640:612} L166 ${ph?640:612} L178 470Z`,fill:HO2,stroke:INK,'stroke-width':3,opacity:.85});
+ // thân, cổ, đầu ngựa
+ el(g,'ellipse',{cx:230,cy:390,rx:125,ry:78,fill:HO,stroke:INK,'stroke-width':4});
+ el(g,'path',{d:'M160 370 Q138 320 140 262 Q140 236 158 232 Q178 232 182 258 Q186 310 222 340Z',fill:HO,stroke:INK,'stroke-width':4});
+ el(g,'path',{d:'M144 240 L138 214 L154 234Z M162 236 L166 210 L172 236Z',fill:HO2,stroke:INK,'stroke-width':3});
+ el(g,'path',{d:'M166 240 Q186 290 214 330 Q190 316 172 280Z',fill:INK,opacity:.85});
+ // mông ngựa
+ el(g,'path',{d:'M175 470 Q160 360 260 350 Q300 345 340 350 Q440 360 425 470 Q420 560 300 565 Q180 560 175 470Z',fill:HO,stroke:INK,'stroke-width':5});
+ el(g,'path',{d:'M300 352 Q296 460 300 560',stroke:HO2,'stroke-width':5,fill:'none',opacity:.8});
+ el(g,'path',{d:'M200 470 Q215 520 260 545 M400 470 Q385 520 340 545',stroke:HO2,'stroke-width':6,fill:'none',opacity:.6});
+ el(g,'path',{d:'M330 360 Q430 380 420 480 Q410 540 330 560 Q390 500 330 360Z',fill:INK,opacity:.28});
+ el(g,'path',{d:'M220 380 Q250 368 270 372',stroke:'#c86a40','stroke-width':8,fill:'none',opacity:.5});
+ // đuôi
+ const sw=ph?18:-12;el(g,'path',{d:`M290 400 Q${300+sw} 520 ${292+sw*2} 690 Q${306+sw*2} 700 ${314+sw*2} 688 Q${320+sw} 520 310 400Z`,fill:INK});
+ for(let i=0;i<5;i++)el(g,'path',{d:`M${296+i*3} 420 Q${300+sw+i*4} 560 ${284+sw*2+i*8} ${670+i*6}`,stroke:INK,'stroke-width':3,fill:'none',opacity:.6});
+ // vải yên
+ el(g,'path',{d:'M205 350 L395 350 L405 430 Q300 450 195 430Z',fill:'#2e5a5a',stroke:INK,'stroke-width':4});
+ el(g,'path',{d:'M205 418 Q300 436 398 418',stroke:'#c9a45a','stroke-width':5,fill:'none'});
+ // chân người hai bên yên
+ el(g,'path',{d:'M215 360 Q190 410 200 470 L226 476 Q222 420 240 370Z M385 360 Q410 410 400 470 L374 476 Q378 420 360 370Z',fill:'#3a2a1a',stroke:INK,'stroke-width':3});
+ // giáp lưng
+ el(g,'path',{d:'M228 236 Q300 214 372 236 L362 372 Q300 384 238 372Z',fill:GI,stroke:INK,'stroke-width':5});
+ for(let r=0;r<6;r++)for(let c=0;c<6;c++){const x=246+c*22+(r%2)*11,y=250+r*20;el(g,'path',{d:`M${x-11} ${y} Q${x} ${y+16} ${x+11} ${y}`,stroke:INK,'stroke-width':2,fill:'none',opacity:.75})}
+ el(g,'path',{d:'M236 352 Q300 366 364 352 L366 378 Q300 392 234 378Z',fill:AO,stroke:INK,'stroke-width':3});
+ // vai, tay
+ el(g,'path',{d:'M228 238 Q200 250 196 300 L222 306 Q226 270 246 250Z',fill:AO,stroke:INK,'stroke-width':3});
+ el(g,'path',{d:'M372 238 Q408 248 420 288 L396 300 Q384 268 356 252Z',fill:AO,stroke:INK,'stroke-width':3});
+ // giáo vác chéo
+ el(g,'line',{x1:470,y1:330,x2:40,y2:150,stroke:'#5a3a1e','stroke-width':9,'stroke-linecap':'round'});
+ el(g,'path',{d:'M40 150 L4 128 L18 154Z',fill:'#cfcfc8',stroke:INK,'stroke-width':3});
+ el(g,'path',{d:'M70 162 Q60 176 74 186 Q86 172 70 162Z',fill:'#a8281c'});
+ el(g,'path',{d:'M410 288 Q430 304 420 318 L398 306Z',fill:'#d4b08a',stroke:INK,'stroke-width':2});
+ // đầu, mũ lông
+ el(g,'path',{d:'M276 236 L276 214 L324 214 L324 236Z',fill:'#c8a47e',stroke:INK,'stroke-width':3});
+ el(g,'ellipse',{cx:300,cy:196,rx:30,ry:30,fill:'#2a2018',stroke:INK,'stroke-width':4});
+ el(g,'path',{d:'M266 196 Q300 150 334 196 Q300 186 266 196Z',fill:'#3a2a1a',stroke:INK,'stroke-width':3});
+ el(g,'ellipse',{cx:300,cy:200,rx:40,ry:11,fill:'#6a5038',stroke:INK,'stroke-width':3});
+ el(g,'path',{d:'M300 156 Q290 124 306 104 Q318 130 304 158Z',fill:'#a8281c',stroke:INK,'stroke-width':2})}
+Object.assign(A,{t27n_kysau_a(){kysau(0)},t27n_kysau_b(){kysau(1)}});
+
 </script></body></html>

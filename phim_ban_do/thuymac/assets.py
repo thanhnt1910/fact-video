@@ -98,6 +98,7 @@ for _k in P26K:
 for _n,_wh in {'t26_far':(3000,700),'t26_mid':(3000,540),'t26_song':(3000,420),'t26_frontL':(900,800),'t26_frontR':(900,800),'t26n_dien':(2400,800),'t26_bien':(3000,700),'t26_dao':(3000,600),'t26n_cang':(2400,700),'t26n_cuon':(760,900),'t26n_cuon2':(760,900),'t26n_ao':(460,320),'t26_spr_coN':(220,420),'t26_spr_coV':(220,420),'t26_nang':(700,700)}.items(): SIZES[_n]=(_wh[0],_wh[1],1.5)
 for _n,_wh in {'t26n_trai':(2400,560),'t26n_than':(420,260),'t26n_bao':(640,240),'t26n_gao':(200,160),'t26n_non':(320,220),'t26n_vai':(280,160),'t26n_xieng':(520,160)}.items(): SIZES[_n]=(_wh[0],_wh[1],3)
 SEALS.update({'stitle26':(['THUYỀN','LƯƠNG','VÂN ĐỒN'],240,250,40)})
+for _n in ['t27n_kysau_a','t27n_kysau_b']: SIZES[_n]=(600,820,1.5)
 only=sys.argv[1:]
 with sync_playwright() as p:
     b=p.chromium.launch()

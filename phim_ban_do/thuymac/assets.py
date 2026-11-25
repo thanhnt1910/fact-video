@@ -91,6 +91,13 @@ for _k in ['lpt','ttt','tth','tnh','tho','nlh','ttd','lv1','lv2','lv3','lm1','lm
     for _m in 'SGV': SIZES[f't23n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
 for _k in P24K:
     for _m in 'SGV': SIZES[f't24n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
+P26K=['tkd','tkd2','tts6','tnt6','hdv6','ts6','lh6','tvh','thn6','omn6','v6','v7','v8','m7','m8','m9','d6a','d6b','d6c']
+for _k in P26K:
+    for _p,(_w,_h) in R23.items(): SIZES[f't26n_r_{_k}_{_p}']=(_w,_h,3)
+    for _m in 'SGV': SIZES[f't26n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
+for _n,_wh in {'t26_far':(3000,700),'t26_mid':(3000,540),'t26_song':(3000,420),'t26_frontL':(900,800),'t26_frontR':(900,800),'t26n_dien':(2400,800),'t26_bien':(3000,700),'t26_dao':(3000,600),'t26n_cang':(2400,700),'t26n_cuon':(760,900),'t26n_cuon2':(760,900),'t26n_ao':(460,320),'t26_spr_coN':(220,420),'t26_spr_coV':(220,420),'t26_nang':(700,700)}.items(): SIZES[_n]=(_wh[0],_wh[1],1.5)
+for _n,_wh in {'t26n_trai':(2400,560),'t26n_than':(420,260),'t26n_bao':(640,240),'t26n_gao':(200,160),'t26n_non':(320,220),'t26n_vai':(280,160),'t26n_xieng':(520,160)}.items(): SIZES[_n]=(_wh[0],_wh[1],3)
+SEALS.update({'stitle26':(['THUYỀN','LƯƠNG','VÂN ĐỒN'],240,250,40)})
 only=sys.argv[1:]
 with sync_playwright() as p:
     b=p.chromium.launch()

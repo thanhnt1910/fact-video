@@ -1,7 +1,3 @@
-a62_x: OK
-a62_y: OK
-a71_x: OK
-a71_y: OK
 a68_x: OK
 a68_y: OK
 a69_x: OK

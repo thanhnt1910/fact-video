@@ -75,10 +75,10 @@ def ve23(cv,c,key,x,ground,s,P,flip=False,vk=None,o=1.0,hip=None):
     eF=seg(sF,P['arF'],30);aF=P['arF']+P['faF'];hand=seg(eF,aF,30)
     if vk:
         g=P.get('giuong',0);r0=10+.4*(aF+22)
-        r={'dao':r0+g*(aF+165-r0),'daocong':r0+g*(aF+165-r0),'giao':aF+55,'moc':aF+55,'cung':aF+90,'no':aF+90,'van':aF+90,'gay':aF+30,'gays':aF+30}[vk]+P.get('vkr',0)
+        r={'dao':r0+g*(aF+165-r0),'daocong':r0+g*(aF+165-r0),'giao':aF+55,'moc':aF+55,'cung':aF+90,'no':aF+90,'van':aF+90,'gay':aF+30,'gays':aF+30,'sung':aF+160}[vk]+P.get('vkr',0)
         part(f't23n_r_w_{vk}',hand,r,vk)
     part(n('armU'),sF,P['arF'],'armU');part(n('armL'),eF,aF,'armL')
-PIV.update({'gay':(.5,250/330),'gays':(.5,250/330),'head23':(.5,125/150),'daocong':(.5,140/170),'cung':(.5,110/220),'no':(45/150 if False else .5,45/90),'van':(.5,60/120),'moc':(.5,250/340)})
+PIV.update({'gay':(.5,250/330),'gays':(.5,250/330),'head23':(.5,125/150),'daocong':(.5,140/170),'cung':(.5,110/220),'no':(45/150 if False else .5,45/90),'van':(.5,60/120),'moc':(.5,250/340),'sung':(.5,250/330)})
 def ngoi(t):
     """tư thế ngồi trên ngựa/thuyền"""
     b=math.sin(t*1.7)

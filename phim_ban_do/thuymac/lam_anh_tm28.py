@@ -5,10 +5,16 @@ from pathlib import Path
 OUT=Path('/dev/shm/tm28/anh');OUT.mkdir(parents=True,exist_ok=True)
 DY={}
 def sach(im):
-    hsv=cv2.cvtColor(im,cv2.COLOR_BGR2HSV);h,s,v=cv2.split(hsv)
-    red=(((h<12)|(h>165))&(s>90)&(v>60)).astype(np.uint8)*255   # dấu đỏ, cờ đỏ
-    red=cv2.dilate(red,np.ones((9,9),np.uint8))
-    return cv2.inpaint(im,red,7,cv2.INPAINT_TELEA) if red.any() else im
+    """chỉ xóa dấu đỏ nhỏ, gần vuông (con dấu giả); giữ áo đỏ, cờ, tường gạch"""
+    hsv=cv2.cvtColor(im,cv2.COLOR_BGR2HSV);h,s,v=cv2.split(hsv);H,W=h.shape
+    red=(((h<12)|(h>165))&(s>90)&(v>60)).astype(np.uint8)
+    n,lab,st,_=cv2.connectedComponentsWithStats(cv2.dilate(red,np.ones((5,5),np.uint8)))
+    m=np.zeros_like(red)
+    for i in range(1,n):
+        x,y,w,hh,a=st[i]
+        if a<H*W*.003 and .5<w/max(hh,1)<2.2 and (x<W*.15 or x>W*.85 or y<H*.15 or y>H*.85): m[lab==i]=255
+    m=cv2.dilate(m,np.ones((9,9),np.uint8))
+    return cv2.inpaint(im,m,7,cv2.INPAINT_TELEA) if m.any() else im
 def chu(im):
     """chữ giả: nét tối mảnh dồn thành cột ở hai mép trái phải"""
     g=cv2.cvtColor(im,cv2.COLOR_BGR2GRAY);H,W=g.shape;m=np.zeros_like(g)

@@ -1,2 +1,2 @@
 tm28ca
-# nhận dạng giọng tm28 152001
+# nhận dạng giọng tm28 152121

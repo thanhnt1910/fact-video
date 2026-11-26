@@ -112,6 +112,7 @@ with sync_playwright() as p:
         pg=b.new_page(device_scale_factor=sc,viewport={'width':800,'height':600});pg.goto(H);pg.wait_for_timeout(500)
         for k,(w,h,s) in SIZES.items():
             if s!=sc or (only and k not in only): continue
+            if pg.evaluate(f'typeof A.{k}')!='function': print('bỏ qua',k);continue
             pg.set_viewport_size({'width':w,'height':h});pg.evaluate(f'A.{k}()');pg.wait_for_timeout(150)
             pg.locator('#S').screenshot(path=f'/tmp/gen/bd/a/{k}.png',omit_background=True,type='png')
         if sc==1.5:

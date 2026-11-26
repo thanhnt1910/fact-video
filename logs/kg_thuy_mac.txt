@@ -1,6 +1,8 @@
-a14: OK
-a25: OK
-a33: OK
-a66: OK
-a69b: OK
-a71: OK
+a62_x: OK
+a62_y: OK
+a71_x: OK
+a71_y: OK
+a68_x: OK
+a68_y: OK
+a69_x: OK
+a69_y: OK

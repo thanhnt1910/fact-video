@@ -157,6 +157,10 @@ def bando(cv,c,t,a):
     im=A('map28')
     if not FREEZE and t<a+1: im=wipe(im,inn(t,a-.2,1.0),0,.25,seed=4)
     put(cv,c,im,960,540,scale_px=1.5)
+    if not FREEZE and t>a+.6:
+        for k_,nm_ in (('hoangsa','quần đảo Hoàng Sa'),('truongsa','quần đảo Trường Sa')):
+            if k_ in PTM:
+                X_,Y_=c.p(*PTM[k_]);tx_=text(nm_,max(18,int(15*c.z)),INK,700,glow=3);put_screen(cv,tx_,X_,Y_+18*c.z+tx_.shape[0]/2,inn(t,a+.6,.6)*.9)
 def diem(cv,c,nm,p,t,t0,col=INK,sz=36,dx=22,dy=-6):
     if t<t0: return
     o=inn(t,t0,.3);dot(cv,c,*p,o=o,col=col,r=7)
@@ -466,7 +470,7 @@ def S_4(cv,t):
 def S_5(cv,t):
     a,b=T[5]-3.6,E[5]+.3
     tl,db=tuple(PTM['thanglong']),tuple(PTM['doban'])
-    c=mcam(t,[(a,(880,640,1.12)),(b,(880,650,1.16))])
+    c=mcam(t,[(a,(960,540,1.0)),(b,(960,540,1.04))])
     bando(cv,c,t,a)
     diem(cv,c,'Thăng Long',tl,t,T[5]+.3,VIETC,dx=24,dy=-10);diem(cv,c,'Đồ Bàn',db,t,T[5]+1.2,RED,dx=-130,dy=-10)
     if t>T[5]+1.2: pulse(cv,c,*db,t)
@@ -554,10 +558,10 @@ def S_15(cv,t):
     put(cv,c,'t26n_trai',960,930,ay=1,s=.9,k=.8,o=.8)
     for i in range(5):
         x=dib(cv,c,'mbm' if i==0 else CA[i%3],-200-i*170,700-i*150,940,t,a,q,s=.52,ph=i,sua=lambda PP,t_:PP.update(arF=-170,faF=-10,arB=-170,faB=-10))
-        put(cv,c,'t23_mam',x+8,940-200*.52*1.45,s=.22,o=.95);vang(cv,c,x+8,940-210*.52*1.45,8,i)
+        put(cv,c,'t23_mam',x+8,940-200*.52*1.45,s=.42,o=.95);vang(cv,c,x+8,940-215*.52*1.45,14,i)
     ngd(cv,c,'dtb',1250,930,t,.62,rig.dung(t)|{'mat':'G','lean':12} ,flip=True)
     if t>q:
-        put(cv,c,'t23_mam',1130,930,s=.3);vang(cv,c,1130,912,14,9)
+        put(cv,c,'t23_mam',1130,930,s=.6);vang(cv,c,1130,905,24,9)
         soi(cv,c,1130,900,t,.8)
     nhan(cv,'mười mâm vàng dâng vua nhà Trần',960,150,t,a+.3,q,INK,40)
     nhan(cv,'nhưng chúng không bao giờ về tới kinh thành',960,150,t,sb(16,1),b,RED,38)
@@ -568,7 +572,7 @@ def S_17(cv,t):
     nen(cv,c,t,seed=17,mist=.4)
     put(cv,c,'t26n_trai',960,930,ay=1,s=.9,k=.8,o=.6)
     ngd(cv,c,'dtb',1150,930,t,.64,rig.dung(t)|{'mat':'G','arF':-60,'faF':-60},flip=True)
-    cuon(cv,640,450,t,'TÂU VỀ TRIỀU','Chế Bồng Nga|ngạo mạn vô lễ',col=RED,s=.62,sz=38,u=inn(t,q-.4,1.8),nm='t26n_cuon2')
+    cuon(cv,640,450,t,'TÂU VỀ TRIỀU','Chế Bồng Nga|ngạo mạn vô lễ',col=RED,s=.62,sz=38,u=inn(t,a+.5,1.6),nm='t26n_cuon2')
 # 18: vua nổi giận
 def S_18(cv,t):
     a,b=T[18]-.3,E[18]+.3;q=sb(18,1)
@@ -600,7 +604,7 @@ def S_21(cv,t):
     nen(cv,c,t,seed=21,mist=.3)
     put(cv,c,'t23_thanh',500,980,ay=1,s=.7,k=.8,o=.8)
     for i in range(18):
-        r_=i%3;x=dib(cv,c,VA[i%4],200-(i//3)*170,2300-(i//3)*170,910+r_*35,t,a,b+4,s=.46+r_*.04,vk='giao',ph=i,buoc=55)
+        r_=i%3;x=dib(cv,c,VA[i%4],-500+(i//3)*330,500+(i//3)*330,910+r_*35,t,a,b,s=.46+r_*.04,vk='giao',ph=i,buoc=55)
         if i%6==0: co(cv,c,'t26_spr_coV',x+30,910+r_*35,t,s=.42,ph=i)
     bui2(cv,c,1100,980,t,8,.6,.35)
     truoc(cv,c,t)
@@ -762,7 +766,7 @@ def S_40(cv,t):
         X,Y=c.p(x,930);k=.58*1.875
         for j in range(6): cv2.line(cv,(int(X-70*k+j*28*k),int(Y-260*k)),(int(X-70*k+j*28*k),int(Y)),tuple(float(v) for v in INK),3,cv2.LINE_AA)
         cv2.rectangle(cv,(int(X-80*k),int(Y-265*k)),(int(X+80*k),int(Y)),tuple(float(v) for v in INK),4,cv2.LINE_AA)
-    for i in range(6): ngd(cv,c,'dan' if False else VA[i%4],250+i*150 if i<3 else 1250+i*120,960,t,.52,rig.reo(t+i)|{'mat':'V'})
+    for i in range(6): ngd(cv,c,'dan',250+i*150 if i<3 else 1250+i*120,960,t,.52,rig.reo(t+i)|{'mat':'V'})
     gach(cv,c,400,880,x,800,t,a+.5,6,1);gach(cv,c,1500,880,x,800,t,a+.8,6,2)
     nhan(cv,'phủ Thiên Trường · dân ném gạch ngói mà chửi',960,150,t,a+.3,q,INK,38)
     nhan(cv,'cuộc chiến chưa dừng lại ở Đồ Bàn',960,150,t,sb(41,1),b,RED,40)
@@ -796,7 +800,7 @@ def S_45(cv,t):
     c=kc(t,[(a,(960,600,1.0)),(q,(960,600,1.0)),(b,(1050,610,1.15))],sh)
     nen(cv,c,t,seed=45,mist=.5)
     if t<q:
-        for i in range(12): dib(cv,c,CA[i%3],-300-i*110,2100-i*110,930+(i%2)*10,t,a,q+6,s=.44,vk='giao',ph=i)
+        for i in range(12): dib(cv,c,CA[i%3],1300-i*110,2600-i*110,930+(i%2)*10,t,a,q+6,s=.44,vk='giao',ph=i)
         voi(cv,c,lerp(-500,1500,inn(t,a,q+6-a)),940,t,.5)
     else:
         for i in range(3): voi(cv,c,lerp(-400-i*300,900+i*250,inn(t,q,1.8)),950+i*15,t,.62+i*.04,ph=i)
@@ -846,6 +850,7 @@ def S_51(cv,t):
         for i in range(6): chay(cv,c,VA[i%4],1000+i*90,2300,945,t,q+1.2+i*.1,b+1,.5,lambda ph,tt:rig.hoang(ph,tt,1.2),ph=i)
         bui2(cv,c,600,980,t,8,.7,.5)
         nhan(cv,'đập nước bị phá · voi trận ào ra như núi đổ',960,150,t,q+.2,r,RED,38)
+        if t>r: ngua(cv,c,'nau','lql',900,-400,960,t,r+.3,b,s=.58,flip=True)
         nhan(cv,'bảy mươi tướng nhà Trần ngã xuống',960,150,t,r+.2,b,RED,40)
 # 54: tìm người khác
 def S_54(cv,t):
@@ -919,7 +924,7 @@ def S_64(cv,t):
     nen(cv,c,t,'song',seed=64,mist=.4);song_toi(cv,c,640,t)
     tthuyen(cv,c,1600,720,t,.32,True,False,[],name='t28n_thuyenxanh')
     for i in range(4): tthuyen(cv,c,1150+i*280,660+(i%2)*14,t,.2,True,False,[],ph=i,o=.6)
-    if t<q: chay(cv,c,'blk',-150,800,940,t,a,q,.56,lambda ph,tt:rig.hoang(ph,tt,1.1))
+    if t<q: chay(cv,c,'blk',2100,850,940,t,a,q,.56,lambda ph,tt:rig.hoang(ph,tt,1.1))
     elif t<r: ngd(cv,c,'blk',800,950,t,.56,quy(rig.so(t,.9)))
     else:
         P=rig.dung(t);P.update(arF=-90+3*math.sin(t*4),faF=-2,lean=6,mat='S');ngd(cv,c,'blk',800,945,t,.56,P)
@@ -1032,7 +1037,7 @@ def S_78(cv,t):
 def S_81(cv,t):
     a,b=T[81]-.3,E[81]+.3
     tl=tuple(PTM['thanglong'])
-    c=mcam(t,[(a,(960,540,1.0)),(b,(tl[0],tl[1]+100,1.6))])
+    c=mcam(t,[(a,(tl[0],tl[1]+100,1.6)),(b,(960,540,1.0))])
     bando(cv,c,t,a)
     for k in range(3): smoke(cv,c,tl[0]+k*12,tl[1]-20,t+k,s=.4)
     pulse(cv,c,*tl,t)

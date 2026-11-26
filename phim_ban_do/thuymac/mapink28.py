@@ -3,9 +3,9 @@ import numpy as np,cv2,math
 from PIL import Image
 Image.MAX_IMAGE_PIXELS=None
 im=np.asarray(Image.open('/tmp/ne/world28.jpg').convert('RGB')).astype(np.float32)
-LON0,LAT1,S=97.0,24.6,300;KX=S*math.cos(math.radians(23))
+LON0,LAT1,S=92.0,25.0,300;KX=S*math.cos(math.radians(23))
 # khung: lon 104.3..114.3, 16:9
-x0=(97.6-LON0)*KX;x1=(119.2-LON0)*KX;w=x1-x0;h=w*9/16;yc=(LAT1-17.7)*S;y0=yc-h/2
+x0=(93.4-LON0)*KX;x1=(124.6-LON0)*KX;w=x1-x0;h=w*9/16;yc=(LAT1-15.6)*S;y0=yc-h/2
 print('crop',x0,y0,w,h,'lat',LAT1-y0/S,LAT1-(y0+h)/S)
 OW,OH=2880,1620
 sc=OW/w
@@ -64,6 +64,15 @@ for i in range(1,nm):
         cv2.fillPoly(sh,[np.concatenate([L,Rr])],90,cv2.LINE_AA,shift=2)
         mt=np.maximum(mt,cv2.GaussianBlur(sh.astype(np.float32)/255,(0,0),2)*0.4)
 A=np.clip(seaa+lines+edge*0.9+inner+rv+relief+mt,0,1)
+# quần đảo Hoàng Sa và Trường Sa: chấm đảo nhỏ có viền, đặt theo tọa độ thật
+def _px(lon,lat): X=((lon-LON0)*KX-x0)*sc;Y=((LAT1-lat)*S-y0)*sc;return int(X),int(Y)
+DAO=[(111.6,16.5),(111.75,16.55),(112.3,16.95),(111.2,15.8),(112.7,16.65),(111.6,16.85),(112.0,16.4),(111.45,16.25),
+     (114.28,11.05),(114.36,10.38),(114.85,10.9),(114.1,10.8),(115.5,10.2),(113.85,10.0),(112.9,9.6),(111.92,8.64),(114.0,9.1),(115.2,9.9),(114.7,9.6),(113.4,8.9),(116.0,9.8),(112.6,10.2)]
+isl=np.zeros((OH,OW),np.float32)
+for lo,la in DAO:
+    X,Y=_px(lo,la);r=int(5+(abs(hash((lo,la)))%4))
+    cv2.ellipse(isl,(X,Y),(r+3,r),0,0,360,1.0,-1,cv2.LINE_AA)
+A=np.clip(A+isl*0.85,0,1)
 # làm méo nhẹ cho giống nét cọ
 dx=(cv2.GaussianBlur(rng.random((OH,OW)).astype(np.float32),(0,0),3)-.5)*14
 dy=(cv2.GaussianBlur(rng.random((OH,OW)).astype(np.float32),(0,0),3)-.5)*14
@@ -74,7 +83,7 @@ out=np.zeros((OH,OW,4),np.uint8);out[...,:3]=ink;out[...,3]=(A*255).astype(np.ui
 Image.fromarray(out,'RGBA').save('/tmp/gen/bd/a/map28.png')
 # tọa độ thế giới (1920x1080) của các địa danh
 def wpt(lon,lat): X=(lon-LON0)*KX;Y=(LAT1-lat)*S;return round((X-x0)*sc/1.5,1),round((Y-y0)*sc/1.5,1)
-P={'thanglong':(105.85,21.03),'dongngan':(105.95,21.13),'daian':(106.15,19.95),'thienphu':(106.45,20.25),'thientruong':(106.17,20.43),'thanhhoa':(105.78,19.80),'hoachau':(107.58,16.46),'nhatle':(106.62,17.47),'diluan':(106.45,17.88),'thinai':(109.23,13.78),'doban':(109.07,13.92),'haitrieu':(106.25,20.55),'hoanggiang':(106.05,20.45),'binhthan':(106.33,21.08),'quangoai':(105.45,21.12),'nghean':(105.68,18.67)}
+P={'thanglong':(105.85,21.03),'dongngan':(105.95,21.13),'daian':(106.15,19.95),'thienphu':(106.45,20.25),'thientruong':(106.17,20.43),'thanhhoa':(105.78,19.80),'hoachau':(107.58,16.46),'nhatle':(106.62,17.47),'diluan':(106.45,17.88),'thinai':(109.23,13.78),'doban':(109.07,13.92),'haitrieu':(106.25,20.55),'hoanggiang':(106.05,20.45),'binhthan':(106.33,21.08),'quangoai':(105.45,21.12),'nghean':(105.68,18.67),'hoangsa':(112.0,16.55),'truongsa':(114.2,9.9)}
 import json;json.dump({k:wpt(*v) for k,v in P.items()},open('/tmp/gen/bd/a/map28_pts.json','w'),indent=1)
 print({k:wpt(*v) for k,v in P.items()})
 # xem thử trên giấy

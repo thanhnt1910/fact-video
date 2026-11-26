@@ -2,8 +2,8 @@
 import numpy as np,cv2,math
 from PIL import Image
 Image.MAX_IMAGE_PIXELS=None
-im=np.asarray(Image.open('/tmp/pc/phim_ban_do/world7.jpg').convert('RGB')).astype(np.float32)
-LON0,LAT1,S=102.0,24.8,520;KX=S*math.cos(math.radians(23))
+im=np.asarray(Image.open('/tmp/ne/world28.jpg').convert('RGB')).astype(np.float32)
+LON0,LAT1,S=97.0,24.6,300;KX=S*math.cos(math.radians(23))
 # khung: lon 104.3..114.3, 16:9
 x0=(97.6-LON0)*KX;x1=(119.2-LON0)*KX;w=x1-x0;h=w*9/16;yc=(LAT1-17.7)*S;y0=yc-h/2
 print('crop',x0,y0,w,h,'lat',LAT1-y0/S,LAT1-(y0+h)/S)

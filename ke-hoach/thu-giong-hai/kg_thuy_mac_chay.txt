@@ -1,1 +1,1 @@
-lan6 NBTM28V
+lan7 NBTM28W

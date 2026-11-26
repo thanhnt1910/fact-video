@@ -1,1 +1,1 @@
-lan6A NBTM28A
+lan6B NBTM28B

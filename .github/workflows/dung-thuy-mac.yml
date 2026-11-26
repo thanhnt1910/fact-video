@@ -15,9 +15,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: |
-          sudo apt-get install -y -qq ffmpeg > /dev/null || true
-          python -m pip install -q playwright numpy opencv-python-headless pillow && python -m playwright install --with-deps chromium > /dev/null
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "playwright numpy opencv-python-headless pillow"
+      - run: python -m playwright install --with-deps chromium > /dev/null && which ffprobe
       - name: Tài sản
         run: |
           M=$(tail -1 ke-hoach/thu-giong-hai/dung_thuy_mac.txt | awk '{print $2}')

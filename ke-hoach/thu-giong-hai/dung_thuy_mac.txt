@@ -1,1 +1,1 @@
-lan1 tm28
+lan2 tm28

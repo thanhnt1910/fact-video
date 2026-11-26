@@ -105,7 +105,7 @@ for _k in ['dh7','ptp','tlc','tqn','v9','v10','v11']:
     for _p,(_w,_h) in R23.items(): SIZES[f't27n_r_{_k}_{_p}']=(_w,_h,3)
     for _m in 'SGV': SIZES[f't27n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)
 SEALS.update({'stitle27':(['BẠCH ĐẰNG','1288'],240,200,40)})
-SIZES['t28n_thuyenxanh']=(820,380,1.5);SIZES['t23n_r_w_sung']=(60,330,3)
+SIZES['t28n_thuyenxanh']=(820,380,1.5);SIZES['t28_doban']=(3000,700,1.5);SIZES['t28_rao']=(3000,320,1.5);SIZES['t28_dap']=(1400,600,1.5);SIZES['t23n_r_w_sung']=(60,330,3)
 for _k in ['cbn','lng','blk','mbm','c1','c2','c3','dt','dl','dtb','nt','nmh','tkc','lql','nd','ngv']:
     for _p,(_w,_h) in R23.items(): SIZES[f't28n_r_{_k}_{_p}']=(_w,_h,3)
     for _m in 'SGV': SIZES[f't28n_r_{_k}_head{_m}']=(R23['head'][0],R23['head'][1],3)

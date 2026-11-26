@@ -1,0 +1,602 @@
+[
+ {
+  "n": 210001,
+  "chuong": 1,
+  "nhip": "hook1",
+  "tone": "story",
+  "text": "Giữa hơn một trăm chiến thuyền trên mặt sông, có một chiếc sơn màu xanh.",
+  "hien": "Giữa hơn một trăm chiến thuyền trên mặt sông, có một chiếc sơn màu xanh."
+ },
+ {
+  "n": 210002,
+  "chuong": 1,
+  "nhip": "hook2",
+  "tone": "story",
+  "text": "Một người hầu vừa trốn khỏi đoàn thuyền ấy, chạy sang trại quân nhà Trần và chỉ thẳng vào chiếc thuyền sơn xanh. Đó là thuyền của vua mình, anh ta nói.",
+  "hien": "Một người hầu vừa trốn khỏi đoàn thuyền ấy, chạy sang trại quân nhà Trần và chỉ thẳng vào chiếc thuyền sơn xanh. Đó là thuyền của vua mình, anh ta nói."
+ },
+ {
+  "n": 210003,
+  "chuong": 1,
+  "nhip": "hook2",
+  "tone": "story",
+  "text": "Vị vua ấy là Chế Bồng Nga, vua nước Chiêm Thành. Suốt gần hai mươi năm, quân của Chế Bồng Nga đã nhiều lần đánh vào tận kinh thành Thăng Long.",
+  "hien": "Vị vua ấy là Chế Bồng Nga, vua nước Chiêm Thành. Suốt gần hai mươi năm, quân của Chế Bồng Nga đã nhiều lần đánh vào tận kinh thành Thăng Long."
+ },
+ {
+  "n": 210004,
+  "chuong": 1,
+  "nhip": "hook4",
+  "tone": "story",
+  "text": "Người hầu ấy là ai, vì sao lại bỏ chủ, và cái chỉ tay ấy sẽ đổi được điều gì trên mặt sông hôm đó?",
+  "hien": "Người hầu ấy là ai, vì sao lại bỏ chủ, và cái chỉ tay ấy sẽ đổi được điều gì trên mặt sông hôm đó?"
+ },
+ {
+  "n": 210005,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Hơn sáu trăm năm trước, phía nam nước Đại Việt của nhà Trần là Chiêm Thành, vương quốc của người Chăm ở vùng miền Trung ngày nay.",
+  "hien": "Hơn sáu trăm năm trước, phía nam nước Đại Việt của nhà Trần là Chiêm Thành, vương quốc của người Chăm ở vùng miền Trung ngày nay."
+ },
+ {
+  "n": 210006,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Năm một nghìn ba trăm bảy mươi mốt, quân Chiêm Thành theo đường biển vào cửa Đại An, tiến thẳng lên Thăng Long mà không bị ai chặn.",
+  "hien": "Năm một nghìn ba trăm bảy mươi mốt, quân Chiêm Thành theo đường biển vào cửa Đại An, tiến thẳng lên Thăng Long mà không bị ai chặn."
+ },
+ {
+  "n": 210007,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Vua nhà Trần phải đi thuyền sang vùng Đông Ngàn bên kia sông lánh nạn. Lửa bốc lên từ cung điện, và sách vở, sổ sách của nhà nước cháy sạch.",
+  "hien": "Vua nhà Trần phải đi thuyền sang vùng Đông Ngàn bên kia sông lánh nạn. Lửa bốc lên từ cung điện, và sách vở, sổ sách của nhà nước cháy sạch."
+ },
+ {
+  "n": 210008,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Theo sử cũ, mẹ của Dương Nhật Lễ, người vừa tranh ngôi nhà Trần rồi bị giết, đã chạy sang Chiêm Thành xúi giục đánh để báo thù.",
+  "hien": "Theo sử cũ, mẹ của Dương Nhật Lễ, người vừa tranh ngôi nhà Trần rồi bị giết, đã chạy sang Chiêm Thành xúi giục đánh để báo thù."
+ },
+ {
+  "n": 210009,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Nhưng quân Chiêm Thành vào dễ như thế còn vì một lẽ khác. Đất nước thái bình đã lâu, thành quách và biên giới không còn ai lo phòng bị.",
+  "hien": "Nhưng quân Chiêm Thành vào dễ như thế còn vì một lẽ khác. Đất nước thái bình đã lâu, thành quách và biên giới không còn ai lo phòng bị."
+ },
+ {
+  "n": 210010,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Sử gia Ngô Sĩ Liên về sau trách triều Trần rất nặng, rằng ai cũng biết Chiêm Thành là mối lo đời đời, mà vẫn để việc giữ nước bị bỏ bê.",
+  "hien": "Sử gia Ngô Sĩ Liên về sau trách triều Trần rất nặng, rằng ai cũng biết Chiêm Thành là mối lo đời đời, mà vẫn để việc giữ nước bị bỏ bê."
+ },
+ {
+  "n": 210011,
+  "chuong": 2,
+  "nhip": "goc_re",
+  "tone": "story",
+  "text": "Người cầm đầu là Chế Bồng Nga. Sử nước ta chép rằng Chế Bồng Nga cùng tướng La Ngai đã rèn cho quân Chiêm Thành can đảm, chịu được gian khổ.",
+  "hien": "Người cầm đầu là Chế Bồng Nga. Sử nước ta chép rằng Chế Bồng Nga cùng tướng La Ngai đã rèn cho quân Chiêm Thành can đảm, chịu được gian khổ."
+ },
+ {
+  "n": 210012,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Mấy năm sau, quân Chiêm Thành vẫn quấy rối biên giới. Vua Trần Duệ Tông sai viên quan lớn Đỗ Tử Bình giữ Hóa Châu, vùng Huế ngày nay.",
+  "hien": "Mấy năm sau, quân Chiêm Thành vẫn quấy rối biên giới. Vua Trần Duệ Tông sai viên quan lớn Đỗ Tử Bình giữ Hóa Châu, vùng Huế ngày nay."
+ },
+ {
+  "n": 210013,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Rồi Chế Bồng Nga đem mười mâm vàng sang dâng vua nhà Trần. Mười mâm vàng ấy phải đi qua tay Đỗ Tử Bình trước.",
+  "hien": "Rồi Chế Bồng Nga đem mười mâm vàng sang dâng vua nhà Trần. Mười mâm vàng ấy phải đi qua tay Đỗ Tử Bình trước."
+ },
+ {
+  "n": 210014,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Đỗ Tử Bình giữ luôn số vàng làm của riêng. Rồi Đỗ Tử Bình tâu về triều rằng Chế Bồng Nga ngạo mạn vô lễ, cần phải đem quân đánh.",
+  "hien": "Đỗ Tử Bình giữ luôn số vàng làm của riêng. Rồi Đỗ Tử Bình tâu về triều rằng Chế Bồng Nga ngạo mạn vô lễ, cần phải đem quân đánh."
+ },
+ {
+  "n": 210015,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Nghe tâu, vua Duệ Tông giận lắm, và quyết định tự mình cầm quân đi đánh Chiêm Thành.",
+  "hien": "Nghe tâu, vua Duệ Tông giận lắm, và quyết định tự mình cầm quân đi đánh Chiêm Thành."
+ },
+ {
+  "n": 210016,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Một vị quan chuyên việc can gián ba lần dâng thư, nói Chiêm Thành chưa đến mức phải đánh, vua mới lên ngôi, nên lấy đức mà khiến họ tự quy phục.",
+  "hien": "Một vị quan chuyên việc can gián ba lần dâng thư, nói Chiêm Thành chưa đến mức phải đánh, vua mới lên ngôi, nên lấy đức mà khiến họ tự quy phục."
+ },
+ {
+  "n": 210017,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Vua không nghe, vị quan ấy treo mũ bỏ đi. Tháng mười hai năm một nghìn ba trăm bảy mươi sáu, mười hai vạn quân lên đường.",
+  "hien": "Vua không nghe, vị quan ấy treo mũ bỏ đi. Tháng mười hai năm một nghìn ba trăm bảy mươi sáu, mười hai vạn quân lên đường."
+ },
+ {
+  "n": 210018,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Quân thủy vượt biển, vua cưỡi ngựa dẫn quân bộ men theo bờ biển. Đến cửa Nhật Lệ ở Đồng Hới ngày nay, cả đạo quân dừng lại luyện tập một tháng.",
+  "hien": "Quân thủy vượt biển, vua cưỡi ngựa dẫn quân bộ men theo bờ biển. Đến cửa Nhật Lệ ở Đồng Hới ngày nay, cả đạo quân dừng lại luyện tập một tháng."
+ },
+ {
+  "n": 210019,
+  "chuong": 3,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Việc chở lương cho đạo quân ấy được giao cho Lê Quý Ly, một người họ ngoại đang được vua rất tin dùng.",
+  "hien": "Việc chở lương cho đạo quân ấy được giao cho Lê Quý Ly, một người họ ngoại đang được vua rất tin dùng."
+ },
+ {
+  "n": 210020,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Tháng giêng năm một nghìn ba trăm bảy mươi bảy, quân nhà Trần đến cửa Thi Nại, nay là Quy Nhơn. Phía trước là Đồ Bàn, kinh đô Chiêm Thành.",
+  "hien": "Tháng giêng năm một nghìn ba trăm bảy mươi bảy, quân nhà Trần đến cửa Thi Nại, nay là Quy Nhơn. Phía trước là Đồ Bàn, kinh đô Chiêm Thành."
+ },
+ {
+  "n": 210021,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Chế Bồng Nga không giữ thành. Quân Chiêm Thành dựng trại ở bên ngoài thành, rồi sai một viên quan nhỏ sang trại quân nhà Trần xin hàng.",
+  "hien": "Chế Bồng Nga không giữ thành. Quân Chiêm Thành dựng trại ở bên ngoài thành, rồi sai một viên quan nhỏ sang trại quân nhà Trần xin hàng."
+ },
+ {
+  "n": 210022,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Viên quan ấy nói rằng Chế Bồng Nga đã bỏ trốn, Đồ Bàn chỉ còn lại tòa thành không. Vậy thì nên tiến quân thật gấp, kẻo lỡ mất cơ hội.",
+  "hien": "Viên quan ấy nói rằng Chế Bồng Nga đã bỏ trốn, Đồ Bàn chỉ còn lại tòa thành không. Vậy thì nên tiến quân thật gấp, kẻo lỡ mất cơ hội."
+ },
+ {
+  "n": 210023,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Đó là một lời hàng giả. Trong trại quân nhà Trần, người nghi ngờ lời ấy lại không phải là nhà vua.",
+  "hien": "Đó là một lời hàng giả. Trong trại quân nhà Trần, người nghi ngờ lời ấy lại không phải là nhà vua."
+ },
+ {
+  "n": 210024,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Ngày hai mươi bốn, vua Duệ Tông mặc áo đen, cưỡi con ngựa lông đen trắng lẫn nhau như màu bùn, rồi truyền lệnh tiến quân gấp.",
+  "hien": "Ngày hai mươi bốn, vua Duệ Tông mặc áo đen, cưỡi con ngựa lông đen trắng lẫn nhau như màu bùn, rồi truyền lệnh tiến quân gấp."
+ },
+ {
+  "n": 210025,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Đại tướng Đỗ Lễ bước ra can. Ông xin vua hãy sai người mang thư đến hỏi trước cho rõ thật giả, vì lòng địch khó mà đoán được.",
+  "hien": "Đại tướng Đỗ Lễ bước ra can. Ông xin vua hãy sai người mang thư đến hỏi trước cho rõ thật giả, vì lòng địch khó mà đoán được."
+ },
+ {
+  "n": 210026,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Vua gạt đi. Nhà vua nói mình mặc giáp cứng cầm gươm sắc vào sâu đất địch mà chưa ai dám chống, nay chủ địch đã chạy thì không thể dừng lại.",
+  "hien": "Vua gạt đi. Nhà vua nói mình mặc giáp cứng cầm gươm sắc vào sâu đất địch mà chưa ai dám chống, nay chủ địch đã chạy thì không thể dừng lại."
+ },
+ {
+  "n": 210027,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Rồi vua mắng Đỗ Lễ là hạng đàn bà, và sai người lấy áo đàn bà mặc cho vị đại tướng vừa dám nói thật.",
+  "hien": "Rồi vua mắng Đỗ Lễ là hạng đàn bà, và sai người lấy áo đàn bà mặc cho vị đại tướng vừa dám nói thật."
+ },
+ {
+  "n": 210028,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Sau chuyện ấy, cả đạo quân nối gót nhau tiến về phía Đồ Bàn, kéo dài như một xâu cá trên đường.",
+  "hien": "Sau chuyện ấy, cả đạo quân nối gót nhau tiến về phía Đồ Bàn, kéo dài như một xâu cá trên đường."
+ },
+ {
+  "n": 210029,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Cánh quân đi trước và cánh quân ở sau cách nhau mỗi lúc một xa, đến lúc rời hẳn nhau. Đó đúng là khoảng trống mà quân Chiêm Thành chờ đợi.",
+  "hien": "Cánh quân đi trước và cánh quân ở sau cách nhau mỗi lúc một xa, đến lúc rời hẳn nhau. Đó đúng là khoảng trống mà quân Chiêm Thành chờ đợi."
+ },
+ {
+  "n": 210030,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Quân Chiêm Thành bất ngờ xông ra, đánh chặn ngay chỗ hàng quân đứt quãng. Tiếng hò hét át cả tiếng vó ngựa, cánh quân phía trước bị cắt rời.",
+  "hien": "Quân Chiêm Thành bất ngờ xông ra, đánh chặn ngay chỗ hàng quân đứt quãng. Tiếng hò hét át cả tiếng vó ngựa, cánh quân phía trước bị cắt rời."
+ },
+ {
+  "n": 210031,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Chưa tới gần trưa thì quân nhà Trần đã tan vỡ. Vua Trần Duệ Tông bị vây giữa trận và chết ngay trên đất Chiêm Thành.",
+  "hien": "Chưa tới gần trưa thì quân nhà Trần đã tan vỡ. Vua Trần Duệ Tông bị vây giữa trận và chết ngay trên đất Chiêm Thành."
+ },
+ {
+  "n": 210032,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Đỗ Lễ, người vừa bị bắt mặc áo đàn bà, cũng chết trong trận cùng nhiều tướng khác. Một người họ Trần là Ngự Câu vương bị bắt sống.",
+  "hien": "Đỗ Lễ, người vừa bị bắt mặc áo đàn bà, cũng chết trong trận cùng nhiều tướng khác. Một người họ Trần là Ngự Câu vương bị bắt sống."
+ },
+ {
+  "n": 210033,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Còn người giấu mười mâm vàng là Đỗ Tử Bình thì chỉ huy đạo quân đi sau. Đỗ Tử Bình không đến cứu, và nhờ thế mà thoát chết.",
+  "hien": "Còn người giấu mười mâm vàng là Đỗ Tử Bình thì chỉ huy đạo quân đi sau. Đỗ Tử Bình không đến cứu, và nhờ thế mà thoát chết."
+ },
+ {
+  "n": 210034,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Lê Quý Ly đang lo chở lương, nghe tin vua mất thì bỏ về nước.",
+  "hien": "Lê Quý Ly đang lo chở lương, nghe tin vua mất thì bỏ về nước."
+ },
+ {
+  "n": 210035,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Trên đường giải về, Đỗ Tử Bình đi qua phủ Thiên Trường, quê gốc họ Trần. Người dân ở đó nhặt gạch ngói ném vào mà chửi.",
+  "hien": "Trên đường giải về, Đỗ Tử Bình đi qua phủ Thiên Trường, quê gốc họ Trần. Người dân ở đó nhặt gạch ngói ném vào mà chửi."
+ },
+ {
+  "n": 210036,
+  "chuong": 4,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Triều đình tha cho Đỗ Tử Bình tội chết, chỉ phạt làm lính. Cuộc chiến mở ra từ một lời nói dối, và nó chưa dừng lại ở Đồ Bàn.",
+  "hien": "Triều đình tha cho Đỗ Tử Bình tội chết, chỉ phạt làm lính. Cuộc chiến mở ra từ một lời nói dối, và nó chưa dừng lại ở Đồ Bàn."
+ },
+ {
+  "n": 210037,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Tháng sáu năm ấy, quân Chiêm Thành lại tiến thẳng vào kinh thành. Lúc rút về, đoàn thuyền gặp bão ở cửa biển Đại An, quân Chiêm Thành chết đuối rất nhiều.",
+  "hien": "Tháng sáu năm ấy, quân Chiêm Thành lại tiến thẳng vào kinh thành. Lúc rút về, đoàn thuyền gặp bão ở cửa biển Đại An, quân Chiêm Thành chết đuối rất nhiều."
+ },
+ {
+  "n": 210038,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Năm sau nữa, quân Chiêm Thành lại đánh vào kinh thành, bắt được một viên quan coi việc một vùng, rồi ép ông phải lạy.",
+  "hien": "Năm sau nữa, quân Chiêm Thành lại đánh vào kinh thành, bắt được một viên quan coi việc một vùng, rồi ép ông phải lạy."
+ },
+ {
+  "n": 210039,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Viên quan ấy không lạy. Ông đáp rằng mình là quan của nước lớn, việc gì phải lạy, rồi bị giết mà miệng vẫn không ngừng chửi.",
+  "hien": "Viên quan ấy không lạy. Ông đáp rằng mình là quan của nước lớn, việc gì phải lạy, rồi bị giết mà miệng vẫn không ngừng chửi."
+ },
+ {
+  "n": 210040,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Năm một nghìn ba trăm tám mươi ba, Chế Bồng Nga cùng La Ngai không đi đường biển, mà dẫn quân men theo chân núi về gần kinh thành.",
+  "hien": "Năm một nghìn ba trăm tám mươi ba, Chế Bồng Nga cùng La Ngai không đi đường biển, mà dẫn quân men theo chân núi về gần kinh thành."
+ },
+ {
+  "n": 210041,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Quân voi Chiêm Thành đã phục sẵn, đồng loạt xông ra, đạo quân nhà Trần ra chặn thua chạy. Cả kinh thành rúng động.",
+  "hien": "Quân voi Chiêm Thành đã phục sẵn, đồng loạt xông ra, đạo quân nhà Trần ra chặn thua chạy. Cả kinh thành rúng động."
+ },
+ {
+  "n": 210042,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Thượng hoàng Trần Nghệ Tông, người nắm quyền lúc ấy, lên thuyền sang sông Đông Ngàn lánh đi. Đúng lúc ấy, một người học trò tên Nguyễn Mộng Hoa lội xuống nước.",
+  "hien": "Thượng hoàng Trần Nghệ Tông, người nắm quyền lúc ấy, lên thuyền sang sông Đông Ngàn lánh đi. Đúng lúc ấy, một người học trò tên Nguyễn Mộng Hoa lội xuống nước."
+ },
+ {
+  "n": 210043,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Mặc nguyên áo mũ, Nguyễn Mộng Hoa níu lấy thuyền vua kéo lại, xin thượng hoàng ở lại đánh. Nhưng thượng hoàng không nghe.",
+  "hien": "Mặc nguyên áo mũ, Nguyễn Mộng Hoa níu lấy thuyền vua kéo lại, xin thượng hoàng ở lại đánh. Nhưng thượng hoàng không nghe."
+ },
+ {
+  "n": 210044,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Ngô Sĩ Liên về sau viết rằng một người học trò còn biết giữ vua lại, còn những kẻ ăn lộc triều đình thì thật đáng khinh.",
+  "hien": "Ngô Sĩ Liên về sau viết rằng một người học trò còn biết giữ vua lại, còn những kẻ ăn lộc triều đình thì thật đáng khinh."
+ },
+ {
+  "n": 210045,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Năm một nghìn ba trăm tám mươi chín, quân Chiêm Thành đánh vào Thanh Hóa. Lê Quý Ly, nay đã là người nắm quyền lớn trong triều, đem quân ra chống.",
+  "hien": "Năm một nghìn ba trăm tám mươi chín, quân Chiêm Thành đánh vào Thanh Hóa. Lê Quý Ly, nay đã là người nắm quyền lớn trong triều, đem quân ra chống."
+ },
+ {
+  "n": 210046,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Quân Chiêm Thành giả vờ bỏ trại rút đi. Lê Quý Ly cho quân tinh nhuệ đuổi theo, đúng lúc ấy đập nước bị phá, voi trận phục sẵn ào ra.",
+  "hien": "Quân Chiêm Thành giả vờ bỏ trại rút đi. Lê Quý Ly cho quân tinh nhuệ đuổi theo, đúng lúc ấy đập nước bị phá, voi trận phục sẵn ào ra."
+ },
+ {
+  "n": 210047,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Bảy mươi tướng nhà Trần chết trận. Lê Quý Ly để một viên tướng ở lại cầm cự, còn mình bỏ về trước, rồi xin thôi cầm quân.",
+  "hien": "Bảy mươi tướng nhà Trần chết trận. Lê Quý Ly để một viên tướng ở lại cầm cự, còn mình bỏ về trước, rồi xin thôi cầm quân."
+ },
+ {
+  "n": 210048,
+  "chuong": 5,
+  "nhip": "the_nguy",
+  "tone": "story",
+  "text": "Giờ đây, triều Trần cần một người khác đứng ra chặn Chế Bồng Nga.",
+  "hien": "Giờ đây, triều Trần cần một người khác đứng ra chặn Chế Bồng Nga."
+ },
+ {
+  "n": 210049,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Tháng mười một năm ấy, thượng hoàng giao đạo quân Long Tiệp cho Trần Khát Chân, dòng dõi của Trần Bình Trọng, người từng nói thà làm ma nước Nam.",
+  "hien": "Tháng mười một năm ấy, thượng hoàng giao đạo quân Long Tiệp cho Trần Khát Chân, dòng dõi của Trần Bình Trọng, người từng nói thà làm ma nước Nam."
+ },
+ {
+  "n": 210050,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Trần Khát Chân nhận lệnh, rơi nước mắt lạy tạ rồi lên đường. Thượng hoàng cũng khóc, đứng nhìn theo đoàn quân đi xa.",
+  "hien": "Trần Khát Chân nhận lệnh, rơi nước mắt lạy tạ rồi lên đường. Thượng hoàng cũng khóc, đứng nhìn theo đoàn quân đi xa."
+ },
+ {
+  "n": 210051,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Đến vùng Hoàng Giang, quân của Trần Khát Chân đã gặp quân Chiêm Thành. Nhưng ông không đánh, mà cho quân rút về.",
+  "hien": "Đến vùng Hoàng Giang, quân của Trần Khát Chân đã gặp quân Chiêm Thành. Nhưng ông không đánh, mà cho quân rút về."
+ },
+ {
+  "n": 210052,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Vì sao người vừa nhận lệnh lại rút? Vì ông xem thế đất thấy không đánh được, nên lui về giữ sông Hải Triều, tức sông Luộc ngày nay.",
+  "hien": "Vì sao người vừa nhận lệnh lại rút? Vì ông xem thế đất thấy không đánh được, nên lui về giữ sông Hải Triều, tức sông Luộc ngày nay."
+ },
+ {
+  "n": 210053,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Cũng lúc ấy, một người họ Trần là Nguyên Diệu đem quân sang hàng Chế Bồng Nga, để báo thù cho người anh vừa bị phế ngôi rồi bị giết.",
+  "hien": "Cũng lúc ấy, một người họ Trần là Nguyên Diệu đem quân sang hàng Chế Bồng Nga, để báo thù cho người anh vừa bị phế ngôi rồi bị giết."
+ },
+ {
+  "n": 210054,
+  "chuong": 6,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Chế Bồng Nga có thêm cả một người họ Trần đứng về phía mình. Trên sông Hải Triều, hai bên chờ nhau qua những ngày cuối năm.",
+  "hien": "Chế Bồng Nga có thêm cả một người họ Trần đứng về phía mình. Trên sông Hải Triều, hai bên chờ nhau qua những ngày cuối năm."
+ },
+ {
+  "n": 210055,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Ngày hai mươi ba tháng giêng năm một nghìn ba trăm chín mươi, mặt sông Hải Triều bỗng dày đặc cánh buồm.",
+  "hien": "Ngày hai mươi ba tháng giêng năm một nghìn ba trăm chín mươi, mặt sông Hải Triều bỗng dày đặc cánh buồm."
+ },
+ {
+  "n": 210056,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Chế Bồng Nga cùng Nguyên Diệu dẫn hơn một trăm chiến thuyền tiến tới, để tận mắt xem thế trận của quân nhà Trần.",
+  "hien": "Chế Bồng Nga cùng Nguyên Diệu dẫn hơn một trăm chiến thuyền tiến tới, để tận mắt xem thế trận của quân nhà Trần."
+ },
+ {
+  "n": 210057,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Từ trại quân nhà Trần nhìn ra, thuyền Chiêm Thành nối nhau trên mặt nước, nhưng các thuyền vẫn chưa kịp tụ lại thành hàng.",
+  "hien": "Từ trại quân nhà Trần nhìn ra, thuyền Chiêm Thành nối nhau trên mặt nước, nhưng các thuyền vẫn chưa kịp tụ lại thành hàng."
+ },
+ {
+  "n": 210058,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Đúng lúc ấy, một người từ phía quân Chiêm Thành chạy sang trại quân nhà Trần. Người đó là Ba Lậu Kê, một người hầu nhỏ của Chế Bồng Nga.",
+  "hien": "Đúng lúc ấy, một người từ phía quân Chiêm Thành chạy sang trại quân nhà Trần. Người đó là Ba Lậu Kê, một người hầu nhỏ của Chế Bồng Nga."
+ },
+ {
+  "n": 210059,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Người hầu ấy vừa bị Chế Bồng Nga trách phạt, và vì sợ bị giết nên đã bỏ chủ mà chạy sang với quân nhà Trần.",
+  "hien": "Người hầu ấy vừa bị Chế Bồng Nga trách phạt, và vì sợ bị giết nên đã bỏ chủ mà chạy sang với quân nhà Trần."
+ },
+ {
+  "n": 210060,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Ba Lậu Kê đưa tay chỉ ra mặt sông, đúng vào chiếc chiến thuyền sơn màu xanh, và nói đó là thuyền của vua mình.",
+  "hien": "Ba Lậu Kê đưa tay chỉ ra mặt sông, đúng vào chiếc chiến thuyền sơn màu xanh, và nói đó là thuyền của vua mình."
+ },
+ {
+  "n": 210061,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Lời ấy thật hay giả? Mười ba năm trước ở Đồ Bàn, cũng một người từ phía Chiêm Thành đến báo tin, và một vua Trần đã tin theo mà mất mạng.",
+  "hien": "Lời ấy thật hay giả? Mười ba năm trước ở Đồ Bàn, cũng một người từ phía Chiêm Thành đến báo tin, và một vua Trần đã tin theo mà mất mạng."
+ },
+ {
+  "n": 210062,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Lần này, Trần Khát Chân ra lệnh ngay. Các khẩu hỏa súng, loại súng nòng kim loại nhồi thuốc cháy, cùng nhắm vào chiếc thuyền sơn xanh.",
+  "hien": "Lần này, Trần Khát Chân ra lệnh ngay. Các khẩu hỏa súng, loại súng nòng kim loại nhồi thuốc cháy, cùng nhắm vào chiếc thuyền sơn xanh."
+ },
+ {
+  "n": 210063,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Tiếng súng nổ vang khắp mặt sông, khói phủ mù mịt. Đạn bắn trúng thuyền, xuyên suốt qua lớp ván.",
+  "hien": "Tiếng súng nổ vang khắp mặt sông, khói phủ mù mịt. Đạn bắn trúng thuyền, xuyên suốt qua lớp ván."
+ },
+ {
+  "n": 210064,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Chế Bồng Nga chết ngay trên chiếc thuyền sơn xanh ấy. Người trên thuyền ồn ào kêu khóc giữa dòng sông.",
+  "hien": "Chế Bồng Nga chết ngay trên chiếc thuyền sơn xanh ấy. Người trên thuyền ồn ào kêu khóc giữa dòng sông."
+ },
+ {
+  "n": 210065,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Giữa lúc hỗn loạn, Nguyên Diệu cắt đầu Chế Bồng Nga chạy về phía quân nhà Trần. Nhưng hai người lính Long Tiệp giết luôn Nguyên Diệu, lấy đầu Chế Bồng Nga.",
+  "hien": "Giữa lúc hỗn loạn, Nguyên Diệu cắt đầu Chế Bồng Nga chạy về phía quân nhà Trần. Nhưng hai người lính Long Tiệp giết luôn Nguyên Diệu, lấy đầu Chế Bồng Nga."
+ },
+ {
+  "n": 210066,
+  "chuong": 7,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Hơn một trăm chiến thuyền Chiêm Thành mất người cầm đầu ngay trước mắt. Cả đoàn thuyền tan vỡ, không còn ai giữ nổi hàng ngũ.",
+  "hien": "Hơn một trăm chiến thuyền Chiêm Thành mất người cầm đầu ngay trước mắt. Cả đoàn thuyền tan vỡ, không còn ai giữ nổi hàng ngũ."
+ },
+ {
+  "n": 210067,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Trần Khát Chân cho bỏ đầu Chế Bồng Nga vào một chiếc hòm, đưa thuyền về hành dinh của thượng hoàng ở Bình Than.",
+  "hien": "Trần Khát Chân cho bỏ đầu Chế Bồng Nga vào một chiếc hòm, đưa thuyền về hành dinh của thượng hoàng ở Bình Than."
+ },
+ {
+  "n": 210068,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Khi thuyền tới nơi, đồng hồ đã điểm canh ba. Thượng hoàng đang ngủ say, giật mình tỉnh dậy, tưởng quân Chiêm Thành đã đánh vào doanh trại.",
+  "hien": "Khi thuyền tới nơi, đồng hồ đã điểm canh ba. Thượng hoàng đang ngủ say, giật mình tỉnh dậy, tưởng quân Chiêm Thành đã đánh vào doanh trại."
+ },
+ {
+  "n": 210069,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Đến khi nghe tin đã lấy được đầu Chế Bồng Nga, thượng hoàng mừng lắm, cho gọi các quan tới xem cho kỹ.",
+  "hien": "Đến khi nghe tin đã lấy được đầu Chế Bồng Nga, thượng hoàng mừng lắm, cho gọi các quan tới xem cho kỹ."
+ },
+ {
+  "n": 210070,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Thượng hoàng nói đã cầm cự với Chế Bồng Nga lâu lắm, nay như vua nhà Hán thấy đầu Hạng Vũ, kẻ thù lớn nhất, thiên hạ yên rồi.",
+  "hien": "Thượng hoàng nói đã cầm cự với Chế Bồng Nga lâu lắm, nay như vua nhà Hán thấy đầu Hạng Vũ, kẻ thù lớn nhất, thiên hạ yên rồi."
+ },
+ {
+  "n": 210071,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Bên bờ sông, La Ngai đem số quân còn lại hỏa táng thi hài Chế Bồng Nga, rồi ngày đêm men theo chân núi rút về phương nam.",
+  "hien": "Bên bờ sông, La Ngai đem số quân còn lại hỏa táng thi hài Chế Bồng Nga, rồi ngày đêm men theo chân núi rút về phương nam."
+ },
+ {
+  "n": 210072,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Quân nhà Trần đuổi theo. Mỗi lần bị đuổi kịp, La Ngai cho dừng voi lại, tung tiền bạc của cải ra đường để quân đuổi theo dừng lại nhặt.",
+  "hien": "Quân nhà Trần đuổi theo. Mỗi lần bị đuổi kịp, La Ngai cho dừng voi lại, tung tiền bạc của cải ra đường để quân đuổi theo dừng lại nhặt."
+ },
+ {
+  "n": 210073,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Về tới Chiêm Thành, La Ngai tự lên làm vua. Con trai và em trai của Chế Bồng Nga sợ bị giết, phải chạy sang nước Đại Việt.",
+  "hien": "Về tới Chiêm Thành, La Ngai tự lên làm vua. Con trai và em trai của Chế Bồng Nga sợ bị giết, phải chạy sang nước Đại Việt."
+ },
+ {
+  "n": 210074,
+  "chuong": 8,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Suốt gần hai mươi năm ấy, nước Đại Việt mất một vị vua, kinh thành nhiều lần bốc cháy, mà không đạo quân nào chặn được Chế Bồng Nga.",
+  "hien": "Suốt gần hai mươi năm ấy, nước Đại Việt mất một vị vua, kinh thành nhiều lần bốc cháy, mà không đạo quân nào chặn được Chế Bồng Nga."
+ },
+ {
+  "n": 210075,
+  "chuong": 9,
+  "nhip": "ket",
+  "tone": "story",
+  "text": "Một vua Trần mất mạng vì tin lời hàng giả, Chế Bồng Nga mất mạng bởi cái chỉ tay của người hầu. Cảm ơn bạn đã lắng nghe.",
+  "hien": "Một vua Trần mất mạng vì tin lời hàng giả, Chế Bồng Nga mất mạng bởi cái chỉ tay của người hầu. Cảm ơn bạn đã lắng nghe."
+ }
+]

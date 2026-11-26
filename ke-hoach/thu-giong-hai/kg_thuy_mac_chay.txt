@@ -1,1 +1,1 @@
-lan4 NBTM28S
+lan5 NBTM28U

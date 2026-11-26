@@ -1,9 +1,10 @@
 # Danh sách cảnh tm28 (chủ kênh 26/11): 100% tranh thủy mặc vẽ bằng FLUX, khoảng 40 cảnh chuyển thành clip Veo (chủ kênh làm tay trong Google Flow).
 # Mỗi cảnh: (mã, đoạn, mô tả tranh tiếng Anh, chuyển động Veo hoặc None). Chạy: python3 canh_tm28.py -> NBTM28A/B/C_anh.json + ke-hoach/tm28-veo-flow.md
 import json
-S=("Traditional East Asian ink wash painting on warm aged rice paper, monochrome black ink with faint sepia wash, bold expressive brush strokes, soft ink bleeding, drifting mist, epic heroic mood, "
-   "cinematic wide horizontal composition with all important subjects inside the middle horizontal band, plain empty paper at top and bottom. "
-   "No text, no calligraphy, no letters, no red seal, no stamp, no signature, no border, no frame.")
+S=("Loose sumi-e ink wash painting on warm off-white rice paper, wet black ink with soft grey washes and a faint sepia tint, expressive dry-brush strokes, ink splashes and bleeding edges, mist and empty paper space, "
+   "simplified figures painted with few confident brush strokes, epic heroic mood, cinematic wide 16:9 composition. "
+   "Vietnamese people of the 14th century with East Asian faces, men with hair in a topknot under a black head cloth. "
+   "No text, no calligraphy, no Chinese characters, no letters, no red seal, no stamp, no signature, no border, no frame, no Western clothing, no hats with brims, no glasses.")
 VN="14th century Vietnamese Tran dynasty soldiers in dark knee-length tunics, cloth headbands, round rattan shields and long spears"
 CH="Cham soldiers of Champa with bare chests, white head wraps and dark wrapped sarongs, long spears and tall narrow shields"
 CBN="the Cham king Che Bong Nga, a bearded man with a tall pointed crown and a long dark robe with patterned borders"
@@ -25,8 +26,8 @@ C=[
 ('a07',7,'A royal boat with a canopy crossing a wide river in haste, courtiers rowing hard, an empty city wall on the far bank behind them.',None),
 ('a08',8,'A Vietnamese wooden palace with curved tiled roofs on fire at night, tall flames and thick smoke, '+CH+' running through the courtyard, scrolls and papers burning on the ground.','Flames rise and flicker, smoke billows upward, burning papers drift in the air; small figures run across the courtyard.'),
 ('a09',9,'In a dim hall, a grieving noblewoman in a dark mourning robe kneels and speaks to a seated foreign king, candles burning.',None),
-('a10',10,'An abandoned frontier fortress with broken wooden gates and empty watchtowers, weeds growing, a quiet road running south through the hills.',None),
-('a11',11,'An old Vietnamese scholar-historian in a robe writes with a brush at a low desk by lamplight, stacks of bound books around him.',None),
+('a10',10,'An abandoned Vietnamese frontier post of earth ramparts and a broken wooden palisade gate, weeds growing, a quiet road running south through misty hills.',None),
+('a11',11,'An old Vietnamese scholar-historian with a grey topknot and black head cloth, in a dark robe, kneels at a low desk writing with a brush on a long paper scroll by an oil lamp.',None),
 ('a12',12,'Ranks of '+CH+' training on a field under a hot sun, raising spears together, war elephants standing behind them, '+CBN+' and a general watching from a platform.',None),
 ('a13',13,'A great army of '+CH+' with war elephants advancing over the dunes of a southern coastline, banners flying.','The army marches forward, elephants sway, banners and dust stream in the wind; slow lateral camera move.'),
 ('a14',14,'A Vietnamese frontier garrison camp in a mountain pass near the sea, '+DTB+' standing at the gate with soldiers.',None),
@@ -43,7 +44,7 @@ C=[
 ('a25',25,'Outside a brick city wall, a camp of '+CH+' among palm trees, a lone Cham official in a robe walking out toward a Vietnamese camp.',None),
 ('a26',26,'Inside a Vietnamese command tent, a small Cham official kneels and bows low before '+DT+', who stands and listens eagerly.','The kneeling official bows lower, the king leans forward slightly; lamp flame flickers; camera still.'),
 ('a27',27,'A quiet brick city gate with the gates half open and nobody in sight, deep shadows inside, the feeling of a hidden trap.',None),
-('a28',28,DT+' mounted on a mottled black-and-white horse the colour of mud, sword raised, generals and soldiers ready behind him.','The king raises his sword higher, the horse stamps and turns its head, banners behind flap in the wind.'),
+('a28',28,DT+' mounted on a dappled grey-brown horse whose coat looks like wet mud, sword raised, generals and soldiers ready behind him.','The king raises his sword higher, the horse stamps and turns its head, banners behind flap in the wind.'),
 ('a29',29,DL+' steps forward and bows with folded hands before the mounted king, urging caution.',None),
 ('a30',30,DT+' on horseback points his sword forward and shouts, refusing the advice, soldiers watching.',None),
 ('a31',31,'In front of the troops, two soldiers put a long flowing women\'s robe over the shoulders of '+DL+', who keeps his head lowered in shame, the king turning his back.','The two soldiers slowly drape the robe over the general\'s shoulders, the general lowers his head; the troops stay still; camera still.'),
@@ -52,7 +53,7 @@ C=[
 ('a34',34,'From both sides of a road, '+CH+' charge out of the trees and tall grass with spears, crashing into a column of '+VN+'.','The ambushers rush forward out of the grass, dust and leaves fly, the column turns in confusion. No one is struck, no blood.'),
 ('a34b',34,'Chaotic battle on a dusty road, horses rearing, broken banners falling, '+CH+' surrounding a group of Vietnamese cavalry.','Dust swirls, horses rear, banners fall slowly; camera shakes slightly. No blood.'),
 ('a35',35,'A shattered Vietnamese army fleeing across a plain under a midday sun, abandoned spears and banners on the ground, smoke rising.','Soldiers run away across the plain, smoke drifts, dropped banners flap on the ground.'),
-('a36',36,'A fallen black-robed king in hard armour lies on the battlefield among broken spears, a riderless mottled horse standing nearby, dust settling.','Dust slowly settles, the riderless horse lowers its head, a torn banner flutters; camera slowly pulls back.'),
+('a36',36,'A fallen black-robed king in hard armour lies on the battlefield among broken spears, a riderless dappled grey-brown horse standing nearby, dust settling.','Dust slowly settles, the riderless horse lowers its head, a torn banner flutters; camera slowly pulls back.'),
 ('a37',37,'A Vietnamese prince in a white robe is led away captive by '+CH+', a white horse left behind.',None),
 ('a38',38,DTB+' sitting safely on horseback far behind the battle, watching the smoke on the horizon without moving his troops.',None),
 ('a39',39,'A rice convoy turning back on a mountain road, an official on horseback leading the carts away in a hurry.',None),
@@ -104,6 +105,6 @@ C=[
 def main():
     V=[c for c in C if c[3]]
     for part,(a,b) in zip('ABC',[(0,30),(30,60),(60,len(C))]):
-        json.dump([{'key':k,'nv':[],'w':1024,'h':1024,'prompt':(p+' '+S)} for k,_,p,_ in C[a:b]],open(f'/tmp/pc/ke-hoach/nhan-vat/NBTM28{part}_anh.json','w'),ensure_ascii=False,indent=1)
+        json.dump([{'key':k,'nv':[],'w':1344,'h':768,'prompt':(p+' '+S)} for k,_,p,_ in C[a:b]],open(f'/tmp/pc/ke-hoach/nhan-vat/NBTM28{part}_anh.json','w'),ensure_ascii=False,indent=1)
     print(len(C),'cảnh,',len(V),'clip Veo')
 if __name__=='__main__': main()

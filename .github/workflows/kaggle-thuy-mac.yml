@@ -1,0 +1,32 @@
+name: Vẽ thủy mặc trên Kaggle
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/cach-ho-cai-tri-tap-1]
+    paths: [ke-hoach/thu-giong-hai/kg_thuy_mac_chay.txt]
+permissions:
+  contents: write
+jobs:
+  ve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow kaggle
+      - name: Vẽ trên Kaggle
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python kaggle_thuy_mac.py 2>&1 | tee logs/kg_thuy_mac_run.txt
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add -f logs/kg_thuy_mac.txt logs/kg_thuy_mac_run.txt logs/kaggle_last.txt assets/anh_2d/*_kg 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Vẽ thủy mặc Kaggle [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null || true; sleep 6; done

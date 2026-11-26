@@ -1,0 +1,29 @@
+name: Thử giọng VieNeu-TTS
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/cach-ho-cai-tri-tap-1]
+    paths: [ke-hoach/thu-giong-hai/vieneu_thu.txt]
+permissions:
+  contents: write
+jobs:
+  thu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "vieneu numpy"
+      - run: python vieneu_thu.py
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add -f logs/vieneu_thu.txt assets/thu_giong/vieneu 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"; git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử giọng VieNeu [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null || true; sleep 6; done

@@ -1,2 +1,3 @@
 lan4 tm28
 lan5 tm28
+lan6 tm28

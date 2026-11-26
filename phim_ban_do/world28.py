@@ -1,7 +1,7 @@
 # tm28: ảnh nền Đại Việt – Chiêm Thành, có Hoàng Sa, Trường Sa (kinh độ 92–126,5, vĩ độ 6,5–25) cho map28.png. Cần ne_land.json, ne_lakes.json, ne_rivers.json (Natural Earth 10m, tải từ github.com/nvkelso/natural-earth-vector/geojson) đặt cùng thư mục.
 import json,math,numpy as np
 from PIL import Image,ImageDraw,ImageFilter
-LON0,LON1,LAT0,LAT1=92.0,126.5,6.5,25.0
+LON0,LON1,LAT0,LAT1=87.5,130.5,3.5,25.5
 S=300;KX=S*math.cos(math.radians(23.0))
 RW=int((LON1-LON0)*KX);RH=int((LAT1-LAT0)*S)
 def wp(lon,lat): return ((lon-LON0)*KX,(LAT1-lat)*S)

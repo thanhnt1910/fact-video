@@ -3,9 +3,9 @@ import numpy as np,cv2,math
 from PIL import Image
 Image.MAX_IMAGE_PIXELS=None
 im=np.asarray(Image.open('/tmp/ne/world28.jpg').convert('RGB')).astype(np.float32)
-LON0,LAT1,S=92.0,25.0,300;KX=S*math.cos(math.radians(23))
+LON0,LAT1,S=87.5,25.5,300;KX=S*math.cos(math.radians(23))
 # khung: lon 104.3..114.3, 16:9
-x0=(93.4-LON0)*KX;x1=(124.6-LON0)*KX;w=x1-x0;h=w*9/16;yc=(LAT1-15.6)*S;y0=yc-h/2
+x0=(88.4-LON0)*KX;x1=(129.6-LON0)*KX;w=x1-x0;h=w*9/16;yc=(LAT1-14.4)*S;y0=yc-h/2
 print('crop',x0,y0,w,h,'lat',LAT1-y0/S,LAT1-(y0+h)/S)
 OW,OH=2880,1620
 sc=OW/w

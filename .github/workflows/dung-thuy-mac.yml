@@ -17,8 +17,12 @@ jobs:
           python-version: "3.12"
       - uses: ./.github/actions/cai-dat
         with:
-          pip: "playwright numpy opencv-python-headless pillow"
+          pip: "playwright numpy opencv-python-headless pillow scipy"
       - run: python -m playwright install --with-deps chromium > /dev/null && which ffprobe
+      - uses: actions/cache@v4
+        with:
+          path: /tmp/gen/bd/a
+          key: tai-san-thuy-mac-${{ hashFiles('phim_ban_do/thuymac/assets.html','phim_ban_do/thuymac/assets.py','phim_ban_do/thuymac/mapink*.py','phim_ban_do/world28.py') }}
       - name: Tài sản
         run: |
           M=$(tail -1 ke-hoach/thu-giong-hai/dung_thuy_mac.txt | awk '{print $2}')
@@ -28,15 +32,15 @@ jobs:
           mkdir -p /tmp/ne && cp phim_ban_do/world28.py /tmp/ne/ && cd /tmp/ne && B=https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson
           curl -sSL -o ne_land.json $B/ne_10m_land.geojson; curl -sSL -o ne_lakes.json $B/ne_10m_lakes.geojson; curl -sSL -o ne_rivers.json $B/ne_10m_rivers_lake_centerlines.geojson
           python world28.py > /dev/null; cd /tmp/gen/bd
-          for m in mapink.py mapink_nam.py mapink28.py; do python $m > /dev/null || echo "lỗi $m"; done
-          python assets.py > /dev/null && ls a | wc -l
+          [ -f a/map28.png ] || for m in mapink.py mapink_nam.py mapink28.py; do python $m > /dev/null || echo "lỗi $m"; done
+          if [ ! -f a/map28.png ] || [ $(ls a | wc -l) -lt 1500 ]; then python assets.py > /dev/null; fi; ls a | wc -l
       - name: Âm thanh và dựng
         run: |
-          cd /tmp/gen/bd && python amthanh_$M.py && cp /dev/shm/am_$M.wav /tmp/out/ 2>/dev/null || true
+          cd /tmp/gen/bd && python amthanh_$M.py
           N=$(python -c "import dai_$M as V;print(int(V.TOTAL*24))"); H=$((N/2))
           python dai_$M.py render /tmp/out/p1.mp4 0 $H 24 > /tmp/out/r1.log 2>&1 &
           python dai_$M.py render /tmp/out/p2.mp4 $H $N 24 > /tmp/out/r2.log 2>&1 &
-          wait; tail -3 /tmp/out/r1.log /tmp/out/r2.log
+          wait; tail -n 3 /tmp/out/r1.log /tmp/out/r2.log
           printf "file '/tmp/out/p1.mp4'\nfile '/tmp/out/p2.mp4'\n" > /tmp/out/l.txt
           ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/out/l.txt -i /dev/shm/am_$M.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest /tmp/out/${M}_thuymac_dai.mp4
           ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/out/${M}_thuymac_dai.mp4

@@ -15,12 +15,10 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-25 14:33:16
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK chương c209001 (1 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
-[báo cáo giọng] 0/1 đoạn có nhật ký tạo giọng
-   model: 
-   cach_goi: 
-   voice: 
-   style_id: 
-   1 đoạn không có nhật ký (tạo trước khi có nhật ký): 209001…209001
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/thu_giong_hai_cum.py", line 204, in <module>
+    main()
+  File "/home/runner/work/fact-video/fact-video/thu_giong_hai_cum.py", line 100, in main
+    k = cs[min(range(len(cs)), key=lambda j: abs(acc[j] - nw / 2))]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() iterable argument is empty

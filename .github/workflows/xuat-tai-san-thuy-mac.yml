@@ -4,6 +4,8 @@ on:
   push:
     branches: [claude/cach-ho-cai-tri-tap-1]
     paths: [ke-hoach/thu-giong-hai/xuat_tai_san.txt]
+permissions:
+  contents: write
 jobs:
   xuat:
     runs-on: ubuntu-latest
@@ -23,8 +25,9 @@ jobs:
           for c in coN coV; do [ -f /tmp/gen/bd/a/t26_spr_$c.png ] && cp /tmp/gen/bd/a/t26_spr_$c.png /tmp/gen/bd/a/t27_spr_$c.png; done
           ls /tmp/gen/bd/a | wc -l; du -sh /tmp/gen/bd/a
           tar -C /tmp/gen/bd -czf /tmp/a.tgz a
-      - uses: actions/upload-artifact@v4
-        with:
-          name: tai-san-thuy-mac
-          path: /tmp/a.tgz
-          retention-days: 7
+      - name: Đẩy lên nhánh riêng tai-san-thuy-mac (chia phần dưới 90 MB)
+        run: |
+          mkdir /tmp/ts && cd /tmp/ts && split -b 85m -d /tmp/a.tgz a.tgz.part && ls -la
+          git init -q && git checkout -q -b tai-san-thuy-mac && git add . 
+          git -c user.name=fact-video-bot -c user.email=actions@users.noreply.github.com commit -q -m "Tài sản thủy mặc $(date +%F)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" tai-san-thuy-mac

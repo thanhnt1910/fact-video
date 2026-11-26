@@ -1,6 +1,6 @@
 # tm28 Chế Bồng Nga: 42 clip Veo làm trong Google Flow
 
-Chủ kênh chọn làm tay trong Flow (26/11). Ảnh nguồn gửi kèm trong `tm28_veo_nguon.zip`: mỗi clip một ảnh 1920×1080, tên trùng mã clip.
+Chủ kênh chọn làm tay trong Flow (26/11). Ảnh nguồn gửi kèm trong `tm28_veo_nguon.zip` (tranh được chọn cho từng cảnh ghi ở `ke-hoach/anh/tm28_chon.json`): mỗi clip một ảnh 1920×1080, tên trùng mã clip.
 
 ## Cách làm mỗi clip
 1. Flow → **Frames to Video**, tải ảnh `<mã>.jpg` làm khung đầu.

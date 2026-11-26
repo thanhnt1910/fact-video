@@ -1,0 +1,48 @@
+name: Dựng video thủy mặc (code) trên GitHub
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/cach-ho-cai-tri-tap-1]
+    paths: [ke-hoach/thu-giong-hai/dung_thuy_mac.txt]
+permissions:
+  contents: write
+jobs:
+  dung:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          sudo apt-get install -y -qq ffmpeg > /dev/null || true
+          python -m pip install -q playwright numpy opencv-python-headless pillow && python -m playwright install --with-deps chromium > /dev/null
+      - name: Tài sản
+        run: |
+          M=$(tail -1 ke-hoach/thu-giong-hai/dung_thuy_mac.txt | awk '{print $2}')
+          echo "M=$M" >> $GITHUB_ENV
+          sudo ln -sfn $GITHUB_WORKSPACE /tmp/pc
+          mkdir -p /tmp/gen/bd/a /tmp/out && cp -r phim_ban_do/thuymac/* /tmp/gen/bd/ && cp assets/fonts/Lora-Variable.ttf assets/logo/nguoi-gac-su.png /tmp/gen/bd/a/
+          mkdir -p /tmp/ne && cp phim_ban_do/world28.py /tmp/ne/ && cd /tmp/ne && B=https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson
+          curl -sSL -o ne_land.json $B/ne_10m_land.geojson; curl -sSL -o ne_lakes.json $B/ne_10m_lakes.geojson; curl -sSL -o ne_rivers.json $B/ne_10m_rivers_lake_centerlines.geojson
+          python world28.py > /dev/null; cd /tmp/gen/bd
+          for m in mapink.py mapink_nam.py mapink28.py; do python $m > /dev/null || echo "lỗi $m"; done
+          python assets.py > /dev/null && ls a | wc -l
+      - name: Âm thanh và dựng
+        run: |
+          cd /tmp/gen/bd && python amthanh_$M.py && cp /dev/shm/am_$M.wav /tmp/out/ 2>/dev/null || true
+          N=$(python -c "import dai_$M as V;print(int(V.TOTAL*24))"); H=$((N/2))
+          python dai_$M.py render /tmp/out/p1.mp4 0 $H 24 > /tmp/out/r1.log 2>&1 &
+          python dai_$M.py render /tmp/out/p2.mp4 $H $N 24 > /tmp/out/r2.log 2>&1 &
+          wait; tail -3 /tmp/out/r1.log /tmp/out/r2.log
+          printf "file '/tmp/out/p1.mp4'\nfile '/tmp/out/p2.mp4'\n" > /tmp/out/l.txt
+          ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/out/l.txt -i /dev/shm/am_$M.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest /tmp/out/${M}_thuymac_dai.mp4
+          ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/out/${M}_thuymac_dai.mp4
+          python bia_$M.py
+      - name: Đẩy kết quả lên nhánh video-thuy-mac
+        run: |
+          mkdir /tmp/v && cd /tmp/v && split -b 85m -d /tmp/out/${M}_thuymac_dai.mp4 ${M}_thuymac_dai.mp4.part && cp /tmp/out/bia_$M* . && ls -la
+          git init -q && git checkout -q -b video-thuy-mac && git add .
+          git -c user.name=fact-video-bot -c user.email=actions@users.noreply.github.com commit -q -m "Video $M"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" video-thuy-mac

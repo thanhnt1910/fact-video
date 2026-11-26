@@ -1,6 +1,6 @@
-     🖥️  Gửi 25 tranh sang Kaggle (GPU miễn phí)
+     🖥️  Gửi 6 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️  14.2 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (14 phút)
-     🖥️  Nhận về 25/25 tranh từ Kaggle
-25/25
+     🖥️   6.7 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (7 phút)
+     🖥️  Nhận về 6/6 tranh từ Kaggle
+6/6

@@ -2587,17 +2587,23 @@ function rigpart23(key,part){const o=P23[key]||{},[W,H,P]=RIG23[part.startsWith(
   else if(mu=='non'){el(k,'path',{d:'M-48 -232 L-2 -290 L44 -232 Q-2 -242 -48 -232Z',fill:'#c8b078',stroke:INK,'stroke-width':3});
    for(let i=0;i<4;i++)el(k,'path',{d:`M${-40+i*9} ${-240-i*12} Q-2 ${-250-i*12} ${36-i*9} ${-240-i*12}`,stroke:'#8a7040','stroke-width':1.4,fill:'none',opacity:.7});
    el(k,'path',{d:'M-14 -236 Q-10 -214 4 -210',stroke:'#6a5030','stroke-width':1.6,fill:'none'})}
+  else if(mu=='thap'){const G='#c9a24a';el(k,'path',{d:'M-24 -236 Q-2 -246 20 -236 L18 -246 Q-2 -254 -22 -246Z',fill:G,stroke:INK,'stroke-width':2.6});
+   for(let i=0;i<4;i++){const w=20-i*4.5,y=-248-i*13;el(k,'path',{d:`M${-2-w} ${y} L${-2-w+3} ${y-13} L${-2+w-3} ${y-13} L${-2+w} ${y}Z`,fill:G,stroke:INK,'stroke-width':2.2});
+    el(k,'path',{d:`M${-2-w+2} ${y-4} L${-2+w-2} ${y-4}`,stroke:'#7a5a1e','stroke-width':1.4})}
+   el(k,'path',{d:'M-6 -300 L-2 -322 L2 -300Z',fill:G,stroke:INK,'stroke-width':2});el(k,'circle',{cx:-2,cy:-242,r:3,fill:'#a8281c'})}
   else if(mu=='malo'){el(k,'ellipse',{cx:-2,cy:-240,rx:36,ry:7,fill:'#6a5a3a',stroke:INK,'stroke-width':3});
    el(k,'path',{d:'M-22 -242 Q-20 -264 -2 -266 Q16 -264 18 -242Z',fill:'#7e6c48',stroke:INK,'stroke-width':3});
    el(k,'path',{d:'M-20 -250 Q-2 -256 16 -250',stroke:'#c9a45a','stroke-width':2.4,fill:'none'});el(k,'circle',{cx:-2,cy:-268,r:4,fill:'#a8281c',stroke:INK,'stroke-width':1.6})}
   else{el(k,'path',{d:'M-20 -236 Q-20 -258 0 -258 Q16 -256 16 -240 Q0 -248 -20 -236Z',fill:INK});el(k,'circle',{cx:-14,cy:-254,r:8,fill:INK})}}
 }
 // vũ khí dùng chung, điểm khớp ở tay (W/2,P)
-const W23={dao:[120,170,140],giao:[60,330,250],daocong:[120,170,140],cung:[140,220,110],no:[150,90,45],van:[200,120,60],moc:[70,340,250]};
+const W23={sung:[60,330,250],dao:[120,170,140],giao:[60,330,250],daocong:[120,170,140],cung:[140,220,110],no:[150,90,45],van:[200,120,60],moc:[70,340,250]};
 function vk23(t){const [W,H,P]=W23[t];const s=setup(W,H);S.innerHTML+=DEFS_INKF;let k=el(el(s,'g',{filter:'url(#inkf)'}),'g',{transform:`translate(${W/2},${P}) scale(1.1)`});
  if(t=='dao'){el(k,'path',{d:'M-2 -4 L2 -112 L8 -104 L6 -2Z',fill:'#d8d2c4',stroke:INK,'stroke-width':2.4});el(k,'line',{x1:-10,y1:-6,x2:14,y2:-6,stroke:INK,'stroke-width':5});el(k,'line',{x1:2,y1:-4,x2:2,y2:14,stroke:'#4a3a26','stroke-width':6,'stroke-linecap':'round'})}
  if(t=='daocong'){el(k,'path',{d:'M-2 -4 Q4 -60 26 -108 Q34 -112 30 -100 Q18 -56 10 -2Z',fill:'#d8d2c4',stroke:INK,'stroke-width':2.6});el(k,'line',{x1:-8,y1:14,x2:6,y2:-10,stroke:INK,'stroke-width':7,'stroke-linecap':'round'})}
  if(t=='giao'){el(k,'line',{x1:0,y1:70,x2:0,y2:-170,stroke:'#4a3a26','stroke-width':4.5});el(k,'path',{d:'M0 -196 l7 26 l-14 0Z',fill:INK});el(k,'path',{d:'M-5 -168 q-6 10 -2 18 M5 -168 q6 10 2 18',stroke:'#b0281c','stroke-width':3,fill:'none'})}
+ if(t=='sung'){el(k,'line',{x1:0,y1:70,x2:0,y2:-120,stroke:'#4a3a26','stroke-width':5});el(k,'path',{d:'M-8 -118 L-6 -196 L6 -196 L8 -118Z',fill:'#8a6a34',stroke:INK,'stroke-width':2.6});
+  for(let i=0;i<3;i++)el(k,'line',{x1:-8,y1:-130-i*24,x2:8,y2:-130-i*24,stroke:INK,'stroke-width':2.4});el(k,'circle',{cx:0,cy:-198,r:5,fill:INK})}
  if(t=='moc'){el(k,'line',{x1:0,y1:70,x2:0,y2:-170,stroke:'#3a2a1a','stroke-width':4.5});el(k,'path',{d:'M0 -196 l6 26 l-12 0Z M2 -176 q14 -2 16 -14 l-4 -2 q-2 8 -12 10Z',fill:INK})}
  if(t=='cung'){el(k,'path',{d:'M-6 -90 Q40 0 -6 90',stroke:'#4a3220','stroke-width':6,fill:'none'});el(k,'line',{x1:-6,y1:-90,x2:-6,y2:90,stroke:INK,'stroke-width':1.4})}
  if(t=='no'){el(k,'rect',{x:-10,y:-6,width:110,height:10,fill:'#5a4028',stroke:INK,'stroke-width':2});el(k,'path',{d:'M84 -34 Q96 0 84 34',stroke:'#4a3220','stroke-width':6,fill:'none'});el(k,'line',{x1:84,y1:-34,x2:84,y2:34,stroke:INK,'stroke-width':1.4})}
@@ -3065,5 +3071,39 @@ const P27={
 Object.assign(P23,P27);
 for(const key of Object.keys(P27)){for(const part of Object.keys(RIG23))A[`t27n_r_${key}_${part}`]=()=>rigpart23(key,part);
  for(const m of ['S','G','V'])A[`t27n_r_${key}_head${m}`]=()=>rigpart23(key,'head'+m)}
+
+// ===================== tm28 Chế Bồng Nga (26/11/2026) =====================
+function thuyenxanh(){const s=setup(820,380);S.innerHTML+=DEFS_INKF;seed=2820;const k=el(el(s,'g',{filter:'url(#inkf)'}),'g',{});const X='#5f8c76',X2='#7aa48c';
+ el(k,'path',{d:'M20 300 Q40 352 110 360 L700 360 Q780 348 800 290 L720 306 L90 306Z',fill:X,stroke:INK,'stroke-width':4});
+ for(let i=0;i<3;i++)el(k,'path',{d:`M${50+i*8} ${318+i*12} Q410 ${330+i*10} ${770-i*10} ${314+i*10}`,stroke:INK,'stroke-width':1.6,fill:'none',opacity:.4});
+ el(k,'path',{d:'M20 300 Q4 250 30 214 Q40 240 60 300Z M800 290 Q822 236 796 200 Q786 236 772 296Z',fill:X,stroke:INK,'stroke-width':3.5});
+ el(k,'rect',{x:250,y:170,width:300,height:136,fill:X2,stroke:INK,'stroke-width':4});
+ for(let i=0;i<5;i++)el(k,'rect',{x:266+i*56,y:196,width:34,height:60,fill:'#2a3a30',opacity:.85});
+ el(k,'path',{d:'M220 176 Q400 120 580 176 L560 150 Q400 100 240 150Z',fill:'#3a4a40',stroke:INK,'stroke-width':4});
+ el(k,'path',{d:'M290 150 Q400 70 510 150 L490 128 Q400 70 310 128Z',fill:'#4a5a4c',stroke:INK,'stroke-width':3});
+ el(k,'rect',{x:690,y:40,width:8,height:266,fill:'#3a2a1c'});el(k,'path',{d:'M698 50 Q760 80 776 210 L698 220Z',fill:'#c8b890',stroke:INK,'stroke-width':3});
+ for(let i=1;i<6;i++)el(k,'line',{x1:698,y1:50+i*30,x2:716+i*12,y2:54+i*31,stroke:INK,'stroke-width':1.6,opacity:.5});
+ for(let i=0;i<14;i++)el(k,'line',{x1:90+i*44,y1:330,x2:68+i*44,y2:378,stroke:INK,'stroke-width':4,'stroke-linecap':'round'})}
+A.t28n_thuyenxanh=()=>thuyenxanh();
+const P28={
+ cbn:{da:'#a8805c',ao:'#7a2a2a',quan:'#3a1e18',mu:'thap',dai:'#c9a24a',rau:1},
+ lng:{da:'#a27c58',ao:'#5a4a34',quan:'#3a2418',mu:'khan',khan:'#ece6d6',dai:'#c9a24a',giap:1,rau:1},
+ blk:{da:'#b08a64',ao:'#d8cdb0',quan:'#8a7a5a',mu:'khan',khan:'#ece6d6',dai:'#8a7a5a'},
+ mbm:{da:'#a8825e',ao:'#e4dcc6',quan:'#7a6a50',mu:'khan',khan:'#ece6d6',dai:'#c9a24a'},
+ c1:{da:'#a8805c',ao:'#a8805c',quan:'#5a2a24',mu:'khan',khan:'#ece6d6',dai:'#3a2418'},
+ c2:{da:'#9e7852',ao:'#9e7852',quan:'#3a3430',mu:'khan',khan:'#e0d8c4',dai:'#5a2a24'},
+ c3:{da:'#b08860',ao:'#b08860',quan:'#6a3a24',mu:'khan',khan:'#ece6d6',dai:'#2a2420'},
+ dt:{da:'#dcc3a0',ao:'#1e1e22',quan:'#2a2a2e',mu:'vua',dai:'#c9a45a',giap:1,rau:1},
+ dl:{da:'#d0b08a',ao:'#5a3e2a',quan:'#2a2018',mu:'khan',khan:'#1a1a1e',dai:'#b0281c',giap:1,rau:1},
+ dtb:{da:'#dcc3a0',ao:'#4a6a52',quan:'#2a3a2e',mu:'quan',dai:'#c8c8c8',rau:1},
+ nt:{da:'#e0c8a8',ao:'#d8cfae',quan:'#8a7a5a',mu:'vua',dai:'#c9a45a',rau:2},
+ nmh:{da:'#e3cba8',ao:'#4a6a8a',quan:'#2a3a4a',mu:'khan',khan:'#1e1e22',dai:'#2a2a2a'},
+ tkc:{da:'#d4b48c',ao:'#2a3448',quan:'#22262c',mu:'khan',khan:'#1a1a1e',dai:'#b0281c',giap:1,rau:1},
+ lql:{da:'#dcc3a0',ao:'#5a5a3a',quan:'#2e2e22',mu:'quan',dai:'#c8c8c8',rau:1},
+ nd:{da:'#dcc3a0',ao:'#5a4a6a',quan:'#2a2430',mu:'quan',dai:'#c8c8c8'},
+ ngv:{da:'#dcc3a0',ao:'#e8e2d0',quan:'#8a8070',mu:'khan',khan:'#ece6d6',dai:'#c8c8c8'}};
+Object.assign(P23,P28);
+for(const key of Object.keys(P28)){for(const part of Object.keys(RIG23))A[`t28n_r_${key}_${part}`]=()=>rigpart23(key,part);
+ for(const m of ['S','G','V'])A[`t28n_r_${key}_head${m}`]=()=>rigpart23(key,'head'+m)}
 
 </script></body></html>

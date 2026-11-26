@@ -3198,5 +3198,21 @@
 "style_var": "C_chuong",
 "thoi_diem": "2026-11-26 06:38:27",
 "du_phong": false
+},
+"cc210001": {
+"nhom": "c210001-c210001",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-26 15:13:20",
+"du_phong": false
+},
+"cc210042": {
+"nhom": "c210042-c210042",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-26 15:14:02",
+"du_phong": false
 }
 }

@@ -27,7 +27,7 @@ Chữ lớn trên cùng: "THÁI TỬ TRONG ỐNG ĐỒNG", "CHUYỆN GÌ ĐÃ X�
 
 Bạn nói đúng về Chân Kim. Theo Nguyên sử, Hốt Tất Liệt (Nguyên Thế Tổ) lập Chân Kim làm thái tử năm 1273, ông mất ngày 5 tháng 1 năm 1286. Con trai ông là Thiết Mộc Nhĩ lên ngôi năm 1294, tức Nguyên Thành Tông.
 
-Thoát Hoan là một người con khác của Hốt Tất Liệt, được phong Trấn Nam Vương, chưa từng là thái tử. Đại Việt sử ký toàn thư (bản dịch) vẫn viết "thái tử Thoát Hoan" nhưng cùng một đoạn lại ghi rõ chức "Trấn Nam Vương". Chữ "thái tử" ở đó chỉ nên hiểu là con của vua.
+Thoát Hoan là một người con khác của Hốt Tất Liệt, được phong Trấn Nam Vương, chưa từng là thái tử. Trong bản dịch Đại Việt sử ký toàn thư có hai chỗ viết "thái tử" khi nhắc Thoát Hoan, nhưng một trong hai chỗ ghi rõ chức "Trấn Nam Vương" ngay cạnh, còn phần lớn các chỗ khác chỉ gọi tên ông. Chữ "thái tử" ở hai chỗ ấy nên hiểu là con của vua, không phải ngôi thái tử.
 
 Tiêu đề và lời kể của video dùng chữ "thái tử" là chưa chính xác. Cảm ơn bạn đã góp ý, mình đã sửa tiêu đề thành "Hoàng tử nhà Nguyên".
 

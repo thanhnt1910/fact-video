@@ -21,5 +21,5 @@ Chủ kênh duyệt ở bốn cổng, chưa qua cổng thì không sang bước 
 - Không đẩy `main` khi chưa được yêu cầu.
 - Workflow chỉ chạy khi chủ kênh yêu cầu và chỉ đúng video được yêu cầu.
 
-## Chưa quyết (chủ kênh sẽ chốt)
-Đề tài thí điểm, độ dài video (dài 2–3 phút hay dọc ngắn), phong cách hình ảnh, và các công cụ kiểm cho hướng mới.
+## Quy tắc chi tiết
+`quy-tac/kich-ban-va-dung.md` (bản nháp chờ chủ kênh duyệt): chọn đề tài, phiếu hồ sơ, cấu trúc tập, câu chữ, bảng chấm kịch bản, dựng hình, giọng, đo lường. Mục 11 của file đó liệt kê các điều còn chờ chủ kênh chốt.

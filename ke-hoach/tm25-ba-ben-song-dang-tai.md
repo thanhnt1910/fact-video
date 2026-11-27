@@ -23,12 +23,12 @@ Chữ lớn trên cùng: "THÁI TỬ TRONG ỐNG ĐỒNG", "CHUYỆN GÌ ĐÃ X�
 - Nhân vật riêng của tập: Trần Quang Khải áo lam, giáp, mũ trụ đồng; Trần Nhật Duật áo tím nhạt; quân người Tống áo xám trắng, mũ phốc đầu, cung; Trần Quốc Toản áo đỏ tươi; Hà Đặc áo nâu khăn chàm; Toa Đô áo đỏ sẫm, mũ trụ; Thoát Hoan áo vàng kim; Lý Hằng, Lý Quán áo da, mũ trụ. Cảnh đầu Toa Đô dùng hộp gỗ, không vẽ máu.
 - Bộ kiểm cảnh: 39 cảnh, không cảnh tĩnh, không khung trùng, không tranh lặp, không hình mượn.
 
-## Trả lời bình luận "thái tử là Chân Kim" (27/11/2026)
+## Bình luận ghim đính chính (27/11/2026, video đã đăng nên không sửa được nội dung)
 
-Bạn nói đúng về Chân Kim. Theo Nguyên sử, Hốt Tất Liệt (Nguyên Thế Tổ) lập Chân Kim làm thái tử năm 1273, ông mất ngày 5 tháng 1 năm 1286. Con trai ông là Thiết Mộc Nhĩ lên ngôi năm 1294, tức Nguyên Thành Tông.
+Đính chính: trong video này, phần mở đầu, đoạn nói về cái ống đồng và chữ trên màn hình gọi Thoát Hoan là "thái tử nhà Nguyên". Cách gọi đó chưa chính xác.
 
-Thoát Hoan là một người con khác của Hốt Tất Liệt, được phong Trấn Nam Vương, chưa từng là thái tử. Trong bản dịch Đại Việt sử ký toàn thư có hai chỗ viết "thái tử" khi nhắc Thoát Hoan, nhưng một trong hai chỗ ghi rõ chức "Trấn Nam Vương" ngay cạnh, còn phần lớn các chỗ khác chỉ gọi tên ông. Chữ "thái tử" ở hai chỗ ấy nên hiểu là con của vua, không phải ngôi thái tử.
+Thoát Hoan là con trai thứ chín của Hốt Tất Liệt, được phong Trấn Nam Vương năm 1284 (Nguyên sử, quyển 108). Ông chưa từng là thái tử. Thái tử nhà Nguyên vào thời điểm ấy là Chân Kim, người mất đầu năm 1286.
 
-Tiêu đề và lời kể của video dùng chữ "thái tử" là chưa chính xác. Cảm ơn bạn đã góp ý, mình đã sửa tiêu đề thành "Hoàng tử nhà Nguyên".
+Chữ "thái tử" xuất hiện vì bản dịch Đại Việt sử ký toàn thư có chỗ gọi Thoát Hoan như vậy, và mình đã dùng theo mà không đối chiếu chức danh với sử nhà Nguyên. Cảm ơn bạn đã góp ý. Tiêu đề đã được sửa thành "Hoàng tử nhà Nguyên".
 
-Nguồn: Nguyên sử quyển 108, bảng các vương (Thoát Hoan phong Trấn Nam Vương năm 1284); Đại Việt sử ký toàn thư, bản kỷ quyển 5. (Phần Chân Kim và Thiết Mộc Nhĩ: chưa đối chiếu bản Nguyên sử gốc, chỉ qua các trang tổng hợp.)
+(Ghi chú nội bộ: câu "Tiêu đề đã được sửa" chỉ giữ nếu đã đổi tiêu đề trên nền tảng. Phần Chân Kim mới đối chiếu qua trang tổng hợp, chưa mở bản Nguyên sử gốc.)

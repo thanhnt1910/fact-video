@@ -1,4 +1,0 @@
-a68_x: OK
-a68_y: OK
-a69_x: OK
-a69_y: OK

@@ -1,8 +1,0 @@
-KIỂM TRA ẢNH ST1 · video ngắn · 5 ảnh (số thứ tự khớp lưới ảnh anh_ST1_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
-✅ 1 · hook scene_00.jpg
-⚠️ 2 · text scene_01.jpg
-     ⚠️ Ảnh chụp hoàng hôn hiện đại với đường nhựa và cột điện, không phù hợp với bối cảnh lịch sử năm 1944. → Thay bằng ảnh phong cảnh đảo Lubang hoặc ảnh tư liệu thời Thế chiến thứ hai để phù hợp hơn với nội dung kể chuyện.
-✅ 3 · explain scene_02.jpg
-⚠️ 4 · number scene_05.jpg
-     ⚠️ ảnh hơi mờ (độ nét 59)
-✅ 5 · outro scene_06.jpg

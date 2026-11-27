@@ -1,4 +1,0 @@
-CHUYỂN CẢNH TQ1 (video ngắn) · bảng màu: wipeleft, wiperight, hblur, fade
-Thứ tự: cut → cut → cut → cut → cut → cut → cut → hblur → cut → fade → cut → hblur → cut → fade → cut → fadewhite → cut → wipeleft → cut → hblur → cut
-Số lần: cut 14, hblur 3, fade 2, fadewhite 1, wipeleft 1
-✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

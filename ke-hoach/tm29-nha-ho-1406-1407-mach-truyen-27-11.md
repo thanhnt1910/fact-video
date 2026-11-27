@@ -152,7 +152,15 @@ Bản dịch Toàn thư có vài lỗi chữ rõ (năm 1401 ghi nhầm 1410; ng�
 - Hồ Nguyên Trừng chế súng ở nhà Minh (xk4l): ngoài phạm vi 1406–1407.
 - Cải cách tiền giấy, hạn điền, thi cử, lễ tế Giao: không liên quan cuộc chiến.
 
-## Cần chủ kênh quyết
+## Chủ kênh đã quyết ở cổng B (27/11 19:12)
+1. Hook phương án 3.
+2. Nguyễn Công Khôi: có thật trong Toàn thư (Hán văn 方以女色自娛，不為備, một nguồn), đưa vào lời kể với chữ "Toàn thư chép".
+3. Cương mục: tự kiểm bằng Minh thực lục và Toàn thư Hán văn, kết quả ghi ở bản gửi cổng C.
+4. "Trừng được tha": giữ, ghi nguồn Minh thực lục.
+5. Viết chi tiết, có nguồn: lời kể bản 1 dài 83 đoạn.
+Lời kể: `tm29-nha-ho-1406-1407-gui-duyet-27-11.md`.
+
+## Câu hỏi đã gửi ở cổng B (giữ để tra)
 1. Chọn hook (đề xuất phương án 3).
 2. Chi tiết Nguyễn Công Khôi ở Mộc Hoàn: kể "không phòng bị", bỏ lý do (đề xuất bỏ).
 3. Cương mục Chính biên q.12 chưa đọc được. Có chấp nhận kiểm bằng Minh thực lục và Toàn thư Hán văn không, hay anh gửi file Cương mục.

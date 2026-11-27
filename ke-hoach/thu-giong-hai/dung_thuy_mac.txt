@@ -1,6 +1,0 @@
-lan4 tm28
-lan5 tm28
-lan6 tm28
-lan7 tm28
-lan8 tm28
-lan9 tm28

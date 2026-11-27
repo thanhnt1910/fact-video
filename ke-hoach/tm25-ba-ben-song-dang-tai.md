@@ -22,3 +22,13 @@ Chữ lớn trên cùng: "THÁI TỬ TRONG ỐNG ĐỒNG", "CHUYỆN GÌ ĐÃ X�
 - Giọng (25/11): cao độ 119 Hz, độ lên xuống 86 Hz. Nhận dạng giọng thấy một cụm đọc chèn "Quân Nguyên bỏ chạy" ở đoạn 37, đã cắt ở hai khoảng lặng; còn lại đủ mọi câu, kể cả lời cảm ơn cuối.
 - Nhân vật riêng của tập: Trần Quang Khải áo lam, giáp, mũ trụ đồng; Trần Nhật Duật áo tím nhạt; quân người Tống áo xám trắng, mũ phốc đầu, cung; Trần Quốc Toản áo đỏ tươi; Hà Đặc áo nâu khăn chàm; Toa Đô áo đỏ sẫm, mũ trụ; Thoát Hoan áo vàng kim; Lý Hằng, Lý Quán áo da, mũ trụ. Cảnh đầu Toa Đô dùng hộp gỗ, không vẽ máu.
 - Bộ kiểm cảnh: 39 cảnh, không cảnh tĩnh, không khung trùng, không tranh lặp, không hình mượn.
+
+## Trả lời bình luận "thái tử là Chân Kim" (27/11/2026)
+
+Bạn nói đúng về Chân Kim. Theo Nguyên sử, Hốt Tất Liệt (Nguyên Thế Tổ) lập Chân Kim làm thái tử năm 1273, ông mất ngày 5 tháng 1 năm 1286. Con trai ông là Thiết Mộc Nhĩ lên ngôi năm 1294, tức Nguyên Thành Tông.
+
+Thoát Hoan là một người con khác của Hốt Tất Liệt, được phong Trấn Nam Vương, chưa từng là thái tử. Đại Việt sử ký toàn thư (bản dịch) vẫn viết "thái tử Thoát Hoan" nhưng cùng một đoạn lại ghi rõ chức "Trấn Nam Vương". Chữ "thái tử" ở đó chỉ nên hiểu là con của vua.
+
+Tiêu đề và lời kể của video dùng chữ "thái tử" là chưa chính xác. Cảm ơn bạn đã góp ý, mình đã sửa tiêu đề thành "Hoàng tử nhà Nguyên".
+
+Nguồn: Nguyên sử quyển 107 và 114 (Thoát Hoan, Chân Kim); Đại Việt sử ký toàn thư, bản kỷ quyển 5.

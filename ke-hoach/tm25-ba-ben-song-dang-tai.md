@@ -29,6 +29,6 @@ Chữ lớn trên cùng: "THÁI TỬ TRONG ỐNG ĐỒNG", "CHUYỆN GÌ ĐÃ X�
 
 Thoát Hoan là con trai thứ chín của Hốt Tất Liệt, được phong Trấn Nam Vương năm 1284 (Nguyên sử, quyển 108). Ông chưa từng là thái tử. Thái tử nhà Nguyên vào thời điểm ấy là Chân Kim, người mất đầu năm 1286.
 
-Chữ "thái tử" xuất hiện vì bản dịch Đại Việt sử ký toàn thư có chỗ gọi Thoát Hoan như vậy, và mình đã dùng theo mà không đối chiếu chức danh với sử nhà Nguyên. Cảm ơn bạn đã góp ý. Tiêu đề đã được sửa thành "Hoàng tử nhà Nguyên".
+Mình chưa đối chiếu kỹ chức danh này khi làm video. Cảm ơn bạn đã góp ý. Tiêu đề đã được sửa thành "Hoàng tử nhà Nguyên".
 
 (Ghi chú nội bộ: câu "Tiêu đề đã được sửa" chỉ giữ nếu đã đổi tiêu đề trên nền tảng. Phần Chân Kim mới đối chiếu qua trang tổng hợp, chưa mở bản Nguyên sử gốc.)

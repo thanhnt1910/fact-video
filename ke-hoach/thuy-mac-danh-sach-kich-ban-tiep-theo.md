@@ -1,4 +1,4 @@
-# Thủy mặc: danh sách kịch bản tiếp theo, theo trình tự lịch sử (lập 23/11/2026)
+# Thủy mặc: danh sách kịch bản tiếp theo, theo trình tự lịch sử (lập 23/11/2026, đối chiếu lại với origin 27/11/2026)
 
 Dùng chung cho mọi phiên. Mỗi lần chọn chủ đề thủy mặc mới: mở file này, chọn theo thứ tự, gửi chủ kênh duyệt cổng A (`CLAUDE.md` mục 4), rồi cập nhật cột "Trạng thái" cùng lần. Các mục "đề xuất" do Claude lập từ hiểu biết sẵn có, CHƯA tra nguồn, chưa đối chiếu hết danh sách chủ đề đã bỏ. Cột năm chỉ để xếp thứ tự, dữ kiện cứng phải tra xong trước cổng B.
 
@@ -16,9 +16,11 @@ Dùng chung cho mọi phiên. Mỗi lần chọn chủ đề thủy mặc mới:
 | 938 | Bạch Đằng (bd2) | kể cả vụ 937 (đoạn 173007) |
 | 981 | tm2 Lê Hoàn phá Tống | |
 | 1077 | tm3 Như Nguyệt | |
+| 1257 | tm23 Bình Lệ Nguyên | |
 | 1258 | tm4 Đông Bộ Đầu | |
-| 1285 | tm5 Hàm Tử, Chương Dương | chưa mở lại xác nhận năm |
-| 1288 | tm6 Bạch Đằng | |
+| 1285 | tm5 Hàm Tử, Chương Dương; tm24 "Hai chữ trên cánh tay" (Sát Thát); tm25 Ba bên sông | tm5 chưa mở lại xác nhận năm |
+| 1288 | tm6 Bạch Đằng; tm26 Vân Đồn; tm27 Bạch Đằng | |
+| 1371–1390 | tm28 Chế Bồng Nga và chiếc thuyền sơn xanh (Đồ Bàn 1377, Hải Triều 1390) | bản dọc không dựng (chủ kênh 26/11) |
 | 1426–1427 | tm7 Tốt Động, tm8 Chi Lăng | |
 | 1785–1789 | tm9 Rạch Gầm, tm10 Ngọc Hồi | |
 | 1861 | tm14 Nhật Tảo | |
@@ -32,8 +34,8 @@ Mạch 905 đến 938 đã kín (họ Khúc, Dương Đình Nghệ, Kiều Công
 | 1 | 687 | Lý Tự Tiên, Đinh Kiến khởi nghĩa chống Lưu Diên Hựu | BỎ (23/11): chủ kênh bỏ vì ít nguồn | Mục C.1 giữ để tham khảo |
 | 2 | 860–866 | Nam Chiếu chiếm Giao Châu, Cao Biền lấy lại, thành Đại La | BỎ (23/11): chủ kênh bỏ vì ít nguồn | Mục C.2 giữ để tham khảo |
 | 3 | 944–968 | Đinh Bộ Lĩnh dẹp loạn mười hai sứ quân | Qua cổng A (23/11); qua cổng C (23/11 14:54, bản 6); đang đọc giọng và dựng; lời kể: `tm22-dinh-bo-linh-gui-duyet-23-11.md` (mạch: `tm22-dinh-bo-linh-mach-truyen-23-11.md`; đổi góc so với video cũ dbl1) | Đã có `ke-hoach/dinh-bo-linh-dan-y.md` và `dinh-bo-linh-kich-ban.md` (loạt cũ) |
-| 4 | 1075 | Lý Thường Kiệt đánh Ung Châu | Đề xuất | Mở đầu cho tm3 Như Nguyệt |
-| 5 | 1406–1407 | Nhà Hồ thua quân Minh, Hồ Quý Ly bị bắt | Đề xuất | |
+| 4 | 1075 | Lý Thường Kiệt đánh Ung Châu | Đã có kịch bản loạt cũ (`ly-thuong-kiet-kich-ban.md`, duyệt 29/10); chưa làm thủy mặc, chờ chủ kênh quyết (27/11) | Mở đầu cho tm3 Như Nguyệt |
+| 5 | 1406–1407 | Nhà Hồ thua quân Minh (Lãnh Kinh, Mộc Hoàn, Đa Bang), Hồ Quý Ly bị bắt | Gửi cổng A (27/11), chờ duyệt: `tm29-nha-ho-1406-1407-cong-a-27-11.md` | cs1, cs2 (kể sau 1407) và xk4l (Hồ Nguyên Trừng) không kể cuộc chiến |
 | 6 | 1407–1413 | Hậu Trần chống Minh | Đề xuất | Cầu nối nhà Hồ và Lam Sơn |
 | 7 | 1418–1424 | Lam Sơn những năm đầu (Lê Lai cứu chúa 1418) | Đề xuất | Trước tm7 |
 | 8 | 1427 | Hội thề Đông Quan, quân Minh rút | Đề xuất | Kết cho tm7, tm8 |

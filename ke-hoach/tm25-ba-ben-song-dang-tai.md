@@ -3,7 +3,7 @@
 Video: `tm25_thuymac_dai.mp4` (16:9, khoảng 7 phút 6 giây, giọng Charon đọc cả kịch bản một lần (25/11, đã cắt một cụm đọc chèn ở đoạn 37), kịch bản bản 1, 39 cảnh). Dựng theo cách mới: mỗi câu một góc máy, nhân vật múa rối có nét mặt sợ, giận, reo và tư thế hoảng chạy, xông lên, ngã; cảnh tiến quân dùng bản đồ. Bản dọc: `tm25_thuymac_doc.mp4` (9:16, khoảng 65 giây, cắt từ đoạn 1–4, 13–14 và 46–47, kết bằng lời mời xem bản đầy đủ). Ảnh bìa: `assets/bia/TM25/bia_tm25.png` và `bia_tm25_youtube.jpg`, chữ lớn "TRỐN TRONG ỐNG ĐỒNG", có logo đúng cỡ và vị trí.
 
 ## Tiêu đề YouTube
-**Chọn:** Thái tử nhà Nguyên phải chui vào ống đồng mà trốn về nước | Hàm Tử, Chương Dương, Tây Kết năm 1285
+**Chọn:** Hoàng tử nhà Nguyên phải chui vào ống đồng mà trốn về nước | Hàm Tử, Chương Dương, Tây Kết năm 1285
 
 Phương án khác: Hai gọng kìm của đế quốc Mông Cổ không bao giờ gặp được nhau | Ba bến sông năm 1285
 

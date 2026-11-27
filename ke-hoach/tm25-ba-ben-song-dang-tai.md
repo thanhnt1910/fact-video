@@ -31,4 +31,4 @@ Thoát Hoan là một người con khác của Hốt Tất Liệt, được phon
 
 Tiêu đề và lời kể của video dùng chữ "thái tử" là chưa chính xác. Cảm ơn bạn đã góp ý, mình đã sửa tiêu đề thành "Hoàng tử nhà Nguyên".
 
-Nguồn: Nguyên sử quyển 107 và 114 (Thoát Hoan, Chân Kim); Đại Việt sử ký toàn thư, bản kỷ quyển 5.
+Nguồn: Nguyên sử quyển 108, bảng các vương (Thoát Hoan phong Trấn Nam Vương năm 1284); Đại Việt sử ký toàn thư, bản kỷ quyển 5. (Phần Chân Kim và Thiết Mộc Nhĩ: chưa đối chiếu bản Nguyên sử gốc, chỉ qua các trang tổng hợp.)

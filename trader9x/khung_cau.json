@@ -1,0 +1,165 @@
+{
+ "ma": "KHUNG",
+ "giong_chinh": "Iapetus",
+ "giong_thu": [],
+ "cau_thu": [],
+ "style": "Native Vietnamese MALE narrator, Northern accent (Hanoi), for a gold trading education video on a financial channel. Confident, calm and clear like a professional trading mentor; medium pace, crisp diction; say every number slowly and clearly. Read timeframes the way Vietnamese traders say them: 'H một' as 'hát một', 'H bốn' as 'hát bốn', 'D một' as 'đê một'. Say timeframe and Trader chín X naturally. Read exactly as written. Not salesy, not robotic, not news-anchor flat.",
+ "doan": [
+  {
+   "id": "k_intro",
+   "text": "Khung thời gian trong trading vàng. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ."
+  },
+  {
+   "id": "card1_1",
+   "text": "Phần một. Định nghĩa."
+  },
+  {
+   "id": "k_p1_1",
+   "text": "Khung thời gian, hay timeframe, là khoảng thời gian mà mỗi cây nến gói gọn bên trong."
+  },
+  {
+   "id": "k_p1_2",
+   "text": "Ngày hai mươi lăm tháng mười một trên khung D một chỉ là một cây nến, râu dưới rất dài, đóng cửa gần giá mở."
+  },
+  {
+   "id": "k_p1_3",
+   "text": "Tách ra khung H bốn, ta có sáu cây nến, mỗi cây bốn giờ, thấy rõ cú rơi rồi bật lên."
+  },
+  {
+   "id": "k_p1_4",
+   "text": "Xuống khung H một là hai mươi bốn cây nến. Thấy từng nhịp, với đáy ba nghìn bốn trăm hai mươi sáu lúc hai mươi hai giờ."
+  },
+  {
+   "id": "card2n",
+   "text": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng."
+  },
+  {
+   "id": "k_t1",
+   "text": "Thứ nhất là khung H một, mỗi nến là một giờ, hai mươi bốn nến một ngày."
+  },
+  {
+   "id": "k_t1b",
+   "text": "Khung này chi tiết nhất, nhưng cũng nhiễu nhất."
+  },
+  {
+   "id": "k_h1a",
+   "text": "Ngày hai mươi bảy tháng mười một, trên H một, vàng bật từ ba nghìn năm trăm năm mươi sáu lên ba nghìn sáu trăm tám mươi lăm."
+  },
+  {
+   "id": "k_h1a2",
+   "text": "Cú tăng đó chỉ diễn ra trong khoảng tám giờ."
+  },
+  {
+   "id": "k_h1b",
+   "text": "Khung H một hợp để canh điểm vào cho chính xác, nhưng dễ gặp tín hiệu giả vì nhiều nhiễu."
+  },
+  {
+   "id": "k_t2",
+   "text": "Thứ hai là khung H bốn, mỗi nến là bốn giờ, sáu nến một ngày."
+  },
+  {
+   "id": "k_t2b",
+   "text": "Đây là khung cân bằng giữa chi tiết và bức tranh chung."
+  },
+  {
+   "id": "k_h4a",
+   "text": "Trên H bốn, ngày hai mươi tháng mười một vàng xuống đáy ba nghìn năm trăm linh bốn."
+  },
+  {
+   "id": "k_h4a2",
+   "text": "Ngày hai mươi lăm, giá thủng xuống ba nghìn bốn trăm hai mươi sáu, rồi bật lên mạnh."
+  },
+  {
+   "id": "k_h4b",
+   "text": "Khung H bốn dùng để xác định vùng giá quan trọng và cấu trúc ngắn hạn."
+  },
+  {
+   "id": "k_t3",
+   "text": "Thứ ba là khung D một, mỗi nến là một ngày. Khung này cho thấy xu hướng chính và các vùng giá lớn."
+  },
+  {
+   "id": "k_d1a",
+   "text": "Trên D một, các đỉnh thấp dần, từ bốn nghìn hai trăm mười bảy, xuống bốn nghìn một trăm bốn mươi chín, rồi ba nghìn sáu trăm tám mươi chín."
+  },
+  {
+   "id": "k_d1a2",
+   "text": "Xu hướng chính là giảm."
+  },
+  {
+   "id": "k_d1b",
+   "text": "Khung D một trả lời câu hỏi quan trọng nhất. Thị trường đang đi về hướng nào."
+  },
+  {
+   "id": "k_t4",
+   "text": "Thứ tư là xung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi."
+  },
+  {
+   "id": "k_c1",
+   "text": "Ngày hai mươi bảy, khung H một tăng mạnh. Nhưng trên D một, đó chỉ là một nhịp hồi trong xu hướng giảm."
+  },
+  {
+   "id": "k_t5",
+   "text": "Thứ năm là phân tích đa khung, đi từ khung lớn xuống khung nhỏ, theo thứ tự D một, H bốn, rồi H một."
+  },
+  {
+   "id": "k_td1",
+   "text": "Bước một, trên D một, xu hướng chính đang giảm, đỉnh sau thấp hơn đỉnh trước."
+  },
+  {
+   "id": "k_td2",
+   "text": "Bước hai, trên H bốn, vùng cản từ ba nghìn sáu trăm tám mươi mốt đến ba nghìn sáu trăm tám mươi chín, nơi có các đỉnh gần đây."
+  },
+  {
+   "id": "k_td3",
+   "text": "Bước ba, trên H một, ngày hai mươi bảy giá chạm vùng cản rồi bị đẩy xuống ba nghìn sáu trăm mười bảy."
+  },
+  {
+   "id": "k_td4",
+   "text": "Ví dụ minh họa, vào lệnh khi H một xác nhận, quanh ba nghìn sáu trăm bốn mươi sáu."
+  },
+  {
+   "id": "k_td4b",
+   "text": "Đặt cắt lỗ trên vùng cản, khoảng ba nghìn sáu trăm chín mươi lăm."
+  },
+  {
+   "id": "k_now1",
+   "text": "Hiện tại, phiên ngày hai mươi bảy tháng mười một đóng cửa quanh ba nghìn sáu trăm năm mươi tư đô."
+  },
+  {
+   "id": "k_now2",
+   "text": "Khung D một vẫn giảm, H bốn đang hồi từ đáy, còn H một giằng co dưới vùng cản."
+  },
+  {
+   "id": "k_now3",
+   "text": "Các khung chưa đồng thuận. Hãy chờ tín hiệu xác nhận."
+  },
+  {
+   "id": "k_c1x",
+   "text": "Năm nguyên tắc khi dùng khung thời gian. Một, bắt đầu từ khung lớn để biết xu hướng."
+  },
+  {
+   "id": "k_c2",
+   "text": "Hai, dùng khung H bốn để tìm vùng giá quan trọng."
+  },
+  {
+   "id": "k_c3",
+   "text": "Ba, dùng khung H một để canh điểm vào, không dùng để đoán xu hướng."
+  },
+  {
+   "id": "k_c4",
+   "text": "Bốn, khung nhỏ đi ngược khung lớn thường chỉ là nhịp hồi."
+  },
+  {
+   "id": "check_5",
+   "text": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss."
+  },
+  {
+   "id": "k_c6",
+   "text": "Không có khung nào đúng nhất. Quan trọng là các khung đồng thuận với nhau."
+  },
+  {
+   "id": "k_outro",
+   "text": "Tập sau là hỗ trợ và kháng cự. Theo dõi Trader chín X để không bỏ lỡ."
+  }
+ ]
+}

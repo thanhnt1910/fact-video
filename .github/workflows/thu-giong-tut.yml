@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p logs output
           set -o pipefail
-          python thu_giong_tut_gemini.py 2>&1 | tee logs/gemini_tut.txt
+          python thu_giong_tut_gemini.py epic 2>&1 | tee logs/gemini_tut.txt
       - name: Lưu kết quả
         if: always()
         run: |
@@ -47,6 +47,7 @@ jobs:
           git commit -q -m "Thử giọng Gemini Tutankhamun [skip ci]"
           for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null || true; sleep 6; done
   vieneu:
+    if: false
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:

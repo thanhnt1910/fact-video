@@ -11,18 +11,26 @@ text = "\n\n".join(gemini_tts.clean_text(d, J["pron"])[0] for d in J["doan"])
 style = (gemini_tts.BASE_STYLE + " This is a calm, precise 'fact-checker' narrator investigating a famous legend: "
          "steady and curious, not theatrical. Pause about half a second before the reveal that starts with 'Kết quả'. "
          "Leave a short beat between paragraphs.")
+EPIC = len(sys.argv) > 1 and sys.argv[1] == "epic"
+if EPIC:
+    style = (gemini_tts.BASE_STYLE + " Deep, resonant, solemn documentary narrator: steady, authoritative and weighty, "
+             "telling a significant historical finding. Low register, measured pace, meaningful pauses; "
+             "grand but controlled, never shouting, never theatrical or sensational. "
+             "Pause about half a second before the reveal that starts with 'Kết quả'.")
+voices = J["gemini_epic"] if EPIC else J["gemini"]
+pre = "gemini-epic-" if EPIC else "gemini-"
 print("TEXT:", text, flush=True)
 done = []
-for v in J["gemini"]:
+for v in voices:
     print(f"== {v} ==", flush=True)
     try:
         wav = gemini_tts.synth(text, style, v)
     except Exception as e:
         print(f"LỖI {v}: {e}", flush=True); continue
     raw = work / f"{v}.wav"; raw.write_bytes(wav)
-    mp3 = out / f"gemini-{v.lower()}.mp3"
+    mp3 = out / f"{pre}{v.lower()}.mp3"
     mv.run_ffmpeg(["-i", str(raw), "-af", f"{audio_fx.VOICE_CHAIN},loudnorm=I=-14:TP=-1.5:LRA=11",
                    "-ar", "44100", "-b:a", "128k", str(mp3)])
     done.append(f"Gemini {v}|{mp3.name}"); print(f"OK {v}", flush=True)
-(out / "gemini-list.txt").write_text("".join(x + "\n" for x in done), encoding="utf-8")
+(out / f"{pre}list.txt").write_text("".join(x + "\n" for x in done), encoding="utf-8")
 if not done: sys.exit(1)

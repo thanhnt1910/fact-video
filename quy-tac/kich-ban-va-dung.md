@@ -73,6 +73,14 @@ Mục nào không đạt thì sửa đúng mục đó, không viết lại cả 
 - Cuối tập: con dấu "Mức độ chắc chắn" giữ khoảng 2 giây.
 - Hoàng Sa và Trường Sa phải có trên mọi khung bản đồ có biển phía đông Việt Nam.
 
+### Nhân vật dẫn chuyện (đề xuất ngày 28/11/2026, chờ chủ kênh duyệt)
+Kiểu lai: nhân vật hư cấu "người kiểm chứng" đứng cạnh ảnh tư liệu thật. Bốn chi tiết cố định ở mọi tập:
+1. **Cổng thời gian mở hook.** Nhân vật bước qua cổng đến thời điểm mà chính nguồn sử ghi lại (lúc mở mộ, lúc bài báo gây lời đồn). Chỉ đứng quan sát, không nói chuyện với người xưa, không gán lời thoại hay vai trong sự kiện.
+2. **Bàn chứng cứ.** Ảnh tư liệu thật ghim lên bảng, nhân vật nối "lời đồn" với "bằng chứng".
+3. **Con dấu mức độ chắc chắn.** Cuối tập nhân vật đóng dấu đỏ: cao, vừa, thấp, chưa rõ.
+4. **Câu hỏi ngã rẽ.** Người xem chọn mức trong bình luận, tập sau báo kết quả.
+Giới hạn: cảnh xuyên không chỉ dựng lại điều nguồn chép và gắn nhãn "Minh họa"; ảnh thật gắn nhãn "Tư liệu". Nhân vật là hư cấu, không trình bày như người thật. Không quảng bá kênh là "lần đầu tiên" vì chưa kiểm được chưa ai làm như vậy.
+
 ## 7. Giọng đọc và âm thanh
 - Giọng trầm, khoảng 2,7–3 chữ/giây. Chọn giọng bằng cách nghe thử 2–3 giọng trên cùng một đoạn 30 giây.
 - Giọng dùng nguyên bản, không chỉnh âm thanh sau khi sinh. Điều khiển nhịp bằng chữ: dấu chấm cho nghỉ dài, dấu phẩy cho nghỉ ngắn, câu ngắn đứng riêng ở điểm lật.
@@ -98,8 +106,9 @@ Mục nào không đạt thì sửa đúng mục đó, không viết lại cả 
 - Mỗi tập có nguồn ở mô tả hoặc bình luận ghim. Chủ đề còn tranh luận ghi rõ thời điểm kiểm.
 
 ## 11. Còn chờ chủ kênh chốt (đề xuất mặc định)
-1. Độ dài: 2–3 phút (mặc định đề xuất), hay dọc ngắn 60–75 giây.
+1. Độ dài: đề xuất mới 90–120 giây khung ngang, cắt thêm bản 60 giây từ cùng kịch bản để so số liệu.
 2. Nền tảng chính: chưa rõ. Cần chốt để chọn khung hình ngang hay dọc.
-3. Phong cách hình: giữ thủy mặc (mặc định đề xuất) hay đổi.
-4. Giọng: nghe thử rồi chọn.
-5. Ba đề tài thí điểm.
+3. Phong cách hình: đề xuất mới kiểu lai (nhân vật dẫn chuyện cộng ảnh tư liệu thật), thay cho thủy mặc. Chờ chủ kênh duyệt.
+4. Cách làm bộ nhân vật (10–15 tư thế): tôi vẽ thêm bằng mã, anh tạo bằng công cụ AI trên điện thoại rồi tôi ghép, hoặc bỏ nhân vật. Chưa chốt. Bản thử bằng mã chưa đạt, chủ kênh nhận xét chưa bằng video mẫu.
+5. Giọng: nghe thử rồi chọn.
+6. Ba đề tài thí điểm: đang ở cổng A, xem `ho-so/cong-a-3-de-tai-thi-diem.md` (Tutankhamun, tượng binh mã Tần, Ötzi theo hướng tranh luận).

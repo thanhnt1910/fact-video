@@ -1,0 +1,92 @@
+<!doctype html><meta charset=utf-8><body style="margin:0;background:#000"><canvas id=c width=720 height=1280></canvas>
+<script>
+const c=document.getElementById('c'),x=c.getContext('2d'),W=720,H=1280;
+const INK='#241a16',PAPER='#efe6d2',SEAL='#b3261e',F="'Inter','DejaVu Sans',sans-serif";
+const cl=(v,a=0,b=1)=>Math.max(a,Math.min(b,v)),ez=v=>{v=cl(v);return v*v*(3-2*v)},rng=(s)=>{s=Math.sin(s*127.1)*43758.5453;return s-Math.floor(s)};
+const seg=(t,a,b)=>ez((t-a)/(b-a));
+function text(s,cx,cy,size,col,al=1,w='800'){x.save();x.globalAlpha=al;x.font=`${w} ${size}px ${F}`;x.fillStyle=col;x.textAlign='center';x.textBaseline='middle';x.fillText(s,cx,cy);x.restore()}
+function cap(lines,t,t0,t1,y=1000){ // white caption box with fade
+ const a=seg(t,t0,t0+.3)*(1-seg(t,t1-.3,t1)); if(a<=0)return;
+ x.save();x.globalAlpha=a;x.font=`800 40px ${F}`;let w=0;lines.forEach(l=>w=Math.max(w,x.measureText(l).width));
+ const bw=w+60,bh=lines.length*56+30,bx=(W-bw)/2,by=y-bh/2+(1-a)*20;x.fillStyle='#fff';x.beginPath();x.roundRect(bx,by,bw,bh,22);x.fill();
+ x.fillStyle=INK;x.textAlign='center';x.textBaseline='middle';lines.forEach((l,i)=>x.fillText(l,W/2,by+15+28+i*56));x.restore()}
+function label(s,px,py,col='#fff',bg='#241a16'){x.save();x.font=`800 20px ${F}`;const w=x.measureText(s).width+20;x.fillStyle=bg;x.fillRect(px,py,w,32);x.fillStyle=col;x.textBaseline='middle';x.fillText(s,px+10,py+17);x.restore()}
+function person(px,py,s,col,al=1){x.save();x.globalAlpha=al;x.fillStyle=col;x.beginPath();x.arc(px,py-s*1.5,s*.55,0,7);x.fill();x.beginPath();x.roundRect(px-s*.7,py-s*.85,s*1.4,s*1.9,s*.5);x.fill();x.restore()}
+// ---------- A: cinematic (code-drawn) ----------
+function dust(t,al){x.save();for(let i=0;i<70;i++){const sx=rng(i)*W,sy=(rng(i+9)*H-t*(10+rng(i+3)*25)+H*3)%H,r=1+rng(i+5)*2.5;x.globalAlpha=al*(.15+.35*rng(i+7))*(0.6+0.4*Math.sin(t*2+i));x.fillStyle='#ffd9a0';x.beginPath();x.arc(sx+Math.sin(t+i)*12,sy,r,0,7);x.fill()}x.restore()}
+function torch(t,cx,cy,r,a){const f=.85+.15*Math.sin(t*13)+.05*Math.sin(t*31);const g=x.createRadialGradient(cx,cy,0,cx,cy,r*f);g.addColorStop(0,`rgba(255,190,100,${.75*a})`);g.addColorStop(.4,`rgba(200,110,40,${.3*a})`);g.addColorStop(1,'rgba(0,0,0,0)');x.fillStyle=g;x.fillRect(0,0,W,H)}
+function door(t){ // tomb doorway, push-in
+ const z=1+t*.055;x.save();x.translate(W/2,H*.5);x.scale(z,z);x.translate(-W/2,-H*.5);
+ let g=x.createLinearGradient(0,0,0,H);g.addColorStop(0,'#0b0705');g.addColorStop(1,'#1d120b');x.fillStyle=g;x.fillRect(-200,-200,W+400,H+400);
+ for(let r=0;r<14;r++)for(let k=0;k<9;k++){const bx=k*90+(r%2)*45-45,by=r*100,sh=.04+.05*rng(r*9+k);x.fillStyle=`rgba(${70+sh*300},${50+sh*200},${30+sh*100},.55)`;x.fillRect(bx+2,by+2,86,96)}
+ // doorway
+ x.fillStyle='#030201';x.fillRect(W/2-150,330,300,620);x.beginPath();x.arc(W/2,330,150,Math.PI,0);x.fill();
+ const gl=x.createRadialGradient(W/2,640,10,W/2,640,300);gl.addColorStop(0,'rgba(255,200,110,.55)');gl.addColorStop(1,'rgba(255,160,60,0)');x.fillStyle=gl;x.fillRect(W/2-300,300,600,700);
+ // steps
+ for(let i=0;i<5;i++){x.fillStyle=`rgba(${40+i*18},${28+i*12},${18+i*8},1)`;x.fillRect(W/2-170-i*22,950+i*34,340+i*44,34)}
+ x.restore();
+ // lone figure (nhân vật hư cấu, bóng)
+ const fz=1+t*.03;person(W/2,1010+t*4,38*fz,'#000',.95);
+}
+function sceneRows(t,n=25,oy=480,rs=140,sz=22){ // 25 silhouettes
+ const g=x.createLinearGradient(0,0,0,H);g.addColorStop(0,'#0b0705');g.addColorStop(1,'#2a1a0e');x.fillStyle=g;x.fillRect(0,0,W,H);
+ for(let i=0;i<n;i++){const r=Math.floor(i/5),k=i%5,a=seg(t,.08*i,.08*i+.4);person(110+k*125,oy+r*rs+(1-a)*30,sz,'#e9c98a',a*.95)}
+ torch(t,W/2,300,700,.5);
+}
+function sceneA(t){ // 0..8
+ if(t<3.8){door(t);torch(t,W/2,700,620,.9);dust(t,1);
+  x.fillStyle=`rgba(0,0,0,${.25})`;x.fillRect(0,0,W,H);
+  cap(['Ông mở mộ một vị vua.'],t,.5,2.4,1040);cap(['Vài tháng sau, ông chết.'],t,2.2,3.9,1040)}
+ else if(t<6.4){const u=t-3.8;x.fillStyle='#050302';x.fillRect(0,0,W,H);torch(t,W/2,H/2,520+u*40,.8);dust(t,.9);
+  x.save();x.translate(W/2,H/2);x.scale(1+u*.04,1+u*.04);text('LỜI NGUYỀN',0,0,96,'#e9c98a',seg(u,0,.6));x.restore();
+  cap(['Người ta gọi đó','là lời nguyền.'],t,3.9,6.4,1040)}
+ else{const u=t-6.4;sceneRows(u,25);dust(t,.6);cap(['Hai mươi lăm người','có mặt khi mở mộ.'],t,6.5,8,1060)}
+ label('MINH HỌA',24,24)}
+// ---------- B pieces ----------
+function paper(){x.fillStyle=PAPER;x.fillRect(0,0,W,H);x.save();x.globalAlpha=.05;for(let i=0;i<500;i++){x.fillStyle=INK;x.fillRect(rng(i)*W,rng(i+1)*H,2,2)}x.restore()}
+function photo(px,py,w,h,name,t,t0,i){const a=seg(t,t0,t0+.5);if(a<=0)return;const z=1+.05*(t-t0);x.save();x.globalAlpha=a;x.translate(px+(1-a)*(i%2?60:-60),py);
+ x.fillStyle=INK;x.fillRect(-4,-4,w+8,h+8);x.save();x.beginPath();x.rect(0,0,w,h);x.clip();x.translate(w/2,h/2);x.scale(z,z);x.translate(-w/2,-h/2);
+ const g=x.createLinearGradient(0,0,w,h);g.addColorStop(0,'#c9bb9e');g.addColorStop(1,'#a89878');x.fillStyle=g;x.fillRect(-20,-20,w+40,h+40);
+ text(name,w/2,h/2,26,INK,.7,'700');x.restore();label('TƯ LIỆU',0,-34);x.restore()}
+function sceneBoard(t){paper();text('LỜI ĐỒN',140,120,24,SEAL);
+ photo(110,170,500,230,'ảnh: khu mộ',t,.2,0);photo(110,470,500,230,'ảnh: nhật ký khai quật',t,1.0,1);photo(110,770,500,230,'ảnh: bài báo 1923',t,1.8,2);
+ x.save();x.strokeStyle=SEAL;x.lineWidth=5;x.lineCap='round';x.beginPath();const p=seg(t,.4,2.4);x.moveTo(70,190);const ey=190+p*800;x.bezierCurveTo(40,190+p*300,40,190+p*600,70,ey);x.stroke();x.restore();
+ text('BẰNG CHỨNG',160,1050,24,SEAL,seg(t,2.2,2.6))}
+function sceneDots(t,paperBg=true){if(paperBg)paper();
+ text('NGƯỜI CÓ MẶT LÚC MỞ MỘ',W/2,150,28,INK,seg(t,0,.4));
+ for(let i=0;i<25;i++){const a=seg(t,.2+i*.03,.5+i*.03);person(110+(i%5)*125,260+Math.floor(i/5)*95,15,SEAL,a)}
+ text('NGƯỜI KHÔNG CÓ MẶT',W/2,790,28,INK,seg(t,1.4,1.8));
+ for(let i=0;i<11;i++){const a=seg(t,1.5+i*.04,1.8+i*.04);person(110+(i%5)*125,880+Math.floor(i/5)*95,15,INK,a)}
+ const q=seg(t,2.6,3.2);text('Hai nhóm sống không khác biệt đáng kể',W/2,1160,34,INK,q,'800')}
+function stamp(t,u,onDark=false){const s=seg(u,0,.25);const sc=1+(1-s)*1.6,a=s;x.save();x.translate(W/2,430);x.rotate(-.1);x.scale(sc,sc);x.globalAlpha=a;
+ x.strokeStyle=SEAL;x.lineWidth=10;x.strokeRect(-290,-140,580,280);x.fillStyle=SEAL;x.textAlign='center';x.font=`800 38px ${F}`;x.fillText('MỨC ĐỘ CHẮC CHẮN',0,-60);x.font=`900 140px ${F}`;x.fillText('CAO',0,60);x.font=`800 24px ${F}`;x.fillText('không có bằng chứng cho lời nguyền',0,112);x.restore();
+ if(u>.25&&u<.6){x.save();x.translate((Math.random()-.5)*8,(Math.random()-.5)*8);x.restore()}
+ const q=seg(u,1.0,1.5);text('Dòng chữ khắc trong mộ?',W/2,800,36,INK,q);text('Hay nhóm người chết sớm bất thường?',W/2,880,31,INK,q)}
+// ---------- composing ----------
+function draw(t,mode){x.clearRect(0,0,W,H);
+ const flip=t>=8&&t<8.6;
+ if(flip){x.fillStyle='#000';x.fillRect(0,0,W,H);return}
+ if(mode==='A'){
+  if(t<8)sceneA(t);
+  else if(t<12.6){x.fillStyle='#050302';x.fillRect(0,0,W,H);const u=t-8.6;sceneRows(10,25,300,85,15);
+    // 11 gold figures shrink beside
+    x.fillStyle='rgba(0,0,0,.55)';x.fillRect(0,0,W,H);
+    for(let i=0;i<11;i++){const a=seg(u,.3+i*.05,.6+i*.05);person(110+(i%5)*125,760+Math.floor(i/5)*95,15,'#8fb6c9',a)}
+    torch(t,W/2,300,700,.35);dust(t,.5);
+    cap(['Не sống ngắn hơn?'.replace('Не','Họ không'),'Số liệu nói là không.'].map(s=>s),t,8.8,12.6,1130);label('MINH HỌA',24,24)}
+  else{x.fillStyle='#050302';x.fillRect(0,0,W,H);torch(t,W/2,430,620,.6);dust(t,.5);stampDark(t-12.6)}
+ }else if(mode==='B'){
+  if(t<4){paper();const u=t;text('Mở mộ một vị vua.',W/2,420,60,INK,seg(u,.2,.6));text('Vài tháng sau, ông chết.',W/2,520,60,INK,seg(u,1.4,1.8));
+    x.save();x.fillStyle=SEAL;x.fillRect(110,570,500*seg(u,2.2,3.2),8);x.restore();text('Người ta gọi đó là lời nguyền.',W/2,680,40,SEAL,seg(u,2.8,3.4),'700')}
+  else if(t<8){sceneBoard(t-4)}
+  else if(t<12.6){sceneDots(t-8.6)}
+  else{paper();stamp(t,t-12.6)}
+ }else{ // C
+  if(t<8)sceneA(t);
+  else if(t<12.6){sceneBoardDots(t-8.6)}
+  else{paper();stamp(t,t-12.6)}
+ }}
+function sceneBoardDots(u){sceneDots(u)}
+function stampDark(u){const s=seg(u,0,.25);const sc=1+(1-s)*1.6;x.save();x.translate(W/2,430);x.rotate(-.1);x.scale(sc,sc);x.globalAlpha=s;x.strokeStyle='#e0473b';x.lineWidth=10;x.strokeRect(-290,-140,580,280);x.fillStyle='#e0473b';x.textAlign='center';x.font=`800 38px ${F}`;x.fillText('MỨC ĐỘ CHẮC CHẮN',0,-60);x.font=`900 140px ${F}`;x.fillText('CAO',0,60);x.font=`800 24px ${F}`;x.fillText('không có bằng chứng cho lời nguyền',0,112);x.restore();
+ const q=seg(u,1,1.5);text('Dòng chữ khắc trong mộ?',W/2,800,36,'#e9c98a',q);text('Hay nhóm người chết sớm bất thường?',W/2,880,31,'#e9c98a',q)}
+</script>

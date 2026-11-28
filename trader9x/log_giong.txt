@@ -1,36 +1,53 @@
-✅ Iapetus     i_intro   có sẵn
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+✅ Iapetus     k_intro   6.44s
 ✅ Iapetus     card1_1   có sẵn
-✅ Iapetus     i_p1_1    có sẵn
-✅ Iapetus     i_p1_2    có sẵn
-✅ Iapetus     i_p1_3    có sẵn
-✅ Iapetus     i_p1_4    có sẵn
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+✅ Iapetus     k_p1_1    5.78s
+✅ Iapetus     k_p1_2    7.60s
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_p1_3    6.19s
+✅ Iapetus     k_p1_4    7.15s
 ✅ Iapetus     card2n    có sẵn
-✅ Iapetus     i_t1      có sẵn
-✅ Iapetus     i_liq     có sẵn
-✅ Iapetus     i_t2      có sẵn
-✅ Iapetus     i_sw      có sẵn
-✅ Iapetus     i_t3      có sẵn
-✅ Iapetus     i_ob      có sẵn
-✅ Iapetus     i_t4      có sẵn
-✅ Iapetus     i_mss     có sẵn
-✅ Iapetus     i_t5      có sẵn
-✅ Iapetus     i_fvg1    có sẵn
-✅ Iapetus     i_fvg2    có sẵn
-✅ Iapetus     i_entry   có sẵn
-✅ Iapetus     b_r2b     có sẵn
-✅ Iapetus     i_rev1    có sẵn
-✅ Iapetus     i_rev2    có sẵn
-✅ Iapetus     i_rev2b   có sẵn
-✅ Iapetus     i_rev3    có sẵn
-✅ Iapetus     now1      có sẵn
-✅ Iapetus     i_now1b   có sẵn
-✅ Iapetus     i_now2    có sẵn
-✅ Iapetus     p3c_4     có sẵn
-✅ Iapetus     i_c1      có sẵn
-✅ Iapetus     i_c2      có sẵn
-✅ Iapetus     i_c3      có sẵn
-✅ Iapetus     i_c4      có sẵn
+✅ Iapetus     k_t1      4.75s
+✅ Iapetus     k_t1b     2.90s
+✅ Iapetus     k_h1a     7.35s
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_h1a2    2.86s
+✅ Iapetus     k_h1b     5.52s
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+✅ Iapetus     k_t2      4.95s
+✅ Iapetus     k_t2b     3.46s
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_h4a     5.18s
+✅ Iapetus     k_h4a2    5.04s
+✅ Iapetus     k_h4b     4.38s
+✅ Iapetus     k_t3      6.44s
+✅ Iapetus     k_d1a     8.60s
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_d1a2    1.85s
+✅ Iapetus     k_d1b     4.40s
+✅ Iapetus     k_t4      5.34s
+✅ Iapetus     k_c1      5.85s
+✅ Iapetus     k_t5      8.15s
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_td1     5.11s
+✅ Iapetus     k_td2     8.35s
+✅ Iapetus     k_td3     7.77s
+✅ Iapetus     k_td4     5.26s
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_td4b    4.06s
+✅ Iapetus     k_now1    5.46s
+✅ Iapetus     k_now2    5.17s
+✅ Iapetus     k_now3    3.47s
+✅ Iapetus     k_c1x     5.62s
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_c2      3.47s
+✅ Iapetus     k_c3      4.34s
+✅ Iapetus     k_c4      4.07s
 ✅ Iapetus     check_5   có sẵn
-✅ Iapetus     i_c6      có sẵn
-✅ Iapetus     b_outro   có sẵn
-Xong: 35 đoạn có giọng, 0 lỗi.
+✅ Iapetus     k_c6      4.19s
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k_outro   4.87s
+Xong: 39 đoạn có giọng, 0 lỗi.

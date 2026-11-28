@@ -19,9 +19,9 @@
  },
  {
   "id": "k_p1_2",
-  "khop": 0.625,
+  "khop": 0.739,
   "kich_ban": "Ngày hai mươi lăm tháng mười một trên khung D một chỉ là một cây nến, râu dưới rất dài, đóng cửa gần giá mở.",
-  "nghe": "Ngày 25 tháng 11 trên khung D1, chỉ là một cái nến spinning top, dâu dưới rất dài, đóng cửa gần giá mờ."
+  "nghe": "Ngày 25 tháng 11 trên khung D1 chỉ là một cây nến, dấu dưới rất dài, đóng cửa gần giá mở."
  },
  {
   "id": "k_p1_3",
@@ -31,9 +31,9 @@
  },
  {
   "id": "k_p1_4",
-  "khop": 0.512,
+  "khop": 0.524,
   "kich_ban": "Xuống khung H một là hai mươi bốn cây nến. Thấy từng nhịp, với đáy ba nghìn bốn trăm hai mươi sáu lúc hai mươi hai giờ.",
-  "nghe": "xuống 0H1 là 24 cây nến, thấy từng nhịp với đáy 3.426 lúc 22 giờ."
+  "nghe": "xuống 0H1 là 24 cây nến, thấy từng nhịp với đáy 3426 lúc 22 giờ."
  },
  {
   "id": "card2n",
@@ -43,9 +43,9 @@
  },
  {
   "id": "k_t1",
-  "khop": 0.516,
+  "khop": 0.581,
   "kich_ban": "Thứ nhất là khung H một, mỗi nến là một giờ, hai mươi bốn nến một ngày.",
-  "nghe": "Thứ nhất là khung H1 mỗi nén là 1 giờ, 24 nén 1 ngày."
+  "nghe": "Thứ nhất là khung H1 mỗi nén là 1 giờ, 24 nén một ngày."
  },
  {
   "id": "k_t1b",
@@ -55,9 +55,9 @@
  },
  {
   "id": "k_h1a",
-  "khop": 0.35,
+  "khop": 0.341,
   "kich_ban": "Ngày hai mươi bảy tháng mười một, trên H một, vàng bật từ ba nghìn năm trăm năm mươi sáu lên ba nghìn sáu trăm tám mươi lăm.",
-  "nghe": "ngày 27 tháng 11 trên H1 vàng bật từ 3556 lên 3685."
+  "nghe": "ngày 27 tháng 7-1 trên H1 vàng bật từ 3556 lên 3685."
  },
  {
   "id": "k_h1a2",
@@ -75,19 +75,19 @@
   "id": "k_t2",
   "khop": 0.759,
   "kich_ban": "Thứ hai là khung H bốn, mỗi nến là bốn giờ, sáu nến một ngày.",
-  "nghe": "Thứ hai là khung H4, mỗi nến là 4 giờ, 6 nến một ngày."
+  "nghe": "Thứ hai là khung H4. Mỗi nến là 4 giờ, 6 nến một ngày."
  },
  {
   "id": "k_t2b",
-  "khop": 0.75,
+  "khop": 0.667,
   "kich_ban": "Đây là khung cân bằng giữa chi tiết và bức tranh chung.",
-  "nghe": "Đây là không cân bằng giữa chi tiết và bữ trong chung."
+  "nghe": "Đây là không cân bằng giữa chi tiết và bự trong trung."
  },
  {
   "id": "k_h4a",
-  "khop": 0.429,
+  "khop": 0.414,
   "kich_ban": "Trên H bốn, ngày hai mươi tháng mười một vàng xuống đáy ba nghìn năm trăm linh bốn.",
-  "nghe": "trên H4 ngày 20 tháng 11 vàng xuống đáy 3504."
+  "nghe": "trên H4 ngày 20 tháng 11 vàng xuống đáy 3.504."
  },
  {
   "id": "k_h4a2",
@@ -111,7 +111,7 @@
   "id": "k_d1a",
   "khop": 0.311,
   "kich_ban": "Trên D một, các đỉnh thấp dần, từ bốn nghìn hai trăm mười bảy, xuống bốn nghìn một trăm bốn mươi chín, rồi ba nghìn sáu trăm tám mươi chín.",
-  "nghe": "trên D1, cắt đỉnh thấp dần từ 4.217 xuống 4.149 rồi 3.689."
+  "nghe": "trên D1 cắt đỉnh thấp dần từ 4.217 xuống 4.149 rồi 3.689."
  },
  {
   "id": "k_d1a2",
@@ -127,9 +127,9 @@
  },
  {
   "id": "k_t4",
-  "khop": 0.947,
+  "khop": 1.0,
   "kich_ban": "Thứ tư là xung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi.",
-  "nghe": "Thứ tư là sung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi."
+  "nghe": "Thứ tư là xung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi."
  },
  {
   "id": "k_c1",
@@ -141,7 +141,7 @@
   "id": "k_t5",
   "khop": 0.708,
   "kich_ban": "Thứ năm là phân tích đa khung, đi từ khung lớn xuống khung nhỏ, theo thứ tự D một, H bốn, rồi H một.",
-  "nghe": "Thứ 5 là phân tích đa khung, đi từ khung lớn xuống khung nhỏ, theo thứ tự đề 1, hát 4, rồi hát 1."
+  "nghe": "Thứ 5 là phân tích đa khung, đi từ khung lớn xuống khung nhỏ theo thứ tự đề 1, hát 4, rồi hát 1."
  },
  {
   "id": "k_td1",
@@ -165,7 +165,7 @@
   "id": "k_td4",
   "khop": 0.667,
   "kich_ban": "Ví dụ minh họa, vào lệnh khi H một xác nhận, quanh ba nghìn sáu trăm bốn mươi sáu.",
-  "nghe": "Ví dụ minh họa vào lệnh khi hát một xác nhận, quanh 3.646."
+  "nghe": "Ví dụ minh họa vào lệnh khi hát một xác nhận quanh 3.646."
  },
  {
   "id": "k_td4b",
@@ -195,13 +195,13 @@
   "id": "k_c1x",
   "khop": 0.833,
   "kich_ban": "Năm nguyên tắc khi dùng khung thời gian. Một, bắt đầu từ khung lớn để biết xu hướng.",
-  "nghe": "5 nguyên tác khi dùng khung thời gian 1. Bắt đầu từ khung lớn để biết xu hướng"
+  "nghe": "5 nguyên tác khi dùng khung thời gian. 1. Bắt đầu từ khung lớn để biết xu hướng."
  },
  {
   "id": "k_c2",
   "khop": 0.762,
   "kich_ban": "Hai, dùng khung H bốn để tìm vùng giá quan trọng.",
-  "nghe": "2. Dùng khung H4 để tìm vùng giá quan trọng."
+  "nghe": "2. Dùng khung H4 để tìm vùng giá quan trọng"
  },
  {
   "id": "k_c3",

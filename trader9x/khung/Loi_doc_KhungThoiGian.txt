@@ -1,0 +1,44 @@
+TRADER9X MASTERCLASS – Khung thời gian H1 → H4 → D1 trên XAUUSD | Lời đọc giọng nam Iapetus, khớp video 3:43
+
+00:00  Khung thời gian trong trading vàng. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ.
+00:07  Phần một. Định nghĩa.
+00:09  Khung thời gian, hay timeframe, là khoảng thời gian mà mỗi cây nến gói gọn bên trong.
+00:16  Ngày hai mươi lăm tháng mười một trên khung D một chỉ là một cây nến, râu dưới rất dài, đóng cửa gần giá mở.
+00:23  Tách ra khung H bốn, ta có sáu cây nến, mỗi cây bốn giờ, thấy rõ cú rơi rồi bật lên.
+00:29  Xuống khung H một là hai mươi bốn cây nến. Thấy từng nhịp, với đáy ba nghìn bốn trăm hai mươi sáu lúc hai mươi hai giờ.
+00:37  Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.
+00:41  Thứ nhất là khung H một, mỗi nến là một giờ, hai mươi bốn nến một ngày.
+00:46  Khung này chi tiết nhất, nhưng cũng nhiễu nhất.
+00:50  Ngày hai mươi bảy tháng mười một, trên H một, vàng bật từ ba nghìn năm trăm năm mươi sáu lên ba nghìn sáu trăm tám mươi lăm.
+00:57  Cú tăng đó chỉ diễn ra trong khoảng tám giờ.
+01:01  Khung H một hợp để canh điểm vào cho chính xác, nhưng dễ gặp tín hiệu giả vì nhiều nhiễu.
+01:07  Thứ hai là khung H bốn, mỗi nến là bốn giờ, sáu nến một ngày.
+01:12  Đây là khung cân bằng giữa chi tiết và bức tranh chung.
+01:16  Trên H bốn, ngày hai mươi tháng mười một vàng xuống đáy ba nghìn năm trăm linh bốn.
+01:21  Ngày hai mươi lăm, giá thủng xuống ba nghìn bốn trăm hai mươi sáu, rồi bật lên mạnh.
+01:27  Khung H bốn dùng để xác định vùng giá quan trọng và cấu trúc ngắn hạn.
+01:33  Thứ ba là khung D một, mỗi nến là một ngày. Khung này cho thấy xu hướng chính và các vùng giá lớn.
+01:40  Trên D một, các đỉnh thấp dần, từ bốn nghìn hai trăm mười bảy, xuống bốn nghìn một trăm bốn mươi chín, rồi ba nghìn sáu trăm tám mươi chín.
+01:49  Xu hướng chính là giảm.
+01:51  Khung D một trả lời câu hỏi quan trọng nhất. Thị trường đang đi về hướng nào.
+01:57  Thứ tư là xung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi.
+02:03  Ngày hai mươi bảy, khung H một tăng mạnh. Nhưng trên D một, đó chỉ là một nhịp hồi trong xu hướng giảm.
+02:09  Thứ năm là phân tích đa khung, đi từ khung lớn xuống khung nhỏ, theo thứ tự D một, H bốn, rồi H một.
+02:18  Bước một, trên D một, xu hướng chính đang giảm, đỉnh sau thấp hơn đỉnh trước.
+02:24  Bước hai, trên H bốn, vùng cản từ ba nghìn sáu trăm tám mươi mốt đến ba nghìn sáu trăm tám mươi chín, nơi có các đỉnh gần đây.
+02:33  Bước ba, trên H một, ngày hai mươi bảy giá chạm vùng cản rồi bị đẩy xuống ba nghìn sáu trăm mười bảy.
+02:41  Ví dụ minh họa, vào lệnh khi H một xác nhận, quanh ba nghìn sáu trăm bốn mươi sáu.
+02:46  Đặt cắt lỗ trên vùng cản, khoảng ba nghìn sáu trăm chín mươi lăm.
+02:51  Hiện tại, phiên ngày hai mươi bảy tháng mười một đóng cửa quanh ba nghìn sáu trăm năm mươi tư đô.
+02:57  Khung D một vẫn giảm, H bốn đang hồi từ đáy, còn H một giằng co dưới vùng cản.
+03:02  Các khung chưa đồng thuận. Hãy chờ tín hiệu xác nhận.
+03:07  Năm nguyên tắc khi dùng khung thời gian. Một, bắt đầu từ khung lớn để biết xu hướng.
+03:13  Hai, dùng khung H bốn để tìm vùng giá quan trọng.
+03:17  Ba, dùng khung H một để canh điểm vào, không dùng để đoán xu hướng.
+03:22  Bốn, khung nhỏ đi ngược khung lớn thường chỉ là nhịp hồi.
+03:27  Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.
+03:31  Không có khung nào đúng nhất. Quan trọng là các khung đồng thuận với nhau.
+03:37  Tập sau là hỗ trợ và kháng cự. Theo dõi Trader chín X để không bỏ lỡ.
+
+Dữ liệu thật MetalCharts: D1 01/10–27/11/2026; H1 18/11–27/11/2026 (giờ UTC, hiển thị giờ Việt Nam); H4 gộp từ H1 theo ô 4 giờ neo 20:00 UTC.
+Đã đối chiếu: H1 gộp theo phiên ngày khớp đúng giá mở/cao/thấp/đóng của D1 từ 19/11 đến 27/11. Phiên 27/11 đóng cửa 3.654,40 USD/oz.

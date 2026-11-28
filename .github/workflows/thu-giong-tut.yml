@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p logs output
           set -o pipefail
-          python thu_giong_tut_gemini.py epic 2>&1 | tee logs/gemini_tut.txt
+          python thu_giong_tut_gemini.py algenib 2>&1 | tee logs/gemini_tut.txt
       - name: Lưu kết quả
         if: always()
         run: |

@@ -45,5 +45,11 @@
   "Enceladus",
   "Charon",
   "Orus"
- ]
+ ],
+ "algenib_variants": {
+  "cham_hung": "Deep, resonant narrator of heroic history, like narrating a great king's legacy. Low register, slow measured pace, about 2.7 words per second. Strong emphasis on key phrases, intensity rising gently toward the reveal that starts with 'Kết quả', then a controlled half-second pause. Powerful but never shouting.",
+  "ke_chuyen": "Grave, warm storyteller speaking close to the listener, as if recounting an important true story at night. Gravelly low voice, slow and intimate, natural breaths, emphasis on the surprising facts, a short silence before 'Kết quả'.",
+  "hung_bien": "Rhetorical, speech-like delivery with rising and falling cadence and strong stress on key words, like a documentary about a legendary hero. Confident and commanding, slightly faster pace, a clear dramatic drop in volume and a pause right before 'Kết quả', then a firm reveal.",
+  "vung_tin": "Calm authority: steady, restrained, trustworthy, low and slightly rough voice, even pace with deliberate pauses between sentences, no theatrics, emphasis only on numbers and on the final reveal."
+ }
 }

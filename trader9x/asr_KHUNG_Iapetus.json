@@ -1,0 +1,236 @@
+[
+ {
+  "id": "k_intro",
+  "khop": 0.857,
+  "kich_ban": "Khung thời gian trong trading vàng. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ.",
+  "nghe": "không thời gian trong chatting bằng, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đồ."
+ },
+ {
+  "id": "card1_1",
+  "khop": 1.0,
+  "kich_ban": "Phần một. Định nghĩa.",
+  "nghe": "Phần một, định nghĩa."
+ },
+ {
+  "id": "k_p1_1",
+  "khop": 0.914,
+  "kich_ban": "Khung thời gian, hay timeframe, là khoảng thời gian mà mỗi cây nến gói gọn bên trong.",
+  "nghe": "Khung thời gian hay time frame là khoảng thời gian mà mỗi cây nến gói gọn bên trong."
+ },
+ {
+  "id": "k_p1_2",
+  "khop": 0.625,
+  "kich_ban": "Ngày hai mươi lăm tháng mười một trên khung D một chỉ là một cây nến, râu dưới rất dài, đóng cửa gần giá mở.",
+  "nghe": "Ngày 25 tháng 11 trên khung D1, chỉ là một cái nến spinning top, dâu dưới rất dài, đóng cửa gần giá mờ."
+ },
+ {
+  "id": "k_p1_3",
+  "khop": 0.732,
+  "kich_ban": "Tách ra khung H bốn, ta có sáu cây nến, mỗi cây bốn giờ, thấy rõ cú rơi rồi bật lên.",
+  "nghe": "Tích da khung H4, ta có 6 cây nến mỗi cây 4 giờ, thấy rõ cú rơi rồi bật lên."
+ },
+ {
+  "id": "k_p1_4",
+  "khop": 0.512,
+  "kich_ban": "Xuống khung H một là hai mươi bốn cây nến. Thấy từng nhịp, với đáy ba nghìn bốn trăm hai mươi sáu lúc hai mươi hai giờ.",
+  "nghe": "xuống 0H1 là 24 cây nến, thấy từng nhịp với đáy 3.426 lúc 22 giờ."
+ },
+ {
+  "id": "card2n",
+  "khop": 0.818,
+  "kich_ban": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.",
+  "nghe": "Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng"
+ },
+ {
+  "id": "k_t1",
+  "khop": 0.516,
+  "kich_ban": "Thứ nhất là khung H một, mỗi nến là một giờ, hai mươi bốn nến một ngày.",
+  "nghe": "Thứ nhất là khung H1 mỗi nén là 1 giờ, 24 nén 1 ngày."
+ },
+ {
+  "id": "k_t1b",
+  "khop": 1.0,
+  "kich_ban": "Khung này chi tiết nhất, nhưng cũng nhiễu nhất.",
+  "nghe": "khung này chi tiết nhất nhưng cũng nhiễu nhất."
+ },
+ {
+  "id": "k_h1a",
+  "khop": 0.35,
+  "kich_ban": "Ngày hai mươi bảy tháng mười một, trên H một, vàng bật từ ba nghìn năm trăm năm mươi sáu lên ba nghìn sáu trăm tám mươi lăm.",
+  "nghe": "ngày 27 tháng 11 trên H1 vàng bật từ 3556 lên 3685."
+ },
+ {
+  "id": "k_h1a2",
+  "khop": 0.9,
+  "kich_ban": "Cú tăng đó chỉ diễn ra trong khoảng tám giờ.",
+  "nghe": "Cú tăng đó chỉ diễn ra trong khoảng 8 giờ."
+ },
+ {
+  "id": "k_h1b",
+  "khop": 0.923,
+  "kich_ban": "Khung H một hợp để canh điểm vào cho chính xác, nhưng dễ gặp tín hiệu giả vì nhiều nhiễu.",
+  "nghe": "Khung H1 hợp để canh điểm vào cho chính xác, nhưng dễ gặp tín hiệu giả vì nhiều nhiễu."
+ },
+ {
+  "id": "k_t2",
+  "khop": 0.759,
+  "kich_ban": "Thứ hai là khung H bốn, mỗi nến là bốn giờ, sáu nến một ngày.",
+  "nghe": "Thứ hai là khung H4, mỗi nến là 4 giờ, 6 nến một ngày."
+ },
+ {
+  "id": "k_t2b",
+  "khop": 0.75,
+  "kich_ban": "Đây là khung cân bằng giữa chi tiết và bức tranh chung.",
+  "nghe": "Đây là không cân bằng giữa chi tiết và bữ trong chung."
+ },
+ {
+  "id": "k_h4a",
+  "khop": 0.429,
+  "kich_ban": "Trên H bốn, ngày hai mươi tháng mười một vàng xuống đáy ba nghìn năm trăm linh bốn.",
+  "nghe": "trên H4 ngày 20 tháng 11 vàng xuống đáy 3504."
+ },
+ {
+  "id": "k_h4a2",
+  "khop": 0.552,
+  "kich_ban": "Ngày hai mươi lăm, giá thủng xuống ba nghìn bốn trăm hai mươi sáu, rồi bật lên mạnh.",
+  "nghe": "Ngày 25, giá thủng xuống 3.426, rồi bật lên mạnh."
+ },
+ {
+  "id": "k_h4b",
+  "khop": 0.903,
+  "kich_ban": "Khung H bốn dùng để xác định vùng giá quan trọng và cấu trúc ngắn hạn.",
+  "nghe": "khung H4 dùng để xác định vùng giá quan trọng và cấu trúc ngắn hạn."
+ },
+ {
+  "id": "k_t3",
+  "khop": 0.844,
+  "kich_ban": "Thứ ba là khung D một, mỗi nến là một ngày. Khung này cho thấy xu hướng chính và các vùng giá lớn.",
+  "nghe": "Thứ 3 là khung D1, mỗi nến là 1 ngày. Khung này cho thấy xu hướng chính và các vùng giá lớn."
+ },
+ {
+  "id": "k_d1a",
+  "khop": 0.311,
+  "kich_ban": "Trên D một, các đỉnh thấp dần, từ bốn nghìn hai trăm mười bảy, xuống bốn nghìn một trăm bốn mươi chín, rồi ba nghìn sáu trăm tám mươi chín.",
+  "nghe": "trên D1, cắt đỉnh thấp dần từ 4.217 xuống 4.149 rồi 3.689."
+ },
+ {
+  "id": "k_d1a2",
+  "khop": 1.0,
+  "kich_ban": "Xu hướng chính là giảm.",
+  "nghe": "Xu hướng chính là giảm."
+ },
+ {
+  "id": "k_d1b",
+  "khop": 0.882,
+  "kich_ban": "Khung D một trả lời câu hỏi quan trọng nhất. Thị trường đang đi về hướng nào.",
+  "nghe": "không đem một trả lời câu hỏi quan trọng nhất, thị trường đang đi về hướng nào."
+ },
+ {
+  "id": "k_t4",
+  "khop": 0.947,
+  "kich_ban": "Thứ tư là xung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi.",
+  "nghe": "Thứ tư là sung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi."
+ },
+ {
+  "id": "k_c1",
+  "khop": 0.714,
+  "kich_ban": "Ngày hai mươi bảy, khung H một tăng mạnh. Nhưng trên D một, đó chỉ là một nhịp hồi trong xu hướng giảm.",
+  "nghe": "Ngày 27, khung H1 tăng mạnh, nhưng trên D1, đó chỉ là một nhịp hôi trong xu hướng giảm."
+ },
+ {
+  "id": "k_t5",
+  "khop": 0.708,
+  "kich_ban": "Thứ năm là phân tích đa khung, đi từ khung lớn xuống khung nhỏ, theo thứ tự D một, H bốn, rồi H một.",
+  "nghe": "Thứ 5 là phân tích đa khung, đi từ khung lớn xuống khung nhỏ, theo thứ tự đề 1, hát 4, rồi hát 1."
+ },
+ {
+  "id": "k_td1",
+  "khop": 0.71,
+  "kich_ban": "Bước một, trên D một, xu hướng chính đang giảm, đỉnh sau thấp hơn đỉnh trước.",
+  "nghe": "Bước 1 trên D1, xu hướng chính đàng giản, đỉnh sau thấp hơn đỉnh trước."
+ },
+ {
+  "id": "k_td2",
+  "khop": 0.489,
+  "kich_ban": "Bước hai, trên H bốn, vùng cản từ ba nghìn sáu trăm tám mươi mốt đến ba nghìn sáu trăm tám mươi chín, nơi có các đỉnh gần đây.",
+  "nghe": "Bước 2 trên H4, vùng cản từ 3681 đến 3689, nơi có các định gần đây."
+ },
+ {
+  "id": "k_td3",
+  "khop": 0.526,
+  "kich_ban": "Bước ba, trên H một, ngày hai mươi bảy giá chạm vùng cản rồi bị đẩy xuống ba nghìn sáu trăm mười bảy.",
+  "nghe": "Bước 3, trên H1, ngày 27, giá trạm vùng cản, rồi bị đẩy xuống 3617."
+ },
+ {
+  "id": "k_td4",
+  "khop": 0.667,
+  "kich_ban": "Ví dụ minh họa, vào lệnh khi H một xác nhận, quanh ba nghìn sáu trăm bốn mươi sáu.",
+  "nghe": "Ví dụ minh họa vào lệnh khi hát một xác nhận, quanh 3.646."
+ },
+ {
+  "id": "k_td4b",
+  "khop": 0.609,
+  "kich_ban": "Đặt cắt lỗ trên vùng cản, khoảng ba nghìn sáu trăm chín mươi lăm.",
+  "nghe": "đặt cắt lỗ trên vùng cản khoảng 3.695."
+ },
+ {
+  "id": "k_now1",
+  "khop": 0.529,
+  "kich_ban": "Hiện tại, phiên ngày hai mươi bảy tháng mười một đóng cửa quanh ba nghìn sáu trăm năm mươi tư đô.",
+  "nghe": "Hiện tại phiên ngày 27 tháng 11 đóng cửa quanh 3.654 đô."
+ },
+ {
+  "id": "k_now2",
+  "khop": 0.629,
+  "kich_ban": "Khung D một vẫn giảm, H bốn đang hồi từ đáy, còn H một giằng co dưới vùng cản.",
+  "nghe": "Không D1 vẫn giảm, H4 đang hồi từ đáy, còn H1 răng co dưới vùng cản."
+ },
+ {
+  "id": "k_now3",
+  "khop": 0.909,
+  "kich_ban": "Các khung chưa đồng thuận. Hãy chờ tín hiệu xác nhận.",
+  "nghe": "Các không chưa đồng thuận, hãy chờ tín hiệu xác nhận."
+ },
+ {
+  "id": "k_c1x",
+  "khop": 0.833,
+  "kich_ban": "Năm nguyên tắc khi dùng khung thời gian. Một, bắt đầu từ khung lớn để biết xu hướng.",
+  "nghe": "5 nguyên tác khi dùng khung thời gian 1. Bắt đầu từ khung lớn để biết xu hướng"
+ },
+ {
+  "id": "k_c2",
+  "khop": 0.762,
+  "kich_ban": "Hai, dùng khung H bốn để tìm vùng giá quan trọng.",
+  "nghe": "2. Dùng khung H4 để tìm vùng giá quan trọng."
+ },
+ {
+  "id": "k_c3",
+  "khop": 0.828,
+  "kich_ban": "Ba, dùng khung H một để canh điểm vào, không dùng để đoán xu hướng.",
+  "nghe": "3. Dùng khung H1 để canh điểm vào, không dùng để đoán xu hướng."
+ },
+ {
+  "id": "k_c4",
+  "khop": 0.917,
+  "kich_ban": "Bốn, khung nhỏ đi ngược khung lớn thường chỉ là nhịp hồi.",
+  "nghe": "4. Khung nhỏ đi ngược khung lớn thường chỉ là nhịp hồi"
+ },
+ {
+  "id": "check_5",
+  "khop": 0.917,
+  "kich_ban": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.",
+  "nghe": "5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss"
+ },
+ {
+  "id": "k_c6",
+  "khop": 1.0,
+  "kich_ban": "Không có khung nào đúng nhất. Quan trọng là các khung đồng thuận với nhau.",
+  "nghe": "Không có khung nào đúng nhất, quan trọng là các khung đồng thuận với nhau."
+ },
+ {
+  "id": "k_outro",
+  "khop": 0.848,
+  "kich_ban": "Tập sau là hỗ trợ và kháng cự. Theo dõi Trader chín X để không bỏ lỡ.",
+  "nghe": "Tập sau là hỗ trợ và kháng cựu, theo dõi trader Chinix để không bỏ lỡ."
+ }
+]

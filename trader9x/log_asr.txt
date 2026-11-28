@@ -1,36 +1,40 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-✅ i_intro   0.95 | ICT Inner Circle Trader, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đô vàng.
+✅ k_intro   0.86 | không thời gian trong chatting bằng, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đồ.
 ✅ card1_1   1.00 | Phần một, định nghĩa.
-✅ i_p1_1    1.00 | ICT là viết tắt của Inner Circle Trader, phương pháp đọc giá do Michael Huddleston xây dựng và phổ biến.
-✅ i_p1_2    0.95 | ICT không dựa vào chỉ báo chễ, nó đọc thanh khoản và các vùng mất cân bằng giá ngay trên biểu đồ.
-✅ i_p1_3    1.00 | Cấu trúc thị trường cho biết hướng, còn thanh khoản là mục tiêu của giá.
-✅ i_p1_4    0.81 | Cú đẩy mạnh xác nhận ý đổ, còn FVJ và Order Block là vung vào lệnh.
+✅ k_p1_1    0.91 | Khung thời gian hay time frame là khoảng thời gian mà mỗi cây nến gói gọn bên trong.
+⚠️ k_p1_2    0.62 | Ngày 25 tháng 11 trên khung D1, chỉ là một cái nến spinning top, dâu dưới rất dài, đóng cửa gần giá mờ.
+⚠️ k_p1_3    0.73 | Tích da khung H4, ta có 6 cây nến mỗi cây 4 giờ, thấy rõ cú rơi rồi bật lên.
+⚠️ k_p1_4    0.51 | xuống 0H1 là 24 cây nến, thấy từng nhịp với đáy 3.426 lúc 22 giờ.
 ✅ card2n    0.82 | Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng
-✅ i_t1      0.95 | Thứ nhất là Thanh Khoảng, đó là nơi lệnh dừng lỗ tụ lại, phía trên đỉnh cũ và phía dưới đáy cũ.
-⚠️ i_liq     0.62 | Ngày 30 tháng 10, vàng lập đáy 3.871, bên dưới đáy này là thanh khoản biến bán.
-✅ i_t2      1.00 | Thứ hai là quét thanh khoản, giá thủng nhanh đỉnh hoặc đáy cũ để kích hoạt lệnh dừng lỗ, rồi quay đầu ngay.
-⚠️ i_sw      0.68 | Ngày 2 tháng 11, giá thủng đáy cũ xuống 3.866 quét sạch thanh khoản rồi bật lên ngay.
-✅ i_t3      0.96 | Thứ 3 là Order Block, cây nến ngược chiều cuối cùng trước một cú đẩy mạnh. Đây là vùng giá có lệnh lớn.
-✅ i_ob      0.87 | Ngày 3 tháng 11, cây nến ngày giảm cuối cùng trước cú bứt phá chính là order block tăng.
-✅ i_t4      0.95 | Thứ tư là Market Structure Shift, khi ra đóng cửa vượt đỉnh hoặc đáy quan trọng gần nhất, cấu trúc đổi chiều.
-⚠️ i_mss     0.60 | Ngày 4 tháng 11, nền H4 đóng cửa trên 3970 vượt đỉnh cũ, cấu trúc chuyển sang tăng.
-✅ i_t5      0.87 | Thứ 5 là Fair Value Cap, khoảng trống giữa 3 cây nến khi giá chạy quá nhanh, giá hay quay lại vùng này.
-⚠️ i_fvg1    0.43 | Cố đẩy ngày 4 và 5 tháng 11 để lại khoảng trống từ 3.969 đến 4.057.
-⚠️ i_fvg2    0.44 | Ngày 6 tháng 11, giá hôi vào vùng này chạm 4.028 rồi bật lên 4.138.
-⚠️ i_entry   0.73 | Ví dụ, vào lệnh khi giá phản ứng trong vùng FVG quanh 4.063.
-⚠️ b_r2b     0.58 | đặt cắt lỗ dưới đấy gần nhất, khoảng 4.020.
-⚠️ i_rev1    0.59 | Chiều ngược lại, ngày 10 tháng 11, giá vượt định cũ lên 4.149, quét thành khoản bên mua.
-⚠️ i_rev2    0.48 | Sau đó nên H4 đóng dưới đáy 4028, cầu chúc chuyển sang giảm.
-⚠️ i_rev2b   0.40 | Ngày 12, Vàng rơi về 3.853
-⚠️ i_rev3    0.76 | Cú rơi để lại một phe value gấp giảm. Ngày 13, giá hủy lên chặm mép vùng này rồi bị đẩy xuống.
-⚠️ now1      0.55 | Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô.
-✅ i_now1b   1.00 | Giá đang nằm dưới vùng FVG giảm nên cấu trúc vẫn nghiêng về giảm.
-⚠️ i_now2    0.67 | Bên dưới là các đáy cũ quanh 3853 đến 3866 vùng thanh khoản mà ICT Trader theo dõi.
-✅ p3c_4     1.00 | Hãy chờ tín hiệu xác nhận, đừng đoán đáy!
-✅ i_c1      1.00 | Năm nguyên tắc khi dùng ICT. Một, xác định hướng từ cấu trúc khung lớn trước.
-✅ i_c2      0.91 | 2. Chờ giá quét thanh khoản rồi mới tìm điểm vào
-⚠️ i_c3      0.77 | 3. Cân Market Structure Shift và một cú đầy mạnh để xác nhận
-✅ i_c4      0.85 | 4. Vào lệnh ở vùng FVJ hoặc Order Block, không đuổi theo giá.
+⚠️ k_t1      0.52 | Thứ nhất là khung H1 mỗi nén là 1 giờ, 24 nén 1 ngày.
+✅ k_t1b     1.00 | khung này chi tiết nhất nhưng cũng nhiễu nhất.
+⚠️ k_h1a     0.35 | ngày 27 tháng 11 trên H1 vàng bật từ 3556 lên 3685.
+✅ k_h1a2    0.90 | Cú tăng đó chỉ diễn ra trong khoảng 8 giờ.
+✅ k_h1b     0.92 | Khung H1 hợp để canh điểm vào cho chính xác, nhưng dễ gặp tín hiệu giả vì nhiều nhiễu.
+⚠️ k_t2      0.76 | Thứ hai là khung H4, mỗi nến là 4 giờ, 6 nến một ngày.
+⚠️ k_t2b     0.75 | Đây là không cân bằng giữa chi tiết và bữ trong chung.
+⚠️ k_h4a     0.43 | trên H4 ngày 20 tháng 11 vàng xuống đáy 3504.
+⚠️ k_h4a2    0.55 | Ngày 25, giá thủng xuống 3.426, rồi bật lên mạnh.
+✅ k_h4b     0.90 | khung H4 dùng để xác định vùng giá quan trọng và cấu trúc ngắn hạn.
+✅ k_t3      0.84 | Thứ 3 là khung D1, mỗi nến là 1 ngày. Khung này cho thấy xu hướng chính và các vùng giá lớn.
+⚠️ k_d1a     0.31 | trên D1, cắt đỉnh thấp dần từ 4.217 xuống 4.149 rồi 3.689.
+✅ k_d1a2    1.00 | Xu hướng chính là giảm.
+✅ k_d1b     0.88 | không đem một trả lời câu hỏi quan trọng nhất, thị trường đang đi về hướng nào.
+✅ k_t4      0.95 | Thứ tư là sung đột khung. Khi khung nhỏ đi ngược khung lớn, đó thường chỉ là nhịp hồi.
+⚠️ k_c1      0.71 | Ngày 27, khung H1 tăng mạnh, nhưng trên D1, đó chỉ là một nhịp hôi trong xu hướng giảm.
+⚠️ k_t5      0.71 | Thứ 5 là phân tích đa khung, đi từ khung lớn xuống khung nhỏ, theo thứ tự đề 1, hát 4, rồi hát 1.
+⚠️ k_td1     0.71 | Bước 1 trên D1, xu hướng chính đàng giản, đỉnh sau thấp hơn đỉnh trước.
+⚠️ k_td2     0.49 | Bước 2 trên H4, vùng cản từ 3681 đến 3689, nơi có các định gần đây.
+⚠️ k_td3     0.53 | Bước 3, trên H1, ngày 27, giá trạm vùng cản, rồi bị đẩy xuống 3617.
+⚠️ k_td4     0.67 | Ví dụ minh họa vào lệnh khi hát một xác nhận, quanh 3.646.
+⚠️ k_td4b    0.61 | đặt cắt lỗ trên vùng cản khoảng 3.695.
+⚠️ k_now1    0.53 | Hiện tại phiên ngày 27 tháng 11 đóng cửa quanh 3.654 đô.
+⚠️ k_now2    0.63 | Không D1 vẫn giảm, H4 đang hồi từ đáy, còn H1 răng co dưới vùng cản.
+✅ k_now3    0.91 | Các không chưa đồng thuận, hãy chờ tín hiệu xác nhận.
+✅ k_c1x     0.83 | 5 nguyên tác khi dùng khung thời gian 1. Bắt đầu từ khung lớn để biết xu hướng
+⚠️ k_c2      0.76 | 2. Dùng khung H4 để tìm vùng giá quan trọng.
+✅ k_c3      0.83 | 3. Dùng khung H1 để canh điểm vào, không dùng để đoán xu hướng.
+✅ k_c4      0.92 | 4. Khung nhỏ đi ngược khung lớn thường chỉ là nhịp hồi
 ✅ check_5   0.92 | 5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss
-✅ i_c6      1.00 | ICT là cách đọc giá, không phải công thức chắc thắng. Hãy kiểm tra lại trên dữ liệu quá khứ trước khi dùng tiền thật.
-✅ b_outro   0.86 | Tập sau là EMA Cross, giao cắt đường trung bình, theo dõi Treader Chinix để không bỏ lỡ.
+✅ k_c6      1.00 | Không có khung nào đúng nhất, quan trọng là các khung đồng thuận với nhau.
+✅ k_outro   0.85 | Tập sau là hỗ trợ và kháng cựu, theo dõi trader Chinix để không bỏ lỡ.

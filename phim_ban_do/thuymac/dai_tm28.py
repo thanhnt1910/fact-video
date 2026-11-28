@@ -427,24 +427,48 @@ def chuyen(cv,t,t0,dur=.7):
 GOLD=np.array((.79,.64,.35),np.float32)
 # ================= CẢNH =================
 # 1: hơn một trăm chiến thuyền, một chiếc sơn xanh
+# ---- "nói đến đâu vẽ đến đấy" (thử 28/11, bật bằng biến VE_DAN=1): nét mực hiện trước, màu loang theo sau, quét từ trái sang phải
+VD=bool(os.environ.get('VE_DAN'))
+import cv2 as _cv2
+def hien(cv,t,t0,dur,fn,huong=1):
+    if not VD or FREEZE: fn();return
+    u=(t-t0)/dur
+    if u<=0: return
+    if u>=1.0: fn();return
+    base=cv.copy();fn()
+    al=(np.abs(cv-base).sum(-1)>.03)
+    if not al.any(): return
+    xs=np.where(al.any(0))[0];x0,x1=int(xs[0]),int(xs[-1])+1
+    X=(_XX-x0)/max(x1-x0,1)
+    if huong<0: X=1-X
+    X=X+(_RG-.5)*.10+(nz()-.5)*.12
+    fill=np.clip((u*1.45-.30-X)/.15,0,1)
+    line=np.clip((u*1.45+.10-X)/.10,0,1)
+    lum=cv.mean(-1)
+    a8=al.astype(np.uint8)
+    edge=_cv2.morphologyEx(a8,_cv2.MORPH_GRADIENT,np.ones((5,5),np.uint8))>0
+    ink=((lum<.5)&al)|edge
+    m=fill+(1-fill)*line*ink
+    cv[...]=base+(cv-base)*m[...,None]
 def S_1(cv,t):
     a,b=0,E[1]+.3
     c=kc(t,[(a,(960,560,1.25)),(b,(1000,600,1.05))])
-    nen(cv,c,t,'song',seed=1,mist=.55);song_toi(cv,c,620,t)
+    hien(cv,t,a,1.6,lambda:(nen(cv,c,t,'song',seed=1,mist=.55),song_toi(cv,c,620,t)))
     for i in range(14):
         x=-100+(i%7)*330+((i*53)%90);y=600+(i//7)*70+((i*37)%30)
-        tthuyen(cv,c,x+30*(t-a),y,t,.22+.05*(i//7),True,False,[],ph=i,o=.55+.2*(i//7))
-    tthuyen(cv,c,1000+30*(t-a),760,t,.42,True,False,[('cbn',-230,'dung')],name='t28n_thuyenxanh',ph=3)
+        hien(cv,t,.9+i*.16,.9,lambda x=x,y=y,i=i:tthuyen(cv,c,x+30*(t-a),y,t,.22+.05*(i//7),True,False,[],ph=i,o=.55+.2*(i//7)))
+    g=mid(1,.62)
+    hien(cv,t,g,1.8,lambda:tthuyen(cv,c,1000+30*(t-a),760,t,.42,True,False,[('cbn',-230,'dung')],name='t28n_thuyenxanh',ph=3))
     suong(cv,c,t,640,.4,1)
-    nhan(cv,'một chiếc thuyền sơn xanh',960,160,t,a+.8,b,RED,46)
+    nhan(cv,'một chiếc thuyền sơn xanh',960,160,t,g,b,RED,46)
 # 2: người hầu chạy sang, chỉ tay
 def S_2(cv,t):
     a,b=T[2]-.3,E[2]+.3;q=sb(2,1)
     c=kc(t,[(a,(900,580,1.0)),(q,(1000,600,1.15)),(b,(1100,600,1.2))])
-    nen(cv,c,t,'song',seed=2,mist=.4);song_toi(cv,c,640,t)
-    tthuyen(cv,c,1550,700,t,.3,True,False,[],name='t28n_thuyenxanh')
-    for i in range(3): tthuyen(cv,c,1250+i*250,650+i*12,t,.2,True,False,[],ph=i,o=.6)
-    for i in range(4): ngd(cv,c,VA[i],300+i*120,900+(i%2)*12,t,.56,rig.dung(t+i)|({'mat':'S'} if t>q else {}),vk='giao')
+    hien(cv,t,a,1.0,lambda:(nen(cv,c,t,'song',seed=2,mist=.4),song_toi(cv,c,640,t)))
+    for i in range(3): hien(cv,t,a+.6+i*.2,.8,lambda i=i:tthuyen(cv,c,1250+i*250,650+i*12,t,.2,True,False,[],ph=i,o=.6))
+    hien(cv,t,a+.9,1.2,lambda:tthuyen(cv,c,1550,700,t,.3,True,False,[],name='t28n_thuyenxanh'))
+    for i in range(4): hien(cv,t,a+.5+i*.25,.8,lambda i=i:ngd(cv,c,VA[i],300+i*120,900+(i%2)*12,t,.56,rig.dung(t+i)|({'mat':'S'} if t>q else {}),vk='giao'))
     x=chay(cv,c,'blk',-150,800,920,t,a,q-.2,.56,lambda ph,tt:rig.hoang(ph,tt,1.1))
     if t>q-.2:
         P=rig.dung(t);P.update(arF=-92+3*math.sin(t*5),faF=-2,lean=6,mat='S');ngd(cv,c,'blk',800,920,t,.56,P)
@@ -453,18 +477,20 @@ def S_2(cv,t):
 def S_3(cv,t):
     a,b=T[3]-.3,E[3]+.3;q=sb(3,1)
     c=kc(t,[(a,(1000,560,1.35)),(q,(960,560,1.15)),(b,(900,560,1.0))])
-    nen(cv,c,t,'song',seed=3,mist=.4);song_toi(cv,c,620,t)
-    for i in range(4): tthuyen(cv,c,200+i*420,690+(i%2)*20,t,.3,True,False,[(CA[i%3],-120,'giao'),(CA[(i+1)%3],60,'giao')],ph=i,o=.75)
-    tthuyen(cv,c,1050,860,t,.62,True,False,[('c1',-320,'giao'),('cbn',-230,'dung'),('c2',220,'giao')],name='t28n_thuyenxanh')
+    hien(cv,t,a,.9,lambda:(nen(cv,c,t,'song',seed=3,mist=.4),song_toi(cv,c,620,t)))
+    for i in range(4): hien(cv,t,a+.7+i*.35,.9,lambda i=i:tthuyen(cv,c,200+i*420,690+(i%2)*20,t,.3,True,False,[(CA[i%3],-120,'giao'),(CA[(i+1)%3],60,'giao')],ph=i,o=.75))
+    hien(cv,t,a+.4,2.0,lambda:tthuyen(cv,c,1050,860,t,.62,True,False,[('c1',-320,'giao'),('cbn',-230,'dung'),('c2',220,'giao')],name='t28n_thuyenxanh'))
     nhan(cv,'Chế Bồng Nga · vua nước Chiêm Thành',960,150,t,a+.4,q,INK,40)
     nhan(cv,'nhiều lần đánh vào tận Thăng Long',960,150,t,q+.2,b,RED,40)
 # 4: câu hỏi
 def S_4(cv,t):
     a,b=T[4]-.3,E[4]+.6
     c=kc(t,[(a,(900,600,1.6)),(b,(960,600,1.75))])
-    nen(cv,c,t,'song',seed=4,mist=.6);song_toi(cv,c,640,t)
-    tthuyen(cv,c,1400,720,t,.35,True,False,[],name='t28n_thuyenxanh')
-    P=rig.dung(t);P.update(arF=-92,faF=-2,lean=6,mat='S');ngd(cv,c,'blk',700,930,t,.7,P)
+    hien(cv,t,a,.9,lambda:(nen(cv,c,t,'song',seed=4,mist=.6),song_toi(cv,c,640,t)))
+    hien(cv,t,a+.5,1.2,lambda:tthuyen(cv,c,1400,720,t,.35,True,False,[],name='t28n_thuyenxanh'))
+    def _nh():
+        P=rig.dung(t);P.update(arF=-92,faF=-2,lean=6,mat='S');ngd(cv,c,'blk',700,930,t,.7,P)
+    hien(cv,t,mid(4,.1),1.4,_nh)
     nhan(cv,'người hầu ấy là ai?',960,250,t,a+.3,b,RED,52)
 # 5: bản đồ: Đại Việt và Chiêm Thành
 def S_5(cv,t):

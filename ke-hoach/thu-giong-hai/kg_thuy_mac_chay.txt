@@ -1,1 +1,1 @@
-lan9 NBTM28X
+lan10 NBTM28Y

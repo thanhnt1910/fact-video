@@ -38,17 +38,15 @@ jobs:
         run: |
           cd /tmp/gen/bd && python amthanh_$M.py
           N=720; H=360
-          python dai_$M.py render /tmp/out/c1.mp4 0 $H 24 > /tmp/out/c1.log 2>&1 &
-          python dai_$M.py render /tmp/out/c2.mp4 $H $N 24 > /tmp/out/c2.log 2>&1 &
-          VE_DAN=1 python dai_$M.py render /tmp/out/m1.mp4 0 $H 24 > /tmp/out/m1.log 2>&1 &
-          VE_DAN=1 python dai_$M.py render /tmp/out/m2.mp4 $H $N 24 > /tmp/out/m2.log 2>&1 &
+          SIL=1 VE_DAN=1 python dai_$M.py render /tmp/out/s1.mp4 0 $H 24 > /tmp/out/s1.log 2>&1 &
+          SIL=1 VE_DAN=1 python dai_$M.py render /tmp/out/s2.mp4 $H $N 24 > /tmp/out/s2.log 2>&1 &
           wait; tail -n 3 /tmp/out/*.log
-          for k in c m; do printf "file '/tmp/out/${k}1.mp4'\nfile '/tmp/out/${k}2.mp4'\n" > /tmp/out/l$k.txt
-            ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/out/l$k.txt -i /dev/shm/am_$M.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 160k -t 30 /tmp/out/${M}_vedan_$k.mp4; done
+          printf "file '/tmp/out/s1.mp4'\nfile '/tmp/out/s2.mp4'\n" > /tmp/out/ls.txt
+          ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/out/ls.txt -i /dev/shm/am_$M.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 160k -t 30 /tmp/out/${M}_vedan_s.mp4
           ls -la /tmp/out/*_vedan_*.mp4
       - name: Đẩy lên nhánh thu-ve-dan
         run: |
-          mkdir /tmp/v && cd /tmp/v && cp /tmp/out/${M}_vedan_*.mp4 . && cp /tmp/out/*.log . && ls -la
+          mkdir /tmp/v && cd /tmp/v && cp /tmp/out/${M}_vedan_s.mp4 . && cp /tmp/out/*.log . && ls -la
           git init -q && git checkout -q -b thu-ve-dan && git add .
           git -c user.name=fact-video-bot -c user.email=actions@users.noreply.github.com commit -q -m "Thử vẽ dần $M"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" thu-ve-dan

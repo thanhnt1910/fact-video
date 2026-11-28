@@ -5,9 +5,21 @@ D='/tmp/gen/bd/a/'
 INK=np.float32([21,19,15])/255;PAPER=np.float32([236,226,203])/255;RED=np.float32([163,38,28])/255
 SC={'paper_h':1,'paper_v':1,'mist':1,'blot':1}
 _A={}
+SIL=bool(os.environ.get('SIL'))   # chế độ bóng mực: người và thuyền thành bóng đen vẽ bằng cọ, không rõ mặt (thử 28/11)
+def _bong(name,a):
+    import re,zlib
+    if not (re.match(r't\d+n_r_',name) or ('thuyen' in name and 'xanh' not in name)): return a
+    rg=np.random.default_rng(zlib.crc32(name.encode())%99991);h,w=a.shape[:2]
+    nz=cv2.resize(rg.random((max(2,h//9),max(2,w//9))).astype(np.float32),(w,h),interpolation=cv2.INTER_CUBIC)
+    al=cv2.GaussianBlur(a[...,3],(0,0),1.6)
+    al=np.clip((al-(.30+.30*nz))/.22,0,1)*(1 if name.startswith('t') and 'thuyen' not in name else .96)
+    tone=(.055+.10*cv2.resize(rg.random((max(2,h//40),max(2,w//40))).astype(np.float32),(w,h),interpolation=cv2.INTER_CUBIC))
+    out=np.zeros_like(a);out[...,:3]=tone[...,None]*(1.0,1.0,.95);out[...,3]=al
+    return out
 def A(name):
     if name not in _A:
         a=np.asarray(Image.open(D+name+'.png').convert('RGBA'),np.float32)/255
+        if SIL: a=_bong(name,a)
         a[...,:3]*=a[...,3:4];_A[name]=a
     return _A[name]
 import re as _re

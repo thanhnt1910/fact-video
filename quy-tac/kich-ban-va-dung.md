@@ -40,12 +40,25 @@ Chưa qua cổng B thì không viết lời kể.
 | 130–150 | Con dấu mức độ chắc chắn và câu hỏi cuối | khoảng 60 |
 Điểm lật không muộn hơn khoảng 55% thời lượng.
 
+### Biến thể 60–90 giây cho hồ sơ nhân vật (28/11/2026, chủ kênh yêu cầu)
+Khoảng 180 đến 270 chữ, tốc độ khoảng 3 chữ mỗi giây.
+| Giây (video 75 giây) | Việc | Chữ |
+|---|---|---|
+| 0–5 | Hook: nghịch lý, câu hỏi, chi tiết lạ. Không giới thiệu kiểu tiểu sử | khoảng 12 |
+| 5–20 | Bối cảnh vừa đủ hiểu | khoảng 40 |
+| 20–40 | Xung đột, lựa chọn, bước ngoặt | khoảng 60 |
+| 35–45 | Điểm lật (hé lộ) | khoảng 35 |
+| 45–65 | Mổ xẻ: nguồn, các cách giải thích, chỗ chắc và chưa chắc | khoảng 55 |
+| 65–75 | Con dấu mức độ chắc chắn và câu hỏi ngã rẽ | khoảng 30 |
+Phần 20–45 chồng lên nhau: điểm lật nằm cuối phần xung đột, không tách riêng sau đó.
+
 ## 4. Quy tắc câu chữ cho giọng đọc
 - Một ý một câu. Câu trung bình khoảng 18 chữ, xen câu rất ngắn (4–6 chữ) sau thông tin nặng.
 - Tối đa hai con số mỗi đoạn. Tối đa bốn tên riêng lạ trong 25 giây đầu. Một mốc năm trong 25 giây đầu.
 - Nối đoạn bằng quan hệ nhân quả (nhưng, vì vậy, thế mà), không bằng "bên cạnh đó".
 - Số và năm viết bằng chữ. Không dùng dấu hai chấm, ngoặc kép, ngoặc đơn, gạch ngang trong lời đọc.
 - Tên nước ngoài ghi phiên âm trong từ điển phát âm (`tu_dien_phat_am.json`) và kiểm bằng nhận dạng giọng trước khi gửi duyệt.
+- Động cơ của nhân vật chỉ được nêu khi sử chép hoặc một nhà nghiên cứu có tên nói ("theo X"); không thì nói thẳng sử không cho biết lý do.
 - Dùng cảnh cụ thể thay cho tóm tắt. Chi tiết giác quan chỉ lấy từ nguồn, không bịa.
 - Câu nào phải đọc hai lần thì viết lại.
 
@@ -106,6 +119,7 @@ Giới hạn: cảnh xuyên không chỉ dựng lại điều nguồn chép và 
 - Mỗi tập có nguồn ở mô tả hoặc bình luận ghim. Chủ đề còn tranh luận ghi rõ thời điểm kiểm.
 
 ## 11. Còn chờ chủ kênh chốt (đề xuất mặc định)
+0. Hướng nhân vật lịch sử (28/11/2026): đề tài Việt Nam đã được phép; hai tập Lý Thường Kiệt đã qua cổng B chờ duyệt (`ho-so/cong-b-ly-thuong-kiet.md`); danh sách chủ đề cổng A mới ở `ho-so/cong-a-nhan-vat-chu-de.md` nếu có.
 1. Độ dài: đề xuất mới 90–120 giây khung ngang, cắt thêm bản 60 giây từ cùng kịch bản để so số liệu.
 2. Nền tảng chính: chưa rõ. Cần chốt để chọn khung hình ngang hay dọc.
 3. Phong cách hình: đề xuất mới kiểu lai (nhân vật dẫn chuyện cộng ảnh tư liệu thật), thay cho thủy mặc. Chờ chủ kênh duyệt.

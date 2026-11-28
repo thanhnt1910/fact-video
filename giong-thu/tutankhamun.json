@@ -1,0 +1,38 @@
+{
+ "ghi_chu": "Đoạn mẫu 3 đoạn liền (câu hỏi kiểm tra, cách kiểm, điểm lật) lấy từ kịch bản ngang đã duyệt, để chọn giọng. Phiên âm trong pron chỉ dùng cho mẫu này, chưa đưa vào tu_dien_phat_am.json.",
+ "doan": [
+  "Vậy người bước vào mộ có chết sớm hơn người khác không? Năm hai nghìn không trăm lẻ hai, nhà dịch tễ học Mark Nelson đi kiểm tra.",
+  "Ông dùng nhật ký của Carter để lập danh sách người phương Tây ở Ai Cập thời đó. Hai mươi lăm người đã vào khu mộ kín. Số còn lại thì không.",
+  "Kết quả làm nhiều người bất ngờ. Người vào mộ chết ở tuổi trung bình khoảng bảy mươi, người không vào khoảng bảy mươi lăm, và khác biệt này không đáng kể về mặt thống kê."
+ ],
+ "pron": {
+  "Mark Nelson": "Mác Nen-sơn",
+  "Carter": "Các-tơ"
+ },
+ "gemini": [
+  "Sulafat",
+  "Aoede",
+  "Despina",
+  "Leda",
+  "Kore",
+  "Achernar",
+  "Charon",
+  "Sadaltager",
+  "Puck",
+  "Orus"
+ ],
+ "vieneu": [
+  "Hải Đăng",
+  "Thiện Minh",
+  "Thiền Tâm Đức",
+  "Thanh Bình",
+  "Quang Sơn",
+  "Quốc Tuấn",
+  "Minh Đức",
+  "Phạm Tuyên",
+  "Xuân Vĩnh",
+  "Thái Sơn",
+  "Ngọc Linh",
+  "Mỹ Duyên"
+ ]
+}

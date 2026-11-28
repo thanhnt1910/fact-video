@@ -1,0 +1,68 @@
+name: Thử giọng Tutankhamun
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/bi-an-lich-su]
+    paths: [giong-thu/chay.txt]
+permissions:
+  contents: write
+jobs:
+  gemini:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "numpy"
+      - name: Đọc thử các giọng Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+        run: |
+          mkdir -p logs output
+          set -o pipefail
+          python thu_giong_tut_gemini.py 2>&1 | tee logs/gemini_tut.txt
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add -f giong-thu logs/gemini_tut.txt 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"; git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử giọng Gemini Tutankhamun [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null || true; sleep 6; done
+  vieneu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "vieneu numpy"
+      - run: python thu_giong_tut_vieneu.py
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add -f giong-thu logs/vieneu_tut.txt 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"; git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử giọng VieNeu Tutankhamun [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null || true; sleep 6; done

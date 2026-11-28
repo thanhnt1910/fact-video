@@ -1,11 +1,6 @@
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/kaggle_thuy_mac.py", line 9, in <module>
-    for it in json.loads(Path(f"ke-hoach/nhan-vat/{m}_anh.json").read_text(encoding="utf-8")):
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/pathlib.py", line 1027, in read_text
-    with self.open(mode='r', encoding=encoding, errors=errors) as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/pathlib.py", line 1013, in open
-    return io.open(self, mode, buffering, encoding, errors, newline)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'ke-hoach/nhan-vat/lan9_anh.json'
+     🖥️  Gửi 4 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .running
+     🖥️   5.6 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (6 phút)
+     🖥️  Nhận về 4/4 tranh từ Kaggle
+4/4

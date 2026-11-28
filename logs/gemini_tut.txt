@@ -1,0 +1,28 @@
+TEXT: Vậy người bước vào mộ có chết sớm hơn người khác không? Năm hai nghìn không trăm lẻ hai, nhà dịch tễ học Mác Nen-sơn đi kiểm tra.
+
+Ông dùng nhật ký của Các-tơ để lập danh sách người phương Tây ở Ai Cập thời đó. Hai mươi lăm người đã vào khu mộ kín. Số còn lại thì không.
+
+Kết quả làm nhiều người bất ngờ. Người vào mộ chết ở tuổi trung bình khoảng bảy mươi, người không vào khoảng bảy mươi lăm, và khác biệt này không đáng kể về mặt thống kê.
+== Sulafat ==
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Sulafat
+== Aoede ==
+OK Aoede
+== Despina ==
+OK Despina
+== Leda ==
+OK Leda
+== Kore ==
+OK Kore
+== Achernar ==
+OK Achernar
+== Charon ==
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 20s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK Charon
+== Sadaltager ==
+OK Sadaltager
+== Puck ==
+OK Puck
+== Orus ==
+OK Orus

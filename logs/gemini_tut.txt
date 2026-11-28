@@ -3,24 +3,16 @@ TEXT: Vậy người bước vào mộ có chết sớm hơn người khác khô
 Ông dùng nhật ký của Các-tơ để lập danh sách người phương Tây ở Ai Cập thời đó. Hai mươi lăm người đã vào khu mộ kín. Số còn lại thì không.
 
 Kết quả làm nhiều người bất ngờ. Người vào mộ chết ở tuổi trung bình khoảng bảy mươi, người không vào khoảng bảy mươi lăm, và khác biệt này không đáng kể về mặt thống kê.
-== Fenrir ==
+== Algenib ==
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 5h12m41s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 5h12m40s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Fenrir
+OK Algenib
 == Algenib ==
 OK Algenib
-== Alnilam ==
-OK Alnilam
-== Gacrux ==
-OK Gacrux
-== Rasalgethi ==
-OK Rasalgethi
-== Algieba ==
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 5h34m56s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-OK Algieba
-== Enceladus ==
-OK Enceladus
-== Charon ==
-OK Charon
-== Orus ==
-OK Orus
+== Algenib ==
+OK Algenib
+== Algenib ==
+OK Algenib
